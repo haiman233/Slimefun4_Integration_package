@@ -1,0 +1,69 @@
+[19:57:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:57:17] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:57:17] [ServerMain/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
+[19:57:19] [ServerMain/INFO]: Loaded 7 recipes
+[19:57:19] [Server thread/INFO]: Starting minecraft server version 1.20
+[19:57:19] [Server thread/WARN]: ****************************
+[19:57:19] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[19:57:19] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[19:57:19] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[19:57:19] [Server thread/WARN]: ****************************
+[19:57:19] [Server thread/INFO]: Loading properties
+[19:57:19] [Server thread/INFO]: This server is running Purpur version git-Purpur-1990 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: 788c14f on HEAD)
+[19:57:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:57:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:57:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[19:57:20] [Server thread/INFO]: Default game type: SURVIVAL
+[19:57:20] [Server thread/INFO]: Generating keypair
+[19:57:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:57:20] [Server thread/INFO]: Using default channel type
+[19:57:20] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:57:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:57:22] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.99
+[19:57:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:57:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:57:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:57:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:57:22] [Server thread/INFO]: Preparing level "world"
+[19:57:22] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
+[19:57:29] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
+[19:57:30] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
+[19:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:57:31] [Server thread/INFO]: Time elapsed: 108 ms
+[19:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:57:31] [Server thread/INFO]: Time elapsed: 90 ms
+[19:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:57:31] [Server thread/INFO]: Time elapsed: 92 ms
+[19:57:31] [Server thread/INFO]: [spark] Enabling spark v1.10.99
+[19:57:32] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[19:57:32] [Server thread/INFO]: [spark] Starting background profiler...
+[19:57:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[19:57:32] [Server thread/INFO]: Running delayed init tasks
+[19:57:32] [Server thread/INFO]: Done (12.980s)! For help, type "help"
+[19:57:42] [Server thread/INFO]: Stopping the server
+[19:57:42] [Server thread/INFO]: Stopping server
+[19:57:42] [Server thread/INFO]: [spark] Disabling spark v1.10.99
+[19:57:42] [Server thread/INFO]: Saving players
+[19:57:42] [Server thread/INFO]: Saving worlds
+[19:57:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:57:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:57:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:57:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Saved 1581 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 1.48s
+[19:57:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:57:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Saved 1681 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.99s
+[19:57:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:57:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:57:46] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.74s
+[19:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:57:46] [Server thread/INFO]: Flushing Chunk IO
+[19:57:46] [Server thread/INFO]: Closing Thread Pool
+[19:57:46] [Server thread/INFO]: Closing Server
