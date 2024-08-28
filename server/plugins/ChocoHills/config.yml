@@ -1,0 +1,15 @@
+auto-update: true
+debug: false
+
+advanced-anvil-max-levels:
+  sharpness: 9
+  bane-of-arthropods: 9
+  smite: 9
+  protection: 10
+  fortune: 6
+  efficiency: 7
+  fire-aspect: 6
+  power: 7
+  thorns: 13
+  looting: 6
+  unbreaking: 13

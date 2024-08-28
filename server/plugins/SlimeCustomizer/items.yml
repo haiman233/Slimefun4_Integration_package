@@ -1,0 +1,1463 @@
+BOCCHI_VERSION_NUMBER:
+  category: bocchi_xx
+  item-type: CUSTOM
+  item-name: "&7版本"
+  item-lore:
+    - "&8当前版本为"
+    - "&oBETA1.1"
+    - "作者:yigexu(QQ:109486863)有意见加qq提出"
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+BOCCHI_BQC:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇尘"
+  item-lore:
+    - "&7社恐的力量再次增加"
+    - "&7这难道是极限吗"
+  item-id: SKULL96853ec1c40c926e4a7b5ed5a9dd2c0f690bc5830216cb182f5d9185c3aa22e8
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+BOCCHI_BQDA:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇锭"
+  item-lore:
+    - "&7社恐的力量掌握在你手中...."
+  item-id: SKULL87e3c1286495c6839244d6f3d229dc469a0a4134d31f0d2da783372dc10bdea6
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+BOCCHI_BQSPHX:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(level:0)"
+  item-lore:
+    - "&7以超临界流体形式存在"
+    - "&7似乎并不完美"
+  item-id: SKULL4c07d49f2852125ff1cc4c11f641792d9550c47d157632c38782d9a6ade49b4c
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BLISTERING_INGOT_3
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+BOCCHI_BQJT:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇晶体"
+  item-lore:
+    - "&7以晶体的形式掌握在手里"
+  item-id: LARGE_AMETHYST_BUD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    2:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    3:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    4:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    6:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    7:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    8:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+    9:
+      type: VANILLA
+      id: AMETHYST_SHARD
+      amount: 1
+BOCCHI_BQSPHXI:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(1)"
+  item-lore:
+    - "&7玻色-爱因斯坦凝聚态所存在"
+  item-id: SKULLa9ab6b093f9b468122feccd7d742ae14060b9d6b3f7f19272a9533ce0306479c
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: REINFORCED_HYDRO_GENERATOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: REINFORCED_HYDRO_GENERATOR
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_SOULBOUND
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: REINFORCED_HYDRO_GENERATOR
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: REINFORCED_HYDRO_GENERATOR
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+BOCCHI_BQSPHXII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(2)"
+  item-lore:
+    - "&7玻色-爱因斯坦凝聚态所存在"
+  item-id: SKULLbcd095c59ffa1e48c268ce4d6e37b8ce4d9a448862b3d76d83f5c6d8c3b6709c
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI 
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI 
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+BOCCHI_BQSPHXIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(3)"
+  item-lore:
+    - "&7玻色-爱因斯坦凝聚态所存在"
+  item-id: SKULLc16853957d8fe872af8c3fc768ce27fea6995252962cba4cb093baf4cd0a05a3
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+BOCCHI_BQSPHXIIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(4)"
+  item-lore:
+    - "&7这才刚刚开始..."
+  item-id: SKULLf3e71ad919523eace9cd62a25b18e4e17ab38d1256241f4262dfba7297c4d92
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+BOCCHI_BQSPHXIIIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(5)"
+  item-lore:
+    - "&7经过极致压缩变为费米子凝聚态"
+  item-id: SKULL58c206e29924b9916d4d24dfbbc38f28b44d6d3cfa23adec9ed3a8fce1b7b2
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+BOCCHI_BQSPHXIIIIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(6)"
+  item-lore:
+    - "&7以费米子凝聚态存在"
+  item-id: SKULL9c2e9d8395cacd9922869c15373cf7cb16da0a5ce5f3c632b19ceb3929c9a11
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+BOCCHI_BQSPHXIIIIIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(7)"
+  item-lore:
+    - "&7远远不止如此"
+  item-id: SKULL8f14f3179b86f69b3efa7472dacaeb2339f6290d2d817362793348abd98e021
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+BOCCHI_BQSPHXIIIIIIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(8)"
+  item-lore:
+    - "&7临界状态"
+  item-id: SKULL276bee1d96cdbc20c546b82e0e49faab7d4d93a829f425ed5deec871cd798
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+BOCCHI_BQSPHXIIIIIIIII:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇碎片核心(9)"
+  item-lore:
+    - "&7超离子态..."
+  item-id: SKULL92c2f6fa7ec530435c431572938b9feb959c42298e5554340263c65271
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+BOCCHI_BQZHENSHEN:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇真身"
+  item-lore:
+    - "&7造物主形态{error]"
+    - "恭喜你,成功站上起跑线"
+  item-id: SKULL76856a8f37b6c3146854f2caa7101b9dd592f4669a3c75f941e2859552bd1ae8
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+BOCCHI_BQWQJI:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑I"
+  item-lore:
+  - "&7初级的剑,似乎很脆弱"
+  item-id: BQJI
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: VANILLA
+      id: STICK
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+BOCCHI_BQWQJII:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑II"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJII
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJI
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJI
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJIII:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑III"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJIII
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJIV:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IVI"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJIV
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJV:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJV
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJIV
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJIV
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJVI:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJVI
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJV
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJV
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJVII:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJVII
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJVI
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJVI
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJVIII:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJVIII
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJVII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJVII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJIX:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJIX
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJVIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJVIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJX:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJX
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJIX
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJIX
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJXI:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJXI
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJX
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJX
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQWQJXII:
+  category: bocchi_wq
+  item-type: SAVEDITEM
+  item-name: "&b波奇剑IV"
+  item-lore:
+  - "&7JJJ"
+  item-id: BQJXII
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJXI
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    6:
+      type: SLIMEFUN 
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQWQJXI
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+BOCCHI_BQZHENSHENYASUOI:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇真身压缩I"
+  item-lore:
+    - "&c真正的旅途才刚刚开始..."
+  item-id: SKULL8a97cded47e9309763f722bdac1fbe7524df2a5eac525792d7e1430f244b659d
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+BOCCHI_JIQIHEXIN:
+  category: bocchi_ddjx
+  item-type: CUSTOM
+  item-name: "&b波奇机器核心I"
+  item-lore:
+    - "&c通常用于电动机与活塞等机械简单设备"
+  item-id: IRON_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    3:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    7:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    9:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+BOCCHI_JIQIHEXINII:
+  category: bocchi_ddjx
+  item-type: CUSTOM
+  item-name: "&b波奇机器核心II"
+  item-lore:
+    - "&c通常用于电动机与活塞等机械简单设备"
+  item-id: IRON_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    3:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    7:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    9:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+BOCCHI_HXDKHX:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇激光模组"
+  item-lore:
+    - "&7内置激光传感器"
+    - "&7用于集成电路的雕刻"
+  item-id: IRON_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1

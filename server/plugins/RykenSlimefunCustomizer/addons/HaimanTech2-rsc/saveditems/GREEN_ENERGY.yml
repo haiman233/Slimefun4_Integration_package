@@ -1,0 +1,20 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"italic":false,"color":"gold","text":"能源调节器"},{"bold":true,"italic":false,"color":"green","text":"  绿"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"能源网络的核心部分"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_REGULATOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 71e40888-fc1a-3244-a840-8f7fbe4c71db
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWViODhhMzZlMWIxMGI1MWY2ZDdmYzhiYzlkM2IyMTQ3MWQ2NGQ2ZTc1YWZmYjgwMjRjZjE1ODY0MmZjYjlkIn19fQ==

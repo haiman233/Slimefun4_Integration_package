@@ -1,0 +1,20 @@
+# 开启自动更新
+auto-update: false
+# 开启调试
+debug-messages: false
+# 生物生成
+spawning:
+  player-cap-water-ambient: 15
+  player-cap-water-animal: 5
+  player-cap-water-hostile: 10
+  player-cap-land-ambient: 5
+  player-cap-land-animal: 10
+  player-cap-land-hostile: 10
+  player-cap-villager: 5
+  player-cap-piglin-trader: 1
+  player-cap-wandering-trader: 1
+# 速率
+speed:
+  speed-multiplier-crux-spread: 1
+  speed-crystalline-crux-spread: 1
+  speed-plant-growth-rate: 1

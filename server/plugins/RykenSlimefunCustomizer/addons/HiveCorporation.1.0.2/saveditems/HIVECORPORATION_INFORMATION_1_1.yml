@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 05f41a82-df90-451f-a491-0f830a3779d2
+      name: LIGH_Y
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcxODk1NDU0MTQxMywKICAicHJvZmlsZUlkIiA6ICIwNWY0MWE4MmRmOTA0NTFmYTQ5MTBmODMwYTM3NzlkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMSUdIX1kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3NWExMTUxMWU0MGRhNGFiZjk3MzUxYTEyMWEyNjZkNGU2M2Q3MTY3NmYyZmY4YzkxNDBhMTZlYTBhNzdkNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        signature: eLYHgcSXfW6P5klkNTZXUvkehwgIiiyA5/XfFqb5e70q2wNzK8VWRtTW07ongk/Gw7g6HnnER0ERa7Y3xzZRjVGj+nJVGsy44ud4s1R85+4pfDJpRma1k6qiW9Ok2mdltYKT1iSrnNu5wWY2qUmM6eeAVdPQrVBzihfBztP8ero5B3K8ouZOISUqquPv4RIZZEECQE7CzgFh/O4kjaGOMkOPjzrZ6SQRXnGmT3Bp7fvW9Y7dD+plvEfnaJRc5FR6BxR83LS7Kf9aepkV0vIA41U98mq+nnJvj2/lKAtZPtgtLHkraaRrkw83qemnqTIsKe6+SIZEuOy2chyrafP7z0C2gpUVcv1/mIoqGip3waRLWQM1v2oCkSJEyRoC/BqYFU6O8sE79ULyVKgYb78bGBLsZlxJWVOg9k/6WfINORmKGgfH0/kwr+DvqzlV/sv35369rqmxeoaIfJNFHeSOCXSj/jslrocT/HXG/C9pSH/kP3qeH+GNEVYNze2Zwzup1nZk7eh09mYlsVaxNLqv5n6e7bRsQpiEGU6yP+TrRt7jVQCYvmRGVh5SyBUPWc7y5SolK38LAhzPPHrcODOsmiqx7InahVZ95dDWG2JtNMFP+zVZ1dQ37NspVwtyHgG7QgAJnc+zeXDtfNdGjIb7wEUQG7GBgfcoyGgS9CPJGwg=

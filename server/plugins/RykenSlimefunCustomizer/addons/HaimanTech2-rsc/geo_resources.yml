@@ -1,0 +1,30 @@
+HAIMAN_STAR_DUST:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&6&l海曼星尘'
+    lore:
+    - '&7旧世界留下的神秘尘埃'
+    material_type: skull_hash
+    material: 1cf677ca6209961e81beeb3aa274e0ec8d21d36778e5a94b80b1d8425b04ac6e
+  max_deviation: 1
+  geo_name: '&6&l海曼星尘'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+DERULE_BUG:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&4&l反规则bug'
+    lore:
+    - '&7违反逻辑的漏洞'
+    material_type: skull_hash
+    material: 4fc6fc2af2c411fa698840dc46311ff26e92153ae2f4f6187b765de2323be2c8
+  max_deviation: 1
+  geo_name: '&4&l反规则bug'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    nether: 1

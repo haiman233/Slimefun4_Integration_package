@@ -12,17 +12,7 @@
 
 settings:
   debug: false
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  bungeecord: false
-  save-user-cache-on-stop-only: false
-  sample-count: 12
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
-  player-shuffle: 0
   user-cache-size: 1000
-  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -30,21 +20,24 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  netty-threads: 4
+  player-shuffle: 0
+  bungeecord: false
+  save-user-cache-on-stop-only: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  sample-count: 12
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
   log-named-deaths: true
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
-messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
 commands:
-  silent-commandblock-console: false
+  log: true
   tab-complete: 0
   send-namespaced: true
   spam-exclusions:
@@ -54,24 +47,46 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
+  silent-commandblock-console: false
+messages:
+  restart: Server is restarting
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
 players:
   disable-saving: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
-    enable-zombie-pigmen-portal-spawns: true
-    zombie-aggressive-towards-villager: true
-    end-portal-sound-radius: 0
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    hopper-can-load-chunks: false
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
     wither-spawn-sound-radius: 0
+    end-portal-sound-radius: 0
     dragon-death-sound-radius: 0
     hanging-tick-frequency: 100
-    view-distance: default
-    simulation-distance: default
     item-despawn-rate: 6000
-    mob-spawn-range: 8
+    view-distance: default
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
+    mob-spawn-range: 8
+    thunder-chance: 100000
+    simulation-distance: default
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
@@ -96,33 +111,9 @@ world-settings:
       cavevines-modifier: 100
       glowberry-modifier: 100
       pitcherplant-modifier: 100
-    seed-village: 10387312
-    seed-desert: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-swamp: 14357620
-    seed-monument: 10387313
-    seed-shipwreck: 165745295
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-endcity: 10387313
-    seed-slime: 987234911
-    seed-nether: 30084232
-    seed-mansion: 10387319
-    seed-fossil: 14357921
-    seed-portal: 34222645
-    seed-ancientcity: 20083232
-    seed-buriedtreasure: 10387320
-    seed-mineshaft: default
-    seed-stronghold: default
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      display: 128
-      other: 64
-    thunder-chance: 100000
+    max-tick-time:
+      tile: 50
+      entity: 50
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -149,26 +140,36 @@ world-settings:
       villagers-active-for-panic: true
       tick-inactive-villagers: true
       ignore-spectators: false
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      display: 128
+      other: 64
     max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    hopper-can-load-chunks: false
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
+    seed-village: 10387312
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-monument: 10387313
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    seed-slime: 987234911
+    seed-nether: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
+    seed-stronghold: default
+    zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: true
     verbose: false
 config-version: 12
 stats:

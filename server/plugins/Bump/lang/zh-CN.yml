@@ -1,0 +1,384 @@
+categories:
+  main: '&bBump'
+  armor: '&bBump - 护甲'
+  food: '&bBump - 食物'
+  machine: '&bBump - 机器'
+  stuff: '&bBump - 魔法物品'
+  tool: '&bBump - 工具'
+  weapon: '&bBump - 魔法武器'
+  appraise_info: '&eBump - 鉴定类型信息'
+  wiki: '&eBump - Wiki'
+items:
+  random_helmet:
+    name: '&6随机头盔'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o我的运气怎么样...'
+    - '&b&k|&b- &e&o鉴定仪 &7&o随机给予此一个属性...'
+  random_horse_armor:
+    name: '&6随机马铠'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o我的运气怎么样...'
+    - '&b&k|&b- &e&o鉴定仪 &7&o随机给予此一个属性...'
+  xuebi:
+    name: '&6雪碧'
+    lore:
+    - ''
+    - '&b&k|&b- 很甜很甜，还冒着气泡！'
+    - ''
+  kele:
+    name: '&e可乐'
+    lore:
+    - ''
+    - '&b&k|&b- 冰力十足，喝了真精神，还会飞呢！'
+    - ''
+  fangbianmian:
+    name: '&e康师傅方便面'
+    lore:
+    - ''
+    - '&b&k|&b- 这个味，对辣！'
+    - ''
+  latiao:
+    name: '&e辣条'
+    lore:
+    - ''
+    - '&b&k|&b- 爽，吃了之后还不忘舔舔辣油...'
+    - ''
+  kouxiangtang:
+    name: '&e口香糖'
+    lore:
+    - ''
+    - '&b&k|&b- 很粘稠的...'
+    - ''
+  zongzi:
+    name: '&a粽子'
+    lore:
+    - ''
+    - '&b&k|&b- 端午节快乐!'
+    - ''
+  appraisal:
+    name: '&b鉴定仪'
+    lore:
+    - ''
+    - '&c&k|&7- 哦，你这是个残次品...'
+    - ''
+  attribute_grindstone:
+    name: '&b属性砂轮'
+    lore:
+    - ''
+    - '&c&k|&7- 它可以清除属性...'
+    - ''
+  sun_energy:
+    name: '&e光合能量'
+    lore:
+    - ''
+    - '&b&k|&b- 变异的植物也会进行光合作用...'
+    - ''
+  mecha_gear:
+    name: '&e机械齿轮'
+    lore:
+    - ''
+    - '&b&k|&b- 某大型工厂淘汰下来的东西...'
+    - ''
+  old_coin:
+    name: '&e破损的的金币'
+    lore:
+    - ''
+    - '&b&k|&b- 这东西能买什么...'
+    - ''
+  make:
+    name: '&e计算机工艺核心'
+    lore:
+    - ''
+    - '&b&k|&b- 它用来干什么呢...'
+    - ''
+  old_cpu:
+    name: '&e破损的CPU'
+    lore:
+    - ''
+    - '&b&k|&b- 从哪家的电脑上拆下来的...'
+    - ''
+  cpu:
+    name: '&eCPU'
+    lore:
+    - ''
+    - '&b&k|&b- 完好无损...'
+    - ''
+  soul_paper:
+    name: '&e灵魂之符'
+    lore:
+    - ''
+    - '&b&k|&b- 被注入了灵魂的力量'
+    - ''
+  ksf_stuff:
+    name: '&e方便面调料'
+    lore:
+    - ''
+    - '&b&k|&b- 嘶~ 是香辣味的'
+    - ''
+  water_sugar:
+    name: '&e汽水糖'
+    lore:
+    - ''
+    - '&b&k|&b- 雪碧? 还是可口可乐?'
+    - ''
+  peach_wood:
+    name: '&e桃木'
+    lore:
+    - ''
+    - '&b&k|&b- 驱邪避难'
+    - ''
+  update_power:
+    name: '&e升级核心'
+    lore:
+    - ''
+    - '&b&k|&b- 用来升级一些奇怪的物品...'
+    - ''
+  compressed_random_equipment:
+    name: '&e压缩的随机装备'
+    lore:
+    - ''
+    - '&b&k|&b- 好像不能再使用了...'
+    - ''
+  getgold_spade:
+    name: '&e摸金铲'
+    lore:
+    - ''
+    - '&b&k|&b- 在沙子里一定几率挖出破损的金币！'
+    - ''
+  quality_identifier:
+    name: '&e品质鉴定符'
+    lore:
+    - ''
+    - '&b&k|&b- 为可用的物品添加随机属性！'
+    - '&b&k|&b- 非常昂贵，一定要保存好...'
+    - ''
+  appraisal_paper_armor:
+    name: '&e护甲品质鉴定符'
+    lore:
+    - ''
+    - '&b&k|&b- 给定物品随机一个护甲属性！'
+    - '&b&k|&b- 非常昂贵，一定要保存好...'
+    - ''
+  appraisal_paper_damage:
+    name: '&e武器品质鉴定符'
+    lore:
+    - ''
+    - '&b&k|&b- 给定物品随机一个攻击属性！'
+    - '&b&k|&b- 非常昂贵，一定要保存好...'
+    - ''
+  appraisal_paper_horse_armor:
+    name: '&e马铠品质鉴定符'
+    lore:
+    - ''
+    - '&b&k|&b- 给定物品随机一个护甲属性！'
+    - '&b&k|&b- 非常昂贵，一定要保存好...'
+    - ''
+  light_bow:
+    name: '&6神罚之弓'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o接受神的惩罚...'
+    - ''
+  witherskull_bow:
+    name: '&6凋零弓'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o它发射出去的的是每一个亡灵...'
+    - ''
+  emer_sword:
+    name: '&6绿宝石之剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o昂贵的绿宝石打造而成...'
+    - ''
+  bone_sword:
+    name: '&6骨剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o坚硬无比...'
+    - ''
+  random_sword:
+    name: '&6随机短刃'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o我的运气怎么样...'
+    - '&b&k|&b- &e&o鉴定仪 &7&o随机给予此一个属性...'
+  guard_sword:
+    name: '&6守护之剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o我守护着你，到生命的最后一刻...'
+    - ''
+  peach_sword:
+    name: '&6桃木剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o致敬经典僵尸片...'
+    - ''
+  soul_sword:
+    name: '&6灵魂之剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o恶魔的灵魂在这里被注入...'
+    - '&b&k|&b- &e&o右键 &7&o可以发出一声低吼...'
+    - '&b&k|&b- &7&o将你的&e&o饱食度&7&o转化成&e&o生命值&7&o...'
+    - ''
+  sky_sword:
+    name: '&6破天剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o破天，多么霸气的名字...'
+    - '&b&k|&b- &e&o右键 &7&o将自己冲向天际...'
+    - ''
+  devil_sword:
+    name: '&6斩魔剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o斩魔，多么威武的称号...'
+    - '&b&k|&b- &e&o右键 &7&o发出圣火横扫一切黑暗...'
+    - ''
+  sky_devil_sword:
+    name: '&6破天斩魔剑'
+    lore:
+    - ''
+    - '&b&k|&b- &7&o破天斩魔，相继发出强大的能量...'
+    - '&b&k|&b- &e&o右键 &7&o连续向前发射三次吐息并且提升自己...'
+    - ''
+lores:
+  per-use: '&7每次使用'
+  not-appraised: '&b&k|&b- &7&o未鉴定'
+  appraised: '&b&k|&b- &7&o已鉴定 &b| &d等级: &e&l{0}'
+  click-to-open: '&7⇨ &a单击打开'
+  any-random-equipment: '&f任意随机装备'
+recipes:
+  compressor_mock:
+    name: '&b压缩机'
+    lore:
+    - '&7如合成表所示'
+    - '&7在压缩机中合成'
+researches:
+  food: Bump 食物
+  random_equipment: 随机装备
+  appraise: 鉴定
+  stuff: 魔法物品
+  old_stuff: 淘金
+  bow: Bump 弓
+  peach_sword: 桃木剑
+  normal_sword: 普通的剑
+  soul_sword: 灵魂之剑
+  sky_devil: 斩天破魔
+messages:
+  no-permission: '&c你没有权限。'
+  no-input: '&c请放入物品！'
+  output-no-space: '&c输出空间不足！'
+  not-enough-power: '&c电力不足！'
+  stacked: '&c你不能使用堆叠的物品。'
+  legacy: '&c你正在使用旧物品。你需要将它升级为新物品。'
+  deprecated: '&c你正在使用废弃的物品，它将在不久后移除。'
+  click-here: '&e单击此处:'
+  food:
+    cooldown: '&b&k|&b- &7&o你需要等待一段时间才能再次食用！'
+    xuebi: '&b&k|&b- &7&o清凉一夏！'
+    kele: '&b&k|&b- &7&o肥宅的胜利！'
+    fangbianmian: '&b&k|&b- &7&o童年的味道！'
+    latiao: '&b&k|&b- &7&o这辣，才够味！'
+    kouxiangtang: '&b&k|&b- &7&o仙气飘飘！'
+    zongzi: '&b&k|&b- &7&o是甜粽子还是咸粽子呢？'
+  tool:
+    getgold_spade: '&b&k|&b- &7&o哇，是金子...'
+    appraisal_paper:
+      legacy: '&b你的旧版品质鉴定符已更新。'
+      invalid: '&c该物品无法进行鉴定！'
+      success: '&a该物品现在可以进行鉴定了！'
+  weapon:
+    unavailable: '&b&k|&b- &7&o你现在无法发动该技能！'
+    low-food-level: '&b&k|&b- &7&o你的饱食度太低！'
+    cooldown: '&b&k|&b- &7&o你需要等待一段时间才能再次使用武器技能！'
+    soul_sword:
+      converted-part: '&b&k|&b- &7&o已将部分饱食度转化为生命值！'
+      converted-all: '&b&k|&b- &7&o已将全部饱食度转化为生命值！'
+    devil_sword: '&b&k|&b- &7&o斩魔，一刀致命！'
+    sky_sword:
+      activated: '&b&k|&b- &7&o破天，一飞冲天！'
+      protected: '&b&k|&b- &7&o破天剑保护了你免受摔落伤害！'
+    sky_devil_sword:
+      activated: '&b&k|&b- &7&o破天斩魔，天降正义！'
+      deactivated: '&b&k|&b- &7&o强化时间已经结束！'
+    light_bow: '&b&k|&b- &7&o神罚！'
+    wither_skull_bow: '&b&k|&b- &7&o凋零！'
+  machine:
+    appraisal:
+      invalid: '&c该物品类型不支持鉴定！'
+      not-accepted: '&c当前的鉴定类型不接受该物品。'
+      appraised: '&c该物品已经鉴定过，无法进行鉴定！'
+      success: '&a已鉴定!'
+    attribute-grindstone:
+      invalid: '&c该物品还未鉴定！'
+      success: '&a已清除鉴定结果！'
+console:
+  loading-appraise-types: 正在从配置文件中加载所有鉴定类型。
+  loading-appraise-type: 正在加载鉴定类型 "{0}"。
+  disabled-appraise-type: 鉴定类型 "{0}" 已被禁用，跳过加载。
+  loaded-appraise-type: 已加载鉴定类型 "{0}"。
+  error-loading-appraise-type: '加载鉴定类型 "{0}" 时发生错误: {1}'
+  missing-appraise-stars: 配置文件中缺少 'appraise.stars' 部分。
+  use-default-appraise-stars: 正在使用默认鉴定星级设置。
+  invalid-appraise-stars: 你只能设置星级为 0 到 127 之间！
+  error-sound: '加载声音配置时发生错误: {0}'
+  invalid-sound-config: '无法找到Bump的声音配置: {0}'
+  invalid-sound-volume: '声音 "{0}" 的音量设置无效: {1} (必须至少为 {2})'
+  invalid-sound-pitch: '声音 "{0}" 的音高设置无效: {1} (必须至少为 {2})'
+gui:
+  appraise:
+    name: '&e点击鉴定'
+    lore:
+    - '&7<- 在左侧放入需要鉴定的物品'
+    - '&7点击这里开始鉴定'
+  appraise_type_selector:
+    name: '&b当前类型: &e{0}'
+    lore:
+    - ''
+    - '&7在Bump分类中查看详情'
+    - '&e点击选择该类型'
+  appraise_type_selector_menu:
+    title: '&6选择鉴定类型'
+    lore:
+    - ''
+    - '&e点击选择该类型'
+  appraisal_paper:
+    name: '&e点击应用'
+    lore:
+    - '&7<- 在左侧放入物品'
+    - '&7点击这里让物品可以进行鉴定'
+  grind:
+    name: '&e点击清除属性'
+    lore:
+    - '&7<- 在左侧放入已鉴定的物品'
+    - '&7点击这里清除属性'
+appraise_info:
+  name: '&b鉴定类型: &e{0}'
+  click: '&e点击查看详情'
+  equipment_type:
+    name: '&a可接受的物品类型: &b{0}'
+    any: '&7任意物品'
+    vanilla: '&7仅原版物品'
+    slimefun: '&7仅粘液科技物品'
+  material:
+    name: '&a是否检测物品的材料: &b{0}'
+    lore_enabled:
+    - '&7仅允许以下材料:'
+    lore_enabled_more: '&7还有 {0} 个更多...'
+    lore_disabled:
+    - '&7不会检测物品的材料。'
+  equipment_slot:
+    name: '&a装备栏位'
+    lore:
+    - '&7属性将应用到'
+    - '&7以下装备栏位：'
+  attribute:
+    name: '&e属性： &9{0}'
+    range: '&7范围： &b{0} &7~ &b{1}'
+    weight: '&7权重： &b{0}%'
+

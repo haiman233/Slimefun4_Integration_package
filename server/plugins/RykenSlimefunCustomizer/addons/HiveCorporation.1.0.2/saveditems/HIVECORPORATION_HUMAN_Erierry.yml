@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e4a0e869-fda5-4018-b973-ddcd6a66d976
+      name: ericherry5678
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcxODI5MTc0NTAyNSwKICAicHJvZmlsZUlkIiA6ICJlNGEwZTg2OWZkYTU0MDE4Yjk3M2RkY2Q2YTY2ZDk3NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcmljaGVycnk1Njc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzNGYwZGMyYzI1OWMwZjJiYTkyMDZjMDkwYmU3OGZhNmE1Njc0NDc3ZGE0YThmZTQ1NWJkZjk1MDdlYzIzNmYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        signature: Ea4FO+1NklVKT5Ctc6+W5NJAAo7TRYZ/1PBPTAmJ60EjpLWnzfSt8v/+RgIKxalwRQbeCYwqZoywqULAOjrjrQ3hpDyEs6wLtJi/244zmIVRbZ8xHQ9xh3G5LXrXMZ/sm6wQvCDD+hqtbmVlBZdeTrTQAxWCa1wCrEMnQ+ElCXTKkGi4m9awd2XUmbrS4STKEokUtL0wkvPG5XpPqcNMBPN5OId4ZwC3xuaxSRCzj7wEzWZPso5YNitZgETUlkIu2WfhQxXIUmiR0MResO/rMx4jt34HZybzJKrbg3M82cXCVbe3Yr3++JgV13DZ5+0M9b47s0gox7QwqQl+4niQt9TFpXOxE6deGn0PFsb3tI1Fq02dbsXMsz2t26xwtZxVBLq8p8hIB6YAn8LUx2Ez3pS1mDpq3VWTNfDLLmrlARWRyaThNTfqezv6OelYThKPnEXI90GX2nCBrrz/84vSngEbS+OhwJLhu4q3cQ44aql33B0TicLBPiLrOh2TdGQG6U66duURjzk9A8B4rWTvHTQilVQl5CGHruERBNobWThKEBTMgg6Nx8G6VxJyfd7Z8JZH5aZSOkW3FSAZOJKesuGansSjxxyIG7qP3k05hpo3pz8oNMR/voTrRZinQV4TWp+gvHYL2mK0a7vPyujLne32DiKGfZoJNHIPCuwowao=

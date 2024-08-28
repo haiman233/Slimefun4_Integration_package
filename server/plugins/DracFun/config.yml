@@ -1,0 +1,7 @@
+options:
+  # Enables hard-mode, recommended for servers using Infinity, Supreme or SlimeFrame for balancing reasons.
+  # true -> enabled, false -> disabled
+  hard-mode: true
+  # Enables the use of vanilla dragon egg item. If disabled then uses the plugin's in built dragon egg item.
+  # true -> enabled, false -> disabled
+  use-dragon-egg: true

@@ -1,0 +1,54 @@
+
+options:
+
+  # 是否启用自动更新
+  auto-update: true
+
+# 是否禁用需要异域花园(ExoticGarden)物品的配方
+disable-exotic-garden-recipes: false
+
+# 是否禁用向动力科技(DynaTech)的培育仓添加美食家(Gastronomicon)的植物。
+disable-dynatech-integration: false
+
+# 制作完美食物的几率 (0-1)
+perfect-food-max-chance: 0.25
+
+# 训练厨师机器人所需的食物熟练度，以及计入玩家档案所需的食物熟练度
+proficiency-threshold: 256
+
+drops:
+
+  # 相应方块掉落美食家(Gastronomicon)种子的几率 (0-1)
+  block-break-chances:
+    grass: 0.15
+    tall-grass: 0.15
+    fern: 0.15
+    large-fern: 0.15
+    podzol: 0.15
+    dirt: 0.15
+    grass-block: 0.15
+    rooted-dirt: 0.15
+    mycelium: 0.15
+    seagrass: 0.15
+
+  # 击杀生物掉落美食家(Gastronomicon)物品的几率 (0-1)
+  mob-kill-chances:
+    squid: 0.35
+    guardian: 0.35
+    goat: 0.35
+    salmon: 0.35
+
+  # 禁用方块掉落与生物掉落的世界列表
+  disabled-in: []
+  block-break-chance: 0.15
+  mob-kill-chance: 0.35
+
+profile:
+
+  # 玩家档案的头衔
+  titles:
+    '0': 不是厨师
+    '1': 新手厨师
+    '50': 学徒厨师
+    '100': 经验丰富的厨师
+    '200': 三星大厨

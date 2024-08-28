@@ -1,0 +1,103 @@
+slimefun:
+  oil:
+    enabled: true
+  nether_ice:
+    enabled: true
+  uranium:
+    enabled: true
+  salt:
+    enabled: true
+litexpansion:
+  thorium:
+    enabled: true
+infinityexpansion:
+  ender_essence:
+    enabled: true
+dynatech:
+  stardust_meteor:
+    enabled: true
+slimefunwarfare:
+  arsenic:
+    enabled: true
+  mozanite:
+    enabled: true
+simplestorage:
+  angelite_crystal:
+    enabled: true
+  proustite_crystal:
+    enabled: true
+  shortite_crystal:
+    enabled: true
+  quartz_crystal:
+    enabled: true
+endrex:
+  ender_pearl_ore:
+    enabled: true
+  chorus_ore:
+    enabled: true
+  end_stone_coal_ore:
+    enabled: true
+  end_stone_iron_ore:
+    enabled: true
+  end_stone_lapis_ore:
+    enabled: true
+  end_stone_redstone_ore:
+    enabled: true
+  end_stone_gold_ore:
+    enabled: true
+slimefunorechunks:
+  iron_ore_chunk:
+    enabled: true
+  gold_ore_chunk:
+    enabled: true
+  copper_ore_chunk:
+    enabled: true
+  tin_ore_chunk:
+    enabled: true
+  silver_ore_chunk:
+    enabled: true
+  aluminum_ore_chunk:
+    enabled: true
+  lead_ore_chunk:
+    enabled: true
+  zinc_ore_chunk:
+    enabled: true
+  magnesium_ore_chunk:
+    enabled: true
+  nickel_ore_chunk:
+    enabled: true
+  cobalt_ore_chunk:
+    enabled: true
+slimecustomizer:
+  example_geo:
+    enabled: true
+  bocchi_egobkl:
+    enabled: true
+  liang_egolqc:
+    enabled: true
+  xdyd_egogqlx:
+    enabled: true
+  hxmm_egogqlx:
+    enabled: true
+rykenslimefuncustomizer:
+  haiman_star_dust:
+    enabled: true
+  derule_bug:
+    enabled: true
+finaltech-changed:
+  _finaltech_ether:
+    enabled: true
+dracfun:
+  dracfun_draconium_ore:
+    enabled: true
+logitech:
+  logitech_dimensional_shard:
+    enabled: true
+  logitech_star_gold:
+    enabled: true
+slimefunitemexpansion:
+  ie_osmium_dust_resource:
+    enabled: true
+betterreactor:
+  borium:
+    enabled: true

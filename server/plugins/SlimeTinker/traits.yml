@@ -1,0 +1,372 @@
+IRON:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+GOLD:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+COPPER:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+LEAD:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+SILVER:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ALUMINUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+TIN:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ZINC:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MAGNESIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+STEEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+DAMASCUS_STEEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+DURALIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+BRONZE:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ALUMINUM_BRONZE:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+HARDENED_METAL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+CORINTHIAN_BRONZE:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+SOLDER:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+BILLON:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+BRASS:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ALUMINUM_BRASS:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+NICKEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+COBALT:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+REINFORCED_ALLOY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+STRING:
+  BINDING: true
+  GAMBESON: true
+VINE:
+  BINDING: true
+  GAMBESON: true
+CRIMSON_ROOT:
+  BINDING: true
+  GAMBESON: true
+WARPED_ROOT:
+  BINDING: true
+  GAMBESON: true
+WEEPING_VINE:
+  BINDING: true
+  GAMBESON: true
+TWISTED_VINE:
+  BINDING: true
+  GAMBESON: true
+SLIME:
+  BINDING: true
+  GAMBESON: true
+SILICON:
+  BINDING: true
+  GAMBESON: true
+LEATHER:
+  BINDING: true
+  GAMBESON: true
+FERROSILICON:
+  HEAD: true
+  PLATE: true
+  LINKS: true
+REDSTONE_ALLOY:
+  ROD: true
+  PLATE: true
+  LINKS: true
+BOOMERITE:
+  HEAD: true
+  PLATE: true
+SEFIRITE:
+  PLATE: true
+CRINGLEIUM:
+  LINKS: true
+LIQUID_LOVE:
+  LINKS: true
+NICEINIUM:
+  HEAD: true
+SMITHIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ANNIVERSARIUM:
+  PLATE: true
+VOID:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MAGSTEEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+TITANIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+IRON_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+GOLD_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+COPPER_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+LEAD_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+SILVER_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ALUMINUM_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+TIN_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ZINC_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MAGNESIUM_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MYTHRIL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ADAMANTITE:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MAGNONIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+FORTUNE_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MAGIC_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+EARTH_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+METAL_SINGULARITY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+INFINITE:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+INFINITY_SINGULARITY:
+  HEAD: true
+  PLATE: true
+  LINKS: true
+REINFORCED_DRACONIUM:
+  HEAD: true
+SEGGANESSON:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+SLIME_STEEL:
+  BINDING: true
+  GAMBESON: true
+REINFORCED_SLIME_STEEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+OSMIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+OSMIUM_SUPERALLOY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+UNPATENTABLIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+STAINLESS_STEEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+VEX_GEM:
+  BINDING: true
+  GAMBESON: true
+STAR_DUST:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+GHOSTLY_ESSENCE:
+  BINDING: true
+  ROD: true
+  GAMBESON: true
+  LINKS: true
+TESSERACTING_MATERIAL:
+  HEAD: true
+  PLATE: true
+  LINKS: true
+RUBBER:
+  BINDING: true
+  GAMBESON: true
+REFINED_IRON:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MIXED_METAL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+ADVANCED_ALLOY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+MAG_THOR:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+CARBON_MESH:
+  BINDING: true
+  GAMBESON: true
+SCRAP:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+IRIDIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+DAXI_STRENGTH:
+  HEAD: true
+DAXI_ABSORPTION:
+  PLATE: true
+DAXI_FORTITUDE:
+  PLATE: true
+DAXI_SATURATION:
+  PLATE: true
+DAXI_REGENERATION:
+  PLATE: true
+ULTIMANINIUM:
+  LINKS: true

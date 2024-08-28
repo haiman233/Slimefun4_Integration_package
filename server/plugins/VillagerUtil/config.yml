@@ -1,0 +1,8 @@
+
+options:
+
+  # 启用自动更新
+  auto-update: false
+
+  # 使用村民魔法时是否消耗村民令牌
+  use-tokens: true

@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 4065a255-23a7-41b7-8754-fb93368d8acf
+      name: Fairyko
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcxOTIwODM2NDM3OCwKICAicHJvZmlsZUlkIiA6ICI0MDY1YTI1NTIzYTc0MWI3ODc1NGZiOTMzNjhkOGFjZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWlyeWtvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMwYTc1NzhjMjhiNDExNGM1OWNmNzExNTc1YzE5MjY2ZWQyNDNhMzU3MzdkZjExNTgxNmQ3NGFiZGM5M2MwOTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        signature: UauW3ZKnpQVKmQWpIIt1KGlsYGUS7wVYBRWbDHafBXzHQU0Z6lUgRBrO1yXqttw4ledMLdw92fcUS+gfqilU54AKjxxekZ9V4rdw+qiIeVn/nLFjcdzY6QDsDkboDNAW3yd4z1D+6oEJp3WOGycZDbVErYQDSQYYJFQX2TFgytuH/OOlU1p52evKNOcy26peQbnkIzxCXi3WVTLiwdL3NIMjNU3EEkG7LWWmcFR/7ScSeUJRky+RCtpQC4md05jc7ngkxNl7XGiVZNvVoWhY88mtf0PAO6IlBsrwQ1tb1SPAUo4048Xlbbhlp9LpTL+PKVfp98m9Vbt9JoU+H8QrFysLeaiVcljj6wtvAK+ajBij/12e+EO2Kb93OYnT5qJNiBI4IGoqn0/HZyYZga7aGQ9MNzTMOwZR2VnsSERt+3Jt+7hqGvnKjsMirOaUgDy7GQe6jEyt2SHQJ3Zcm3Z9FzV9YeSHMzEctN5GfQ/+hQRpqPLlpOqzA5UBSpbQ/d/iNx+vO4RcBx7nQmdv6byIWS6UOmicGJIVxLLPupP2r2gofO0nNyrZE8dbv3Nv4sEgjfIbhiogAPUIfto4/3T2lKIzoIeq+uTHMmwntPyv1Anz95tSujj2oHT94/vC//kawXB0Dxj1d5FjlyTVG1Dkyf0F5YcXfdBJ3U0kXhgCLLg=

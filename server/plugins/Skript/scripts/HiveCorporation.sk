@@ -1,0 +1,85 @@
+options:
+	HiveCorporation.OnlineReward.Prefix: &e&lH公司 &8》 &f
+	HiveCorporation.OnlineReward.Cooldown: 360 seconds
+	HiveCorporation.OnlineReward.Max: 120
+#修改以上数值时，别忘了修改HiveCorp中对应物品的描述。
+every {@HiveCorporation.OnlineReward.Cooldown}:
+	loop all players:
+		if {HiveCorporation.OnlineReward.%loop-player%} < {@HiveCorporation.OnlineReward.Max}:
+			add 1 to {HiveCorporation.OnlineReward.%loop-player%}
+			stop
+
+on join:
+	if {HiveCorporation.OnlineReward.%player%} is not set:
+		set {HiveCorporation.OnlineReward.%player%} to 0
+	if {HiveCorporation.OnlineReward.%player%} > {@HiveCorporation.OnlineReward.Max}:
+		set {HiveCorporation.OnlineReward.%player%} to {@HiveCorporation.OnlineReward.Max}
+#福利卡启动机制
+on left click with compass:
+	if player is not sneaking:
+		if name of the player's tool is "&e福利卡":
+			message "&e&lH公司 &8》 &7您的&eHivePoint&7为&f&l%{HiveCorporation.OnlineReward.%player%}%&f"  to player
+on left click with compass:
+	if name of the player's tool is "&e福利卡":
+		if player is sneaking:
+			if {HiveCorporation.OnlineReward.%player%} < 1:
+				message "&e&lH公司 &8》 &7您的&eHivePoint&7不足" to player
+			else:
+				execute console command "/sf give %player% HIVECORPORATION_FINANCE_HIVEPOINT %{HiveCorporation.OnlineReward.%player%}%"
+				set {HiveCorporation.OnlineReward.%player%} to 0
+				message "&e&lH公司 &8》 &7您的&eHivePoint&7已提现" to player
+
+#=====
+on damage:
+#武器 财狼
+	if name of the attacker's tool is "&e财狼":
+		if attacker has a nether star named "&eHivePoint":
+			remove a nether star named "&eHivePoint" from attacker's inventory
+			chance of 10%:
+				damage victim by 20 hearts
+			chance of 10%:
+				damage victim by 10 hearts
+			chance of 60%:
+				damage victim by 5 hearts
+			chance of 20%:
+				heal victim by 10 hearts
+			cancel the event
+			
+		else:
+			message "&e&lH公司 &8》 &7您的&eHivePoint&7为不足以使用&e财狼" to attacker
+			cancel the event
+#H公司员工制服，靴子
+	if damage is caused by fall:
+		if name of the victim's boots is "&eH级员工制服":
+			cancel the event
+		if name of the victim's boots is "&eE级员工制服":
+			cancel the event
+#E制服免疫伤害
+	if victim has a nether star named "&eHivePoint":
+		if name of the victim's helmet is "&eE级员工制服":
+			if name of the victim's chestplate is "&eE级员工制服":
+				if name of the victim's leggings is "&eE级员工制服":
+					if name of the victim's boots is "&eE级员工制服":
+						remove a nether star named "&eHivePoint" from victim's inventory
+						heal victim by 1 hearts
+						cancel the event
+#测试属性============================
+	if name of the attacker's tool is "&6除障":
+		if victim is on fire:
+			extinguish victim
+			send action bar "&f[&4&l爆燃&f]" to attacker
+			increase damage by 5
+	if name of the victim's chestplate is "&2暴食":
+		if damage cause is attack:
+			add 2 to victim's food level
+			remove 2 from attacker's food level
+			send action bar "&f[&2&l暴食&f]" to victim
+	if name of the victim's leggings is "&e反击":
+		if damage cause is attack:
+			make victim attack attacker
+			send action bar "&f[&e&l反击&f]" to victim
+	if name of the victim's helmet is "&a儒和":
+		if victim's health is less than 3:
+			chance of 50%:
+				cancel the event
+				send action bar "&f[&a&l儒和&f]" to victim

@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2865
+  type: PANDA_SPAWN_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"闪电"}],"text":""}'
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYZDIzcxLTS5KTCuxyslMzyjJy8xLj0/KzylhYAAAqq6oCzAAAAA=

@@ -1,0 +1,59 @@
+bocchitechnoloy:
+  type: nested
+  category-name: "&dBocchiTechnoloy(波奇科技)"
+  category-item: PINK_CONCRETE
+bocchi_xx:
+  type: sub
+  category-name: "&c信息"
+  category-item: BOOK
+  parent: bocchitechnoloy
+bocchi_cl:
+  type: sub
+  category-name: "&7材料"
+  category-item: BRICK
+  parent: bocchitechnoloy
+bocchi_dianr:
+  type: sub
+  category-name: "&c电容"
+  category-item: TARGET
+  parent: bocchitechnoloy
+bocchi_ytj:
+  type: sub
+  category-name: "&C波奇一体机"
+  category-item: NETHERITE_BLOCK
+  parent: bocchitechnoloy
+bocchi_tynjq:
+  type: sub
+  category-name: "&C波奇太阳能"
+  category-item: DAYLIGHT_DETECTOR
+  parent: bocchitechnoloy
+bocchi_nyydl:
+  type: sub
+  category-name: "&2能源与电力"
+  category-item: "BLAST_FURNACE"
+  parent: bocchitechnoloy
+bocchi_wq:
+  type: sub
+  category-name: "&f波奇武器"
+  category-item: NETHERITE_SWORD
+  parent: bocchitechnoloy
+bocchi_gongju:
+  type: sub
+  category-name: "&C波奇工具"
+  category-item: NETHERITE_PICKAXE
+  parent: bocchitechnoloy
+bocchi_hujia:
+  type: sub
+  category-name: "&f波奇护甲"
+  category-item: NETHERITE_CHESTPLATE
+  parent: bocchitechnoloy
+bocchi_kuangfenytj:
+  type: sub
+  category-name: "&6波奇粉锭一体机"
+  category-item: NETHERITE_INGOT
+  parent: bocchitechnoloy
+bocchi_ddjx:
+  type: sub
+  category-name: "&c波奇物质核心"
+  category-item: IRON_BLOCK
+  parent: bocchitechnoloy

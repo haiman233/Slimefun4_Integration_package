@@ -1,0 +1,26 @@
+options:
+  auto-update: false
+  # duration in ticks for one cycle of bee's life
+  breeding-cycle-duration: 40
+nests:
+  # chance for a nest to generate when growing a tree using bone-meal
+  # the tree must be a specific type and grown in a specific biome
+  tree-growth-chance: 0.02
+  # modifies the chance for any nest to generate,
+  # 1 means unchanged, > 1 increased, < 1 decreased
+  world-chance-modifier: 1
+  worlds:
+  - world
+  - bskyblock_world
+  - bskyblock_world_nether
+  - bskyblock_world_the_end
+  - sc
+  - zy
+  - world_nether
+  - world_the_end
+discoveries:
+  # sends a message to every player when a player discovers a species
+  # as the first player on the server
+  broadcast-first-discovery: true
+  # displays some basic bees and mutations to help players get started
+  display-basic-bees: true

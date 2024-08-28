@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHEST
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"皮匠的礼物"}],"text":""}'
+    internal: H4sIAAAAAAAA/w3HMQqAMAwAwIzawa/0D4KbY/cSJU1Lo5EQFH+vt10ACDDNontfTm/+JuQBxlXVE25CEBkPugTfWMk0a8leKd9NBJmiEP61R62TZW7FAT7ZlZu8UwAAAA==
+    blockMaterial: CHEST

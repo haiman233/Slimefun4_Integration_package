@@ -1,0 +1,54 @@
+
+# 开启自动更新
+auto-update: false
+
+worlds:
+
+  # If set to true, players can use Nether portals in Galactifun planet worlds.
+  allow-nether-portals: false
+
+  # 地球世界的名称，默认应为 world
+  earth-name: world
+
+aliens:
+
+  # 外星人的Ticker间隔，单位为MC刻，1秒有20MC刻
+  tick-interval: 2
+
+  # 每个世界中每个玩家对应的外星人的最多数量
+  max-per-player: 8
+
+  # 水蛭吞物品的几率
+  leech-eat-chance: 50
+
+rockets:
+
+  # 火箭发射时的提示
+  launch-msgs:
+  - 丢弃降落伞
+  - 补充零食
+  - 校准行星
+  - 点燃太阳
+  - 添加有趣的发射提示
+  - 感谢饼干
+  - 模拟月球降落
+  - 向前一小步
+  - 人类一大步
+
+other:
+
+  # Max range for sealed command. High values may impact performance, low values may miss sealed areas.
+  # More info: https://github.com/Slimefun-Addon-Community/Galactifun/wiki/Sealing#Range
+  sealed-command-max-range: 300000
+
+  # 自动门检测玩家的范围
+  auto-door-range: 2
+
+  # 无法作为自动门的方块
+  auto-door-banned-types:
+  - BEDROCK
+  - CAKE
+  - BARRIER
+  - COMMAND_BLOCK
+  - END_PORTAL
+  - STRUCTURE_BLOCK

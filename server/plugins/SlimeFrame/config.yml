@@ -1,0 +1,59 @@
+drop-chance:
+  morphics:
+    WITHER: 5
+    WARDEN: 10
+    ELDER_GUARDIAN: 20
+  neural-sensors:
+    WARDEN: 5
+  neurodes:
+    ZOMBIE: 15
+    ZOMBIE_VILLAGER: 15
+    HUSK: 15
+    DROWNED: 15
+  orokin-cell:
+    WITHER: 1
+    WARDEN: 1
+    ENDER_DRAGON: 10
+  reactants: 25
+options:
+  auto-update-major: false
+  auto-update: false
+  enable-researches: false
+  # If the server has the plugin AdvancedEnchantments enabled, this option will enable Soul Contracts to
+  # have trades with AE items if set to true
+  enable-ae-items-in-soul-contracts: false
+  # Probability of a villager obtaining a trade with one of the SlimeFrame ores in %
+  ore-trade-chance: 1
+relics:
+  # One lith relic every X fishes caught
+  lith: 50
+  # One meso relic every X mobs killed
+  meso: 750
+  # One neo relic every X blocks broken
+  neo: 10000
+  # One axi relic every X blocks placed
+  axi: 750
+commands:
+  slimeframe:
+  - slimeframe
+  - sframe
+  - wf
+  inventory:
+  - relics
+  - inventory
+  invsee:
+  - invsee
+  - relicinvsee
+  refine:
+  - refine
+  traces:
+  - traces
+messages:
+  prefix: '&f[&bSlimeFrame&f]'
+  prefix-enabled: false
+  # When a player tries to open a relic with insufficient reactants
+  insufficient-reactants:
+  - '&cYou need 10 reactants to open this relic!'
+  freezing-item:
+  - '&cWarning! You have been exposed to a freezing item. Throw it away or wear a
+    Cryogenic Suit.'

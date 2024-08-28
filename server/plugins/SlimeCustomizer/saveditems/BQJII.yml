@@ -1,0 +1,16 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"text":"波奇剑II"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"进一步加强"}],"text":""}'
+    enchants:
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 8
+      SWEEPING_EDGE: 5
+    repair-cost: 1
+    Unbreakable: true

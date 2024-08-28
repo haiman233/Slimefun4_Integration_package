@@ -1,0 +1,432 @@
+BOCCHI_TYNYJ:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能I"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 1000
+      night: 500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BASIC_PANEL
+      amount: 1
+BOCCHI_TYNEJ:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能II"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 4000
+      night: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNYJ
+      amount: 1
+BOCCHI_TYNSJIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能III"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 100000
+      night: 40000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNEJ
+      amount: 1
+BOCCHI_TYNSJIIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能VI"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 1000000
+      night: 500000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIII
+      amount: 1
+BOCCHI_TYNSJIIIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能V"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 4000000
+      night: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+   1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+   6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+   9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIII
+      amount: 1
+BOCCHI_TYNSJIIIIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能VI"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 100000000
+      night: 30000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+   1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+   6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+   9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIII
+      amount: 1
+BOCCHI_TYNSJIIIIIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能VII"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 500000000
+      night: 60000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+   1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+   6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+   9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIII
+      amount: 1
+BOCCHI_TYNSJIIIIIIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能VIII"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 900000000
+      night: 80000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+   1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+   6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+   9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIII
+      amount: 1
+BOCCHI_TYNSJIIIIIIIII:
+  category: bocchi_tynjq
+  generator-name: "&b波奇太阳能XI"
+  generator-lore:
+  - "&7波奇用爱发电"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 1500000000
+      night: 120000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+   1:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   2:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   3:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   4:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+   6:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   7:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   8:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1
+   9:
+      type: SLIMEFUN
+      id: BOCCHI_TYNSJIIIIIIII
+      amount: 1

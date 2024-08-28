@@ -1,0 +1,27 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: SPLASH_POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"italic":false,"extra":[{"text":""},{"text":"error"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"none"}],"text":""}'
+    enchants:
+      BINDING_CURSE: 255
+    Unbreakable: true
+    potion-type: minecraft:strong_harming
+    custom-color:
+      ==: Color
+      RED: 0
+      BLUE: 0
+      GREEN: 255
+    custom-effects:
+    - ==: PotionEffect
+      effect: 7
+      duration: 20
+      amplifier: 90
+      ambient: false
+      has-particles: true
+      has-icon: true

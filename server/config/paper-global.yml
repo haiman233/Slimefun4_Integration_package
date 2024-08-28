@@ -13,6 +13,9 @@
 # Website: https://papermc.io/
 
 _version: 28
+block-updates:
+  disable-noteblock-updates: false
+  disable-tripwire-updates: false
 chunk-loading-advanced:
   auto-config-send-distance: true
   player-max-concurrent-chunk-generates: 0
@@ -50,7 +53,6 @@ item-validation:
 logging:
   deobfuscate-stacktraces: true
   log-player-ip-addresses: true
-  use-rgb-for-named-text-colors: true
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
@@ -119,6 +121,7 @@ unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
+  compression-format: ZLIB
   perform-username-validation: true
 watchdog:
   early-warning-delay: 10000

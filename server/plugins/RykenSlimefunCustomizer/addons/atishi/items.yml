@@ -1,0 +1,14 @@
+ZHENGHEBAO_INFO:
+  lateInit: false
+  item_group: zhenghebao_info
+  item:
+    name: '&c&l整合包内的粘液科技及附属内容均为免费内容'
+    lore:
+    - '&7由haiman整合修改适配 '
+    - '&7感谢balugaq和matl114为我提供了技术上的支持'
+    - '&7再一次感谢所有愿意游玩本整合包的玩家'
+    material_type: mc
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'

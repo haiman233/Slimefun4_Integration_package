@@ -1,0 +1,260 @@
+names:
+  spirit_group:
+    missing_knowledge:
+      name: '&c知识不足!'
+      lore:
+      - '&7可通过以下途径获取&b知识&7:'
+      - '&7   - 捕捉灵魂 (知识碎片 1)'
+      - '&7   - 使用灵魂之书 (知识碎片 2)'
+      - '&7   - 将灵魂驯化为友好状态! (知识碎片 3)'
+    afraid_item:
+      name: '&f惧怕'
+      lore:
+      - '&7该灵魂会对以下灵魂感到惧怕:'
+    scare_item:
+      name: '&5惊吓'
+      lore:
+      - '&7该灵魂会惊吓到以下灵魂:'
+    relation_book:
+      name: '&a关系'
+      lore:
+      - ''
+      - '&7点击打开'
+    goal:
+      name: '&b放逐任务:'
+      kill:
+        label: '&b类型: &7击杀生物'
+        value: '&b任务: &7击杀 {amount_and_mob}'
+      item:
+        label: '&b类型: &7提供原版物品'
+        value: '&b任务: &7给予 {amount_and_item}'
+      slimefun_item:
+        label: '&b类型: &7提供粘液科技物品'
+        value: '&b任务: &7给予 {amount_and_item}'
+      breed:
+        label: '&b类型: &7喂养生物'
+        value: '&b任务: &7喂养 {amount_and_mob}'
+    trait_item:
+      name: '&a特性'
+      lore:
+      - ''
+      - '&b特性: {trait_name}'
+      - '&7(点击查看说明)'
+      open: '&7(点击关闭说明)'
+    spirit_item:
+      name: '{tier_color}{mob_type}灵魂'
+      lore:
+      - '&f捕捉到的{mob_type}灵魂'
+      - '&f等级: {tier_color}{tier}'
+  groups:
+    main_group: '&a灵魂巧匠'
+    crafting_materials: '&a合成材料'
+    tools: '&a工具'
+    machines: '&a机器'
+    spirits: '&a灵魂'
+    altar_1: '&a灵魂祭坛 I'
+    altar_2: '&a灵魂祭坛 II'
+    altar_3: '&a灵魂祭坛 III'
+  researches:
+    materials: 灵魂材料
+    tools: 灵魂工具
+    machines: 灵魂机器
+    altar_1: 灵魂祭坛 I
+    altar_2: 灵魂祭坛 II
+    altar_3: 灵魂祭坛 III
+  recipe_type:
+    spirit_interact:
+      name: '&f对灵魂使用'
+      lore:
+      - ''
+      - '&7手持该物品右键点击灵魂以使用'
+  items:
+    infused_membrane:
+      name: '&5注魔幻翼膜'
+      lore:
+      - ''
+      - '&7注入了魔法的幻翼膜'
+    infused_feather:
+      name: '&5注魔羽毛'
+      lore:
+      - ''
+      - '&7注入了魔法的羽毛'
+    soul_stained_glass:
+      name: '&5灵魂染色玻璃'
+      lore:
+      - ''
+      - '&7窥视另一个纬度'
+    ectoplasm:
+      name: '&a外质'
+      lore:
+      - ''
+      - '&7从未知中获取'
+    unidentified_spirit:
+      name: '&f不明灵魂'
+      lore:
+      - ''
+      - '&7捕捉到的不明灵魂'
+      - '&7本身并没有任何用处'
+    spirit_bottle:
+      name: '&f瓶中灵魂'
+      lore:
+      - ''
+      - '&7一个被装在瓶中的灵魂'
+      - '&7可用于获取外质'
+    spirit_guide_book:
+      name: '&d灵魂巧匠指南'
+      lore:
+      - ''
+      - '&7一本关于灵魂巧匠'
+      - '&7的综合指南书'
+    identifying_glass:
+      name: '&d鉴定玻璃'
+      lore:
+      - ''
+      - '&7可用于鉴定不明灵魂'
+    spirit_lenses:
+      name: '&d灵魂棱镜'
+      lore:
+      - ''
+      - '&7装备后可以看见&d灵魂'
+    spirit_net:
+      name: '&a灵魂网'
+      lore:
+      - ''
+      - '&7使用该工具捕捉灵魂!'
+    spirit_book:
+      name: '&a灵魂之书'
+      lore:
+      - ''
+      - '&7一本可以将灵魂刻入其中的书!'
+    spirit_rune:
+      name: '&7古代符文 &8&l[&d&l灵魂&8&l]'
+      lore:
+      - ''
+      - '&e将该符文丢向在地上的&d头盔'
+      - '&e可以让其获得&d看见&e不同领域的能力'
+      - '&eShift+左键点击以切换'
+      tag: '&d已注入'
+    electric_spirit_catcher:
+      name: '&a电动灵魂捕捉器'
+      lore:
+      - ''
+      - '&7可以自动捕捉灵魂'
+      - '&7捕捉机器周围10格内的灵魂'
+      - ''
+    electric_spirit_bottler:
+      name: '&a电动灵魂装瓶机'
+      lore:
+      - ''
+      - '&7可以自动将灵魂装入瓶中'
+      - '&7装瓶机器周围10格内的灵魂'
+      - ''
+    electric_spirit_writer:
+      name: '&a电动灵魂书写机'
+      lore:
+      - ''
+      - '&7可以自动将灵魂写入灵魂之书中'
+      - '&7向机器中放入捕捉到的灵魂与灵魂之书'
+      - ''
+    altars:
+      lore:
+      - ''
+      - '&7用于建造灵魂祭坛'
+    charged_quartz_1:
+      name: '&e已充能的石英 I'
+    charged_stairs_1:
+      name: '&e已充能的楼梯 I'
+    charged_core_1:
+      name: '&e已充能的核心 I'
+    charged_quartz_2:
+      name: '&e已充能的石英 II'
+    charged_pillar_2:
+      name: '&e已充能的柱子 II'
+    charged_stairs_2:
+      name: '&e已充能的楼梯 II'
+    charged_core_2:
+      name: '&e已充能的核心 II'
+    charged_quartz_3:
+      name: '&e已充能的石英 III'
+    charged_pillar_3:
+      name: '&e已充能的柱子 III'
+    charged_stairs_3:
+      name: '&e已充能的楼梯 III'
+    charged_core_3:
+      name: '&e已充能的核心 III'
+    smooth_charged_quartz_3:
+      name: '&e已充能的平滑石英 III'
+    smooth_charged_stairs_3:
+      name: '&e已充能的平滑楼梯 III'
+    spirit_item:
+      name: '{tier_color}{mob_type}灵魂'
+      tier_lore: '&f等级: {tier_color}{tier}'
+      current_state_lore: '&f当前状态: {state_color}{state}'
+      trait_lore: '&f特性: {trait_name}&f: {trait_type}'
+      progress_lore: '&f进度: {progress_bar}'
+      pass_on_lore: '&f放逐进度: &c{pass_on_progress}/{pass_on_requirement} {locked}'
+      is_locked: '&4(已锁定)'
+messages:
+  general:
+    learn_knowledge: '&a你获得了关于{mob_type}灵魂的新知识!'
+    no_permission: '&c你没有权限!'
+    no_permission_entity_interact: '&c你没有实体交互的权限!'
+  commands:
+    altar:
+      use: '&6正在展示&e{altar_tier}级祭坛&6的蓝图!'
+      materials: '&6所需材料: '
+      error:
+        altar_tier: '&c祭坛等级无效!'
+        altar_multiple: '&c你只能同时查看一个祭坛的蓝图!'
+    particles:
+      error: '&c无效的粒子测试'
+    give_spirit:
+      error: '&c无效的灵魂类型!'
+    summon_spirit:
+      error: '&c无效的灵魂类型!'
+    edit_item:
+      error:
+        not_holding: '&c你没有手持灵魂物品!'
+        wrong_state: '&c无效的灵魂状态!'
+        wrong_progress: '&c无效的进度值!'
+    reset_cooldown:
+      error: '&c玩家不在线!'
+  spirits:
+    escape: '&c灵魂从网中逃出去了!'
+    max_knowledge: '&c你无法从这本书中获取更多知识!'
+    rip_book: '&c灵魂把书撕成了碎片!'
+    pass_on: '{tier_color}{spirit_name}灵魂已被放逐!'
+    locked: '&c已锁定&f手持的灵魂!'
+    unlocked: '&a已解锁&f手持的灵魂!'
+    try_craft: '&c你不能使用灵魂来合成物品!'
+  altar:
+    broken: '&b祭坛已损坏，请修复并重新激活!'
+    complete_prompt: '&b完成祭坛的建造，并点击该方块来激活!'
+    not_completed: '&b祭坛还没有建造完成!'
+    completed:
+      '1': '&b灵魂祭坛 (等级 1) 已激活!'
+      '2': '&b灵魂祭坛 (Tier 2) 已激活!'
+      '3': '&b灵魂祭坛 (Tier 3) 已激活!'
+  spirit_rune:
+    not_helmet: '&d要注入的物品不是头盔!'
+    imbued: '&d你的头盔已注入魔法，现在可以看见灵魂了!'
+    multiple_helmets: '&d你的头盔不能进行注入!'
+    multiple_runes: '&d每次只能使用一个符文!'
+    toggled_on: '&d已开启灵魂可见'
+    toggled_off: '&d已关闭灵魂可见'
+  identifying_glass:
+    use: '&f灵魂类型: {tier_color}{spirit_name}   &f当前状态: {state_color}{state_name}   &f等级:
+      {tier_color}{tier}'
+  traits:
+    incorrect_state: '{tier_color_and_mob_type}灵魂状态必须为温和或友好!'
+    passive: '{trait_name}是一个被动特性!'
+    on_cooldown: '{trait_name}正在冷却中! ({cooldown}秒)'
+    used: 已使用{trait_name}!
+    used_passive: '{tier_color_and_mob_type}被动已激活!'
+    not_enough_progress: '{tier_color_and_mob_type}灵魂的驯化进度不足! ({progress}/{required_progress})'
+    error: '{mob_type}的特性遇到了一些问题，请在问题追踪器中汇报!'
+    cooldown:
+      strong_bones: '&f强壮骨骼&f已触发! &7(冷却时间: 30秒)'
+      play_dead: '&d装死&f已触发! &7(冷却时间: 1分钟)'
+      speedy_escape: '&e快速逃离&f已触发! &7(冷却时间: 1分钟)'
+      morning_gift: '&e清晨礼物&f已触发! &7(冷却时间: 20分钟)'

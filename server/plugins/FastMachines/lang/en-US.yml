@@ -1,0 +1,191 @@
+console:
+  loaded-language: 'Loaded language: {0}'
+  loading-items: Loading items...
+  loading-researches: Loading researches...
+
+items:
+  # categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+    name: '&eFast Machines'
+  MATERIALS:
+    conditions:
+      force-load: true
+    name: '&eFast Machines &7- &bMaterials'
+  MACHINES:
+    conditions:
+      force-load: true
+    name: '&eFast Machines &7- &aMachines'
+  
+  # gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+    name: '&eSelected item'
+    lore:
+    - '&7You have selected the item below to be crafted.'
+  SCROLL_UP:
+    conditions:
+      force-load: true
+    name: '&eScroll up'
+    lore:
+    - '&7Click to scroll up possible outputs.'
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+    name: '&eScroll down'
+    lore:
+    - '&7Click to scroll down possible outputs.'
+  INFO:
+    conditions:
+      force-load: true
+    name: '&fInformation'
+    lore:
+    - '&7Put the materials in the first 4 rows,'
+    - '&7all the available outputs will be shown.'
+    - ''
+    - '&7Select an item, then click on ''Craft'' below.'
+    - '&7The outputs will fill the bottom rows.'
+    - ''
+    - '&cIf the possible output amount does not satisfy'
+    - '&cthe requested amount, the crafting will provide'
+    - '&cmaximum possible amount of the item.'
+  CRAFT:
+    conditions:
+      force-load: true
+    name: '&aCraft'
+    lore:
+    - '&7Click to craft the selected item.'
+    - ''
+    - '&7Left Click: 1 time'
+    - '&7Right Click: 16 times'
+    - '&7Shift + Left Click: 64 times'
+    - '&7Shift + Right Click: as many as possible'
+  NO_ITEM:
+    conditions:
+      force-load: true
+    name: '&cNo Item selected'
+    lore: []
+  
+  # materials
+  FAST_CORE:
+    name: '&bFast Core'
+    lore:
+    - '&7The core of a Fast Machine.'
+  ETERNAL_FIRE:
+    name: '&4Eternal Fire'
+    lore:
+    - '&7The fire that never goes out.'
+  STACKED_ANCIENT_PEDESTAL:
+    name: '&6Stacked Ancient Pedestal'
+    lore:
+    - '&74 Ancient Pedestals in 1.'
+    - '&eRight click &7to break into'
+    - '&74 Ancient Pedestals.'
+  
+  # machines
+  FAST_CRAFTING_TABLE:
+    name: '&aFast Crafting Table'
+    lore:
+    - '&7More useful Vanilla Crafting Table.'
+    - '&7Craft without need to put items in order.'
+  FAST_FURNACE:
+    name: '&aFast Furnace'
+    lore:
+    - '&7More useful Vanilla Furnace.'
+    - '&7Craft without need to put items in order.'
+  FAST_ENHANCED_CRAFTING_TABLE:
+    name: '&aFast Enhanced Crafting Table'
+    lore:
+    - '&7More useful Enhanced Crafting Table.'
+    - '&7Craft without need to put items in order.'
+  FAST_GRIND_STONE:
+    name: '&aFast Grind Stone'
+    lore:
+    - '&7More useful Grind Stone.'
+    - '&7Craft without need to put items in order.'
+  FAST_ARMOR_FORGE:
+    name: '&aFast Armor Forge'
+    lore:
+    - '&7More useful Armor Forge.'
+    - '&7Craft without need to put items in order.'
+  FAST_ORE_CRUSHER:
+    name: '&aFast Ore Crusher'
+    lore:
+    - '&7More useful Ore Crusher.'
+    - '&7Craft without need to put items in order.'
+  FAST_COMPRESSOR:
+    name: '&aFast Compressor'
+    lore:
+    - '&7More useful Compressor.'
+    - '&7Craft without need to put items in order.'
+  FAST_SMELTERY:
+    name: '&aFast Smeltery'
+    lore:
+    - '&7More useful Smeltery.'
+    - '&7Craft without need to put items in order.'
+  FAST_PRESSURE_CHAMBER:
+    name: '&aFast Pressure Chamber'
+    lore:
+    - '&7More useful Pressure Chamber.'
+    - '&7Craft without need to put items in order.'
+  FAST_MAGIC_WORKBENCH:
+    name: '&aFast Magic Workbench'
+    lore:
+    - '&7More useful Magic Workbench.'
+    - '&7Craft without need to put items in order.'
+  FAST_ORE_WASHER:
+    name: '&aFast Ore Washer'
+    lore:
+    - '&7More useful Ore Washer.'
+    - '&7Craft without need to put items in order.'
+  FAST_TABLE_SAW:
+    name: '&aFast Table Saw'
+    lore:
+    - '&7More useful Table Saw.'
+    - '&7Craft without need to put items in order.'
+  FAST_COMPOSTER:
+    name: '&aFast Composter'
+    lore:
+    - '&7More useful Composter.'
+    - '&7Craft without need to put items in order.'
+  FAST_PANNING_MACHINE:
+    name: '&aFast Panning Machine'
+    lore:
+    - '&7More useful Automated Panning Machine.'
+    - '&7Craft without need to put items in order.'
+  FAST_JUICER:
+    name: '&aFast Juicer'
+    lore:
+    - '&7More useful Juicer.'
+    - '&7Craft without need to put items in order.'
+  FAST_ANCIENT_ALTAR:
+    name: '&aFast Ancient Altar'
+    lore:
+    - '&7More useful Ancient Altar.'
+    - '&7Craft without need to put items in order.'
+  FAST_INFINITY_WORKBENCH:
+    name: '&aFast Infinity Workbench'
+    lore:
+    - '&7More useful Infinity Workbench.'
+    - '&7Craft without need to put items in order.'
+  FAST_MOB_DATA_INFUSER:
+    name: '&aFast Mob Data Infuser'
+    lore:
+    - '&7More useful Mob Data Infuser.'
+    - '&7Craft without need to put items in order.'
+  FAST_SLIMEFRAME_FOUNDRY:
+    name: '&aFast SlimeFrame Foundry'
+    lore:
+    - '&7More useful SlimeFrame Foundry.'
+    - '&7Craft without need to put items in order.'
+
+lores:
+  per-craft: ' &7per craft'
+
+messages:
+  not-enough-energy: '&cNot enough energy!'
+  not-enough-materials: '&cNot enough materials!'
+  not-enough-space: '&cNot enough space in the machine! The items will be sent to
+    your inventory. If your inventory is full, the items will be dropped on the ground.'

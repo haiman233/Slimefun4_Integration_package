@@ -1,0 +1,97 @@
+# All other config will be generated after starting server
+
+tweak:
+  range-limit:
+    _FINALTECH_ITEM_DISMANTLE_TABLE:
+      range: 8
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_ORDERED_DUST_FACTORY_DIRT:
+      range: 8
+      mul-range: 2
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_ORDERED_DUST_FACTORY_STONE:
+      range: 8
+      mul-range: 2
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_MATRIX_REACTOR:
+      range: 8
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE:
+      range: 8
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_ETHER_MINER:
+      range: 8
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_ENTROPY_SEED:
+      range: 128
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_MATRIX_ACCELERATOR:
+      range: 32
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+    _FINALTECH_EQUIVALENT_EXCHANGE_TABLE:
+      range: 512
+      mul-range: 0
+      drop-self: true
+      message: '{1} 不被允许放的太近 ;)'
+  performance-limit:
+    item:
+    - _FINALTECH_ORDERED_DUST_FACTORY_DIRT
+    - _FINALTECH_ORDERED_DUST_FACTORY_STONE
+    addon: []
+  anti-accelerate:
+    item:
+    - ENTROPY_SEED
+    - EQUIVALENT_CONCEPT
+    - MATRIX_GENERATOR
+    - MATRIX_REACTOR
+    addon: []
+  interval:
+    general:
+      _FINALTECH_FUEL_OPERATOR: 1
+    independent:
+      ANY_SLIMEFUN_ITEM_ID: 2
+  no-blockTicker:
+    item:
+    - _FINALTECH_NORMAL_STORAGE_UNIT
+    addon: []
+  force-async:
+    item: []
+    addon: []
+language: zh-CN
+version: '202406'
+enable:
+  item: true
+update:
+  enable: true
+  language: true
+seed: 2322274907599503914
+debug-mode: false
+multi-thread:
+  level: 0
+force-slimefun-multi-thread:
+  enable: false
+data-loss-fix:
+  enable: false
+data-loss-fix-custom:
+  enable: false
+valid-item-seed: 2967009369293270111
+setups:
+  item-value-table:
+    delay: 10
+  slimefun-machine:
+    delay: 20
+super-ban: false

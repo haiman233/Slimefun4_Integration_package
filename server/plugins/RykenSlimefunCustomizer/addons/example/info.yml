@@ -1,0 +1,8 @@
+id: example
+name: "示例附属"
+depends: []
+pluginDepends: []
+version: "1.0"
+description: "RSC示例附属"
+authors: ["mmmjjkx"]
+repo: "SlimefunReloadingProject/rsc-example"

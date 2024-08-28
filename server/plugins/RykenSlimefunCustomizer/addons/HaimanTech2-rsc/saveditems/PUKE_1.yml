@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3463
+  type: YELLOW_SHULKER_BOX
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"海曼牌扑克"},{"bold":true,"italic":false,"color":"yellow","text":"(黑桃/梅花/小王)"}],"text":""}'
+    internal: H4sIAAAAAAAA/92Yy27TQBSGT+ykSQy05dJy26BZd1HukB0gFoCEQLBDqBo7k9hk7KnGY9Gq6gqxAYmqvAE8Aax5Hgq8BaZEqZNqRmSsUB1nZ4+PJz7f/GfO/B6AB/N3uQgG9xMVqc3ntN8CJ+rCUhwlLJC0pzppmPEBk2u+2GhD44FiceoBwMUa1J9xoeBvwPJBwOswUmzNp0nCZA0a90SWqJoHrqJ9D5rdKF3ndLMF9cc0ZrC7RdiGkpR0XmwRX/Au6fQoT9kKiRTlUTC6zJIukzyf5OCJVMlowFQoRdYPR3eF38vSgKrCg4HgQpIO2f9nZIWofMr88te33b1Pby5dIdsvR/fI9uGUtKH1hCrFZLL/5XMtaA6vwVGp++cT8/fnIwtQHIplYQiKQ26Xa8PcwBe6OMfXzzYRlf+GgGqHAPmcBgNEgK6WAaSn4MR6CLF4pQ2Tlux0gBz0Cro2JaBGMS8GKYShbwHPAEgPwUUP4XoZlRgKi6mMWUrBUDS1gOroy9iN2ZQxN5DMRiUG5HpJ6vk00AvoZhk+hpSNMYB/LnB6kZjaBz2gOfSAbs2qUbMSiWGXscHTRI/n9mz0Y9sFGIDbNAitcnw+Hj2fy6tTAnKKiUmD6XPWRr+mH86ms3XC0OaMZ7NuPfR909MyDAzHP8sCLqdncAy9Dh6VYGA6JhiEYOxybHbY4+gp3CmjBMN+aMimAZ2pbdIxOIGXwd7ntz/ffa26WziPd7sYAqq4W7iAXkEVcAsX0UOouFt4En0Zq7ZbeAq9gCruFp5GD6jSbuEZ9Hiq7RYu4XULh3z+v1u4jH5N43cLz6Lvm/C7hefQ66AKbuF59BTwu4UXylWjnSNk8P3Lzo8P78v0OGNb6Pha92Wk7X96vJhN1zA2cYBQ2lf2ZTYJCOA3LMqOBDwqAAA=
+    blockMaterial: YELLOW_SHULKER_BOX

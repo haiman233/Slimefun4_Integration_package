@@ -1,0 +1,18 @@
+slimefun_expansion:
+  type: "nested"
+  tier: 1
+  item:
+    name: "{#55FFFF>}粘液科技拓展{#FF55FF<}"
+    material: SLIME_BLOCK
+slimefun_expansion_material:
+  type: "sub"
+  parent: "slimefun_expansion"
+  item:
+    name: "{#ff3333>}材料{#ff7744<}"
+    material: FLINT
+slimefun_expansion_energy:
+  type: "sub"
+  parent: "slimefun_expansion"
+  item:
+    name: "{#55FF55>}能源与电力{#55FFFF<}"
+    material: REDSTONE_LAMP

@@ -1,0 +1,1224 @@
+HAIMAN_EXAMPLE_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&b&l空岛发电机'
+    lore:
+    - '&7空岛福利型发电机！'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 1000 J 可存储'
+    - '&8⇨ &e⚡&7 20 J/s'
+    material_type: skull_hash
+    material: 281cc64b045b18a3a419c595ad658f6ce2c599949477afe42a6b587aa315bf
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COAL_GENERATOR
+      amount: 1
+    6:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+  capacity: 1000
+  production: 10
+  fuels:
+    '1':
+      seconds: 2
+      item:
+        material_type: mc
+        material: COBBLESTONE
+        amount: 1
+    '2':
+      seconds: 12
+      item:
+        material_type: mc
+        material: ROTTEN_FLESH
+        amount: 2
+      output:
+        material_type: mc
+        material: DIRT
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+LILY_PAD_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&2&l莲叶发电机'
+    lore:
+    - '&6用莲叶发电'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 1000000 J 可存储'
+    - '&8⇨ &e⚡&7 40000 J/s'
+    material_type: skull_hash
+    material: 40ccf84be049bdc9a988bd274e70d9680381b8a5e8634995bbb876a883b4a4f2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FOOD_FABRICATOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FOOD_FABRICATOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COAL_GENERATOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    7:
+      material_type: mc
+      material: LILY_PAD
+      amount: 1
+    8:
+      material_type: mc
+      material: WATER_BUCKET
+      amount: 1
+    9:
+      material_type: mc
+      material: LILY_PAD
+      amount: 1
+  capacity: 1000000
+  production: 20000
+  fuels:
+    '1':
+      seconds: 520
+      item:
+        material_type: mc
+        material: LILY_PAD
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+MAN_MADE_SUN:
+  lateInit: true
+  item_group: slime_customizer_xingji
+  item:
+    name: '&4&l人造小太阳'
+    lore:
+    - '&7吼，托卡马克装置，利用核聚变发电'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 12800000 J 可存储'
+    - '&8⇨ &e⚡&7 3600100 J/s'
+    material_type: skull_hash
+    material: b89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MOLECULAR_RECOMBINATION_INSTRUMENT_III
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HT_MODULE_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+  capacity: 12800000
+  production: 1800050
+  fuels:
+    '1':
+      seconds: 12000
+      item:
+        material_type: slimefun
+        material: H_FUEL
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+MAN_MADE_GALAXY:
+  lateInit: true
+  item_group: slime_customizer_xingji
+  item:
+    name: '&d&l人造银河系'
+    lore:
+    - '&7当一个银河系的能量被集中于此...'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 120000000 J 可存储'
+    - '&8⇨ &e⚡&7 37500000 J/s'
+    material_type: skull_hash
+    material: 9d3d250e25bbca3a62be5b3ef02cfcab6dcdc424884c9a7d5cc95c9d0
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HT_MODULE_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAN_MADE_SUN
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HT_MODULE_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAN_MADE_SUN
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+  capacity: 120000000
+  production: 18750000
+  fuels:
+    '1':
+      seconds: 21000
+      item:
+        material_type: slimefun
+        material: HD_FUEL
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+MAN_MADE_BLACK_HOLE:
+  lateInit: true
+  item_group: slime_customizer_xingji
+  item:
+    name: '&8&l人造黑洞'
+    lore:
+    - '&7黑洞...要来了...'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 2000000000 J 可存储'
+    - '&8⇨ &e⚡&7 450000000 J/s'
+    material_type: skull_hash
+    material: 65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    3:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    7:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HT_MODULE_1
+      amount: 1
+    9:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 1
+  capacity: 2000000000
+  production: 225000000
+  fuels:
+    '1':
+      seconds: 32000
+      item:
+        material_type: slimefun
+        material: HDB_FUEL
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+MAN_MADE_UNIVERSE:
+  lateInit: true
+  item_group: slime_customizer_xingji
+  item:
+    name: '&7&l人&8&l造&7&l宇&8&l宙'
+    lore:
+    - '&7它所散发出的能量...溢满了整个宇宙...'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 2147483647 J 可存储'
+    - '&8⇨ &e⚡&7 4294967294 J/s'
+    material_type: skull_hash
+    material: c6cac59b2aae489aa0687b5d802b2555eb14a40bd62b21eb116fa569cdb756
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HT_MODULE_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HT_MODULE_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAN_MADE_BLACK_HOLE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAN_MADE_BLACK_HOLE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+  capacity: 2147483647
+  production: 2147483647
+  fuels:
+    '1':
+      seconds: 64000
+      item:
+        material_type: slimefun
+        material: HDBU_FUEL
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_ELEMENT_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&a&l元素发电机'
+    lore:
+    - '&7用自然土木进行发电'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 9200 J 可存储'
+    - '&8⇨ &e⚡&7 150 J/s'
+    material_type: skull_hash
+    material: 3d045ca3e8a29e19931656362e12477633a689c4801d8e21f7da0f80cc59e56b
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+    4:
+      material_type: mc
+      material: LAVA_BUCKET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: mc
+      material: LAVA_BUCKET
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 9200
+  production: 75
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: STONE_CHUNK
+        amount: 4
+    '2':
+      seconds: 1
+      item:
+        material_type: mc
+        material: STONE
+        amount: 1
+    '3':
+      seconds: 1
+      item:
+        material_type: mc
+        material: CLAY_BALL
+        amount: 2
+    '4':
+      seconds: 1
+      item:
+        material_type: mc
+        material: DIRT
+        amount: 1
+    '5':
+      seconds: 3
+      item:
+        material_type: mc
+        material: OAK_LOG
+        amount: 1
+    '6':
+      seconds: 1
+      item:
+        material_type: mc
+        material: SAND
+        amount: 1
+    '7':
+      seconds: 1
+      item:
+        material_type: mc
+        material: COBBLESTONE
+        amount: 4
+    '8':
+      seconds: 1
+      item:
+        material_type: mc
+        material: FLINT
+        amount: 2
+    '9':
+      seconds: 1
+      item:
+        material_type: mc
+        material: IRON_NUGGET
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_MAGMA_BLOCK_MACHINE:
+  lateInit: true
+  item_group: slime_customizer_yitihua
+  item:
+    name: '&4&l岩浆块一体机'
+    lore:
+    - '&7既可以生产岩浆块又可以发电'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 400 J 可存储'
+    - '&8⇨ &e⚡&7 8 J/s'
+    material_type: skull_hash
+    material: a9a5a1e69b4f8105625752bcee25340664b089fa1b2f527fa9143d9066a7aad2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: DAMASCUS_STEEL_INGOT
+      amount: 1
+    4:
+      material_type: mc
+      material: LAVA_BUCKET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: mc
+      material: LAVA_BUCKET
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 400
+  production: 4
+  fuels:
+    '1':
+      seconds: 3
+      item:
+        material_type: mc
+        material: COBBLESTONE
+        amount: 8
+      output:
+        material_type: mc
+        material: MAGMA_BLOCK
+        amount: 3
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_POWER_OFF_MACHINE_0:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l卸电机 &8(元电荷)'
+    lore:
+    - '&7从元电荷中卸载电能'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 1250 J 可存储'
+    - '&8⇨ &e⚡&7 2500 J/s'
+    material_type: skull_hash
+    material: 3a7cda9004fc197d66afbc2b003a5b9ef13cf4600b1fc7490067590f047181e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: mc
+      material: COPPER_ORE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    6:
+      material_type: mc
+      material: COPPER_ORE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      amount: 1
+  capacity: 1250
+  production: 1250
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: HAIMAN_ELECTRIC_ENERGY
+        amount: 5
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_POWER_OFF_MACHINE_1:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l卸电机 &8(海曼)'
+    lore:
+    - '&7从海曼电单元中卸载电能'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 9088 J 可存储'
+    - '&8⇨ &e⚡&7 18176 J/s'
+    material_type: skull_hash
+    material: cfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: mc
+      material: TUFF
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: mc
+      material: TUFF
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 9088
+  production: 9088
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: HAIMAN_ELECTRIC_UNIT_FULL
+        amount: 8
+      output:
+        material_type: slimefun
+        material: HAIMAN_ELECTRIC_UNIT_EMPTY
+        amount: 8
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_POWER_OFF_MACHINE_2:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l卸电机 &8(库伦)'
+    lore:
+    - '&7从库伦电单元中卸载电能'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 81824 J 可存储'
+    - '&8⇨ &e⚡&7 163648 J/s'
+    material_type: skull_hash
+    material: cfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_POWER_OFF_MACHINE_1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 81824
+  production: 81824
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: KULUN_ELECTRIC_UNIT_FULL
+        amount: 4
+      output:
+        material_type: slimefun
+        material: KULUN_ELECTRIC_UNIT_EMPTY
+        amount: 4
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_POWER_OFF_MACHINE_3:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l卸电机 &8(雷伊)'
+    lore:
+    - '&7从雷伊电单元中卸载电能'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 6628035 J 可存储'
+    - '&8⇨ &e⚡&7 13256070 J/s'
+    material_type: skull_hash
+    material: cfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_POWER_OFF_MACHINE_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 6628035
+  production: 6628035
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: LEIYI_ELECTRIC_UNIT_FULL
+        amount: 1
+      output:
+        material_type: slimefun
+        material: LEIYI_ELECTRIC_UNIT_EMPTY
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_POWER_OFF_MACHINE_4:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l卸电机 &8(无尽)'
+    lore:
+    - '&7从无尽电单元中卸载电能'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 119304647 J 可存储'
+    - '&8⇨ &e⚡&7 238609294 J/s'
+    material_type: skull_hash
+    material: cfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_POWER_OFF_MACHINE_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 119304647
+  production: 119304647
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: INFINITE_ELECTRIC_UNIT_FULL
+        amount: 1
+      output:
+        material_type: slimefun
+        material: INFINITE_ELECTRIC_UNIT_EMPTY
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_POWER_OFF_MACHINE_5:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l卸电机 &8(量子)'
+    lore:
+    - '&7从量子电单元中卸载电能'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 2147483647 J 可存储'
+    - '&8⇨ &e⚡&7 4294967294 J/s'
+    material_type: skull_hash
+    material: cfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_POWER_OFF_MACHINE_4
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  capacity: 2147483647
+  production: 2147483647
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: LIANGZI_ELECTRIC_UNIT_FULL
+        amount: 1
+      output:
+        material_type: slimefun
+        material: LIANGZI_ELECTRIC_UNIT_EMPTY
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+ADVANCED_NUCLEAR_REACTOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&e高级核反应堆'
+    lore:
+    - '&f不需要冷却剂的高级反应堆'
+    - '&a不会爆炸'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 4000 J 可存储'
+    - '&8⇨ &e⚡&7 4000 J/s'
+    material_type: skull_hash
+    material: a5bec76d65a868a5be5173d3b9e1775b54046f62035c1552440ede9973a90e1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: EXTREME_FREEZER
+      amount: 1
+    2:
+      material_type: slimefun
+      material: REACTOR_ACCESS_PORT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: EXTREME_FREEZER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FREEZER_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FREEZER_2
+      amount: 1
+  capacity: 4000
+  production: 2000
+  fuels:
+    '1':
+      seconds: 1200
+      item:
+        material_type: slimefun
+        material: URANIUM
+        amount: 1
+    '2':
+      seconds: 1500
+      item:
+        material_type: slimefun
+        material: NEPTUNIUM
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+RADIOISOTOPE_THERMOELECTRIC_MACHINE_T:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&3&l放射性同位素热电机&a-&6&l钍'
+    lore:
+    - '&6&l原子能电池'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 24000 J 可存储'
+    - '&8⇨ &e⚡&7 24000 J/s'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_NUCLEAR_REACTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_NUCLEAR_REACTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: THORIUM
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+  capacity: 24000
+  production: 12000
+  fuels:
+    '1':
+      seconds: 1450
+      item:
+        material_type: slimefun
+        material: THORIUM
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_FDTIAODIAN_MAHCINE_G:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&c&l个位发电式调电仪'
+    lore:
+    - '&7校准电量'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 1 J 可存储'
+    - '&8⇨ &e⚡&7 2 J/s'
+    material_type: skull_hash
+    material: 776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+  capacity: 1
+  production: 1
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+      output:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_FDTIAODIAN_MAHCINE_S:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&c&l十位发电式调电仪'
+    lore:
+    - '&7校准电量'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 10 J 可存储'
+    - '&8⇨ &e⚡&7 20 J/s'
+    material_type: skull_hash
+    material: 776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_FDTIAODIAN_MAHCINE_G
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+  capacity: 10
+  production: 10
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+      output:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_FDTIAODIAN_MAHCINE_B:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&c&l百位发电式调电仪'
+    lore:
+    - '&7校准电量'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 100 J 可存储'
+    - '&8⇨ &e⚡&7 200 J/s'
+    material_type: skull_hash
+    material: 776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_FDTIAODIAN_MAHCINE_S
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+  capacity: 100
+  production: 100
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+      output:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_FDTIAODIAN_MAHCINE_Q:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&c&l千位发电式调电仪'
+    lore:
+    - '&7校准电量'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 1000 J 可存储'
+    - '&8⇨ &e⚡&7 2000 J/s'
+    material_type: skull_hash
+    material: 776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_FDTIAODIAN_MAHCINE_B
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+  capacity: 1000
+  production: 1000
+  fuels:
+    '1':
+      seconds: 1
+      item:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+      output:
+        material_type: mc
+        material: REDSTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]

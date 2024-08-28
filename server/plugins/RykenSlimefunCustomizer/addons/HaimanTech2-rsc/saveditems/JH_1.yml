@@ -1,0 +1,28 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WRITABLE_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"7.23战役失败方赔款书"}],"text":""}'
+    pages:
+    - |-
+      由于723事件中WaterBase首领water_520成功突袭了李康贤
+      导致李康贤无力反抗
+      最终战败
+      本文档是water对李康贤的战争赔款的要求
+    - |-
+      ----------------------------
+
+      前10天:每天16个铁、2个钻石、50游戏币
+      前20天:每天32个铁、8个压缩碳，第二十天给一台无尽的基础磨粉机、100游戏币
+      前30天:每天所有矿粉各64个，第三十天给一台虚空收集器、200游戏币
+      前40天:每天所有矿粉各128个，第四十天给一台无尽的基础结构机、400游戏币
+    - |
+      前50天:每天所有矿粉各256个，第五十天给2个无尽锭、800游戏币
+      前60天:每天所有矿粉各512个，第六十天给4个无尽锭、1600游戏币
+      第70天:4个无尽结构
+      ----------------------------
+    - "由water撰写\nID:haiman233(魔芋管理)监督李康贤赔款\n战胜国签字:WOWater_❤   \n战败国签字:           \
+      \              \n总督签字:"

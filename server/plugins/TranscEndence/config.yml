@@ -1,0 +1,28 @@
+guide:
+  recieve-on-first-join: false
+options:
+  zot-required-charge: 1000
+  auto-update: true
+  instability-update-interval: 10
+  enable-instability-effects: true
+  daxi-regen-update-interval: 10
+  enable-daxi-regen-effects: true
+  give-guide-on-first-join: true
+  polarizer-affinity-chance: 40
+  unstable-death-message: ' 试图变得不稳定. 他成功了.'
+  daxi-message-intro: 你感受到力量在你的血管中流动.
+  daxi-message-strength: 你的攻击更加迅猛.
+  daxi-message-absorption: 你感到更加健康了.
+  daxi-message-fortitude: 敌人的攻击效果变弱了.
+  daxi-message-saturation: 一段时间内你不再需要食物了.
+  daxi-message-regeneration: 你获得了永久的自愈效果.
+  already-have-daxi-effect: 你已经激活了该超能力核心!
+  droppable-unstable-ingots: true
+  unstable-ingots-message-undroppable: 你不能丢弃不稳定的锭!
+
+daxi-effects:
+  strength-level: 3
+  absorption-level: 5
+  fortitude-level: 4
+  saturation-level: 1
+  regeneration-level: 2

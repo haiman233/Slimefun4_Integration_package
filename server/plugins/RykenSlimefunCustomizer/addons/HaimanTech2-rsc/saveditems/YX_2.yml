@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ARMOR_STAND
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR_STAND
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"隐形盔甲架"}],"text":""}'
+    internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTOdgYMpMYRDNzcxLTS5KTCuxSizKzS+KLy5JzEthZOD0zCvLLM5MykllZGAAAM6Dr+86AAAA
+    invisible: true

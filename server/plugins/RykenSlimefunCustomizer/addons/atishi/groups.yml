@@ -1,0 +1,16 @@
+zhenghebao:
+  lateInit: false
+  type: nested
+  item:
+    material_type: mc
+    material: BAMBOO_SIGN
+    name: '&6&l感谢您游玩粘液科技整合包'
+  tier: 0
+zhenghebao_info:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: OAK_SIGN
+    name: '&c&l本整合包是完全公开免费的'
+  parent: zhenghebao

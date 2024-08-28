@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHEST
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"牧师的礼物"}],"text":""}'
+    internal: H4sIAAAAAAAA/wXBMQqAMAwAwIzawXe49Q+Cm2P3EkuaBqOREoT+3rsAEGDZ1Mq1Py4+EvIE82HmCU8lWBlvehVHbNQtW83eKH+iikyxKHUpmaU6wA/7E/eWTAAAAA==
+    blockMaterial: CHEST

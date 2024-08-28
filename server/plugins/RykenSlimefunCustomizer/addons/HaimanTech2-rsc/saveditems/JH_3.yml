@@ -1,0 +1,166 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FIREWORK_ROCKET
+  meta:
+    ==: ItemMeta
+    meta-type: FIREWORK
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"新婚礼花"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"新婚快乐"}],"text":""}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    firework-effects:
+    - ==: Firework
+      flicker: true
+      trail: true
+      colors:
+      - ==: Color
+        RED: 123
+        BLUE: 190
+        GREEN: 47
+      fade-colors:
+      - ==: Color
+        RED: 179
+        BLUE: 44
+        GREEN: 49
+      type: STAR
+    - ==: Firework
+      flicker: false
+      trail: true
+      colors:
+      - ==: Color
+        RED: 179
+        BLUE: 44
+        GREEN: 49
+      - ==: Color
+        RED: 235
+        BLUE: 68
+        GREEN: 136
+      fade-colors:
+      - ==: Color
+        RED: 222
+        BLUE: 42
+        GREEN: 207
+      type: BALL_LARGE
+    - ==: Firework
+      flicker: true
+      trail: false
+      colors:
+      - ==: Color
+        RED: 40
+        BLUE: 151
+        GREEN: 118
+      - ==: Color
+        RED: 123
+        BLUE: 190
+        GREEN: 47
+      fade-colors:
+      - ==: Color
+        RED: 216
+        BLUE: 152
+        GREEN: 129
+      type: BURST
+    - ==: Firework
+      flicker: true
+      trail: true
+      colors:
+      - ==: Color
+        RED: 30
+        BLUE: 27
+        GREEN: 27
+      fade-colors:
+      - ==: Color
+        RED: 37
+        BLUE: 146
+        GREEN: 49
+      type: CREEPER
+    - ==: Firework
+      flicker: true
+      trail: false
+      colors:
+      - ==: Color
+        RED: 102
+        BLUE: 211
+        GREEN: 137
+      fade-colors:
+      - ==: Color
+        RED: 65
+        BLUE: 52
+        GREEN: 205
+      type: BALL
+    - ==: Firework
+      flicker: false
+      trail: true
+      colors:
+      - ==: Color
+        RED: 195
+        BLUE: 205
+        GREEN: 84
+      - ==: Color
+        RED: 30
+        BLUE: 27
+        GREEN: 27
+      fade-colors:
+      - ==: Color
+        RED: 235
+        BLUE: 68
+        GREEN: 136
+      type: STAR
+    - ==: Firework
+      flicker: true
+      trail: true
+      colors:
+      - ==: Color
+        RED: 240
+        BLUE: 240
+        GREEN: 240
+      - ==: Color
+        RED: 222
+        BLUE: 42
+        GREEN: 207
+      fade-colors:
+      - ==: Color
+        RED: 216
+        BLUE: 152
+        GREEN: 129
+      type: BALL_LARGE
+    - ==: Firework
+      flicker: true
+      trail: true
+      colors:
+      - ==: Color
+        RED: 40
+        BLUE: 151
+        GREEN: 118
+      fade-colors:
+      - ==: Color
+        RED: 179
+        BLUE: 44
+        GREEN: 49
+      type: BURST
+    - ==: Firework
+      flicker: true
+      trail: true
+      colors:
+      - ==: Color
+        RED: 67
+        BLUE: 67
+        GREEN: 67
+      - ==: Color
+        RED: 179
+        BLUE: 44
+        GREEN: 49
+      fade-colors:
+      - ==: Color
+        RED: 235
+        BLUE: 68
+        GREEN: 136
+      type: CREEPER
+    power: 1

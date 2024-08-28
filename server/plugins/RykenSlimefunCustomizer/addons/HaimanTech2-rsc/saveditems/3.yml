@@ -1,0 +1,35 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2865
+  type: BLAZE_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_red","text":"虎年限定"},{"italic":false,"color":"gray","text":"]"},{"bold":true,"italic":false,"color":"gold","text":"逗虎棍"}],"text":""}'
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.75
+        name: GENERIC_MOVEMENT_SPEED
+        slot: OFF_HAND
+        uuid: bedf6b27-d8eb-44ab-8782-4561cf76a081
+        operation: 1
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.75
+        name: GENERIC_MOVEMENT_SPEED
+        slot: HAND
+        uuid: ee6c6bc8-4d7c-4a6e-916d-36139cc52273
+        operation: 1
+      GENERIC_FLYING_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.6
+        name: GENERIC_FLYING_SPEED
+        slot: HAND
+        uuid: bfb82aa9-ebb8-4bc6-829b-08f4cd50c5bf
+        operation: 1
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.6
+        name: GENERIC_FLYING_SPEED
+        slot: OFF_HAND
+        uuid: a6688118-df97-4850-ba09-92eddea038f3
+        operation: 1

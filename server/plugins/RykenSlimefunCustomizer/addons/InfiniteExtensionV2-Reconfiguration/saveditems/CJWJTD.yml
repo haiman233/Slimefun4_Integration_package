@@ -1,0 +1,19 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"text":"§e超§a级§b无§d尽§5土§6豆"}'
+    enchants:
+      FIRE_ASPECT: 255
+      KNOCKBACK: 30
+      LOOT_BONUS_MOBS: 10
+      DAMAGE_ALL: 10
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 78b5d80b-b386-41d3-b2d2-6f4994508b80
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIyNWE1OWE4YTZjMmRhYjJlMTcxYjVhMjAxNTEzNjg5NmRhMGY1ZjFlYTg3ZWU3MDYxOTQyMDk4NWNjNzQ5NyJ9fX0=

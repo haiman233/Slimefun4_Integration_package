@@ -1,0 +1,37 @@
+
+options:
+
+  # Auto update
+  auto-update: false
+
+  # Bump language (Available languages: https://github.com/SlimefunGuguProject/Bump#supported-languages)
+  lang: zh-CN
+
+  # Enable researches
+  enable-researches: true
+
+weapons:
+
+  # The duration of projectiles launched by any Bump weapon (in Slimefun ticks)
+  projectile-duration: 10
+
+# Appraise system
+appraise:
+
+  # The thresholds of stars (appraise result levels).
+  # The star is determined by the calculation of overall appraise result.
+  stars:
+    '100': 20
+    '98': 10
+    '96': 9
+    '92': 8
+    '88': 7
+    '82': 6
+    '74': 5
+    '64': 4
+    '48': 3
+    '30': 2
+    '10': 1
+
+# DO NOT modify this
+version: 4

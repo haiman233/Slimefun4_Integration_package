@@ -1,0 +1,9 @@
+id: InfiniteExtensionV2-Reconfiguration
+name: InfiniteExtensionV2-Reconfiguration
+depends: []
+pluginDepends: []
+version: Release-1.4
+description: 在摆烂鸽的基础上添加了可以自动化无尽的机器
+authors:
+- lyen
+repo: https://github.com/LuoYe5555/InfiniteExtensionV2-Reconfiguration

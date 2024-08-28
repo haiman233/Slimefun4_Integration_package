@@ -1,0 +1,2966 @@
+enable-researching: true
+slimefun:
+  walking_sticks:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  portable_crafter:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  fortune_cookie:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  portable_dustbin:
+    cost: 2
+    currency-cost: 50.0
+    enabled: true
+  meat_jerky:
+    cost: 2
+    currency-cost: 50.0
+    enabled: true
+  armor_forge:
+    cost: 2
+    currency-cost: 50.0
+    enabled: true
+  glowstone_armor:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  lumps:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  ender_backpack:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  ender_armor:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  magic_eye_of_ender:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  magic_sugar:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  monster_jerky:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  slime_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  sword_of_beheading:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  basic_circuit_board:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  advanced_circuit_board:
+    cost: 9
+    currency-cost: 225.0
+    enabled: true
+  smeltery:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  steel:
+    cost: 11
+    currency-cost: 275.0
+    enabled: true
+  misc_power_items:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  battery:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  steel_plate:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  steel_thruster:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  parachute:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  grappling_hook:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  jetpacks:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  multitools:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  solar_panel_and_helmet:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  elemental_staff:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  grind_stone:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  cactus_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  gold_pan:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  magical_book_cover:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  slimefun_metals:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  ore_crusher:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  bronze:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  alloys:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  compressor_and_carbon:
+    cost: 9
+    currency-cost: 225.0
+    enabled: true
+  gilded_iron_armor:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  synthetic_diamond:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  pressure_chamber:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  synthetic_sapphire:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  damascus_steel:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  damascus_steel_armor:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  reinforced_alloy:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  carbonado:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  magic_workbench:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  wind_staff:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  reinforced_armor:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  ore_washer:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  gold_carats:
+    cost: 7
+    currency-cost: 175.0
+    enabled: true
+  silicon:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  fire_staff:
+    cost: 2
+    currency-cost: 50.0
+    enabled: true
+  smelters_pickaxe:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  common_talisman:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  anvil_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  miner_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  hunter_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  lava_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  water_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  angel_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  fire_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  lava_crystal:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  magician_talisman:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  traveller_talisman:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  warrior_talisman:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  knight_talisman:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  gilded_iron:
+    cost: 11
+    currency-cost: 275.0
+    enabled: true
+  synthetic_emerald:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  chainmail_armor:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  whirlwind_talisman:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  wizard_talisman:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  lumber_axe:
+    cost: 21
+    currency-cost: 525.0
+    enabled: true
+  hazmat_suit:
+    cost: 21
+    currency-cost: 525.0
+    enabled: true
+  uranium:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  crushed_ore:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  redstone_alloy:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  carbonado_tools:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  first_aid:
+    cost: 2
+    currency-cost: 50.0
+    enabled: true
+  gold_armor:
+    cost: 13
+    currency-cost: 325.0
+    enabled: true
+  night_vision_googles:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  pickaxe_of_containment:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  table_saw:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  slime_steel_armor:
+    cost: 27
+    currency-cost: 675.0
+    enabled: true
+  blade_of_vampires:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  water_staff:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  24k_gold_block:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  composter:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  farmer_shoes:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  explosive_tools:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  automated_panning_machine:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  boots_of_the_stomper:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  pickaxe_of_the_seeker:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  backpacks:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  woven_backpack:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  crucible:
+    cost: 13
+    currency-cost: 325.0
+    enabled: true
+  gilded_backpack:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  armored_jetpack:
+    cost: 27
+    currency-cost: 675.0
+    enabled: true
+  ender_talismans:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  nickel_and_cobalt:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  magnet:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  infused_magnet:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  cobalt_pickaxe:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  essence_of_afterlife:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  bound_backpack:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  jetboots:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  armored_jetboots:
+    cost: 27
+    currency-cost: 675.0
+    enabled: true
+  seismic_axe:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  pickaxe_of_vein_mining:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  bound_weapons:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  bound_tools:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  bound_armor:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  juicer:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  repaired_spawner:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  enhanced_furnace:
+    cost: 7
+    currency-cost: 175.0
+    enabled: true
+  more_enhanced_furnaces:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  high_tier_enhanced_furnaces:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  reinforced_furnace:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  carbonado_furnace:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  electric_motor:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  block_placer:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  scroll_of_dimensional_teleposition:
+    cost: 38
+    currency-cost: 950.0
+    enabled: true
+  special_bows:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  tome_of_knowledge_sharing:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  flask_of_knowledge:
+    cost: 13
+    currency-cost: 325.0
+    enabled: true
+  hardened_glass:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  golden_apple_juice:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  cooler:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  ancient_altar:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  wither_proof_obsidian:
+    cost: 21
+    currency-cost: 525.0
+    enabled: true
+  ancient_runes:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  special_runes:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  infernal_bonemeal:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  rainbow_blocks:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  infused_hopper:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  wither_proof_glass:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  duct_tape:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  plastic_sheet:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  android_memory_core:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  oil:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  fuel:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  hologram_projector:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  capacitors:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  high_tier_capacitors:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  solar_generators:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  electric_furnaces:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  electric_ore_grinding:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  heated_pressure_chamber:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  coal_generator:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  bio_reactor:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  auto_enchanting:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  auto_anvil:
+    cost: 34
+    currency-cost: 850.0
+    enabled: true
+  multimeter:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  gps_setup:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  gps_emergency_transmitter:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  programmable_androids:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  android_interfaces:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  geo_scanner:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  combustion_reactor:
+    cost: 38
+    currency-cost: 950.0
+    enabled: true
+  teleporter:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  teleporter_activation_plates:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  better_solar_generators:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  better_gps_transmitters:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  elevator:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  energized_solar_generator:
+    cost: 44
+    currency-cost: 1100.0
+    enabled: true
+  energized_gps_transmitter:
+    cost: 44
+    currency-cost: 1100.0
+    enabled: true
+  energy_regulator:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  butcher_androids:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  organic_food:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  auto_breeder:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  advanced_android:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  advanced_butcher_android:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  advanced_fisherman_android:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  animal_growth_accelerator:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  xp_collector:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  organic_fertilizer:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  crop_growth_accelerator:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  better_crop_growth_accelerator:
+    cost: 44
+    currency-cost: 1100.0
+    enabled: true
+  reactor_essentials:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  nuclear_reactor:
+    cost: 48
+    currency-cost: 1200.0
+    enabled: true
+  freezer:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  cargo_basics:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  cargo_nodes:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  electric_ingot_machines:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  medium_tier_electric_ingot_machines:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  high_tier_electric_ingot_machines:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  better_food_fabricator:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  reactor_access_port:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  fluid_pump:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  better_freezer:
+    cost: 29
+    currency-cost: 725.0
+    enabled: true
+  boosted_uranium:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  trash_can:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  advanced_output_node:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  carbon_press:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  electric_smeltery:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  better_electric_furnace:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  better_carbon_press:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  empowered_android:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  empowered_butcher_android:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  empowered_fisherman_android:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  high_tier_carbon_press:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  wither_assembler:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  better_heated_pressure_chamber:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  elytra:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  special_elytras:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  electric_crucible:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  better_electric_crucibles:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  advanced_electric_smeltery:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  advanced_farmer_android:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  lava_generator:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  nether_ice:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  nether_star_reactor:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  blistering_ingots:
+    cost: 38
+    currency-cost: 950.0
+    enabled: true
+  automatic_ignition_chamber:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  output_chest:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  copper_wire:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  radiant_backpack:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  auto_drier:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  diet_cookie:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  storm_staff:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  soulbound_rune:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  geo_miner:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  lightning_rune:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  totem_of_undying:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  charging_bench:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  nether_gold_pan:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  electric_press:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  magnesium_generator:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  kelp_cookie:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  makeshift_smeltery:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  tree_growth_accelerator:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  industrial_miner:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  advanced_industrial_miner:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  magical_zombie_pills:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  auto_brewer:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  enchantment_rune:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  lead_clothing:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  tape_measure:
+    cost: 7
+    currency-cost: 175.0
+    enabled: true
+  iron_golem_assembler:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  shulker_shell:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  villager_rune:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  climbing_pick:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  even_higher_tier_capacitors:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  caveman_talisman:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  elytra_cap:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  energy_connectors:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  bee_armor:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  wise_talisman:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  book_binder:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  auto_crafting:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  produce_collector:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  improved_generators:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  ingredients_and_cheese:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  medium_tier_auto_enchanting:
+    cost: 48
+    currency-cost: 1200.0
+    enabled: true
+  portable_teleporter:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  trident:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  farmer_talisman:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  rainbow_armor:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+litexpansion:
+  sanitizing_foots:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  superalloys:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  super_hot_fire:
+    cost: 31
+    currency-cost: 775.0
+    enabled: true
+  machinereee:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  the_better_panel:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  does_this_even_matter:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  what_a_configuration:
+    cost: 39
+    currency-cost: 975.0
+    enabled: true
+  platings:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  rubber:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  circuits:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  reinforcement_is_coming:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  only_glass:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  machine_blocks:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  coal_mesh:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  what_are_these_cables:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  triple_a:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  casing:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  solar_helmets:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+exoticgarden:
+  kitchen:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+slimeframe:
+  wfres_ores:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  wfres_alloys:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  wfres_nosam:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  wfres_foc_nosam:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  wfres_prim_nosam:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  wfres_machines:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  wfres_adv_machines:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  wfres_prime_machines:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  wfres_cryo_suit:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  wfres_plates:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  wfres_energy_gen:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  wfres_astral_gen:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  wfres_multiblocks:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  wfres_condensed_plate:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  wfres_general_research:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+geneticchickengineering:
+  genetic_chickengineering:
+    cost: 13
+    currency-cost: 325.0
+    enabled: true
+transcendence:
+  unstable:
+    cost: 23
+    currency-cost: 575.0
+    enabled: true
+  stable:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  quirp_scatterer:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  nanobot_crafter:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  quirp_oscillator:
+    cost: 37
+    currency-cost: 925.0
+    enabled: true
+  zots:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  daxis:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  polarizers:
+    cost: 23
+    currency-cost: 575.0
+    enabled: true
+  quirp_annihilator:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  zot_overloader:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+electricspawners:
+  electric_spawners:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+slimefunwarfare:
+  weapons_of_mass_destruction:
+    cost: 70
+    currency-cost: 1750.0
+    enabled: true
+  i_am_iron_man:
+    cost: 70
+    currency-cost: 1750.0
+    enabled: true
+  energy_weapons:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  alien_metals:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  rare_earths:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+bump:
+  research_food:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  research_random_equipment:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  research_appraise:
+    cost: 70
+    currency-cost: 1750.0
+    enabled: true
+  research_stuff:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  research_old_stuff:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  research_bow:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  research_peach_sword:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  research_normal_sword:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  research_soul_sword:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  research_sky_devil:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+foxymachines:
+  electric_wind_staff:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  electric_fire_staffs:
+    cost: 34
+    currency-cost: 850.0
+    enabled: true
+  healing_bow:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  reinforced_string:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  improvement_forge:
+    cost: 48
+    currency-cost: 1200.0
+    enabled: true
+  improvement_core:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  potion_mixer:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  electric_gold_refinery:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  chunk_loader:
+    cost: 52
+    currency-cost: 1300.0
+    enabled: true
+  stabilized_blistering_block:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  boosted_rail:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  berry_bush_trimmer:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  forcefield_dome:
+    cost: 66
+    currency-cost: 1650.0
+    enabled: true
+  remote_controller:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  ingots:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  sacrificial_altar:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  sacrificial_altar_drops:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  demonic_plate:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  forcefield_materials:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  wireless_transmitter:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  poseidons_fishing_rod:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  fishing_materials:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  swords:
+    cost: 44
+    currency-cost: 1100.0
+    enabled: true
+  magic_lumps:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  purified_bone:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  blood_infused_skull:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  armor:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  bloody_bucket:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  equanimous_gem:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  ultimate_sword:
+    cost: 52
+    currency-cost: 1300.0
+    enabled: true
+  armor_frame:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  unbreakable_rune:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  pixie_queen:
+    cost: 52
+    currency-cost: 1300.0
+    enabled: true
+  pixie_dust:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  headless_horseman:
+    cost: 56
+    currency-cost: 1400.0
+    enabled: true
+  vile_seeds:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  acri_arcum:
+    cost: 46
+    currency-cost: 1150.0
+    enabled: true
+  ghost_block_remover:
+    cost: 44
+    currency-cost: 1100.0
+    enabled: true
+  build_wands:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  nuclear_salt:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  compressed_sponge:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+gastronomicon:
+  wooden_tools:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  steel_tools:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  culinary_workbench:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  multi_stove:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  grain_mill:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  refridgerator:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  fermenter:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  chefs_hat:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  traps:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  fishing_nets:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  chef_android:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  electric_kitchen:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  sickles:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  raw_ingredients:
+    cost: 11
+    currency-cost: 275.0
+    enabled: true
+  processed_ingredients:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  food:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+slimytreetaps:
+  tree_taps:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  rubber_automation:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  amber:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  magical_mirror:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+dyedbackpacks:
+  dyed_backpacks:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+flowerpower:
+  magic_crafting:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  experience_cauldron:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  glistening_resources:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  experience_storage:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  attribute_charms:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  recall_teleportation:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  infinity_magic:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  faster_flower_growth:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+guizhancraft:
+  research_electric_spawner_assembler:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+extragear:
+  copper_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  copper_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  tin_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  tin_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  silver_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  silver_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  aluminum_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  aluminum_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  lead_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  lead_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  zinc_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  zinc_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  magnesium_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  magnesium_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  steel_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  steel_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  bronze_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  duralumin_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  billon_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  brass_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  aluminum_brass_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  aluminum_bronze_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  corinthian_bronze_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  solder_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  damascus_steel_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  hardened_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  reinforced_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  ferrosilicon_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  gilded_iron_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  nickel_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  cobalt_sword:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  cobalt_armor:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+extratools:
+  hammer:
+    cost: 3
+    currency-cost: 75.0
+    enabled: true
+  gold_transmuter:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  electric_composter:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  electric_composter_2:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  cobblestone_generator:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  vaporizer:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  concrete_factory:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  pulverizer:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+slimecustomizer:
+  example_research:
+    cost: 34
+    currency-cost: 850.0
+    enabled: true
+rykenslimefuncustomizer:
+  rou:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  modikeji:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  zishuijingfen:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  gongye:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  renzaocailiao:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  fenzi1:
+    cost: 100
+    currency-cost: 2500.0
+    enabled: true
+  fenzi2:
+    cost: 200
+    currency-cost: 5000.0
+    enabled: true
+  fenzi3:
+    cost: 400
+    currency-cost: 10000.0
+    enabled: true
+  fenzi4:
+    cost: 800
+    currency-cost: 20000.0
+    enabled: true
+  chongzucailiao:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  fenzi5:
+    cost: 1600
+    currency-cost: 40000.0
+    enabled: true
+  fenzi_32767:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  zhongjimada:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  xingchenfensui:
+    cost: 255
+    currency-cost: 6375.0
+    enabled: true
+  haimanxingchen:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  suipian:
+    cost: 85
+    currency-cost: 2125.0
+    enabled: true
+  yijidingwei:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  doumao:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  zuozhe:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  haimantech_fuel:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  dangaopi:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  kongqiumoban:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  hunian2:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  miaosha:
+    cost: 66
+    currency-cost: 1650.0
+    enabled: true
+  guang:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  jichujiqi:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  dianzu:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  jichuheshuaibian:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  nongyeyiti:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  canhaishengchan:
+    cost: 46
+    currency-cost: 1150.0
+    enabled: true
+  debugji:
+    cost: 68
+    currency-cost: 1700.0
+    enabled: true
+  minlingfangkuairanse:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  gjminlingfangkuairanse:
+    cost: 188
+    currency-cost: 4700.0
+    enabled: true
+  zaipeiji:
+    cost: 62
+    currency-cost: 1550.0
+    enabled: true
+  wubiaoqian:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  xiajienianye:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  lianyefenzi:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  renzaotiantichubu:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  wujinyiti1:
+    cost: 500
+    currency-cost: 12500.0
+    enabled: true
+  wujinyiti2:
+    cost: 600
+    currency-cost: 15000.0
+    enabled: true
+  2jichujiqi:
+    cost: 700
+    currency-cost: 17500.0
+    enabled: true
+  riyongjiqi:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  riyongjiqi2:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  riyongjiqi3:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  tiezhenjiqi:
+    cost: 38
+    currency-cost: 950.0
+    enabled: true
+  zhongqijiqi:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  modimenjiqi:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  3jichujiqi:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  gaizaoji:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  gaizaoji2:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  wujinyoubeng:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  jinyiti:
+    cost: 66
+    currency-cost: 1650.0
+    enabled: true
+  xukongyiti:
+    cost: 160
+    currency-cost: 4000.0
+    enabled: true
+  shiyinyiti:
+    cost: 115
+    currency-cost: 2875.0
+    enabled: true
+  uuyiti:
+    cost: 200
+    currency-cost: 5000.0
+    enabled: true
+  sfbookyiti:
+    cost: 200
+    currency-cost: 5000.0
+    enabled: true
+  yuanbanyiti:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  yuanbanyiti2:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  yuanbanyiti3:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  yuanbanyiti4:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  zhaguozhi:
+    cost: 14
+    currency-cost: 350.0
+    enabled: true
+  kuangfenzhuanhuan:
+    cost: 65
+    currency-cost: 1625.0
+    enabled: true
+  jieyaji:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  renzaogailiang:
+    cost: 66
+    currency-cost: 1650.0
+    enabled: true
+  jichukeyin:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  jiejinyiti:
+    cost: 77
+    currency-cost: 1925.0
+    enabled: true
+  ranfang:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  yiqijiqi:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  tula:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  gaojiyuanban:
+    cost: 77
+    currency-cost: 1925.0
+    enabled: true
+  nianyeyiti:
+    cost: 77
+    currency-cost: 1925.0
+    enabled: true
+  ranliaoyehua:
+    cost: 92
+    currency-cost: 2300.0
+    enabled: true
+  qiangheyiti1:
+    cost: 500
+    currency-cost: 12500.0
+    enabled: true
+  qiangheyiti2:
+    cost: 1000
+    currency-cost: 25000.0
+    enabled: true
+  qiangheyiti3:
+    cost: 2000
+    currency-cost: 50000.0
+    enabled: true
+  gongyezidonghua:
+    cost: 99
+    currency-cost: 2475.0
+    enabled: true
+  zhuanhuanji:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  shuji:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  yinxingji:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  xszpzp:
+    cost: 58
+    currency-cost: 1450.0
+    enabled: true
+  kwcs:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  jiaoyiji:
+    cost: 78
+    currency-cost: 1950.0
+    enabled: true
+  diandongduanzao:
+    cost: 34
+    currency-cost: 850.0
+    enabled: true
+  hedianzhan:
+    cost: 320
+    currency-cost: 8000.0
+    enabled: true
+  kongjianjiqi:
+    cost: 160
+    currency-cost: 4000.0
+    enabled: true
+  xukongdiaoyu:
+    cost: 66
+    currency-cost: 1650.0
+    enabled: true
+  wanneng:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  diancitie1:
+    cost: 1300
+    currency-cost: 32500.0
+    enabled: true
+  diancitie2:
+    cost: 2600
+    currency-cost: 65000.0
+    enabled: true
+  diancitie3:
+    cost: 5000
+    currency-cost: 125000.0
+    enabled: true
+  fulifadian:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true
+  renzaoxiaotaiyang:
+    cost: 320
+    currency-cost: 8000.0
+    enabled: true
+  renzaoyinhexi:
+    cost: 680
+    currency-cost: 17000.0
+    enabled: true
+  renzaoheidong:
+    cost: 1080
+    currency-cost: 27000.0
+    enabled: true
+  renzaoyuzhou:
+    cost: 2380
+    currency-cost: 59500.0
+    enabled: true
+  zhongjifadianji:
+    cost: 135
+    currency-cost: 3375.0
+    enabled: true
+  gaojihefanyingdui:
+    cost: 58
+    currency-cost: 1450.0
+    enabled: true
+  fangshexingfadianji:
+    cost: 72
+    currency-cost: 1800.0
+    enabled: true
+  dianwangdianxian:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  bolanqiu:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  biaoqin:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  chaopindianluban:
+    cost: 200
+    currency-cost: 5000.0
+    enabled: true
+  yasuonianyeshu:
+    cost: 38
+    currency-cost: 950.0
+    enabled: true
+  yuanyoujiang:
+    cost: 400
+    currency-cost: 10000.0
+    enabled: true
+  jixiaodianrong:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  haimanyasuoji:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  diandongnamigongzuot:
+    cost: 48
+    currency-cost: 1200.0
+    enabled: true
+  youbaofa:
+    cost: 166
+    currency-cost: 4150.0
+    enabled: true
+  jiqirenyiti:
+    cost: 1685
+    currency-cost: 42125.0
+    enabled: true
+  gjjiqirenyiti:
+    cost: 2100
+    currency-cost: 52500.0
+    enabled: true
+  fangjieshiqun:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  zishuijinqun:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  moyingzhenzhuji:
+    cost: 76
+    currency-cost: 1900.0
+    enabled: true
+  heranliao:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  erliaozhuangpei:
+    cost: 22
+    currency-cost: 550.0
+    enabled: true
+  moyingzhiyanyiti:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  xianyiti:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  kuqiheiyaoshiyiti:
+    cost: 74
+    currency-cost: 1850.0
+    enabled: true
+  yangmaoyiti:
+    cost: 68
+    currency-cost: 1700.0
+    enabled: true
+  shizhongyiti:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  ydyanjiangkuaiyiti:
+    cost: 105
+    currency-cost: 2625.0
+    enabled: true
+  kuijiajiayiti:
+    cost: 38
+    currency-cost: 950.0
+    enabled: true
+  tiziyiti:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  zhijiantaiyiti:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  huapenyiti:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  yingwuluoyiti:
+    cost: 76
+    currency-cost: 1900.0
+    enabled: true
+  kongqiyiti:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  duoyangcailiao:
+    cost: 92
+    currency-cost: 2300.0
+    enabled: true
+  qiangzhiduidie:
+    cost: 46
+    currency-cost: 1150.0
+    enabled: true
+  shudianrong:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  tongyitijidd:
+    cost: 158
+    currency-cost: 3950.0
+    enabled: true
+  tiegaoyitiji:
+    cost: 48
+    currency-cost: 1200.0
+    enabled: true
+  xjhjgyitiji:
+    cost: 255
+    currency-cost: 6375.0
+    enabled: true
+  zsgyitiji:
+    cost: 128
+    currency-cost: 3200.0
+    enabled: true
+  zsgjyitiji:
+    cost: 202
+    currency-cost: 5050.0
+    enabled: true
+  ptgjyitiji:
+    cost: 96
+    currency-cost: 2400.0
+    enabled: true
+  jdyitiji:
+    cost: 68
+    currency-cost: 1700.0
+    enabled: true
+  cpsyyitiji:
+    cost: 165
+    currency-cost: 4125.0
+    enabled: true
+  ysgjyitiji:
+    cost: 88
+    currency-cost: 2200.0
+    enabled: true
+  mmpyitiji:
+    cost: 130
+    currency-cost: 3250.0
+    enabled: true
+  mnyitiji:
+    cost: 56
+    currency-cost: 1400.0
+    enabled: true
+  kbfwyitiji:
+    cost: 136
+    currency-cost: 3400.0
+    enabled: true
+  wpscxyitiji:
+    cost: 77
+    currency-cost: 1925.0
+    enabled: true
+  tdyhd:
+    cost: 62
+    currency-cost: 1550.0
+    enabled: true
+  tdyfd:
+    cost: 64
+    currency-cost: 1600.0
+    enabled: true
+  xxdz:
+    cost: 35
+    currency-cost: 875.0
+    enabled: true
+  fcgz:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  jftz:
+    cost: 34
+    currency-cost: 850.0
+    enabled: true
+  dhddy:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  hmcdj:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  hmxdj:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  dcnytjq:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  vrbb:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  hysbfy:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  jianggj:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  sglgzj:
+    cost: 112
+    currency-cost: 2800.0
+    enabled: true
+  jktqj:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  gztqj:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  hmcl:
+    cost: 34
+    currency-cost: 850.0
+    enabled: true
+  jinjiecl:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  zjcl:
+    cost: 140
+    currency-cost: 3500.0
+    enabled: true
+  yxgyfdj:
+    cost: 102
+    currency-cost: 2550.0
+    enabled: true
+  lzzdh:
+    cost: 135
+    currency-cost: 3375.0
+    enabled: true
+  caotianchong:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  ydyjjq1:
+    cost: 80
+    currency-cost: 2000.0
+    enabled: true
+  ydyjjq2:
+    cost: 84
+    currency-cost: 2100.0
+    enabled: true
+  ydeljq:
+    cost: 82
+    currency-cost: 2050.0
+    enabled: true
+  sgdhx:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  sgdpys:
+    cost: 320
+    currency-cost: 8000.0
+    enabled: true
+  bosspys:
+    cost: 3200
+    currency-cost: 80000.0
+    enabled: true
+  hqmuban:
+    cost: 80
+    currency-cost: 2000.0
+    enabled: true
+  hqysj:
+    cost: 180
+    currency-cost: 4500.0
+    enabled: true
+  chushen:
+    cost: 50
+    currency-cost: 1250.0
+    enabled: true
+  jingss:
+    cost: 72
+    currency-cost: 1800.0
+    enabled: true
+  ddzhijian:
+    cost: 45
+    currency-cost: 1125.0
+    enabled: true
+  fenggan:
+    cost: 75
+    currency-cost: 1875.0
+    enabled: true
+  cookielu:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  zhushuichi:
+    cost: 26
+    currency-cost: 650.0
+    enabled: true
+  wujuntai:
+    cost: 52
+    currency-cost: 1300.0
+    enabled: true
+  shougongtai:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  diandongchuang:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  shaguo:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  doudizhu:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  jishiqi:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  yingxdr:
+    cost: 92
+    currency-cost: 2300.0
+    enabled: true
+  ditandr:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  rsc_se_mac_electric_furnace_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_furnace_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_furnace_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_furnace_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_furnace_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_electric_ore_grinder_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_ore_grinder_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_ore_grinder_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_ore_grinder_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_ore_grinder_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_electric_gold_pan_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_gold_pan_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_gold_pan_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_gold_pan_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_gold_pan_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_electric_dust_washer_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_dust_washer_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_dust_washer_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_dust_washer_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_dust_washer_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_electric_ingot_factory_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_ingot_factory_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_ingot_factory_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_ingot_factory_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_ingot_factory_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_electric_crucible_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_crucible_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_crucible_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_crucible_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_crucible_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_electric_chamber_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_electric_chamber_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_electric_chamber_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_electric_chamber_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_electric_chamber_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_ingot_pulverizer_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_ingot_pulverizer_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_ingot_pulverizer_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_ingot_pulverizer_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_ingot_pulverizer_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_freezer_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_freezer_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_freezer_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_freezer_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_freezer_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+  rsc_se_mac_carbon_press_1:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  rsc_se_mac_carbon_press_2:
+    cost: 60
+    currency-cost: 1500.0
+    enabled: true
+  rsc_se_mac_carbon_press_3:
+    cost: 90
+    currency-cost: 2250.0
+    enabled: true
+  rsc_se_mac_carbon_press_4:
+    cost: 120
+    currency-cost: 3000.0
+    enabled: true
+  rsc_se_mac_carbon_press_5:
+    cost: 150
+    currency-cost: 3750.0
+    enabled: true
+mobcapturer:
+  mob_capturing:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+finaltech-changed:
+  replaceable_card:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  order_dust:
+    cost: 62
+    currency-cost: 1550.0
+    enabled: true
+  bug:
+    cost: 96
+    currency-cost: 2400.0
+    enabled: true
+  ether:
+    cost: 96
+    currency-cost: 2400.0
+    enabled: true
+  entropy:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  box:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  copy_card:
+    cost: 64
+    currency-cost: 1600.0
+    enabled: true
+  quantity_module:
+    cost: 64
+    currency-cost: 1600.0
+    enabled: true
+  phony:
+    cost: 2985
+    currency-cost: 74625.0
+    enabled: true
+  logic:
+    cost: 1
+    currency-cost: 25.0
+    enabled: true
+  machine_card:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  energy_card:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  consumable_item:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  simple_tool:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  machine_tool:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+potionexpansion:
+  potions_sight:
+    cost: 28
+    currency-cost: 700.0
+    enabled: true
+  powders:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  alchemic_station:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+alchimiavitae:
+  soul:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  magic_plants:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  magic_essence:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  exp_crystals:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  magic_steel:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  divine_altar:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  metal_amalgamation:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  cosmic_cauldron:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+  potion_of_osmosis:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  benevolent_brew:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  malevolent_concoction:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  altar_of_infusion:
+    cost: 36
+    currency-cost: 900.0
+    enabled: true
+slimefunitemexpansion:
+  gears_r:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  osmium_r:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  machine_block_r:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  alloy_furnace_r:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  base_coil_r:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  advanced_coil_r:
+    cost: 9
+    currency-cost: 225.0
+    enabled: true
+  lightning_whip_r:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  drill_r:
+    cost: 18
+    currency-cost: 450.0
+    enabled: true
+  farming_r:
+    cost: 32
+    currency-cost: 800.0
+    enabled: true
+  cobblestone_generator_r:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+  advanced_exp_r:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  speed_torch_r:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  compressed_freezer:
+    cost: 31
+    currency-cost: 775.0
+    enabled: true
+  enhanced_glowstone_r:
+    cost: 5
+    currency-cost: 125.0
+    enabled: true
+  osgloglas_r:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+  new_tech_r:
+    cost: 19
+    currency-cost: 475.0
+    enabled: true
+  new_generator_r:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  lava_factory_r:
+    cost: 33
+    currency-cost: 825.0
+    enabled: true
+  metallurgic_infuser_r:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  anduril_r:
+    cost: 17
+    currency-cost: 425.0
+    enabled: true
+  electric_crossbow_r:
+    cost: 42
+    currency-cost: 1050.0
+    enabled: true
+  lightning_bow_r:
+    cost: 37
+    currency-cost: 925.0
+    enabled: true
+  xiong_shi_lao_fang_r:
+    cost: 13
+    currency-cost: 325.0
+    enabled: true
+  other_material_r:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true
+privatestorage:
+  wooden_chests:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  metal_chests:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  hardened_chests:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+  wooden_safes:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  metal_safes:
+    cost: 16
+    currency-cost: 400.0
+    enabled: true
+  gem_safes:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  hardened_safes:
+    cost: 24
+    currency-cost: 600.0
+    enabled: true
+moretools:
+  crescent_hammer:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+stackmachine:
+  default_research:
+    cost: 80
+    currency-cost: 2000.0
+    enabled: true
+soundmuffler:
+  sound_muffler:
+    cost: 11
+    currency-cost: 275.0
+    enabled: true
+fastmachines:
+  machines:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  materials:
+    cost: 4
+    currency-cost: 100.0
+    enabled: true

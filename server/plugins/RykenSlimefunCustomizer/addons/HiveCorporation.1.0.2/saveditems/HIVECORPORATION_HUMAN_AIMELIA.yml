@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 56a75c03-19e3-4912-8291-fa1dd5a83677
+      name: Aimelia
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcxOTUzNzg1MTU1NCwKICAicHJvZmlsZUlkIiA6ICI1NmE3NWMwMzE5ZTM0OTEyODI5MWZhMWRkNWE4MzY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaW1lbGlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0NDBlOTZlOTliMzAyNTRkZjdiNTc3MGIwYjgzZTBjMjE2YTJkNzlhNjhhZDUxNDcyZDg5MzM3MzU5ZWViMTYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+        signature: q0hzbsmQe9tiLWDYoJx1Z+iuua1fkVBtgx+crYvbAMy11baZ/QGuuDudKcRNV9mC9VEW+LdX1231rme/9iJTXBHR6nsQGtCDHrLQoU5DEQcH/KSJPJQd/8w77bVDnYm66jOBOMm7FUpR/9jK0nz73og6+NnP+UfSvuWZL3WqqHyxpHC2xABgPgk5SHr/UF1I64vZejH6ssDAG4T2//+sd7GN6bvPEhae7IdPyHp4rP2BYvPtoB+z2cppt/uSgzr6ThNWPwiK/zEBEW9Y5bWUuhVoOVjo9Lqi5qEDVrOURZWAvELBu0anuPHZmLbGtCsLu/v74i6lxwrZYIiAIBwrca02MvnCkSNvGeWn6JJ3f9lSGG0lt7VtXb4usy7hLXevsm+Mt5v0q6y4MWyrE+jI9VvDx4jI6mmwKAjRkzhuuI3Tgaj7D2OLWqn54y63/XJ9zPdQe4hCzt6Ty1dqkdkXC89gCdesZRm3513Ad/CtHiBxY18x7tqNMmBot3Zojjooi4dIos92y8q5HuC2eEVmUKbJ4/6uTs2r6lJ39YzWy2/uDrP4cnX7chpqbqyt/Rw39+tLvroYLlefSXw+FObq80FlCoBmecGAQFUC9EQslx9ft+wllBnpbNSY6uoGCm+bXq6DTUtyz8dbS5qXqIP8NA6Vzn36NxBFg6bk7gzf69I=

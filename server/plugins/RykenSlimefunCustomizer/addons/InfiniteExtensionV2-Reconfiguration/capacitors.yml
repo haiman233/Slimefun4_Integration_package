@@ -1,0 +1,50 @@
+SHDR:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&e神&6话&b电容I'
+    lore:
+    - '&b肝帝的证明I'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 2147483647 J 可存储'
+    material: PINK_STAINED_GLASS
+    amount: 1
+  capacity: 2147483647
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1

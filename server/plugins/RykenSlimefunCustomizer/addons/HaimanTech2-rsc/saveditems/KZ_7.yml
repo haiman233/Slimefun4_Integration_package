@@ -1,0 +1,71 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E0F2","text":"寰宇裤子
+      特级"}],"text":""}'
+    lore:
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"灵魂绑定"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"dark_purple","text":"不能恢复
+      III"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"不能速度
+      III"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"不能急迫
+      III"}],"text":""}'
+    enchants:
+      PROTECTION_EXPLOSIONS: 140
+      PROTECTION_FIRE: 140
+      MENDING: 140
+      PROTECTION_PROJECTILE: 140
+      PROTECTION_ENVIRONMENTAL: 140
+      THORNS: 140
+      DURABILITY: 140
+    attribute-modifiers:
+      GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 14.0
+          name: GENERIC_KNOCKBACK_RESISTANCE
+          slot: LEGS
+          uuid: 499fc41e-c9e1-414e-bc09-9ceadf16addb
+          operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.4
+          name: GENERIC_ARMOR_TOUGHNESS
+          slot: LEGS
+          uuid: fdf210aa-43b0-4638-b18c-2fb3ea9563ff
+          operation: 1
+      GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 140.0
+          name: GENERIC_ARMOR
+          slot: LEGS
+          uuid: 0d8a6636-7af2-4dd1-8544-0c009dc605fa
+          operation: 0
+      GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 140.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: LEGS
+          uuid: f3dfcc8c-902f-4e14-b287-060fa197652e
+          operation: 0
+      GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 140.0
+          name: GENERIC_LUCK
+          slot: LEGS
+          uuid: 7e4bc7bc-b448-497d-992d-464d54d58738
+          operation: 0
+      GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.4
+          name: GENERIC_MAX_HEALTH
+          slot: LEGS
+          uuid: 1f407cd1-1a0f-42c4-a2e9-21fd9775b36d
+          operation: 1
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: ARMOR_THORNIUM_LEGGINGS_SUPREME

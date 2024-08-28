@@ -1,0 +1,247 @@
+haimantech:
+  lateInit: false
+  type: nested
+  item:
+    material_type: skull_hash
+    material: 1421f1514da756c8c6c7c0b83a79265c26c9ece66b3bad8fbd94bd96d7040d7e
+    name: '&7&kll{#ffff00}海{#ccff00}曼{#88ff00}科技{#44ff00}院&7&kll'
+  tier: 0
+slime_customizer_info:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: e2d003bb8e9916cd1fe60316696b2adc9a0723439be16bd535b9027a07653811
+    name: '&6&l海曼科技院 &7- &4&l信息'
+  parent: haimantech
+sakurafun_recipe:
+  lateInit: false
+  type: sub
+  item:
+    material: BEDROCK
+    name: '&6&m&l海曼科技院 &7&m- &6&m&l配方'
+  parent: haimantech
+slime_customizer_zuozhe:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 55e0006cc80ecb40a8f25171110152dfda56a0b9bb35662850d29fd1cf72e6e4
+    name: '&6&l海曼科技院 &7- &4&l作者'
+  parent: haimantech
+slime_customizer_yuanban:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 2388794b98ed253e2271661fe3aa23e2d6840926ee81e1eb996a5c47bfadcce
+    name: '&6&l海曼科技院 &7- &f&l原版物品'
+  parent: haimantech
+slime_customizer_material:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 6ded84393bec253cca66c04316726a858e574712b6ff9f273668da98efcc28f
+    name: '&6&l海曼科技院 &7- &b&l科技材料'
+  parent: haimantech
+slime_customizer:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
+    name: '&6&l海曼科技院 &7- &e&l能源与电力'
+  parent: haimantech
+slime_customizer_huanbao:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 6b9c49ffdf4ce4c6f5f049efc8ca0e08b9b5bbf3c6a8783dfaaccad77dfc997a
+    name: '&6&l海曼科技院 &7- &e&l电力工程与交易'
+  parent: haimantech
+slime_customizer_fenzi:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
+    name: '&6&l海曼科技院 &7- &9&l分子重组仪系列'
+  parent: haimantech
+slime_customizer_yitihua:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 952ffd08528ec8183b35aac658b29226ad8b9aacac8dd9e04cf186b11064ca4d
+    name: '&6&l海曼科技院 &7- &d&l科技一体化发展'
+  parent: haimantech
+slime_customizer_farm:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: be43d0fabbd913c001d4dcec8b3294832b1f4ff79d8f3d5683a5070d371f8cf4
+    name: '&6&l海曼科技院 &7- &a&l农牧型机器'
+  parent: haimantech
+slime_customizer_new:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 5c41ec03251a85ed3650aac38d7dcdd9a1af413e8c5b7537d540828208f4bb63
+    name: '&6&l海曼科技院 &7- &8&l1.17版机器'
+  parent: haimantech
+slime_customizer_19:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 4c697d2c9be992f04809b07a8096e69d089dc0908846e354fafc7729c71f34d8
+    name: '&6&l海曼科技院 &7- &e&l1.19版机器'
+  parent: haimantech
+slime_customizer_20:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 3e7889a0d3ef9df1ef6e1956bcee825fa183fd672869275c88eb385391db554
+    name: '&6&l海曼科技院 &7- &6&l1.20版机器'
+  parent: haimantech
+haiman_egg:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 64ea584455202be52cc953b9f98d81902b674c6c6d06880a27102358b71d79e1
+    name: '&6&l海曼科技院 &7- &a&l生物学'
+  parent: haimantech
+haiman_jiaju:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 4216af29b19a6ff7525d1853b814270b8f0685810b08870dce14bc8f1ea9743d
+    name: '&6&l海曼科技院 &7- &e&l家用设备'
+  parent: haimantech
+haiman_yule:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8150c3a7312aabd1ad7047c18f7da58f4ed199e10c56d0604a12dcc86b94a2bb
+    name: '&6&l海曼科技院 &7- &c&l娱乐设施'
+  parent: haimantech
+haiman_muban:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 42ee210e7c2727788afc27c0cc9699f52467aa513157be97d920c22a0e109be6
+    name: '&6&l海曼科技院 &7- &d&l火漆印刷'
+  parent: haimantech
+slime_customizer_xingji:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 97fb27a1a11ba456c0a13f90901364ced9ecad8fe9c99b6838ff5f4dab1f6191
+    name: '&6&l海曼科技院 &7- &b&l宇宙！起航！'
+  parent: haimantech
+slime_customizer_generator:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 54e4e42f36339a59de4ee9bf21224cc446db8cec17565728b16602050d2a737
+    name: '&6&l海曼科技院 &7- &3&l现代化发电机'
+  parent: haimantech
+slime_customizer_emoji:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 3baabe724eae59c5d13f442c7dc5d2b1c6b70c2f83364a488ce5973ae80b4c3
+    name: '&6&l海曼科技院 &7- &c&l表情'
+  parent: haimantech
+slime_customizer_zhuangshi:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: dc3cfe7f04e023199b30a9e8791aa5e48dea8cbcbd71a28d12d2562a7d348
+    name: '&6&l海曼科技院 &7- &5&l杂项'
+  parent: haimantech
+slime_customizer_slimefun_machine:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 931b6c35a8ac8366a4db51b042a8728dd2e8e5f2fe44aff08fcf5af3b921c6dd
+    name: '&6&l海曼科技院 &7- &2&l更高级的粘液原版机器'
+  parent: haimantech
+pifu:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 2bedeb5bafc603d49b1d321cbddd4e93fbf310981de0222c5718b99a9ff71c
+    name: '&6&l海曼科技院 &7- &d&l皮肤装扮'
+  parent: haimantech
+dianro:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 5584432af6f382167120258d1eee8c87c6e75d9e479e7b0d4c7b6ad48cfeef
+    name: '&6&l海曼科技院 &7- &a&l电容'
+  parent: haimantech
+slime_customizer_qiu:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 921b2af8d2322282fce4a1aa4f257a52b68e27eb334f4a181fd976bae6d8eb
+    name: '&6&l海曼科技院 &7- &f&l波兰球'
+  parent: haimantech
+slime_customizer_food:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 50e30e88b2d20ad06e2791c83d5a41da7bf2d2e30feecdcb8e4e1f1ab718905
+    name: '&6&l海曼科技院 &7- &e&l食物'
+  parent: haimantech
+slime_customizer_newyear:
+  lateInit: false
+  type: seasonal
+  item:
+    material_type: skull_hash
+    material: c458a397aac2fdb5a1bb9b42188d238af4f823018ca491a8e4aeb296fd9f89
+    name: '&4&l新年快乐！'
+  month: 1
+slime_customizer_fengcang:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 93741d8360afb8706dbe8c28601f68898b921460309d8b550b503fcc127aee12
+    name: '&6&l海曼科技院 &7- &4&l封藏簿'
+  parent: haimantech
+huanyu_vr:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: aaa99bcdde85a21d9e3ceb08dc7b6ad5b10cd06c17b7b94257ddbd490564be2a
+    name: '&6&l海曼科技院 &7- &d&l1.RV-Pre1拓展'
+  parent: haimantech
+hunli:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 3d8c72d9b7c103c3e6857d62c4bebfd8683635239b9933ea1258abe873a699f9
+    name: '&6&l海曼科技院 &f- &e&l婚礼'
+  parent: haimantech

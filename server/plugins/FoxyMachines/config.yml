@@ -1,0 +1,116 @@
+
+# 不可破坏符文黑名单
+# 你可以禁止不可破坏符文对某些附属中的部分物品生效
+unbreakable-rune-blacklist:
+  InfinityExpansion:
+  - BASIC_STRAINER
+  - ADVANCED_STRAINER
+  - REINFORCED_STRAINER
+
+# 是否启用自动更新
+auto-update: false
+
+# 每位玩家可以摆放的区块加载器上限
+# 设置为0时无限制
+max-chunk-loaders: 8
+
+# 每个区块加载器所需的GPS网络复杂度
+gps-complexity-per-loader: 7500
+
+# 是否启用幽灵方块
+ghost-blocks: true
+
+# 是否启用神秘科技中的怪物
+# 禁用后部分物品的配方会改变，部分物品会被移除
+custom-mobs: true
+
+# 填充棒每次可填充的最大方块数量
+max-fill-wand-blocks: 4096
+
+## 填充棒白名单与黑名单详细说明
+# 名单中填写的是材料（Material）或标签（Tag）
+# 你可以在此找到所有物品的材料（Material）：
+#   - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# 在此找到原版的标签（Tag）或者粘液标签（SlimefunTag）：
+#   - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Tag.html
+#   - https://slimefun.github.io/javadocs/Slimefun4/docs/io/github/thebusybiscuit/slimefun4/utils/tags/SlimefunTag.html
+# 如果材料名与标签名重合，则仅材料名生效
+#
+# 填充棒将会直接允许任何白名单中的材料（优先级最高）
+# 当材料不在白名单中时，则会判断以下条件：
+# - 材料为方块
+# - 材料完全遮光
+# - 材料不处于黑名单中
+# 当以上的条件完全满足时，则允许该材料的使用
+# 填充棒白名单
+fill-wand-white-list:
+- LEAVES
+- GLASS_BLOCKS
+
+# 填充棒黑名单
+fill-wand-black-list:
+- BARRIER
+- SPAWNER
+- COMMAND_BLOCKS
+- STRUCTURE_BLOCK
+- JIGSAW
+
+# 海绵棒每次可清除的方块数量
+max-sponge-wand-blocks: 16384
+
+# 任务所需的生物，将从本列表中随机选择
+# 需要有效的EntityType作为值
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+quest-mobs:
+- BAT
+- BEE
+- BLAZE
+- CAT
+- CHICKEN
+- CAVE_SPIDER
+- COD
+- COW
+- CREEPER
+- DOLPHIN
+- DONKEY
+- DROWNED
+- ENDERMAN
+- GHAST
+- GUARDIAN
+- HOGLIN
+- HUSK
+- HORSE
+- IRON_GOLEM
+- LLAMA
+- MAGMA_CUBE
+- MUSHROOM_COW
+- OCELOT
+- PANDA
+- PARROT
+- PHANTOM
+- PIG
+- PIGLIN
+- PIGLIN_BRUTE
+- PILLAGER
+- POLAR_BEAR
+- PUFFERFISH
+- RABBIT
+- SALMON
+- SHEEP
+- SILVERFISH
+- SKELETON
+- SLIME
+- SNOWMAN
+- SPIDER
+- SQUID
+- STRAY
+- STRIDER
+- TURTLE
+- TROPICAL_FISH
+- WITCH
+- WITHER_SKELETON
+- WOLF
+- ZOGLIN
+- ZOMBIE
+- ZOMBIFIED_PIGLIN
+- FOX

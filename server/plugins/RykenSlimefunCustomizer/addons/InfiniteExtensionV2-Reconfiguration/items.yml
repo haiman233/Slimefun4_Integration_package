@@ -1,0 +1,968 @@
+WUJINTUDOU:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WUJINTUDOU
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    5:
+      material_type: mc
+      material: POTATO
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+KPKJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: KPKJ
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGNONIUM
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MYTHRIL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: METAL_SINGULARITY
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: TITANIUM
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADAMANTITE
+      amount: 1
+WJK:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJK
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: KPKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+XUKK:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: XUKK
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: KPKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+DCK:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&c电磁卡'
+    lore: []
+    material_type: mc
+    material: BRICK
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: KPKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+XUKWZ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: XUKWZ
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+WJKPHX:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJKPHX
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+CJWJQD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: CJWJQD
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+XKQD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: XKQD
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+WJXKD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJXKD
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+WJXKQD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJXKQD
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+DCQD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&c电磁&b奇点'
+    lore:
+    - '&8&o电与磁的再现'
+    material_type: mc
+    material: BRICKS
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+WJKPJWZDWP:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJKPJWZDWP
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: XUKWZ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: XUKWZ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJKPHX
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: XUKWZ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+WJKPJJHHX:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJKPJJHHX
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJKPHX
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+CJWJTD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: CJWJTD
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+WUJINCL:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WUJINCL
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WUJINTUDOU
+      amount: 1
+CZK:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: CZK
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: KPKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+CZDXH:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: CZDXH
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ADAMANTITE
+      amount: 1
+    6:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+CZDXL:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: CZDXL
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGNONIUM
+      amount: 1
+    6:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 1
+WJJS:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJJS
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: mc
+      material: SLIME_BLOCK
+      amount: 1
+    5:
+      material_type: mc
+      material: HONEY_BLOCK
+      amount: 1
+    6:
+      material_type: mc
+      material: SLIME_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+WJYTHX:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJYTHX
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITY_STORAGE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CIRCUIT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITY_REACTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    6:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_SINGULARITY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ENDER_DRAGON_DATA_CARD
+      amount: 1
+WJMG:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJMG
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+XKMG:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: XKMG
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+WJCZK:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    material_type: saveditem
+    material: WJCZK
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: KPKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+WJMGYL:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽玫瑰养料'
+    lore:
+    - ''
+    material_type: mc
+    material: NETHER_STAR
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+XWD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&8虚&b无&a锭'
+    lore:
+    - '&7&o虚无的力量掌握在你的手中'
+    material_type: mc
+    material: GOLD_INGOT
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CIRCUIT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+WJJQHX:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽机器核心'
+    lore: []
+    material_type: mc
+    material: LANTERN
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: GLASS
+      amount: 1
+    2:
+      material_type: mc
+      material: GLASS
+      amount: 1
+    3:
+      material_type: mc
+      material: GLASS
+      amount: 1
+    4:
+      material_type: mc
+      material: GLASS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: XWD
+      amount: 1
+    6:
+      material_type: mc
+      material: GLASS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: DCQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: DCQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: DCQD
+      amount: 1

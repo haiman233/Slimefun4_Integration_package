@@ -1,0 +1,1166 @@
+BOCCHI_LHSYTJONE:
+  category: bocchi_ytj
+  item-name: "&b灵魂沙一体机I"
+  item-lore:
+   - "&7波奇亲自在地狱挖的灵魂沙"
+  block-type: SKULL819bdef15183c3d0dac72eee7214b13fdae4e389609a1212d1e1632a3d85a31
+  item-amount: 1
+  stats:
+    energy-consumption: 5
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: COMPOSTER
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    3:
+      type: VANILLA
+      id: SOUL_SAND
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    5:
+      type: VANILLA
+      id: IRON_SHOVEL
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZINC_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZINC_INGOT
+      amount: 1
+  output:
+    tick-rate: 10
+    type: VANILLA
+    id: SOUL_SAND
+    amount: 3
+BOCCHI_LHSYTJTWO:
+  category: bocchi_ytj
+  item-name: "&b灵魂沙一体机II"
+  item-lore:
+   - "&7波奇亲自在地狱挖的灵魂沙"
+  block-type: SKULL819bdef15183c3d0dac72eee7214b13fdae4e389609a1212d1e1632a3d85a31
+  item-amount: 1
+  stats:
+    energy-consumption: 20
+    energy-buffer: 50
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJONE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJONE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MAGIC_LUMP_5
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MAGIC_LUMP_5
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJONE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJONE
+      amount: 1
+  output:
+    tick-rate: 4
+    type: VANILLA
+    id: SOUL_SAND
+    amount: 10
+BOCCHI_LHSYTJTHREE:
+  category: bocchi_ytj
+  item-name: "&b灵魂沙一体机III"
+  item-lore:
+   - "&7波奇亲自在地狱挖的灵魂沙"
+  block-type: SKULL819bdef15183c3d0dac72eee7214b13fdae4e389609a1212d1e1632a3d85a31
+  item-amount: 1
+  stats:
+    energy-consumption: 50
+    energy-buffer: 200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJTWO
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJTWO
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJTWO
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_LHSYTJTWO
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: SOUL_SAND
+    amount: 32
+BOCCHI_JTCFYTJ:
+  category: bocchi_ytj
+  item-name: "&b波奇晶体催发一体机I"
+  item-lore:
+   - "&7波奇亲自在洞穴挖的紫水晶"
+  block-type: SKULLe01fa259c6c23db4d51eecec58970e8c29989f2c441692f13dc195c2e5372fc8
+  item-amount: 1
+  stats:
+    energy-consumption: 90
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: GEO_QUARRY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+  output:
+    tick-rate: 10
+    type: VANILLA
+    id: AMETHYST_SHARD
+    amount: 2
+BOCCHI_BQCYTJ:
+  category: bocchi_ytj
+  item-name: "&b波奇尘一体机I"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL67e6ad4b78bd35187a65708991817e26699f902c7738c81c375859d727539
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_BQDA
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: BOCCHI_BQC
+    amount: 12
+BOCCHI_TFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇铁粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: IRON_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: IRON_DUST
+    amount: 40
+BOCCHI_ZIFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇锌粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ZINC_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: ZINC_DUST
+    amount: 40
+BOCCHI_YINFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇银粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: SILVER_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: SILVER_DUST
+    amount: 40
+BOCCHI_LVFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇铝粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ALUMINUM_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: ALUMINUM_DUST
+    amount: 40
+BOCCHI_QIANFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇铅粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: LEAD_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: LEAD_DUST
+    amount: 40
+BOCCHI_MEIFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇镁粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MAGNESIUM_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: MAGNESIUM_DUST
+    amount: 40
+BOCCHI_XIFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇锡粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: TIN_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: TIN_DUST
+    amount: 40
+BOCCHI_TONGFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇铜粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: COPPER_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: COPPER_DUST
+    amount: 40
+BOCCHI_JINFYTJ:
+  category: bocchi_kuangfenytj
+  item-name: "&b波奇金粉一体机"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULL1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZOT_UP_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: GOLD_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 4
+    type: SLIMEFUN
+    id: GOLD_DUST
+    amount: 40
+BOCCHI_XIAJIEHEJINYTJ:
+  category: bocchi_ytj
+  item-name: "&b波奇下界合金一体机I"
+  item-lore:
+   - "&7无中生有"
+  block-type: SKULLf9d8d552f88e0af9682c4f2eacc92e4b452796b8d61010dd3670046d13299ad4
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    2:
+      type: VANILLA
+      id: NETHERITE_BLOCK
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+    8:
+      type: VANILLA
+      id: NETHERITE_BLOCK
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQJT
+      amount: 1
+  output:
+    tick-rate: 30
+    type: VANILLA
+    id: NETHERITE_BLOCK
+    amount: 5
+BOCCHI_LIZIYITIJI:
+  category: bocchi_ytj
+  item-name: "&b波奇粒子一体机I"
+  item-lore:
+   - "&7波奇的再生与重组"
+  block-type: SKULL96853ec1c40c926e4a7b5ed5a9dd2c0f690bc5830216cb182f5d9185c3aa22e8
+  item-amount: 1
+  stats:
+    energy-consumption: 5
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+  output:
+    tick-rate: 7
+    type: SLIMEFUN
+    id: BOCCHI_EGOBKL
+    amount: 20
+BOCCHI_XUKONGDINGI:
+  category: bocchi_ytj
+  item-name: "&b波奇虚空锭一体机I"
+  item-lore:
+   - "&7加快凝结"
+  block-type: SKULL8dfe9f7a9cc8997481fa253404abad0bb2cf15c00f9754080000f6becab07547
+  item-amount: 1
+  stats:
+    energy-consumption: 10000
+    energy-buffer: 300000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MOB_SIMULATION_CHAMBER
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ENDER_DRAGON_DATA_CARD
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: VOID_HARVESTER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: VOID_HARVESTER
+      amount: 1
+  output:
+    tick-rate: 30
+    type: SLIMEFUN
+    id: VOID_INGOT
+    amount: 1
+BOCCHI_XUKONGDINGII:
+  category: bocchi_ytj
+  item-name: "&b波奇虚空锭一体机II"
+  item-lore:
+   - "&7加快凝结"
+  block-type: SKULL8dfe9f7a9cc8997481fa253404abad0bb2cf15c00f9754080000f6becab07547
+  item-amount: 1
+  stats:
+    energy-consumption: 50000
+    energy-buffer: 300000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXINII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXINII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_XUKONGDINGI
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXINII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_XUKONGDINGI
+      amount: 1
+  output:
+    tick-rate: 15
+    type: SLIMEFUN
+    id: VOID_INGOT
+    amount: 2
+BOCCHI_SHANTIANL:
+  category: bocchi_ytj
+  item-name: "&b凉乞钞一体机I"
+  item-lore:
+   - "&7凉乞钞的再生与重组"
+  block-type: SKULL4548789b968c70ec9d1de272d0bb93a70134f2c0e60acb75e8d455a1650f3977
+  item-amount: 1
+  stats:
+    energy-consumption: 5
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+  output:
+    tick-rate: 7
+    type: SLIMEFUN
+    id: LIANG_EGOLQC
+    amount: 20
+BOCCHI_XDYDYTJ:
+  category: bocchi_ytj
+  item-name: "&b归去来兮一体机I"
+  item-lore:
+   - "&7喜多的再生与重组"
+  block-type: SKULL548d7d1e03e1af145b0125ab841285672b421265da2ab915015f9058438ba2d8
+  item-amount: 1
+  stats:
+    energy-consumption: 5
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+  output:
+    tick-rate: 7
+    type: SLIMEFUN
+    id: XDYD_EGOGQLX
+    amount: 20
+BOCCHI_HXMMYTJ:
+  category: bocchi_ytj
+  item-name: "&b虹夏一体机I"
+  item-lore:
+   - "&7虹夏的再生与重组"
+  block-type: SKULL6c183f3601f67293a51e2577dbea05a4602efa433cc354e63fcf7fbe026486bc
+  item-amount: 1
+  stats:
+    energy-consumption: 5
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+  output:
+    tick-rate: 7
+    type: SLIMEFUN
+    id: HXMM_EGOGQLX
+    amount: 20
+BOCCHI_SHANTIANL:
+  category: bocchi_ytj
+  item-name: "&b波奇核心一体机I"
+  item-lore:
+   - "&7超乎寻常"
+  block-type: SKULLa9ab6b093f9b468122feccd7d742ae14060b9d6b3f7f19272a9533ce0306479c
+  item-amount: 1
+  stats:
+    energy-consumption: 5
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXINII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+  output:
+    tick-rate: 10
+    type: SLIMEFUN
+    id: BOCCHI_BQSPHXI
+    amount: 5

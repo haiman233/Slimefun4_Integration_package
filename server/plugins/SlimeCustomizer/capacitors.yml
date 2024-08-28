@@ -1,0 +1,507 @@
+BOCCHI_DRI:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元I"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 256
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: REDSTONE_ALLOY
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+BOCCHI_DRII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元II"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 4096
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXI
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRI
+      amount: 1
+BOCCHI_DRIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元III"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 45000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRII
+      amount: 1
+BOCCHI_DRIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元IV"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 400000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIII
+      amount: 1
+BOCCHI_DRIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元V"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 400000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIII
+      amount: 1
+BOCCHI_DRIIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元VI"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 4000000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIII
+      amount: 1
+BOCCHI_DRIIIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元VII"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 210000000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元VIII"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 610000000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元VIII"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 1410000000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&b波奇电力储存单元IX"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 1910000000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQSPHXIIIIIIIII
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIII
+      amount: 1
+BOCCHI_DRIIIIIIIIIII:
+  category: bocchi_dianr
+  capacitor-name: "&c波奇电力储存单元MAX"
+  capacitor-lore:
+  - "&7波奇粒子的导电性决定了它非同小可"
+  block-type: DEFAULT
+  capacity: 2000000000
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BOCCHI_BQZHENSHEN
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BOCCHI_DRIIIIIIIIII
+      amount: 1
+

@@ -1,0 +1,211 @@
+# 启用自动更新 (从构建站自动更新，重启服务器后新版本生效)
+auto-update: false
+config-version: 206
+items:
+  NE_CHAIN_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NE_CHAIN_PUSHER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NE_CHAIN_GRABBER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NE_CHAIN_GRABBER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  CHAIN_DISPATCHER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+    use-special-model:
+      enable: false
+  CHAIN_DISPATCHER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+    use-special-model:
+      enable: false
+  NE_ADVANCED_CHAING_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+  NTW_EXPANSION_POINT_TRANSFER:
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_POINT_TRANSFER_GRABBER:
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NE_ADVANCED_CHAING_GRABBER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NE_ADVANCED_CHAING_GRABBER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NE_ADVANCED_CHAIN_DISPATCHER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+    use-special-model:
+      enable: false
+  NE_ADVANCED_CHAING_DISPATCHER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_GRABBER:
+    max-distance: 32
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_PLUS_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_PLUS_GRABBER:
+    max-distance: 64
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:
+    max-distance: 32
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER:
+    max-distance: 64
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_VANILLA_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+    use-special-model:
+      enable: false
+  NTW_EXPANSION_LINE_TRANSFER_VANILLA_GRABBER:
+    max-distance: 32
+    grabitem-tick: 1
+    use-special-model:
+      enable: false
+  STORAGE_UNIT_UPGRADE_TABLE_MODEL:
+    use-special-model:
+      enable: true
+      type: StorageUnitUpgradeTable
+  CARGO_STORAGE_UNIT_1_MODEL:
+    use-special-model:
+      enable: true
+      type: '1'
+  CARGO_STORAGE_UNIT_2_MODEL:
+    use-special-model:
+      enable: true
+      type: '2'
+  CARGO_STORAGE_UNIT_3_MODEL:
+    use-special-model:
+      enable: true
+      type: '3'
+  CARGO_STORAGE_UNIT_4_MODEL:
+    use-special-model:
+      enable: true
+      type: '4'
+  CARGO_STORAGE_UNIT_5_MODEL:
+    use-special-model:
+      enable: true
+      type: '5'
+  CARGO_STORAGE_UNIT_6_MODEL:
+    use-special-model:
+      enable: true
+      type: '6'
+  CARGO_STORAGE_UNIT_7_MODEL:
+    use-special-model:
+      enable: true
+      type: '7'
+  CARGO_STORAGE_UNIT_8_MODEL:
+    use-special-model:
+      enable: true
+      type: '8'
+  CARGO_STORAGE_UNIT_9_MODEL:
+    use-special-model:
+      enable: true
+      type: '9'
+  CARGO_STORAGE_UNIT_10_MODEL:
+    use-special-model:
+      enable: true
+      type: '10'
+  CARGO_STORAGE_UNIT_11_MODEL:
+    use-special-model:
+      enable: true
+      type: '11'
+  CARGO_STORAGE_UNIT_12_MODEL:
+    use-special-model:
+      enable: true
+      type: '12'
+  CARGO_STORAGE_UNIT_13_MODEL:
+    use-special-model:
+      enable: true
+      type: '13'

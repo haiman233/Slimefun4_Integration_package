@@ -1,0 +1,130 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2865
+  type: POPPED_CHORUS_FRUIT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_red","text":"虎年限定"},{"italic":false,"color":"gray","text":"]"},{"bold":true,"italic":false,"color":"light_purple","text":"虎型轻盾"}],"text":""}'
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.8
+        name: GENERIC_MOVEMENT_SPEED
+        slot: HAND
+        uuid: 0349a959-1b3e-46d0-8074-a54bbe469ad1
+        operation: 1
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.15
+        name: GENERIC_MOVEMENT_SPEED
+        slot: OFF_HAND
+        uuid: 9945ebde-e69a-4f2a-bfb5-c7f1deb0d731
+        operation: 1
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.8
+        name: GENERIC_ARMOR
+        slot: HAND
+        uuid: d94a9102-3202-4ef2-9ad0-6f5fea4b7a7e
+        operation: 1
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.2
+        name: GENERIC_ARMOR
+        slot: OFF_HAND
+        uuid: f98caf77-5ad3-4f73-ae54-f14a326f56d1
+        operation: 1
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.95
+        name: GENERIC_ARMOR_TOUGHNESS
+        slot: HAND
+        uuid: 494eabdd-3d86-443c-918f-2a23d860e51b
+        operation: 1
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.2
+        name: GENERIC_ARMOR_TOUGHNESS
+        slot: OFF_HAND
+        uuid: 7f74ba30-43d2-4f1c-9565-bb595180bd74
+        operation: 1
+      GENERIC_FLYING_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.8
+        name: GENERIC_FLYING_SPEED
+        slot: HAND
+        uuid: 859900f9-35c4-4a87-b590-fe4a434cafa3
+        operation: 1
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.15
+        name: GENERIC_FLYING_SPEED
+        slot: OFF_HAND
+        uuid: 59e91a9d-23b2-4768-9696-c12af5836adb
+        operation: 1
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.15
+        name: GENERIC_ATTACK_SPEED
+        slot: OFF_HAND
+        uuid: 8341f750-ec25-4606-9a8b-6b09b73944b0
+        operation: 1
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.08
+        name: GENERIC_ATTACK_DAMAGE
+        slot: OFF_HAND
+        uuid: 904cc7d1-9595-40d3-941b-401cfa4dcc8b
+        operation: 1
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.3
+        name: GENERIC_MAX_HEALTH
+        slot: OFF_HAND
+        uuid: 1f407cd1-1a0f-42c4-a2e9-21fd9775b36d
+        operation: 1
+      HORSE_JUMP_STRENGTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: HORSE_JUMP_STRENGTH
+        slot: OFF_HAND
+        uuid: da19d11f-b5fc-4dc0-b4a6-7fd98493db8c
+        operation: 1
+      GENERIC_LUCK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: GENERIC_LUCK
+        slot: OFF_HAND
+        uuid: 7e4bc7bc-b448-497d-992d-464d54d58738
+        operation: 0
+      ZOMBIE_SPAWN_REINFORCEMENTS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: ZOMBIE_SPAWN_REINFORCEMENTS
+        slot: OFF_HAND
+        uuid: baddb511-aa69-4692-9329-09acb26a92f3
+        operation: 0
+      GENERIC_FOLLOW_RANGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 100.0
+        name: GENERIC_FOLLOW_RANGE
+        slot: OFF_HAND
+        uuid: 5541ed76-769b-428c-880b-0ad33811f3e6
+        operation: 0
+      GENERIC_ATTACK_KNOCKBACK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.25
+        name: GENERIC_ATTACK_KNOCKBACK
+        slot: OFF_HAND
+        uuid: f1913be6-12aa-40f0-be65-f70ee398cdc3
+        operation: 1
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0
+        name: GENERIC_KNOCKBACK_RESISTANCE
+        slot: HAND
+        uuid: 3d02358a-c8b5-417a-9b64-44d45fa1225c
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.08
+        name: GENERIC_KNOCKBACK_RESISTANCE
+        slot: OFF_HAND
+        uuid: 920f1b34-1445-41e1-af9e-eef88d95ddcb
+        operation: 0

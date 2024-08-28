@@ -1,0 +1,45 @@
+SE_BUCKET_CARD:
+  item_group: slimefun_expansion_material
+  item:
+    name: "{#99ff33>}铁桶卡片{#33ff33<}"
+    lore:
+      - ""
+      - "&7可堆叠的铁桶使用压缩机进行加工成卡片"
+      - ""
+      - "{#ff3333}&l&o&nS{#ff7744}&l&o&nl{#ffaa33}&l&o&ni{#ffcc22}&l&o&nm{#ffff33}&l&o&ne{#ccff33}&l&o&nf{#99ff33}&l&o&nu{#33ff33}&l&o&nn{#33ffaa}&l&o&n拓{#33ffdd}&l&o&n展{#33ffff}&l&o&n⇨{#33ccff}&l&o&n材{#5599ff}&l&o&n料"
+    material: PAPER
+  recipe_type: COMPRESSOR
+  recipe:
+    5:
+      material: BUCKET
+      amount: 1
+SE_WATER_BUCKET_CARD:
+  item_group: slimefun_expansion_material
+  item:
+    name: "{#99ff33>}水桶卡片{#33ff33<}"
+    lore:
+      - ""
+      - "&7可堆叠的水桶使用压缩机进行加工成卡片"
+      - ""
+      - "{#ff3333}&l&o&nS{#ff7744}&l&o&nl{#ffaa33}&l&o&ni{#ffcc22}&l&o&nm{#ffff33}&l&o&ne{#ccff33}&l&o&nf{#99ff33}&l&o&nu{#33ff33}&l&o&nn{#33ffaa}&l&o&n拓{#33ffdd}&l&o&n展{#33ffff}&l&o&n⇨{#33ccff}&l&o&n材{#5599ff}&l&o&n料"
+    material: PAPER
+  recipe_type: COMPRESSOR
+  recipe:
+    5:
+      material: WATER_BUCKET
+      amount: 1
+SE_LAVA_BUCKET_CARD:
+  item_group: slimefun_expansion_material
+  item:
+    name: "{#99ff33>}岩浆桶卡片{#33ff33<}"
+    lore:
+      - ""
+      - "&7可堆叠的岩浆桶使用压缩机进行加工成卡片"
+      - ""
+      - "{#ff3333}&l&o&nS{#ff7744}&l&o&nl{#ffaa33}&l&o&ni{#ffcc22}&l&o&nm{#ffff33}&l&o&ne{#ccff33}&l&o&nf{#99ff33}&l&o&nu{#33ff33}&l&o&nn{#33ffaa}&l&o&n拓{#33ffdd}&l&o&n展{#33ffff}&l&o&n⇨{#33ccff}&l&o&n材{#5599ff}&l&o&n料"
+    material: PAPER
+  recipe_type: COMPRESSOR
+  recipe:
+    5:
+      material: LAVA_BUCKET
+      amount: 1

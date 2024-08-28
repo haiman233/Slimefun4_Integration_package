@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3463
+  type: GOAT_HORN
+  meta:
+    ==: ItemMeta
+    meta-type: MUSIC_INSTRUMENT
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"憧憬山羊角"}],"text":""}'
+    instrument: minecraft:yearn_goat_horn

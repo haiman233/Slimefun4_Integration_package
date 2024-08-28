@@ -1,0 +1,15 @@
+id: RSC_HaimanTech2
+name: HaimanTech2
+depends: []
+pluginDepends:
+- FoxyMachines
+- InfinityExpansion
+- LiteXpansion
+- TranscEndence
+- GuizhanLibPlugin
+- Gastronomicon
+version: Release-1.4
+description: 海曼科技院旨在完善粘液科技线，拓展新的原版玩法
+authors:
+- haiman233
+repo: https://github.com/haiman233/HaimanTech2

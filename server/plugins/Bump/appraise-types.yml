@@ -1,0 +1,118 @@
+
+# Refer to our wiki to learn more:
+sword:
+  enabled: true
+  name: Sword
+  description:
+  - Any Slimefun sword.
+  equipment-type: SLIMEFUN
+  check-material: true
+  materials:
+  - bump:sword
+  equipment-slots:
+  - HAND
+  attributes:
+    GENERIC_ATTACK_DAMAGE:
+      min: 0
+      max: 30
+      weight: 40
+    GENERIC_ATTACK_SPEED:
+      min: -3
+      max: 10
+      weight: 25
+    GENERIC_MOVEMENT_SPEED:
+      min: -0.4
+      max: 0.6
+      weight: 15
+    GENERIC_LUCK:
+      min: -3
+      max: 10
+      weight: 10
+    GENERIC_ATTACK_KNOCKBACK:
+      min: -2
+      max: 12
+      weight: 10
+
+armor:
+  enabled: true
+  name: Armor
+  description:
+  - Any Slimefun armor.
+  equipment-type: SLIMEFUN
+  check-material: true
+  materials:
+  - bump:helmet
+  - bump:chestplate
+  - bump:leggings
+  - bump:boots
+  equipment-slots:
+  - HEAD
+  - CHEST
+  - LEGS
+  - FEET
+  attributes:
+    GENERIC_ARMOR:
+      min: 0
+      max: 30
+      weight: 40
+    GENERIC_ARMOR_TOUGHNESS:
+      min: -2
+      max: 12
+      weight: 25
+    GENERIC_MAX_HEALTH:
+      min: -5
+      max: 12
+      weight: 15
+    GENERIC_KNOCKBACK_RESISTANCE:
+      min: -0.2
+      max: 0.8
+      weight: 10
+    GENERIC_FLYING_SPEED:
+      min: -3
+      max: 5
+      weight: 7
+    ZOMBIE_SPAWN_REINFORCEMENTS:
+      min: -5
+      max: 5
+      weight: 3
+
+horse_armor:
+  enabled: true
+  name: Horse Armor
+  description:
+  - Any horse armor.
+  equipment-type: ANY
+  check-material: true
+  materials:
+  - bump:horse_armor
+  equipment-slots:
+  - CHEST
+  attributes:
+    GENERIC_MAX_HEALTH:
+      min: 0
+      max: 30
+      weight: 30
+    GENERIC_ARMOR:
+      min: -5
+      max: 30
+      weight: 15
+    GENERIC_ARMOR_TOUGHNESS:
+      min: -2
+      max: 12
+      weight: 10
+    GENERIC_KNOCKBACK_RESISTANCE:
+      min: -0.2
+      max: 0.8
+      weight: 5
+    HORSE_JUMP_STRENGTH:
+      min: -0.5
+      max: 1.4
+      weight: 20
+    GENERIC_MOVEMENT_SPEED:
+      min: -0.5
+      max: 1.2
+      weight: 15
+    GENERIC_FOLLOW_RANGE:
+      min: -50
+      max: 250
+      weight: 5

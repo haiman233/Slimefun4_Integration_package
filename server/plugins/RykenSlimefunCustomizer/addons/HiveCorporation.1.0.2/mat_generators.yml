@@ -1,0 +1,1513 @@
+HIVECORPORATION_IMAGINE_MACHINE_COMPRESS:
+  item_group: HiveCorporation_Group_Machine
+  item:
+    name: "&3幻想者 (压缩)"
+    material: 14e456600944f28a8865db187b65874226a4c7c56f1e663913b87f677f792a2c
+    lore:
+      - "&7"
+      - "&7不断地生成幻想"
+      - "&7请配合&b天方夜谭&7使用"
+      - "&7"
+      - "&e⚡ &764 J/s 可储存"
+      - "&e⚡ &716 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: PISTON
+    4:
+      material_type: slimefun
+      material: STEEL_PLATE
+    5:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+    8:
+      material_type: slimefun
+      material: STEEL_PLATE
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material_type: slimefun
+    material: HIVECORPORATION_IMAGINE_COMPRESS
+  tickRate: 10
+  status: 4
+  per: 16
+  
+HIVECORPORATION_IMAGINE_MACHINE_EXTEND:
+  item_group: HiveCorporation_Group_Machine
+  item:
+    name: "&3幻想者 (延伸)"
+    material: 14e456600944f28a8865db187b65874226a4c7c56f1e663913b87f677f792a2c
+    lore:
+      - "&7"
+      - "&7不断地生成幻想"
+      - "&7请配合&b天方夜谭&7使用"
+      - "&7"
+      - "&e⚡ &764 J/s 可储存"
+      - "&e⚡ &716 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: HOPPER
+    4:
+      material_type: slimefun
+      material: STEEL_PLATE
+    5:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+    8:
+      material_type: slimefun
+      material: STEEL_PLATE
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material_type: slimefun
+    material: HIVECORPORATION_IMAGINE_EXTEND
+  tickRate: 10
+  status: 4
+  per: 16
+  
+HIVECORPORATION_IMAGINE_MACHINE_CUT:
+  item_group: HiveCorporation_Group_Machine
+  item:
+    name: "&3幻想者 (切割)"
+    material: 14e456600944f28a8865db187b65874226a4c7c56f1e663913b87f677f792a2c
+    lore:
+      - "&7"
+      - "&7不断地生成幻想"
+      - "&7请配合&b天方夜谭&7使用"
+      - "&7"
+      - "&e⚡ &764 J/s 可储存"
+      - "&e⚡ &716 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: SHEARS
+    4:
+      material_type: slimefun
+      material: STEEL_PLATE
+    5:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+    8:
+      material_type: slimefun
+      material: STEEL_PLATE
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material_type: slimefun
+    material: HIVECORPORATION_IMAGINE_CUT
+  tickRate: 10
+  status: 4
+  per: 16
+  
+HIVECORPORATION_IMAGINE_MACHINE_ASSEMBLE:
+  item_group: HiveCorporation_Group_Machine
+  item:
+    name: "&3幻想者 (组装)"
+    material: 14e456600944f28a8865db187b65874226a4c7c56f1e663913b87f677f792a2c
+    lore:
+      - "&7"
+      - "&7不断地生成幻想"
+      - "&7请配合&b天方夜谭&7使用"
+      - "&7"
+      - "&e⚡ &764 J/s 可储存"
+      - "&e⚡ &716 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: CAULDRON
+    4:
+      material_type: slimefun
+      material: STEEL_PLATE
+    5:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+    8:
+      material_type: slimefun
+      material: STEEL_PLATE
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material_type: slimefun
+    material: HIVECORPORATION_IMAGINE_ASSEMBLE
+  tickRate: 10
+  status: 4
+  per: 16
+  
+HIVECORPORATION_COBBLESTONE_MACHINE:
+  item_group: HiveCorporation_Group_Machine
+  item:
+    name: "&3石潭"
+    material: 182691409c63572f31aad12e42febece4b1735c2544fe3ddf61a34eda4441edf
+    lore:
+      - "&7"
+      - "&e⚡ &764 J/s 可储存"
+      - "&e⚡ &78 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 64
+  recipe_type: HIVECORPORATION_TIANFANGYETAN
+  recipe:
+    1:
+      material_type: mc
+      material: DIAMOND_PICKAXE
+    2:
+      material_type: mc
+      material: WATER_BUCKET
+    3:
+      material_type: mc
+      material: LAVA_BUCKET
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_FREEZE_MIRROR
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_BROIL_MIRROR
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 4
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_IMAGINE_ASSEMBLE
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material_type: mc
+    material: COBBLESTONE
+    amount: 4
+  tickRate: 2
+  status: 4
+  per: 32
+HIVECORPORATION_COBBLESTONE_MACHINE_I:
+  item_group: HiveCorporation_Group_Machine
+  item:
+    name: "&3石潭 &eI"
+    material: 182691409c63572f31aad12e42febece4b1735c2544fe3ddf61a34eda4441edf
+    lore:
+      - "&7"
+      - "&e[&6&lV&e]&7 &c坍塌&7级别: &eI"
+      - "&7"
+      - "&e⚡ &71024 J/s 可储存"
+      - "&e⚡ &78 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 1024
+  recipe_type: HIVECORPORATION_COLLAPSE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_COBBLESTONE_MACHINE
+      amount: 12
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_PUPA
+  output: [9,10,11,12,13,14,15,16,17]
+  outputItem:
+    material_type: mc
+    material: COBBLESTONE
+    amount: 64
+  tickRate: 2
+  status: 4
+  per: 512
+HIVECORPORATION_ELECTRICTOEOZOIUM_MACHINE:
+  item_group: HiveCorporation_Group_Energy
+  item:
+    name: "&6Eozoium电池转换机"
+    material: 22d9e98169312150a308b9fb87f512a9964f68c3c26a3c12b2b94090e0f369eb
+    lore:
+      - "&7"
+      - "&7一般电能无法为H公司高等工业产线提供足够的能量"
+      - "&7利用ETE协议可以将少量的将电能转入Eozoium电池"
+      - "&7但是残缺的ETE协议转换效率极其低下"
+      - "&7因此我们通常会直接从&6E公司&7采购Eozoium电池"
+      - "&7"
+      - "&e[&6&lE&e]&7 生产&6Eozoium电池"
+      - "&7"
+      - "&e⚡ &74096 J/s 可储存"
+      - "&e⚡ &73072 J/物品"
+      - "&7"
+      - "&fH Corp."
+  capacity: 4096
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    2:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_BROIL_MIRROR
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_PACT_EOZOIUM
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_FREEZE_MIRROR
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: slimefun
+    material: HIVECORPORATION_EOZOIUM_BATTERY
+  tickRate: 1
+  status: 0
+  per: 3076
+
+#SOUL_TREMOR_BOX
+HIVECORPORATION_SOUL_TREMOR_BOX_CHICKEN_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(鸡) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: CHICKEN
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: CHICKEN
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: CHICKEN
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: CHICKEN
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: CHICKEN
+  tickRate: 10
+  status: 0
+  per: 24
+
+HIVECORPORATION_SOUL_TREMOR_BOX_CHICKEN_2:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(鸡) (&6色欲&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    2:
+      material_type: mc
+      material: FEATHER
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    4:
+      material_type: mc
+      material: FEATHER
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: FEATHER
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    8:
+      material_type: mc
+      material: FEATHER
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: FEATHER
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SHEEP_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(羊) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: MUTTON
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: MUTTON
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: MUTTON
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: MUTTON
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: MUTTON
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SHEEP_2:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(羊) (&6色欲&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    2:
+      material_type: mc
+      material: WHITE_WOOL
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    4:
+      material_type: mc
+      material: WHITE_WOOL
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: WHITE_WOOL
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    8:
+      material_type: mc
+      material: WHITE_WOOL
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: WHITE_WOOL
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_PIG_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(猪) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: PORKCHOP
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: PORKCHOP
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: PORKCHOP
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: PORKCHOP
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: PORKCHOP
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_COW_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(牛) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: BEEF
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: BEEF
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: BEEF
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: BEEF
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: BEEF
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_COW_2:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(牛) (&6色欲&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    2:
+      material_type: mc
+      material: LEATHER
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    4:
+      material_type: mc
+      material: LEATHER
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: LEATHER
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    8:
+      material_type: mc
+      material: LEATHER
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: LEATHER
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_ZOMBIE_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(僵尸) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: ROTTEN_FLESH
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: ROTTEN_FLESH
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: ROTTEN_FLESH
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: ROTTEN_FLESH
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: ROTTEN_FLESH
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_SKELETON_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(骷髅) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: BONE
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: BONE
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: BONE
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: BONE
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: BONE
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_SKELETON_2:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(骷髅) (&d贪婪&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    2:
+      material_type: mc
+      material: ARROW
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    4:
+      material_type: mc
+      material: ARROW
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: ARROW
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    8:
+      material_type: mc
+      material: ARROW
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: ARROW
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_SPIDER_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(蜘蛛) (&2暴食&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    2:
+      material_type: mc
+      material: SPIDER_EYE
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: mc
+      material: SPIDER_EYE
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: SPIDER_EYE
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: mc
+      material: SPIDER_EYE
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: SPIDER_EYE
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_SPIDER_2:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(蜘蛛) (&d贪婪&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    2:
+      material_type: mc
+      material: STRING
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    4:
+      material_type: mc
+      material: STRING
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: STRING
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    8:
+      material_type: mc
+      material: STRING
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: STRING
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_CREEPER_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(苦力怕) (&4暴怒&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    2:
+      material_type: mc
+      material: GUNPOWDER
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    4:
+      material_type: mc
+      material: GUNPOWDER
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: GUNPOWDER
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    8:
+      material_type: mc
+      material: GUNPOWDER
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: GUNPOWDER
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_ENDERMAN_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(末影人) (&9嫉妒&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    2:
+      material_type: mc
+      material: ENDER_PEARL
+      amount: 16
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    4:
+      material_type: mc
+      material: ENDER_PEARL
+      amount: 16
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: ENDER_PEARL
+      amount: 16
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    8:
+      material_type: mc
+      material: ENDER_PEARL
+      amount: 16
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: ENDER_PEARL
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_SLIME_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(史莱姆) (&e懒惰&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_ACEIDA
+    2:
+      material_type: mc
+      material: SLIME_BALL
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_ACEIDA
+    4:
+      material_type: mc
+      material: SLIME_BALL
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: SLIME_BALL
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_ACEIDA
+    8:
+      material_type: mc
+      material: SLIME_BALL
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_ACEIDA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: SLIME_BALL
+  tickRate: 10
+  status: 0
+  per: 24
+
+HIVECORPORATION_SOUL_TREMOR_BOX_GUARDIAN_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(守卫者) (&4暴怒&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    2:
+      material_type: mc
+      material: PRISMARINE_SHARD
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    4:
+      material_type: mc
+      material: PRISMARINE_SHARD
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: PRISMARINE_SHARD
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    8:
+      material_type: mc
+      material: PRISMARINE_SHARD
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: PRISMARINE_SHARD
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_GUARDIAN_2:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(守卫者) (&9嫉妒&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    2:
+      material_type: mc
+      material: PRISMARINE_CRYSTALS
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    4:
+      material_type: mc
+      material: PRISMARINE_CRYSTALS
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: PRISMARINE_CRYSTALS
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    8:
+      material_type: mc
+      material: PRISMARINE_CRYSTALS
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: PRISMARINE_CRYSTALS
+  tickRate: 10
+  status: 0
+  per: 24
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_PILLAGER_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(掠夺者) (&d贪婪&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    2:
+      material_type: mc
+      material: EMERALD
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    4:
+      material_type: mc
+      material: EMERALD
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: EMERALD
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    8:
+      material_type: mc
+      material: EMERALD
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: EMERALD
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_PIGLIN_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(猪灵) (&4暴怒&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    2:
+      material_type: mc
+      material: GOLD_INGOT
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    4:
+      material_type: mc
+      material: GOLD_INGOT
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: GOLD_INGOT
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    8:
+      material_type: mc
+      material: GOLD_INGOT
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: GOLD_INGOT
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_BLAZE_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(烈焰人) (&4暴怒&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    2:
+      material_type: mc
+      material: BLAZE_ROD
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    4:
+      material_type: mc
+      material: BLAZE_ROD
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: BLAZE_ROD
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    8:
+      material_type: mc
+      material: BLAZE_ROD
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: BLAZE_ROD
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_MAGMA_CUBE_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(岩浆怪) (&d贪婪&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    2:
+      material_type: mc
+      material: MAGMA_CREAM
+      amount: 32
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    4:
+      material_type: mc
+      material: MAGMA_CREAM
+      amount: 32
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: MAGMA_CREAM
+      amount: 32
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    8:
+      material_type: mc
+      material: MAGMA_CREAM
+      amount: 32
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: MAGMA_CREAM
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_WITHER_SKELETON_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(凋零骷髅) (&5傲慢&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+    2:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+      amount: 4
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+    4:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+      amount: 4
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+      amount: 4
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+    8:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+      amount: 4
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: WITHER_SKELETON_SKULL
+  tickRate: 10
+  status: 0
+  per: 24
+HIVECORPORATION_SOUL_TREMOR_BOX_WITHER_1:
+  item_group: HiveCorporation_Group_L_Region
+  item:
+    name: "&3灵魂共颤箱 &7(凋零) (&5傲慢&7)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+    lore:
+      - "&7"
+      - "&e⚡ &7128 J/s 可储存"
+      - "&e⚡ &724 J/物品"
+      - "&7"
+      - "&fL Corp."
+  capacity: 128
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+    2:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 4
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+    4:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 4
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_SOUL_TREMOR_BOX
+    6:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 4
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+    8:
+      material_type: mc
+      material: NETHER_STAR
+      amount: 4
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+  output: [1,2,3,4,5,6,7,8]
+  outputItem:
+    material_type: mc
+    material: NETHER_STAR
+  tickRate: 10
+  status: 0
+  per: 24

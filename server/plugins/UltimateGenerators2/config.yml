@@ -1,0 +1,22 @@
+
+# Enable auto update
+auto-update: false
+
+# The plugin language. This will be applied to the whole server when SlimefunTranslation is not installed.
+lang: zh-Hans
+
+# Whether to print debug messages
+debug: false
+
+# Settings for items
+# Glass Electricity Transmitter
+glass-electricity-transmitter:
+
+  # The amount of Glass Electricity Transmitter each craft gives
+  craft-amount: 12
+
+# Ender Crystal Generator (Modular)
+ender-crystal-generator:
+
+  # The energy produced by each crystal
+  energy-per-crystal: 128

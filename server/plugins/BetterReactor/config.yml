@@ -1,0 +1,9 @@
+options:
+  auto-update: false
+Reactor_Core_Hologram_Particles: 100
+uranMax: 12
+announceReactorExplosion: true
+announceReactorOwner: true
+explosionFallout: true
+largeExplosionFallout: true
+biggerExplosion: false

@@ -1,0 +1,1806 @@
+rou:
+  lateInit: false
+  id: 110000000
+  name: 更多肉
+  levelCost: 10
+  items:
+  - GHAST_ROU
+  - BAT_ROU
+  - CAT_ROU
+  - DONKEY_ROU
+  - HORSE_ROU
+  - MULE_ROU
+  - FOX_ROU
+  - PARROT_ROU
+  - SQUID_ROU
+  - STRIDER_ROU
+  - VILLAGER_ROU
+  - WANDERING_TRADER_ROU
+  - TURTLE_ROU
+  - GIANT_ROU
+modikeji:
+  lateInit: false
+  id: 110000002
+  name: 末地科技拓展
+  levelCost: 30
+  items:
+  - RAINBOW_ZOT
+  - ZOT_INGOT
+zishuijingfen:
+  lateInit: false
+  id: 110000003
+  name: 当水晶破碎的时候
+  levelCost: 16
+  items:
+  - HAIMAN_AMETHYST_DUST
+gongye:
+  lateInit: false
+  id: 110000004
+  name: 工业基础
+  levelCost: 32
+  items:
+  - FUHEBAN
+renzaocailiao:
+  lateInit: false
+  id: 110050005
+  name: 人造高级材料
+  levelCost: 25
+  items:
+  - ARTIFICIAL_SILICON_BASED_MATERIALS
+  - MINECRAFT_SOURCE_STONE
+  - ANCIENT_ITEM
+fenzi1:
+  lateInit: false
+  id: 110050006
+  name: 分子学入门
+  levelCost: 100
+  items:
+  - MOLECULAR_RECOMBINATION_INSTRUMENT_I
+fenzi2:
+  lateInit: false
+  id: 110050007
+  name: 炉火纯青的分子学
+  levelCost: 200
+  items:
+  - MOLECULAR_RECOMBINATION_INSTRUMENT_II
+fenzi3:
+  lateInit: false
+  id: 110050008
+  name: 新型高科技物品
+  levelCost: 400
+  items:
+  - MOLECULAR_RECOMBINATION_INSTRUMENT_III
+fenzi4:
+  lateInit: false
+  id: 110050009
+  name: 还可以突破一下
+  levelCost: 800
+  items:
+  - MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+chongzucailiao:
+  lateInit: false
+  id: 110060009
+  name: 重组材料
+  levelCost: 30
+  items:
+  - MINECRAFT_DEAD_BUSH_GHOST
+  - HAIMAN_INFINITY_CONSTRUCTOR_2
+fenzi5:
+  lateInit: false
+  id: 110050010
+  name: 科学的脚步并不止于此
+  levelCost: 1600
+  items:
+  - MOLECULAR_RECOMBINATION_INSTRUMENT_V
+  - HT_MODULE_1
+fenzi_32767:
+  lateInit: false
+  id: 110000011
+  name: 分子仪的玩笑
+  levelCost: 35
+  items:
+  - MOLECULAR_RECOMBINATION_INSTRUMENT_32767
+  - MOLECULAR_CHANGER
+  - MAGIC_SWEET_POTATO
+  - DOGE
+  - HAIMAN_TEA
+  - FKS
+zhongjimada:
+  lateInit: false
+  id: 110000012
+  name: 终极能源马达
+  levelCost: 45
+  items:
+  - ULTIMATE_ENERGY_MOTOR
+xingchenfensui:
+  lateInit: false
+  id: 110000812
+  name: 你见过星尘粉碎的样子吗？
+  levelCost: 255
+  items:
+  - HAIMAN_GALAXY_PIECE
+  - HAIMAN_BLACK_HOLE_PIECE
+haimanxingchen:
+  lateInit: false
+  id: 110000814
+  name: 星空会铭记你的名字
+  levelCost: 20
+  items:
+  - HAIMAN_STAR_DUST
+suipian:
+  lateInit: false
+  id: 110000813
+  name: 当科学来到神秘学
+  levelCost: 85
+  items:
+  - JITANCHENZHOU
+  - HAIMAN_FOXY_PRODUCER
+yijidingwei:
+  lateInit: false
+  id: 110000013
+  name: 遗迹定位
+  levelCost: 42
+  items:
+  - YJ_DINGWEI_QI
+  - BZ_TCQ
+  - HAIMAN_YJ_SX_MACHINE
+doumao:
+  lateInit: false
+  id: 110000014
+  name: 嘿嘿嘿...猫猫
+  levelCost: 22
+  items:
+  - DOUMAOBANG
+  - HAIMAN_LU_CAT_MACHINE
+zuozhe:
+  lateInit: false
+  id: 110000016
+  name: 带恶人
+  levelCost: 30
+  items:
+  - HAIMAN
+  - YITOUDAIDAI
+  - YH_MC
+haimantech_fuel:
+  lateInit: false
+  id: 110000017
+  name: 高级燃料
+  levelCost: 16
+  items:
+  - H_FUEL
+  - HD_FUEL
+  - HDB_FUEL
+  - HDBU_FUEL
+dangaopi:
+  lateInit: false
+  id: 110000020
+  name: 生日快乐！
+  levelCost: 5
+  items:
+  - HM_CAKE_BREAD
+  - HAIMAN_DANGAO_HONGBEI
+  - HAIMAN_BIRTHDAY_CAKE_1
+kongqiumoban:
+  lateInit: false
+  id: 110000021
+  name: 波兰球模版
+  levelCost: 8
+  items:
+  - HM_EMPTY_COUNTRY_BALL
+hunian2:
+  lateInit: false
+  id: 120000022
+  name: 新年
+  levelCost: 30
+  items:
+  - HAIMAN_NEW_YEAR_1
+  - HAIMAN_NEW_YEAR_PIECE_1
+miaosha:
+  lateInit: false
+  id: 110000023
+  name: 秒杀神器
+  levelCost: 66
+  items:
+  - HAIMAN_XIONGSHILAOFANG
+guang:
+  lateInit: false
+  id: 110000024
+  name: 隐形光源
+  levelCost: 50
+  items:
+  - LIGHT_0
+  - LIGHT_1
+  - LIGHT_2
+  - LIGHT_3
+  - LIGHT_4
+  - LIGHT_5
+  - LIGHT_6
+  - LIGHT_7
+  - LIGHT_8
+  - LIGHT_9
+  - LIGHT_10
+  - LIGHT_11
+  - LIGHT_12
+  - LIGHT_13
+  - LIGHT_14
+  - HAIMAN_LIGHT_PRODUCER
+  - HAIMAN_LIGHT_UPDATER
+jichujiqi:
+  lateInit: false
+  id: 110000025
+  name: 压块机
+  levelCost: 20
+  items:
+  - COMPRESSION_BLOCK_MACHINE
+dianzu:
+  lateInit: false
+  id: 110000026
+  name: 电力过多的烦恼
+  levelCost: 35
+  items:
+  - HAIMAN_RESISTANCE
+jichuheshuaibian:
+  lateInit: false
+  id: 110000027
+  name: 基础核衰变
+  levelCost: 40
+  items:
+  - NUCLEAR_DECAY_MACHINE
+nongyeyiti:
+  lateInit: false
+  id: 110000028
+  name: 农业一体机
+  levelCost: 40
+  items:
+  - MILK_HONEY_MACHINE
+canhaishengchan:
+  lateInit: false
+  id: 110000029
+  name: 残骸自动化
+  levelCost: 46
+  items:
+  - ANCIENT_DEBRIS_MACHINE
+debugji:
+  lateInit: false
+  id: 110000030
+  name: 阻止你的是什么？
+  levelCost: 68
+  items:
+  - HAIMAN_DEBUG_MACHINE
+minlingfangkuairanse:
+  lateInit: false
+  id: 118000030
+  name: 高级的染色技巧
+  levelCost: 88
+  items:
+  - COMMAND_BLOCK_DYE_MACHINE
+gjminlingfangkuairanse:
+  lateInit: false
+  id: 118000030
+  name: 更高级的染色技巧
+  levelCost: 188
+  items:
+  - COMMAND_BLOCK_DYE_MACHINE_2
+zaipeiji:
+  lateInit: false
+  id: 110000031
+  name: 无土栽培
+  levelCost: 62
+  items:
+  - HAIMAN_MUSHROOM_MACHINE
+  - HAIMAN_FLOWER_MACHINE
+  - HAIMAN_PLANT_MACHINE
+  - HAIMAN_CORAL_PRODUCER
+wubiaoqian:
+  lateInit: false
+  id: 110000032
+  name: 当它们脱去标签时
+  levelCost: 36
+  items:
+  - NONE_NBT_MACHINE
+xiajienianye:
+  lateInit: false
+  id: 110000033
+  name: 下界粘液!!
+  levelCost: 35
+  items:
+  - STRANGE_NETHER_GOO_MACHINE
+lianyefenzi:
+  lateInit: false
+  id: 110000034
+  name: 莲叶能源
+  levelCost: 42
+  items:
+  - LILY_PAD_MACHINE
+  - LILY_PAD_GENERATOR
+renzaotiantichubu:
+  lateInit: false
+  id: 110000035
+  name: 人造天体初步
+  levelCost: 32
+  items:
+  - MAN_MADE_MOON
+wujinyiti1:
+  lateInit: false
+  id: 110000036
+  name: 无尽锭一体入门
+  levelCost: 500
+  items:
+  - INFINITY_ALL_IN_ONE_MACHINE_1
+wujinyiti2:
+  lateInit: false
+  id: 110000037
+  name: 自动化之神
+  levelCost: 600
+  items:
+  - INFINITY_ALL_IN_ONE_MACHINE_2
+2jichujiqi:
+  lateInit: false
+  id: 110000038
+  name: 懒狗之神
+  levelCost: 700
+  items:
+  - INFINITY_ALL_IN_ONE_MACHINE_3
+riyongjiqi:
+  lateInit: false
+  id: 110000039
+  name: 日用机器1
+  levelCost: 30
+  items:
+  - HAIMAN_WASHING_MACHINE
+  - HAIMAN_SUGAR_PRODUCER_MACHINE
+  - HAIMAN_FISH_MACHINE
+riyongjiqi2:
+  lateInit: false
+  id: 120000039
+  name: 日用机器2
+  levelCost: 30
+  items:
+  - HAIMAN_FOOD_FERMENTATION_MACHINE
+  - HAIMAN_LEARHER_CHANGER
+  - HAIMAN_CRAFTING_TABLE
+riyongjiqi3:
+  lateInit: false
+  id: 120000040
+  name: 日用机器3
+  levelCost: 30
+  items:
+  - HAIMAN_MINECART_MACHINE
+  - HAIMAN_BOOK_MACHINE
+  - HAIMAN_COFFEE_MAKER
+  - HAIMAN_COFFEE
+tiezhenjiqi:
+  lateInit: false
+  id: 110000040
+  name: 铁砧的离与合
+  levelCost: 38
+  items:
+  - HAIMAN_ANVIL_BROKER
+  - HAIMAN_ANVIL_FIXER
+zhongqijiqi:
+  lateInit: false
+  id: 110000041
+  name: 中期过渡机器
+  levelCost: 40
+  items:
+  - HAIMAN_GRAVEL_CREATER
+modimenjiqi:
+  lateInit: false
+  id: 110000042
+  name: 想去末地了？
+  levelCost: 50
+  items:
+  - HAIMAN_END_PORTAL_FRAME_CREATER
+3jichujiqi:
+  lateInit: false
+  id: 110000043
+  name: 压块机
+  levelCost: 20
+  items:
+  - COMPRESSION_BLOCK_MACHINE
+gaizaoji:
+  lateInit: false
+  id: 110000044
+  name: 方块改造1
+  levelCost: 42
+  items:
+  - HAIMAN_WOOD_PEELER
+  - INFESTED_MACHINE
+  - SOIL_CHANGER
+  - GRASS_WOOD_CHANGER
+gaizaoji2:
+  lateInit: false
+  id: 120000044
+  name: 方块改造2
+  levelCost: 32
+  items:
+  - CORAL_DEAD_MACHINE
+  - HAIMAN_STONE_CHANGER
+  - HAIMAN_CARPET_MACHINE
+wujinyoubeng:
+  lateInit: false
+  id: 110000045
+  name: 石油！源源不断的石油！
+  levelCost: 88
+  items:
+  - HAIMAN_INFINITY_OIL_PUMP
+jinyiti:
+  lateInit: false
+  id: 110000046
+  name: 金一体化
+  levelCost: 66
+  items:
+  - 4K_GOLD_INTEGRATED_MACHINE
+  - 4K_GOLD_INTEGRATED_MACHINE_2
+  - 4K_GOLD_INTEGRATED_MACHINE_3
+  - HAIMAN_12K_GOLD_PRODUCER
+  - HAIMAN_24K_GOLD_PRODUCER
+xukongyiti:
+  lateInit: false
+  id: 110000047
+  name: 虚空一体机
+  levelCost: 160
+  items:
+  - HAIMAN_VOID_INGOT_PRODUCER
+shiyinyiti:
+  lateInit: false
+  id: 110000948
+  name: 石英一体机
+  levelCost: 115
+  items:
+  - HAIMAN_QUARTZ_PRODUCER_1
+  - HAIMAN_QUARTZ_PRODUCER_2
+  - HAIMAN_QUARTZ_PRODUCER_3
+uuyiti:
+  lateInit: false
+  id: 110000848
+  name: UU物质一体机
+  levelCost: 200
+  items:
+  - HAIMAN_UU_MACHINE
+sfbookyiti:
+  lateInit: false
+  id: 110001848
+  name: 源源不断的粘液书！
+  levelCost: 200
+  items:
+  - HAIMAN_SFBOOK_MACHINE_1
+  - HAIMAN_SFBOOK_MACHINE
+yuanbanyiti:
+  lateInit: false
+  id: 110000048
+  name: 原版物品一体机1
+  levelCost: 28
+  items:
+  - HAIMAN_CLAY_BALL_INGOT_PRODUCER
+  - HAIMAN_DIRT_PRODUCER
+  - HAIMAN_DEEPSLATE_PRODUCER
+yuanbanyiti2:
+  lateInit: false
+  id: 120000048
+  name: 原版物品一体机2
+  levelCost: 40
+  items:
+  - RAIL_INTEGRATED_MACHINE
+  - HAIMAN_RAIL_MACHINE_1
+  - HAIMAN_SHULKER_BOX_MACHINE
+yuanbanyiti3:
+  lateInit: false
+  id: 120000049
+  name: 原版物品一体机3
+  levelCost: 45
+  items:
+  - HAIMAN_NETHERITE_INGOT_MACHINE
+  - HAIMAN_MAGMA_BLOCK_MACHINE
+  - HAIMAN_TOTEM_EXPLORER
+yuanbanyiti4:
+  lateInit: false
+  id: 120000050
+  name: 原版物品一体机4
+  levelCost: 28
+  items:
+  - SAPLING_INTEGRATED_MACHINE
+  - CONCRETE_FORMING_MACHINE
+  - HAIMAN_YINSHI_PRODUCER
+zhaguozhi:
+  lateInit: false
+  id: 110000049
+  name: 榨果汁
+  levelCost: 14
+  items:
+  - HAIMAN_AUTO_JUICER
+kuangfenzhuanhuan:
+  lateInit: false
+  id: 110000050
+  name: 矿粉转换
+  levelCost: 65
+  items:
+  - HAIMAN_COPPER_DUST_PRODUCER
+  - HAIMAN_IRON_DUST_PRODUCER
+jieyaji:
+  lateInit: false
+  id: 1100000517
+  name: 解压机
+  levelCost: 88
+  items:
+  - HAIMAN_DECOMPRESSOR_MACHINE_1
+  - HAIMAN_DECOMPRESSOR_MACHINE_2
+renzaogailiang:
+  lateInit: false
+  id: 110000052
+  name: 人造改良机
+  levelCost: 66
+  items:
+  - SYNTHETIC_CHANGER
+jichukeyin:
+  lateInit: false
+  id: 110000053
+  name: 刻印类机器
+  levelCost: 42
+  items:
+  - HAIMAN_BANNER_PATTERN_PRODUCER
+  - MUSIC_DISC_PRODUCER
+  - HAIMAN_HORSE_ARMOR_PRODUCER
+jiejinyiti:
+  lateInit: false
+  id: 110000054
+  name: 结晶一体
+  levelCost: 77
+  items:
+  - HAIMAN_LUMP_PRODUCER
+ranfang:
+  lateInit: false
+  id: 110000055
+  name: 染坊!!
+  levelCost: 120
+  items:
+  - HAIMAN_CONCRETE_DYING
+  - HAIMAN_WOOL_DYING
+  - HAIMAN_GLASS_DYING
+  - HAIMAN_TERRACOTTA_DYING
+  - HAIMAN_SHULKER_BOX_DYING
+  - HAIMAN_CANDLE_DYING
+  - HAIMAN_ADVANCE_DYING
+yiqijiqi:
+  lateInit: false
+  id: 110000056
+  name: 1.17机器
+  levelCost: 50
+  items:
+  - HAIMAN_POWDER_SNOW_MACHINE
+  - HAIMAN_RAW_INGOT_CHANGER
+  - HAIMAN_ORE_CHANGER
+  - HAIMAN_GLOWER
+  - HAIMAN_COPPER_INGOT_CHANGER
+tula:
+  lateInit: false
+  id: 110000057
+  name: 涂蜡？打蜡？
+  levelCost: 16
+  items:
+  - HAIMAN_WAX_ON_MACHINE
+  - HAIMAN_WAX_OFF_MACHINE
+  - HAIMAN_OXIDIZED_MACHINE
+  - HAIMAN_RUST_REMOVAL_MACHINE
+gaojiyuanban:
+  lateInit: false
+  id: 110000058
+  name: 更高级的原版机器
+  levelCost: 77
+  items:
+  - HAIMAN_ELECTRIC_INGOT_FACTORY_4
+  - HAIMAN_ELECTRIC_INGOT_FACTORY_5
+  - HAIMAN_CARBON_PRESS_4
+  - HAIMAN_CARBON_PRESS_5
+nianyeyiti:
+  lateInit: false
+  id: 110000059
+  name: 粘液机器
+  levelCost: 77
+  items:
+  - HAIMAN_BASIC_PRODUCER
+ranliaoyehua:
+  lateInit: false
+  id: 110000060
+  name: 燃料液化机
+  levelCost: 92
+  items:
+  - HAIMAN_FUEL_MACHINE
+qiangheyiti1:
+  lateInit: false
+  id: 110000061
+  name: 强合一体1
+  levelCost: 500
+  items:
+  - HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1
+qiangheyiti2:
+  lateInit: false
+  id: 110000062
+  name: 强合一体2
+  levelCost: 1000
+  items:
+  - HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2
+qiangheyiti3:
+  lateInit: false
+  id: 110000063
+  name: 强合一体3
+  levelCost: 2000
+  items:
+  - HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3
+gongyezidonghua:
+  lateInit: false
+  id: 110000064
+  name: 工业附属自动化
+  levelCost: 99
+  items:
+  - HEJINDING_YUANPEI
+  - HAIMAN_JINGLIANLU
+  - GJJLL
+  - JINSHUJGC
+  - SHOUMOJGC
+zhuanhuanji:
+  lateInit: false
+  id: 1100000657
+  name: 物品转换机
+  levelCost: 88
+  items:
+  - HAIMAN_MEAT_CHANGER
+  - HAIMAN_BOTTLE_CHANGER
+shuji:
+  lateInit: false
+  id: 110000066
+  name: 书本转换
+  levelCost: 32
+  items:
+  - HAIMAN_WRITTEN_BOOK_CHANGER
+  - HAIMAN_WRITTEN_BOOK_CHANGERNEW
+  - BOOK_1
+  - BOOK_2
+  - BOOK_3
+  - BOOK_4
+yinxingji:
+  lateInit: false
+  id: 110000067
+  name: 物品隐形
+  levelCost: 42
+  items:
+  - HAIMAN_YINGXING_MACHINE
+xszpzp:
+  lateInit: false
+  id: 110000967
+  name: 学识之瓶的装配
+  levelCost: 58
+  items:
+  - XUESHIZHIPINGZHUANGPEIJI
+kwcs:
+  lateInit: false
+  id: 110000968
+  name: 矿物催生器
+  levelCost: 40
+  items:
+  - KUANGWUCUISHENGQI
+  - MEITANZHONGZI
+  - TIEZHONGZI
+  - JINZHONGZI
+  - LVBAOSHIZHONGZI
+  - ZUANSHIZHONGZI
+  - SHIYINGZHONGZI
+  - QINGJINSHIZHONGZI
+  - HONGSHISHIZHONGZI
+  - TONGZHONGZI
+jiaoyiji:
+  lateInit: false
+  id: 110000068
+  name: 成交！
+  levelCost: 78
+  items:
+  - HAIMAN_ZLJY_MACHINE
+  - HAIMAN_CMLW_MACHINE
+diandongduanzao:
+  lateInit: false
+  id: 110000069
+  name: 电动锻造机
+  levelCost: 34
+  items:
+  - HAIMAN_DUANZAO_MACHINE
+hedianzhan:
+  lateInit: false
+  id: 110000072
+  name: 核电站！
+  levelCost: 320
+  items:
+  - HEDIANZHAN_1
+  - HEDIANZHAN_2
+  - HELIEBIAN_3
+kongjianjiqi:
+  lateInit: false
+  id: 110000073
+  name: 空间模拟机器
+  levelCost: 160
+  items:
+  - HAIMAN_CAVE_MACHINE
+  - DIYUKONGJIAN
+  - MODIKONGJIAN
+  - MIJINGHUAYUAN
+  - JIHANZHIDI
+xukongdiaoyu:
+  lateInit: false
+  id: 110000075
+  name: 鱼到碗里来!
+  levelCost: 66
+  items:
+  - DIAOYUJI
+wanneng:
+  lateInit: false
+  id: 110000076
+  name: 万能石头工厂
+  levelCost: 150
+  items:
+  - WANNENGGONGCHANG
+  - SHITOUGONGCHANG
+diancitie1:
+  lateInit: false
+  id: 110000079
+  name: 电磁铁爆发仪基础
+  levelCost: 1300
+  items:
+  - ELECTRO_MAGNET_INTEGRATED_MACHINE_1
+diancitie2:
+  lateInit: false
+  id: 110000080
+  name: 电磁铁之王
+  levelCost: 2600
+  items:
+  - ELECTRO_MAGNET_INTEGRATED_MACHINE_2
+diancitie3:
+  lateInit: false
+  id: 110000081
+  name: 天上掉电磁铁了！
+  levelCost: 5000
+  items:
+  - ELECTRO_MAGNET_INTEGRATED_MACHINE_3
+fulifadian:
+  lateInit: false
+  id: 110000084
+  name: 福利发电机
+  levelCost: 4
+  items:
+  - HAIMAN_EXAMPLE_GENERATOR
+  - VAGETABLE_SOLAR_GENERATOR
+renzaoxiaotaiyang:
+  lateInit: false
+  id: 110000085
+  name: 人造小太阳
+  levelCost: 320
+  items:
+  - MAN_MADE_SUN
+renzaoyinhexi:
+  lateInit: false
+  id: 110000086
+  name: 人造银河系
+  levelCost: 680
+  items:
+  - MAN_MADE_GALAXY
+renzaoheidong:
+  lateInit: false
+  id: 110000087
+  name: 人造黑洞
+  levelCost: 1080
+  items:
+  - MAN_MADE_BLACK_HOLE
+renzaoyuzhou:
+  lateInit: false
+  id: 110000088
+  name: '...人造宇宙...'
+  levelCost: 2380
+  items:
+  - MAN_MADE_UNIVERSE
+zhongjifadianji:
+  lateInit: false
+  id: 110000089
+  name: 中级发电机
+  levelCost: 135
+  items:
+  - HAIMAN_ELEMENT_GENERATOR
+  - HAIMAN_EARTH_GENERATOR
+  - HAIMAN_SEND_CACTUS_GENERATOR
+  - HAIMAN_END_GENERATOR
+gaojihefanyingdui:
+  lateInit: false
+  id: 110000090
+  name: 高级核反应堆
+  levelCost: 58
+  items:
+  - ADVANCED_NUCLEAR_REACTOR
+fangshexingfadianji:
+  lateInit: false
+  id: 110000091
+  name: 放射性同位素热电机
+  levelCost: 72
+  items:
+  - RADIOISOTOPE_THERMOELECTRIC_MACHINE_T
+dianwangdianxian:
+  lateInit: false
+  id: 110000092
+  name: 电线与电网
+  levelCost: 20
+  items:
+  - HIGH_VOLTAGE_TRANSMISSION_LINES
+  - HAIMAN_POWER_NET
+bolanqiu:
+  lateInit: false
+  id: 110000094
+  name: 波兰球
+  levelCost: 12
+  items:
+  - CHINA_TAIWAN_BALL
+  - CHINA_XIANGGANG_BALL
+  - CHINA_AOMEN_BALL
+  - CHINA_BALL
+  - CX_BALL
+  - XJP_BALL
+  - YM_BALL
+  - LG_BALL
+  - TG_BALL
+  - YSL_BALL
+  - FLB_BALL
+  - AFH_BALL
+  - BJST_BALL
+  - MJLG_BALL
+  - BALIN_BALL
+  - ASBJ_BALL
+  - AEZH_BALL
+  - YMNY_BALL
+  - RIBEN_BALL
+  - WZBKST_BALL
+  - ALBLHQZG_BALL
+  - TKMST_BALL
+  - TJKST_BALL
+  - XLY_BALL
+  - HANGUO_BALL
+  - DTJST_BALL
+  - STALB_BALL
+  - HSKST_BALL
+  - YDNXY_BALL
+  - ABHQY_BALL
+  - WENLAI_BALL
+  - BUDAN_BALL
+  - DDF_BALL
+  - SPLS_BALL
+  - JPZ_BALL
+  - GLJY_BALL
+  - MIANDIAN_BALL
+  - MENGGU_BALL
+  - MEDF_BALL
+  - MLXY_BALL
+  - LBN_BALL
+  - JEJSST_BALL
+  - KWT_BALL
+  - YUEDAN_BALL
+  - YLK_BALL
+  - YILANG_BALL
+  - INDIA_BALL
+  - KATAER_BALL
+  - BLST_BALL
+  - AMSD_BALL
+  - NBE_BALL
+  - NAST_BALL
+  - YUENAN_BALL
+  - TUERQI_BALL
+  - ASEAN_BALL
+  - SHAE_BALL
+  - SULIAN_BALL
+  - RUSSIA_BALL
+  - PTY_BALL
+  - BLS_BALL
+  - YDL_BALL
+  - MET_BALL
+  - UK_BALL
+  - FG_BALL
+  - XL_BALL
+  - DG_BALL
+  - PLSDG_BALL
+  - MNG_BALL
+  - JIEKE_BALL
+  - AEL_BALL
+  - LTW_BALL
+  - RS_BALL
+  - WKL_BALL
+  - DANMAI_BALL
+  - BOLAN_BALL
+  - LTWY_BALL
+  - ASNY_BALL
+  - BELS_BALL
+  - ADL_BALL
+  - XYL_BALL
+  - LMNY_BALL
+  - SLWNY_BALL
+  - BLLTW_BALL
+  - SEWY_BALL
+  - HELAN_BALL
+  - SLFK_BALL
+  - KLDY_BALL
+  - FENLAN_BALL
+  - SMLN_BALL
+  - BINGDAO_BALL
+  - NUOWEI_BALL
+  - RUIDIAN_BALL
+  - JTLNY_BALL
+  - AEBNY_BALL
+  - ADE_BALL
+  - BJLY_BALL
+  - XBY_BALL
+  - BSNYHHSGWN_BALL
+  - HS_BALL
+  - MEDW_BALL
+  - LZDSD_BALL
+  - FDG_BALL
+  - DNSTHDAGHG_BALL
+  - LSB_BALL
+  - MSWEJQD_BALL
+  - NSLF_BALL
+  - AXDG_BALL
+  - LBL_BALL
+  - JKSLFK_BALL
+  - DD_BALL
+  - SKSGG_BALL
+  - OM_BALL
+  - HY_BALL
+  - AJ_BALL
+  - ASEBY_BALL
+  - WGD_BALL
+  - SLLA_BALL
+  - SNJE_BALL
+  - LWD_BALL
+  - MLQS_BALL
+  - 1MLTNY_BALL
+  - MDJSJ_BALL
+  - NRLY_BALL
+  - NRE_BALL
+  - MLG_BALL
+  - AEJLY_BALL
+  - BCWN_BALL
+  - AGL_BALL
+  - BLD_BALL
+  - BJNFS_BALL
+  - BN_BALL
+  - SWSL_BALL
+  - ELTLY_BALL
+  - CDJNY_BALL
+  - JBT_BALL
+  - KTDW_BALL
+  - GGGHG_BALL
+  - GGMZGHG_BALL
+  - KML_BALL
+  - ZFGHG_BALL
+  - KAMAILONG_BALL
+  - FDJ_BALL
+  - JNYBS_BALL
+  - JNY_BALL
+  - JN_BALL
+  - JP_BALL
+  - MSBK_BALL
+  - MLTNY_BALL
+  - MLW_BALL
+  - LBY_BALL
+  - KBLY_BALL
+  - LST_BALL
+  - NNW_BALL
+  - KNY_BALL
+  - GBY_BALL
+  - NMBY_BALL
+  - SD_BALL
+  - NSD_BALL
+  - NF_BALL
+  - SMLL_BALL
+  - SML_BALL
+  - SSE_BALL
+  - SDMHPLXB_BALL
+  - ALBSHLMZGHG_BALL
+  - JBBW_BALL
+  - ZBY_BALL
+  - TNS_BALL
+  - DUOGE_BALL
+  - TSNY_BALL
+  - KEDST_BALL
+  - MMLKSD_BALL
+  - ML_BALL
+  - ZD_BALL
+  - JNL_BALL
+  - FM_BALL
+  - USA_BALL
+  - JND_BALL
+  - BNM_BALL
+  - BAXI_BALL
+  - AGT_BALL
+  - BLWY_BALL
+  - GLBY_BALL
+  - HAIDI_BALL
+  - BILU_BALL
+  - MXG_BALL
+  - WLG_BALL
+  - EEDG_BALL
+  - ZL_BALL
+  - ADGHBBD_BALL
+  - BBDS_BALL
+  - BHM_BALL
+  - BLZ_BALL
+  - SEWD_BALL
+  - DMNJ_BALL
+  - DMNK_BALL
+  - GUBA_BALL
+  - GSDLJ_BALL
+  - GYN_BALL
+  - GLND_BALL
+  - YMJ_BALL
+  - HDLS_BALL
+  - BLG_BALL
+  - NJLG_BALL
+  - SLN_BALL
+  - SWSTHGLNT_BALL
+  - SLXY_BALL
+  - SJZHNWS_BALL
+  - WNRL_BALL
+  - DLNDHDBG_BALL
+  - SPAEHMKL_BALL
+  - GLL_BALL
+  - FSGYN_BALL
+  - WDML_BALL
+  - BY_BALL
+  - ADLY_BALL
+  - FIJI_BALL
+  - MKLNXY_BALL
+  - MSEQD_BALL
+  - JLBS_BALL
+  - BBYXJNY_BALL
+  - PL_BALL
+  - NIUAI_BALL
+  - XXL_BALL
+  - NAOLU_BALL
+  - SLMQD_BALL
+  - SMYQD_BALL
+  - WNAT_BALL
+  - TWL_BALL
+  - TJ_BALL
+  - XKLDNY_BALL
+  - NFKD_BALL
+  - NANJI_BALL
+biaoqin:
+  lateInit: false
+  id: 60000001
+  name: 趣味表情
+  levelCost: 5
+  items:
+  - DOGE
+  - EMOJI_HAPPY
+  - EMOJI_NERVOUS
+  - EMOJI_ANGRY
+  - EMOJI_ICE
+  - EMOJI_ZZZ
+  - EMOJI_OU
+  - EMOJI_LAUGH
+  - EMOJI_LAUGHING_CRYING
+  - EMOJI_SAD
+  - EMOJI_CRY
+  - EMOJI_SHIT
+  - EMOJI_WOW
+  - EMOJI_CRAZY
+  - EMOJI_LOVE
+  - EMOJI_LUE
+  - EMOJI_CONFIDENCE
+  - EMOJI_DEAD
+  - EMOJI_SPIKE
+  - EMOJI_THINKING
+  - EMOJI_BEARD
+  - EMOJI_COOL
+  - EMOJI_BIG_MOUTH_CRYING
+  - EMOJI_XOK
+  - EMOJI_EMOTICON_EYES
+chaopindianluban:
+  lateInit: false
+  id: 110001000
+  name: 超频！超频！
+  levelCost: 200
+  items:
+  - HM_DONGLILINGJIAN
+  - HM_CHAOPING_CIRCUIT_BOARD
+yasuonianyeshu:
+  lateInit: false
+  id: 110001001
+  name: 压缩粘液书
+  levelCost: 38
+  items:
+  - YASUO_SFBOOK
+  - YASUO_YASUO_SFBOOK
+yuanyoujiang:
+  lateInit: false
+  id: 110101001
+  name: 原油浆
+  levelCost: 400
+  items:
+  - YUANYOUJIANG_1
+  - YUANYOUJIANG_2
+  - YUANYOUJIANG_3
+jixiaodianrong:
+  lateInit: false
+  id: 110101002
+  name: 极小电容
+  levelCost: 18
+  items:
+  - CHOU_CAPACITOR
+  - FEI_CAPACITOR
+haimanyasuoji:
+  lateInit: false
+  id: 110101003
+  name: 杂七杂八的压缩
+  levelCost: 40
+  items:
+  - HAIMAN_YASUOJI
+diandongnamigongzuot:
+  lateInit: false
+  id: 110101004
+  name: 末地科技自动化
+  levelCost: 48
+  items:
+  - HAIMAN_NAMI_CRAFTING_TABLE
+youbaofa:
+  lateInit: false
+  id: 110101005
+  name: 铀啊！无穷无尽的铀啊！
+  levelCost: 166
+  items:
+  - HAIMAN_U_GENERATOR
+jiqirenyiti:
+  lateInit: false
+  id: 110101006
+  name: 巨量机器人
+  levelCost: 1685
+  items:
+  - HAIMAN_ROBOT_GENERATOR
+gjjiqirenyiti:
+  lateInit: false
+  id: 110101007
+  name: 巨量高级机器人
+  levelCost: 2100
+  items:
+  - HAIMAN_GAOJI_ROBOT_GENERATOR
+fangjieshiqun:
+  lateInit: false
+  id: 110101008
+  name: 方解石群
+  levelCost: 50
+  items:
+  - CALCITE_MACHINE
+zishuijinqun:
+  lateInit: false
+  id: 110101009
+  name: 紫水晶矿簇
+  levelCost: 88
+  items:
+  - ZISHUJIN_MACHINE
+moyingzhenzhuji:
+  lateInit: false
+  id: 110101010
+  name: 压榨小黑
+  levelCost: 76
+  items:
+  - MYZHENZHU_MACHINE
+heranliao:
+  lateInit: false
+  id: 110101011
+  name: 核燃料原浆
+  levelCost: 32
+  items:
+  - HERANLIAOYJ
+erliaozhuangpei:
+  lateInit: false
+  id: 110101012
+  name: 饵料装配机
+  levelCost: 22
+  items:
+  - ERDIAOZHUANGPEI
+moyingzhiyanyiti:
+  lateInit: false
+  id: 110101013
+  name: 末影之眼爆发仪
+  levelCost: 88
+  items:
+  - MYZHIYAN_MACHINE
+xianyiti:
+  lateInit: false
+  id: 110101014
+  name: 线爆发仪
+  levelCost: 60
+  items:
+  - STRING_MACHINE
+kuqiheiyaoshiyiti:
+  lateInit: false
+  id: 110101015
+  name: 哭泣的黑曜石爆发仪
+  levelCost: 74
+  items:
+  - KQHYS_MACHINE
+yangmaoyiti:
+  lateInit: false
+  id: 110101016
+  name: 羊毛爆发仪
+  levelCost: 68
+  items:
+  - YANGMAO_MACHINE
+shizhongyiti:
+  lateInit: false
+  id: 110101017
+  name: 时钟爆发仪
+  levelCost: 40
+  items:
+  - ZHONG_MACHINE
+ydyanjiangkuaiyiti:
+  lateInit: false
+  id: 110101018
+  name: 用电式岩浆块爆发仪
+  levelCost: 105
+  items:
+  - GLYANJIANGKUAI_MACHINE
+kuijiajiayiti:
+  lateInit: false
+  id: 110101019
+  name: 盔甲架爆发仪
+  levelCost: 38
+  items:
+  - KUIJIAJIA_MACHINE
+tiziyiti:
+  lateInit: false
+  id: 110101020
+  name: 梯子爆发仪
+  levelCost: 28
+  items:
+  - TIZI_MACHINE
+zhijiantaiyiti:
+  lateInit: false
+  id: 110101021
+  name: 制箭台爆发仪
+  levelCost: 32
+  items:
+  - ZHIJIANTAI_MACHINE
+huapenyiti:
+  lateInit: false
+  id: 110101022
+  name: 花盆爆发仪
+  levelCost: 25
+  items:
+  - HUAPEN_MACHINE
+yingwuluoyiti:
+  lateInit: false
+  id: 110101023
+  name: 鹦鹉螺爆发仪
+  levelCost: 76
+  items:
+  - YINGWULUO_MACHINE
+kongqiyiti:
+  lateInit: false
+  id: 110101024
+  name: 空气爆发仪
+  levelCost: 1
+  items:
+  - AIR_HA_MACHINE
+duoyangcailiao:
+  lateInit: false
+  id: 110101025
+  name: 无厘头材料
+  levelCost: 92
+  items:
+  - DERULE_BUG
+  - YASUOKONGJIAN
+  - FEIXIANXINGSW
+  - DUIDIETEZHEN
+qiangzhiduidie:
+  lateInit: false
+  id: 110101026
+  name: 强制堆叠材料
+  levelCost: 46
+  items:
+  - DUIDIEYUANJIAN
+shudianrong:
+  lateInit: false
+  id: 110101027
+  name: 数学电容
+  levelCost: 40
+  items:
+  - ZHISHU_CAPACITOR
+  - HESHU_CAPACITOR
+tongyitijidd:
+  lateInit: false
+  id: 110101028
+  name: 桶装一体机
+  levelCost: 158
+  items:
+  - WATER_BUCKET_MACHINE
+  - LAVA_BUCKET_MACHINE
+  - MILK_BUCKET_MACHINE
+  - POWDER_SNOW_BUCKET_MACHINE
+tiegaoyitiji:
+  lateInit: false
+  id: 110101029
+  name: 堆叠铁镐
+  levelCost: 48
+  items:
+  - IRON_PICKAXE_MACHINE
+xjhjgyitiji:
+  lateInit: false
+  id: 110101030
+  name: 堆叠下界合金镐
+  levelCost: 255
+  items:
+  - NETHERITE_PICKAXE_MACHINE
+zsgyitiji:
+  lateInit: false
+  id: 110101031
+  name: 堆叠钻石镐
+  levelCost: 128
+  items:
+  - DIAMOND_PICKAXE_MACHINE
+zsgjyitiji:
+  lateInit: false
+  id: 110101032
+  name: 堆叠钻石工具
+  levelCost: 202
+  items:
+  - DIAMOND_AXE_MACHINE
+  - DIAMOND_HOE_MACHINE
+  - DIAMOND_SWORD_MACHINE
+ptgjyitiji:
+  lateInit: false
+  id: 110101033
+  name: 堆叠普通工具
+  levelCost: 96
+  items:
+  - FLINT_AND_STEEL_MACHINE
+  - FISHING_ROD_MACHINE
+  - SHEARS_MACHINE
+jdyitiji:
+  lateInit: false
+  id: 110101034
+  name: 堆叠鸡蛋
+  levelCost: 68
+  items:
+  - EGG_MACHINE
+cpsyyitiji:
+  lateInit: false
+  id: 110101035
+  name: 堆叠11号唱片
+  levelCost: 165
+  items:
+  - 11_DISC_MACHINE
+ysgjyitiji:
+  lateInit: false
+  id: 110101036
+  name: 堆叠运输工具
+  levelCost: 88
+  items:
+  - BOAT_MACHINE
+  - MINECART_MACHINE
+mmpyitiji:
+  lateInit: false
+  id: 110101037
+  name: 命名牌一体机
+  levelCost: 130
+  items:
+  - MINGMINPAI_MACHINE
+mnyitiji:
+  lateInit: false
+  id: 110101038
+  name: 墨囊一体机
+  levelCost: 56
+  items:
+  - MONANG_MACHINE
+kbfwyitiji:
+  lateInit: false
+  id: 110101039
+  name: 空白符文一体机
+  levelCost: 136
+  items:
+  - KONGBAIFUWEN_MACHINE
+wpscxyitiji:
+  lateInit: false
+  id: 110101040
+  name: 物品输出箱一体机
+  levelCost: 77
+  items:
+  - SHUCHUXIANG_MACHINE
+tdyhd:
+  lateInit: false
+  id: 110101041
+  name: 耗电式调电仪
+  levelCost: 62
+  items:
+  - HAIMAN_TIAODIAN_MAHCINE_G
+  - HAIMAN_TIAODIAN_MAHCINE_S
+  - HAIMAN_TIAODIAN_MAHCINE_B
+  - HAIMAN_TIAODIAN_MAHCINE_Q
+tdyfd:
+  lateInit: false
+  id: 110101042
+  name: 发电式调电仪
+  levelCost: 64
+  items:
+  - HAIMAN_FDTIAODIAN_MAHCINE_G
+  - HAIMAN_FDTIAODIAN_MAHCINE_S
+  - HAIMAN_FDTIAODIAN_MAHCINE_B
+  - HAIMAN_FDTIAODIAN_MAHCINE_Q
+xxdz:
+  lateInit: false
+  id: 110101043
+  name: 小型电阻
+  levelCost: 35
+  items:
+  - HAIMAN_LOW_RESISTANCE
+fcgz:
+  lateInit: false
+  id: 110101044
+  name: 转换蜂巢
+  levelCost: 40
+  items:
+  - FENGCGZ_MACHINE
+jftz:
+  lateInit: false
+  id: 110101045
+  name: 冶炼金锭
+  levelCost: 34
+  items:
+  - JINFTZ_MACHINE
+dhddy:
+  lateInit: false
+  id: 110101046
+  name: 电荷与电单元
+  levelCost: 25
+  items:
+  - HAIMAN_ELECTRIC_ENERGY
+  - HAIMAN_ELECTRIC_UNIT_EMPTY
+  - KULUN_ELECTRIC_UNIT_EMPTY
+  - LEIYI_ELECTRIC_UNIT_EMPTY
+  - INFINITE_ELECTRIC_UNIT_EMPTY
+  - LIANGZI_ELECTRIC_UNIT_EMPTY
+  - HAIMAN_ELECTRIC_UNIT_FULL
+  - KULUN_ELECTRIC_UNIT_FULL
+  - LEIYI_ELECTRIC_UNIT_FULL
+  - INFINITE_ELECTRIC_UNIT_FULL
+  - LIANGZI_ELECTRIC_UNIT_FULL
+hmcdj:
+  lateInit: false
+  id: 110101047
+  name: 储电机
+  levelCost: 26
+  items:
+  - HAIMAN_POWER_STORAGER_0
+  - HAIMAN_POWER_STORAGER_1
+  - HAIMAN_POWER_STORAGER_2
+  - HAIMAN_POWER_STORAGER_3
+  - HAIMAN_POWER_STORAGER_4
+  - HAIMAN_POWER_STORAGER_5
+hmxdj:
+  lateInit: false
+  id: 110101048
+  name: 电能卸载
+  levelCost: 18
+  items:
+  - HAIMAN_POWER_OFF_MACHINE_0
+  - HAIMAN_POWER_OFF_MACHINE_1
+  - HAIMAN_POWER_OFF_MACHINE_2
+  - HAIMAN_POWER_OFF_MACHINE_3
+  - HAIMAN_POWER_OFF_MACHINE_4
+  - HAIMAN_POWER_OFF_MACHINE_5
+dcnytjq:
+  lateInit: false
+  id: 110101049
+  name: 多彩的能源调节器
+  levelCost: 24
+  items:
+  - RED_ENERGY
+  - GREEN_ENERGY
+  - YELLOW_ENERGY
+  - PURPLE_ENERGY
+vrbb:
+  lateInit: false
+  id: 110101050
+  name: VR装置
+  levelCost: 16
+  items:
+  - VR_YANJING
+  - DIANZI_JIAOLIAO
+  - ZHINENG_SHOUBIAO
+hysbfy:
+  lateInit: false
+  id: 110101051
+  name: 黑曜石爆发仪
+  levelCost: 42
+  items:
+  - HEIYAOSHI_MACHINE
+jianggj:
+  lateInit: false
+  id: 110101052
+  name: 浆果机
+  levelCost: 20
+  items:
+  - JGJ_MACHINE
+sglgzj:
+  lateInit: false
+  id: 110101053
+  name: 刷怪笼构造机
+  levelCost: 112
+  items:
+  - SHUAGUAILONG_MACHINE
+jktqj:
+  lateInit: false
+  id: 110101054
+  name: 金矿提取机
+  levelCost: 25
+  items:
+  - JINKUANGTIQU_MACHINE
+gztqj:
+  lateInit: false
+  id: 110101055
+  name: 骨质提取机
+  levelCost: 25
+  items:
+  - GUZHITIQU_MACHINE
+hmcl:
+  lateInit: false
+  id: 110101056
+  name: 海曼材料
+  levelCost: 34
+  items:
+  - HAIMAN_INGOT
+  - CREEPER_COAL_HEART
+jinjiecl:
+  lateInit: false
+  id: 110101057
+  name: 进阶材料
+  levelCost: 40
+  items:
+  - HM_SHENQUAN_HEXIN
+  - TIANXUAN_MADA
+zjcl:
+  lateInit: false
+  id: 110101058
+  name: 终极材料
+  levelCost: 140
+  items:
+  - HM_HONGMENG_XINPIAN
+yxgyfdj:
+  lateInit: false
+  id: 110101059
+  name: 隐形光源发电机
+  levelCost: 102
+  items:
+  - GUANGYUAN_FADIAN
+lzzdh:
+  lateInit: false
+  id: 110101060
+  name: 主世界粒子自动化
+  levelCost: 135
+  items:
+  - LIZI_YUANPEI
+  - LIZI_ZENGSHENG
+caotianchong:
+  lateInit: false
+  id: 110101061
+  name: 填充机器槽
+  levelCost: 1
+  items:
+  - CAO_TC
+ydyjjq1:
+  lateInit: false
+  id: 110101062
+  name: 1.19机器（1）
+  levelCost: 80
+  items:
+  - WAMING_MACHINE
+  - DANZH_MACHINE
+  - SBYQH_MACHINE
+ydyjjq2:
+  lateInit: false
+  id: 110101063
+  name: 1.19机器（2）
+  levelCost: 84
+  items:
+  - YOUNI_MACHINE
+  - HUIXIANG_MACHINE
+  - SHANYANGJIAO_MACHINE
+ydeljq:
+  lateInit: false
+  id: 110101064
+  name: 1.20机器
+  levelCost: 82
+  items:
+  - SGJ_MACHINE
+  - KYDJQ_MACHINE
+  - MBYK_MACHINE
+  - TPKY_MACHINE
+sgdhx:
+  lateInit: false
+  id: 110101065
+  name: 温室材料基础
+  levelCost: 120
+  items:
+  - HM_HJZJ
+  - HM_YYZJ
+  - HM_SWZJ
+  - HM_ZDZJ
+  - HM_FKZJ
+  - HM_HSZJ
+  - HM_YSZJ
+  - HM_ZWZJ
+  - HM_DDXP
+sgdpys:
+  lateInit: false
+  id: 110101066
+  name: 生物培育箱
+  levelCost: 320
+  items:
+  - SWPY_1
+  - SWPY_2
+  - SWPY_3
+  - SWPY_4
+  - SWPY_5
+  - SWPY_6
+  - SWPY_7
+  - SWPY_8
+  - SWPY_9
+  - SWPY_10
+  - SWPY_11
+  - SWPY_12
+  - SWPY_13
+  - SWPY_14
+  - SWPY_15
+bosspys:
+  lateInit: false
+  id: 110101067
+  name: 你确定要解锁这个？
+  levelCost: 3200
+  items:
+  - SWPY_BOSS
+hqmuban:
+  lateInit: false
+  id: 110101068
+  name: 火漆印刷
+  levelCost: 80
+  items:
+  - PLAYER_FIRE
+  - HM_HUOQI
+  - HM_XIXUEHUOQI
+  - HM_CHUJUEHUOQI
+  - HM_BINGFENGHUOQI
+  - HM_BAOZHAHUOQI
+  - HM_DIZHENHUOQI
+  - HM_NAINAIHUOQI
+  - HM_YEYEHUOQI
+  - HM_RONGLUHUOQI
+  - HM_FAMUHUOQI
+  - HM_SHUAGUAILONGHUOQI
+  - HM_XUNKUANGHUOQI
+  - HM_KUANGMAIHUOQI
+  - HM_PANYANHUOQI
+  - HM_YESHIHUOQI
+  - HM_HUANJIANGHUOQI
+  - HM_NONGFUHUOQI
+  - HM_QIAOCHIHUOQI
+  - HM_JIANTAZHEHUOQI
+  - HM_MOYINGHUOQI
+  - HM_SHILAIMUHUOQI
+  - HM_YINGSHIHUOQI
+  - HM_CAIHONGHUOQI
+  - HM_MIFENGHUOQI
+  - HM_TAIYANGNENGHUOQI
+  - HM_FANGHUAHUOQI
+  - HM_XIANRENZHANGHUOQI
+  - HM_SUOLIANHUOQI
+  - HM_LHBDHUOQI
+hqysj:
+  lateInit: false
+  id: 110101069
+  name: 火漆刻印
+  levelCost: 180
+  items:
+  - HM_HQKYJ
+chushen:
+  lateInit: false
+  id: 110101070
+  name: 厨神
+  levelCost: 50
+  items:
+  - HAIMAN_CAIBAN
+jingss:
+  lateInit: false
+  id: 110101071
+  name: 金光闪闪
+  levelCost: 72
+  items:
+  - HAIMAN_DUJINTAI
+ddzhijian:
+  lateInit: false
+  id: 110101072
+  name: 自动化制箭
+  levelCost: 45
+  items:
+  - HAIMAN_ZHIJIANTAI
+fenggan:
+  lateInit: false
+  id: 110101073
+  name: 量产风干肉片
+  levelCost: 75
+  items:
+  - HAIMAN_FENGGANJI
+cookielu:
+  lateInit: false
+  id: 110101074
+  name: COOKIE！COOKIE！
+  levelCost: 40
+  items:
+  - HAIMAN_BINGGANLLU
+zhushuichi:
+  lateInit: false
+  id: 110101075
+  name: 节约用水
+  levelCost: 26
+  items:
+  - HAIMAN_ZHUSHUICHI
+wujuntai:
+  lateInit: false
+  id: 110101076
+  name: 专业医疗器械
+  levelCost: 52
+  items:
+  - HAIMAN_WUJUNTAI
+shougongtai:
+  lateInit: false
+  id: 110101077
+  name: DIY大神
+  levelCost: 36
+  items:
+  - HAIMAN_SHOUGONGTAI
+diandongchuang:
+  lateInit: false
+  id: 110101078
+  name: 全自动暖被
+  levelCost: 32
+  items:
+  - HAIMAN_DIANRECHUANG
+shaguo:
+  lateInit: false
+  id: 110101079
+  name: 我不是厨神
+  levelCost: 32
+  items:
+  - HAIMAN_SHAGUO
+doudizhu:
+  lateInit: false
+  id: 110101080
+  name: 抓牌~看牌~洗牌~码牌~
+  levelCost: 20
+  items:
+  - HAIMAN_PAIZHUO
+  - HM_PUKE_1
+  - HM_PUKE_2
+jishiqi:
+  lateInit: false
+  id: 110101081
+  name: 快点吧，等的我花都谢了！
+  levelCost: 12
+  items:
+  - JISHIQI_DUAN
+  - JISHIQI_CHANG
+  - TISHI_SHIJIAN
+yingxdr:
+  lateInit: false
+  id: 110101082
+  name: 你看得见吗？反正我看不见。
+  levelCost: 92
+  items:
+  - YINGXINGDIANRONG
+ditandr:
+  lateInit: false
+  id: 110101083
+  name: 这地毯感觉有点烫？
+  levelCost: 28
+  items:
+  - DITAN_DIANRONG

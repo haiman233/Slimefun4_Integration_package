@@ -1,0 +1,1786 @@
+#占位符
+HIVECORPORATION_INFORMATION_1:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <001>"
+    material: d01afe973c5482fdc71e6aa10698833c79c437f21308ea9a1a095746ec274a0f
+    lore:
+      - "&6&l认知之内"
+      - "&7"
+      - "&7- 作者"
+      - "&7- 规则"
+      - "&7"
+      - "&a点击打开"
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_INFORMATION_1_1
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_INFORMATION_1_2
+HIVECORPORATION_INFORMATION_1_1:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&eLIGH_Y"
+    material_type: saveditem
+    material: HIVECORPORATION_INFORMATION_1_1
+    lore:
+      - "&7HiveCorporation 唯一制作人"
+      - "&7"
+      - "&7联系:"
+      - "&7QQ: 1368139692"
+      - "&7Group: 895650188"
+      - "&7Email: 1368139692@qq.com"
+      - "&7其他作品:"
+      - "&7AngleTech —— 200+物品原创粘液拓展"
+      - "&7SFGuide —— 十年粘液玩家的经验总结"
+  hidden: true
+HIVECORPORATION_INFORMATION_1_2:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&4&l规则"
+    material: 264d3ca1206e921c66a2cef74b854170541e4ee9abe8fa678cfaf964964a16a2
+    lore:
+      - "&7你&4不得&7转载此插件"
+      - "&7你&4不得&7宣称此插件由你制作"
+      - "&7你&4不得&7倒卖此插件"
+      - "&7你&a可以&7在你的服务器上使用此插件并加以修改"
+  hidden: true
+
+HIVECORPORATION_INFORMATION_2:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <002>"
+    material: 9db02b040c37015892a3a43d3b1bfdb2e01a02edcc2f5b82250dcebf3ff4f01e
+    lore:
+      - "&6&lH公司"
+      - "&7"
+      - "&7H公司全称为&6HiveCorporation&7(蜂巢公司)， 是一家奇点级公司"
+      - "&7据公司内部员工透露， H公司的奇点技术是生产可用于工业产线的&e“蜜蜂”"
+      - "&7凭借着这一奇点， H公司能够迅速且优质制作大量产品，它的“&e蜂巢&7”遍布世界各地"
+      - "&7H公司也与多家奇点公司有所合作， 帮助他们制作大量优质产品"
+HIVECORPORATION_INFORMATION_3:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <003>"
+    material: b9dce59ba72f84736e1ea9c3b43eb1aadc497b2904a1cda08972692dc1b4ca75
+    lore:
+      - "&6&l蜂巢"
+      - "&7"
+      - "&7这里的蜂巢，并非指蜂类昆虫所建的巢穴"
+      - "&7而是&6&lH公司&7的机械生产场所， 内含大量机密技术"
+      - "&7蜂巢与外界完全隔绝， 是世上最安全的地方之一"
+      - "&7蜂巢在各个公司区域内都有分布， 受其他公司委托产生产品"
+
+HIVECORPORATION_INFORMATION_4:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <004>"
+    material: bc655e0cdc03c1ce901c06f2d4c9c290fb759dc0c112af6f711dd9a306a14c27
+    lore:
+      - "&6&lE公司"
+      - "&7"
+      - "&7一家奇点级能源公司"
+      - "&7生产高效清洁能源 Eozoium"
+
+
+HIVECORPORATION_INFORMATION_5:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <005>"
+    material: e5b33ebe94b04bcf88d2e6ae55a1d22b680d00ec245a193534a96b70e21d01bf
+    lore:
+      - "&6&lEozoium"
+      - "&7"
+      - "&eEozoium&7意译为“&e初始之物&7”, 是由&6&lE公司&7生产的低廉高效清洁能源"
+      - "&7它的出现终结了化石燃料的使用， 如今已成为世上使用最广泛的能源"
+
+HIVECORPORATION_INFORMATION_6:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <006>"
+    material: bfa02968228d9c4011f011db701f2c750e4ea6ae2d3a60355bde7e6820ece8f7
+    lore:
+      - "&6&lL公司"
+      - "&7"
+      - "&6&lL公司&7前身为一所世界著名医科大学"
+      - "&7似乎掌握着与&a生命&7相关的奇点技术"
+      - "&7其管辖的第十二区内， 人均寿命稳居世界前列"
+
+HIVECORPORATION_INFORMATION_7:
+  item_group: HiveCorporation_Group_Library
+  item:
+    name: "&e公开档案 <007>"
+    material: 9b22b269bbb6ade099545a2edca6ab0d173be69dcad1315be8a7ef7642e0f272
+    lore:
+      - "&6&l养蜂人工坊"
+      - "&7"
+      - "&7直属于&6&lH公司&7的“工坊”"
+      - "&7制作普通人也能使用的武器与工具"
+
+
+TEST2:
+  item_group: HiveCorporation_Group_Core
+  item:
+    name: "&f占位符/待制作..."
+    material: BOOK
+##Imagine
+HIVECORPORATION_IMAGINE_COMPRESS:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f幻想: 压缩"
+    material: 14c48a661a524b01427fd1c34ae07076c570a0711f0ab703737501af37231631
+    lore:
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_IMAGINE_MACHINE
+
+
+HIVECORPORATION_IMAGINE_EXTEND:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f幻想: 延伸"
+    material: de6944a9da03826103040ff784ad89f9311c51101ca33c221345b8cad1d18b0f
+    lore:
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_IMAGINE_MACHINE
+
+
+HIVECORPORATION_IMAGINE_CUT:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f幻想: 切割"
+    material: 4040a84e290bd2fa9774f942d6e0ffc5d5c522afa61c38874dbb26a0b1d63dec
+    lore:
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_IMAGINE_MACHINE
+
+
+HIVECORPORATION_IMAGINE_ASSEMBLE:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f幻想: 组装"
+    material: 2521ac1331e1785cf32d01a236ec97f846fdba42017ad9670905ed9e70e2327e
+    lore:
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_IMAGINE_MACHINE
+
+
+
+
+#Resources
+HIVECORPORATION_COBBLESTONE_I:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f圆石 &eI"
+    material: 7ecbe2e29b1cac9733c55a4216459d96ffae95e5e1e0ecc02da474582a41ea17
+    lore:
+      - "&7"
+      - "&e[&6&lV&e]&7 &c坍塌&7级别: &eI"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE  
+  recipe:
+    1:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 64
+
+HIVECORPORATION_SALT_MIRROR_FACTOR:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f盐镜粒"
+    material: c8e22255d38c6da1196bf7c5e3f81d4abf56383cbec6aa5c8e4e919f92a0f3f3
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_SALT_MIRROR_MACHINE  
+  recipe:
+    1:
+      material_type: slimefun
+      material: SALT
+HIVECORPORATION_SALT_MIRROR_CRYSTAL:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f盐镜结晶"
+    material: 7bd090f369d4c3d28946790cf6a76920265e23de06064f788d35ab18c0ac1cc0
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_FACTOR
+
+HIVECORPORATION_SALT_MIRROR:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f盐镜"
+    material: d9107d82f72fd949168b50e546a0f8c8b73d359d715aeb5067325f1d6c481377
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR_CRYSTAL
+
+HIVECORPORATION_MAGNETISM_MIRROR:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f磁镜"
+    material: ab406ea734472c906c40e79f5abe7cb3f43ef47429c488a6f900671718847e51
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: SMELTERY  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR
+    2:
+      material_type: slimefun
+      material: NICKEL_INGOT
+    3:
+      material_type: slimefun
+      material: COBALT_INGOT
+
+HIVECORPORATION_BROIL_MIRROR:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f炽镜"
+    material: 225122f662c12c7493ec692cc9abc9692678bf674487b107ff5b0e02a2d6cf02
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: SMELTERY  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR
+    2:
+      material_type: slimefun
+      material: ALUMINUM_BRASS_INGOT
+    3:
+      material_type: slimefun
+      material: CARBON_CHUNK
+
+
+HIVECORPORATION_FREEZE_MIRROR:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f凝镜"
+    material: f697c84a3d99b2843341798e6f80d1e372755bc356ad188910858586a56b3d9d
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: SMELTERY  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR
+    2:
+      material_type: mc
+      material: BLUE_ICE
+    3:
+      material_type: slimefun
+      material: DURALUMIN_INGOT
+
+
+
+HIVECORPORATION_HIVE_MIRROR:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f蜜镜"
+    material: a72f67bc0a8463b77590a946841f319295133b6ec40f03cb155b806424f392f7
+    lore:
+      - "&7"
+      - "&7按照技术保密程度可以推算出"
+      - "&7蜜镜材料很有可能与&6&lH公司&7奇点有关"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_INKER_KEY
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_BROIL_MIRROR
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_FREEZE_MIRROR
+
+HIVECORPORATION_HIVE_MIRROR_PLATE:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f蜜镜片"
+    material: 4c8139161791106fdfe906ccaf39da3acecda9a2f8a4502e1a4a30785ceb6a0b
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_TIANFANGYETAN  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_IMAGINE_COMPRESS
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR
+      amount: 2
+
+
+HIVECORPORATION_HIVE_PUPA:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f蜂蛹"
+    material: 840aea85eb93a4a0804af3d59a2febe1c43a076685574c538842e43a21090c2c
+    lore:
+      - "&7"
+      - "&7蜂蛹会在“&c坍塌&7”过程中， 保护蛹内物品"
+      - "&7"
+      - "&e[&6&lH&e] &7具有抵抗“&c坍塌&7”的能力"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_TIANFANGYETAN  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+      amount: 4
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_IMAGINE_ASSEMBLE
+
+
+HIVECORPORATION_ANTICOLLAPSE_PLATE:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f坍塌板"
+    material: PAPER
+    lore:
+      - "&7"
+      - "&7坍塌板不会受到“&c坍塌&7”的影响"
+      - "&7"
+      - "&e[&6&lH&e]&7 具有抵抗“&c坍塌&7”的能力"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: SMELTERY  
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+      amount: 4
+    2:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+    3:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+    4:
+      material_type: slimefun
+      material: CARBONADO
+
+
+
+#Energy
+HIVECORPORATION_EOZOIUM_BATTERY_RECIPE:
+  item_group: HiveCorporation_Group_Energy
+  item:
+    name: "&6Eozoium电池转换机"
+    material: 22d9e98169312150a308b9fb87f512a9964f68c3c26a3c12b2b94090e0f369eb
+    lore:
+      - "&7"
+      - "&7一般电能无法为H公司高等工业产线提供足够的能量"
+      - "&7利用ETE协议可以将少量的将电能转入Eozoium电池"
+      - "&7但是残缺的ETE协议转换效率极其低下"
+      - "&7因此我们通常会直接从&6E公司&7采购Eozoium电池"
+      - "&7"
+      - "&e⚡ &74096 J/s 可储存"
+      - "&e⚡ &73072 J/物品"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_MANYWAY
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    2:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_BROIL_MIRROR
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_PACT_EOZOIUM
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_FREEZE_MIRROR
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+  hidden: true
+
+
+
+HIVECORPORATION_EOZOIUM_BATTERY:
+  item_group: HiveCorporation_Group_Energy
+  item:
+    name: "&6Eozoium 电池"
+    material: e5b33ebe94b04bcf88d2e6ae55a1d22b680d00ec245a193534a96b70e21d01bf
+    lore:
+      - "&7"
+      - "&7Eozoium， 一种由&6&lE公司&7生产的低廉高效清洁能源"
+      - "&7它具有不可思议的能量释放效率， 可应用于多个领域"
+      - "&7正因如此， Eozoium成为了如今世上使用最广泛的能源"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_MANYWAY
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_EOZOIUM_BATTERY_RECIPE
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_FURINA
+
+
+HIVECORPORATION_EOZOIUM_BOX:
+  item_group: HiveCorporation_Group_Energy
+  item:
+    name: "&6Eozoium 中枢"
+    material: e5b33ebe94b04bcf88d2e6ae55a1d22b680d00ec245a193534a96b70e21d01bf
+    lore:
+      - "&7"
+      - "&7Eozoium， 一种由&6&lE公司&7生产的低廉高效清洁能源"
+      - "&7它具有不可思议的能量释放效率， 可应用于多个领域"
+      - "&7正因如此， Eozoium成为了如今世上使用最广泛的能源"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_EOZOIUM_BATTERY
+      amount: 10
+
+
+
+#Finance
+HIVECORPORATION_FINANCE_CORD:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&e福利卡"
+    material: COMPASS
+    lore:
+      - "&7"
+      - "&7公司员工可凭借此卡领取公司福利"
+      - "&7每6分钟奖励&f1&7点HivePoint"
+      - "&7虚拟HivePoint储存上线为&f120&7点"
+      - "&7"
+      - "&e左键 &7查询当前HivePoint"
+      - "&e左键+下蹲 &7提取当前HivePoint"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE  
+  recipe:
+    2:
+      material_type: mc
+      material: PAPER
+    4:
+      material_type: mc
+      material: PAPER
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_SALT_MIRROR
+    6:
+      material_type: mc
+      material: PAPER
+    8:
+      material_type: mc
+      material: PAPER
+
+HIVECORPORATION_FINANCE_HIVEPOINT:
+#妈的，sk脚本无法检测带名字的玩家头颅，RIP：91f4b3feb1fb00d9aac70fb50c1a3c69b4efda047d8aa249c005902073ebcef4
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eHivePoint"
+    material: NETHER_STAR
+    lore:
+      - "&7"
+      - "&7在第八区内的通用货币"
+      - "&7可与其他部门进行交易"
+      - "&7使用&e福利卡&7领取HivePoint"
+      - "&7"
+      - "&fH Corp."
+
+##Armor
+HIVECORPORATION_FINANCE_SWORD:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&e财狼"
+    material: GOLDEN_SWORD
+    lore:
+      - "&7"
+      - "&7消耗1点 HivePoint"
+      - "&7触发以下效果:"
+      - "&710% 几率对目标强制造成40点伤害"
+      - "&710% 几率对目标强制造成20点伤害"
+      - "&760% 几率对目标强制造成10点伤害"
+      - "&720% 几率强制恢复目标10点血量"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    8:
+      material_type: mc
+      material: STICK
+
+HIVECORPORATION_FINANCE_HELMET_1:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eH级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_HELMET_1
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: GOLD_BLOCK
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    3:
+      material_type: mc
+      material: GOLD_BLOCK
+    4:
+      material_type: mc
+      material: GOLD_BLOCK
+    6:
+      material_type: mc
+      material: GOLD_BLOCK
+
+HIVECORPORATION_FINANCE_CHESTPLATE_1:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eH级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_CHESTPLATE_1
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    4:
+      material_type: mc
+      material: GOLD_BLOCK
+    5:
+      material_type: mc
+      material: GOLD_BLOCK
+    6:
+      material_type: mc
+      material: GOLD_BLOCK
+    7:
+      material_type: mc
+      material: GOLD_BLOCK
+    8:
+      material_type: mc
+      material: GOLD_BLOCK
+    9:
+      material_type: mc
+      material: GOLD_BLOCK
+
+
+HIVECORPORATION_FINANCE_LEGGINGS_1:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eH级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_LEGGINGS_1
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    4:
+      material_type: mc
+      material: GOLD_BLOCK
+    6:
+      material_type: mc
+      material: GOLD_BLOCK
+    7:
+      material_type: mc
+      material: GOLD_BLOCK
+    9:
+      material_type: mc
+      material: GOLD_BLOCK
+
+HIVECORPORATION_FINANCE_BOOTS_1:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eH级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_BOOTS_1
+    lore:
+      - "&7"
+      - "&b* 免疫摔落伤害"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+    4:
+      material_type: mc
+      material: GOLD_BLOCK
+    6:
+      material_type: mc
+      material: GOLD_BLOCK
+
+HIVECORPORATION_FINANCE_HELMET_2:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eE级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_HELMET_2
+    lore:
+      - "&7"
+      - "&7身着全套&eE级员工制服&7时"
+      - "&7可消耗背包中&eHivePoint"
+      - "&7免疫一次任意大小的伤害， 并恢复2点血量"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_HEAL_REACTOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HELMET_1
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+
+HIVECORPORATION_FINANCE_CHESTPLATE_2:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eE级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_CHESTPLATE_2
+    lore:
+      - "&7"
+      - "&7身着全套&eE级员工制服&7时"
+      - "&7可消耗背包中&eHivePoint"
+      - "&7免疫一次任意大小的伤害， 并恢复2点血量"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_CHESTPLATE_1
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_HEAL_REACTOR
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+
+
+HIVECORPORATION_FINANCE_LEGGINGS_2:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eE级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_LEGGINGS_2
+    lore:
+      - "&7"
+      - "&7身着全套&eE级员工制服&7时"
+      - "&7可消耗背包中&eHivePoint"
+      - "&7免疫一次任意大小的伤害， 并恢复2点血量"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_HEAL_REACTOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_LEGGINGS_1
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+
+HIVECORPORATION_FINANCE_BOOTS_2:
+  item_group: HiveCorporation_Group_Finance
+  item:
+    name: "&eE级员工制服"
+    material_type: saveditem
+    material: HIVECORPORATION_FINANCE_BOOTS_2
+    lore:
+      - "&7"
+      - "&b* 免疫摔落伤害"
+      - "&7"
+      - "&7身着全套&eE级员工制服&7时"
+      - "&7可消耗背包中&eHivePoint"
+      - "&7免疫一次任意大小的伤害， 并恢复2点血量"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_TEAR_HEAL_REACTOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_BOOTS_1
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR_PLATE
+
+
+#Human
+HIVECORPORATION_HUMAN_SHENG:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d晟 (技术部)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_SHENG
+    lore:
+      - ""
+      - "&7姓名: 晟"
+      - "&7职位: D级人员"
+      - "&7所属部门: &c技术部"
+      - "&7喜好:蛋糕 (Cake)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: CAKE
+HIVECORPORATION_HUMAN_SHENG_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d晟 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_SHENG
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: CAKE
+  hidden: true
+HIVECORPORATION_HUMAN_ERIERRY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d艾莉尔莉 (市场部)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_ERIERRY
+    lore:
+      - ""
+      - "&7姓名: Erierry"
+      - "&7职位: D级人员"
+      - "&7所属部门: &a市场部"
+      - "&7喜好:金苹果 (Golden_apple)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: GOLDEN_APPLE
+HIVECORPORATION_HUMAN_ERIERRY_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d艾莉尔莉 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_ERIERRY
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: CAKE
+  hidden: true
+
+HIVECORPORATION_HUMAN_INKER:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d墨客 (技术部)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_INKER
+    lore:
+      - ""
+      - "&7姓名: Inker"
+      - "&7职位: B级人员"
+      - "&7所属部门: &c技术部"
+      - "&7喜好:凋灵骷髅头 (Wither_skeleton_skull)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+HIVECORPORATION_HUMAN_INKER_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d墨客 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_INKER
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+  hidden: true
+
+
+
+HIVECORPORATION_HUMAN_PEKORA:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d佩珂拉 (E公司)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_PEKORA
+    lore:
+      - ""
+      - "&7姓名: Pekora"
+      - "&7所属公司: &6E公司"
+      - "&7喜好:下界之星 (Nether_star)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: NETHER_STAR
+
+HIVECORPORATION_HUMAN_PEKORA_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d佩珂拉 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_PEKORA
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: NETHER_STAR
+  hidden: true
+
+
+
+HIVECORPORATION_HUMAN_FURINA:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d浮黎娜 (E公司)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_FURINA
+    lore:
+      - ""
+      - "&7姓名: Furina"
+      - "&7所属公司: &6E公司"
+      - "&7喜好:末影箱 (Ender_chest)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: ENDER_CHEST
+
+HIVECORPORATION_HUMAN_FURINA_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d浮黎娜 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_FURINA
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: ENDER_CHEST
+  hidden: true
+
+
+
+
+HIVECORPORATION_HUMAN_FAIRYKO:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d菲尔莉科 (L公司)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_FAIRYKO
+    lore:
+      - ""
+      - "&7姓名: Fairyko"
+      - "&7所属公司: &6L公司"
+      - "&7喜好:恶魂之泪 (Ghast_tear)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: GHAST_TEAR
+
+HIVECORPORATION_HUMAN_FAIRYKO_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d菲尔莉科 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_FAIRYKO
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: GHAST_TEAR
+  hidden: true
+
+
+
+
+
+HIVECORPORATION_HUMAN_AIMELIA:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d梅 (L公司)"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_AIMELIA
+    lore:
+      - ""
+      - "&7姓名: Aimelia"
+      - "&7所属公司: &6L公司"
+      - "&7喜好:不死图腾 (Totem_of_undying)"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+
+HIVECORPORATION_HUMAN_AIMELIA_KEY:
+  item_group: HiveCorporation_Group_Human
+  item:
+    name: "&d梅 <通信密钥>"
+    material_type: saveditem
+    material: HIVECORPORATION_HUMAN_AIMELIA
+    lore:
+      - ""
+      - "&7凭借此通信密钥"
+      - "&7与对应员工建立通信链接"
+      - ""
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER_GIFT
+  recipe:
+    1:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+  hidden: true
+
+
+
+
+
+
+
+#T Machine Core
+HIVECORPORATION_COCOON_TIANFANGYETAN:
+  item_group: HiveCorporation_Group_Technology
+  item:
+    name: "&c茧"
+    material: a8259df25c9de155b063cbef86646574d694eff3ad8d4d0cc64c4abc84d1441f
+    lore:
+      - "&7"
+      - "&7包含技术:"
+      - "&3天方夜谭"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_SHENG_KEY
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+      amount: 3
+
+HIVECORPORATION_COCOON_COBBLESTONE_MACHINE:
+  item_group: HiveCorporation_Group_Technology
+  item:
+    name: "&c茧"
+    material: a8259df25c9de155b063cbef86646574d694eff3ad8d4d0cc64c4abc84d1441f
+    lore:
+      - "&7"
+      - "&7包含技术:"
+      - "&3石潭"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_LINKER
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_SHENG_KEY
+    2:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 64
+
+
+HIVECORPORATION_BOTTLE_COLLAPSE:
+  item_group: HiveCorporation_Group_Purchase
+  item:
+    name: "&a瓶"
+    material: d0a471e37c513fd75f3f1aa3ee2c5d710f61da5bb1a2ce844269a2e4db12a00d
+    lore:
+      - "&7"
+      - "&7包含技术:"
+      - "&3断瓦残垣"
+      - "&7"
+      - "&fV Corp."
+  recipe_type: HIVECORPORATION_LINKER
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_ERIERRY_KEY
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_FINANCE_HIVEPOINT
+      amount: 2
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 12
+
+HIVECORPORATION_PACT_EOZOIUM:
+  item_group: HiveCorporation_Group_Purchase
+  item:
+    name: "&aETE转换协议 (Electric To Eozoium)"
+    material: 3ac87820b5b9ba33aaf43607d9d31d8fd83c2f9e83995d0dbed8c20678c07355
+    lore:
+      - "&7"
+      - "&7包含技术:"
+      - "&6Eozoium电池转换机"
+      - "&6Eozoium电池释能机"
+      - "&7"
+      - "&fE Corp."
+  recipe_type: HIVECORPORATION_LINKER
+  recipe:
+    1:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 4
+    2:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_PEKORA_KEY
+
+HIVECORPORATION_TEAR_SOUL_TREMOR_BOX:
+  item_group: HiveCorporation_Group_Purchase
+  item:
+    name: "&a泪"
+    material: cddaf2e94453f530861e05a00d434ae4c01aafd0499ff2c24cbe1bf3499f2e40
+    lore:
+      - "&7"
+      - "&7包含技术:"
+      - "&6灵魂共颤箱"
+      - "&7"
+      - "&fL Corp."
+  recipe_type: HIVECORPORATION_LINKER
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_FAIRYKO_KEY
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_LUXURIA
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_AVARITIA
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_ACEIDA
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_IRA
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_INVIDIA
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_SUPERBIA
+
+
+HIVECORPORATION_TEAR_HEAL_REACTOR:
+  item_group: HiveCorporation_Group_Purchase
+  item:
+    name: "&a泪"
+    material: cddaf2e94453f530861e05a00d434ae4c01aafd0499ff2c24cbe1bf3499f2e40
+    lore:
+      - "&7"
+      - "&7包含技术:"
+      - "&6再生反应堆"
+      - "&7"
+      - "&fL Corp."
+  recipe_type: HIVECORPORATION_LINKER
+  recipe:
+    1:
+      material_type: mc
+      material: GHAST_TEAR
+      amount: 8
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_HUMAN_AIMELIA_KEY
+    3:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+    4:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+    5:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+    6:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+    7:
+      material_type: mc
+      material: BEACON
+
+
+
+#5d225635fe66cced5e1f1030a11bfbe1e28a8745f920e7b7076eb669c902283
+#噪点
+HIVECORPORATION_COAL:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &8往昔"
+    material: COAL
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: COAL_BLOCK
+      amount: 64
+
+HIVECORPORATION_COPPER_INGOT:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &6除障"
+    material: COPPER_INGOT
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: COPPER_BLOCK
+      amount: 64
+
+HIVECORPORATION_IRON_INGOT:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &f不屈"
+    material: IRON_INGOT
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 64
+
+HIVECORPORATION_GOLD_INGOT:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &e向往"
+    material: GOLD_INGOT
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 64
+
+HIVECORPORATION_LAPIS_LAZULI:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &9无畏"
+    material: LAPIS_LAZULI
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: LAPIS_BLOCK
+      amount: 64
+
+
+
+HIVECORPORATION_REDSTONE:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &c顿悟"
+    material: REDSTONE
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: REDSTONE_BLOCK
+      amount: 64
+
+
+
+
+HIVECORPORATION_EMERALD:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &a儒和"
+    material: EMERALD
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: EMERALD_BLOCK
+      amount: 64
+
+
+
+
+HIVECORPORATION_DIAMOND:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &b永恒"
+    material: DIAMOND
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: DIAMOND_BLOCK
+      amount: 64
+
+HIVECORPORATION_NETHERITE_INGOT:
+  item_group: HiveCorporation_Group_Resources
+  item:
+    name: "&f噪点: &d新生"
+    material: NETHERITE_INGOT
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: HIVECORPORATION_COLLAPSE_I
+  recipe:
+    1:
+      material_type: mc
+      material: NETHERITE_BLOCK
+      amount: 64
+
+#Beekeeper_Tool
+HIVECORPORATION_BEEKEEPER_INFORMATION:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&e属性列表"
+    material: PAPER
+    lore:
+      - "&f[&4&l爆燃&f] &7当目标处于燃烧状态时， 熄灭其火焰， 并增加5点伤害"
+      - "&f[&2&l暴食&f] &7偷取目标2点饱和度"
+      - "&f[&e&l反击&f] &7受到伤害时，强制反击攻击者"
+      - "&f[&a&l儒和&f] &7当玩家少于3点血量时， 每受到伤害有50%的几率免疫该次伤害"
+
+
+HIVECORPORATION_ETERNAL_HELMET:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&b永恒"
+    material_type: saveditem
+    material: HIVECORPORATION_ETERNAL_HELMET
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+
+
+HIVECORPORATION_ETERNAL_CHESTPLATE:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&b永恒"
+    material_type: saveditem
+    material: HIVECORPORATION_ETERNAL_CHESTPLATE
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+
+
+HIVECORPORATION_ETERNAL_LEGGINGS:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&b永恒"
+    material_type: saveditem
+    material: HIVECORPORATION_ETERNAL_LEGGINGS
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+
+
+HIVECORPORATION_ETERNAL_BOOTS:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&b永恒"
+    material_type: saveditem
+    material: HIVECORPORATION_ETERNAL_BOOTS
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+
+
+HIVECORPORATION_ETERNAL_PICKAXE:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&b永恒"
+    material_type: saveditem
+    material: HIVECORPORATION_ETERNAL_PICKAXE
+    lore:
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_DIAMOND
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_GOLD_INGOT
+    5:
+      material_type: mc
+      material: STICK
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_GOLD_INGOT
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_GOLD_INGOT
+    8:
+      material_type: mc
+      material: STICK
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_GOLD_INGOT
+
+HIVECORPORATION_EXCIDE_SWORD:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&6除障"
+    material_type: saveditem
+    material: HIVECORPORATION_EXCIDE_SWORD
+    lore:
+      - "&7"
+      - "&f[&4&l爆燃&f] &eI"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_COPPER_INGOT
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_COPPER_INGOT
+    8:
+      material_type: mc
+      material: stick
+
+
+HIVECORPORATION_GULA_CHESTPLATE:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&2暴食"
+    material_type: saveditem
+    material: HIVECORPORATION_GULA_CHESTPLATE
+    lore:
+      - "&7"
+      - "&f[&2&l暴食&f] &eI"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    5:
+      material_type: mc
+      material: IRON_CHESTPLATE
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    8:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_SIN_GULA
+
+
+HIVECORPORATION_COUNTERATTACK_LEGGINGS:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&e反击"
+    material_type: saveditem
+    material: HIVECORPORATION_COUNTERATTACK_LEGGINGS
+    lore:
+      - "&7"
+      - "&f[&e&l反击&f] &eI"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_IRON_INGOT
+
+
+HIVECORPORATION_CONFUCIAN_HELMET:
+  item_group: HiveCorporation_Group_Beekeeper
+  item:
+    name: "&a儒和"
+    material_type: saveditem
+    material: HIVECORPORATION_CONFUCIAN_HELMET
+    lore:
+      - "&7"
+      - "&f[&a&l儒和&f] &eI"
+      - "&7"
+      - "&fH Corp."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_EMERALD
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_EMERALD
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_EMERALD
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_EMERALD
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_EMERALD
+
+

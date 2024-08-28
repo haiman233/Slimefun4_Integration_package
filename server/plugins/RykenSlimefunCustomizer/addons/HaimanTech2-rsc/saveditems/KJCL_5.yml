@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"铱板"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"用于合成量子套"}],"text":""}'
+    custom-model-data: 2400049
+    PublicBukkitValues:
+      slimefun:slimefun_item: IRIDIUM_PLATE

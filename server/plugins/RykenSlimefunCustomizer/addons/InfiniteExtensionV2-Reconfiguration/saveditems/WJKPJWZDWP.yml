@@ -1,0 +1,19 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: FURNACE
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"text":"§b无尽卡片机-§c未指定物品"}'
+    lore:
+    - '{"text":"§7需要跟指定的物品合成才可操作"}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    blockMaterial: FURNACE

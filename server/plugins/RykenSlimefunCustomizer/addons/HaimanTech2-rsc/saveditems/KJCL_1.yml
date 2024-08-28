@@ -1,0 +1,11 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"高级机器方块"}],"text":""}'
+    custom-model-data: 2400021
+    PublicBukkitValues:
+      slimefun:slimefun_item: ADVANCED_MACHINE_BLOCK

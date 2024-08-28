@@ -1,0 +1,5 @@
+auto-update: false
+
+## 如果你不想接收到遗物清除器的
+## 清除提示，你可以禁用该选项
+enable-relic-voider-notif: true

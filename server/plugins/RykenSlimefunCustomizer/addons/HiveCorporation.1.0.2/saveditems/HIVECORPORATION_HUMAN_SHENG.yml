@@ -1,0 +1,17 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"晟
+      (技术开发部)"}],"text":""}'
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 7610eca2-751f-43f1-96c1-5601e07aadae
+      name: DexRock
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcxODI2NTAwMDEzOCwKICAicHJvZmlsZUlkIiA6ICI3NjEwZWNhMjc1MWY0M2YxOTZjMTU2MDFlMDdhYWRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXhSb2NrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmYzkwYmIxMGMzMzc0NzRlZDU1NjUyZDEzOTYzM2IxZjM2ZTQxZTRhNWFhYjMzNTU3ZmI1MmYwZjQ5ZmIxZjUiCiAgICB9CiAgfQp9
+        signature: eYjllzCKvzMPSX1NZgAuDUgddH7rUa6FubwcQjC1w7dYOdIVhVqBSGcAuXUqMD1utYFgpgYop7t/RZv53Q8TlzIc4hSQ3f/xKu1A2c/x6Q1F5x2SszhNWwp1Y485cTM9Mwyjlxn95OcVVL7+pA84BU9jhQJ7jXGklmUcV7bHgsM6cGJVIUYogJAxTSBR6YKxECUlewaExHydJLuHm4a4fuFSTYvwLZlPbP/8JtRICUT6ny0gKRFnoR7THHDsGFmSz42R1EFN7ZcF5y9rSoSnh9oB/60S//ippgo58i9Am+yqD8/prR04FSTFrTXKWzfKD9qEITCXSoXw44viOMEZrtGWiDhxNsmv7siratdbbGTFSY/MVizqKVOr3WdCyP3PdYtvfjKj/C1CKwtu45Rq5HgaWWCxypjGPJglTjTi3ZDSDPXbSb6oTMO9CO2+xHw1n+9CDOvALhAqOsiCBfAkoB6jWRt6LCRRssbz+EwuOfWUfR7Epbn1CdSuSw+qvoJI9775ofAhTVXTYBtrNG8RcSpEIhulosfDAA3wz/Qyc4mCbWHHfJqpvRA/RIec+Pkbq69boXH5slKpqYstIfqXqWwNo1GuBpy5RESEmCLuPiOllSB1muqUi7ayT+fcHt7swLbujZiULW/Ny9j0xwFYBuxJ6NCDITYXHqgNcPTcRCo=

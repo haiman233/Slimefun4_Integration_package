@@ -1,0 +1,93 @@
+HIVECORPORATION_MANYWAY:
+  material: d01afe973c5482fdc71e6aa10698833c79c437f21308ea9a1a095746ec274a0f
+  name: "&e多种途径"
+  lore:
+    - ""
+    - "&7该物品合成配方不唯一"
+    - ""
+    - "&fH Corp."
+
+
+HIVECORPORATION_SALT_MIRROR_MACHINE:
+  material: d078e963fd91e78fb66202073a656596994aaa6fd04f2033920c612ceae25d7d
+  name: "&3盐镜仪"
+  lore:
+    - ""
+    - "&7该物品合成配方如图"
+    - "&7在对应的机器内合成"
+    - ""
+    - "&fH Corp."
+
+HIVECORPORATION_FINANCE_CORD:
+  material: COMPASS
+  name: "&e福利卡"
+  lore:
+    - ""
+    - "&7HivePoint使用福利卡领取"
+    - "&7不可合成"
+    - ""
+    - "&fH Corp."
+
+#Linker
+HIVECORPORATION_LINKER_GIFT:
+  material: 21bc9d42b0041e8f95cb9b26628fdaf50cd0e36f7bb9d6b3a4d2af3949da97d6
+  name: "&e赠送礼物"
+  lore:
+    - ""
+    - "&7在通信链接中"
+    - "&7赠送其喜爱之物"
+    - "&7他/她会回礼于通讯密钥"
+    - ""
+    - "&fH Corp."
+
+HIVECORPORATION_LINKER:
+  material_type: saveditem
+  material: d071393b54e6ceab1fcd601338ad1bc5910a0dbc2d3ded0484c282ef8dc61c44
+  name: "&3通信链接"
+  lore:
+    - ""
+    - "&7获取对应员工通讯密钥后"
+    - "&7在通信链接中与其进行交易"
+    - ""
+    - "&fH Corp."
+
+#Machine
+HIVECORPORATION_IMAGINE_MACHINE:
+  material: 14e456600944f28a8865db187b65874226a4c7c56f1e663913b87f677f792a2c
+  name: "&3幻想者"
+  lore:
+    - ""
+    - "&7该物品合成配方如图"
+    - "&7在对应的机器内合成"
+    - ""
+    - "&fH Corp."
+
+HIVECORPORATION_TIANFANGYETAN:
+  material: 5ce27e9eec871a47361c94f70e7e2379d41af421c764d780856bb709bc5884b6
+  name: "&3天方夜谭"
+  lore:
+    - ""
+    - "&7该物品合成配方如图"
+    - "&7在对应的机器内合成"
+    - ""
+    - "&fH Corp."
+
+HIVECORPORATION_COLLAPSE:
+  material: c24e67dce7a4418f7dba711704180304505a037c12f155a70603e19f132034b1
+  name: "&3断瓦残垣"
+  lore:
+    - ""
+    - "&7该物品合成配方如图"
+    - "&7在对应的机器内合成"
+    - ""
+    - "&fH Corp."
+HIVECORPORATION_COLLAPSE_I:
+  material: c24e67dce7a4418f7dba711704180304505a037c12f155a70603e19f132034b1
+  name: "&3断瓦残垣 &eI"
+  lore:
+    - ""
+    - "&7该物品合成配方如图"
+    - "&7在对应的机器内合成"
+    - ""
+    - "&fH Corp."
+

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Mar 23 14:38:45 CST 2024
+truffle-api-23.0.2.jar>central=
+truffle-api-23.0.2.pom>central=

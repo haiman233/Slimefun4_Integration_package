@@ -1,0 +1,41 @@
+basic:
+  display:
+    type: SLIME_BALL
+    name: "&f基础"
+    lore:
+      - "&7&o粘液科技的核心玩法"
+
+electric:
+  display:
+    type: REDSTONE
+    name: "&e电力"
+    lore:
+      - "&7&o文明的中心"
+
+cargo:
+  display:
+    type: CARGO_MANAGER
+    name: "&6货运"
+    lore:
+      - "&7&o奇观的一小步"
+
+technical:
+  display:
+    type: DIAMOND_PICKAXE
+    name: "&4科技"
+    lore:
+      - "&7&o旋转马达，起飞!"
+
+magical:
+  display:
+    type: ENDER_EYE
+    name: "&d魔法"
+    lore:
+      - "&7&o魔法是时间的产物"
+
+other:
+  display:
+    type: LAVA_BUCKET
+    name: "&7其他"
+    lore:
+      - "&7&o其他进度"

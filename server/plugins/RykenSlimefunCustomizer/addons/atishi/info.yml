@@ -1,0 +1,8 @@
+id: tishi
+name: "整合包提示"
+depends: []
+pluginDepends: []
+version: "1.0"
+description: "感谢游玩"
+authors: ["haiman"]
+repo: ""

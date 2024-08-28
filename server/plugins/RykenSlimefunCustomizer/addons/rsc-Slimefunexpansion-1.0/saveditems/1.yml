@@ -1,0 +1,22 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3700
+  type: BLACK_STAINED_GLASS
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"碳压机 ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false},{"text":"-
+      ","italic":false,"color":"gray"},{"text":"III","italic":false,"color":"yellow"}]}'
+    lore:
+    - '""'
+    - '{"text":"","extra":[{"text":"终极 机器","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":false}]}'
+    - '{"text":"","extra":[{"text":"⇨ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"速度:
+      15x","italic":false,"color":"gray"}]}'
+    - '{"text":"","extra":[{"text":"⇨ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false},{"text":"⚡
+      ","italic":false,"color":"yellow"},{"text":"180 J/s","italic":false,"color":"gray"}]}'
+    custom-model-data: 2200522
+    PublicBukkitValues: |-
+      {
+          "slimefun:slimefun_item": "CARBON_PRESS_3"
+      }

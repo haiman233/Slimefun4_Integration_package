@@ -1,0 +1,8 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: LINGERING_POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:thick

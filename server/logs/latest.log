@@ -1,69 +1,1403 @@
-[19:57:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:57:17] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[19:57:17] [ServerMain/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
-[19:57:19] [ServerMain/INFO]: Loaded 7 recipes
-[19:57:19] [Server thread/INFO]: Starting minecraft server version 1.20
-[19:57:19] [Server thread/WARN]: ****************************
-[19:57:19] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[19:57:19] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[19:57:19] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[19:57:19] [Server thread/WARN]: ****************************
-[19:57:19] [Server thread/INFO]: Loading properties
-[19:57:19] [Server thread/INFO]: This server is running Purpur version git-Purpur-1990 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: 788c14f on HEAD)
-[19:57:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:57:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:57:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[19:57:20] [Server thread/INFO]: Default game type: SURVIVAL
-[19:57:20] [Server thread/INFO]: Generating keypair
-[19:57:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:57:20] [Server thread/INFO]: Using default channel type
-[19:57:20] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:57:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:57:22] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.99
-[19:57:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:57:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:57:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:57:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:57:22] [Server thread/INFO]: Preparing level "world"
-[19:57:22] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
-[19:57:29] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
-[19:57:30] [Server thread/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
-[19:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:57:31] [Server thread/INFO]: Time elapsed: 108 ms
-[19:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:57:31] [Server thread/INFO]: Time elapsed: 90 ms
-[19:57:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:57:31] [Server thread/INFO]: Time elapsed: 92 ms
-[19:57:31] [Server thread/INFO]: [spark] Enabling spark v1.10.99
-[19:57:32] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[19:57:32] [Server thread/INFO]: [spark] Starting background profiler...
-[19:57:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[19:57:32] [Server thread/INFO]: Running delayed init tasks
-[19:57:32] [Server thread/INFO]: Done (12.980s)! For help, type "help"
-[19:57:42] [Server thread/INFO]: Stopping the server
-[19:57:42] [Server thread/INFO]: Stopping server
-[19:57:42] [Server thread/INFO]: [spark] Disabling spark v1.10.99
-[19:57:42] [Server thread/INFO]: Saving players
-[19:57:42] [Server thread/INFO]: Saving worlds
-[19:57:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:57:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:57:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:57:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Saved 1581 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 1.48s
-[19:57:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:57:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:57:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Saved 1681 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.99s
-[19:57:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:57:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:57:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:57:46] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.74s
-[19:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:57:46] [Server thread/INFO]: Flushing Chunk IO
-[19:57:46] [Server thread/INFO]: Closing Thread Pool
-[19:57:46] [Server thread/INFO]: Closing Server
+[11:13:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:13:22] [ServerMain/INFO]: Loaded 7 recipes
+[11:13:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[11:13:22] [Server thread/WARN]: ****************************
+[11:13:22] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[11:13:22] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[11:13:22] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[11:13:22] [Server thread/WARN]: ****************************
+[11:13:22] [Server thread/INFO]: Loading properties
+[11:13:22] [Server thread/INFO]: This server is running Purpur version git-Purpur-2018 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 7cefa0c on HEAD)
+[11:13:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:13:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:13:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[11:13:23] [Server thread/WARN]: [Pufferfish] Will not enable SIMD! These optimizations are only safely supported on Java 17, Java 18, and Java 19.
+[11:13:24] [Server thread/INFO]: Default game type: SURVIVAL
+[11:13:24] [Server thread/INFO]: Generating keypair
+[11:13:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:13:24] [Server thread/INFO]: Using default channel type
+[11:13:24] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:13:24] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:13:28] [Server thread/WARN]: java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.library.configuration.YamlRepresenter.<init>(YamlRepresenter.java:8)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.YamlParser.<init>(YamlParser.kt:20)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.YamlFormat.createParser(YamlFormat.java:40)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.ConfigFile.parser(ConfigFile.kt:99)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.ConfigFile.loadFromString(ConfigFile.kt:61)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.SecuredFile$Companion.loadConfiguration(SecuredFile.kt:55)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.lang.ResourceReader.<init>(ResourceReader.kt:32)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.lang.ResourceReader.<init>(ResourceReader.kt:21)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.lang.Language.reload(Language.kt:99)
+[11:13:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.platform.AwakeFunction.inject(AwakeFunction.kt:15)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.inject.RuntimeInjector.inject(RuntimeInjector.java:120)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.inject.RuntimeInjector.injectAll(RuntimeInjector.java:65)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.TabooLibCommon.lifeCycle(TabooLibCommon.java:128)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.TabooLibCommon.lifeCycle(TabooLibCommon.java:86)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitPlugin.<init>(BukkitPlugin.java:42)
+[11:13:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:132)
+[11:13:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:259)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.Class.newInstance(Class.java:755)
+[11:13:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+[11:13:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:521)
+[11:13:28] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:310)
+[11:13:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
+[11:13:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[11:13:28] [Server thread/WARN]: java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.library.configuration.YamlRepresenter.<init>(YamlRepresenter.java:8)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.YamlParser.<init>(YamlParser.kt:20)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.YamlFormat.createParser(YamlFormat.java:40)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.ConfigFile.parser(ConfigFile.kt:99)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.ConfigFile.loadFromFile(ConfigFile.kt:48)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.configuration.SecuredFile$Companion.loadConfiguration(SecuredFile.kt:65)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.lang.ResourceReader.<init>(ResourceReader.kt:43)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.lang.ResourceReader.<init>(ResourceReader.kt:21)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.module.lang.Language.reload(Language.kt:99)
+[11:13:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.platform.AwakeFunction.inject(AwakeFunction.kt:15)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.inject.RuntimeInjector.inject(RuntimeInjector.java:120)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.inject.RuntimeInjector.injectAll(RuntimeInjector.java:65)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.TabooLibCommon.lifeCycle(TabooLibCommon.java:128)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.common.TabooLibCommon.lifeCycle(TabooLibCommon.java:86)
+[11:13:28] [Server thread/WARN]: 	at SlimefunItemExpansion-1.0.2.jar//io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitPlugin.<init>(BukkitPlugin.java:42)
+[11:13:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:132)
+[11:13:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:259)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.Class.newInstance(Class.java:755)
+[11:13:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[11:13:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+[11:13:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:521)
+[11:13:28] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:310)
+[11:13:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
+[11:13:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[11:13:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loading 4 libraries... please wait
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\js\js-scriptengine\23.0.2\js-scriptengine-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\sdk\graal-sdk\23.0.2\graal-sdk-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\js\js\23.0.2\js-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\regex\regex\23.0.2\regex-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\truffle\truffle-api\23.0.2\truffle-api-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [RykenSlimefunCustomizer] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\net\bytebuddy\byte-buddy\1.12.6\byte-buddy-1.12.6.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loading 3 libraries... please wait
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\js\js-scriptengine\23.0.2\js-scriptengine-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\sdk\graal-sdk\23.0.2\graal-sdk-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\js\js\23.0.2\js-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\regex\regex\23.0.2\regex-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar
+[11:13:28] [Server thread/INFO]: [SpigotLibraryLoader] [GuguSlimefunLib] Loaded library C:\Users\Administrator\Desktop\粘液科技整合包\server\libraries\org\graalvm\truffle\truffle-api\23.0.2\truffle-api-23.0.2.jar
+[11:13:28] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:13:28] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7-DEV-200
+[11:13:28] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun v538e41a-Beta
+[11:13:28] [Server thread/INFO]: [SlimyTreeTaps] Loading server plugin SlimyTreeTaps vBuild 2 zh-CN(ybw0014) (git 8a58b9f)
+[11:13:28] [Server thread/INFO]: [GuizhanLibPlugin] Loading server plugin GuizhanLibPlugin vBuild 45 (git 7aef1af)
+[11:13:28] [Server thread/INFO]: [LiteXpansion] Loading server plugin LiteXpansion vBuild 26 (git 6efc2c9)
+[11:13:28] [Server thread/INFO]: [ExoticGarden] Loading server plugin ExoticGarden vBuild 19 (git 0994db4)
+[11:13:28] [Server thread/INFO]: [InfinityExpansion] Loading server plugin InfinityExpansion vBuild 15 (git bebf0bd)
+[11:13:28] [Server thread/INFO]: [SimpleStorage] Loading server plugin SimpleStorage vBuild 5 zh-CN(ybw0014) (git c443c7b)
+[11:13:28] [Server thread/INFO]: [DynaTech] Loading server plugin DynaTech vBuild 71 (git 857c760)
+[11:13:28] [Server thread/INFO]: [Netheopoiesis] Loading server plugin Netheopoiesis vBuild 16 (git 1f930e5)
+[11:13:28] [Server thread/INFO]: [SlimeHUD] Loading server plugin SlimeHUD vBuild 12 (git a06bc8b)
+[11:13:28] [Server thread/INFO]: [TranscEndence] Loading server plugin TranscEndence vBuild 11 (git 2352ccc)
+[11:13:28] [Server thread/INFO]: [SlimefunWarfare] Loading server plugin SlimefunWarfare vBuild 12 (git 7f210c5)
+[11:13:28] [Server thread/INFO]: [Networks] Loading server plugin Networks vExpansion-2.0.8-Alpha-2
+[11:13:28] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[11:13:29] [Server thread/INFO]: [SlimeFrame] Loading server plugin SlimeFrame vBuild 13 (git 80aa7f2)
+[11:13:29] [Server thread/INFO]: [ElectricSpawners] Loading server plugin ElectricSpawners vBuild 5 (git 6fa0de2)
+[11:13:29] [Server thread/INFO]: [SimpleMaterialGenerators] Loading server plugin SimpleMaterialGenerators vBuild 5 zh-CN(SlimefunGuguProject) (git e05d257)
+[11:13:29] [Server thread/INFO]: [SlimeTinker] Loading server plugin SlimeTinker vBuild 50 (git 1249096)
+[11:13:29] [Server thread/INFO]: [PotionExpansion] Loading server plugin PotionExpansion vBuild 2 (git 81d4862)
+[11:13:29] [Server thread/INFO]: [SoulJars] Loading server plugin SoulJars vBuild 9 (git f13e461)
+[11:13:29] [Server thread/INFO]: [Endrex] Loading server plugin Endrex vBuild 1 zh-CN(SlimefunGuguProject) (git 23dbf5e)
+[11:13:29] [Server thread/INFO]: [Liquid] Loading server plugin Liquid vBuild 1 (git 1de2492)
+[11:13:29] [Server thread/INFO]: [SlimyBees] Loading server plugin SlimyBees vBuild 1 zh-CN(SlimefunGuguProject) (git 810abc0)
+[11:13:29] [Server thread/INFO]: [HotbarPets] Loading server plugin HotbarPets vBuild 4 (git 0faa724)
+[11:13:29] [Server thread/INFO]: [EcoPower] Loading server plugin EcoPower vBuild 1 zh-CN(ybw0014) (git eca8ab1)
+[11:13:29] [Server thread/INFO]: [AlchimiaVitae] Loading server plugin AlchimiaVitae vBuild 9 (git 95fc682)
+[11:13:29] [Server thread/INFO]: [SmallSpace] Loading server plugin SmallSpace vBuild 6 (git 073fa68)
+[11:13:29] [Server thread/INFO]: [ExLimus] Loading server plugin ExLimus vBuild 1 (git 31dbef9)
+[11:13:29] [Server thread/INFO]: [SlimefunItemExpansion] Loading server plugin SlimefunItemExpansion v1.0.2
+[11:13:29] [Server thread/INFO]: [SoundMuffler] Loading server plugin SoundMuffler vBuild 1 zh-CN(baoad) (git b1678a8)
+[11:13:29] [Server thread/INFO]: [FastMachines] Loading server plugin FastMachines vBuild 43 (git 40c3b19)
+[11:13:29] [Server thread/INFO]: [Cultivation] Loading server plugin Cultivation vBuild 12 (git ed9a7f3)
+[11:13:29] [Server thread/INFO]: [Gastronomicon] Loading server plugin Gastronomicon vBuild 10 (git 102fec6)
+[11:13:29] [Server thread/INFO]: [DyedBackpacks] Loading server plugin DyedBackpacks vBuild 3 (git d4e0e45)
+[11:13:29] [Server thread/INFO]: [GeneticChickengineering] Loading server plugin GeneticChickengineering vBuild 10 (git da9af98)
+[11:13:29] [Server thread/INFO]: [FluffyMachines] Loading server plugin FluffyMachines vBuild 35 (git 8a81689)
+[11:13:29] [Server thread/INFO]: [Galactifun] Loading server plugin Galactifun vBuild 27 (git c900528)
+[11:13:29] [Server thread/INFO]: [SpiritsUnchained] Loading server plugin SpiritsUnchained vBuild 6 (git 214ceb2)
+[11:13:29] [Server thread/INFO]: [FlowerPower] Loading server plugin FlowerPower vBuild 6 (git df3e8cd)
+[11:13:29] [Server thread/INFO]: [PrivateStorage] Loading server plugin PrivateStorage vBuild 1 zh-CN(ybw0014) (git 7205ea3)
+[11:13:29] [Server thread/INFO]: [MobCapturer] Loading server plugin MobCapturer vBuild 17 (git 5feb528)
+[11:13:29] [Server thread/INFO]: [VillagerUtil] Loading server plugin VillagerUtil vBuild 2 zh-CN(ybw0014) (git f019674)
+[11:13:29] [Server thread/INFO]: [ExtraHeads] Loading server plugin ExtraHeads vBuild 3 (git 96ae63c)
+[11:13:29] [Server thread/INFO]: [SFCalc] Loading server plugin SFCalc vBuild 6 (git 3441e14)
+[11:13:29] [Server thread/INFO]: [Supreme] Loading server plugin Supreme vBuild 21 (git 77e2274)
+[11:13:29] [Server thread/INFO]: [GuizhanCraft] Loading server plugin GuizhanCraft vBuild 13 (git 69136e2)
+[11:13:29] [Server thread/INFO]: [DyeBench] Loading server plugin DyeBench vBuild 4 (git 6f4e4c3)
+[11:13:29] [Server thread/INFO]: [ExtraGear] Loading server plugin ExtraGear vBuild 2 zh-CN(ybw0014) (git ff13031)
+[11:13:29] [Server thread/INFO]: [VillagerTrade] Loading server plugin VillagerTrade vBuild 4 (git 235f5f5)
+[11:13:29] [Server thread/INFO]: [Bump] Loading server plugin Bump vBuild 42 (git 24350a5)
+[11:13:29] [Server thread/INFO]: [FNAmplifications] Loading server plugin FNAmplifications vBuild 14 (git a1fb89c)
+[11:13:29] [Server thread/INFO]: [SlimefunOreChunks] Loading server plugin SlimefunOreChunks vBuild 1 zh-CN(ybw0014) (git 67879ed)
+[11:13:29] [Server thread/INFO]: [Quaptics] Loading server plugin Quaptics vBuild 7 (git 4d5aa1c)
+[11:13:29] [Server thread/INFO]: [RelicsOfCthonia] Loading server plugin RelicsOfCthonia vBuild 9 (git 81a2cc9)
+[11:13:29] [Server thread/INFO]: [FoxyMachines] Loading server plugin FoxyMachines vBuild 30 (git 88f39b9)
+[11:13:29] [Server thread/INFO]: [ExtraTools] Loading server plugin ExtraTools vBuild 6 (git 204b2a5)
+[11:13:29] [Server thread/INFO]: [CrystamaeHistoria] Loading server plugin CrystamaeHistoria vBuild 35 (git f2e9dd9)
+[11:13:29] [Server thread/INFO]: [MoreTools] Loading server plugin MoreTools vBuild 2 (git 51d9ab1)
+[11:13:29] [Server thread/INFO]: [SFMobDrops] Loading server plugin SFMobDrops vBuild 3 (git 5c9ad99)
+[11:13:29] [Server thread/INFO]: [SlimefunLuckyBlocks] Loading server plugin SlimefunLuckyBlocks vBuild 2 (git 3ba2eb9)
+[11:13:29] [Server thread/INFO]: [Nexcavate] Loading server plugin Nexcavate vBuild 5 zh-CN(SlimefunGuguProject) (git 029e28b)
+[11:13:29] [Server thread/INFO]: [BetterReactor] Loading server plugin BetterReactor vBuild 3 (git de00343)
+[11:13:29] [Server thread/INFO]: [SfChunkInfo] Loading server plugin SfChunkInfo vBuild 10 (git e750611)
+[11:13:29] [Server thread/INFO]: [MomoTech] Loading server plugin MomoTech v1.1.11
+[11:13:29] [Server thread/INFO]: [DracFun] Loading server plugin DracFun v2.0.10
+[11:13:29] [Server thread/INFO]: [SlimeCustomizer] Loading server plugin SlimeCustomizer vBuild 29 (git 315a7ad)
+[11:13:29] [Server thread/INFO]: [UltimateGenerators2] Loading server plugin UltimateGenerators2 vBuild 3 (git 35026dd)
+[11:13:29] [Server thread/INFO]: [EMCTech] Loading server plugin EMCTech vBuild 8 (git f3c137d)
+[11:13:29] [Server thread/INFO]: [CompressionCraft] Loading server plugin CompressionCraft vBuild 6 (git ed37c51)
+[11:13:29] [Server thread/INFO]: [EnderCargo] Loading server plugin EnderCargo vBuild 1 zh-CN(SlimefunGuguProject) (git 04f339e)
+[11:13:29] [Server thread/INFO]: [RykenSlimefunCustomizer] Loading server plugin RykenSlimefunCustomizer v1.4-SNAPSHOT
+[11:13:29] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v9.5.3
+[11:13:29] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_20_R1 > NMS_CommonWithFunctions > NMS_Common > CommandAPIBukkit
+[11:13:29] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[11:13:29] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[11:13:29] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[11:13:29] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.99
+[11:13:29] [Server thread/INFO]: [Wildernether] Loading server plugin Wildernether vBuild 4 zh-CN(SlimefunGuguProject) (git 32218bd)
+[11:13:29] [Server thread/INFO]: [StackMachine] Loading server plugin StackMachine v1.0-SNAPSHOT
+[11:13:29] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.8.5
+[11:13:29] [Server thread/INFO]: [sj_Expansion] Loading server plugin sj_Expansion v1.0.1
+[11:13:29] [Server thread/INFO]: [ResearchTogether] Loading server plugin ResearchTogether v1.0.0
+[11:13:29] [Server thread/INFO]: [LogiTech] Loading server plugin LogiTech v1.0.0
+[11:13:29] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.1.0
+[11:13:29] [Server thread/INFO]: [GuguSlimefunLib] Loading server plugin GuguSlimefunLib vBuild 17 (git 1b623ae)
+[11:13:29] [Server thread/INFO]: [FinalTECH-Changed] Loading server plugin FinalTECH-Changed v3.0
+[11:13:29] [Server thread/INFO]: [EzSlimeFunAddon] Loading server plugin EzSlimeFunAddon vBuild 13 zh-CN(haiman233) (git 28198cf)
+[11:13:29] [Server thread/INFO]: [ChocoHills] Loading server plugin ChocoHills vBuild 9 zh-CN(SlimefunGuguProject) (git 1cbaa5f)
+[11:13:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:13:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:13:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:13:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:13:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[11:13:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:13:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:13:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:13:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:13:30] [Server thread/INFO]: Preparing level "world"
+[11:13:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:13:31] [Server thread/INFO]: Time elapsed: 205 ms
+[11:13:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:13:31] [Server thread/INFO]: Time elapsed: 39 ms
+[11:13:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:13:31] [Server thread/INFO]: Time elapsed: 27 ms
+[11:13:31] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7-DEV-200
+[11:13:32] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:13:32] [Server thread/INFO]: [Slimefun] Enabling Slimefun v538e41a-Beta
+[11:13:32] [Server thread/INFO]: [Slimefun] 检测到你正在使用 Paper 服务端! 性能优化已应用.
+[11:13:32] [Server thread/INFO]: [Slimefun] 正在创建文件夹...
+[11:13:32] [Server thread/INFO]: [Slimefun] 正在加载数据库...
+[11:13:32] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Starting...
+[11:13:33] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] SlimefunHikariPool - Added connection org.sqlite.jdbc4.JDBC4Connection@212167cb
+[11:13:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Start completed.
+[11:13:33] [Server thread/INFO]: [Slimefun] 已启用延时写入功能
+[11:13:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Starting...
+[11:13:33] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] SlimefunHikariPool - Added connection org.sqlite.jdbc4.JDBC4Connection@4b578e3c
+[11:13:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Start completed.
+[11:13:33] [Server thread/INFO]: [Slimefun] 正在加载语言文件...
+[11:13:33] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:13:33] [Server thread/INFO]: [Slimefun] Loaded language "zh-CN"
+[11:13:33] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[11:13:33] [Server thread/INFO]: [Slimefun] 加载矿物资源...
+[11:13:33] [Slimefun Metrics/INFO]: [Slimefun] MetricsModule does not exist, downloading...
+[11:13:34] [Slimefun Metrics/WARN]: [Slimefun] Failed to fetch latest builds for Metrics: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:13:34] [Slimefun Metrics/INFO]: [Slimefun] # Starting download of MetricsModule build: #-1
+[11:13:34] [Server thread/INFO]: [Slimefun] 加载自定义标签...
+[11:13:34] [Server thread/INFO]: [Slimefun] 加载物品...
+[11:13:34] [Slimefun Metrics/WARN]: [Slimefun] Failed to replace the old metric file with the new one. Please do this manually! Error: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:13:34] [Slimefun Metrics/WARN]: [Slimefun] Failed to start metrics as the file could not be downloaded.
+[11:13:36] [Server thread/INFO]: [Slimefun] 加载研究项目...
+[11:13:36] [Server thread/INFO]: [Slimefun] 加载 Wiki 页面...
+[11:13:36] [Server thread/INFO]: [Slimefun] 加载了 Slimefun 中 486 个物品的 Wiki 页面
+[11:13:36] [Server thread/INFO]: [Slimefun] 正在注册监听器...
+[11:13:36] [Server thread/WARN]: [Slimefun] 无法接入 Vault. 如果你是 CMI 用户, 请至配置文件启用经济系统
+[11:13:36] [Server thread/INFO]: [Slimefun] 正在加载第三方插件支持...
+[11:13:36] [Server thread/INFO]: [Slimefun] Hooked into Plugin: PlaceholderAPI v2.11.7-DEV-200
+[11:13:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: slimefun [538e41a-Beta]
+[11:13:36] [Server thread/INFO]: [Slimefun] Slimefun 完成加载, 耗时 4.12s
+[11:13:36] [Server thread/INFO]: [SlimyTreeTaps] Enabling SlimyTreeTaps vBuild 2 zh-CN(ybw0014) (git 8a58b9f)
+[11:13:36] [Server thread/INFO]: [GuizhanLibPlugin] Enabling GuizhanLibPlugin vBuild 45 (git 7aef1af)
+[11:13:36] [Server thread/INFO]: [GuizhanLibPlugin] Finding language file for Minecraft version 1.20
+[11:13:36] [Server thread/INFO]: [GuizhanLibPlugin] Loading language file for Minecraft version 1.20
+[11:13:36] [Server thread/INFO]: [GuizhanLibPlugin] Loaded language file for Minecraft version 1.20
+[11:13:36] [Server thread/INFO]: [LiteXpansion] Enabling LiteXpansion vBuild 26 (git 6efc2c9)
+[11:13:36] [Server thread/INFO]: [LiteXpansion] Loaded 35 UU-Matter recipes
+[11:13:36] [Server thread/INFO]: [ExoticGarden] Enabling ExoticGarden vBuild 19 (git 0994db4)
+[11:13:36] [Server thread/INFO]: [InfinityExpansion] Enabling InfinityExpansion vBuild 15 (git bebf0bd)
+[11:13:36] [Server thread/INFO]: [InfinityExpansion] 加载了 InfinityExpansion 中 54 个物品的 Wiki 页面
+[11:13:36] [Server thread/INFO]: [SimpleStorage] Enabling SimpleStorage vBuild 5 zh-CN(ybw0014) (git c443c7b)
+[11:13:36] [Server thread/INFO]: [SimpleStorage] ########################################
+[11:13:36] [Server thread/INFO]: [SimpleStorage]           SimpleStorage 简易存储         
+[11:13:36] [Server thread/INFO]: [SimpleStorage]        作者: Sefiraat 汉化: ybw0014      
+[11:13:36] [Server thread/INFO]: [SimpleStorage] ########################################
+[11:13:37] [Server thread/INFO]: [DynaTech] Enabling DynaTech vBuild 71 (git 857c760)
+[11:13:37] [Server thread/INFO]: Preparing start region for dimension minecraft:dimensionalhome
+[11:13:38] [Server thread/INFO]: Time elapsed: 952 ms
+[11:13:38] [Server thread/INFO]: [Netheopoiesis] Enabling Netheopoiesis vBuild 16 (git 1f930e5)
+[11:13:38] [Server thread/INFO]: [Netheopoiesis] ##########################################
+[11:13:38] [Server thread/INFO]: [Netheopoiesis]         Netheopoiesis 下界乌托邦            
+[11:13:38] [Server thread/INFO]: [Netheopoiesis]          作者: Sefiraat, J3fftw            
+[11:13:38] [Server thread/INFO]: [Netheopoiesis]         汉化: SlimefunGuguProject          
+[11:13:38] [Server thread/INFO]: [Netheopoiesis] ##########################################
+[11:13:38] [Server thread/INFO]: [Netheopoiesis] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:38] [Server thread/INFO]: [SlimeHUD] Enabling SlimeHUD vBuild 12 (git a06bc8b)
+[11:13:38] [Server thread/INFO]: [SlimeHUD] #=================================#
+[11:13:38] [Server thread/INFO]: [SlimeHUD] #    SlimeHUD by SchnTgaiSpock    #
+[11:13:38] [Server thread/INFO]: [SlimeHUD] #=================================#
+[11:13:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: slimehud [1.0.0]
+[11:13:38] [Server thread/INFO]: [SlimeHUD] SlimefunTranslation 未安装，相关功能将不会启用。
+[11:13:38] [Server thread/INFO]: [TranscEndence] Enabling TranscEndence vBuild 11 (git 2352ccc)
+[11:13:38] [Server thread/INFO]: [SlimefunWarfare] Enabling SlimefunWarfare vBuild 12 (git 7f210c5)
+[11:13:38] [Server thread/INFO]: [Networks] Enabling Networks vExpansion-2.0.8-Alpha-2
+[11:13:38] [Server thread/INFO]: [Networks] #########################################################################
+[11:13:38] [Server thread/INFO]: [Networks] ███╗   ██╗███████╗████████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗           
+[11:13:38] [Server thread/INFO]: [Networks] ████╗  ██║██╔════╝╚══██╔══╝██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝           
+[11:13:38] [Server thread/INFO]: [Networks] ██╔██╗ ██║█████╗     ██║   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝            
+[11:13:38] [Server thread/INFO]: [Networks] ██║╚██╗██║██╔══╝     ██║   ██║███╗██║██║   ██║██╔══██╗██╔═██╗            
+[11:13:38] [Server thread/INFO]: [Networks] ██║ ╚████║███████╗   ██║   ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗           
+[11:13:38] [Server thread/INFO]: [Networks] ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝           
+[11:13:38] [Server thread/INFO]: [Networks] ███████╗██╗  ██╗██████╗  █████╗ ███╗   ██╗███████╗██╗ ██████╗ ███╗   ██╗ 
+[11:13:38] [Server thread/INFO]: [Networks] ██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗████╗  ██║██╔════╝██║██╔═══██╗████╗  ██║ 
+[11:13:38] [Server thread/INFO]: [Networks] █████╗   ╚███╔╝ ██████╔╝███████║██╔██╗ ██║███████╗██║██║   ██║██╔██╗ ██║ 
+[11:13:38] [Server thread/INFO]: [Networks] ██╔══╝   ██╔██╗ ██╔═══╝ ██╔══██║██║╚██╗██║╚════██║██║██║   ██║██║╚██╗██║ 
+[11:13:38] [Server thread/INFO]: [Networks] ███████╗██╔╝ ██╗██║     ██║  ██║██║ ╚████║███████║██║╚██████╔╝██║ ╚████║ 
+[11:13:38] [Server thread/INFO]: [Networks] ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝ 
+[11:13:38] [Server thread/INFO]: [Networks]                                                                          
+[11:13:38] [Server thread/INFO]: [Networks]                            Networks - 网络                                
+[11:13:38] [Server thread/INFO]: [Networks]                       作者: Sefiraat 汉化: ybw0014                         
+[11:13:38] [Server thread/INFO]: [Networks]                       NetworksExpansion - 网络拓展                         
+[11:13:38] [Server thread/INFO]: [Networks]                       作者: yitoudaidai, tinalness                        
+[11:13:38] [Server thread/INFO]: [Networks]                        如遇bug请优先反馈至改版仓库:                           
+[11:13:38] [Server thread/INFO]: [Networks]          https://github.com/ytdd9527/NetworksExpansion/issues            
+[11:13:38] [Server thread/INFO]: [Networks]                       使用本附属时，请不要直接叉掉进程                         
+[11:13:38] [Server thread/INFO]: [Networks]                       而是应该正常/stop以避免数据丢失                         
+[11:13:38] [Server thread/INFO]: [Networks] #########################################################################
+[11:13:38] [Server thread/INFO]: [Networks] 正在获取配置信息...
+[11:13:38] [Server thread/INFO]: [Networks] 尝试自动更新...
+[11:13:38] [Server thread/INFO]: [Networks] 正在连接数据库文件...
+[11:13:39] [Server thread/INFO]: [Networks] 正在创建队列...
+[11:13:39] [Server thread/INFO]: [Networks] 正在创建自动保存线程...
+[11:13:39] [Server thread/INFO]: [Networks] 正在注册物品...
+[11:13:39] [Server thread/INFO]: [Networks] 加载了 Networks 中 34 个物品的 Wiki 页面
+[11:13:39] [Server thread/INFO]: [Networks] 检测到安装了 SlimeHUD，注册相关功能！
+[11:13:39] [Server thread/INFO]: [Networks] 检测到安装了下界乌托邦，注册相关物品！
+[11:13:39] [Server thread/INFO]: [Networks] 正在注册指令...
+[11:13:39] [Server thread/INFO]: [Networks] 已启用附属！
+[11:13:39] [Server thread/INFO]: [SlimeFrame] Enabling SlimeFrame vBuild 13 (git 80aa7f2)
+[11:13:39] [Server thread/INFO]: [SlimeFrame] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:40] [Server thread/INFO]: [SlimeFrame]    _____ _ _                ______                        
+[11:13:40] [Server thread/INFO]: [SlimeFrame]   / ____| (_)              |  ____|                       
+[11:13:40] [Server thread/INFO]: [SlimeFrame]  | (___ | |_ _ __ ___   ___| |__ _ __ __ _ _ __ ___   ___ 
+[11:13:40] [Server thread/INFO]: [SlimeFrame]   \___ \| | | '_ ` _ \ / _ \  __| '__/ _` | '_ ` _ \ / _ \
+[11:13:40] [Server thread/INFO]: [SlimeFrame]   ____) | | | | | | | |  __/ |  | | | (_| | | | | | |  __/
+[11:13:40] [Server thread/INFO]: [SlimeFrame]  |_____/|_|_|_| |_| |_|\___|_|  |_|  \__,_|_| |_| |_|\___|
+[11:13:40] [Server thread/INFO]: [SlimeFrame] ==========================================================
+[11:13:40] [Server thread/INFO]: [ElectricSpawners] Enabling ElectricSpawners vBuild 5 (git 6fa0de2)
+[11:13:40] [Server thread/WARN]: [ElectricSpawners] 尝试注册电力刷怪笼时发生错误,该生物类型无效: "PIG_ZOMBIE"
+[11:13:40] [Server thread/WARN]: [ElectricSpawners] 尝试注册电力刷怪笼时发生错误,该生物类型无效: "UNKNOWN"
+[11:13:40] [Server thread/INFO]: [SimpleMaterialGenerators] Enabling SimpleMaterialGenerators vBuild 5 zh-CN(SlimefunGuguProject) (git e05d257)
+[11:13:40] [Server thread/INFO]: [SlimeTinker] Enabling SlimeTinker vBuild 50 (git 1249096)
+[11:13:40] [Server thread/INFO]: [SlimeTinker] ########################################
+[11:13:40] [Server thread/INFO]: [SlimeTinker]          Slime Tinker  粘液匠魂          
+[11:13:40] [Server thread/INFO]: [SlimeTinker]        作者: Sefiraat 汉化: ybw0014      
+[11:13:40] [Server thread/INFO]: [SlimeTinker] ########################################
+[11:13:41] [Server thread/INFO]: [SlimeTinker] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:42] [Server thread/INFO]: [PotionExpansion] Enabling PotionExpansion vBuild 2 (git 81d4862)
+[11:13:42] [Server thread/INFO]: [PotionExpansion] 已加载药剂科技物品！
+[11:13:42] [Server thread/INFO]: [PotionExpansion] 已加载药剂科技研究！
+[11:13:42] [Server thread/INFO]: [SoulJars] Enabling SoulJars vBuild 9 (git f13e461)
+[11:13:42] [Server thread/WARN]: [SoulJars] IllegalArgumentException: 无效的生物类型: PIG_ZOMBIE
+[11:13:42] [Server thread/WARN]: [SoulJars] IllegalArgumentException: 无效的生物类型: UNKNOWN
+[11:13:42] [Server thread/INFO]: [Endrex] Enabling Endrex vBuild 1 zh-CN(SlimefunGuguProject) (git 23dbf5e)
+[11:13:42] [Server thread/INFO]: [Endrex] Loading schematics...
+[11:13:42] [Server thread/INFO]: [Endrex] Loading structures/magictree/0.nsm from jar file...
+[11:13:42] [Server thread/INFO]: [Endrex] Loading structures/magictree/1.nsm from jar file...
+[11:13:42] [Server thread/INFO]: [Endrex] Loading structures/magictree/2.nsm from jar file...
+[11:13:42] [Server thread/INFO]: [Endrex] Loading structures/magictree/3.nsm from jar file...
+[11:13:42] [Server thread/INFO]: [Endrex] Loading structures/other/mysterybox.nsm from jar file...
+[11:13:42] [Server thread/INFO]: [Endrex] Plugin enabled in 96ms
+[11:13:42] [Server thread/INFO]: [Liquid] Enabling Liquid vBuild 1 (git 1de2492)
+[11:13:42] [Server thread/INFO]: [SlimyBees] Enabling SlimyBees vBuild 1 zh-CN(SlimefunGuguProject) (git 810abc0)
+[11:13:42] [Server thread/INFO]: [SlimyBees] Started loading SlimyBees
+[11:13:42] [Server thread/INFO]: [SlimyBees] Registered 26 bee species!
+[11:13:42] [Server thread/INFO]: [SlimyBees] Registering nest populators for world: world
+[11:13:42] [Server thread/WARN]: [SlimyBees] Cannot register a nest populator for world: bskyblock_world because it doesn't exist!
+[11:13:42] [Server thread/WARN]: [SlimyBees] Cannot register a nest populator for world: bskyblock_world_nether because it doesn't exist!
+[11:13:42] [Server thread/WARN]: [SlimyBees] Cannot register a nest populator for world: bskyblock_world_the_end because it doesn't exist!
+[11:13:42] [Server thread/WARN]: [SlimyBees] Cannot register a nest populator for world: sc because it doesn't exist!
+[11:13:42] [Server thread/WARN]: [SlimyBees] Cannot register a nest populator for world: zy because it doesn't exist!
+[11:13:42] [Server thread/INFO]: [SlimyBees] Registering nest populators for world: world_nether
+[11:13:42] [Server thread/INFO]: [SlimyBees] Registering nest populators for world: world_the_end
+[11:13:42] [Server thread/INFO]: [SlimyBees] Finished loading SlimyBees
+[11:13:42] [Server thread/INFO]: [HotbarPets] Enabling HotbarPets vBuild 4 (git 0faa724)
+[11:13:42] [Server thread/INFO]: [EcoPower] Enabling EcoPower vBuild 1 zh-CN(ybw0014) (git eca8ab1)
+[11:13:42] [Server thread/INFO]: [AlchimiaVitae] Enabling AlchimiaVitae vBuild 9 (git 95fc682)
+[11:13:42] [Server thread/INFO]: [SmallSpace] Enabling SmallSpace vBuild 6 (git 073fa68)
+[11:13:42] [Server thread/INFO]: Preparing start region for dimension minecraft:smallspace
+[11:13:42] [Server thread/INFO]: Time elapsed: 35 ms
+[11:13:42] [Server thread/INFO]: [ExLimus] Enabling ExLimus vBuild 1 (git 31dbef9)
+[11:13:42] [Server thread/INFO]: [ExLimus] >--------------------- Ex Limus ---------------------<
+[11:13:42] [Server thread/INFO]: [ExLimus]  Version: Build 1 (git 31dbef9)
+[11:13:42] [Server thread/INFO]: [ExLimus] >-------------------- Information -------------------<
+[11:13:42] [Server thread/INFO]: [ExLimus]  An Addon Created by TerslenK
+[11:13:42] [Server thread/INFO]: [ExLimus]  With the help of lucasGithuber
+[11:13:42] [Server thread/INFO]: [ExLimus] >-------------- Issue Information Link --------------<
+[11:13:42] [Server thread/INFO]: [ExLimus] >-----------------Report issues here-----------------<
+[11:13:42] [Server thread/INFO]: [ExLimus]  https://github.com/TerslenK/ExLimus/issues
+[11:13:42] [Server thread/INFO]: [ExLimus] >----------------------------------------------------<
+[11:13:42] [Server thread/INFO]: [SlimefunItemExpansion] Enabling SlimefunItemExpansion v1.0.2
+[11:13:43] [Server thread/ERROR]: [SlimefunItemExpansion] Item "OSMIUM_DUST" from SlimefunItemExpansion v1.0.2 has caused an Error!
+[11:13:43] [Server thread/ERROR]: [SlimefunItemExpansion] You can report it here: https://github.com/ItsFlicker/SlimefunItemExpansion
+[11:13:43] [Server thread/ERROR]: [SlimefunItemExpansion] Registering OsmiumDust - 'OSMIUM_DUST' (SlimefunItemExpansion v1.0.2) has failed!
+io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items have conflicting ids: OsmiumDust - 'OSMIUM_DUST' (SlimefunItemExpansion v1.0.2) and SlimefunItem - 'OSMIUM_DUST' (SlimefunWarfare vBuild 12 (git 7f210c5))
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.checkForConflicts(SlimefunItem.java:632) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.register(SlimefunItem.java:421) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.tasks.ResourceRegisterTask.run(ResourceRegisterTask.kt:9) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.SlimefunItemExpansion.onEnable(SlimefunItemExpansion.kt:24) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitPlugin.onEnable(BukkitPlugin.java:61) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:653) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:564) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:440) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1117) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[11:13:43] [Server thread/ERROR]: [SlimefunItemExpansion] Item "OSMIUM_INGOT" from SlimefunItemExpansion v1.0.2 has caused an Error!
+[11:13:43] [Server thread/ERROR]: [SlimefunItemExpansion] You can report it here: https://github.com/ItsFlicker/SlimefunItemExpansion
+[11:13:43] [Server thread/ERROR]: [SlimefunItemExpansion] Registering SlimefunItem - 'OSMIUM_INGOT' (SlimefunItemExpansion v1.0.2) has failed!
+io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items have conflicting ids: SlimefunItem - 'OSMIUM_INGOT' (SlimefunItemExpansion v1.0.2) and SlimefunItem - 'OSMIUM_INGOT' (SlimefunWarfare vBuild 12 (git 7f210c5))
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.checkForConflicts(SlimefunItem.java:632) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.register(SlimefunItem.java:421) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.util.UtilKt.regItem(Util.kt:33) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.util.UtilKt.regItem$default(Util.kt:21) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.tasks.ItemRegisterTask.run(ItemRegisterTask.kt:38) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.SlimefunItemExpansion.onEnable(SlimefunItemExpansion.kt:25) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitPlugin.onEnable(BukkitPlugin.java:61) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:653) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:564) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:440) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1117) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[11:13:43] [Server thread/INFO]: [SlimefunItemExpansion] §bSFIE v1.0.2 Enabled.
+[11:13:43] [Server thread/ERROR]: Error occurred while enabling SlimefunItemExpansion v1.0.2 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.common.reflect.Reflex.set(Reflex.kt:69) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.common.reflect.Reflex.write(Reflex.kt:36) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.common.reflect.Reflex$Companion.setProperty(Reflex.kt:142) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.common.reflect.Reflex$Companion.setProperty$default(Reflex.kt:138) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitCommand$registerCommand$1.invoke(BukkitCommand.kt:76) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitCommand$registerCommand$1.invoke(BukkitCommand.kt:66) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitExecutor$submit$1.<init>(BukkitExecutor.kt:39) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitExecutor.submit(BukkitExecutor.kt:36) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitExecutor.start(BukkitExecutor.kt:28) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.common.platform.function.ExecutorKt.startExecutor(Executor.kt:11) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.platform.BukkitPlugin.onEnable(BukkitPlugin.java:64) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:653) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:564) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:440) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1117) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.IllegalStateException: Unsafe not found
+	at io.github.itsflicker.slimefunitemexpansion.taboolib.common.reflect.Ref.<clinit>(Ref.kt:28) ~[SlimefunItemExpansion-1.0.2.jar:?]
+	... 23 more
+[11:13:43] [Server thread/INFO]: [SlimefunItemExpansion] Disabling SlimefunItemExpansion v1.0.2
+[11:13:43] [Server thread/INFO]: [SoundMuffler] Enabling SoundMuffler vBuild 1 zh-CN(baoad) (git b1678a8)
+[11:13:43] [Server thread/INFO]: [FastMachines] Enabling FastMachines vBuild 43 (git 40c3b19)
+[11:13:43] [Server thread/INFO]: [FastMachines] ====================
+[11:13:43] [Server thread/INFO]: [FastMachines]      FastMachines   
+[11:13:43] [Server thread/INFO]: [FastMachines]      by ybw0014     
+[11:13:43] [Server thread/INFO]: [FastMachines] ====================
+[11:13:43] [Server thread/INFO]: [FastMachines] Loading language...
+[11:13:43] [Server thread/INFO]: [FastMachines] 正在加载语言：zh-Hans
+[11:13:43] [Server thread/INFO]: [FastMachines] 正在加载物品...
+[11:13:43] [Server thread/INFO]: [FastMachines] 正在加载研究...
+[11:13:43] [Server thread/INFO]: [Cultivation] Enabling Cultivation vBuild 12 (git ed9a7f3)
+[11:13:43] [Server thread/INFO]: [Cultivation] ########################################
+[11:13:43] [Server thread/INFO]: [Cultivation]          Cultivation 农耕工艺            
+[11:13:43] [Server thread/INFO]: [Cultivation]         By Sefiraat and J3fftw         
+[11:13:43] [Server thread/INFO]: [Cultivation]          粘液科技简中汉化组 汉化           
+[11:13:43] [Server thread/INFO]: [Cultivation] ########################################
+[11:13:43] [Server thread/INFO]: [Cultivation] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:44] [Server thread/INFO]: [Cultivation] 加载了 Cultivation 中 4 个物品的 Wiki 页面
+[11:13:44] [Server thread/INFO]: [Gastronomicon] Enabling Gastronomicon vBuild 10 (git 102fec6)
+[11:13:44] [Server thread/INFO]: [Gastronomicon] #======================================#
+[11:13:44] [Server thread/INFO]: [Gastronomicon] #    Gastronomicon by SchnTgaiSpock    #
+[11:13:44] [Server thread/INFO]: [Gastronomicon] #   美食家    粘液科技简中汉化组汉化   #
+[11:13:44] [Server thread/INFO]: [Gastronomicon] #======================================#
+[11:13:44] [Server thread/INFO]: [Gastronomicon] 检测到服务器已安装 SlimeHUD!
+[11:13:44] [Server thread/INFO]: [Gastronomicon] 接入相关功能...
+[11:13:44] [Server thread/INFO]: [Gastronomicon] 检测到服务器已安装 动力科技(DynaTech)!
+[11:13:44] [Server thread/INFO]: [Gastronomicon] 正在向动力科技添加相关作物...
+[11:13:45] [Server thread/INFO]: [Gastronomicon] 已加载所有树木结构
+[11:13:45] [Server thread/INFO]: [DyedBackpacks] Enabling DyedBackpacks vBuild 3 (git d4e0e45)
+[11:13:45] [Server thread/INFO]: [GeneticChickengineering] Enabling GeneticChickengineering vBuild 10 (git da9af98)
+[11:13:45] [Server thread/INFO]: [GeneticChickengineering] Connection to plugins\GeneticChickengineering\GCE.db has been established.
+[11:13:45] [Server thread/INFO]: [GeneticChickengineering] Registered 64 chickens
+[11:13:45] [Server thread/INFO]: [FluffyMachines] Enabling FluffyMachines vBuild 35 (git 8a81689)
+[11:13:45] [Server thread/INFO]: [FluffyMachines] 加载了 FluffyMachines 中 8 个物品的 Wiki 页面
+[11:13:45] [Server thread/INFO]: [Galactifun] Enabling Galactifun vBuild 27 (git c900528)
+[11:13:45] [Server thread/INFO]: [Galactifun] Loading planet 金星
+[11:13:45] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_venus
+[11:13:45] [Server thread/INFO]: Time elapsed: 42 ms
+[11:13:45] [Server thread/INFO]: [Galactifun] Loading planet 木卫一 - 艾奥
+[11:13:45] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_io
+[11:13:45] [Server thread/INFO]: Time elapsed: 16 ms
+[11:13:45] [Server thread/INFO]: [Galactifun] Loading planet 木卫二 - 欧罗巴
+[11:13:45] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_europa
+[11:13:45] [Server thread/INFO]: Time elapsed: 13 ms
+[11:13:46] [Server thread/INFO]: [Galactifun] Loading planet 地球高空轨道
+[11:13:46] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_earth_orbit
+[11:13:46] [Server thread/INFO]: Time elapsed: 44 ms
+[11:13:46] [Server thread/INFO]: [Galactifun] Loading planet 土卫二
+[11:13:46] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_enceladus
+[11:13:46] [Server thread/INFO]: Time elapsed: 15 ms
+[11:13:46] [Server thread/INFO]: [Galactifun] Loading planet 土卫六 - 泰坦
+[11:13:46] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_titan
+[11:13:46] [Server thread/INFO]: Time elapsed: 18 ms
+[11:13:46] [Server thread/INFO]: [Galactifun] Loading planet 火星
+[11:13:47] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_mars
+[11:13:47] [Server thread/INFO]: Time elapsed: 11 ms
+[11:13:47] [Server thread/INFO]: [Galactifun] Loading planet 月球
+[11:13:47] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_the_moon
+[11:13:47] [Server thread/INFO]: Time elapsed: 12 ms
+[11:13:47] [Server thread/INFO]: [SpiritsUnchained] Enabling SpiritsUnchained vBuild 6 (git 214ceb2)
+[11:13:47] [Server thread/INFO]: [SpiritsUnchained] ========================================
+[11:13:47] [Server thread/INFO]: [SpiritsUnchained]     SpiritsUnchained - By JustAHuman    
+[11:13:47] [Server thread/INFO]: [SpiritsUnchained]         灵魂巧匠 - 粘液科技简中汉化组        
+[11:13:47] [Server thread/INFO]: [SpiritsUnchained] ========================================
+[11:13:47] [Server thread/INFO]: [SpiritsUnchained] Loaded 69 Spirits!
+[11:13:47] [Server thread/INFO]: [FlowerPower] Enabling FlowerPower vBuild 6 (git df3e8cd)
+[11:13:47] [Server thread/INFO]: [PrivateStorage] Enabling PrivateStorage vBuild 1 zh-CN(ybw0014) (git 7205ea3)
+[11:13:47] [Server thread/INFO]: [MobCapturer] Enabling MobCapturer vBuild 17 (git 5feb528)
+[11:13:47] [Server thread/INFO]: [VillagerUtil] Enabling VillagerUtil vBuild 2 zh-CN(ybw0014) (git f019674)
+[11:13:47] [Server thread/INFO]: [ExtraHeads] Enabling ExtraHeads vBuild 3 (git 96ae63c)
+[11:13:48] [Server thread/INFO]: [SFCalc] Enabling SFCalc vBuild 6 (git 3441e14)
+[11:13:48] [Server thread/INFO]: [Supreme] Enabling Supreme vBuild 21 (git 77e2274)
+[11:13:48] [Server thread/INFO]: [Supreme] ########################################
+[11:13:48] [Server thread/INFO]: [Supreme]       Supreme 2.0  作者:RelativoBR       
+[11:13:48] [Server thread/INFO]: [Supreme]          汉化:SlimefunGuguProject        
+[11:13:48] [Server thread/INFO]: [Supreme] ########################################
+[11:13:48] [Server thread/INFO]: [Supreme] 自动更新: 已禁用
+[11:13:48] [Server thread/INFO]: [Supreme] 已加载语言: zh-CN
+[11:13:48] [Server thread/INFO]: [Supreme] 至尊研究院1.0物品ID兼容: 已禁用
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] Enabling GuizhanCraft vBuild 13 (git 69136e2)
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] ==================
+[11:13:48] [Server thread/INFO]: [GuizhanCraft]    GuizhanCraft   
+[11:13:48] [Server thread/INFO]: [GuizhanCraft]     by ybw0014    
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] ==================
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] 当前语言为简体中文!
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] 加载物品中...
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] 加载指令中...
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] 研究已启用, 加载研究中...
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] 加载关联插件中...
+[11:13:48] [Server thread/INFO]: [GuizhanCraft] 已关联插件 ElectricSpawners vBuild 5 (git 6fa0de2)
+[11:13:48] [Server thread/INFO]: [DyeBench] Enabling DyeBench vBuild 4 (git 6f4e4c3)
+[11:13:48] [Server thread/INFO]: [ExtraGear] Enabling ExtraGear vBuild 2 zh-CN(ybw0014) (git ff13031)
+[11:13:48] [Server thread/INFO]: [VillagerTrade] Enabling VillagerTrade vBuild 4 (git 235f5f5)
+[11:13:48] [Server thread/INFO]: [VillagerTrade] ====================
+[11:13:48] [Server thread/INFO]: [VillagerTrade]    VillagerTrade    
+[11:13:48] [Server thread/INFO]: [VillagerTrade]      by ybw0014     
+[11:13:48] [Server thread/INFO]: [VillagerTrade] ====================
+[11:13:48] [Server thread/INFO]: [Bump] Enabling Bump vBuild 42 (git 24350a5)
+[11:13:48] [Server thread/INFO]: [Bump]   _____
+[11:13:48] [Server thread/INFO]: [Bump]  /\   _`\             
+[11:13:48] [Server thread/INFO]: [Bump]  \ \ \L\ \  __  __    ___ ___   _____   
+[11:13:48] [Server thread/INFO]: [Bump]   \ \  _ </\ \/\ \ / __` __`\/\ __`\ 
+[11:13:48] [Server thread/INFO]: [Bump]    \ \ \L\ \ \ \_\ \/\ \/\ \/\ \ \ \L\ \
+[11:13:48] [Server thread/INFO]: [Bump]     \ \____/\ \____/\ \_\ \_\ \_\ \ ,__/
+[11:13:48] [Server thread/INFO]: [Bump]      \/___/  \/___/  \/_/\/_/\/_/\ \ \/ 
+[11:13:48] [Server thread/INFO]: [Bump]                                   \ \_\ 
+[11:13:48] [Server thread/INFO]: [Bump]                                    \/_/ 
+[11:13:48] [Server thread/INFO]: [Bump]   Bump 2 for Slimefun4 RC-30+
+[11:13:48] [Server thread/INFO]: [Bump]   Powered By bxx2004, SlimefunGuguProject
+[11:13:48] [Server thread/INFO]: [Bump]   GitHub: https://github.com/SlimefunGuguProject/Bump
+[11:13:48] [Server thread/INFO]: [Bump]   Issues: https://github.com/SlimefunGuguProject/Bump/issues
+[11:13:48] [Server thread/INFO]: [Bump] Loading language...
+[11:13:48] [Server thread/INFO]: [Bump] Loaded language zh-CN
+[11:13:49] [Server thread/INFO]: [Bump] 正在从配置文件中加载所有鉴定类型。
+[11:13:49] [Server thread/INFO]: [Bump] 正在加载鉴定类型 "sword"。
+[11:13:49] [Server thread/INFO]: [Bump] 已加载鉴定类型 "sword"。
+[11:13:49] [Server thread/INFO]: [Bump] 正在加载鉴定类型 "armor"。
+[11:13:49] [Server thread/INFO]: [Bump] 已加载鉴定类型 "armor"。
+[11:13:49] [Server thread/INFO]: [Bump] 正在加载鉴定类型 "horse_armor"。
+[11:13:49] [Server thread/INFO]: [Bump] 已加载鉴定类型 "horse_armor"。
+[11:13:49] [Server thread/WARN]: [Bump] LegacyAppraisalPaper - 'APPRAISAL_PAPER_ARMOR' (Bump vBuild 42 (git 24350a5)): The inherited Class "io.github.slimefunguguproject.bump.implementation.items.legacy.LegacyAppraisalPaper" has been deprecated. Check the documentation for more details!
+[11:13:49] [Server thread/WARN]: [Bump] You can report this warning here: https://github.com/SlimefunGuguProject/Bump/issues
+[11:13:49] [Server thread/WARN]: [Bump] LegacyAppraisalPaper - 'APPRAISAL_PAPER_DAMAGE' (Bump vBuild 42 (git 24350a5)): The inherited Class "io.github.slimefunguguproject.bump.implementation.items.legacy.LegacyAppraisalPaper" has been deprecated. Check the documentation for more details!
+[11:13:49] [Server thread/WARN]: [Bump] You can report this warning here: https://github.com/SlimefunGuguProject/Bump/issues
+[11:13:49] [Server thread/WARN]: [Bump] LegacyAppraisalPaper - 'APPRAISAL_PAPER_HORSE_ARMOR' (Bump vBuild 42 (git 24350a5)): The inherited Class "io.github.slimefunguguproject.bump.implementation.items.legacy.LegacyAppraisalPaper" has been deprecated. Check the documentation for more details!
+[11:13:49] [Server thread/WARN]: [Bump] You can report this warning here: https://github.com/SlimefunGuguProject/Bump/issues
+[11:13:49] [Server thread/INFO]: [Bump] 加载了 Bump 中 37 个物品的 Wiki 页面
+[11:13:49] [Server thread/INFO]: [FNAmplifications] Enabling FNAmplifications vBuild 14 (git a1fb89c)
+[11:13:49] [Server thread/INFO]: [FNAmplifications] ************************************************************
+[11:13:49] [Server thread/INFO]: [FNAmplifications] *             FN Amplifications - 作者 FN_FAL113            *
+[11:13:49] [Server thread/INFO]: [FNAmplifications] *                由 SlimefunGuguProject 汉化                *
+[11:13:49] [Server thread/INFO]: [FNAmplifications] ************************************************************
+[11:13:49] [Server thread/INFO]: [FNAmplifications] 未检测到 Vault! 需要 Vault 的物品将不会被加载.
+[11:13:49] [Server thread/INFO]: [SlimefunOreChunks] Enabling SlimefunOreChunks vBuild 1 zh-CN(ybw0014) (git 67879ed)
+[11:13:49] [Server thread/INFO]: [Quaptics] Enabling Quaptics vBuild 7 (git 4d5aa1c)
+[11:13:49] [Server thread/INFO]: [Quaptics] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:49] [Server thread/INFO]: [RelicsOfCthonia] Enabling RelicsOfCthonia vBuild 9 (git 81a2cc9)
+[11:13:49] [Server thread/INFO]: [RelicsOfCthonia] ************************************************************
+[11:13:49] [Server thread/INFO]: [RelicsOfCthonia]                Relics of Cthonia - 克苏尼亚遗物               
+[11:13:49] [Server thread/INFO]: [RelicsOfCthonia]          作者: FN_FAL113  汉化: SlimefunGuguProject           
+[11:13:49] [Server thread/INFO]: [RelicsOfCthonia]                  2022粘液科技附属竞赛参赛作品                    
+[11:13:49] [Server thread/INFO]: [RelicsOfCthonia] ************************************************************
+[11:13:49] [Server thread/INFO]: [FoxyMachines] Enabling FoxyMachines vBuild 30 (git 88f39b9)
+[11:13:50] [Server thread/INFO]: [ExtraTools] Enabling ExtraTools vBuild 6 (git 204b2a5)
+[11:13:50] [Server thread/INFO]: [CrystamaeHistoria] Enabling CrystamaeHistoria vBuild 35 (git f2e9dd9)
+[11:13:50] [Server thread/INFO]: [CrystamaeHistoria] ########################################
+[11:13:50] [Server thread/INFO]: [CrystamaeHistoria]      CrystamaeHistoria  魔法水晶编年史    
+[11:13:50] [Server thread/INFO]: [CrystamaeHistoria]  作者: Sefiraat 汉化: SlimefunGuguProject
+[11:13:50] [Server thread/INFO]: [CrystamaeHistoria] ########################################
+[11:13:50] [Server thread/INFO]: [CrystamaeHistoria] 已加载: 995 个独特的方块故事.
+[11:13:51] [Server thread/INFO]: [MoreTools] Enabling MoreTools vBuild 2 (git 51d9ab1)
+[11:13:51] [Server thread/INFO]: [MoreTools] 正在设置 metrics...
+[11:13:51] [Server thread/INFO]: [MoreTools] 正在注册监听器...
+[11:13:51] [Server thread/INFO]: [MoreTools] 正在初始化分类...
+[11:13:51] [Server thread/INFO]: [MoreTools] 正在初始化物品...
+[11:13:51] [Server thread/INFO]: [MoreTools] 正在初始化研究...
+[11:13:51] [Server thread/INFO]: [SFMobDrops] Enabling SFMobDrops vBuild 3 (git 5c9ad99)
+[11:13:51] [Server thread/INFO]: [SFMobDrops] 已加载 3 掉落配置!
+[11:13:51] [Server thread/INFO]: [SlimefunLuckyBlocks] Enabling SlimefunLuckyBlocks vBuild 2 (git 3ba2eb9)
+[11:13:51] [Server thread/INFO]: [SlimefunLuckyBlocks] 已加载 51 个惊喜
+[11:13:51] [Server thread/INFO]: [Nexcavate] Enabling Nexcavate vBuild 5 zh-CN(SlimefunGuguProject) (git 029e28b)
+[11:13:51] [Server thread/INFO]: [BetterReactor] Enabling BetterReactor vBuild 3 (git de00343)
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] Enabling SfChunkInfo vBuild 10 (git e750611)
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] **********************************************
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] *                SfChunkInfo                 *
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] *        作者: FN_FAL113 汉化: ybw0014         *
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] *             Slimefun 附属插件                *
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] *         扫描区块中的Slimefun方块数量           *
+[11:13:51] [Server thread/INFO]: [SfChunkInfo] **********************************************
+[11:13:51] [Server thread/INFO]: [MomoTech] Enabling MomoTech v1.1.11
+[11:13:51] [Server thread/INFO]: [MomoTech] MomoTech has been on enable.
+[11:13:51] [Server thread/INFO]: [MomoTech] ---------< MomoTech >-------
+[11:13:51] [Server thread/INFO]: [MomoTech] |      Authors:QYhB05      |
+[11:13:51] [Server thread/INFO]: [MomoTech] |      Plugin:MomoTech     |
+[11:13:51] [Server thread/INFO]: [MomoTech] |      Version:1.1.11      |
+[11:13:51] [Server thread/INFO]: [MomoTech] ----------------------------
+[11:13:51] [Server thread/INFO]: [MomoTech] > QQ反馈群:827684043
+[11:13:51] [Server thread/INFO]: [MomoTech] > E-mail:3392295184@qq.com
+[11:13:51] [Server thread/INFO]: [MomoTech] > 使用的API版本: 1.20.1-R0.1-SNAPSHOT
+[11:13:51] [Server thread/INFO]: [MomoTech] > 使用的SlimeFun4版本: RC-35
+[11:13:51] [Server thread/INFO]: [MomoTech] > 使用的License:MIT
+[11:13:51] [Server thread/INFO]: [MomoTech] ----------------------------
+[11:13:51] [Server thread/INFO]: [MomoTech] 载入附属中...
+[11:13:51] [Server thread/INFO]: [MomoTech] 开始注册监听器
+[11:13:51] [Server thread/INFO]: [MomoTech] 监听器注册成功
+[11:13:51] [Server thread/INFO]: [MomoTech] 初始化参数
+[11:13:51] [Server thread/INFO]: [MomoTech] 开始注册物品
+[11:13:52] [Server thread/INFO]: [MomoTech] Items register successfully.
+[11:13:52] [Server thread/INFO]: [MomoTech] 物品注册成功
+[11:13:52] [Server thread/INFO]: [MomoTech] 开始注册机器
+[11:13:52] [Server thread/INFO]: [MomoTech] Machine register successfully
+[11:13:52] [Server thread/INFO]: [MomoTech] 机器注册成功
+[11:13:52] [Server thread/INFO]: [DracFun] Enabling DracFun v2.0.10
+[11:13:52] [Server thread/INFO]: [DracFun] ************************************************************
+[11:13:52] [Server thread/INFO]: [DracFun] *               DracFun - Created by Phoenix               *
+[11:13:52] [Server thread/INFO]: [DracFun] ************************************************************
+[11:13:52] [Server thread/INFO]: [SlimeCustomizer] Enabling SlimeCustomizer vBuild 29 (git 315a7ad)
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 正在初始化自定义粘液附属...
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册父分类 bocchitechnoloy!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_xx (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_cl (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_dianr (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_ytj (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_tynjq (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_nyydl (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_wq (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_gongju (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_hujia (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_kuangfenytj (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册子分类 bocchi_ddjx (父分类: bocchitechnoloy)!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册GEO资源 BOCCHI_EGOBKL!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册GEO资源 LIANG_EGOLQC!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册GEO资源 XDYD_EGOGQLX!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册GEO资源 HXMM_EGOGQLX!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_VERSION_NUMBER!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQC!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQDA!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHX!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQJT!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQSPHXIIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQZHENSHEN!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJIV!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJV!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJVI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJVII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJVIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJIX!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJX!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJXI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQWQJXII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_BQZHENSHENYASUOI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_JIQIHEXIN!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_JIQIHEXINII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册物品 BOCCHI_HXDKHX!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册电容 BOCCHI_DRIIIIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册机器 BOCCHI_TANYTJG!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册机器 BOCCHI_YOUZHUANHUANQI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册机器 BOCCHI_XINPIANZHIZAOJI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册机器 BOCCHI_WUJINGONGZUOTAI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNYJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNEJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册太阳能发电机 BOCCHI_TYNSJIIIIIIIII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_LHSYTJONE!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_LHSYTJTWO!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_LHSYTJTHREE!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_JTCFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_BQCYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_TFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_ZIFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_YINFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_LVFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_QIANFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_MEIFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_XIFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_TONGFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_JINFYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_XIAJIEHEJINYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_LIZIYITIJI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_XUKONGDINGI!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_XUKONGDINGII!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_XDYDYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_HXMMYTJ!
+[11:13:52] [Server thread/INFO]: [自定义粘液附属] 已注册材料生成器 BOCCHI_SHANTIANL!
+[11:13:52] [Server thread/INFO]: [UltimateGenerators2] Enabling UltimateGenerators2 vBuild 3 (git 35026dd)
+[11:13:52] [Server thread/INFO]: [UltimateGenerators2] =====================
+[11:13:52] [Server thread/INFO]: [UltimateGenerators2]  UltimateGenerators2 
+[11:13:52] [Server thread/INFO]: [UltimateGenerators2]       by ybw0014     
+[11:13:52] [Server thread/INFO]: [UltimateGenerators2] =====================
+[11:13:52] [Server thread/INFO]: [UltimateGenerators2] Loading language...
+[11:13:53] [Server thread/INFO]: [UltimateGenerators2] 正在加载语言：zh-Hans
+[11:13:53] [Server thread/INFO]: [EMCTech] Enabling EMCTech vBuild 8 (git f3c137d)
+[11:13:53] [Server thread/INFO]: [EMCTech] ########################################
+[11:13:53] [Server thread/INFO]: [EMCTech]            EMCTech by Sefiraat          
+[11:13:53] [Server thread/INFO]: [EMCTech]      EMC科技 汉化：SlimefunGuguProject    
+[11:13:53] [Server thread/INFO]: [EMCTech] ########################################
+[11:13:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: emctech [1.0.0]
+[11:13:53] [Server thread/INFO]: [EMCTech] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:13:56] [Server thread/INFO]: [EMCTech] 正在添加来自 InfinityExpansion 的配方
+[11:13:57] [Server thread/INFO]: [CompressionCraft] Enabling CompressionCraft vBuild 6 (git ed37c51)
+[11:13:58] [Server thread/INFO]: [EnderCargo] Enabling EnderCargo vBuild 1 zh-CN(SlimefunGuguProject) (git 04f339e)
+[11:13:58] [Server thread/INFO]: [RykenSlimefunCustomizer] Enabling RykenSlimefunCustomizer v1.4-SNAPSHOT
+[11:14:02] [Server thread/INFO]: INFO | RykenSlimeCustomizer加载成功！
+[11:14:02] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v9.5.3
+[11:14:02] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[11:14:02] [Server thread/INFO]: [spark] Enabling spark v1.10.99
+[11:14:02] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[11:14:02] [Server thread/INFO]: [spark] Starting background profiler...
+[11:14:02] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[11:14:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.99]
+[11:14:02] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[11:14:02] [Server thread/INFO]: [Wildernether] Enabling Wildernether vBuild 4 zh-CN(SlimefunGuguProject) (git 32218bd)
+[11:14:02] [Server thread/INFO]: [Wildernether] #=======================================#
+[11:14:02] [Server thread/INFO]: [Wildernether] #    Wildernether - By SchnTgaiSpock    #
+[11:14:02] [Server thread/INFO]: [Wildernether] #=======================================#
+[11:14:02] [Server thread/INFO]: [Wildernether] SlimeHUD was found on this server!
+[11:14:02] [Server thread/INFO]: [Wildernether] Setting up Wildernether for SlimeHUD...
+[11:14:03] [Server thread/INFO]: [StackMachine] Enabling StackMachine v1.0-SNAPSHOT
+[11:14:03] [Server thread/INFO]: [Skript] Enabling Skript v2.8.5
+[11:14:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript]     Checking for updates failed. Do you have Internet connection?
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: java.util.concurrent.CompletionException: java.lang.RuntimeException: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: Caused by: java.lang.RuntimeException: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at Skript-2.8.5.jar//ch.njol.skript.update.GithubChecker.lambda$check$0(GithubChecker.java:111)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	... 6 more
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:651)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:471)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:367)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at Skript-2.8.5.jar//ch.njol.skript.update.GithubChecker.lambda$check$0(GithubChecker.java:105)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	... 7 more
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.validator.Validator.validate(Validator.java:256)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:635)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	... 25 more
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383)
+[11:14:03] [ForkJoinPool.commonPool-worker-1/WARN]: 	... 30 more
+[11:14:12] [Server thread/INFO]: [Skript] Loaded 232918 aliases in 9096ms
+[11:14:12] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[11:14:12] [Server thread/INFO]: [sj_Expansion] Enabling sj_Expansion v1.0.1
+[11:14:12] [Server thread/INFO]: [ResearchTogether] Enabling ResearchTogether v1.0.0
+[11:14:12] [Server thread/INFO]: [LogiTech] Enabling LogiTech v1.0.0
+[11:14:12] [Server thread/INFO]: [LOGITECH] 语言文件加载完毕
+[11:14:12] [Server thread/INFO]: [LOGITECH] 已检测到网络附属
+[11:14:12] [Server thread/INFO]: [LOGITECH] 已检测到网络拓展
+[11:14:12] [Server thread/INFO]: [LOGITECH] 已检测到无尽附属
+[11:14:12] [Server thread/INFO]: [LOGITECH] 软依赖检测完毕
+[11:14:12] [Server thread/INFO]: [LOGITECH] 物品组加载完毕
+[11:14:12] [Server thread/INFO]: [LOGITECH] 自定义物品加载完毕
+[11:14:12] [Server thread/INFO]: [LOGITECH] 物品模板加载完毕
+[11:14:13] [Server thread/INFO]: [LOGITECH] clone slimefunItem
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_MAGIC_STONE
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_BOOL_MG
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_OVERWORLD_MINER
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_NETHER_MINER
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_END_MINER
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_DIMENSION_MINER
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_REDSTONE_MG
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_DUPE_MG
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_ENDDUPE_MG
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_REVERSE_GENERATOR
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor called
+[11:14:13] [Server thread/INFO]: [LOGITECH] LOGITECH_STACKMGENERATOR
+[11:14:13] [Server thread/INFO]: [LOGITECH] trans constructor finished
+[11:14:13] [Server thread/INFO]: [LOGITECH] clone slimefunItem
+[11:14:13] [Server thread/INFO]: [LOGITECH] clone slimefunItem
+[11:14:13] [Server thread/INFO]: [LOGITECH] 注册附属物品...
+[11:14:13] [Server thread/INFO]: [LOGITECH] 注册附属机器...
+[11:14:13] [Server thread/INFO]: [LOGITECH] 粘液物品注册完毕
+[11:14:13] [Server thread/INFO]: [LOGITECH] 依赖注册完毕
+[11:14:13] [Server thread/INFO]: [LOGITECH] 计划线程设立完毕
+[11:14:13] [Server thread/INFO]: [LOGITECH] 监听器注册完毕
+[11:14:13] [Server thread/INFO]: [LOGITECH] 附属特性注册完毕
+[11:14:13] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.1.0
+[11:14:13] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[11:14:13] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[11:14:13] [Server thread/INFO]: [ItemEdit] Hooking into PlaceholderApi
+[11:14:13] [Server thread/INFO]: [ItemEdit] Hooked into PlaceHolderAPI:
+[11:14:13] [Server thread/INFO]: [ItemEdit] placeholders:
+[11:14:13] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[11:14:13] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[11:14:13] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[11:14:13] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[11:14:13] [Server thread/INFO]: [ItemEdit]       Values: inventory, equip, inventoryandequip, hand, offhand, head, chest, legs, feet
+[11:14:13] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[11:14:13] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[11:14:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[11:14:13] [Server thread/INFO]: [ItemEdit] # Enabled (took 147 ms)
+[11:14:13] [Server thread/INFO]: [GuguSlimefunLib] Enabling GuguSlimefunLib vBuild 17 (git 1b623ae)
+[11:14:13] [Server thread/INFO]: [FinalTECH-Changed] Enabling FinalTECH-Changed v3.0
+[11:14:13] [Server thread/INFO]: [FinalTECHChanged] You have enabled the config updater.
+[11:14:13] [Server thread/INFO]: [FinalTECHChanged] You have enabled the config updater for language file
+[11:14:13] [Server thread/INFO]: [FinalTECHChanged] You are using the latest version. Good luck!
+[11:14:13] [Server thread/ERROR]: [FinalTECH-Changed] Item "_FINALTECH_JUSTIFIABILITY" from FinalTECH-Changed v3.0 has caused an Error!
+[11:14:13] [Server thread/ERROR]: [FinalTECH-Changed] You can report it here: ???
+[11:14:13] [Server thread/ERROR]: [FinalTECH-Changed] Registering Justifiability - '_FINALTECH_JUSTIFIABILITY' (FinalTECH-Changed v3.0) has failed!
+io.github.thebusybiscuit.slimefun4.api.exceptions.IncompatibleItemHandlerException: The item handler type: "BlockTicker" is not compatible with Justifiability - '_FINALTECH_JUSTIFIABILITY' (FinalTECH-Changed v3.0) (Only Materials that are blocks can have a BlockTicker.)
+	at me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker.validate(BlockTicker.java:27) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.loadItemHandlers(SlimefunItem.java:575) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.onEnable(SlimefunItem.java:565) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.register(SlimefunItem.java:476) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.taraxacum.finaltech.core.item.AbstractMySlimefunItem.register(AbstractMySlimefunItem.java:39) ~[FinalTECH-Changed v3.0.jar:?]
+	at io.taraxacum.finaltech.core.item.AbstractMySlimefunItem.registerThis(AbstractMySlimefunItem.java:56) ~[FinalTECH-Changed v3.0.jar:?]
+	at io.taraxacum.finaltech.setup.SetupUtil.setupItem(SetupUtil.java:204) ~[FinalTECH-Changed v3.0.jar:?]
+	at io.taraxacum.finaltech.setup.SetupUtil.init(SetupUtil.java:882) ~[FinalTECH-Changed v3.0.jar:?]
+	at io.taraxacum.finaltech.FinalTechChanged.onEnable(FinalTechChanged.java:361) ~[FinalTECH-Changed v3.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:653) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:564) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:440) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:345) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1117) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[11:14:13] [Server thread/WARN]: [FinalTECH-Changed] Maybe something caused an exception, but it actually couldn't make any difference in working;)
+[11:14:13] [Server thread/WARN]: [FinalTECH-Changed] 可能出现了一些异常但是事实上这并不影响插件运行与工作, 请忽略它!
+[11:14:14] [Server thread/INFO]: [EzSlimeFunAddon] Enabling EzSlimeFunAddon vBuild 13 zh-CN(haiman233) (git 28198cf)
+[11:14:14] [Server thread/INFO]: [EzSlimeFunAddon] ----------------------------------------
+[11:14:14] [Server thread/INFO]: [EzSlimeFunAddon] |          QOL-Addon ~ EzCoins          |
+[11:14:14] [Server thread/INFO]: [EzSlimeFunAddon] |           汉化者 ~ haiman233           |
+[11:14:14] [Server thread/INFO]: [EzSlimeFunAddon] ----------------------------------------
+[11:14:14] [Server thread/INFO]: [ChocoHills] Enabling ChocoHills vBuild 9 zh-CN(SlimefunGuguProject) (git 1cbaa5f)
+[11:14:14] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:14:14] [Server thread/INFO]: Running delayed init tasks
+[11:14:14] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Loaded language pack!
+[11:14:14] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Initializing universal updater task...
+[11:14:14] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Found 12 updater tasks.
+[11:14:14] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 1 (GuizhanLibPlugin)...
+[11:14:14] [Craft Scheduler Thread - 21 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:14:14] [Craft Scheduler Thread - 21 - Vault/INFO]: [Vault] No new version available
+[11:14:14] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[11:14:14] [Server thread/INFO]: [Slimefun] Found 1,174 Recipes!
+[11:14:15] [Craft Scheduler Thread - 13 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[11:14:15] [Craft Scheduler Thread - 5 - EnderCargo/WARN]: [EnderCargo] Plugin EnderCargo vBuild 1 zh-CN(SlimefunGuguProject) (git 04f339e) generated an exception while executing task 103
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 25 path $
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseString(JsonParser.java:51) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:115) ~[gson-2.10.jar:?]
+	at fr.birdo.endercargo.libs.guizhanlib.utils.JsonUtil.parse(JsonUtil.java:27) ~[EnderCargo-Build 1 zh-CN(SlimefunGuguProject) (git 04f339e).jar:?]
+	at fr.birdo.endercargo.libs.guizhanlib.updater.UpdaterTask.getRepoInfo(UpdaterTask.java:78) ~[EnderCargo-Build 1 zh-CN(SlimefunGuguProject) (git 04f339e).jar:?]
+	at fr.birdo.endercargo.libs.guizhanlib.updater.UpdaterTask.run(UpdaterTask.java:56) ~[EnderCargo-Build 1 zh-CN(SlimefunGuguProject) (git 04f339e).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[purpur-1.20.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 25 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1463) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:551) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:71) ~[gson-2.10.jar:?]
+	... 11 more
+[11:14:15] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] GuizhanLibPlugin is up to date!
+[11:14:15] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 2 (SlimeHUD)...
+[11:14:15] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] SlimeHUD is up to date!
+[11:14:15] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 3 (TranscEndence)...
+[11:14:16] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] TranscEndence is up to date!
+[11:14:16] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 4 (SlimeFrame)...
+[11:14:16] [Server thread/ERROR]: Could not pass event SlimefunItemRegistryFinalizedEvent to FastMachines vBuild 43 (git 40c3b19)
+java.lang.NoSuchMethodError: 'org.bukkit.potion.PotionType org.bukkit.inventory.meta.PotionMeta.getBasePotionType()'
+	at io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils.equalsItemMeta(SlimefunUtils.java:505) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils.isItemSimilar(SlimefunUtils.java:399) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils.isItemSimilar(SlimefunUtils.java:290) ~[Slimefun-538e41a-Beta.jar:?]
+	at net.guizhanss.fastmachines.utils.RecipeUtils.isItemSimilar(RecipeUtils.java:78) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at net.guizhanss.fastmachines.utils.RecipeUtils.lambda$static$0(RecipeUtils.java:58) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at java.util.Arrays.compare(Arrays.java:7381) ~[?:?]
+	at net.guizhanss.fastmachines.utils.RecipeUtils.lambda$registerRecipes$1(RecipeUtils.java:154) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at java.util.TimSort.binarySort(TimSort.java:296) ~[?:?]
+	at java.util.TimSort.sort(TimSort.java:239) ~[?:?]
+	at java.util.Arrays.sort(Arrays.java:1307) ~[?:?]
+	at java.util.ArrayList.sort(ArrayList.java:1805) ~[?:?]
+	at net.guizhanss.fastmachines.utils.RecipeUtils.registerRecipes(RecipeUtils.java:153) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at net.guizhanss.fastmachines.items.machines.slimefun.FastAncientAltar.registerRecipes(FastAncientAltar.java:40) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at net.guizhanss.fastmachines.listeners.SlimefunRegistryLoadedListener.lambda$onRegistryLoaded$0(SlimefunRegistryLoadedListener.java:27) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at net.guizhanss.fastmachines.listeners.SlimefunRegistryLoadedListener.onRegistryLoaded(SlimefunRegistryLoadedListener.java:24) ~[FastMachines-Build 43 (git 40c3b19).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor253.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:git-Purpur-2018]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.github.thebusybiscuit.slimefun4.implementation.setup.PostSetup.loadItems(PostSetup.java:56) ~[Slimefun-538e41a-Beta.jar:?]
+	at io.github.thebusybiscuit.slimefun4.implementation.tasks.SlimefunStartupTask.run(SlimefunStartupTask.java:44) ~[Slimefun-538e41a-Beta.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1128) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[11:14:16] [Server thread/INFO]: 
+[11:14:16] [Server thread/INFO]: ######################### - Slimefun v538e41a-Beta - #########################
+[11:14:16] [Server thread/INFO]: 
+[11:14:16] [Server thread/INFO]: 成功加载了 10900 个物品和 720 个研究
+[11:14:16] [Server thread/INFO]: ( 556 物品来自本体, 10344 个物品来自 78 扩展 )
+[11:14:16] [Server thread/INFO]: 
+[11:14:16] [Server thread/INFO]: 
+[11:14:16] [Server thread/INFO]:  - 源码:      https://github.com/StarWishsama/Slimefun4
+[11:14:16] [Server thread/INFO]:  - Bug 反馈:  https://github.com/StarWishsama/Slimefun4/issues
+[11:14:16] [Server thread/INFO]: 
+[11:14:16] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] SlimeFrame is up to date!
+[11:14:16] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 5 (Liquid)...
+[11:14:16] [Craft Scheduler Thread - 6 - ChocoHills/INFO]: [ChocoHills] ChocoHills is up to date.
+[11:14:16] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Liquid is up to date!
+[11:14:16] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 6 (HotbarPets)...
+[11:14:17] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] HotbarPets is up to date!
+[11:14:17] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 7 (Gastronomicon)...
+[11:14:17] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/ERROR]: [GuizhanLibPlugin] Auto updater task (Gastronomicon) failed!
+[11:14:17] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 8 (SFCalc)...
+[11:14:17] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] SFCalc is up to date!
+[11:14:17] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 9 (MoreTools)...
+[11:14:18] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] MoreTools is up to date!
+[11:14:18] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 10 (SFMobDrops)...
+[11:14:18] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[11:14:18] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[11:14:18] [Server thread/INFO]: [Netheopoiesis] 正在保存下界乌托邦数据.
+[11:14:18] [Server thread/INFO]: [Galactifun] ################# Galactifun Build 27 (git c900528) #################
+[11:14:18] [Server thread/INFO]: [Galactifun] 
+[11:14:18] [Server thread/INFO]: [Galactifun] Galactifun是开源的，如果有任何问题, 请在此汇报: 
+[11:14:18] [Server thread/INFO]: [Galactifun] https://github.com/SlimefunGuguProject/Galactifun/issues
+[11:14:18] [Server thread/INFO]: [Galactifun] 加入Slimefun插件社区: discord.gg/SqD3gg5SAU
+[11:14:18] [Server thread/INFO]: [Galactifun] 
+[11:14:18] [Server thread/INFO]: [Galactifun] ###################################################
+[11:14:18] [Server thread/WARN]: [VillagerTrade] Trades are disabled in the config!
+[11:14:18] [Server thread/WARN]: [VillagerTrade] You need to set up the trades in trades.yml,
+[11:14:18] [Server thread/WARN]: [VillagerTrade] and enable trades in config.yml.
+[11:14:18] [Server thread/INFO]: [CommandAPI] Linked 2 Bukkit permissions to commands
+[11:14:18] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
+[11:14:18] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] SFMobDrops is up to date!
+[11:14:18] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 11 (SfChunkInfo)...
+[11:14:18] [Server thread/INFO]: Loaded 7 recipes
+[11:14:18] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] SfChunkInfo is up to date!
+[11:14:18] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] Running task 12 (CompressionCraft)...
+[11:14:19] [Craft Scheduler Thread - 9 - GuizhanLibPlugin/INFO]: [GuizhanLibPlugin] CompressionCraft is up to date!
+[11:14:19] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
+[11:14:19] [Server thread/INFO]: [Skript] Loading variables...
+[11:14:19] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
+[11:14:19] [Server thread/INFO]: [Skript] Line 8: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: if {HiveCorporation.OnlineReward.%loop-player%} < {@HiveCorporation.OnlineReward.Max}:
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 9: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: add 1 to {HiveCorporation.OnlineReward.%loop-player%}
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 13: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: if {HiveCorporation.OnlineReward.%player%} is not set:
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 14: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: set {HiveCorporation.OnlineReward.%player%} to 0
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 15: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: if {HiveCorporation.OnlineReward.%player%} > {@HiveCorporation.OnlineReward.Max}:
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 16: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: set {HiveCorporation.OnlineReward.%player%} to {@HiveCorporation.OnlineReward.Max}
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 21: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: message "&e&lH公司 &8》 &7您的&eHivePoint&7为&f&l%{HiveCorporation.OnlineReward.%player%}%&f"  to player
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 25: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: if {HiveCorporation.OnlineReward.%player%} < 1:
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 28: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: execute console command "/sf give %player% HIVECORPORATION_FINANCE_HIVEPOINT %{HiveCorporation.OnlineReward.%player%}%"
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] Line 29: (HiveCorporation.sk)
+[11:14:19] [Server thread/INFO]:     In the future, players in variable names will use the player's UUID instead of their name. For information on how to make sure your scripts won't be impacted by this change, see https://github.com/SkriptLang/Skript/discussions/6270.
+[11:14:19] [Server thread/INFO]:     Line: set {HiveCorporation.OnlineReward.%player%} to 0
+[11:14:19] [Server thread/INFO]:  
+[11:14:19] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[11:14:19] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 6 structures in 0.26 seconds
+[11:14:19] [Server thread/INFO]: [Skript] Finished loading.
+[11:14:19] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:14:20] [Server thread/INFO]: [SpiritsUnchained] Saving Player Data
+[11:14:20] [Server thread/INFO]: [CrystamaeHistoria] 正在保存魔法水晶编年史的数据
+[11:14:20] [Server thread/INFO]: [EMCTech] 正在保存EMC科技的所有数据.
+[11:14:20] [Server thread/INFO]: [LOGITECH] START ADDON POSTREGISTER TASKS
+[11:14:20] [Server thread/INFO]: [LOGITECH] 配方供应器开始初始化...
+[11:14:20] [Server thread/INFO]: [LOGITECH] 配方供应器开始进行数据采集,预计耗时2秒
+[11:14:20] [Server thread/INFO]: [LOGITECH] 期间tps可能会下降,请不要在供应器工作时进入服务器
+[11:14:20] [Server thread/INFO]: [LOGITECH] 期间的报错信息均可忽略
+[11:14:20] [Server thread/INFO]: [LOGITECH] 读取全部配方中...
+[11:14:22] [Server thread/INFO]: [LOGITECH] 全部配方读取完成
+[11:14:22] [Server thread/INFO]: [LOGITECH] 初始化配方类型显示界面...
+[11:14:22] [Server thread/INFO]: [LOGITECH] 初始化机器类型显示界面...
+[11:14:22] [Server thread/INFO]: [LOGITECH] 警告: 如果你发现有机器没有检测到,说明他们使用了不支持的配方类型
+[11:14:25] [Server thread/INFO]: [LOGITECH] 尝试载入机器配方修改配置文件
+[11:14:25] [Server thread/INFO]: [LOGITECH] 注册堆叠机器的机器列表
+[11:14:25] [Server thread/INFO]: [LOGITECH] 配方供应器工作完成, 耗时 5175558300 纳秒
+[11:14:33] [Server thread/INFO]: Done (70.422s)! For help, type "help"
+[11:14:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18848ms or 376 ticks behind
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_EQUIVALENT_CONCEPT is tweaked for anti accelerate
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ENERGIZED_ACCELERATOR is tweaked for anti accelerate
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_OVERLOADED_ACCELERATOR is tweaked for anti accelerate
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_NORMAL_STORAGE_UNIT is tweaked to remove block ticker
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ORDERED_DUST_FACTORY_DIRT is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ORDERED_DUST_FACTORY_DIRT is tweaked for performance limit
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ORDERED_DUST_FACTORY_STONE is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ORDERED_DUST_FACTORY_STONE is tweaked for performance limit
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_EQUIVALENT_EXCHANGE_TABLE is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ITEM_DESERIALIZE_PARSER is tweaked for anti accelerate
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ETHER_MINER is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ITEM_DISMANTLE_TABLE is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_FUEL_OPERATOR is tweaked for general interval limit
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ENTROPY_SEED is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_ENTROPY_SEED is tweaked for anti accelerate
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_MATRIX_ACCELERATOR is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_MATRIX_ACCELERATOR is tweaked for anti accelerate
+[11:14:38] [Server thread/INFO]: [FinalTECHChanged] _FINALTECH_MATRIX_REACTOR is tweaked for range limit
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] Please be carefully if you installed slimefun addon '基岩科技'(BedrockTechnology) and you set drop-self as true.
+[11:14:38] [Server thread/WARN]: [FinalTECHChanged] There is a duplication bug, and we may fix it in next version
+[11:14:47] [Server thread/WARN]: [Slimefun] 检测到没有安装 SlimeGlue (粘液胶), 你将缺失对一些插件的额外保护检查!
+[11:14:47] [Server thread/WARN]: [Slimefun] 下载: https://github.com/Xzavier0722/SlimeGlue
+[11:16:20] [User Authenticator #0/INFO]: UUID of player haiman is f33bf0f9-b69b-3ca2-abb0-cb1629994463
+[11:16:20] [Server thread/INFO]: haiman joined the game
+[11:16:20] [Server thread/INFO]: haiman[/127.0.0.1:56775] logged in with entity id 265 at ([world]32.44450362157252, 67.04625083995914, -79.01466933292397)
+[11:16:39] [Server thread/INFO]: haiman issued server command: /sf guide
+[11:17:25] [Server thread/INFO]: haiman lost connection: Disconnected
+[11:17:25] [Server thread/INFO]: haiman left the game
+[11:19:47] [User Authenticator #1/INFO]: UUID of player haiman is f33bf0f9-b69b-3ca2-abb0-cb1629994463
+[11:19:47] [Server thread/INFO]: haiman joined the game
+[11:19:47] [Server thread/INFO]: haiman[/127.0.0.1:57064] logged in with entity id 544 at ([world]25.201051400286133, 65.0, -78.91276913685488)
+[11:24:32] [Craft Scheduler Thread - 5 - Networks/INFO]: [Networks] 正在保存网络抽屉物品数据...
+[11:24:32] [Craft Scheduler Thread - 5 - Networks/INFO]: [Networks] 保存成功!
+[11:24:33] [Server thread/INFO]: [Netheopoiesis] 正在保存下界乌托邦数据.
+[11:24:33] [Server thread/INFO]: [CrystamaeHistoria] 正在保存魔法水晶编年史的数据
+[11:24:33] [Server thread/INFO]: [EMCTech] 正在保存EMC科技的所有数据.
+[11:29:32] [Craft Scheduler Thread - 33 - Networks/INFO]: [Networks] 正在保存网络抽屉物品数据...
+[11:29:32] [Craft Scheduler Thread - 33 - Networks/INFO]: [Networks] 保存成功!
+[11:29:33] [Server thread/INFO]: [SpiritsUnchained] Saving Player Data
+[11:34:32] [Craft Scheduler Thread - 35 - Networks/INFO]: [Networks] 正在保存网络抽屉物品数据...
+[11:34:32] [Craft Scheduler Thread - 35 - Networks/INFO]: [Networks] 保存成功!
+[11:34:33] [Server thread/INFO]: [Netheopoiesis] 正在保存下界乌托邦数据.
+[11:34:33] [Server thread/INFO]: [CrystamaeHistoria] 正在保存魔法水晶编年史的数据
+[11:34:33] [Server thread/INFO]: [EMCTech] 正在保存EMC科技的所有数据.
+[11:39:32] [Craft Scheduler Thread - 19 - Networks/INFO]: [Networks] 正在保存网络抽屉物品数据...
+[11:39:32] [Craft Scheduler Thread - 19 - Networks/INFO]: [Networks] 保存成功!
+[11:44:32] [Craft Scheduler Thread - 27 - Networks/INFO]: [Networks] 正在保存网络抽屉物品数据...
+[11:44:32] [Craft Scheduler Thread - 27 - Networks/INFO]: [Networks] 保存成功!
+[11:44:33] [Server thread/INFO]: [Netheopoiesis] 正在保存下界乌托邦数据.
+[11:44:33] [Server thread/INFO]: [SpiritsUnchained] Saving Player Data
+[11:44:33] [Server thread/INFO]: [CrystamaeHistoria] 正在保存魔法水晶编年史的数据
+[11:44:33] [Server thread/INFO]: [EMCTech] 正在保存EMC科技的所有数据.
+[11:45:26] [Server thread/INFO]: Stopping the server
+[11:45:26] [Server thread/INFO]: Stopping server
+[11:45:26] [Server thread/INFO]: [ChocoHills] Disabling ChocoHills vBuild 9 zh-CN(SlimefunGuguProject) (git 1cbaa5f)
+[11:45:26] [Server thread/INFO]: [EzSlimeFunAddon] Disabling EzSlimeFunAddon vBuild 13 zh-CN(haiman233) (git 28198cf)
+[11:45:26] [Server thread/INFO]: [FinalTECH-Changed] Disabling FinalTECH-Changed v3.0
+[11:45:26] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling FinalTECH-Changed v3.0 (Is it up to date?)
+java.lang.NoSuchMethodError: 'void me.mrCookieSlime.Slimefun.api.BlockStorage.saveChunks()'
+	at io.taraxacum.finaltech.FinalTechChanged.onDisable(FinalTechChanged.java:455) ~[FinalTECH-Changed v3.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:148) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:92) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:528) ~[purpur-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.disablePlugins(CraftServer.java:584) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:956) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:846) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1237) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.1.jar:git-Purpur-2018]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[11:45:26] [Server thread/INFO]: [GuguSlimefunLib] Disabling GuguSlimefunLib vBuild 17 (git 1b623ae)
+[11:45:26] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.1.0
+[11:45:26] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
+[11:45:26] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
+[11:45:26] [Server thread/INFO]: [LogiTech] Disabling LogiTech v1.0.0
+[11:45:26] [Server thread/INFO]: [LOGITECH] 保存附属数据中
+[11:45:26] [Server thread/INFO]: [LOGITECH] 附属数据保存完成
+[11:45:26] [Server thread/INFO]: [ResearchTogether] Disabling ResearchTogether v1.0.0
+[11:45:26] [Server thread/INFO]: [sj_Expansion] Disabling sj_Expansion v1.0.1
+[11:45:26] [Server thread/INFO]: [Skript] Disabling Skript v2.8.5
+[11:45:26] [Server thread/INFO]: [StackMachine] Disabling StackMachine v1.0-SNAPSHOT
+[11:45:26] [Server thread/INFO]: [Wildernether] Disabling Wildernether vBuild 4 zh-CN(SlimefunGuguProject) (git 32218bd)
+[11:45:26] [Server thread/INFO]: [spark] Disabling spark v1.10.99
+[11:45:26] [Server thread/INFO]: [CommandAPI] Disabling CommandAPI v9.5.3
+[11:45:26] [Server thread/INFO]: [RykenSlimefunCustomizer] Disabling RykenSlimefunCustomizer v1.4-SNAPSHOT
+[11:45:26] [Server thread/INFO]: [RykenSlimefunCustomizer] RykenSlimeCustomizer已卸载!
+[11:45:26] [Server thread/INFO]: [EnderCargo] Disabling EnderCargo vBuild 1 zh-CN(SlimefunGuguProject) (git 04f339e)
+[11:45:26] [Server thread/INFO]: [CompressionCraft] Disabling CompressionCraft vBuild 6 (git ed37c51)
+[11:45:26] [Server thread/INFO]: [EMCTech] Disabling EMCTech vBuild 8 (git f3c137d)
+[11:45:26] [Server thread/INFO]: [EMCTech] 正在保存EMC科技的所有数据.
+[11:45:26] [Server thread/INFO]: [UltimateGenerators2] Disabling UltimateGenerators2 vBuild 3 (git 35026dd)
+[11:45:26] [Server thread/INFO]: [SlimeCustomizer] Disabling SlimeCustomizer vBuild 29 (git 315a7ad)
+[11:45:26] [Server thread/INFO]: [DracFun] Disabling DracFun v2.0.10
+[11:45:26] [Server thread/INFO]: [DracFun] Cancelled any running task that exist
+[11:45:26] [Server thread/INFO]: [MomoTech] Disabling MomoTech v1.1.11
+[11:45:26] [Server thread/INFO]: [MomoTech] MomoTech has been on disable.
+[11:45:26] [Server thread/INFO]: [SfChunkInfo] Disabling SfChunkInfo vBuild 10 (git e750611)
+[11:45:26] [Server thread/INFO]: [BetterReactor] Disabling BetterReactor vBuild 3 (git de00343)
+[11:45:26] [Server thread/INFO]: [Nexcavate] Disabling Nexcavate vBuild 5 zh-CN(SlimefunGuguProject) (git 029e28b)
+[11:45:26] [Server thread/INFO]: [SlimefunLuckyBlocks] Disabling SlimefunLuckyBlocks vBuild 2 (git 3ba2eb9)
+[11:45:26] [Server thread/INFO]: [SFMobDrops] Disabling SFMobDrops vBuild 3 (git 5c9ad99)
+[11:45:26] [Server thread/INFO]: [MoreTools] Disabling MoreTools vBuild 2 (git 51d9ab1)
+[11:45:26] [Server thread/INFO]: [CrystamaeHistoria] Disabling CrystamaeHistoria vBuild 35 (git f2e9dd9)
+[11:45:26] [Server thread/INFO]: [CrystamaeHistoria] 正在保存魔法水晶编年史的数据
+[11:45:26] [Server thread/INFO]: [ExtraTools] Disabling ExtraTools vBuild 6 (git 204b2a5)
+[11:45:26] [Server thread/INFO]: [FoxyMachines] Disabling FoxyMachines vBuild 30 (git 88f39b9)
+[11:45:26] [Server thread/INFO]: [RelicsOfCthonia] Disabling RelicsOfCthonia vBuild 9 (git 81a2cc9)
+[11:45:26] [Server thread/INFO]: [RelicsOfCthonia] 已取消所有任务
+[11:45:26] [Server thread/INFO]: [Quaptics] Disabling Quaptics vBuild 7 (git 4d5aa1c)
+[11:45:26] [Server thread/INFO]: [SlimefunOreChunks] Disabling SlimefunOreChunks vBuild 1 zh-CN(ybw0014) (git 67879ed)
+[11:45:26] [Server thread/INFO]: [FNAmplifications] Disabling FNAmplifications vBuild 14 (git a1fb89c)
+[11:45:26] [Server thread/INFO]: [FNAmplifications] 已取消所有正在执行的任务
+[11:45:26] [Server thread/INFO]: [Bump] Disabling Bump vBuild 42 (git 24350a5)
+[11:45:26] [Server thread/INFO]: [VillagerTrade] Disabling VillagerTrade vBuild 4 (git 235f5f5)
+[11:45:26] [Server thread/INFO]: [ExtraGear] Disabling ExtraGear vBuild 2 zh-CN(ybw0014) (git ff13031)
+[11:45:26] [Server thread/INFO]: [DyeBench] Disabling DyeBench vBuild 4 (git 6f4e4c3)
+[11:45:26] [Server thread/INFO]: [GuizhanCraft] Disabling GuizhanCraft vBuild 13 (git 69136e2)
+[11:45:26] [Server thread/INFO]: [Supreme] Disabling Supreme vBuild 21 (git 77e2274)
+[11:45:26] [Server thread/INFO]: [SFCalc] Disabling SFCalc vBuild 6 (git 3441e14)
+[11:45:26] [Server thread/INFO]: [ExtraHeads] Disabling ExtraHeads vBuild 3 (git 96ae63c)
+[11:45:26] [Server thread/INFO]: [VillagerUtil] Disabling VillagerUtil vBuild 2 zh-CN(ybw0014) (git f019674)
+[11:45:26] [Server thread/INFO]: [MobCapturer] Disabling MobCapturer vBuild 17 (git 5feb528)
+[11:45:26] [Server thread/INFO]: [PrivateStorage] Disabling PrivateStorage vBuild 1 zh-CN(ybw0014) (git 7205ea3)
+[11:45:26] [Server thread/INFO]: [FlowerPower] Disabling FlowerPower vBuild 6 (git df3e8cd)
+[11:45:26] [Server thread/INFO]: [SpiritsUnchained] Disabling SpiritsUnchained vBuild 6 (git 214ceb2)
+[11:45:26] [Server thread/INFO]: [SpiritsUnchained] Saving Player Data
+[11:45:26] [Server thread/INFO]: [Galactifun] Disabling Galactifun vBuild 27 (git c900528)
+[11:45:26] [Server thread/INFO]: [FluffyMachines] Disabling FluffyMachines vBuild 35 (git 8a81689)
+[11:45:26] [Server thread/INFO]: [GeneticChickengineering] Disabling GeneticChickengineering vBuild 10 (git da9af98)
+[11:45:26] [Server thread/INFO]: [GeneticChickengineering] Connection to plugins\GeneticChickengineering\GCE.db has been closed.
+[11:45:26] [Server thread/INFO]: [DyedBackpacks] Disabling DyedBackpacks vBuild 3 (git d4e0e45)
+[11:45:26] [Server thread/INFO]: [Gastronomicon] Disabling Gastronomicon vBuild 10 (git 102fec6)
+[11:45:26] [Server thread/INFO]: [Cultivation] Disabling Cultivation vBuild 12 (git ed9a7f3)
+[11:45:26] [Server thread/INFO]: [Cultivation] Cultivation saving data.
+[11:45:26] [Server thread/INFO]: [FastMachines] Disabling FastMachines vBuild 43 (git 40c3b19)
+[11:45:26] [Server thread/INFO]: [SoundMuffler] Disabling SoundMuffler vBuild 1 zh-CN(baoad) (git b1678a8)
+[11:45:26] [Server thread/INFO]: [ExLimus] Disabling ExLimus vBuild 1 (git 31dbef9)
+[11:45:26] [Server thread/INFO]: [SmallSpace] Disabling SmallSpace vBuild 6 (git 073fa68)
+[11:45:26] [Server thread/INFO]: [AlchimiaVitae] Disabling AlchimiaVitae vBuild 9 (git 95fc682)
+[11:45:26] [Server thread/INFO]: [EcoPower] Disabling EcoPower vBuild 1 zh-CN(ybw0014) (git eca8ab1)
+[11:45:26] [Server thread/INFO]: [HotbarPets] Disabling HotbarPets vBuild 4 (git 0faa724)
+[11:45:26] [Server thread/INFO]: [SlimyBees] Disabling SlimyBees vBuild 1 zh-CN(SlimefunGuguProject) (git 810abc0)
+[11:45:26] [Server thread/INFO]: [Liquid] Disabling Liquid vBuild 1 (git 1de2492)
+[11:45:26] [Server thread/INFO]: [Endrex] Disabling Endrex vBuild 1 zh-CN(SlimefunGuguProject) (git 23dbf5e)
+[11:45:26] [Server thread/INFO]: [Endrex] Plugin disabled in 0ms
+[11:45:26] [Server thread/INFO]: [SoulJars] Disabling SoulJars vBuild 9 (git f13e461)
+[11:45:26] [Server thread/INFO]: [PotionExpansion] Disabling PotionExpansion vBuild 2 (git 81d4862)
+[11:45:26] [Server thread/INFO]: [SlimeTinker] Disabling SlimeTinker vBuild 50 (git 1249096)
+[11:45:26] [Server thread/INFO]: [SimpleMaterialGenerators] Disabling SimpleMaterialGenerators vBuild 5 zh-CN(SlimefunGuguProject) (git e05d257)
+[11:45:26] [Server thread/INFO]: [ElectricSpawners] Disabling ElectricSpawners vBuild 5 (git 6fa0de2)
+[11:45:26] [Server thread/INFO]: [SlimeFrame] Disabling SlimeFrame vBuild 13 (git 80aa7f2)
+[11:45:26] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[11:45:26] [Server thread/INFO]: [Networks] Disabling Networks vExpansion-2.0.8-Alpha-2
+[11:45:26] [Server thread/INFO]: [Networks] 正在保存配置信息...
+[11:45:26] [Server thread/INFO]: [Networks] 正在保存网络拓展数据.
+[11:45:26] [Server thread/INFO]: [Networks] 正在保存数据库信息，请不要结束进程！
+[11:45:26] [Server thread/INFO]: [Networks] 正在保存网络抽屉物品数据...
+[11:45:26] [Server thread/INFO]: [Networks] 保存成功!
+[11:45:26] [Server thread/INFO]: [Networks] 已保存数据库信息！
+[11:45:26] [Server thread/INFO]: [Networks] 正在结束任务...
+[11:45:26] [Server thread/INFO]: [Networks] 已结束任务！
+[11:45:26] [Server thread/INFO]: [Networks] 已安全禁用附属！
+[11:45:26] [Server thread/INFO]: [SlimefunWarfare] Disabling SlimefunWarfare vBuild 12 (git 7f210c5)
+[11:45:26] [Server thread/INFO]: [TranscEndence] Disabling TranscEndence vBuild 11 (git 2352ccc)
+[11:45:26] [Server thread/INFO]: [SlimeHUD] Disabling SlimeHUD vBuild 12 (git a06bc8b)
+[11:45:26] [Server thread/INFO]: [Netheopoiesis] Disabling Netheopoiesis vBuild 16 (git 1f930e5)
+[11:45:26] [Server thread/INFO]: [Netheopoiesis] 正在保存下界乌托邦数据.
+[11:45:26] [Server thread/INFO]: [DynaTech] Disabling DynaTech vBuild 71 (git 857c760)
+[11:45:26] [Server thread/INFO]: [SimpleStorage] Disabling SimpleStorage vBuild 5 zh-CN(ybw0014) (git c443c7b)
+[11:45:26] [Server thread/INFO]: [InfinityExpansion] Disabling InfinityExpansion vBuild 15 (git bebf0bd)
+[11:45:26] [Server thread/INFO]: [ExoticGarden] Disabling ExoticGarden vBuild 19 (git 0994db4)
+[11:45:26] [Server thread/INFO]: [LiteXpansion] Disabling LiteXpansion vBuild 26 (git 6efc2c9)
+[11:45:26] [Server thread/INFO]: [GuizhanLibPlugin] Disabling GuizhanLibPlugin vBuild 45 (git 7aef1af)
+[11:45:26] [Server thread/INFO]: [SlimyTreeTaps] Disabling SlimyTreeTaps vBuild 2 zh-CN(ybw0014) (git 8a58b9f)
+[11:45:26] [Server thread/INFO]: [Slimefun] Disabling Slimefun v538e41a-Beta
+[11:45:26] [Server thread/INFO]: [Slimefun-Data-Controller] 数据保存完成.
+[11:45:26] [Server thread/INFO]: [Slimefun-Data-Controller] 数据保存完成.
+[11:45:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Shutdown initiated...
+[11:45:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Shutdown completed.
+[11:45:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Shutdown initiated...
+[11:45:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] SlimefunHikariPool - Shutdown completed.
+[11:45:26] [Server thread/INFO]: [Slimefun] 已备份 Slimefun 数据至: 2024-08-28-11-45.zip
+[11:45:26] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7-DEV-200
+[11:45:26] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:45:26] [Server thread/INFO]: Saving players
+[11:45:26] [Server thread/INFO]: haiman lost connection: Server closed
+[11:45:26] [Server thread/INFO]: haiman left the game
+[11:45:26] [Server thread/INFO]: Saving worlds
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 126 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[dimensionalhome]'/minecraft:dimensionalhome
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'dimensionalhome'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'dimensionalhome'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'dimensionalhome'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'dimensionalhome' in 0.00s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (dimensionalhome): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SmallSpace]'/minecraft:smallspace
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'SmallSpace'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'SmallSpace'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'SmallSpace'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'SmallSpace' in 0.00s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SmallSpace): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_venus]'/minecraft:world_galactifun_venus
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_venus'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_venus'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_venus'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_venus' in 0.00s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_io]'/minecraft:world_galactifun_io
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_io'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_io'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_io'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_io' in 0.00s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_galactifun_io): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_europa]'/minecraft:world_galactifun_europa
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_europa'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_europa'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_europa'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_europa' in 0.00s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_earth_orbit]'/minecraft:world_galactifun_earth_orbit
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_earth_orbit'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_earth_orbit'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_earth_orbit'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_earth_orbit' in 0.00s
+[11:45:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_enceladus]'/minecraft:world_galactifun_enceladus
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_enceladus'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_enceladus'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_enceladus'
+[11:45:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_enceladus' in 0.00s
+[11:45:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_titan]'/minecraft:world_galactifun_titan
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_titan'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_titan'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_titan'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_titan' in 0.00s
+[11:45:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_galactifun_titan): All chunks are saved
+[11:45:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_mars]'/minecraft:world_galactifun_mars
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_mars'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_mars'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_mars'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_mars' in 0.00s
+[11:45:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_galactifun_mars): All chunks are saved
+[11:45:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_the_moon]'/minecraft:world_galactifun_the_moon
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_galactifun_the_moon'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_galactifun_the_moon'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_galactifun_the_moon'
+[11:45:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_galactifun_the_moon' in 0.00s
+[11:45:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:45:27] [Server thread/INFO]: Flushing Chunk IO
+[11:45:27] [Server thread/INFO]: Closing Thread Pool
+[11:45:27] [Server thread/INFO]: Closing Server

@@ -1,0 +1,30 @@
+item-no-power:
+  - type: actionbar
+    text: '§c§l你的{0}没电了!'
+  - type: sound
+    sound: BLOCK_ANVIL_PLACE
+    volume: 1
+    pitch: 1
+item-slimechunk-true: '§a你所在的区块是史莱姆区块!'
+item-slimechunk-false: '§c你所在的区块不是史莱姆区块!'
+item-succeed-mount:
+  - type: actionbar
+    text: '§b{0}骑上了你的头!使用/sfie rp强制使{0}下头'
+item-cannot-mount:
+  - type: actionbar
+    text: '§4由于某种原因，你不能骑上{0}的头'
+item-mousetailjuice-1: '§g你大E了!这汁有里毒!'
+item-mousetailjuice-2: '§g你感觉你现在非常能"闪"!'
+item-mousetailjuice-3: '§g淡而无味...'
+item-woft-use:
+  - '§4由于你错误的使用方式，时间洪流怀表爆炸了！'
+  - '§e幸运的是，时间洪流怀表的部分材料没有被炸坏...'
+  - '§2你应该先看看教程再来使用的：https://www.bilibili.com/video/BV1GJ411x7h7'
+item-expconverter-full: '§c经验之书已满!'
+
+command-succeed-dismount:
+  - type: actionbar
+    text: '§e你成功的将{0}从你的头上赶了下去'
+command-cannot-dismount:
+  - type: actionbar
+    text: '§4由于某种原因，你不能让{0}从你头上下去'

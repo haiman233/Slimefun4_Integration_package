@@ -1,0 +1,17 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"text":"波奇剑III"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"更强"}],"text":""}'
+    enchants:
+      KNOCKBACK: 5
+      LOOT_BONUS_MOBS: 8
+      DAMAGE_ALL: 12
+      SWEEPING_EDGE: 8
+    repair-cost: 1
+    Unbreakable: true

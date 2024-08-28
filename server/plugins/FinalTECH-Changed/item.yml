@@ -1,0 +1,609 @@
+_FINALTECH_ITEM_DISMANTLE_TABLE:
+  allowed-recipe-type:
+  - enhanced_crafting_table
+  - grind_stone
+  - armor_forge
+  - ore_crusher
+  - compressor
+  - smeltery
+  - pressure_chamber
+  - magic_workbench
+  - gold_pan
+  - juicer
+  - ancient_altar
+  - heated_pressure_chamber
+  - food_fabricator
+  - food_composter
+  - freezer
+  not-allowed-id:
+  - GOLD_DUST
+  - IRON_DUST
+  allowed-id: []
+  count: '600'
+  limit: '900'
+_FINALTECH_AUTO_ITEM_DISMANTLE_TABLE:
+  allowed-recipe-type:
+  - enhanced_crafting_table
+  - grind_stone
+  - armor_forge
+  - ore_crusher
+  - compressor
+  - smeltery
+  - pressure_chamber
+  - magic_workbench
+  - gold_pan
+  - juicer
+  - ancient_altar
+  - heated_pressure_chamber
+  - food_fabricator
+  - food_composter
+  - freezer
+  not-allowed-id:
+  - GOLD_DUST
+  - IRON_DUST
+  allowed-id: []
+_FINALTECH_ADVANCED_AUTO_CRAFT:
+  recipe-type-id:
+  - _FINALTECH_matrix_crafting_table
+_FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE:
+  not-allowed-recipe-type:
+  - singularity_constructor
+  not-allowed-id:
+  - GOLD_DUST
+  - IRON_DUST
+  allowed-id: []
+_FINALTECH_MULTI_FRAME_MACHINE:
+  allowed-id:
+  - _FINALTECH_ADVANCED_COMPOSTER
+  - _FINALTECH_ADVANCED_JUICER
+  - _FINALTECH_ADVANCED_FURNACE
+  - _FINALTECH_ADVANCED_GOLD_PAN
+  - _FINALTECH_ADVANCED_DUST_WASHER
+  - _FINALTECH_ADVANCED_INGOT_FACTORY
+  - _FINALTECH_ADVANCED_CRUCIBLE
+  - _FINALTECH_ADVANCED_ORE_GRINDER
+  - _FINALTECH_ADVANCED_HEATED_PRESSURE_CHAMBER
+  - _FINALTECH_ADVANCED_INGOT_PULVERIZER
+  - _FINALTECH_ADVANCED_AUTO_DRIER
+  - _FINALTECH_ADVANCED_PRESS
+  - _FINALTECH_ADVANCED_FOOD_FACTORY
+  - _FINALTECH_ADVANCED_FREEZER
+  - _FINALTECH_ADVANCED_CARBON_PRESS
+  - _FINALTECH_ADVANCED_SMELTERY
+  - _FINALTECH_ADVANCED_DUST_FACTORY
+_FINALTECH_MACHINE_CONFIGURATOR:
+  item-config:
+    cargo-node:
+      CARGO_NODE_INPUT: []
+      CARGO_NODE_OUTPUT: []
+      CARGO_NODE_OUTPUT_ADVANCED: []
+    advanced-machine:
+      _FINALTECH_ADVANCED_COMPOSTER: []
+      _FINALTECH_ADVANCED_JUICER: []
+      _FINALTECH_ADVANCED_FURNACE: []
+      _FINALTECH_ADVANCED_GOLD_PAN: []
+      _FINALTECH_ADVANCED_DUST_WASHER: []
+      _FINALTECH_ADVANCED_INGOT_FACTORY: []
+      _FINALTECH_ADVANCED_CRUCIBLE: []
+      _FINALTECH_ADVANCED_ORE_GRINDER: []
+      _FINALTECH_ADVANCED_HEATED_PRESSURE_CHAMBER: []
+      _FINALTECH_ADVANCED_INGOT_PULVERIZER: []
+      _FINALTECH_ADVANCED_AUTO_DRIER: []
+      _FINALTECH_ADVANCED_PRESS: []
+      _FINALTECH_ADVANCED_FOOD_FACTORY: []
+      _FINALTECH_ADVANCED_FREEZER: []
+      _FINALTECH_ADVANCED_CARBON_PRESS: []
+      _FINALTECH_ADVANCED_SMELTERY: []
+      _FINALTECH_ADVANCED_DUST_FACTORY: []
+    ft-cargo-point:
+      _FINALTECH_POINT_TRANSFER: []
+      _FINALTECH_ADVANCED_POINT_TRANSFER: []
+    ft-cargo-mesh:
+      _FINALTECH_MESH_TRANSFER: []
+      _FINALTECH_ADVANCED_MESH_TRANSFER: []
+    ft-cargo-line:
+      _FINALTECH_LINE_TRANSFER: []
+      _FINALTECH_ADVANCED_LINE_TRANSFER: []
+    ft-cargo-location:
+      _FINALTECH_LOCATION_TRANSFER: []
+      _FINALTECH_ADVANCED_LOCATION_TRANSFER: []
+  not-allowed-id: []
+_FINALTECH_ROUTE_VIEWER:
+  allowed-id:
+  - _FINALTECH_POINT_TRANSFER
+  - _FINALTECH_ADVANCED_POINT_TRANSFER
+  - _FINALTECH_MESH_TRANSFER
+  - _FINALTECH_ADVANCED_MESH_TRANSFER
+  - _FINALTECH_LINE_TRANSFER
+  - _FINALTECH_ADVANCED_LINE_TRANSFER
+  - _FINALTECH_LOCATION_TRANSFER
+  - _FINALTECH_ADVANCED_LOCATION_TRANSFER
+  interval: 500
+  threshold: 2
+_FINALTECH_ETHER:
+  base-amount-normal: 16
+  base-amount-nether: 8
+  base-amount-end: 48
+  max-deviation: 8
+_FINALTECH_BOX:
+  height: 64
+_FINALTECH_EQUIVALENT_CONCEPT:
+  attenuation-rate: 0.95
+  life: 4.0
+  range: 2
+_FINALTECH_QUANTITY_MODULE:
+  base-efficiency: 1
+  random-efficiency: 0
+_FINALTECH_ENERGIZED_QUANTITY_MODULE:
+  base-efficiency: 2
+  random-efficiency: 4
+_FINALTECH_OVERLOADED_QUANTITY_MODULE:
+  base-efficiency: 1
+  random-efficiency: 7
+_FINALTECH_POTION_EFFECT_PURIFIER:
+  horizontal-range: 16
+  vertical-range: 8
+_FINALTECH_GRAVITY_REVERSAL_RUNE:
+  interval: 500
+  threshold: 2
+_FINALTECH_STAFF_ELEMENTAL_LINE:
+  short-range: 4
+  long-range: 16
+  interval: 500
+  threshold: 2
+_FINALTECH_LOCATION_RECORDER:
+  not-allowed-id: []
+_FINALTECH_PORTABLE_ENERGY_STORAGE:
+  not-allowed-id: []
+_FINALTECH_MACHINE_CHARGE_CARD_L1:
+  energy: 16.04
+_FINALTECH_MACHINE_CHARGE_CARD_L2:
+  energy: 16384.16
+_FINALTECH_MACHINE_CHARGE_CARD_L3:
+  energy: 524288.96
+_FINALTECH_MACHINE_ACCELERATE_CARD_L1:
+  times: 2
+_FINALTECH_MACHINE_ACCELERATE_CARD_L2:
+  times: 32
+_FINALTECH_MACHINE_ACCELERATE_CARD_L3:
+  times: 512
+_FINALTECH_MACHINE_ACTIVATE_CARD_L1:
+  times: 1
+  energy: 16.04
+_FINALTECH_MACHINE_ACTIVATE_CARD_L2:
+  times: 16
+  energy: 1024.16
+_FINALTECH_MACHINE_ACTIVATE_CARD_L3:
+  times: 256
+  energy: 65536.64
+_FINALTECH_ENERGY_CARD_K:
+  not-allowed-id: []
+_FINALTECH_ENERGY_CARD_M:
+  not-allowed-id: []
+_FINALTECH_ENERGY_CARD_B:
+  not-allowed-id: []
+_FINALTECH_ENERGY_CARD_T:
+  not-allowed-id: []
+_FINALTECH_ENERGY_CARD_Q:
+  not-allowed-id: []
+_FINALTECH_MAGIC_HYPNOTIC:
+  interval: 500
+  threshold: 2
+_FINALTECH_ENTROPY_CLEANER:
+  interval: 500
+  threshold: 2
+_FINALTECH_ULTIMATE_SHOVEL:
+  interval-threshold: 20
+_FINALTECH_ULTIMATE_PICKAXE:
+  interval-threshold: 20
+_FINALTECH_ULTIMATE_AXE:
+  interval-threshold: 20
+_FINALTECH_ULTIMATE_HOE:
+  interval-threshold: 20
+_FINALTECH_BASIC_GENERATOR:
+  not-allowed-id: []
+  energy: 1
+  range: 2
+_FINALTECH_ADVANCED_GENERATOR:
+  not-allowed-id: []
+  energy: 4
+  range: 2
+_FINALTECH_CARBONADO_GENERATOR:
+  not-allowed-id: []
+  energy: 16
+  range: 3
+_FINALTECH_ENERGIZED_GENERATOR:
+  not-allowed-id: []
+  energy: 64
+  range: 4
+_FINALTECH_ENERGIZED_STACK_GENERATOR:
+  not-allowed-id: []
+  energy: 512
+  range: 6
+_FINALTECH_OVERLOADED_GENERATOR:
+  not-allowed-id: []
+  energy: 2048
+  range: 4
+_FINALTECH_ORDERED_DUST_GENERATOR:
+  capacity: 536870911
+_FINALTECH_TIME_GENERATOR:
+  interval: 1600
+  capacity: 16777216
+_FINALTECH_ENERGIZED_CHARGE_BASE:
+  not-allowed-id: []
+  efficiency: 0.25
+_FINALTECH_OVERLOADED_CHARGE_BASE:
+  not-allowed-id: []
+  efficiency: 0.1
+  max-limit: 2
+_FINALTECH_SMALL_EXPANDED_CAPACITOR:
+  capacity: 128
+  max-stack: 128
+_FINALTECH_MEDIUM_EXPANDED_CAPACITOR:
+  capacity: 512
+  max-stack: 512
+_FINALTECH_BIG_EXPANDED_CAPACITOR:
+  capacity: 1024
+  max-stack: 1024
+_FINALTECH_LARGE_EXPANDED_CAPACITOR:
+  capacity: 8192
+  max-stack: 8192
+_FINALTECH_CARBONADO_EXPANDED_CAPACITOR:
+  capacity: 65536
+  max-stack: 65536
+_FINALTECH_ENERGIZED_EXPANDED_CAPACITOR:
+  capacity: 524288
+  stack: 524288
+_FINALTECH_ENERGIZED_STACK_EXPANDED_CAPACITOR:
+  capacity: 16777216
+  max-stack: 524288
+_FINALTECH_OVERLOADED_EXPANDED_CAPACITOR:
+  capacity: 4194304
+  max-stack: 2097152
+_FINALTECH_TIME_CAPACITOR:
+  interval: 1600
+  capacity: 16777216
+_FINALTECH_NORMAL_ELECTRICITY_SHOOT_PILE:
+  not-allowed-id: []
+  range: 16
+_FINALTECH_NORMAL_CONSUMABLE_ELECTRICITY_SHOOT_PILE:
+  range: 16
+  not-allowed-id: []
+_FINALTECH_NORMAL_CONFIGURABLE_ELECTRICITY_SHOOT_PILE:
+  range: 16
+  not-allowed-id: []
+_FINALTECH_ENERGIZED_ELECTRICITY_SHOOT_PILE:
+  not-allowed-id: []
+  range: 16
+_FINALTECH_OVERLOADED_ELECTRICITY_SHOOT_PILE:
+  not-allowed-id: []
+  range: 16
+_FINALTECH_VARIABLE_WIRE_RESISTANCE:
+  capacity: 65536
+_FINALTECH_VARIABLE_WIRE_CAPACITOR:
+  capacity: 65536
+_FINALTECH_ENERGIZED_ACCELERATOR:
+  not-allowed-id: []
+  range: 2
+  capacity: 20000000
+_FINALTECH_OVERLOADED_ACCELERATOR:
+  not-allowed-id: []
+  range: 2
+_FINALTECH_STORAGE_INTERACT_PORT:
+  search-limit: 3
+_FINALTECH_STORAGE_INSERT_PORT:
+  search-limit: 3
+_FINALTECH_STORAGE_WITHDRAW_PORT:
+  search-limit: 3
+_FINALTECH_REMOTE_ACCESSOR:
+  count-threshold: 5
+  range: 16
+_FINALTECH_CONSUMABLE_REMOTE_ACCESSOR:
+  count-threshold: 5
+  range: 16
+_FINALTECH_CONFIGURABLE_REMOTE_ACCESSOR:
+  count-threshold: 5
+  range: 16
+_FINALTECH_EXPANDED_CONSUMABLE_REMOTE_ACCESSOR:
+  count-threshold: 5
+  range: 16
+_FINALTECH_EXPANDED_CONFIGURABLE_REMOTE_ACCESSOR:
+  count-threshold: 5
+  range: 16
+_FINALTECH_RANDOM_ACCESSOR:
+  count-threshold: 5
+_FINALTECH_AREA_ACCESSOR:
+  count-threshold: 5
+  range: 8
+_FINALTECH_TRANSPORTER:
+  count-threshold: 5
+  range: 16
+_FINALTECH_CONSUMABLE_TRANSPORTER:
+  count-threshold: 5
+  range: 16
+_FINALTECH_CONFIGURABLE_TRANSPORTER:
+  count-threshold: 5
+  range: 16
+_FINALTECH_EXPANDED_CONSUMABLE_TRANSPORTER:
+  count-threshold: 5
+  range: 16
+_FINALTECH_EXPANDED_CONFIGURABLE_TRANSPORTER:
+  count-threshold: 5
+  range: 16
+_FINALTECH_POINT_TRANSFER:
+  range: 8
+_FINALTECH_ADVANCED_POINT_TRANSFER:
+  range: 8
+_FINALTECH_CONFIGURATION_COPIER:
+  not-allowed-id: []
+  range: 16
+_FINALTECH_CONFIGURATION_PASTER:
+  not-allowed-id: []
+  range: 16
+_FINALTECH_CLICK_WORK_MACHINE:
+  count-threshold: 5
+_FINALTECH_SIMULATE_CLICK_MACHINE:
+  not-allowed-id: []
+  range-rate: 0.4
+_FINALTECH_CONSUMABLE_SIMULATE_CLICK_MACHINE:
+  not-allowed-id: []
+  range-rate: 0.4
+_FINALTECH_ORDERED_DUST_FACTORY_DIRT:
+  difficulty:
+    base:
+      amount: 1024
+      type: 16
+    multi:
+      amount: 64
+      type: 1
+    deviation: -4
+_FINALTECH_ORDERED_DUST_FACTORY_STONE:
+  sleep: 1
+_FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR:
+  rate: 1.0
+_FINALTECH_ETHER_MINER:
+  time: 60
+  logN: 100
+  mul: 0.01
+  add: 0.08
+  random: 0.1
+_FINALTECH_FUEL_OPERATOR:
+  not-allowed-id: []
+_FINALTECH_OPERATION_ACCELERATOR:
+  not-allowed-id: []
+  capacity: 20000000
+  efficiency: 1
+_FINALTECH_ENERGIZED_OPERATION_ACCELERATOR:
+  not-allowed-id: []
+  capacity: 80000000
+  base-efficiency: 8
+  random-efficiency: 1
+_FINALTECH_OVERLOADED_OPERATION_ACCELERATOR:
+  not-allowed-id: []
+  capacity: 80000000
+  base-efficiency: 0
+  random-efficiency: 12
+_FINALTECH_CURE_TOWER:
+  range-base: 1.6
+  range-mul: 0.1
+  health: 0.025
+_FINALTECH_PURIFY_LEVEL_TOWER:
+  range-base: 3.2
+  range-mul: 0.2
+_FINALTECH_PURIFY_TIME_TOWER:
+  range-base: 3.2
+  range-mul: 0.2
+_FINALTECH_MANUAL_CRAFT_MACHINE:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_CRAFTING_TABLE:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_GRIND_STONE:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_ARMOR_FORGE:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_ORE_CRUSHER:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_COMPRESSOR:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_SMELTERY:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_PRESSURE_CHAMBER:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_MAGIC_WORKBENCH:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_ORE_WASHER:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_COMPOSTER:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_GOLD_PAN:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_CRUCIBLE:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_JUICER:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_ANCIENT_ALTAR:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_MANUAL_HEATED_PRESSURE_CHAMBER:
+  threshold: 20
+  left-click-amount: 1
+  right-click-amount: 16
+  left-shift-click-amount: 576
+  right-shift-click-amount: 2304
+  capacity: 18432
+  charge: 1
+  consume: 1
+_FINALTECH_ENTROPY_SEED:
+  life: 8.0
+  range: 4
+_FINALTECH_MATRIX_MACHINE_CHARGE_CARD:
+  energy: 16.04
+_FINALTECH_MATRIX_MACHINE_ACCELERATE_CARD:
+  times: 1
+_FINALTECH_MATRIX_MACHINE_ACTIVATE_CARD:
+  times: 10800
+  energy: 1.0737418235E9
+_FINALTECH_MATRIX_OPERATION_ACCELERATOR:
+  not-allowed-id: []
+_FINALTECH_MATRIX_EXPANDED_CAPACITOR:
+  capacity: 2147483646
+  max-stack: 2000000000
+_FINALTECH_MATRIX_GENERATOR:
+  not-allowed-id: []
+  energy: 1
+  range: 10
+_FINALTECH_MATRIX_ACCELERATOR:
+  range: 1
+  not-allowed-id: []
+  safe-mode: true
+  threshold-sync: 300000
+  threshold-async: 1600000
+_FINALTECH_MATRIX_REACTOR:
+  difficulty: 80
+  not-allowed-id: []
+_FINALTECH_SHINE:
+  damage: 0.3
+  live-time: 40
+  effect-time-base: 100
+  effect-time-mul-death: 40
+  effect-time-mul-obtain: 2
+  teleport-range-base: 16
+  teleport-range-mul: 0.25
+_FINALTECH_CARD_OPERATION_TABLE:
+  entropy:
+    enable: true
+  craft-infinity-storage-card:
+    enable: true
+  distribute-storage-card:
+    enable: true
+  merge-storage-card:
+    enable: true
+  copy-copy-card:
+    enable: true
+  craft-item-phony:
+    enable: true
+  craft-item-shell:
+    enable: true
+  craft-annular:
+    enable: true
+_FINALTECH_ADVANCED_AUTO_CRAFT_FRAME:
+  recipe-type-id: []
+COPY_CARD:
+  amount: 16777216
+SINGULARITY:
+  amount: 256
+SPIROCHETE:
+  amount: 64

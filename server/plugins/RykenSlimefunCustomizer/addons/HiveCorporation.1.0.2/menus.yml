@@ -1,0 +1,642 @@
+HIVECORPORATION_SALT_MIRROR_MACHINE:
+  title: "&3盐镜仪"
+  slots:
+    0-10:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    12:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    13:
+      name: "&f盐镜仪"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    14:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    16-26:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+HIVECORPORATION_SALT_MIRROR_MACHINE_I:
+  title: "&3盐镜仪 &eI"
+  slots:
+    0-10:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    12:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    13:
+      name: "&f盐镜仪"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    14:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    16-26:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+
+HIVECORPORATION_LINKER:
+  title: "&3通信链接"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+HIVECORPORATION_KEY_COPYER:
+  title: "&3复写器"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    9-12:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    14-17:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+HIVECORPORATION_TIANFANGYETAN:
+  title: "&3天方夜谭"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
+#幻想
+HIVECORPORATION_IMAGINE_MACHINE_COMPRESS:
+  title: "&3幻想者"
+  slots:
+    0-5:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    4:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    18-26:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+HIVECORPORATION_IMAGINE_MACHINE_EXTEND:
+  title: "&3幻想者"
+  slots:
+    0-5:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    4:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    18-26:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+HIVECORPORATION_IMAGINE_MACHINE_CUT:
+  title: "&3幻想者"
+  slots:
+    0-5:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    4:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    18-26:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+HIVECORPORATION_IMAGINE_MACHINE_ASSEMBLE:
+  title: "&3幻想者"
+  slots:
+    0-5:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    4:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    18-26:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+HIVECORPORATION_COBBLESTONE_MACHINE:
+  title: "&3石谭"
+  slots:
+    0-5:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    4:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    18-26:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+HIVECORPORATION_COBBLESTONE_MACHINE_I:
+  title: "&3石谭 &eI"
+  slots:
+    0-5:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    4:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    18-26:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
+HIVECORPORATION_COBBLESTONE_MACHINE_II:
+  title: "&3石谭 &eII"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    1-2:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    3:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    5:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+#
+HIVECORPORATION_COLLAPSE:
+  title: "&3断瓦残垣"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
+HIVECORPORATION_COLLAPSE_I:
+  title: "&3断瓦残垣 &eI"
+  slots:
+    0-3:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    5-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
+
+HIVECORPORATION_DUST_MACHINE:
+  title: "&3整合矿粉机"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
+HIVECORPORATION_DUST_MACHINE_I:
+  title: "&3整合矿粉机 &eI"
+  slots:
+    0-8:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    18-21:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    22:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    23-26:
+      name: "&a"
+      material: BLUE_STAINED_GLASS_PANE
+    27-35:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
+HIVECORPORATION_DUST_MACHINE_II:
+  title: "&3整合矿粉机 &eII"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    1-2:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    3:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    5:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+
+
+HIVECORPORATION_DUST_MACHINE_III:
+  title: "&3整合矿粉机 &eII"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    1-2:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    3:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    5:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45-53:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+
+#Energy
+HIVECORPORATION_ELECTRICTOEOZOIUM_MACHINE:
+  title: "&6Eozoium电池转换机"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+
+HIVECORPORATION_EOZOIUMTOELECTRIC_MACHINE:
+  title: "&6Eozoium电池释能机"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+    1-2:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    3:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    5:
+      name: "&6Eozoium电池输入槽"
+      material: YELLOW_STAINED_GLASS_PANE
+    6-8:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+
+
+#SOUL_TREMOR_BOX
+HIVECORPORATION_SOUL_TREMOR_BOX_CHICKEN_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_CHICKEN_2:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SHEEP_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SHEEP_2:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_PIG_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_COW_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_COW_2:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_ZOMBIE_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SKELETON_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SKELETON_2:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SPIDER_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SPIDER_2:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_CREEPER_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_ENDERMAN_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_SLIME_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_GUARDIAN_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_GUARDIAN_2:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+
+
+HIVECORPORATION_SOUL_TREMOR_BOX_PILLAGER_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_PIGLIN_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_BLAZE_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_MAGMA_CUBE_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_WITHER_SKELETON_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+
+HIVECORPORATION_SOUL_TREMOR_BOX_WITHER_1:
+  title: "&8灵魂共颤箱"
+  slots:
+    0:
+      name: "&a信息"
+      material: GREEN_STAINED_GLASS_PANE
+      progressbar: true
+

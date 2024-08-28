@@ -1,0 +1,555 @@
+FN_GEM_ARMOR_IMPAIR:
+  chance: 15
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_AXETHROWIE:
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_BLINDBIND:
+  chance: 13
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DAMNATION:
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_HASTY:
+  chance: 16
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_IMPOSTOR:
+  chance: 14
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_INFERNO:
+  chance: 16
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_PSYCHOKINESIS:
+  chance: 17
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_RETALIATE:
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_TELEPATHY:
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_THORN_AWAY:
+  chance: 13
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_THUNDER:
+  chance: 12
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_TRI_SWORD:
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_GUARDIAN:
+  chance: 11
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DISRUPTED:
+  chance: 17
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_ARROW_AVERT:
+  chance: 14
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DEBERSERK:
+  chance: 13
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_PARRY:
+  chance: 14
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_STOUT:
+  chance: 16
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_ADAMANTINE:
+  chance: 15
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_AWAKEN:
+  chance: 15
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_AVENGE:
+  chance: 13
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_ACHILLES_HEEL:
+  chance: 18
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DISARMOR:
+  chance: 10
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DISARM:
+  chance: 10
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_SMOKE_CRIMINAL:
+  chance: 14
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_LIFESTEAL:
+  chance: 12
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_ATROPHY:
+  chance: 13
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_BANE:
+  chance: 14
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_SEDATE:
+  chance: 14
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DECREPIT:
+  chance: 11
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_DECEPTION:
+  chance: 15
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_CELERITY:
+  chance: 13
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_SHOCKWAVE:
+  chance: 15
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true
+FN_GEM_BERSERK:
+  chance: 20
+  world-settings:
+    world_enable: true
+    world_nether_enable: true
+    world_the_end_enable: true
+    dimensionalhome_enable: true
+    world_galactifun_venus_enable: true
+    world_galactifun_io_enable: true
+    world_galactifun_earth_orbit_enable: true
+    world_galactifun_enceladus_enable: true
+    world_galactifun_titan_enable: true
+    world_galactifun_mars_enable: true
+    world_galactifun_the_moon_enable: true
+    SmallSpace_enable: true
+    world_galactifun_europa_enable: true

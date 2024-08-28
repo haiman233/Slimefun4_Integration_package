@@ -1,0 +1,52 @@
+BOCCHI_EGOBKL:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&b波奇"
+  item-lore:
+    - "&7guitar hero"
+  item-id: SKULLc31c61dc7f2d09ca20d75e5945777e5f06d0629318cd251ad8d4d9e81f00518c
+  max-deviation: 1
+  biome:
+    BEACH: 30
+  environment:
+    NORMAL: 50
+    NETHER: 58
+LIANG_EGOLQC:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&3凉乞钞"
+  item-lore:
+    - "&7借钱要还?有没有王法了"
+  item-id: SKULL4548789b968c70ec9d1de272d0bb93a70134f2c0e60acb75e8d455a1650f3977
+  max-deviation: 1
+  biome:
+    BEACH: 56
+  environment:
+    NORMAL: 68
+    NETHER: 78
+XDYD_EGOGQLX:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&3归去来兮"
+  item-lore:
+    - "&7一路走好(bushi)"
+  item-id: SKULL548d7d1e03e1af145b0125ab841285672b421265da2ab915015f9058438ba2d8
+  max-deviation: 1
+  biome:
+    BEACH: 65
+  environment:
+    NORMAL: 56
+    NETHER: 56
+HXMM_EGOGQLX:
+  category: bocchi_cl
+  item-type: CUSTOM
+  item-name: "&3虹夏"
+  item-lore:
+    - "&7世上只有妈妈好"
+  item-id: SKULL6c183f3601f67293a51e2577dbea05a4602efa433cc354e63fcf7fbe026486bc
+  max-deviation: 1
+  biome:
+    BEACH: 67
+  environment:
+    NORMAL: 65
+    NETHER: 55

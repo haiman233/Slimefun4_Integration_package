@@ -1,0 +1,27 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"text":"波奇剑V"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"碎片制作而成的剑"}],"text":""}'
+    enchants:
+      FIRE_ASPECT: 10
+      LOOT_BONUS_MOBS: 10
+      DAMAGE_ALL: 18
+      SWEEPING_EDGE: 10
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.0
+        name: ''
+        slot: HAND
+        uuid: 869442d2-c47b-4f47-bf89-47c8f8dcc870
+        operation: 0
+    repair-cost: 1
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: BOCCHI_BQWQJII

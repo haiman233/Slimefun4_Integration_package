@@ -1,0 +1,31 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"颜色代码展示"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF3300","text":"1"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF6600","text":"2"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAA00","text":"34"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB00","text":"56"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFDD00","text":"78"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"9"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCFF00","text":"q"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#88FF00","text":"w"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#44FF00","text":"e"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF00","text":"r"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00DD44","text":"t"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00BB88","text":"y"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00AACC","text":"u"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0088FF","text":"i"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0055FF","text":"o"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0022FF","text":"p"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0000FF","text":"a"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3300FF","text":"s"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6600FF","text":"d"},
+    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9900FF","text":"f"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: YANSE

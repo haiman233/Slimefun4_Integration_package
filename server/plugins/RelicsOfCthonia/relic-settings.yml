@@ -1,0 +1,425 @@
+COMMON_RELIC_CTHONIAN_PEARL:
+  drop-chance: 12.57
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - hoglin
+  - piglin
+  - skeleton
+  drops-on-material:
+  - BLACKSTONE
+  - NETHER_WART_BLOCK
+  - SOUL_SAND
+  piglin-barter-rewards:
+  - GOLD_INGOT
+  - COPPER_WIRE
+COMMON_RELIC_FISHING_SACK:
+  drop-chance: 12.28
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - magma_cube
+  - hoglin
+  - piglin
+  drops-on-material:
+  - MYCELIUM
+  - WARPED_WART_BLOCK
+  - BLACKSTONE
+  piglin-barter-rewards:
+  - COPPER_WIRE
+  - GOLD_INGOT
+COMMON_RELIC_HEALING_POTION:
+  drop-chance: 12.32
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - blaze
+  - skeleton
+  - piglin_brute
+  drops-on-material:
+  - GRAVEL
+  - NETHER_QUARTZ_ORE
+  - NETHERRACK
+  piglin-barter-rewards:
+  - BOOKSHELF
+  - CLAY
+  - GOLD_INGOT
+COMMON_RELIC_LEATHER_HELMET:
+  drop-chance: 12.24
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - zoglin
+  - piglin_brute
+  - hoglin
+  drops-on-material:
+  - ANCIENT_DEBRIS
+  - CRIMSON_NYLIUM
+  - MAGMA_BLOCK
+  piglin-barter-rewards:
+  - CLAY
+  - GOLD_INGOT
+  - SILVER_INGOT
+COMMON_RELIC_MUSHROOM:
+  drop-chance: 12.18
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - magma_cube
+  - hoglin
+  drops-on-material:
+  - GRAVEL
+  - MYCELIUM
+  piglin-barter-rewards:
+  - COPPER_INGOT
+  - COPPER_WIRE
+  - BOOKSHELF
+COMMON_RELIC_PETTY_MARBLE_BLOCK:
+  drop-chance: 12.53
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - skeleton
+  - piglin
+  - magma_cube
+  drops-on-material:
+  - NETHERRACK
+  - WARPED_NYLIUM
+  - WARPED_WART_BLOCK
+  piglin-barter-rewards:
+  - COPPER_WIRE
+  - IRON_ORE
+  - COPPER_INGOT
+COMMON_RELIC_RING_OF_SUFFERING:
+  drop-chance: 12.54
+  piglin-reward-amount: 3
+  drops-on-mob:
+  - magma_cube
+  - piglin
+  - piglin_brute
+  drops-on-material:
+  - BASALT
+  - WARPED_WART_BLOCK
+  - CRIMSON_NYLIUM
+  piglin-barter-rewards:
+  - BOOKSHELF
+  - SILVER_INGOT
+  - COPPER_INGOT
+UNCOMMON_RELIC_AGED_WINE:
+  drop-chance: 9.32
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - ghast
+  - hoglin
+  - zombified_piglin
+  drops-on-material:
+  - PODZOL
+  - MYCELIUM
+  - NETHER_QUARTZ_ORE
+  piglin-barter-rewards:
+  - GOLD_ORE
+  - ALUMINUM_BRONZE_INGOT
+  - SWORD_OF_BEHEADING
+UNCOMMON_RELIC_BLUE_GLOWSTONE:
+  drop-chance: 9.02
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - blaze
+  - ghast
+  - wither_skeleton
+  drops-on-material:
+  - ANCIENT_DEBRIS
+  - MYCELIUM
+  - BLACKSTONE
+  piglin-barter-rewards:
+  - ELECTRIC_MOTOR
+  - ALUMINUM_BRONZE_INGOT
+UNCOMMON_RELIC_CTHONIAN_TOKEN:
+  drop-chance: 9.01
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - strider
+  - ghast
+  - zoglin
+  drops-on-material:
+  - BASALT
+  - WARPED_NYLIUM
+  piglin-barter-rewards:
+  - ALUMINUM_BRONZE_INGOT
+  - REPEATER
+  - BRONZE_INGOT
+UNCOMMON_RELIC_GRAY_BERRY:
+  drop-chance: 9.38
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - zombified_piglin
+  - piglin
+  - magma_cube
+  drops-on-material:
+  - MYCELIUM
+  - NETHER_QUARTZ_ORE
+  - SOUL_SOIL
+  piglin-barter-rewards:
+  - GOLD_ORE
+  - SWORD_OF_BEHEADING
+  - BASIC_CIRCUIT_BOARD
+UNCOMMON_RELIC_PINK_SALT:
+  drop-chance: 9.15
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - magma_cube
+  - ghast
+  drops-on-material:
+  - BASALT
+  - CRIMSON_NYLIUM
+  - SOUL_SAND
+  piglin-barter-rewards:
+  - ELECTRIC_MOTOR
+  - SWORD_OF_BEHEADING
+  - BRONZE_INGOT
+UNCOMMON_RELIC_SKULL_HAT:
+  drop-chance: 9.62
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - hoglin
+  - strider
+  drops-on-material:
+  - NETHERRACK
+  - WARPED_NYLIUM
+  - NETHER_QUARTZ_ORE
+  piglin-barter-rewards:
+  - REPEATER
+  - ALUMINUM_BRONZE_INGOT
+  - BASIC_CIRCUIT_BOARD
+UNCOMMON_RELIC_TANZANITE_BLOCK:
+  drop-chance: 9.32
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - ghast
+  - piglin
+  - wither_skeleton
+  drops-on-material:
+  - GRAVEL
+  piglin-barter-rewards:
+  - SWORD_OF_BEHEADING
+  - BASIC_CIRCUIT_BOARD
+  - BRONZE_INGOT
+RARE_RELIC_BLAZE_ASHES:
+  drop-chance: 7.14
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - strider
+  - zoglin
+  drops-on-material:
+  - BLACKSTONE
+  - CRIMSON_NYLIUM
+  piglin-barter-rewards:
+  - SOLAR_GENERATOR_2
+  - ELECTRIC_DUST_WASHER
+RARE_RELIC_CERULEAN_GEM:
+  drop-chance: 7.05
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - piglin
+  - magma_cube
+  drops-on-material:
+  - ANCIENT_DEBRIS
+  - BLACKSTONE
+  piglin-barter-rewards:
+  - ALUMINUM_BRASS_INGOT
+  - ENERGY_REGULATOR
+RARE_RELIC_CROSSED_SWORDS:
+  drop-chance: 7.54
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - hoglin
+  - ghast
+  drops-on-material:
+  - PODZOL
+  - CRIMSON_NYLIUM
+  piglin-barter-rewards:
+  - SYNTHETIC_SAPPHIRE
+  - ELECTRIC_DUST_WASHER
+RARE_RELIC_GOLDEN_JAR:
+  drop-chance: 7.32
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - hoglin
+  - skeleton
+  drops-on-material:
+  - NETHERRACK
+  - MAGMA_BLOCK
+  piglin-barter-rewards:
+  - ENERGY_REGULATOR
+  - SEISMIC_AXE
+RARE_RELIC_HORN_OF_TAURUS:
+  drop-chance: 7.54
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - wither_skeleton
+  drops-on-material:
+  - NETHER_WART_BLOCK
+  - NETHER_GOLD_ORE
+  piglin-barter-rewards:
+  - SOLAR_GENERATOR_2
+  - ENERGY_REGULATOR
+RARE_RELIC_MARRIAGE_RING:
+  drop-chance: 7.12
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - hoglin
+  - piglin_brute
+  drops-on-material:
+  - NETHER_QUARTZ_ORE
+  - PODZOL
+  - NETHER_WART_BLOCK
+  piglin-barter-rewards:
+  - SYNTHETIC_SAPPHIRE
+  - SOLAR_GENERATOR_2
+RARE_RELIC_TERRACOTTA_POT:
+  drop-chance: 7.91
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - magma_cube
+  - ghast
+  - hoglin
+  drops-on-material:
+  - SOUL_SOIL
+  - NETHER_QUARTZ_ORE
+  piglin-barter-rewards:
+  - SEISMIC_AXE
+  - ENERGY_REGULATOR
+  - CARBON
+EPIC_RELIC_BOTTLE_O_POWER:
+  drop-chance: 4.42
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - zombified_piglin
+  - piglin_brute
+  drops-on-material:
+  - NETHERRACK
+  - MYCELIUM
+  piglin-barter-rewards:
+  - EXPLOSIVE_BOW
+  - PROGRAMMABLE_ANDROID_2
+EPIC_RELIC_FLAWLESS_AQUA_GEM:
+  drop-chance: 4.94
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - strider
+  drops-on-material:
+  - BLACKSTONE
+  - NETHER_WART_BLOCK
+  piglin-barter-rewards:
+  - EXPLOSIVE_BOW
+  - LARGE_CAPACITOR
+EPIC_RELIC_LUMINOUS_PEARL:
+  drop-chance: 4.67
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - piglin_brute
+  - wither_skeleton
+  drops-on-material:
+  - CRIMSON_NYLIUM
+  - NETHER_WART_BLOCK
+  piglin-barter-rewards:
+  - PROGRAMMABLE_ANDROID_2
+  - GILDED_IRON_CHESTPLATE
+EPIC_RELIC_VALIANT_TALISMAN:
+  drop-chance: 4.32
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - blaze
+  - zoglin
+  drops-on-material:
+  - BLACKSTONE
+  - ANCIENT_DEBRIS
+  piglin-barter-rewards:
+  - PROGRAMMABLE_ANDROID_2
+  - EXPLOSIVE_BOW
+EPIC_RELIC_FERVOR_HELMET:
+  drop-chance: 4.13
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - magma_cube
+  - strider
+  drops-on-material:
+  - WARPED_WART_BLOCK
+  - BASALT
+  piglin-barter-rewards:
+  - EXPLOSIVE_BOW
+EPIC_RELIC_THUNDER_IN_A_BOTTLE:
+  drop-chance: 4.34
+  piglin-reward-amount: 1
+  drops-on-mob:
+  - zombified_piglin
+  - hoglin
+  drops-on-material:
+  - BASALT
+  - CRIMSON_NYLIUM
+  piglin-barter-rewards:
+  - SYNTHETIC_DIAMOND
+  - PROGRAMMABLE_ANDROID_2
+LEGENDARY_RELIC_EYE_OF_SAURON:
+  drop-chance: 1.12
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - piglin
+  - zoglin
+  drops-on-material:
+  - GRAVEL
+  - SOUL_SOIL
+  piglin-barter-rewards:
+  - PROGRAMMABLE_ANDROID_3
+LEGENDARY_RELIC_MYSTERIOUS_HOLOCRON:
+  drop-chance: 1.24
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - hoglin
+  - wither_skeleton
+  drops-on-material:
+  - NETHER_GOLD_ORE
+  - NETHER_WART_BLOCK
+  piglin-barter-rewards:
+  - PLASTIC_SHEET
+  - CARBONADO_EDGED_CAPACITOR
+LEGENDARY_RELIC_SKULL_OF_PROMETHEUS:
+  drop-chance: 1.06
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - hoglin
+  - magma_cube
+  drops-on-material:
+  - NETHER_GOLD_ORE
+  - BLACKSTONE
+  piglin-barter-rewards:
+  - ICY_BOW
+LEGENDARY_RELIC_MAGMA_GAUNTLET:
+  drop-chance: 1.42
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - skeleton
+  - hoglin
+  drops-on-material:
+  - WARPED_NYLIUM
+  - ANCIENT_DEBRIS
+  piglin-barter-rewards:
+  - GOLD_12K_LEGGINGS
+LEGENDARY_RELIC_GLAZING_PEARL:
+  drop-chance: 1.35
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - magma_cube
+  - blaze
+  drops-on-material:
+  - CRIMSON_NYLIUM
+  - GRAVEL
+  piglin-barter-rewards:
+  - PLASTIC_SHEET
+  - ICY_BOW
+LEGENDARY_RELIC_SAPPHIRE_RING:
+  drop-chance: 1.02
+  piglin-reward-amount: 2
+  drops-on-mob:
+  - zombified_piglin
+  - zoglin
+  drops-on-material:
+  - WARPED_WART_BLOCK
+  - SOUL_SOIL
+  piglin-barter-rewards:
+  - GOLD_12K_LEGGINGS
+  - PROGRAMMABLE_ANDROID_3

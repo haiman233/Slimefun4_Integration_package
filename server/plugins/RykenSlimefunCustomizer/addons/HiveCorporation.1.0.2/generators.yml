@@ -1,0 +1,51 @@
+HIVECORPORATION_EOZOIUMTOELECTRIC_MACHINE:
+  item_group: HiveCorporation_Group_Energy
+  item:
+    name: "&6Eozoium电池释能机"
+    material: 22d9e98169312150a308b9fb87f512a9964f68c3c26a3c12b2b94090e0f369eb
+    lore:
+      - "&7"
+      - "&7在一瞬间将Eozoium能源完全释放出来"
+      - "&7"
+      - "&e⚡ &72048 J/s 可储存"
+      - "&e⚡ &72048 J/Eozoium 电池"
+      - "&7"
+      - "&fH Corp."
+  capacity: 2048
+  production: 1024
+  input: [4]
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    2:
+      material_type: slimefun
+      material: HIVECORPORATION_HIVE_MIRROR
+    3:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    4:
+      material_type: slimefun
+      material: HIVECORPORATION_FREEZE_MIRROR
+    5:
+      material_type: slimefun
+      material: HIVECORPORATION_PACT_EOZOIUM
+    6:
+      material_type: slimefun
+      material: HIVECORPORATION_BROIL_MIRROR
+    7:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+    8:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    9:
+      material_type: slimefun
+      material: HIVECORPORATION_MAGNETISM_MIRROR
+  fuels:
+    HIVECORPORATION_EOZOIUM_BATTERY:
+      item:
+        material_type: slimefun
+        material: HIVECORPORATION_EOZOIUM_BATTERY
+      seconds: 1

@@ -1,0 +1,60 @@
+FN_POWER_XPANSION_POWER_R1:
+  dayrate: 236
+  nightrate: 138
+  output: 20
+  storage: 100000
+FN_POWER_XPANSION_POWER_R2:
+  dayrate: 472
+  nightrate: 276
+  output: 40
+  storage: 200000
+FN_POWER_XPANSION_POWER_R3:
+  dayrate: 944
+  nightrate: 552
+  output: 60
+  storage: 300000
+FN_POWER_XPANSION_POWER_R4:
+  dayrate: 1888
+  nightrate: 1104
+  output: 120
+  storage: 400000
+FN_POWER_XPANSION_POWER_R5:
+  dayrate: 3064
+  nightrate: 1784
+  output: 480
+  storage: 500000
+FN_POWER_XPANSION_POWER_R6:
+  dayrate: 5224
+  nightrate: 3128
+  output: 480
+  storage: 600000
+FN_POWER_XPANSION_POWER_R7:
+  dayrate: 7128
+  nightrate: 5142
+  output: 960
+  storage: 700000
+FN_POWER_XPANSION_POWER_R8:
+  dayrate: 9420
+  nightrate: 6752
+  output: 1200
+  storage: 800000
+FN_POWER_XPANSION_POWER_R9:
+  dayrate: 11384
+  nightrate: 7431
+  output: 1440
+  storage: 900000
+FN_POWER_XPANSION_POWER_R10:
+  dayrate: 13692
+  nightrate: 8128
+  output: 1520
+  storage: 1000000
+FN_POWER_XPANSION_POWER_R11:
+  dayrate: 15984
+  nightrate: 9462
+  output: 1640
+  storage: 1500000
+FN_POWER_XPANSION_POWER_R12:
+  dayrate: 17421
+  nightrate: 10128
+  output: 1780
+  storage: 2000000

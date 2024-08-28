@@ -1,0 +1,57 @@
+FN_STAFF_AIR_STRIDER:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_AWARENESS:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_CONFUSION:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_DEEPFREEZE:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_EXPLOSION:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_FANGS:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_FORCE:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_GRAVITY:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_HEALING:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_HELLFIRE:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_INVI:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_INVULNERABILITY:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_LOCOMOTION:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_MINERALS:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_MUSTER:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_SKULLS:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_STALLION:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_TP:
+  max-uses: 10
+  staff-material: BLAZE_ROD
+FN_STAFF_COBWEB:
+  max-uses: 10
+  staff-material: BLAZE_ROD

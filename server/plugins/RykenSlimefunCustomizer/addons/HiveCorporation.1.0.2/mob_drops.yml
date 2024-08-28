@@ -1,0 +1,91 @@
+HIVECORPORATION_SIN_LUXURIA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: slime
+  chance: 5
+  item:
+    name: "&f罪孽: &6色欲"
+    material: 9dce62f70ac046b881113c6cf862987727774e265885501c9a245b180db08c0d
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c史莱姆&7有&e5%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."
+HIVECORPORATION_SIN_GULA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: zombie
+  chance: 5
+  item:
+    name: "&f罪孽: &2暴食"
+    material: 1884a8dcb7128341ce09cb3616c11c3e46f80d083a6f2dbb4dbe0bb932318b09
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c僵尸&7有&e5%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."
+HIVECORPORATION_SIN_AVARITIA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: pillager
+  chance: 10
+  item:
+    name: "&f罪孽: &d贪婪"
+    material: ff993d3a43d40597b474485976160d0cf52ac64d157307d3b1c941db224d0ac6
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c掠夺者&7有&e10%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."
+HIVECORPORATION_SIN_ACEIDA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: guardian
+  chance: 10
+  item:
+    name: "&f罪孽: &e懒惰"
+    material: f89f75e0b00378a583dbba728dcdc6e9346f31dd601d448f3d60615c7465cc3e
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c守卫者&7有&e10%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."
+HIVECORPORATION_SIN_IRA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: piglin
+  chance: 5
+  item:
+    name: "&f罪孽: &4暴怒"
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI2YTI0OGZiYmMwNmNmMDZlMmM5MjBlY2ExY2FjOGEyYzk2MTY0ZDMyNjA0OTRiZWQxNDJkNTUzMDI2Y2M2In19fQ
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c猪灵&7有&e5%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."
+HIVECORPORATION_SIN_INVIDIA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: Shulker
+  chance: 50
+  item:
+    name: "&f罪孽: &9嫉妒"
+    material: 957cfa9c75ba584645ee2af6d9867d767ddea4667cdfc72dc1061dd1975ca7d0
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c潜影壳&7有&e50%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."
+HIVECORPORATION_SIN_SUPERBIA:
+  item_group: HiveCorporation_Group_L_Region
+  entity: Wither
+  chance: 90
+  item:
+    name: "&f罪孽: &5傲慢"
+    material: d3623521c8111ad29e9dcf7acc56085a9ab07da732d1518976aee61d0b3e3bd6
+    lore:
+      - "&7"
+      - "&7罪孽的生成与&6&lL公司&7的奇点技术相关"
+      - "&7击杀&c凋零&7有&e90%&7的几率掉落"
+      - "&7"
+      - "&fL Corp."

@@ -1,0 +1,909 @@
+options:
+  auto-update: false
+  use-legacy-supremeexpansion-item-id: false
+  enable-item-converter-machine: true
+  lang: zh-CN
+  custom-ticker-delay: 2
+  enable-generators: true
+  limit-production-generators: false
+  delay-time-valid-generators: 600
+  base-time-virtual-garden: 15
+  base-time-virtual-aquarium: 15
+  base-time-mob-collector: 15
+  base-time-tech-generator: 1800
+  tech-generator-max-amount: 64
+  mob-tech-enable-bee: true
+  mob-tech-enable-iron-golem: true
+  mob-tech-enable-zombie: true
+  enable-quarry: true
+  limit-production-quarry: false
+  enable-weapons: true
+  enable-tools: true
+  enable-armor: true
+  enable-tech: true
+  custom-bc: false
+quarry-custom-output:
+  supreme_stone_quarry:
+    '1':
+      item: COBBLESTONE
+      chance: 80
+      is-slimefun: false
+    '2':
+      item: STONE
+      chance: 20
+      is-slimefun: false
+  supreme_coal_quarry:
+    '1':
+      item: COAL
+      chance: 20
+      is-slimefun: false
+    '2':
+      item: MYCELIUM
+      chance: 10
+      is-slimefun: false
+    '3':
+      item: GRAVEL
+      chance: 20
+      is-slimefun: false
+    '4':
+      item: SAND
+      chance: 10
+      is-slimefun: false
+    '5':
+      item: CLAY_BALL
+      chance: 20
+      is-slimefun: false
+    '6':
+      item: SNOWBALL
+      chance: 20
+      is-slimefun: false
+  supreme_iron_quarry:
+    '1':
+      item: IRON_INGOT
+      chance: 20
+      is-slimefun: false
+    '2':
+      item: COPPER_INGOT
+      chance: 10
+      is-slimefun: false
+    '3':
+      item: ICE
+      chance: 10
+      is-slimefun: false
+    '4':
+      item: GRANITE
+      chance: 20
+      is-slimefun: false
+    '5':
+      item: ANDESITE
+      chance: 20
+      is-slimefun: false
+    '6':
+      item: DIORITE
+      chance: 20
+      is-slimefun: false
+  supreme_gold_quarry:
+    '1':
+      item: GOLD_INGOT
+      chance: 20
+      is-slimefun: false
+    '2':
+      item: GLOWSTONE_DUST
+      chance: 5
+      is-slimefun: false
+    '3':
+      item: LAPIS_LAZULI
+      chance: 20
+      is-slimefun: false
+    '4':
+      item: REDSTONE
+      chance: 20
+      is-slimefun: false
+    '5':
+      item: SULFATE
+      chance: 10
+      is-slimefun: true
+    '6':
+      item: BUCKET_OF_OIL
+      chance: 5
+      is-slimefun: true
+    '7':
+      item: CLAY
+      chance: 10
+      is-slimefun: false
+    '8':
+      item: SNOWBALL
+      chance: 10
+      is-slimefun: false
+  supreme_diamond_quarry:
+    '1':
+      item: DIAMOND
+      chance: 20
+      is-slimefun: false
+    '2':
+      item: EMERALD
+      chance: 20
+      is-slimefun: false
+    '3':
+      item: QUARTZ
+      chance: 20
+      is-slimefun: false
+    '4':
+      item: OBSIDIAN
+      chance: 5
+      is-slimefun: false
+    '5':
+      item: CRYING_OBSIDIAN
+      chance: 5
+      is-slimefun: false
+    '6':
+      item: END_STONE
+      chance: 20
+      is-slimefun: false
+    '7':
+      item: SEA_LANTERN
+      chance: 5
+      is-slimefun: false
+    '8':
+      item: BLACKSTONE
+      chance: 5
+      is-slimefun: false
+  supreme_thornium_quarry:
+    '1':
+      item: SUPREME_THORNIUM_BIT
+      chance: 5
+      is-slimefun: true
+    '2':
+      item: NETHERITE_INGOT
+      chance: 5
+      is-slimefun: false
+    '3':
+      item: IRON_BLOCK
+      chance: 15
+      is-slimefun: false
+    '4':
+      item: COAL_BLOCK
+      chance: 15
+      is-slimefun: false
+    '5':
+      item: LAPIS_BLOCK
+      chance: 15
+      is-slimefun: false
+    '6':
+      item: QUARTZ_BLOCK
+      chance: 15
+      is-slimefun: false
+    '7':
+      item: REDSTONE_BLOCK
+      chance: 15
+      is-slimefun: false
+    '8':
+      item: GOLD_BLOCK
+      chance: 15
+      is-slimefun: false
+  supreme_supreme_nuggets_quarry:
+    '1':
+      item: SUPREME_SUPREME_NUGGET
+      chance: 5
+      is-slimefun: true
+    '2':
+      item: NETHERITE_BLOCK
+      chance: 5
+      is-slimefun: false
+    '3':
+      item: EMERALD_BLOCK
+      chance: 10
+      is-slimefun: false
+    '4':
+      item: DIAMOND_BLOCK
+      chance: 10
+      is-slimefun: false
+    '5':
+      item: SUPREME_THORNIUM_BIT
+      chance: 10
+      is-slimefun: true
+    '6':
+      item: COAL_BLOCK
+      chance: 20
+      is-slimefun: false
+    '7':
+      item: IRON_BLOCK
+      chance: 20
+      is-slimefun: false
+    '8':
+      item: GOLD_BLOCK
+      chance: 20
+      is-slimefun: false
+supreme-enchant:
+  supreme_titanium_sword:
+    unbreakable: false
+    unbreaking: 8
+    sharpness: 8
+    fire_aspect: 2
+  supreme_aurum_sword:
+    unbreakable: false
+    looting: 3
+    mending: 1
+  supreme_adamantium_sword:
+    unbreakable: false
+    unbreaking: 10
+    sharpness: 10
+  supreme_sword_thornium:
+    unbreakable: true
+    sharpness: 7
+    looting: 5
+    fire_aspect: 3
+    mending: 7
+  supreme_sword_magic:
+    unbreakable: true
+    sharpness: 16
+    looting: 6
+    fire_aspect: 6
+    mending: 10
+  supreme_sword_rare:
+    unbreakable: true
+    sharpness: 24
+    looting: 8
+    fire_aspect: 8
+    mending: 10
+  supreme_sword_epic:
+    unbreakable: true
+    sharpness: 33
+    looting: 10
+    fire_aspect: 10
+    mending: 15
+  supreme_sword_legendary:
+    unbreakable: true
+    sharpness: 40
+    looting: 15
+    fire_aspect: 15
+    mending: 15
+  supreme_sword_supreme:
+    unbreakable: true
+    sharpness: 50
+    looting: 20
+    fire_aspect: 20
+    mending: 20
+  supreme_bow_thornium:
+    unbreakable: true
+    power: 7
+    flame: 3
+    infinity: 5
+    unbreaking: 3
+  supreme_bow_magic:
+    unbreakable: true
+    power: 16
+    flame: 5
+    infinity: 10
+    unbreaking: 5
+  supreme_bow_rare:
+    unbreakable: true
+    power: 24
+    flame: 7
+    infinity: 15
+    unbreaking: 7
+  supreme_bow_epic:
+    unbreakable: true
+    power: 33
+    flame: 10
+    infinity: 20
+    punch: 1
+    unbreaking: 10
+  supreme_bow_legendary:
+    unbreakable: true
+    power: 40
+    flame: 15
+    infinity: 25
+    punch: 2
+    unbreaking: 15
+  supreme_bow_supreme:
+    unbreakable: true
+    power: 50
+    flame: 20
+    infinity: 50
+    punch: 3
+    unbreaking: 20
+  supreme_shield_thornium:
+    unbreakable: true
+    protection: 7
+    unbreaking: 7
+    thorns: 5
+    mending: 7
+  supreme_shield_magic:
+    unbreakable: true
+    protection: 10
+    unbreaking: 10
+    thorns: 7
+    mending: 10
+  supreme_shield_rare:
+    unbreakable: true
+    protection: 20
+    unbreaking: 20
+    thorns: 9
+    mending: 10
+  supreme_shield_epic:
+    unbreakable: true
+    protection: 30
+    unbreaking: 30
+    thorns: 13
+    mending: 15
+  supreme_shield_legendary:
+    unbreakable: true
+    protection: 40
+    unbreaking: 30
+    thorns: 30
+    mending: 15
+  supreme_shield_supreme:
+    unbreakable: true
+    protection: 50
+    unbreaking: 50
+    thorns: 20
+    mending: 20
+  supreme_titanium_axe:
+    unbreakable: false
+    efficiency: 7
+    unbreaking: 7
+  supreme_aurum_axe:
+    unbreakable: false
+    fortune: 3
+    mending: 1
+  supreme_adamantium_axe:
+    unbreakable: false
+    efficiency: 10
+    unbreaking: 10
+  supreme_axe_thornium:
+    unbreakable: true
+    efficiency: 7
+    fortune: 5
+    mending: 7
+    unbreaking: 7
+  supreme_axe_magic:
+    unbreakable: true
+    efficiency: 10
+    fortune: 7
+    mending: 10
+    unbreaking: 10
+  supreme_axe_rare:
+    unbreakable: true
+    efficiency: 20
+    fortune: 10
+    mending: 10
+    unbreaking: 20
+  supreme_axe_epic:
+    unbreakable: true
+    efficiency: 30
+    fortune: 10
+    mending: 15
+    unbreaking: 30
+  supreme_axe_legendary:
+    unbreakable: true
+    efficiency: 40
+    fortune: 20
+    mending: 15
+    unbreaking: 40
+  supreme_axe_supreme:
+    unbreakable: true
+    efficiency: 50
+    fortune: 30
+    mending: 20
+    unbreaking: 50
+  supreme_titanium_pickaxe:
+    unbreakable: false
+    efficiency: 7
+    unbreaking: 7
+  supreme_aurum_pickaxe:
+    unbreakable: false
+    fortune: 3
+    mending: 1
+  supreme_adamantium_pickaxe:
+    unbreakable: false
+    efficiency: 10
+    unbreaking: 10
+  supreme_pickaxe_thornium:
+    unbreakable: true
+    efficiency: 7
+    fortune: 5
+    mending: 7
+    unbreaking: 7
+  supreme_pickaxe_magic:
+    unbreakable: true
+    efficiency: 10
+    fortune: 7
+    mending: 10
+    unbreaking: 10
+  supreme_pickaxe_rare:
+    unbreakable: true
+    efficiency: 20
+    fortune: 10
+    mending: 10
+    unbreaking: 20
+  supreme_pickaxe_epic:
+    unbreakable: true
+    efficiency: 30
+    fortune: 10
+    mending: 15
+    unbreaking: 30
+  supreme_pickaxe_legendary:
+    unbreakable: true
+    efficiency: 40
+    fortune: 20
+    mending: 15
+    unbreaking: 40
+  supreme_pickaxe_supreme:
+    unbreakable: true
+    efficiency: 50
+    fortune: 30
+    mending: 20
+    unbreaking: 50
+  supreme_titanium_shovel:
+    unbreakable: false
+    efficiency: 7
+    unbreaking: 7
+  supreme_aurum_shovel:
+    unbreakable: false
+    fortune: 3
+    mending: 1
+  supreme_adamantium_shovel:
+    unbreakable: false
+    efficiency: 10
+    unbreaking: 10
+  supreme_shovel_thornium:
+    unbreakable: true
+    efficiency: 7
+    silk_touch: 5
+    mending: 7
+    unbreaking: 7
+  supreme_shovel_magic:
+    unbreakable: true
+    efficiency: 10
+    fortune: 7
+    mending: 10
+    unbreaking: 10
+  supreme_shovel_rare:
+    unbreakable: true
+    efficiency: 20
+    fortune: 10
+    mending: 10
+    unbreaking: 20
+  supreme_shovel_epic:
+    unbreakable: true
+    efficiency: 30
+    fortune: 10
+    mending: 15
+    unbreaking: 30
+  supreme_shovel_legendary:
+    unbreakable: true
+    efficiency: 40
+    fortune: 20
+    mending: 15
+    unbreaking: 40
+  supreme_shovel_supreme:
+    unbreakable: true
+    efficiency: 50
+    fortune: 30
+    mending: 20
+    unbreaking: 50
+  supreme_adamantium_helmet:
+    unbreakable: false
+    protection: 7
+    unbreaking: 7
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 0
+    depth_strider: 0
+    mending: 0
+  supreme_aurum_helmet:
+    unbreakable: false
+    protection: 5
+    unbreaking: 5
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 0
+    depth_strider: 0
+    mending: 1
+  supreme_titanium_helmet:
+    unbreakable: false
+    protection: 6
+    unbreaking: 6
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 5
+    fall_damage: 0
+    depth_strider: 0
+    mending: 0
+  supreme_adamantium_chestplate:
+    unbreakable: false
+    protection: 7
+    unbreaking: 7
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 0
+    depth_strider: 0
+    mending: 0
+  supreme_aurum_chestplate:
+    unbreakable: false
+    protection: 5
+    unbreaking: 5
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 0
+    depth_strider: 0
+    mending: 1
+  supreme_titanium_chestplate:
+    unbreakable: false
+    protection: 6
+    unbreaking: 6
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 5
+    fall_damage: 0
+    depth_strider: 0
+    mending: 0
+  supreme_adamantium_leggings:
+    unbreakable: false
+    protection: 7
+    unbreaking: 7
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 0
+    depth_strider: 0
+    mending: 0
+  supreme_aurum_leggings:
+    unbreakable: false
+    protection: 5
+    unbreaking: 5
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 0
+    depth_strider: 0
+    mending: 1
+  supreme_titanium_leggings:
+    unbreakable: false
+    protection: 6
+    unbreaking: 6
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 5
+    fall_damage: 0
+    depth_strider: 0
+    mending: 0
+  supreme_adamantium_boots:
+    unbreakable: false
+    protection: 7
+    unbreaking: 7
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 2
+    depth_strider: 2
+    mending: 0
+  supreme_aurum_boots:
+    unbreakable: false
+    protection: 5
+    unbreaking: 5
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 0
+    fall_damage: 2
+    depth_strider: 2
+    mending: 1
+  supreme_titanium_boots:
+    unbreakable: false
+    protection: 6
+    unbreaking: 6
+    fire_protection: 2
+    blast_protection: 2
+    projectile_protection: 2
+    thorns: 5
+    fall_damage: 2
+    depth_strider: 2
+    mending: 0
+  supreme_boots_thornium:
+    unbreakable: true
+    protection: 7
+    fire_protection: 5
+    blast_protection: 5
+    projectile_protection: 5
+    thorns: 5
+    unbreaking: 7
+    fall_damage: 5
+    depth_strider: 5
+    mending: 7
+  supreme_boots_magic:
+    unbreakable: true
+    protection: 10
+    fire_protection: 7
+    blast_protection: 7
+    projectile_protection: 7
+    thorns: 7
+    unbreaking: 10
+    fall_damage: 7
+    depth_strider: 7
+    mending: 10
+  supreme_boots_rare:
+    unbreakable: true
+    protection: 20
+    fire_protection: 10
+    blast_protection: 10
+    projectile_protection: 10
+    thorns: 9
+    unbreaking: 20
+    fall_damage: 10
+    depth_strider: 10
+    mending: 10
+  supreme_boots_epic:
+    unbreakable: true
+    protection: 30
+    fire_protection: 20
+    blast_protection: 20
+    projectile_protection: 20
+    thorns: 11
+    unbreaking: 30
+    fall_damage: 20
+    depth_strider: 20
+    mending: 15
+  supreme_boots_legendary:
+    unbreakable: true
+    protection: 35
+    fire_protection: 25
+    blast_protection: 25
+    projectile_protection: 25
+    thorns: 13
+    unbreaking: 35
+    fall_damage: 25
+    depth_strider: 25
+    mending: 20
+  supreme_boots_supreme:
+    unbreakable: true
+    protection: 50
+    fire_protection: 50
+    blast_protection: 50
+    projectile_protection: 50
+    thorns: 20
+    unbreaking: 50
+    fall_damage: 40
+    depth_strider: 40
+    mending: 20
+  supreme_chestplate_thornium:
+    unbreakable: true
+    protection: 7
+    fire_protection: 5
+    blast_protection: 5
+    projectile_protection: 5
+    unbreaking: 7
+    mending: 7
+    thorns: 5
+  supreme_chestplate_magic:
+    unbreakable: true
+    protection: 10
+    fire_protection: 7
+    blast_protection: 7
+    projectile_protection: 7
+    unbreaking: 10
+    mending: 10
+    thorns: 7
+  supreme_chestplate_rare:
+    unbreakable: true
+    protection: 20
+    fire_protection: 10
+    blast_protection: 10
+    projectile_protection: 10
+    unbreaking: 20
+    mending: 10
+    thorns: 9
+  supreme_chestplate_epic:
+    unbreakable: true
+    protection: 30
+    fire_protection: 20
+    blast_protection: 20
+    projectile_protection: 20
+    unbreaking: 30
+    mending: 15
+    thorns: 11
+  supreme_chestplate_legendary:
+    unbreakable: true
+    protection: 35
+    fire_protection: 25
+    blast_protection: 25
+    projectile_protection: 25
+    unbreaking: 35
+    mending: 15
+    thorns: 13
+  supreme_chestplate_supreme:
+    unbreakable: true
+    protection: 50
+    fire_protection: 50
+    blast_protection: 50
+    projectile_protection: 50
+    unbreaking: 50
+    mending: 20
+    thorns: 20
+  supreme_helmet_thornium:
+    unbreakable: true
+    protection: 7
+    fire_protection: 5
+    blast_protection: 5
+    projectile_protection: 5
+    unbreaking: 7
+    mending: 7
+    thorns: 5
+    respiration: 5
+    aqua_affinity: 5
+  supreme_helmet_magic:
+    unbreakable: true
+    protection: 10
+    fire_protection: 7
+    blast_protection: 7
+    projectile_protection: 7
+    unbreaking: 10
+    mending: 10
+    thorns: 7
+    respiration: 7
+    aqua_affinity: 7
+  supreme_helmet_rare:
+    unbreakable: true
+    protection: 20
+    fire_protection: 10
+    blast_protection: 10
+    projectile_protection: 10
+    unbreaking: 20
+    mending: 10
+    thorns: 9
+    respiration: 10
+    aqua_affinity: 10
+  supreme_helmet_epic:
+    unbreakable: true
+    protection: 30
+    fire_protection: 20
+    blast_protection: 20
+    projectile_protection: 20
+    unbreaking: 30
+    mending: 15
+    thorns: 11
+    respiration: 20
+    aqua_affinity: 20
+  supreme_helmet_legendary:
+    unbreakable: true
+    protection: 35
+    fire_protection: 25
+    blast_protection: 25
+    projectile_protection: 25
+    unbreaking: 35
+    mending: 15
+    thorns: 13
+    respiration: 25
+    aqua_affinity: 25
+  supreme_helmet_supreme:
+    unbreakable: true
+    protection: 50
+    fire_protection: 50
+    blast_protection: 50
+    projectile_protection: 50
+    unbreaking: 50
+    mending: 20
+    thorns: 20
+    respiration: 50
+    aqua_affinity: 50
+  supreme_leggings_thornium:
+    unbreakable: true
+    protection: 7
+    fire_protection: 5
+    blast_protection: 5
+    projectile_protection: 5
+    unbreaking: 7
+    mending: 7
+    thorns: 5
+  supreme_leggings_magic:
+    unbreakable: true
+    protection: 10
+    fire_protection: 7
+    blast_protection: 7
+    projectile_protection: 7
+    unbreaking: 10
+    mending: 10
+    thorns: 7
+  supreme_leggings_rare:
+    unbreakable: true
+    protection: 20
+    fire_protection: 10
+    blast_protection: 10
+    projectile_protection: 10
+    unbreaking: 20
+    mending: 10
+    thorns: 9
+  supreme_leggings_epic:
+    unbreakable: true
+    protection: 30
+    fire_protection: 20
+    blast_protection: 20
+    projectile_protection: 20
+    unbreaking: 30
+    mending: 15
+    thorns: 11
+  supreme_leggings_legendary:
+    unbreakable: true
+    protection: 35
+    fire_protection: 25
+    blast_protection: 25
+    projectile_protection: 25
+    unbreaking: 35
+    mending: 15
+    thorns: 13
+  supreme_leggings_supreme:
+    unbreakable: true
+    protection: 50
+    fire_protection: 50
+    blast_protection: 50
+    projectile_protection: 50
+    unbreaking: 50
+    mending: 20
+    thorns: 20
+supreme-effect:
+  amplifier_supreme: 3
+  amplifier_legendary: 3
+  amplifier_epic: 2
+  amplifier_rare: 2
+  amplifier_magic: 1
+  amplifier_thornium: 1
+  helmet:
+    night_vision: true
+    conduit_power: true
+    water_breathing: true
+  chestplate:
+    damage_resistance: true
+    increase_damage: true
+    saturation: true
+  leggings:
+    speed: true
+    fast_digging: true
+    regeneration: true
+  boots:
+    dolphins_grace: true
+    fire_resistance: true
+power-section:
+  capacitor-aurum-capacity: 1000000
+  capacitor-titanium-capacity: 4000000
+  capacitor-adamantium-capacity: 16000000
+  capacitor-thornium-capacity: 100000000
+  capacitor-supreme-capacity: 1600000000
+  generator-basic-ignis-energy: 2500
+  generator-basic-ignis-buffer: 5000
+  generator-basic-ventus-energy: 2500
+  generator-basic-ventus-buffer: 5000
+  generator-basic-aqua-energy: 2500
+  generator-basic-aqua-buffer: 5000
+  generator-basic-lux-energy: 2500
+  generator-basic-lux-buffer: 5000
+  generator-basic-lumium-energy: 5000
+  generator-basic-lumium-buffer: 10000
+  generator-ignis-energy: 25000
+  generator-ignis-buffer: 50000
+  generator-ventus-energy: 25000
+  generator-ventus-buffer: 50000
+  generator-aqua-energy: 25000
+  generator-aqua-buffer: 50000
+  generator-lux-energy: 25000
+  generator-lux-buffer: 50000
+  generator-lumium-energy: 75000
+  generator-lumium-buffer: 500000
+  generator-thornium-energy: 1000000
+  generator-thornium-buffer: 6000000
+  generator-supreme-energy: 2000000
+  generator-supreme-buffer: 12000000

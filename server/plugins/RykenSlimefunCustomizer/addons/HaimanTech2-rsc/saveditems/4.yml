@@ -1,0 +1,66 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2865
+  type: NETHERITE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"["},{"italic":false,"color":"dark_red","text":"虎年限定"},{"italic":false,"color":"gray","text":"]"},{"bold":true,"italic":false,"color":"red","text":"虎
+      "},{"bold":true,"italic":false,"color":"gold","text":"福"}],"text":""}'
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 15.0
+        name: GENERIC_ATTACK_DAMAGE
+        slot: HAND
+        uuid: f3dfcc8c-902f-4e14-b287-060fa197652e
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.6
+        name: GENERIC_ATTACK_SPEED
+        slot: HAND
+        uuid: dc004afe-8025-44c3-853b-2bcc8cfcdf3c
+        operation: 0
+      GENERIC_ATTACK_KNOCKBACK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: GENERIC_ATTACK_KNOCKBACK
+        slot: HAND
+        uuid: 4bfe1390-279f-4d0a-8f5b-5dcf61960013
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.5
+        name: GENERIC_ARMOR
+        slot: HAND
+        uuid: 0d8a6636-7af2-4dd1-8544-0c009dc605fa
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.02
+        name: GENERIC_ARMOR_TOUGHNESS
+        slot: HAND
+        uuid: fdf210aa-43b0-4638-b18c-2fb3ea9563ff
+        operation: 1
+      GENERIC_FLYING_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.25
+        name: GENERIC_FLYING_SPEED
+        slot: HAND
+        uuid: 0d99dcda-371b-4270-bd3d-5fc07a4a6dce
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.08
+        name: GENERIC_KNOCKBACK_RESISTANCE
+        slot: HAND
+        uuid: 499fc41e-c9e1-414e-bc09-9ceadf16addb
+        operation: 0
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.01
+        name: GENERIC_MOVEMENT_SPEED
+        slot: HAND
+        uuid: d988ebb9-8104-4aef-ba2d-fe61c6b4c73b
+        operation: 0

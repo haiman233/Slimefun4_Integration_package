@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"text":"波奇剑I"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"似乎很弱"}],"text":""}'
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"虚无缥缈...."}],"text":""}'
+    enchants:
+      DAMAGE_ALL: 8
+    repair-cost: 1
+    Unbreakable: true

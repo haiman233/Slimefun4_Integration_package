@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHEST
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"武器匠的礼物"}],"text":""}'
+    internal: H4sIAAAAAAAA/wXBOwqAMAwA0IzawZuIdxDcHLuHKOkH06ZoUHp733MADqZV9Ly2atm6pzjAuKuap0MY5kiFm1BfEt+KGtAS45tFKPLyMTWtT8mWMOZgAD/l+yUvUQAAAA==
+    blockMaterial: CHEST

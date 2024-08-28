@@ -1,0 +1,13 @@
+# 获取示例
+saveExample: false
+update:
+  # 是否更新附属为预发布版本（一般这些版本很不稳定！）
+  pre-releases: false
+  # 自动更新附属
+  auto: false
+  # 禁止更新的附属
+  # 请填写附属ID
+  blocks:
+  - ''
+debug: false
+pluginUpdate: true

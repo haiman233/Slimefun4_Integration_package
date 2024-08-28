@@ -1,0 +1,19 @@
+
+example_trade:
+  traders:
+  - FARMER
+  output:
+    type: SLIMEFUN
+    id: ZINC_INGOT
+    amount: 32
+  input:
+    '1':
+      type: SLIMEFUN
+      id: COPPER_INGOT
+      amount: 64
+    '2':
+      type: NONE
+  max-uses: 4
+  exp-reward: true
+  exp-villager: 0
+  price-multiplier: 0.0

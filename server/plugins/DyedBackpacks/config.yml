@@ -1,0 +1,9 @@
+options:
+  auto-update: false
+backpacks:
+  small: true
+  normal: true
+  large: true
+  woven: true
+  gilded: true
+  radiant: true

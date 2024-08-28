@@ -1,0 +1,178 @@
+console:
+  loaded-language: "Ngôn ngữ đã được tải: {0}"
+  loading-items: "Đang tải các vật phẩm..."
+  loading-researches: "Đang tải các nghiên cứu..."
+items:
+  #categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+    name: "&eFast Machines"
+  MATERIALS:
+    conditions:
+      force-load: true
+    name: "&eFast Machines &7- &bNguyên liệu"
+  MACHINES:
+    conditions:
+      force-load: true
+    name: "&eFast Machines &7- &bMáy móc"
+  #gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+    name: "&eVật phẩm đã được chọn"
+    lore:
+      - "&7Bạn đã chọn vật phẩm bên dưới để chế tạo."
+  SCROLL_UP:
+    conditions:
+      force-load: true
+    name: "&eCuộn lên"
+    lore:
+      - "&7Bấm để cuộn lên xem những đầu ra."
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+    name: "&eCuộn xuống"
+    lore:
+      - "&7Bấm để cuộn xuống xem các đầu ra."
+  INFO:
+    conditions:
+      force-load: true
+    name: "&fThông tin"
+    lore:
+      - "&7Xếp nguyên liệu vào 4 hàng đầu tiên,"
+      - "&7toàn bộ những đầu ra có sẵn sẽ được hiển thị."
+      - ""
+      - "&7Chọn một vật phẩm, rồi bấm 'Chế tạo' bên dưới."
+      - "&7Kết quả đầu ra sẽ lấp đầy các hàng dưới cùng."
+      - ""
+      - "&cNếu số lượng đầu ra không đáp ứng"
+      - "&csố lượng được yêu cầu, việc chế tạo sẽ cung cấp"
+      - "&csố lượng tối đa có thể của vật phẩm."
+  CRAFT:
+    conditions:
+      force-load: true
+    name: "&aChế tạo"
+    lore:
+      - "&7Bấm để chế tạo vật phẩm được chọn."
+      - ""
+      - "&7Chuột trái: 1 lần"
+      - "&7Chuột phải: 16 lần"
+      - "&7Shift + Chuột trái: 64 lần"
+      - "&7Shift + Chuột phải: nhiều nhất có thể"
+  NO_ITEM:
+    conditions:
+      force-load: true
+    name: "&cKhông có vật phẩm nào được chọn"
+  #materials
+  FAST_CORE:
+    name: "&bFast Core"
+    lore:
+      - "&7Cốt lõi của một Fast Machine."
+  ETERNAL_FIRE:
+    name: "&4Lửa Vĩnh Cửu"
+    lore:
+      - "&7Ngọn lửa không bao giờ tắt."
+  STACKED_ANCIENT_PEDESTAL:
+    name: "&6Bệ Cổ Đại Xếp Chồng"
+    lore:
+      - "&74 Bệ Cổ Đại trong 1."
+      - "&eChuột Phải &7để tách ra"
+      - "&7làm 4 Bệ Cổ Đại trở lại."
+  #machines
+  FAST_CRAFTING_TABLE:
+    name: "&aBàn chế tạo nhanh"
+    lore:
+      - "&7Bàn chế tạo Vanilla hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_FURNACE:
+    name: "&aLò Nung Nhanh"
+    lore:
+      - "&7Một chiếc lò Vanilla hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_ENHANCED_CRAFTING_TABLE:
+    name: "&aBàn Chế Tạo Nâng Cao Nhanh"
+    lore:
+      - "&7Bàn chế tạo nhanh nâng cao hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_GRIND_STONE:
+    name: "&aĐá Mài Nhanh"
+    lore:
+      - "&7Đá mài hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_ARMOR_FORGE:
+    name: "&aLò Rèn Giáp Nhanh"
+    lore:
+      - "&7Lò Rèn giáp hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_ORE_CRUSHER:
+    name: "&aMáy nghiền quặng nhanh"
+    lore:
+      - "&7Máy nghiền quặng hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_COMPRESSOR:
+    name: "&aMáy nén nhanh"
+    lore:
+      - "&7Máy nén hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_SMELTERY:
+    name: "&aLò luyện kim nhanh"
+    lore:
+      - "&7Lò luyện kim hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_PRESSURE_CHAMBER:
+    name: "&aBuồng áp suất nhanh"
+    lore:
+      - "&7Buồng áp suất hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_MAGIC_WORKBENCH:
+    name: "&aBàn chế tạo Ma thuật nhanh"
+    lore:
+      - "&7Bàn chế tạo Ma thuật hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_ORE_WASHER:
+    name: "&aMáy rửa quặng nhanh"
+    lore:
+      - "&7Máy rửa quặng hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_TABLE_SAW:
+    name: "&aBàn cưa nhanh"
+    lore:
+      - "&7Bàn cưa hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_COMPOSTER:
+    name: "&aMáy ủ phân nhanh"
+    lore:
+      - "&7Máy ủ phân hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_PANNING_MACHINE:
+    name: "&aMáy lọc quặng nhanh"
+    lore:
+      - "&7Máy lọc quặng tự động hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_JUICER:
+    name: "&aMáy ép trái cây nhanh"
+    lore:
+      - "&7Máy ép trái cây hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_ANCIENT_ALTAR:
+    name: "&aTế Đàn Cổ Đại Nhanh"
+    lore:
+      - "&7Tế Đàn Cổ Đại hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_INFINITY_WORKBENCH:
+    name: "&aBàn làm việc vô cực Nhanh"
+    lore:
+      - "&7Bàn làm việc Vô cực hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+  FAST_SLIMEFRAME_FOUNDRY:
+    name: "&aXưởng đúc SlimeFrame nhanh"
+    lore:
+      - "&7Xưởng đúc SlimeFrame hữu ích hơn."
+      - "&7Chế tạo mà không cần sắp xếp vật phẩm theo thứ tự."
+lores:
+  per-craft: " &7mỗi lần chế tạo"
+messages:
+  not-enough-energy: "&cKhông đủ năng lượng !"
+  not-enough-materials: "Không đủ nguyên liệu !"
+  not-enough-space: "&cKhông có đủ không gian trong máy ! Vật phẩm sẽ được cho vào túi đồ của bạn. Nếu túi đồ của bạn đầy, vật phẩm sẽ rơi ra đất."

@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 13
+    Unbreakable: true

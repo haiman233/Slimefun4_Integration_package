@@ -1,0 +1,20 @@
+storageType: SQLITE
+base64EncodeVal: true
+readExecutorThread: 15
+writeExecutorThread: 5
+delayedWriting:
+  enable: true
+  delayedSecond: 5
+  forceSavePeriod: 300
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: ''
+  tablePrefix: ''
+  user: ''
+  password: ''
+  useSSL: false
+  maxConnection: 10
+sqlite:
+  maxConnection: 5
+dataLoadMode: LOAD_WITH_CHUNK

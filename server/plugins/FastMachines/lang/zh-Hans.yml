@@ -1,0 +1,183 @@
+console:
+  loaded-language: 正在加载语言：{0}
+  loading-items: 正在加载物品...
+  loading-researches: 正在加载研究...
+items:
+  # categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+    name: '&e快捷机器'
+  MATERIALS:
+    conditions:
+      force-load: true
+    name: '&e快捷机器 &7- &b材料'
+  MACHINES:
+    conditions:
+      force-load: true
+    name: '&e快捷机器 &7- &b机器'
+  # gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+    name: '&e已选择的物品'
+    lore:
+    - '&7你已选择的目标物品显示在下方。'
+  SCROLL_UP:
+    conditions:
+      force-load: true
+    name: '&e向上滚动'
+    lore:
+    - '&7点击向上翻页。'
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+    name: '&e向下滚动'
+    lore:
+    - '&7点击向下翻页。'
+  INFO:
+    conditions:
+      force-load: true
+    name: '&f信息'
+    lore:
+    - '&7在前4行放入材料，'
+    - '&7所有可用的合成将会显示。'
+    - ''
+    - '&7选择一个物品，然后点击下方的"合成"按钮。'
+    - '&7合成的物品将优先填充下方行。'
+    - ''
+    - '&c当合成的数量不满足'
+    - '&c需求的数量时，会尽可能'
+    - '&c尝试合成该物品直到材料耗尽。'
+  CRAFT:
+    conditions:
+      force-load: true
+    name: '&a合成'
+    lore:
+    - '&7点击合成选中的物品。'
+    - ''
+    - '&7左键点击：1次'
+    - '&7右键点击：16次'
+    - '&7Shift + 左键点击：64次'
+    - '&7Shift + 右键点击：尽可能多合成'
+  NO_ITEM:
+    conditions:
+      force-load: true
+    name: '&c未选择物品'
+  # materials
+  FAST_CORE:
+    name: '&b快捷核心'
+    lore:
+    - '&7快捷机器的核心。'
+  ETERNAL_FIRE:
+    name: '&4永恒之火'
+    lore:
+    - '&7永远不会熄灭的火。'
+  STACKED_ANCIENT_PEDESTAL:
+    name: '&6堆叠的古代基座'
+    lore:
+    - '&74合1的古代基座。'
+    - '&e右键点击 &7以'
+    - '&7还原成4个古代基座。'
+  # machines
+  FAST_CRAFTING_TABLE:
+    name: '&a快捷工作台'
+    lore:
+    - '&7更加有用的原版工作台。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_FURNACE:
+    name: '&a快捷熔炉'
+    lore:
+    - '&7更加有用的原版熔炉。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_ENHANCED_CRAFTING_TABLE:
+    name: '&a快捷增强型工作台'
+    lore:
+    - '&7更加有用的增强型工作台。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_GRIND_STONE:
+    name: '&a快捷磨石'
+    lore:
+    - '&7更有用的磨石。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_ARMOR_FORGE:
+    name: '&a快捷盔甲锻造台'
+    lore:
+    - '&7更加有用的盔甲锻造台。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_ORE_CRUSHER:
+    name: '&a快捷矿石粉碎机'
+    lore:
+    - '&7更加有用的矿石粉碎机。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_COMPRESSOR:
+    name: '&a快捷压缩机'
+    lore:
+    - '&7更加有用的压缩机。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_SMELTERY:
+    name: '&a快捷冶炼炉'
+    lore:
+    - '&7更加有用的冶炼炉。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_PRESSURE_CHAMBER:
+    name: '&a快捷压力舱'
+    lore:
+    - '&7更加有用的加热压力舱。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_MAGIC_WORKBENCH:
+    name: '&a快捷魔法工作台'
+    lore:
+    - '&7更有用的魔法工作台。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_ORE_WASHER:
+    name: '&a快捷洗矿机'
+    lore:
+    - '&7更加有用的洗矿机。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_TABLE_SAW:
+    name: '&a快捷台锯'
+    lore:
+    - '&7更加有用的台锯。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_COMPOSTER:
+    name: '&a快捷搅拌机'
+    lore:
+    - '&7更加有用的搅拌机。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_PANNING_MACHINE:
+    name: '&a快捷淘金机'
+    lore:
+    - '&7更加有用的淘金机。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_JUICER:
+    name: '&a快捷榨汁机'
+    lore:
+    - '&7更加有用的榨汁机。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_ANCIENT_ALTAR:
+    name: '&a快捷古代祭坛'
+    lore:
+    - '&7更加有用的古代祭坛。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_INFINITY_WORKBENCH:
+    name: '&a快捷无尽工作台'
+    lore:
+    - '&7更有用的无尽工作台。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_MOB_DATA_INFUSER:
+    name: '&a快捷生物芯片注入器'
+    lore:
+    - '&7更加有用的生物芯片注入器。'
+    - '&7不需要将物品按序摆放即可合成。'
+  FAST_SLIMEFRAME_FOUNDRY:
+    name: '&a快捷粘液战甲铸造厂'
+    lore:
+    - '&7更加有用的粘液战甲铸造厂。'
+    - '&7不需要将物品按序摆放即可合成。'
+lores:
+  per-craft: ' &7每次合成'
+messages:
+  not-enough-energy: '&c电力不足！'
+  not-enough-materials: '&c材料不足！'
+  not-enough-space: '&c机器空间不足！物品将送到你的物品栏中。如果你的物品栏已满，则会掉落在地上。'

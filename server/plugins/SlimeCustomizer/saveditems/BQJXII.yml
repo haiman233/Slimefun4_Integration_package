@@ -1,0 +1,70 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"dark_red","text":"波奇剑MAX"}],"text":""}'
+    lore:
+    - '{"extra":[{"text":""}],"text":""}'
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"underlined":true,"color":"#9A1CA8","text":"造物主形态{error}"}],"text":""}'
+    enchants:
+      FIRE_ASPECT: 50
+      LOOT_BONUS_MOBS: 50
+      DAMAGE_ALL: 140
+      SWEEPING_EDGE: 50
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 150.0
+        name: ''
+        slot: HAND
+        uuid: 869442d2-c47b-4f47-bf89-47c8f8dcc870
+        operation: 0
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.2
+        name: ''
+        slot: HAND
+        uuid: b67449a7-9524-4a8a-b952-b8df397455e9
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.0
+        name: ''
+        slot: HAND
+        uuid: 6af93e7b-0603-4dd5-83b6-3ad0c076f815
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ''
+        slot: HAND
+        uuid: b9a46ce0-3cc8-4bdc-b573-381ec2b8b71c
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: ''
+        slot: HAND
+        uuid: cb3bed16-47aa-4f57-8240-7e98e94c94cc
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 30.0
+        name: ''
+        slot: HAND
+        uuid: ee03c541-6d55-4e42-9c92-17b88e9e770f
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 20.0
+        name: ''
+        slot: HAND
+        uuid: 48493b39-d766-4e6c-9481-13ad320922cc
+        operation: 0
+    repair-cost: 1
+    Unbreakable: true
+    CanDestroy:
+    - minecraft:bedrock
+    PublicBukkitValues:
+      slimefun:slimefun_item: BOCCHI_BQWQJXII

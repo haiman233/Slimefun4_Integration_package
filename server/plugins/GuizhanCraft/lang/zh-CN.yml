@@ -1,0 +1,88 @@
+categories:
+  main: '&a鬼斩&b科技'
+  material: '&a鬼斩&b科技 &7- &e材料'
+  magic: '&a鬼斩&b科技 &7- &e魔法'
+  generator: '&a鬼斩&b科技 &7- &e发电机'
+  machine: '&a鬼斩&b科技 &7- &e机器'
+recipes:
+  fe_unknown:
+    name: '&b失落帝国科技'
+    lore:
+    - '&7这些建筑物使用极其'
+    - '&7先进的奥术技术，'
+    - '&7甚至失落帝国都已经'
+    - '&7忘记如何建造它们。'
+items:
+  class_4_singularity:
+    name: '&6四级奇点'
+    lore:
+    - '&7&o虽然经历了如此漫长的岁月，'
+    - '&7&o隔离场却仍能正常稳定的运行，'
+    - '&7&o没人知道原因。'
+  electric_spawner_framework:
+    name: '&e电力刷怪笼框架'
+    lore:
+    - '&7好像差了点什么...'
+  electric_spawner_assembler:
+    name: '&e电力刷怪笼&a组装机'
+    lore:
+    - '&7可以用电力刷怪笼框架'
+    - '&7和已修复的刷怪笼'
+    - '&7组装电力刷怪笼'
+    - ''
+    - '&7可进行不消耗电力的手动合成'
+lores:
+  per-tick: ' &7每粘液刻'
+  per-craft: ' &7每次合成'
+  per-use: ' &7每次使用'
+  generator: '&e&l发电机'
+  machine: '&b&l机器'
+researches:
+  electric_spawner_assembler: 电力刷怪笼组装机
+gui:
+  craft: '&a点击合成'
+  not-enough-energy: '&c电力不足'
+  no-input: '&c缺少输入'
+  no-output-space: '&c输出空间不足'
+  success: '&a成功!'
+  electric_spawner_assembler:
+    info:
+      name: '&e说明'
+      lore:
+      - '&7在左侧放入&e电力刷怪笼框架'
+      - '&7在右侧放入&e已修复的刷怪笼'
+      - ''
+      - '&7点击下方的按钮可手动合成一次'
+      - '&7(无需电力)'
+messages:
+  no-permission: '&4你没有权限!'
+  no-console: '&4只有玩家才能执行该指令!'
+  usage: '&e用法: &a{0}'
+  player-not-found: '&c找不到指定玩家 {0}!'
+  invalid-recipe: '&c无效的配方!'
+  no-input: '&c请在所有输入栏放入物品!'
+  no-output-space: '&c输出空间不足!'
+  crafted: '&a成功合成&e{0}&a!'
+  not-crafted: '&c合成失败:&e{0}&c!'
+console:
+  loaded_language: 当前语言为简体中文!
+  loading_items: 加载物品中...
+  loading_commands: 加载指令中...
+  loading_researches: 研究已启用, 加载研究中...
+  loading_integrations: 加载关联插件中...
+  loading_integration: 正在关联插件 {0}
+  loaded_integration: 已关联插件 {0} v{1}
+commands:
+  sfspawner:
+    invalid-entity-type: '&c无效的生物类型: {0}'
+    sent: '&b{0} &a已获得 &b{1}'
+    received: '&a你收到了来自 &b{0} &a的 &b{1}'
+    broken:
+      usage: '&b/sfs broken <玩家名称> <生物类型>'
+      description: '&a给予指定玩家指定类型的破损刷怪笼'
+    repaired:
+      usage: '&b/sfs repaired <玩家名称> <生物类型>'
+      description: '&a给予指定玩家指定类型的已修复的刷怪笼'
+  unloadchunk:
+    success: '&a你已禁用所在区块的强制加载！'
+    not-force-loaded: '&c你所在的区块没有强制加载！'

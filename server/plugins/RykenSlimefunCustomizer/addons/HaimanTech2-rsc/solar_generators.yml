@@ -1,0 +1,390 @@
+VAGETABLE_SOLAR_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&b&l新手太阳能发电机'
+    lore:
+    - '&7为新手提供福利,并且能在白天和夜晚发电!'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4 J/s (昼)'
+    - '&8⇨ &e⚡&7 2 J/s (夜)'
+    material: DAYLIGHT_DETECTOR
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: BLAZE_POWDER
+      amount: 1
+    3:
+      material_type: mc
+      material: BLAZE_POWDER
+      amount: 1
+    4:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2
+  nightEnergy: 1
+  capacity: 2
+HAIMAN_EARTH_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&9&l地球发电机'
+    lore:
+    - '&7运用地球自身的能量进行发电'
+    - '&b必须用水包围'
+    - '&b上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1760 J/s (昼)'
+    - '&8⇨ &e⚡&7 1800 J/s (夜)'
+    material: TUBE_CORAL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BIG_CAPACITOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BIG_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANCIENT_RUNE_EARTH
+      amount: 1
+    9:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 880
+  nightEnergy: 900
+  capacity: 900
+HAIMAN_SEND_CACTUS_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&9&l沙漠发电机'
+    lore:
+    - '&7运用沙漠的能量进行发电'
+    - '&e必须放置在沙子上'
+    - '&e四周不能放置方块'
+    - '&e头顶需要放置透明方块'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 1240 J/s (昼)'
+    - '&8⇨ &e⚡&7 2000 J/s (夜)'
+    material: CACTUS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANCIENT_RUNE_AIR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 620
+  nightEnergy: 1000
+  capacity: 1000
+HAIMAN_END_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&b&l末地发电机'
+    lore:
+    - '&7从末地石中汲取能量发电'
+    - '&d必须放置在末地石上上'
+    - '&d上方不能有非透明方块遮挡'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 170 J/s (昼)'
+    - '&8⇨ &e⚡&7 1500 J/s (夜)'
+    material: CHORUS_PLANT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    4:
+      material_type: mc
+      material: END_STONE_BRICKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    6:
+      material_type: mc
+      material: END_STONE_BRICKS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 85
+  nightEnergy: 750
+  capacity: 750
+HIGH_VOLTAGE_TRANSMISSION_LINES:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&f&l高压输电线'
+    lore:
+    - '&7这是一根可以为你供电的高压线'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4 J/s (昼)'
+    - '&8⇨ &e⚡&7 2 J/s (夜)'
+    material: CHAIN
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2
+  nightEnergy: 1
+  capacity: 2
+HAIMAN_POWER_NET:
+  lateInit: true
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l海曼牌电网'
+    lore:
+    - '&7这是一个可以爬在墙上发电的电网'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 12 J/s (昼)'
+    - '&8⇨ &e⚡&7 4 J/s (夜)'
+    material: VINE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ALUMINUM_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 6
+  nightEnergy: 2
+  capacity: 6
+GUANGYUAN_FADIAN:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&e&l隐形光源发电机'
+    lore:
+    - '&7你完全看不到它在哪里'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4000 J/s (昼)'
+    - '&8⇨ &e⚡&7 7000 J/s (夜)'
+    material: LIGHT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CRAFTING_MOTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_SHENQUAN_HEXIN
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CRAFTING_MOTOR
+      amount: 1
+    4:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    5:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    6:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2000
+  nightEnergy: 3500
+  capacity: 3500
+FUZHU_GENERATOR:
+  lateInit: true
+  item_group: slime_customizer_generator
+  item:
+    name: '&f腐竹专用发电机'
+    lore:
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4294967294 J/s (昼)'
+    - '&8⇨ &e⚡&7 4294967294 J/s (夜)'
+    material_type: skull_hash
+    material: 65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+  recipe_type: 'NULL'
+  lightLevel: 1
+  dayEnergy: 2147483647
+  nightEnergy: 2147483647
+  capacity: 2147483647

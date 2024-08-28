@@ -1,0 +1,1110 @@
+#电炉
+SE_ELECTRIC_FURNACE_1:
+  title: "{#ff3333>}电力熔炉⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ff3333>}请输入配方物品{#ff7744<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_FURNACE_2:
+  title: "{#ffff33>}电力熔炉⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_FURNACE_3:
+  title: "{#99ff33>}电力熔炉⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_FURNACE_4:
+  title: "{#33ffaa>}电力熔炉⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_FURNACE_5:
+  title: "{#33ffff>}电力熔炉⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电力碎矿机
+SE_ELECTRIC_ORE_GRINDER_1:
+  title: "{#ff3333>}电力碎矿机⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_ORE_GRINDER_2:
+  title: "{#ffff33>}电力碎矿机⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_ORE_GRINDER_3:
+  title: "{#99ff33>}电力碎矿机⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_ORE_GRINDER_4:
+  title: "{#33ffaa>}电力碎矿机⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_ORE_GRINDER_5:
+  title: "{#33ffff>}电力碎矿机⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电动淘金机
+SE_ELECTRIC_GOLD_PAN_1:
+  title: "{#ff3333>}电动淘金机⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_GOLD_PAN_2:
+  title: "{#ffff33>}电动淘金机⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_GOLD_PAN_3:
+  title: "{#99ff33>}电动淘金机⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_GOLD_PAN_4:
+  title: "{#33ffaa>}电动淘金机⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_GOLD_PAN_5:
+  title: "{#33ffff>}电动淘金机⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电动洗矿机
+SE_ELECTRIC_DUST_WASHER_1:
+  title: "{#ff3333>}电动洗矿机⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_DUST_WASHER_2:
+  title: "{#ffff33>}电动洗矿机⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_DUST_WASHER_3:
+  title: "{#99ff33>}电动洗矿机⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_DUST_WASHER_4:
+  title: "{#33ffaa>}电动洗矿机⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_DUST_WASHER_5:
+  title: "{#33ffff>}电动洗矿机⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电动铸锭机
+SE_ELECTRIC_INGOT_FACTORY_1:
+  title: "{#ff3333>}电动铸锭机⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_FACTORY_2:
+  title: "{#ffff33>}电动铸锭机⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_FACTORY_3:
+  title: "{#99ff33>}电动铸锭机⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_FACTORY_4:
+  title: "{#33ffaa>}电动铸锭机⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_FACTORY_5:
+  title: "{#33ffff>}电动铸锭机⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电动坩埚
+SE_ELECTRIFIED_CRUCIBLE_1:
+  title: "{#ff3333>}电动坩埚⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIFIED_CRUCIBLE_2:
+  title: "{#ffff33>}电动坩埚⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIFIED_CRUCIBLE_3:
+  title: "{#99ff33>}电动坩埚⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIFIED_CRUCIBLE_4:
+  title: "{#33ffaa>}电动坩埚⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIFIED_CRUCIBLE_5:
+  title: "{#33ffff>}电动坩埚⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#加热压力舱
+SE_HEATED_PRESSURE_CHAMBER_1:
+  title: "{#ff3333>}加热压力舱⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_HEATED_PRESSURE_CHAMBER_2:
+  title: "{#ffff33>}加热压力舱⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_HEATED_PRESSURE_CHAMBER_3:
+  title: "{#99ff33>}加热压力舱⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_HEATED_PRESSURE_CHAMBER_4:
+  title: "{#33ffaa>}加热压力舱⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_HEATED_PRESSURE_CHAMBER_5:
+  title: "{#33ffff>}加热压力舱⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电力打粉机
+SE_ELECTRIC_INGOT_PULVERIZER_1:
+  title: "{#ff3333>}电力打粉机⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_PULVERIZER_2:
+  title: "{#ffff33>}电力打粉机⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_PULVERIZER_3:
+  title: "{#99ff33>}电力打粉机⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_PULVERIZER_4:
+  title: "{#33ffaa>}电力打粉机⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_ELECTRIC_INGOT_PULVERIZER_5:
+  title: "{#33ffff>}电力打粉机⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电力冰箱
+SE_FREEZER_1:
+  title: "{#ff3333>}电力冰箱⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_FREEZER_2:
+  title: "{#ffff33>}电力冰箱⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_FREEZER_3:
+  title: "{#99ff33>}电力冰箱⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_FREEZER_4:
+  title: "{#33ffaa>}电力冰箱⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_FREEZER_5:
+  title: "{#33ffff>}电力冰箱⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+#电力打粉机
+SE_CARBON_PRESS_1_1:
+  title: "{#ff3333>}碳压机⇨I{#ff7744<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_CARBON_PRESS_1_2:
+  title: "{#ffff33>}碳压机⇨II{#ccff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#ffff33>}请输入配方物品{#ccff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_CARBON_PRESS_1_3:
+  title: "{#99ff33>}碳压机⇨III{#33ff33<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#99ff33>}请输入配方物品{#33ff33<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_CARBON_PRESS_1_4:
+  title: "{#33ffaa>}碳压机⇨IV{#33ffff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffaa>}请输入配方物品{#33ffff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+SE_CARBON_PRESS_1_5:
+  title: "{#33ffff>}碳压机⇨V{#5555ff<}"
+  slots:
+    18-26:
+      name: "&a"
+      material: WHITE_STAINED_GLASS_PANE
+    37:
+      name: "{#33ffff>}请输入配方物品{#5555ff<}"
+      material: END_CRYSTAL
+      progressbar: true
+    27-29:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    38:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+    45-47:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE

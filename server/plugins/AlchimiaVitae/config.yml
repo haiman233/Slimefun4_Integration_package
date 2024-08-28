@@ -1,0 +1,128 @@
+
+options:
+
+  # 是否启用自动更新
+  auto-update: false
+
+  # 注入选项
+  infusions:
+
+    ## 是否开启指定的注入 (true = 启用, false = 禁用)
+    # 毁灭暴击
+    infusion-destructivecrits: true
+
+    # 幻影暴击
+    infusion-phantomcrits: true
+
+    # 自瞄
+    infusion-trueaim: true
+
+    # 强力
+    infusion-forceful: true
+
+    # 挥发
+    infusion-volatile: true
+
+    # 治疗
+    infusion-healing: true
+
+    # 自动补种
+    infusion-autoreplant: true
+
+    # 图腾电池
+    infusion-totemstorage: true
+
+    # 击退
+    infusion-knockback: true
+
+  # 演变选项
+  transmutations:
+
+    ## 是否开启指定的演变 (true = 启用, false = 禁用)
+    # 强化合金锭
+    reinforced-transmutation: true
+
+    # 硬化金属
+    hardened-transmutation: true
+
+    # 钢锭
+    steel-transmutation: true
+
+    # 大马士革钢锭
+    damascus-transmutation: true
+
+    # 压缩碳
+    compressed-carbon-transmutation: true
+
+    # 是否使用Slimefun中对应物品的CustomModelData用于显示材质包，合成物品
+    # 不建议关闭
+    use-same-custommodeldata: true
+
+  # 药水选项
+  potions:
+
+    # 仁慈酿造
+    benevolent-brew:
+
+      # 药水配置
+      # 注意: 药水持续时间的单位为 Minecraft tick, 即 1 秒 = 20 tick，将持续时长秒数乘20可以得到tick
+      # 抗性提升
+      resistance:
+        ticks: 6000
+
+        # 抗性提升5以及更高等级将使得玩家免疫几乎所有伤害
+        level: 1
+
+      # 急迫
+      haste:
+        ticks: 6000
+        level: 2
+
+      # 生命回复
+      regen:
+        ticks: 6000
+        level: 2
+
+      # 速度
+      speed:
+        ticks: 6000
+        level: 2
+
+      # 跳跃提升
+      jump:
+        ticks: 6000
+        level: 2
+
+      # 饮用时获得多少点额外生命值 (黄色部分血条，1点为半颗心)
+      # 必须为小数格式，即: 0.0, 1.0 等
+      absorption-halfhearts: 0.0
+
+    # 恶毒混合物
+    malevolent-concoction:
+
+      # 药水配置
+      # 注意: 药水持续时间的单位为 Minecraft tick, 即 1 秒 = 20 tick，将持续时长秒数乘20可以得到tick
+      # 虚弱
+      weakness:
+        ticks: 6000
+        level: 3
+
+      # 缓慢
+      slowness:
+        ticks: 3000
+        level: 2
+
+      # 中毒
+      poison:
+        ticks: 600
+        level: 2
+
+      # 失明
+      blindness:
+        ticks: 1200
+        level: 1
+
+      # 饥饿
+      hunger:
+        ticks: 600
+        level: 2

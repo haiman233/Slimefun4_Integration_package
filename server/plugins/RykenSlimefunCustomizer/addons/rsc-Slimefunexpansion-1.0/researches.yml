@@ -1,0 +1,360 @@
+#电炉
+rsc_se_mac_electric_furnace_1:
+  id: 100861
+  name: "&3初级 电炉"
+  levelCost: 30
+  items:
+    - SE_ELECTRIC_FURNACE_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_furnace_2:
+  id: 100862
+  name: "&3高级 电炉"
+  levelCost: 60
+  items:
+    - SE_ELECTRIC_FURNACE_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_furnace_3:
+  id: 100863
+  name: "&3超级 电炉"
+  levelCost: 90
+  items:
+    - SE_ELECTRIC_FURNACE_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_furnace_4:
+  id: 100864
+  name: "&3终级 电炉"
+  levelCost: 120
+  items:
+    - SE_ELECTRIC_FURNACE_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_furnace_5:
+  id: 100865
+  name: "&3神级 电炉"
+  levelCost: 150
+  items:
+    - SE_ELECTRIC_FURNACE_5
+  currencyCost: 150 #非必填
+#电力碎矿机
+rsc_se_mac_electric_ore_grinder_1:
+  id: 100866
+  name: "&3初级 电力碎矿机"
+  levelCost: 30
+  items:
+    - SE_ELECTRIC_ORE_GRINDER_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_ore_grinder_2:
+  id: 100867
+  name: "&3高级 电力碎矿机"
+  levelCost: 60
+  items:
+    - SE_ELECTRIC_ORE_GRINDER_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_ore_grinder_3:
+  id: 100868
+  name: "&3超级 电力碎矿机"
+  levelCost: 90
+  items:
+    - SE_ELECTRIC_ORE_GRINDER_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_ore_grinder_4:
+  id: 100869
+  name: "&3终级 电力碎矿机"
+  levelCost: 120
+  items:
+    - SE_ELECTRIC_ORE_GRINDER_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_ore_grinder_5:
+  id: 1008610
+  name: "&3神级 电力碎矿机"
+  levelCost: 150
+  items:
+    - SE_ELECTRIC_ORE_GRINDER_5
+  currencyCost: 150 #非必填
+#电动淘金机
+rsc_se_mac_electric_gold_pan_1:
+  id: 1008611
+  name: "&3初级 电动淘金机"
+  levelCost: 30
+  items:
+    - SE_ELECTRIC_GOLD_PAN_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_gold_pan_2:
+  id: 1008612
+  name: "&3高级 电动淘金机"
+  levelCost: 60
+  items:
+    - SE_ELECTRIC_GOLD_PAN_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_gold_pan_3:
+  id: 1008613
+  name: "&3超级 电动淘金机"
+  levelCost: 90
+  items:
+    - SE_ELECTRIC_GOLD_PAN_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_gold_pan_4:
+  id: 1008614
+  name: "&3终级 电动淘金机"
+  levelCost: 120
+  items:
+    - SE_ELECTRIC_GOLD_PAN_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_gold_pan_5:
+  id: 1008615
+  name: "&3神级 电动淘金机"
+  levelCost: 150
+  items:
+    - SE_ELECTRIC_GOLD_PAN_5
+  currencyCost: 150 #非必填
+#电动洗矿机
+rsc_se_mac_electric_dust_washer_1:
+  id: 1008616
+  name: "&3初级 电动洗矿机"
+  levelCost: 30
+  items:
+    - SE_ELECTRIC_DUST_WASHER_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_dust_washer_2:
+  id: 1008617
+  name: "&3高级 电动洗矿机"
+  levelCost: 60
+  items:
+    - SE_ELECTRIC_DUST_WASHER_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_dust_washer_3:
+  id: 1008618
+  name: "&3超级 电动洗矿机"
+  levelCost: 90
+  items:
+    - SE_ELECTRIC_DUST_WASHER_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_dust_washer_4:
+  id: 1008619
+  name: "&3终级 电动洗矿机"
+  levelCost: 120
+  items:
+    - SE_ELECTRIC_DUST_WASHER_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_dust_washer_5:
+  id: 1008620
+  name: "&3神级 电动洗矿机"
+  levelCost: 150
+  items:
+    - SE_ELECTRIC_DUST_WASHER_5
+  currencyCost: 150 #非必填
+#电动铸锭机
+rsc_se_mac_electric_ingot_factory_1:
+  id: 1008621
+  name: "&3初级 电动铸锭机"
+  levelCost: 30
+  items:
+    - SE_ELECTRIC_INGOT_FACTORY_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_ingot_factory_2:
+  id: 1008622
+  name: "&3高级 电动铸锭机"
+  levelCost: 60
+  items:
+    - SE_ELECTRIC_INGOT_FACTORY_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_ingot_factory_3:
+  id: 1008623
+  name: "&3超级 电动铸锭机"
+  levelCost: 90
+  items:
+    - SE_ELECTRIC_INGOT_FACTORY_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_ingot_factory_4:
+  id: 1008624
+  name: "&3终级 电动铸锭机"
+  levelCost: 120
+  items:
+    - SE_ELECTRIC_INGOT_FACTORY_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_ingot_factory_5:
+  id: 1008625
+  name: "&3神级 电动铸锭机"
+  levelCost: 150
+  items:
+    - SE_ELECTRIC_INGOT_FACTORY_5
+  currencyCost: 150 #非必填
+#电力坩埚
+rsc_se_mac_electric_crucible_1:
+  id: 1008626
+  name: "&3初级 电力坩埚"
+  levelCost: 30
+  items:
+    - SE_ELECTRIFIED_CRUCIBLE_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_crucible_2:
+  id: 1008627
+  name: "&3高级 电力坩埚"
+  levelCost: 60
+  items:
+    - SE_ELECTRIFIED_CRUCIBLE_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_crucible_3:
+  id: 1008628
+  name: "&3超级 电力坩埚"
+  levelCost: 90
+  items:
+    - SE_ELECTRIFIED_CRUCIBLE_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_crucible_4:
+  id: 1008629
+  name: "&3终级 电力坩埚"
+  levelCost: 120
+  items:
+    - SE_ELECTRIFIED_CRUCIBLE_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_crucible_5:
+  id: 1008630
+  name: "&3神级 电力坩埚"
+  levelCost: 150
+  items:
+    - SE_ELECTRIFIED_CRUCIBLE_5
+  currencyCost: 150 #非必填
+#加热压力舱
+rsc_se_mac_electric_chamber_1:
+  id: 1008631
+  name: "&3初级 加热压力舱"
+  levelCost: 30
+  items:
+    - SE_HEATED_PRESSURE_CHAMBER_1
+  currencyCost: 30 #非必填
+rsc_se_mac_electric_chamber_2:
+  id: 1008632
+  name: "&3高级 加热压力舱"
+  levelCost: 60
+  items:
+    - SE_HEATED_PRESSURE_CHAMBER_2
+  currencyCost: 60 #非必填
+rsc_se_mac_electric_chamber_3:
+  id: 1008633
+  name: "&3超级 加热压力舱"
+  levelCost: 90
+  items:
+    - SE_HEATED_PRESSURE_CHAMBER_3
+  currencyCost: 90  #非必填
+rsc_se_mac_electric_chamber_4:
+  id: 1008634
+  name: "&3终级 加热压力舱"
+  levelCost: 120
+  items:
+    - SE_HEATED_PRESSURE_CHAMBER_4
+  currencyCost: 120 #非必填
+rsc_se_mac_electric_chamber_5:
+  id: 1008635
+  name: "&3神级 加热压力舱"
+  levelCost: 150
+  items:
+    - SE_HEATED_PRESSURE_CHAMBER_5
+  currencyCost: 150 #非必填
+#电力打粉机
+rsc_se_mac_ingot_pulverizer_1:
+  id: 1008636
+  name: "&3初级 电力打粉机"
+  levelCost: 30
+  items:
+    - SE_ELECTRIC_INGOT_PULVERIZER_1
+  currencyCost: 30 #非必填
+rsc_se_mac_ingot_pulverizer_2:
+  id: 1008637
+  name: "&3高级 电力打粉机"
+  levelCost: 60
+  items:
+    - SE_ELECTRIC_INGOT_PULVERIZER_2
+  currencyCost: 60 #非必填
+rsc_se_mac_ingot_pulverizer_3:
+  id: 1008638
+  name: "&3超级 电力打粉机"
+  levelCost: 90
+  items:
+    - SE_ELECTRIC_INGOT_PULVERIZER_3
+  currencyCost: 90  #非必填
+rsc_se_mac_ingot_pulverizer_4:
+  id: 1008639
+  name: "&3终级 电力打粉机"
+  levelCost: 120
+  items:
+    - SE_ELECTRIC_INGOT_PULVERIZER_4
+  currencyCost: 120 #非必填
+rsc_se_mac_ingot_pulverizer_5:
+  id: 1008640
+  name: "&3神级 电力打粉机"
+  levelCost: 150
+  items:
+    - SE_ELECTRIC_INGOT_PULVERIZER_5
+  currencyCost: 150 #非必填
+#冰箱
+rsc_se_mac_freezer_1:
+  id: 1008641
+  name: "&3初级 冰箱"
+  levelCost: 30
+  items:
+    - SE_FREEZER_1
+  currencyCost: 30 #非必填
+rsc_se_mac_freezer_2:
+  id: 1008642
+  name: "&3高级 冰箱"
+  levelCost: 60
+  items:
+    - SE_FREEZER_2
+  currencyCost: 60 #非必填
+rsc_se_mac_freezer_3:
+  id: 1008643
+  name: "&3超级 冰箱"
+  levelCost: 90
+  items:
+    - SE_FREEZER_3
+  currencyCost: 90  #非必填
+rsc_se_mac_freezer_4:
+  id: 1008644
+  name: "&3终级 冰箱"
+  levelCost: 120
+  items:
+    - SE_FREEZER_4
+  currencyCost: 120 #非必填
+rsc_se_mac_freezer_5:
+  id: 1008645
+  name: "&3神级 冰箱"
+  levelCost: 150
+  items:
+    - SE_FREEZER_5
+  currencyCost: 150 #非必填
+#碳压机
+rsc_se_mac_carbon_press_1:
+  id: 1008646
+  name: "&3初级 碳压机"
+  levelCost: 30
+  items:
+    - SE_CARBON_PRESS_1
+  currencyCost: 30 #非必填
+rsc_se_mac_carbon_press_2:
+  id: 1008647
+  name: "&3高级 碳压机"
+  levelCost: 60
+  items:
+    - SE_CARBON_PRESS_2
+  currencyCost: 60 #非必填
+rsc_se_mac_carbon_press_3:
+  id: 1008648
+  name: "&3超级 碳压机"
+  levelCost: 90
+  items:
+    - SE_CARBON_PRESS_3
+  currencyCost: 90  #非必填
+rsc_se_mac_carbon_press_4:
+  id: 1008649
+  name: "&3终级 碳压机"
+  levelCost: 120
+  items:
+    - SE_CARBON_PRESS_4
+  currencyCost: 120 #非必填
+rsc_se_mac_carbon_press_5:
+  id: 1008650
+  name: "&3神级 碳压机"
+  levelCost: 150
+  items:
+    - SE_CARBON_PRESS_5
+  currencyCost: 150 #非必填

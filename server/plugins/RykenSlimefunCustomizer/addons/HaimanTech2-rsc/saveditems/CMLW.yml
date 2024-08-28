@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: ORANGE_SHULKER_BOX
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"村民们的礼物"}],"text":""}'
+    internal: H4sIAAAAAAAA/83WTWsTQRgH8Emb2GR9O/kF5uJbNfc9Kh4E8WJvImF2d3Z3yOxOmJm1LaU3Da14UIioiWCEWhVpQAVbi+TTdDpfw4lC9CCbYSF0jzO7MLs//vM8jwOAA87doMxv30olkesrKKqDBRKACwlJsc9RKF0RZ7SNectjaw1Quy1xIhwAwNkKqN6jTIIKqN1kWSorDliUKHLAUkBEh6L1OqjeRQkGLzcgXpMcQff+BvQYDaAreYaXIZGIEh+6IaLCLLM0wJyac4PplpCctLGMOcuieLrLvDATPpL/vOgzyjh0YcQxTuEylOZEs9T9kXo61P1Heuen3v4ENx9MH8HN//174w5jcgV5FINmZD5+8h/NGHPWYmFLxrj1kFCKItykGJklX2V8YhORUALwh+78Xzo/xmIC9BuqMhOqf3JQauu7Hu2pg61iVldyrUKKpaGwY1ooc56OD3pq53Mxo6v5RkSY7QSlVkiLZUZS3TeFkS7lIyGeWMaoWmYhvf2h8FXLF/Ip5sS3EqqVvB6pwbgw0vV8JMQlizjq2NakU2UOk/oyLHzdLuc6eZl92V4qc5r0oKd7X9WL7jyUTE1i3FKpPlNpeIJBGoyPfuzq0Tv9rKuev5pHl6PE44gTyy7XKHOmjvd21euPhafLa7lOqxh1WCoSImMrKafMUmr/vXq8X1gqP1GSMWrvdLrMTmYq0OMnR4eH85jBzXQ5aXeBFdOZMvc7/fZb4SxdzDVKkGAzKhMAvwDAzMwHNA8AAA==
+    blockMaterial: ORANGE_SHULKER_BOX

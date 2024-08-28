@@ -1,0 +1,230 @@
+GHAST_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&f&l恶魂肉'
+    lore:
+    - '&7这是恶魂体内为数不多的肉'
+    - '&7据说味道极其鲜美'
+    material_type: mc
+    material: COOKED_MUTTON
+    amount: 1
+  entity: GHAST
+  chance: 40
+BAT_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&8&l蝙蝠肉'
+    lore:
+    - '&7野味？'
+    material_type: mc
+    material: COOKED_CHICKEN
+    amount: 1
+  entity: BAT
+  chance: 45
+CAT_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&e&l猫肉'
+    lore:
+    - '&7爱猫人士表示强烈谴责！'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: CAT
+  chance: 45
+DONKEY_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l驴肉'
+    lore:
+    - '&7我驴呢？'
+    material_type: mc
+    material: MUTTON
+    amount: 2
+  entity: DONKEY
+  chance: 60
+HORSE_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l马肉'
+    lore:
+    - '&7你真的忍心这样对待你的坐骑吗？'
+    material_type: mc
+    material: BEEF
+    amount: 2
+  entity: DONKEY
+  chance: 60
+MULE_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l骡肉'
+    lore:
+    - '&7好好一个骡子，就这样被你杀掉了...'
+    material_type: mc
+    material: PORKCHOP
+    amount: 2
+  entity: DONKEY
+  chance: 60
+FOX_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l狐狸肉'
+    lore:
+    - '&7它肯定是偷你东西了！ovo'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: FOX
+  chance: 50
+PARROT_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l鹦鹉肉'
+    lore:
+    - '&7鹦鹉那么可爱，你为什么要杀他！'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: PARROT
+  chance: 55
+SQUID_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l鱿鱼肉'
+    lore:
+    - '&7烤起来实在是香！'
+    material_type: mc
+    material: RABBIT
+    amount: 1
+  entity: SQUID
+  chance: 55
+STRIDER_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l炽足兽肉'
+    lore:
+    - '&7结束了工具人的一生'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: STRIDER
+  chance: 55
+VILLAGER_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l人肉'
+    lore:
+    - '&7“村 庄 英 雄”'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: VILLAGER
+  chance: 55
+WANDERING_TRADER_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l流浪商人肉'
+    lore:
+    - '&7奸商的一生'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: WANDERING_TRADER
+  chance: 60
+TURTLE_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l海龟肉'
+    lore:
+    - '&7惨！'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: TURTLE
+  chance: 55
+GIANT_ROU:
+  lateInit: false
+  item_group: slime_customizer_food
+  item:
+    name: '&b&l巨尸肉'
+    lore:
+    - '&7无畏的勇者啊！'
+    - '&8杀死巨人僵尸掉落'
+    material_type: mc
+    material: ROTTEN_FLESH
+    amount: 1
+  entity: GIANT
+  chance: 60
+FEIXIANXINGSW:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&5&l非线性思维'
+    lore:
+    - '&7一种思维轨迹'
+    material_type: skull_hash
+    material: dd2f781f03c365bbc5dd1e7186ab38dc69465e836c9fe066a9a844f34a4da92
+    amount: 1
+  entity: BAT
+  chance: 12
+YASUOKONGJIAN:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&c&l压缩空间'
+    lore:
+    - '&7一种空间结构'
+    material_type: skull_hash
+    material: ef253aedd1ef3cf546dcc909df36c19fd7d696f7cabc02b06abd8d0642bd655f
+    amount: 1
+  entity: ENDERMITE
+  chance: 9
+DUIDIETEZHEN:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&e&l堆叠特征'
+    lore:
+    - '&7一种堆叠状态'
+    material_type: skull_hash
+    material: ad66b25fbf685b09d33ecab17db4135fccecc3016d9e8045249e818759f2feb6
+    amount: 1
+  entity: SILVERFISH
+  chance: 14
+CREEPER_COAL_HEART:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&4&l碳化的心脏'
+    lore:
+    - '&7死灰无法复燃'
+    material_type: skull_hash
+    material: 2c50e3e6150d07cca09ed707b244043c9437dbd1be98ee08ae0340ccb6d58c89
+    amount: 1
+  entity: CREEPER
+  chance: 1
+PLAYER_FIRE:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&c&l吐息'
+    lore:
+    - '&7最后一口气'
+    material_type: skull_hash
+    material: b83f14bfe65fdaca99040ce346aff048a6d3b9d24b4d82c1720a55e5e45e77b8
+    amount: 1
+  entity: PLAYER
+  chance: 23

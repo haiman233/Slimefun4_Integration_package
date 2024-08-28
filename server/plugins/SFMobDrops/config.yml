@@ -1,0 +1,62 @@
+# 在 drops 中，每一项都代表一个掉落物配置
+# 在每个掉落物配置中，以下内容必须填写:
+#   - entity
+#     这是掉落物所对应的生物类型, 可以在这里找到所有生物类型: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html.
+#     例如: ZOMBIE
+#     你也可以使用 "ALL" 来让物品可从所有实体掉落
+#   - drops
+#     这是该实体绑定的掉落列表
+#     示例：
+#       - slimefunItem: MAGICAL_ZOMBIE_PILLS
+#         chance: 69.420
+#
+# 每个实体的掉落物品设置必须有:
+#   - slimefunItem
+#     这是粘液科技物品 ID. 你可以在这里找到大部分粘液科技物品的ID: https://slimefun-helper.guizhanss.cn/.
+#     例如: MAGICAL_ZOMBIE_PILLS
+##   - chance
+##     这是掉落物品的几率，范围为 0-100，支持小数
+##     例如: 69.420
+#
+# 以下内容是可选的:
+#   - name
+#     指定实体的名称，需要匹配才会掉落
+#     例如: '&cAmazing Mob'
+#   - nbtTag
+#     指定实体的NBT，需要匹配才会掉落
+#     例如: 'amazing_mob:some_mob_id'
+#
+# 以下内容是可选的掉落物品设置:
+#   - amount
+#     掉落物品的数量
+#     例如: 10
+drops:
+  # 基础样例
+  - entity: ZOMBIE
+    drops:
+      - slimefunItem: MAGICAL_ZOMBIE_PILLS
+        chance: 4.20
+
+  # 复杂样例
+  - entity: ENDER_DRAGON
+    name: '&cAmazing Dragon'
+    nbtTag: 'plugin_name:awesome_mob'
+    drops:
+      - slimefunItem: ANCIENT_RUNE_SOULBOUND
+        chance: 100
+        amount: 1
+      - slimefunItem: BLANK_RUNE
+        chance: 10
+        amount: 2
+
+  # Example of dropping for all entities
+  - entity: ALL
+    name: '&aAny mob named this will drop'
+    drops:
+      - slimefunItem: BLANK_RUNE
+        chance: 0.5
+      - slimefunItem: MAGIC_LUMP_1
+        chance: 1
+
+settings:
+  autoUpdate: true

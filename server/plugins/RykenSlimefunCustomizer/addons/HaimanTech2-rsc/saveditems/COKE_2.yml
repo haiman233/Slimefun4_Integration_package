@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"焦炭"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"煤炭经两次燃烧"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PQU6DQBiFf001Fb2KCXUsDQsXlkI7BAYZGAR2QKct7dA2FJrC2kN4AXfudOkdXHghcefiJe/l+zZPApDgxtvUQjyVu0UueB96JCk4SJp3q+1KbuWpBFIH97yscn64gn7FT1Vd8oMEAGd9uAgSUXP45I0px+FKnoemyBqsdNv3ZOHg9X6Et0GTaljBRcdnj4rVqP/cYZU8D0WEzFW8deu0CGQLUcFndJAV7Ogydk/9CNm6jhyG72w/au2Wam5rTN315mS3fzG7bg/cliGq0zFZbxBhxtRhxCCTZecTw/Hp2PXjieMzZDemugjlB4BrOMfz7kjv8vXjR10ORm9f0fsx+34B+AVnpX+uHQEAAA==
+    PublicBukkitValues:
+      slimefun:slimefun_item: COKE_2
+    skull-owner: CS-CoreLib

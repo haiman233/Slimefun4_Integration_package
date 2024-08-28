@@ -1,0 +1,18 @@
+
+options:
+  auto-update: false
+
+kama:
+  worm-chance: 15
+
+cooked-apple:
+
+  #amount of half food bars to be restored
+  food-restoration: 8
+
+  #time the food will take to get low again
+  saturation: 4
+
+cooked-worm:
+  food-restoration: 4
+  saturation: 6

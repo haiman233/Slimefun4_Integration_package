@@ -1,0 +1,8 @@
+id: HiveCorporation
+name: "倾斜科技:蜂巢公司"
+depends: []
+pluginDepends: []
+version: "1.0.2"
+description: "AngleTech系列的第二作，愿你能玩得开心。"
+authors: ["LIGH_Y"]
+repo: "1368139692/HiveCorporation"

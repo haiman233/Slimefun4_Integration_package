@@ -1,0 +1,19 @@
+
+# Debug mode
+debug: false
+
+# Enable auto update
+auto-update: false
+
+# Language file
+# loaded from "lang" folder
+# supported languages: en-US, zh-CN, zh-TW
+## !!! Please change this before this plugin is added to live server,
+## since current Slimefun recipe system cannot recognize items with same id but different names
+lang: zh-CN
+
+# Enable researches
+enable-researches: true
+
+# DO NOT change this
+version: 2

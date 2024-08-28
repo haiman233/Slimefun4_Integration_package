@@ -1,0 +1,15 @@
+storageType: SQLITE
+base64EncodeVal: true
+readExecutorThread: 7
+writeExecutorThread: 3
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: ''
+  tablePrefix: ''
+  user: ''
+  password: ''
+  useSSL: false
+  maxConnection: 10
+sqlite:
+  maxConnection: 5

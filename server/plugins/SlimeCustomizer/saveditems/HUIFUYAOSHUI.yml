@@ -1,0 +1,43 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: SPLASH_POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"italic":false,"extra":[{"text":""},{"text":"error"}],"text":""}'
+    lore:
+    - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"none"}],"text":""}'
+    enchants:
+      BINDING_CURSE: 255
+    ItemFlags:
+    - HIDE_ENCHANTS
+    Unbreakable: true
+    potion-type: minecraft:regeneration
+    custom-color:
+      ==: Color
+      RED: 212
+      BLUE: 255
+      GREEN: 149
+    custom-effects:
+    - ==: PotionEffect
+      effect: 21
+      duration: 20
+      amplifier: 90
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 6
+      duration: 2
+      amplifier: 90
+      ambient: false
+      has-particles: true
+      has-icon: true
+    - ==: PotionEffect
+      effect: 5
+      duration: 1
+      amplifier: 90
+      ambient: false
+      has-particles: true
+      has-icon: true

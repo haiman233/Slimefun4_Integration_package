@@ -1,0 +1,77 @@
+HiveCorporation_Main_Group:
+  type: nested
+  tier: 8
+  item:
+    name: "&6&lH公司"
+    material: 9db02b040c37015892a3a43d3b1bfdb2e01a02edcc2f5b82250dcebf3ff4f01e
+HiveCorporation_Group_Library:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&e档案部 (Library Department)"
+    material: d2e37ae2eea04de59c59e66de8e96130958a188a0cc0477e2cb3fb43c0c2d929
+
+HiveCorporation_Group_Core:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&e核心部 (Core Department)"
+    material: 8f00169f766979dfd68cb4d436e8c11054f5f177c13dd26459ee7b7dbd0d63f5
+HiveCorporation_Group_Human:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&d人力部 (Human Department)"
+    material: 4121481e8b1516ba924bd1df511da2adb75412ad2d4e60cdfe8e229e5cf32e32
+
+HiveCorporation_Group_Energy:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&6能源部 (Energy Department)"
+    material: 4ebee888f2b8f373aa23c5e0eab411ce3e11a592a81af46bd6d8eeb63104ab59
+
+HiveCorporation_Group_Machine:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&3机械部 (Industry Department)"
+    material: 98b56c01d8faf8dce6f86c8281c0bfed005e09fa4d81c21d8465a333a9d46f03
+HiveCorporation_Group_Technology:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&c技术部 (Technology Department)"
+    material: d61bcb0377adcbd16945cb74eefbfca88447100bd118d25564ee777cf541b092
+
+
+HiveCorporation_Group_Resources:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&f物资部 (Resources Department)"
+    material: 7dba1bbe5ed3760c0969b948c97909b3956736453a33537a6c2270f8a246ce11
+HiveCorporation_Group_Purchase:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&a市场部 (Purchase Department)"
+    material: 5f8d6e05b7d6aee74a2bd3a0b1e482d669061d12b5edaf9850fd3fdd7c66aca3
+HiveCorporation_Group_Finance:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&e财政部(Finance Department)"
+    material: 49bd016df5400664f31f48eb27276835bf4a7b67de0e2684d7d11329f26026cf
+HiveCorporation_Group_L_Region:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&8十二区分部 (L Region Department)"
+    material: eb152a049058a9bdd562f5414b138cd535bf012f7cc4b38712328a9ff0ba9d6b
+HiveCorporation_Group_Beekeeper:
+  type: sub
+  parent: "HiveCorporation_Main_Group"
+  item:
+    name: "&7养蜂人工坊 (Beekeeper Workshop)"
+    material: 9b22b269bbb6ade099545a2edca6ab0d173be69dcad1315be8a7ef7642e0f272

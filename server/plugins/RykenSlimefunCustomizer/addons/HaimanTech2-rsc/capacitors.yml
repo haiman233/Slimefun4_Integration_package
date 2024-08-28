@@ -1,0 +1,282 @@
+CHOU_CAPACITOR:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&c&l先辈电容'
+    lore:
+    - '&7哼!哼啊啊啊啊!'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 114514 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 1
+  capacity: 114514
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    3:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    5:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    6:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    7:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    9:
+      material_type: mc
+      material: IRON_BLOCK
+      amount: 1
+FEI_CAPACITOR:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&c&l费牌电容'
+    lore:
+    - '&7电容量小到极点了'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1 J 可存储'
+    material_type: skull_hash
+    material: 91361e576b493cbfdfae328661cedd1add55fab4e5eb418b92cebf6275f8bb4
+    amount: 4
+  capacity: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    4:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    6:
+      material_type: mc
+      material: DIRT
+      amount: 1
+    8:
+      material_type: mc
+      material: DIRT
+      amount: 1
+ZHISHU_CAPACITOR:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&6&l最小质数电容'
+    lore:
+    - '&7最小质数：2'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 2 J 可存储'
+    material: REPEATER
+    amount: 1
+  capacity: 2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    3:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    5:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    7:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    9:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+HESHU_CAPACITOR:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&6&l最小合数电容'
+    lore:
+    - '&7最小合数：4'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 4 J 可存储'
+    material: COMPARATOR
+    amount: 1
+  capacity: 4
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    3:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ZHISHU_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    7:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FEI_CAPACITOR
+      amount: 1
+    9:
+      material_type: mc
+      material: COPPER_INGOT
+      amount: 1
+YINGXINGDIANRONG:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&e&l隐形电容'
+    lore:
+    - '&7有光，但摸不着'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 524288 J 可存储'
+    material: LIGHT
+    amount: 1
+  capacity: 524288
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    2:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    3:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    4:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+      amount: 1
+    6:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    7:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    8:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+    9:
+      material_type: mc
+      material: LIGHT
+      amount: 1
+DITAN_DIANRONG:
+  lateInit: false
+  item_group: haiman_jiaju
+  item:
+    name: '&f&l地毯电容'
+    lore:
+    - '&7可以完美的融入家里铺的一群地毯中'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 524288 J 可存储'
+    material: WHITE_CARPET
+    amount: 1
+  capacity: 524288
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    2:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    3:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    4:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+      amount: 1
+    6:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    7:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    8:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1
+    9:
+      material_type: mc
+      material: WHITE_CARPET
+      amount: 1

@@ -1,0 +1,1096 @@
+BOCCHI_TANYTJG:
+  category: bocchi_nyydl
+  machine-name: '&b波奇煤炭制造机'
+  machine-lore:
+  - '&7更高效的提取碳元素'
+  block-type: SKULLec4f77f6e708ef5d20bb216c3cd28456b5ec9473a6c80db98f5be32e8b035f41
+  progress-bar-item: COAL
+  stats:
+    energy-consumption: 50
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: COAL_SINGULARITY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_MINER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: BOCCHI_BQC
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 42
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 20
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: COPPER_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 15
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 30
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: LAPIS_LAZULI
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 19
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_GOLD_ORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+BOCCHI_YOUZHUANHUANQI:
+  category: bocchi_nyydl
+  machine-name: '&b波奇放射转换器'
+  machine-lore:
+  - '&7利用放射物质转换性质'
+  block-type: SKULLab478a4b2622ee44e81ad019f5302985659de8c382d29f0ef21e993d43d87d3
+  progress-bar-item: IRON_BLOCK
+  stats:
+    energy-consumption: 2000
+    energy-buffer: 8000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: BOCCHI_EGOBKL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LIANG_EGOLQC
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: BOCCHI_JIQIHEXIN
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: XDYD_EGOGQLX
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HXMM_EGOGQLX
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 10
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 10
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BOOSTED_URANIUM
+          amount: 10
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+BOCCHI_XINPIANZHIZAOJI:
+  category: bocchi_nyydl
+  machine-name: '&b波奇芯片雕刻机'
+  machine-lore:
+  - '&7在空白模板上雕刻集成电路'
+  block-type: SKULLfd9cbf5eb0893c6de5f1c752968a19ee7307e06c926987ef8733658c1ddec71a
+  progress-bar-item: COAL
+  stats:
+    energy-consumption: 400000
+    energy-buffer: 30000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FORCEFIELD_ENGINE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FORCEFIELD_ENGINE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: WIRELESS_TRANSMITTER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOCCHI_HXDKHX
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BOCCHI_HXDKHX
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOCCHI_HXDKHX
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZOMBIE_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: COOKED_CHICKEN
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHICKEN_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: PHANTOM_MEMBRANE
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PHANTOM_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: VEX_GEM
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: VEX_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: SEA_LANTERN
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GUARDIAN_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: ENDER_EYE
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDERMEN_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: EMERALD
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: VILLAGER_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: GUNPOWDER
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CREEPER_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: BONE
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SKELETON_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: WITHER_SKELETON_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: CAULDRON
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: WITCH_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: IRON_GOLEM_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: HONEY_BLOCK
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BEE_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: WHITE_WOOL
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SHEEP_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: SLIME_BLOCK
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: MAGMA_CREAM
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGMA_CUBE_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDER_DRAGON_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: EMPTY_DATA_CARD
+          amount: 1
+        '2':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: WITHER_DATA_CARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+BOCCHI_WUJINGONGZUOTAI:
+  category: bocchi_nyydl
+  machine-name: '&b波奇电动无尽工作台'
+  machine-lore:
+  - '&7全自动控制集成力量'
+  block-type: SKULLf660d65f097ea1423b4802a7ce9ceef818130aac3b6fd878aef716e40291bacb
+  progress-bar-item: IRON_BLOCK
+  stats:
+    energy-consumption: 4000000
+    energy-buffer: 300000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MACHINE_CORE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MACHINE_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MACHINE_CORE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_ANVIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_FORGE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_ANVIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOCCHI_HXDKHX
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BOCCHI_HXDKHX
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOCCHI_HXDKHX
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: VOID_INGOT
+          amount: 12
+        '2':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 20
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_MACHINE_CIRCUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MACHINE_CORE
+          amount: 40
+        '2':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 20
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_MACHINE_CORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ADVANCED_TREE_GROWER
+          amount: 12
+        '2':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 20
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_TREE_GROWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ADVANCED_VIRTUAL_FARM
+          amount: 12
+        '2':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 20
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_VIRTUAL_FARM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: VOID_INGOT
+          amount: 16
+        '2':
+          type: SLIMEFUN
+          id: ADVANCED_COBBLE_GEN
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_COBBLE_GEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 30
+        '2':
+          type: SLIMEFUN
+          id: SINGULARITY_CONSTRUCTOR
+          amount: 6
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_CONSTRUCTOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 30
+        '2':
+          type: SLIMEFUN
+          id: INFINITY_PICKAXE
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_QUARRY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 30
+        '2':
+          type: SLIMEFUN
+          id: INGOT_FORMER
+          amount: 6
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_INGOT_FORMER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 30
+        '2':
+          type: SLIMEFUN
+          id: DUST_EXTRACTOR
+          amount: 6
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_DUST_EXTRACTOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 64
+        '2':
+          type: SLIMEFUN
+          id: VOID_PANEL
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_PANEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 64
+        '2':
+          type: SLIMEFUN
+          id: ADVANCED_NETHER_STAR_REACTOR
+          amount: 10
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_REACTOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 40
+        '2':
+          type: SLIMEFUN
+          id: VOID_HARVESTER
+          amount: 10
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_VOID_HARVESTER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 40
+        '2':
+          type: SLIMEFUN
+          id: ADVANCED_CHARGER
+          amount: 10
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_CHARGER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 40
+        '2':
+          type: SLIMEFUN
+          id: COMPRESSED_COBBLESTONE_5
+          amount: 30
+      output:
+        '1':
+          type: SLIMEFUN
+          id: POWERED_BEDROCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 64
+        '2':
+          type: VANILLA
+          id: ELYTRA
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_MATRIX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 40
+        '2':
+          type: SLIMEFUN
+          id: VOID_CAPACITOR
+          amount: 30
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_CAPACITOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1

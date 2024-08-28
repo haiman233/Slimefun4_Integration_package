@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: CHEST
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"渔夫的礼物"}],"text":""}'
+    internal: H4sIAAAAAAAA/w3IMQ6AIAwAwI7K4Ecc+IOJmyM7qaYUYqFGGxN+rzeeA3AwLaLHuTYr1gPyAOOmagF3IZgZK12C3We6NWqKlim+RQSZfCrP3xVb5JIM4ANRgs/DTwAAAA==
+    blockMaterial: CHEST

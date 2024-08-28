@@ -1,0 +1,36 @@
+options:
+  auto-update: false
+  # Should custom names be used to show resources
+  display-resource-in-name: true
+  # The max number of heterozygous genes a newly converted chicken can generate, from 1-6
+  max-mutation: 2
+  # The percent chance that a newly converted chicken will have any recessive alleles
+  mutation-rate: 50
+  # The percent chance that a chicken will produce an egg instead of a resource
+  resource-fail-rate: 0
+  # The base time for resource generation, from 14-100
+  resource-base-time: 14
+  # Should the machines hurt the chickens (This enables the Restoration Chamber)
+  enable-pain: false
+  # The percent chance that a chicken will be hurt by a machine (other than the Restoration Chamber)
+  # This check happens once every 0.5 seconds, so low values will be best here
+  # The default, 2% will give chickens an average of 6 minutes before exhausted
+  pain-chance: 2
+  # Does a chicken die if too hurt (otherwise prevents machine from working)
+  pain-kills: false
+  # The time it should take the Restoration Chamber to restore 0.25 of a chicken's health
+  heal-rate: 2
+  # Should Water Eggs be able to be used in Nether environments
+  allow-nether-water: false
+commands:
+  # Should commands be enabled
+  enabled: true
+  subcommands:
+    makechicken:
+      # Should this command be enabled
+      enabled: true
+      # What permissions are necessary for this command
+      permission: geneticchickengineering.command.makechicken
+    calculatechance:
+      enabled: true
+      permission: geneticchickengineering.command.calculatechance

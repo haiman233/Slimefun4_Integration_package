@@ -1,0 +1,11 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTATO
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"§e无§a尽§b土§d豆"}'
+    enchants:
+      FIRE_ASPECT: 255
+      KNOCKBACK: 20

@@ -1,0 +1,73 @@
+
+# 自动更新
+auto-update: false
+
+# 爆炸设置
+explosions:
+
+  # 钢筋混凝土 爆炸几率
+  concrete-explode-chance: 10
+
+# 枪械设置
+guns:
+
+  # 自动射击 (蹲下)
+  autoshoot: true
+
+  # 开启该选项时，子弹将从物品栏中消耗
+  # 关闭该选项时，子弹将仅从副手消耗
+  # 如果射击导致服务器严重卡顿，关闭该选项
+  use-bullets-from-inv: true
+
+  # 开启最小射击范围可以增加平衡性
+  # 关闭后不再有最小射击范围的限制
+  min-range-on: true
+
+  # 是否开启能量武器的爆炸
+  energy-rifle-explosions: false
+
+  # 破坏石头时硼砂的掉落几率
+  # 百分比（0-100），可以是小数
+  borax-drop-chance: 2.0
+
+# 太空设置
+space:
+
+  # 流星吸引器吸引流星时
+  # 吸引赛格尼森流星的几率（取代锇流星）
+  # 百分比（0-100）
+  segganesson-chance: 25
+
+  # 流星吸引器激活和流星坠落之间的最小间隔时间（单位：分钟）
+  meteor-min-time: 10
+
+  # 流星吸引器激活和流星坠落之间的最大间隔时间（单位：分钟）
+  meteor-max-time: 30
+
+  # 流星吸引器激活的冷却时间（单位：分钟）
+  attractor-cooldown: 1
+
+  # 流星坠落距离吸引器的半径
+  # 流星坠落范围为正方形
+  # 该范围为正方形边长的一半
+  # 例如，默认为100时，坠落区域为周围200x200的区域
+  meteor-drop-radius: 100
+
+# 动力装甲设置
+suits:
+
+  # 装备动力装甲时飞行是否在脚下显示蓝色粒子效果
+  flight-particles: true
+
+  # 启用该选项时，元素锻造台将使用铁块而不是下界合金块作为边角方块
+  legacy-element-forge: false
+
+# 雷达设置(该部分已删除)
+radar:
+  show-players: true
+  show-mobs: true
+  show-energy-nets: true
+  show-gps: true
+
+  # The distance up/down that the radar can see
+  y-range: 30

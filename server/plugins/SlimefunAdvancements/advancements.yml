@@ -1,0 +1,187 @@
+portable_workbench:
+  group: basic
+  display:
+    type: CRAFTING_TABLE
+    name: "&a便携合成"
+    lore:
+      - "使用一次便携工作台"
+  name: "&a[便携合成]"
+  criteria:
+    interact:
+      name: "使用一次便携工作台"
+      type: interact
+      amount: 1
+      item:
+        type: PORTABLE_CRAFTER
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+dust:
+  group: basic
+  display:
+    type: GUNPOWDER
+    name: "&a变成粉末"
+    lore:
+      - "使用一次矿石粉碎机"
+  name: "&a[变成粉末]"
+  criteria:
+    inventory:
+      name: "使用一次矿石粉碎机"
+      type: multiblock
+      multiblock: ORE_CRUSHER
+
+electricity:
+  group: electric
+  display:
+    type: ENERGY_REGULATOR
+    name: "&a电力!!!"
+    lore:
+      - "放置一个能源调节器"
+  name: "&a[电力!!!]"
+  criteria:
+    build:
+      name: "放置一个能源调节器"
+      type: place
+      amount: 1
+      item:
+        type: ENERGY_REGULATOR
+
+gapple_juice:
+  group: other
+  display:
+    type: GOLDEN_APPLE_JUICE
+    name: "&a尝起来像陈年老酒"
+    lore:
+      - "饮用金苹果汁"
+  name: "&a[尝起来像陈年老酒]"
+  criteria:
+    consume:
+      name: "饮用金苹果汁"
+      type: consume
+      amount: 5
+      item:
+        type: GOLDEN_APPLE_JUICE
+
+industrial_revolution:
+  group: electric
+  display:
+    type: FURNACE
+    name: "&a工业革命"
+    lore:
+      - "获得以下物品:"
+      - "电力碎矿机, 电动淘金机, 电动洗矿机, 电动铸锭机"
+  name: "&a[工业革命]"
+  criteria:
+    oregrinder:
+      name: "获得电力碎矿机"
+      type: inventory
+      item:
+        type: ELECTRIC_ORE_GRINDER
+    goldpan:
+      name: "获得电动淘金机"
+      type: inventory
+      item:
+        type: ELECTRIC_GOLD_PAN
+    dustwasher:
+      name: "获得电动洗矿机"
+      type: inventory
+      item:
+        type: ELECTRIC_DUST_WASHER
+    ingotfactory:
+      name: "获得电动铸锭机"
+      type: inventory
+      item:
+        type: ELECTRIC_INGOT_FACTORY
+
+exploding_tools:
+  group: other
+  display:
+    type: EXPLOSIVE_PICKAXE
+    name: "&a爆炸工具"
+    lore:
+      - "获得爆炸镐和爆炸铲"
+  name: "&a[Exploding Tools]"
+  criteria:
+    pickaxe:
+      name: "获得爆炸镐"
+      type: inventory
+      item:
+        type: EXPLOSIVE_PICKAXE
+    shovel:
+      name: "获得爆炸铲"
+      type: inventory
+      item:
+        type: EXPLOSIVE_SHOVEL
+
+fake_diamond:
+  group: basic
+  display:
+    type: SYNTHETIC_DIAMOND
+    name: "&a人造钻石"
+    lore:
+      - "获得一块人造钻石"
+  name: "&a[人造钻石]"
+  criteria:
+    diamond:
+      name: "获得一块人造钻石"
+      type: inventory
+      item:
+        type: SYNTHETIC_DIAMOND
+
+carbonado:
+  group: basic
+  display:
+    type: CARBONADO
+    name: "&a闪耀的黑色钻石"
+    lore:
+      - "获得一块黑金刚石"
+  name: "&a[闪耀的黑色钻石]"
+  criteria:
+    carbonado:
+      name: "获得一块黑金刚石"
+      type: inventory
+      item: CARBONADO
+
+black_gold:
+  group: basic
+  display:
+    type: BUCKET_OF_OIL
+    name: "&a黑色黄金"
+    lore:
+      - "获得原油桶"
+  name: "&a[黑色黄金]"
+  criteria:
+    oil:
+      name: "获得原油桶"
+      type: inventory
+      item: BUCKET_OF_OIL
+
+ender_charms:
+  group: magical
+  display:
+    type: ENDER_PEARL
+    name: "&a末影的魅力"
+    lore:
+      - "研究末影护身符"
+  name: "&a[末影的魅力]"
+  criteria:
+    research:
+      name: "研究末影护身符"
+      type: research
+      research: "slimefun:ender_talismans"
+
+who_asked:
+  group: other
+  display:
+    type: MAP
+    name: "&a谁问了问题?"
+    lore:
+      - "搜索 who asked"
+  name: "&a[谁问了问题?]"
+  criteria:
+    ask:
+      name: "搜索 who asked"
+      type: search
+      search: "who asked"
+  hidden: true

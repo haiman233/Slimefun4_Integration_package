@@ -1,0 +1,10 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 8
+      DURABILITY: 10

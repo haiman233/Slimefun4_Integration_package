@@ -1,0 +1,6 @@
+FN_BLOCK_BREAKER_I:
+  tickrate: 12
+FN_BLOCK_BREAKER_II:
+  tickrate: 6
+FN_BLOCK_BREAKER_III:
+  tickrate: 2

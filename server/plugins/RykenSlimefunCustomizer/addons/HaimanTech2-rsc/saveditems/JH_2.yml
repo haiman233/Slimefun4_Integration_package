@@ -1,0 +1,23 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: WRITABLE_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"结婚邀请函"}],"text":""}'
+    pages:
+    - |
+      由于李康贤和water的01测试结果一样
+      所以在下周目将会结婚(bushi
+      （赔款还是要的）
+      邀请函奥这个是
+      来参加要带份子钱
+      如下
+      钻石x1 金锭x2
+    - |-
+      由SSRmengxin作为司仪
+      男方:water_520
+      女方:likangxian1007
+      礼堂需众筹工程师来建筑(指有时间就来建
+      预计将在2022年8月15号开始举行

@@ -1,0 +1,23 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"粒子对撞机"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"制造新元素的起点"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"粒子物理的新篇章就此打开"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"12,000
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"24,000
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02Py06DQBhGf01NcOpDGPcaoLamGhcGgh3CDJZSbjugU7nMtISCgW5MXPhEPpPP4FLcuTzf+TYHASC4WJUt5y/1fptzJsGIxoIB0lbX2r5mVp4gQIOsWN3k7HAOUsO6pq3ZAQHAiQRnXsxbBl+sN+UoyORNYPK0x7OB3ZXMbVxUd3jn9YmGZ1gMfvE0s/r5v++0if0pDydmFu2WbSI82Zo4nC0cJRXrN3oMb6kbZfZzeKQqVsMj6aj+tzmCCJqFbtoR3cht3ympW/ZRsVRpwTOikgn1wynVDU6KV8V21woRZkl8g9uaOd8G8iPAGE7xZggZXRrxj/H5cPNxNX6Xq+97gF+CAdN2HQEAAA==
+    PublicBukkitValues:
+      slimefun:slimefun_item: NUCLEAR_DECAY_INTEGRATED_MACHINE_3
+    skull-owner: CS-CoreLib

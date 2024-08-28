@@ -1,0 +1,3928 @@
+XKWZZZJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&8虚空物质制造机'
+    lore:
+    - '&7能将虚空卡与虚空锭融合为虚空物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: CRYING_OBSIDIAN
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: VOID_QUARRY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: VOID_HARVESTER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITE_VOID_HARVESTER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: VOID_HARVESTER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: VOID_QUARRY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: XUKK
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 60
+      output:
+        1:
+          material_type: slimefun
+          material: XUKWZ
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XUKK
+          amount: 64
+        2:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 64
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+TSQDGZJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&6特殊&b奇点构造机'
+    lore:
+    - '&7制造特殊的奇点'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: QUARTZ_PILLAR
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SINGULARITY_CONSTRUCTOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_CONSTRUCTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SINGULARITY_CONSTRUCTOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: XKQD
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XUKWZ
+          amount: 64
+        2:
+          material_type: slimefun
+          material: XUKK
+          amount: 64
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CJWJQD
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 64
+    '3':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: WJXKQD
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: WJXKD
+          amount: 64
+        2:
+          material_type: slimefun
+          material: MAGNONIUM
+          amount: 64
+    '4':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: DCQD
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DCK
+          amount: 64
+        2:
+          material_type: slimefun
+          material: REDSTONE_ALLOY
+          amount: 64
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJKPJQD:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽卡片机-&e奇点'
+    lore:
+    - '&7能无限产超多奇点并且不消耗无尽卡'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: SMOKER
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJKPJWZDWP
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJKPJJHHX
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_CONSTRUCTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: COPPER_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ZINC_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '3':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: TIN_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '4':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '5':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: SILVER_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '6':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '7':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: LEAD_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '8':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: GOLD_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '9':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: IRON_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: IRON_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '10':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: DIAMOND_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: DIAMOND_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '11':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: EMERALD_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: EMERALD_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '12':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: NETHERITE_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: NETHERITE_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '13':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COAL_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: COAL_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '14':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: REDSTONE_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: REDSTONE_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '15':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LAPIS_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: LAPIS_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '16':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: QUARTZ_SINGULARITY
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: QUARTZ_SINGULARITY
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJKPJKW:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽卡片机-&e矿物'
+    lore:
+    - '&7能无限产超多矿物并且不消耗无尽卡'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: BLAST_FURNACE
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJKPJWZDWP
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJKPJJHHX
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_COBBLE_GEN
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '3':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '4':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '5':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '6':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '7':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '8':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '9':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: IRON_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '10':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: DIAMOND
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '11':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: EMERALD
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: EMERALD
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '12':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHERITE_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: NETHERITE_INGOT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '13':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: COAL
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: COAL
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '14':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: REDSTONE
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: REDSTONE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '15':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: LAPIS_LAZULI
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAPIS_LAZULI
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+    '16':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: QUARTZ
+          amount: 64
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: QUARTZ
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJK
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+CZJ1:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b重组机&7-&eI'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 88803e55b8d2fd96ef8bf857382130f19007012d4b3218b5ab112e2935b3d6d4
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CZDXH
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CZDXL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WUJINCL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+VERSIONED_CZJ1:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b重组机&7-&eI'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 88803e55b8d2fd96ef8bf857382130f19007012d4b3218b5ab112e2935b3d6d4
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CZDXH
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CZDXL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WUJINCL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 30
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+  id_alias: CZJ1
+  register:
+    conditions:
+    - version >= 1.20.5
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+CZJ2:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b重组机&7-&eII'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: cb8f07289cc6277da3ab1cf103d1776c0a077f3393e5daa88855bba5c85ab230
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WUJINCL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANCIENT_RUNE_ENCHANTMENT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZJ1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJKPJWZDWP
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADVANCED_NETHER_STAR_REACTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_GEO_MINER
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+    '10':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '11':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+    '12':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '13':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+    '14':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 1
+    '15':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+    '16':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: ENDER_CHEST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHEST
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+VERSIONED_CZJ2:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b重组机&7-&eII'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: cb8f07289cc6277da3ab1cf103d1776c0a077f3393e5daa88855bba5c85ab230
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WUJINCL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANCIENT_RUNE_ENCHANTMENT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZJ1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJKPJWZDWP
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADVANCED_NETHER_STAR_REACTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_GEO_MINER
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+    '10':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '11':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+    '12':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '13':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+    '14':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 1
+    '15':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+    '16':
+      seconds: 20
+      output:
+        1:
+          material_type: mc
+          material: ENDER_CHEST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHEST
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+  id_alias: CZJ2
+  register:
+    conditions:
+    - version >= 1.20.5
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+CZJ3:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b重组机&7-&eIII'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 31f748a43f3b3ada04f44d5d290a8b9bf583d93e1c83ab93c60c4dec1fde1c5c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITY_COBBLE_GEN
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_VIRTUAL_FARM
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZJ2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITY_TREE_GROWER
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_INGOT_FORMER
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_QUARRY
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+    '10':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '11':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+    '12':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '13':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+    '14':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 1
+    '15':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+    '16':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: ENDER_CHEST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHEST
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '17':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: TNT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 6
+    '18':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: ENDER_EYE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '19':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WHEAT_SEEDS
+          amount: 1
+    '20':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: BOOK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PAPER
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+VERSIONED_CZJ3:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b重组机&7-&eIII'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 31f748a43f3b3ada04f44d5d290a8b9bf583d93e1c83ab93c60c4dec1fde1c5c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITY_COBBLE_GEN
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITY_VIRTUAL_FARM
+      amount: 1
+    3:
+      material_type: slimefun
+      material: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZJ2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITY_TREE_GROWER
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_INGOT_FORMER
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_QUARRY
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+    '10':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '11':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+    '12':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '13':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+    '14':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 1
+    '15':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+    '16':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: ENDER_CHEST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHEST
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '17':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: TNT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 6
+    '18':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: ENDER_EYE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '19':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WHEAT_SEEDS
+          amount: 1
+    '20':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: BOOK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PAPER
+          amount: 1
+  id_alias: CZJ3
+  register:
+    conditions:
+    - version >= 1.20.5
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJCZJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽重组机'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 5a612316f8d69ca18184462bd64e1ddb8df99f0df6f9c9c02b4c1a41c132ad97
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJCZK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZJ1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZJ2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CZJ3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+    '10':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SCUTE
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '11':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+    '12':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '13':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+    '14':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 1
+    '15':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+    '16':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ENDER_CHEST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHEST
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '17':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: TNT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 6
+    '18':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ENDER_EYE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '19':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WHEAT_SEEDS
+          amount: 1
+    '20':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: BOOK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PAPER
+          amount: 1
+    '21':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: WJMG
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+    '22':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: XKMG
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+VERSIONED_WJCZJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽重组机'
+    lore:
+    - '&7能将某种物质重组为另一种物质'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 5a612316f8d69ca18184462bd64e1ddb8df99f0df6f9c9c02b4c1a41c132ad97
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJCZK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: CZJ1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CZJ2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CZJ3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_HIDE
+          amount: 1
+        2:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 1
+    '3':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FEATHER
+          amount: 1
+        2:
+          material_type: mc
+          material: COD
+          amount: 1
+    '4':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 64
+    '5':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_BUTTON
+          amount: 1
+        2:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '6':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 5
+    '7':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HONEY_BOTTLE
+          amount: 1
+    '8':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: COAL
+          amount: 64
+    '9':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+    '10':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TURTLE_SCUTE
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '11':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+    '12':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '13':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+    '14':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+        2:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 1
+    '15':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: mc
+          material: LAVA_BUCKET
+          amount: 1
+    '16':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ENDER_CHEST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHEST
+          amount: 1
+        2:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '17':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: TNT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 6
+    '18':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ENDER_EYE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 1
+    '19':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WHEAT_SEEDS
+          amount: 1
+    '20':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: BOOK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PAPER
+          amount: 1
+    '21':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: WJMG
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+    '22':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: XKMG
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 1
+        2:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+  id_alias: WJCZJ
+  register:
+    conditions:
+    - version >= 1.20.5
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJDYTJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&e无&a尽&b锭&d一&5体&6机'
+    lore:
+    - '&7该机器可将一个铁锭转换为两个无尽锭'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: a56e0d46e7010d4bad3e6803ffa4ed88669113a81f99499a1cce6473f1e08a3c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJMG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJYTHX
+      amount: 1
+    6:
+      material_type: slimefun
+      material: XKMG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 2
+      input:
+        1:
+          material_type: mc
+          material: IRON_INGOT
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+CJWJDYTJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&e超&a级&b无&d尽&5锭&6一&c体&9机'
+    lore:
+    - '&7该机器可将一个铁锭转换为一组无尽锭'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 3c930d20d04ac9921b49a599ad99b997667034e50285a3e8e22a7a7e6f24b73e
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJMG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJDYTJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: XKMG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 64
+      input:
+        1:
+          material_type: mc
+          material: IRON_INGOT
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+XKZWJJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b虚空转无尽机'
+    lore:
+    - '&7该机器可将四个虚空锭转换为一个无尽锭'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: CHISELED_DEEPSLATE
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: TSQDGZJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CJWJTD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITY_REACTOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITE_VOID_HARVESTER
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_STORAGE
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 360
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 4
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJMGYZJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽玫瑰养殖机'
+    lore:
+    - '&7养殖无尽玫瑰与虚空玫瑰'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: BEACON
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJMG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJMGYL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: XKMG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 120
+      output:
+        1:
+          material_type: slimefun
+          material: WJMG
+          amount: 2
+      input:
+        1:
+          material_type: slimefun
+          material: WJMG
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJMGYL
+          amount: 1
+    '2':
+      seconds: 120
+      output:
+        1:
+          material_type: slimefun
+          material: XKMG
+          amount: 2
+      input:
+        1:
+          material_type: slimefun
+          material: XKMG
+          amount: 1
+        2:
+          material_type: slimefun
+          material: WJMGYL
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJQDFZJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&b无尽奇点复制机'
+    lore:
+    - '&7该机器可将一个无尽奇点复制成两个'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1024 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material: WARPED_WART_BLOCK
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WUJINCL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: WJJS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WUJINCL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJKPJQD
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WJK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: XKQD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CJWJQD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WJXKQD
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 60
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 2
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WJCLHCJ:
+  lateInit: false
+  item_group: wujinkuozhan
+  item:
+    name: '&6无尽物品&b合成机'
+    lore:
+    - '&7自动制作无尽物品'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 96000 J 可存储'
+    - '&8⇨ &e⚡&7 48000 J/s'
+    material: RESPAWN_ANCHOR
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WJYTHX
+      amount: 1
+    2:
+      material_type: slimefun
+      material: XKMG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WJYTHX
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INFINITY_REACTOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WJCZK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITY_REACTOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WJYTHX
+      amount: 1
+    8:
+      material_type: slimefun
+      material: WJMG
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WJYTHX
+      amount: 1
+  capacity: 96000
+  energyPerCraft: 24000
+  recipes:
+    '1':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_MACHINE_CIRCUIT
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 12
+        2:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 8
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_MACHINE_CORE
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MACHINE_CORE
+          amount: 8
+        2:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 12
+    '3':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_VOID_HARVESTER
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 2
+        2:
+          material_type: slimefun
+          material: VOID_HARVESTER
+          amount: 2
+    '4':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_CONSTRUCTOR
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 2
+        2:
+          material_type: slimefun
+          material: SINGULARITY_CONSTRUCTOR
+          amount: 4
+    '5':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_CONSTRUCTOR
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 20
+        2:
+          material_type: slimefun
+          material: ADVANCED_COBBLE_GEN
+          amount: 16
+    '6':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_VIRTUAL_FARM
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 2
+        2:
+          material_type: slimefun
+          material: ADVANCED_VIRTUAL_FARM
+          amount: 2
+    '7':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_TREE_GROWER
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 2
+        2:
+          material_type: slimefun
+          material: ADVANCED_TREE_GROWER
+          amount: 2
+    '8':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_DUST_EXTRACTOR
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 2
+        2:
+          material_type: slimefun
+          material: DUST_EXTRACTOR
+          amount: 2
+    '9':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_QUARRY
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 2
+        2:
+          material_type: slimefun
+          material: VOID_QUARRY
+          amount: 2
+    '10':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITY_REACTOR
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 4
+        2:
+          material_type: slimefun
+          material: ADVANCED_NETHER_STAR_REACTOR
+          amount: 2
+    '11':
+      seconds: 1
+      output:
+        1:
+          material_type: slimefun
+          material: INFINITE_PANEL
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: XWD
+          amount: 4
+        2:
+          material_type: slimefun
+          material: VOID_PANEL
+          amount: 10
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
