@@ -2,7 +2,6 @@
 ## 统计
 
 ![当前版本](https://img.shields.io/github/v/release/haiman233/Slimefun4_Integration_package?include_prereleases)
-![下载数](https://img.shields.io/github/downloads/haiman233/Slimefun4_Integration_package/total)
 
 ## 前言
 
