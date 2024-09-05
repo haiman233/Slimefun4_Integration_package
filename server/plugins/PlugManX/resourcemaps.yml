@@ -1,0 +1,58 @@
+Resources:
+  BetterSleeping3:
+    ID: 60837
+    spigotmc: true
+  AntiXRay:
+    ID: 40729
+    spigotmc: false
+  DeadChest:
+    ID: 322882
+    spigotmc: false
+  DeathCoordinates:
+    ID: 43318
+    spigotmc: true
+  dynmap:
+    ID: 274
+    spigotmc: true
+  Dynmap-Essentials:
+    ID: 35085
+    spigotmc: false
+  Dynmap-GriefPrevention:
+    ID: 37535
+    spigotmc: false
+  Essentials:
+    ID: 9089
+    spigotmc: true
+  EssentialsChat:
+    ID: 9089
+    spigotmc: true
+  EssentialsGeoIP:
+    ID: 9089
+    spigotmc: true
+  EssentialsSpawn:
+    ID: 9089
+    spigotmc: true
+  Jobs:
+    ID: 4216
+    spigotmc: true
+  PetMaster:
+    ID: 15904
+    spigotmc: true
+  ServerUtils:
+    ID: 79599
+    spigotmc: true
+  ServerSystem:
+    ID: 78974
+    spigotmc: true
+  TimeIsMoney:
+    ID: 12409
+    spigotmc: true
+  TogglePvp:
+    ID: 44918
+    spigotmc: true
+  TreeGravity:
+    ID: 59283
+    spigotmc: true
+  Vault:
+    ID: 34315
+    spigotmc: true

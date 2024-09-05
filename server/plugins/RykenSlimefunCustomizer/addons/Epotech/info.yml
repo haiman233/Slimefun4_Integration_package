@@ -1,0 +1,17 @@
+id: EpoTech
+name: EpoTech
+depends: []
+scriptListener: 怪物掉落
+pluginDepends:
+- FNAmplifications
+- InfinityExpansion
+- LiteXpansion
+- GuizhanLibPlugin
+- MomoTech
+- Supreme
+- FoxyMachines
+version: Release-1.0.1
+description: 脑洞大爆炸
+authors:
+- J_ump
+repo: Jump9527/SlimeFun-RSC-EpoTech

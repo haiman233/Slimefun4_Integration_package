@@ -1,0 +1,289 @@
+JP_YSDDJ_C:
+   item_group: jp_jq
+   item:
+     material_type: skull_hash
+     material: 256590d49b700a2a4451030e29a0f14d3936294cabf7fce9c98f24d4c28d2493
+     name: '&a&l压缩堆叠机_复制'
+     lore:
+     - '&4给个别机器提供的极致压缩'
+     - '&8⇨ &e⚡&7 300000 J 可存储'
+     - '&8⇨ &e⚡&7 50000 J/s'
+   recipe_type: ENHANCED_CRAFTING_TABLE
+   recipe:
+    1:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_ZNKZZX
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_DDJFZMK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_DDJFZMK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANDROID_MEMORY_CORE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+   consumption: 50000
+   capacity: 300000
+   templateSlot: 0
+   input: [2,3,4,5,6,7,8]
+   output: [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
+   fasterIfMoreTemplates: false
+   moreOutputIfMoreTemplates: true
+   recipes:
+     JP_FC_FW:
+       1:
+         seconds: 5
+         output:
+          1:
+            material_type: slimefun
+            material: REINFORCED_ALLOY_INGOT
+            amount: 1
+          2:
+            material_type: slimefun
+            material: DAMASCUS_STEEL_INGOT
+            amount: 1  
+          3:
+            material_type: slimefun
+            material: STEEL_INGOT
+            amount: 1
+          4:
+            material_type: slimefun
+            material: BRONZE_INGOT
+            amount: 1   
+          5:
+            material_type: slimefun
+            material: DURALUMIN_INGOT
+            amount: 1
+          6:
+            material_type: slimefun
+            material: BILLON_INGOT
+            amount: 1  
+          7:
+            material_type: slimefun
+            material: BRASS_INGOT
+            amount: 1
+          8:
+            material_type: slimefun
+            material: ALUMINUM_BRASS_INGOT
+            amount: 1
+          9:
+            material_type: slimefun
+            material: CORINTHIAN_BRONZE_INGOT
+            amount: 1
+          10:
+            material_type: slimefun
+            material: NICKEL_INGOT
+            amount: 1  
+          11:
+            material_type: slimefun
+            material: COBALT_INGOT
+            amount: 1
+          12:
+            material_type: slimefun
+            material: GILDED_IRON
+            amount: 1
+          13:
+            material_type: slimefun
+            material: CARBONADO
+            amount: 1
+          14:
+            material_type: slimefun
+            material: SYNTHETIC_SAPPHIRE
+            amount: 1  
+          15:
+            material_type: slimefun
+            material: SYNTHETIC_DIAMOND
+            amount: 1 
+          16:
+            material_type: slimefun
+            material: REDSTONE_ALLOY
+            amount: 1 
+          17:
+            material_type: slimefun
+            material: FERROSILICON
+            amount: 1 
+          18:
+            material_type: slimefun
+            material: HARDENED_METAL_INGOT
+            amount: 1  
+          19:
+            material_type: slimefun
+            material: SOLDER_INGOT
+            amount: 1    
+          20:
+            material_type: slimefun
+            material: ALUMINUM_BRONZE_INGOT
+            amount: 1 
+          21:
+            material_type: slimefun
+            material: SYNTHETIC_EMERALD
+            amount: 1 
+
+JP_YSDDJ_V:
+   item_group: jp_jq
+   item:
+     material_type: skull_hash
+     material: 256590d49b700a2a4451030e29a0f14d3936294cabf7fce9c98f24d4c28d2493
+     name: '&a&l压缩堆叠机_加速'
+     lore:
+     - '&4给个别机器提供的极致压缩'
+     - '&8⇨ &e⚡&7 300000 J 可存储'
+     - '&8⇨ &e⚡&7 50000 J/s'
+   recipe_type: ENHANCED_CRAFTING_TABLE
+   recipe:
+    1:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_ZNKZZX
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_DDJJSMK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_DDJJSMK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANDROID_MEMORY_CORE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_WGKJHX
+      amount: 1
+   consumption: 50000
+   capacity: 300000
+   templateSlot: 0
+   input: [2,3,4,5,6,7,8]
+   output: [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
+   fasterIfMoreTemplates: true
+   moreOutputIfMoreTemplates: false
+   recipes:
+     JP_FC_FW:
+       1:
+         seconds: 5
+         output:
+          1:
+            material_type: slimefun
+            material: REINFORCED_ALLOY_INGOT
+            amount: 1
+          2:
+            material_type: slimefun
+            material: DAMASCUS_STEEL_INGOT
+            amount: 1  
+          3:
+            material_type: slimefun
+            material: STEEL_INGOT
+            amount: 1
+          4:
+            material_type: slimefun
+            material: BRONZE_INGOT
+            amount: 1   
+          5:
+            material_type: slimefun
+            material: DURALUMIN_INGOT
+            amount: 1
+          6:
+            material_type: slimefun
+            material: BILLON_INGOT
+            amount: 1  
+          7:
+            material_type: slimefun
+            material: BRASS_INGOT
+            amount: 1
+          8:
+            material_type: slimefun
+            material: ALUMINUM_BRASS_INGOT
+            amount: 1
+          9:
+            material_type: slimefun
+            material: CORINTHIAN_BRONZE_INGOT
+            amount: 1
+          10:
+            material_type: slimefun
+            material: NICKEL_INGOT
+            amount: 1  
+          11:
+            material_type: slimefun
+            material: COBALT_INGOT
+            amount: 1
+          12:
+            material_type: slimefun
+            material: GILDED_IRON
+            amount: 1
+          13:
+            material_type: slimefun
+            material: CARBONADO
+            amount: 1
+          14:
+            material_type: slimefun
+            material: SYNTHETIC_SAPPHIRE
+            amount: 1  
+          15:
+            material_type: slimefun
+            material: SYNTHETIC_DIAMOND
+            amount: 1 
+          16:
+            material_type: slimefun
+            material: REDSTONE_ALLOY
+            amount: 1 
+          17:
+            material_type: slimefun
+            material: FERROSILICON
+            amount: 1 
+          18:
+            material_type: slimefun
+            material: HARDENED_METAL_INGOT
+            amount: 1  
+          19:
+            material_type: slimefun
+            material: SOLDER_INGOT
+            amount: 1    
+          20:
+            material_type: slimefun
+            material: ALUMINUM_BRONZE_INGOT
+            amount: 1 
+          21:
+            material_type: slimefun
+            material: SYNTHETIC_EMERALD
+            amount: 1 

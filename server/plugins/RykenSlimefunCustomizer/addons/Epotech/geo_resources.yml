@@ -1,0 +1,17 @@
+# JP_WG:
+#   item_group: jp_cl
+#   item:
+#     name: "&0&l钨钢"
+#     lore:
+#     - '&c&l挖掘黑曜石掉落'
+#     material: NETHERITE_INGOT
+#   recipe_type: NULL
+#   max_deviation: 1
+#   obtain_from_geo_miner: false
+#   geo_name: "&a&l钨钢"
+#   supply:
+#     nether: 1
+#     the_end: 1
+#   drop_from: OBSIDIAN
+#   drop_chance: 100
+#   drop_amount: 1

@@ -1,0 +1,12 @@
+JP_SWSYS:
+  name: "&#2afb49&l生&#34c376&l物&#3e8aa3&l实&#4752d0&l验&#5119fd&l室"
+  material: CRAFTING_TABLE
+JP_WZTQY:
+  name: "&#fb3d16&l物&#e86b50&l质&#d4988a&l提&#c1c6c3&l取&#adf3fd&l仪"
+  material: HOPPER
+JP_KJJQ:
+  name: "&#1f1efb&l快&#691cd0&l捷&#b31ba6&l机&#fd197b&l器"
+  material: DISPENSER
+JP_GOD_CRAFTING_TABLE:
+  name: "&l&#c9372c神&#a9585a话&#897a87工&#689bb5作&#48bce3台"
+  material: CRAFTING_TABLE

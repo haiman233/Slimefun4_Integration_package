@@ -1,0 +1,42 @@
+
+options:
+  auto-update: true
+
+drugs:
+  cocaine:
+
+    #in integer number, so it will be multiplied by 20 ticks in the code (20 ticks = 1 second)
+    effects-duration:
+
+      #default: 60
+      night-vision: 60
+
+      #default: 10
+      speed: 10
+
+      #default: 10
+      nausea: 10
+
+      #default : 10
+      strength: 10
+
+      #default: 10
+      regeneration: 10
+
+    #in integer number
+    power-duration:
+
+      #default: 1
+      night-vision: 1
+
+      #default: 2
+      speed: 2
+
+      #default: 2
+      nausea: 2
+
+      #default: 3
+      strength: 3
+
+      #default: 1
+      regeneration: 1

@@ -1,0 +1,1463 @@
+SLFDJ_PLUS:
+  title: '基础水力发电机Plus'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+
+SLFDJ_PLUS+:
+  title: '&l&#7511FB水力发电机Plus+'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+
+SLFDJ_PLUS++:
+  title: '&#7511fb&l水&#9714d2&l力&#b918a9&l发&#db1b7f&l电&#fd1e56&l机Plus++'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+      
+HLFDJ_PLUS:
+  title: '基础火力发电机Plus'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+
+HLFDJ_PLUS+:
+  title: '&l&#FB2F2F火力发电机Plus+'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'    
+
+HLFDJ_PLUS++:
+  title: '&#fb9d34&l火&#fc7e2f&l力&#fc5f2a&l发&#fd3f25&l电&#fd2020&l机Plus++'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'      
+
+FLFDJ_PLUS:
+  title: '基础风力发电机Plus'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+
+FLFDJ_PLUS+:
+  title: '&l&#70A1FB风力发电机Plus+'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'     
+
+FLFDJ_PLUS++:
+  title: '&#7dfbea&l风&#85deef&l力&#8ec2f4&l发&#96a5f8&l电&#9e88fd&l机Plus++'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'          
+
+###鼓舞室系列
+
+JP_GWS1_SAND:
+  title: '鼓舞室Plus_沙子'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'
+
+
+JP_GWS1_SLIME_BALL:
+  title: '鼓舞室Plus_粘液球'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_FLINT:
+  title: '鼓舞室Plus_燧石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_KELP:
+  title: '鼓舞室Plus_海带'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'   
+
+
+JP_GWS1_GUNPOWDER:
+  title: '鼓舞室Plus_火药'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+
+JP_GWS1_OAK_LOG:
+  title: '鼓舞室Plus_橡木原木'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+
+JP_GWS1_CLAY:
+  title: '鼓舞室Plus_黏土块'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_GRANITE:
+  title: '鼓舞室Plus_花岗岩'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'            
+
+
+JP_GWS1_CACTUS:
+  title: '鼓舞室Plus_仙人掌'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_REDSTONE:
+  title: '鼓舞室Plus_红石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'            
+
+
+JP_GWS1_ICE:
+  title: '鼓舞室Plus_冰'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'
+
+
+JP_GWS1_GRAVEL:
+  title: '鼓舞室Plus_沙砾'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'
+
+
+JP_GWS1_SNOWBALL:
+  title: '鼓舞室Plus_雪球'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_ANDESITE:
+  title: '鼓舞室Plus_安山岩'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'          
+
+
+JP_GWS1_MAGMA_CREAM:
+  title: '鼓舞室Plus_岩浆膏'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_DIORITE:
+  title: '鼓舞室Plus_闪长岩'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'         
+
+
+JP_GWS1_NETHER_WART:
+  title: '鼓舞室Plus_下届疣'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_OBSIDIAN:
+  title: '鼓舞室Plus_黑曜石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_CRYING_OBSIDIAN:
+  title: '鼓舞室Plus_哭泣黑曜石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_SULFATE:
+  title: '鼓舞室Plus_硫酸盐'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+
+JP_GWS1_EMERALD:
+  title: '鼓舞室Plus_绿宝石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_BONE:
+  title: '鼓舞室Plus_骨头'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_SPONGE:
+  title: '鼓舞室Plus_海绵'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'      
+
+
+JP_GWS1_LEATHER:
+  title: '鼓舞室Plus_皮革'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_PHANTOM_MEMBRANE:
+  title: '鼓舞室Plus_幻翼膜'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_STRING:
+  title: '鼓舞室Plus_线'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_ENDER_PEARL:
+  title: '鼓舞室Plus_末影珍珠'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_IRON_INGOT:
+  title: '鼓舞室Plus_铁'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'
+
+
+JP_GWS1_BASALT:
+  title: '鼓舞室Plus_玄武岩'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'
+
+
+JP_GWS1_GHAST_TEAR:
+  title: '鼓舞室Plus_恶魂之泪'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+
+JP_GWS1_COAL:
+  title: '鼓舞室Plus_煤炭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+
+JP_GWS1_LAPIS_LAZULI:
+  title: '鼓舞室Plus_青金石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'        
+
+
+JP_GWS1_GLASS:
+  title: '鼓舞室Plus_玻璃'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_SOUL_SAND:
+  title: '鼓舞室Plus_灵魂沙'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'  
+
+
+JP_GWS1_NETHERRACK:
+  title: '鼓舞室Plus_下界岩'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_QUARTZ:
+  title: '鼓舞室Plus_下界石英'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'      
+
+
+
+JP_GWS1_BLAZE_ROD:
+  title: '鼓舞室Plus_烈焰棒'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'      
+
+
+JP_GWS1_GOLD_INGOT:
+  title: '鼓舞室Plus_金锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+
+JP_GWS1_SOUL_SOIL:
+  title: '鼓舞室Plus_灵魂土'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_BLACKSTONE:
+  title: '鼓舞室Plus_黑石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+
+JP_GWS1_DIAMOND:
+  title: '鼓舞室Plus_钻石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'       
+
+
+JP_GWS1_NETHERITE_INGOT:
+  title: '鼓舞室Plus_下界合金锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'   
+
+
+JP_GWS1_EXPERIENCE_BOTTLE:
+  title: '鼓舞室Plus_经验瓶'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+
+JP_GWS1_KWJ:
+  title: '§l§a鼓舞室Plus_§l§#C861D3矿物鸡'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'
+
+
+###智能化工厂
+
+JP_JQGC:
+  title: '&a&l机器工厂'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+
+JP_ZNCJ:
+  title: '&a&l智能车间'
+  slots:
+    0-9:
+      material: black_stained_glass_pane
+      name: '&a' 
+    17-18:
+      material: black_stained_glass_pane
+      name: '&a'    
+    26-27:
+      material: black_stained_glass_pane
+      name: '&a' 
+    35-36:
+      material: black_stained_glass_pane
+      name: '&a'      
+    44-53:
+      material: black_stained_glass_pane
+      name: '&a' 
+    10-12:
+      material: blue_stained_glass_pane
+      name: '&a' 
+    37-39:
+      material: blue_stained_glass_pane
+      name: '&a' 
+    14-16:
+      material: orange_stained_glass_pane
+      name: '&a' 
+    41-43:
+      material: orange_stained_glass_pane
+      name: '&a'               
+    13:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&4左侧为输入槽'
+      - '&4右侧为输出槽'
+    22:
+      material_type: skull_hash
+      material: 26314d31b095e4d421760497be6a156f459d8c9957b7e6b1c12deb4e47860d71
+      name: '&a'
+    31:
+      material_type: skull_hash
+      material: 26314d31b095e4d421760497be6a156f459d8c9957b7e6b1c12deb4e47860d71
+      name: '&a'
+    40:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: clock
+
+#乱码系列         
+
+JP_WZJ:
+  title: '&a&l物质机'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'            
+
+JP_GLJ:
+  title: '&3&l概率机'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'          
+
+#堆叠机
+
+# JP_YSDDJ:
+#   title: '&a&l卡片机'
+#   size: 54
+#   slots:
+#     10:
+#       material: gray_stained_glass_pane
+#       name: '&a'
+#     9:
+#       material: black_stained_glass_pane
+#       name: '&a'
+#       progressbar: true
+#       progressBarItem:
+#         material: FLINT_AND_STEEL     
+#     1:
+#       name: '&f提示'
+#       material_type: skull_hash
+#       material: 4eff72715e6032e90f50a38f4892529493c9f555b9af0d5e77a6fa5cddff3cd2
+#       lore:
+#       - '左边放入卡片模板'
+
+JP_YSDDJ_C:
+  title: '&a&l压缩堆叠机_复制'
+  size: 54
+  slots:
+    10:
+      material: gray_stained_glass_pane
+      name: '&a'
+    9:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL     
+    1:
+      name: '&f提示'
+      material_type: skull_hash
+      material: 4eff72715e6032e90f50a38f4892529493c9f555b9af0d5e77a6fa5cddff3cd2
+      lore:
+      - '左边放入卡片模板'
+
+JP_YSDDJ_V:
+  title: '&a&l压缩堆叠机_加速'
+  size: 54
+  slots:
+    10:
+      material: gray_stained_glass_pane
+      name: '&a'
+    9:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL     
+    1:
+      name: '&f提示'
+      material_type: skull_hash
+      material: 4eff72715e6032e90f50a38f4892529493c9f555b9af0d5e77a6fa5cddff3cd2
+      lore:
+      - '左边放入卡片模板'
+
+
+# JP_GLJ:
+#   title: '&a&l概率机'
+#   size: 54
+#   slots:
+#     10:
+#       material: gray_stained_glass_pane
+#       name: '&a'
+#     9:
+#       material: black_stained_glass_pane
+#       name: '&a'
+#       progressbar: true
+#       progressBarItem:
+#         material: FLINT_AND_STEEL     
+#     1:
+#       name: '&f提示'
+#       material_type: skull_hash
+#       material: b6e522d918252149e6ede2edf3fe0f2c2c58fee6ac11cb88c617207218ae4595
+#       lore:
+#       - '左边放入至尊卡片模板右边放入概率提升组件'      
+
+     ###乱序系列
+
+JP_YXYTJ1:
+  title: '§l§a有序一体机'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+JP_WXYTJ1:
+  title: '§l§a无序一体机'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'          
+
+
+   ###蜂巢系列
+
+JP_FC_FW:
+  title: '§l§a蜂巢Plus_§l§b蜂王'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'   
+
+JP_FC_SOLDER_INGOT:
+  title: '§l§a蜂巢Plus_§l§b焊锡锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+JP_FC_ALUMINUM_BRASS_INGOT:
+  title: '§l§a蜂巢Plus_§l§b铝黄铜锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+JP_FC_ALUMINUM_BRONZE_INGOT:
+  title: '§l§a蜂巢Plus_§l§b铝青铜锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+JP_FC_BRONZE_INGOT:
+  title: '§l§a蜂巢Plus_§l§b青铜锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+JP_FC_STEEL:
+  title: '§l§a蜂巢Plus_钢锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+JP_FC_DURALUMIN:
+  title: '§l§a蜂巢Plus_硬铝锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+JP_FC_BILLON:
+  title: '§l§a蜂巢Plus_银铜合金锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+JP_FC_BRASS:
+  title: '§l§a蜂巢Plus_黄铜锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'       
+
+JP_FC_CORINTHIAN_BRONZE:
+  title: '§l§a蜂巢Plus_科林斯青铜锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'   
+
+JP_FC_DAMASCUS_STEEL:
+  title: '§l§a蜂巢Plus_大马革钢锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'   
+
+JP_FC_HARDENED_METAL:
+  title: '§l§a蜂巢Plus_硬化金属'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'                    
+
+JP_FC_REINFORCED_ALLOY:
+  title: '§l§a蜂巢Plus_强化合金锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'          
+
+JP_FC_FERROSILICON:
+  title: '§l§a蜂巢Plus_硅铁'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+JP_FC_GILDED:
+  title: '§l§a蜂巢Plus_镀金铁'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'    
+
+JP_FC_NICKEL:
+  title: '§l§a蜂巢Plus_镍'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'                
+
+JP_FC_COBALT:
+  title: '§l§a蜂巢Plus_钴'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+JP_FC_REDSTONE_ALLOY:
+  title: '§l§a蜂巢Plus_红石合金锭'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽' 
+
+JP_FC_SYNTHETIC_DIAMOND:
+  title: '§l§a蜂巢Plus_人造钻石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'       
+
+JP_FC_SYNTHETIC_EMERALD:
+  title: '§l§a蜂巢Plus_人造绿宝石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+JP_FC_SYNTHETIC_EMERALD:
+  title: '§l§a蜂巢Plus_人造绿宝石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'      
+
+JP_FC_SYNTHETIC_SAPPHIRE:
+  title: '§l§a蜂巢Plus_人造蓝宝石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'     
+
+JP_FC_CARBONADO:
+  title: '§l§a蜂巢Plus_黑色金刚石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'                 
+
+JP_FC_SYNTHETIC_DIAMOND:
+  title: '§l§a蜂巢Plus_人造钻石'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7除了我以外都是输出槽'                 
+
+#杂项
+
+JP_SGRZ:
+  title: '&6&l水果忍者'
+  slots:
+    4:
+      material: gray_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'   
+    22:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    31:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'          

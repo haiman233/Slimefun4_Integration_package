@@ -1,0 +1,397 @@
+jp:
+  lateInit: false
+  type: nested
+  item:
+    material_type: skull_hash
+    material: 6b04ddaa38078952a3fd9a1314232716f926fd75226733db11a7cec52f11a78c
+    name: 'EpoTech'
+  tier: 1
+
+#9
+jp_zwf_9:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#10
+jp_xx:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8a16038bc8e6518afa91498dab7675c01cb31a125d21c49b861294d39e1c560c
+    name: '为解决卡服问题提供的堆叠附属'
+  parent: jp
+
+#11
+jp_crafting:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 9f30ffbc0110efa34e030860da18c8a1d6b223de0f00d9e4c5d0cfa7ecfafa48
+    name: '&#fbd416&l多&#fbad15&l方&#fc8513&l块&#fc5e12&l工&#fd3610&l作&#fd0f0f&l台'
+  parent: jp  
+
+#12
+jp_zwf_12:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#13
+jp_zwf_13:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#14
+jp_zwf_14:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'   
+
+#15
+jp_prop:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 7da7ded5e34d1dd75bed707368fcae81a8d6a5326867b10f7028b3e21535618f
+    name: '&l&#FB4170道具'
+  parent: jp    
+
+#16
+jp_cl:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 199b2761960f68c01a7f3d329fef749b0bccde5600432c11b2e08c197b475ee5
+    name: '材料'
+  parent: jp
+
+#17
+jp_zwf_17:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#18
+jp_zwf_18:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#19
+jp_zwf_19:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'  
+
+#20
+jp_zwf_20:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+
+#21
+jp_zwf_21:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+   
+#22
+jp_zwf_22:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+
+#23
+jp_zwf_23:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'  
+
+#24
+jp_zwf_24:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+
+#25
+jp_zwf_25:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+    
+#26
+jp_zwf_26:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+
+#27
+jp_zwf_27:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'  
+
+#28
+jp_zwf_28:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none' 
+
+#29
+jp_fadianji:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8336054c858c0ad651f08bab6c6b3fdf1c47f5f656fd96d454e981d3fceb99c1
+    name: '发电机'  
+  parent: jp
+
+#30
+jp_jq:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 1abb36140052ca25d159107e2f54bfc79219e6b2c476fd0d704c1ad5f87101f6
+    name: '一体化机器'
+  parent: jp
+
+#31
+jp_gws:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 1f575bb54a2e9133aaa1310a14642f78a014fcc9360774171663d34db236ccc4
+    name: '养鸡人'
+  parent: jp  
+
+#32
+jp_yfr:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: c7cbf258a0e2de34c818aa8a8986313f72929e5aba9879715f4134bdc6c402d4
+    name: '养蜂人'
+  parent: jp    
+
+#33
+jp_jq_plus:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 930fe771fcc3ecc0530ee9545ab07797437f95e09a0eaa9b512497fe892f52fb
+    name: '机器'
+  parent: jp 
+
+#34
+jp_zwf_34:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#35
+jp_zwf_35:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'  
+
+#36
+jp_zwf_36:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'  
+
+#37
+jp_zwf_37:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'  
+
+#38
+jp_zwf_38:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'   
+
+#39
+jp_zwf_39:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'   
+
+#40
+jp_zwf_40:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#41
+jp_zwf_41:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#42
+jp_zwf_42:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'   
+
+#43
+jp_zwf_43:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'
+
+#44
+jp_zwf_44:
+  lateInit: false
+  type: button
+  item:
+    material: gray_stained_glass_pane
+    name: '&a'
+  parent: jp  
+  actions:
+   'none'   
+
+  

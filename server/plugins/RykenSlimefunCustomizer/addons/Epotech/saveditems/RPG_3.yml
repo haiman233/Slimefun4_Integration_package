@@ -1,0 +1,8 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: VEX_SPAWN_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    internal: H4sIAAAAAAAA/1XOv0vDUBAH8IuNmgRFFMRV3uJSHBy7tSo6iFMRQSRckjN55MeD9y5YEaFrEfw3xNLRQcQ/Rwxu/gnG0mi98e7Dfb8egAfuYcGSb/oYt8A9kVfUl2FqAHbWXLDrrXEAwIKV95dR9fr4MRxXoycL1vdLwyo/xZzOpJFBRpYFy0eZupZFbLVg6Zgw4wRg4dwB7w/D3sWtYBqw6IjPyVv1cC/aIlBZJDqsS2qLUGVK18cIdeprisTdpQtel1nLoGQyXt3GdsCePluNqSAtw13UudKLYPfQUPerJo3Y/BXMGKZ+hDnGNJO95zm50cgcB34ybT9jBzjHtv5F+qzKOCnImCZ8G37mG5QBSV1aAQAA

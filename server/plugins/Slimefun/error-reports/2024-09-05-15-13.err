@@ -1,0 +1,245 @@
+
+Error Generated: 2024-09-05-15-13
+
+Java Environment:
+  Operating System: Windows 11
+  Java Version: 22.0.2
+
+Server Software: Purpur
+  Build: git-Purpur-2018 (MC: 1.20.1)
+  Minecraft v1.20.1-R0.1-SNAPSHOT
+
+Slimefun Environment:
+  Slimefun v538e41a-Beta
+  Caused by: DynaTech vBuild 71 (git 857c760)
+
+Installed Addons (90)
+  + SlimyTreeTaps Build 2 zh-CN(ybw0014) (git 8a58b9f)
+  + GuizhanLibPlugin Build 45 (git 7aef1af)
+  + LiteXpansion Build 26 (git 6efc2c9)
+  + ExoticGarden Build 19 (git 0994db4)
+  + InfinityExpansion Build 15 (git bebf0bd)
+  + SimpleStorage Build 5 zh-CN(ybw0014) (git c443c7b)
+  + DynaTech Build 71 (git 857c760)
+  + Netheopoiesis Build 16 (git 1f930e5)
+  + SlimeHUD Build 12 (git a06bc8b)
+  + TranscEndence Build 11 (git 2352ccc)
+  + SlimefunWarfare Build 12 (git 7f210c5)
+  + Networks Expansion-2.0.8-Alpha-2
+  + SlimeFrame Build 13 (git 80aa7f2)
+  + FluffyMachines Build 35 (git 8a81689)
+  + ExtraTools Build 6 (git 204b2a5)
+  + ElectricSpawners Build 5 (git 6fa0de2)
+  + FoxyMachines Build 30 (git 88f39b9)
+  + AlchimiaVitae Build 9 (git 95fc682)
+  + SimpleMaterialGenerators Build 5 zh-CN(SlimefunGuguProject) (git e05d257)
+  + SlimeTinker Build 50 (git 1249096)
+  + SlimyRepair 1.0.0
+  + PotionExpansion Build 2 (git 81d4862)
+  + MissileWarfare Build 16 (git 8c2f7b5)
+  + SoulJars Build 9 (git f13e461)
+  + Endrex Build 1 zh-CN(SlimefunGuguProject) (git 23dbf5e)
+  + Liquid Build 1 (git 1de2492)
+  + SlimyBees Build 1 zh-CN(SlimefunGuguProject) (git 810abc0)
+  + HotbarPets Build 4 (git 0faa724)
+  + EcoPower Build 1 zh-CN(ybw0014) (git eca8ab1)
+  + SmallSpace Build 6 (git 073fa68)
+  + ExLimus Build 1 (git 31dbef9)
+  - SlimefunItemExpansion 1.0.2
+  + SoundMuffler Build 1 zh-CN(baoad) (git b1678a8)
+  + FastMachines Build 43 (git 40c3b19)
+  + Cultivation Build 12 (git ed9a7f3)
+  + Gastronomicon Build 12 (git b84bf75)
+  + DyedBackpacks Build 3 (git d4e0e45)
+  + SupplementalServiceableness 1.0.0
+  + GeneticChickengineering Build 10 (git da9af98)
+  + Galactifun Build 27 (git c900528)
+  + SpiritsUnchained Build 6 (git 214ceb2)
+  + FlowerPower Build 6 (git df3e8cd)
+  + PrivateStorage Build 1 zh-CN(ybw0014) (git 7205ea3)
+  + MobCapturer Build 17 (git 5feb528)
+  + VillagerUtil Build 2 zh-CN(ybw0014) (git f019674)
+  + ExtraHeads Build 3 (git 96ae63c)
+  + SFCalc Build 6 (git 3441e14)
+  + Supreme Build 21 (git 77e2274)
+  + GuizhanCraft Build 13 (git 69136e2)
+  + DyeBench Build 5 (git 1a7ae4d)
+  + ExtraGear Build 2 zh-CN(ybw0014) (git ff13031)
+  + VillagerTrade Build 4 (git 235f5f5)
+  + ObsidianExpansion Build 6 zh-CN(SlimefunGuguProject) (git 72ba142)
+  + Bump Build 42 (git 24350a5)
+  + FNAmplifications Build 14 (git a1fb89c)
+  + SlimefunOreChunks Build 1 zh-CN(ybw0014) (git 67879ed)
+  + Quaptics Build 7 (git 4d5aa1c)
+  + RelicsOfCthonia Build 9 (git 81a2cc9)
+  + CrystamaeHistoria Build 35 (git f2e9dd9)
+  + MiniBlocks Build 2 zh-CN(SlimefunGuguProject) (git bb80911)
+  + GlobalWarming Build 5 zh-CN(ybw0014) (git 725aebe)
+  + ElementManipulation Build 5 zh-CN(haiman233) (git 9764734)
+  + MoreTools Build 2 (git 51d9ab1)
+  + SFMobDrops Build 3 (git 5c9ad99)
+  + SlimefunLuckyBlocks Build 2 (git 3ba2eb9)
+  + GlobiaMachines Build 1 zh-CN(SlimefunGuguProject) (git f5af345)
+  + Nexcavate Build 5 zh-CN(SlimefunGuguProject) (git 029e28b)
+  + BetterReactor Build 3 (git de00343)
+  + SfChunkInfo Build 10 (git e750611)
+  + MomoTech 1.1.11
+  + DracFun 2.0.10
+  + SlimeCustomizer Build 29 (git 315a7ad)
+  + FinalTECH-Changed 3.0
+  + LogiTech 1.0.0
+  + UltimateGenerators2 Build 3 (git 35026dd)
+  + EMCTech Build 8 (git f3c137d)
+  + CompressionCraft Build 6 (git ed37c51)
+  + EnderCargo Build 1 zh-CN(SlimefunGuguProject) (git 04f339e)
+  + InfernalExpansion Build 2 zh-CN(SlimefunGuguProject) (git 93c2287)
+  + RykenSlimefunCustomizer b63 (git c5fbf2f)
+  + Wildernether Build 4 zh-CN(SlimefunGuguProject) (git 32218bd)
+  + StackMachine 1.0-SNAPSHOT
+  + SlimefunServerEssentials 1.0
+  + sj_Expansion 1.0.3
+  + ResearchTogether 1.0.0
+  + GuguSlimefunLib Build 17 (git 1b623ae)
+  + EzSlimeFunAddon Build 13 zh-CN(haiman233) (git 28198cf)
+  + CraftableEnchantments 1.0.0
+  + ChocoHills Build 9 zh-CN(SlimefunGuguProject) (git 1cbaa5f)
+  + MyFirstAddon Build 1 zh-CN(SlimefunGuguProject) (git 82208d8)
+
+Installed Plugins (101):
+  + Vault 1.7.3-b131
+  + PlaceholderAPI 2.11.7-DEV-200
+  + Slimefun 538e41a-Beta
+  + SlimyTreeTaps Build 2 zh-CN(ybw0014) (git 8a58b9f)
+  + GuizhanLibPlugin Build 45 (git 7aef1af)
+  + LiteXpansion Build 26 (git 6efc2c9)
+  + ExoticGarden Build 19 (git 0994db4)
+  + InfinityExpansion Build 15 (git bebf0bd)
+  + SimpleStorage Build 5 zh-CN(ybw0014) (git c443c7b)
+  + DynaTech Build 71 (git 857c760)
+  + Netheopoiesis Build 16 (git 1f930e5)
+  + SlimeHUD Build 12 (git a06bc8b)
+  + ViaVersion 4.10.2
+  + TranscEndence Build 11 (git 2352ccc)
+  + SlimefunWarfare Build 12 (git 7f210c5)
+  + Networks Expansion-2.0.8-Alpha-2
+  + ProtocolLib 5.2.0-SNAPSHOT-679
+  + SlimeFrame Build 13 (git 80aa7f2)
+  + FluffyMachines Build 35 (git 8a81689)
+  + ExtraTools Build 6 (git 204b2a5)
+  + ElectricSpawners Build 5 (git 6fa0de2)
+  + FoxyMachines Build 30 (git 88f39b9)
+  + AlchimiaVitae Build 9 (git 95fc682)
+  + SimpleMaterialGenerators Build 5 zh-CN(SlimefunGuguProject) (git e05d257)
+  + SlimeTinker Build 50 (git 1249096)
+  + SlimyRepair 1.0.0
+  + PotionExpansion Build 2 (git 81d4862)
+  + MissileWarfare Build 16 (git 8c2f7b5)
+  + SoulJars Build 9 (git f13e461)
+  + Endrex Build 1 zh-CN(SlimefunGuguProject) (git 23dbf5e)
+  + Liquid Build 1 (git 1de2492)
+  + SlimyBees Build 1 zh-CN(SlimefunGuguProject) (git 810abc0)
+  + HotbarPets Build 4 (git 0faa724)
+  + EcoPower Build 1 zh-CN(ybw0014) (git eca8ab1)
+  + SmallSpace Build 6 (git 073fa68)
+  + ExLimus Build 1 (git 31dbef9)
+  - SlimefunItemExpansion 1.0.2
+  + SoundMuffler Build 1 zh-CN(baoad) (git b1678a8)
+  + FastMachines Build 43 (git 40c3b19)
+  + Cultivation Build 12 (git ed9a7f3)
+  + Gastronomicon Build 12 (git b84bf75)
+  + DyedBackpacks Build 3 (git d4e0e45)
+  + SupplementalServiceableness 1.0.0
+  + GeneticChickengineering Build 10 (git da9af98)
+  + Galactifun Build 27 (git c900528)
+  + SpiritsUnchained Build 6 (git 214ceb2)
+  + FlowerPower Build 6 (git df3e8cd)
+  + PrivateStorage Build 1 zh-CN(ybw0014) (git 7205ea3)
+  + MobCapturer Build 17 (git 5feb528)
+  + VillagerUtil Build 2 zh-CN(ybw0014) (git f019674)
+  + ExtraHeads Build 3 (git 96ae63c)
+  + SFCalc Build 6 (git 3441e14)
+  + Supreme Build 21 (git 77e2274)
+  + GuizhanCraft Build 13 (git 69136e2)
+  + DyeBench Build 5 (git 1a7ae4d)
+  + ExtraGear Build 2 zh-CN(ybw0014) (git ff13031)
+  + VillagerTrade Build 4 (git 235f5f5)
+  + ObsidianExpansion Build 6 zh-CN(SlimefunGuguProject) (git 72ba142)
+  + Bump Build 42 (git 24350a5)
+  + FNAmplifications Build 14 (git a1fb89c)
+  + SlimefunOreChunks Build 1 zh-CN(ybw0014) (git 67879ed)
+  + Quaptics Build 7 (git 4d5aa1c)
+  + RelicsOfCthonia Build 9 (git 81a2cc9)
+  + CrystamaeHistoria Build 35 (git f2e9dd9)
+  + MiniBlocks Build 2 zh-CN(SlimefunGuguProject) (git bb80911)
+  + GlobalWarming Build 5 zh-CN(ybw0014) (git 725aebe)
+  + ElementManipulation Build 5 zh-CN(haiman233) (git 9764734)
+  + MoreTools Build 2 (git 51d9ab1)
+  + SFMobDrops Build 3 (git 5c9ad99)
+  + SlimefunLuckyBlocks Build 2 (git 3ba2eb9)
+  + GlobiaMachines Build 1 zh-CN(SlimefunGuguProject) (git f5af345)
+  + Nexcavate Build 5 zh-CN(SlimefunGuguProject) (git 029e28b)
+  + BetterReactor Build 3 (git de00343)
+  + SfChunkInfo Build 10 (git e750611)
+  + MomoTech 1.1.11
+  + DracFun 2.0.10
+  + SlimeCustomizer Build 29 (git 315a7ad)
+  + FinalTECH-Changed 3.0
+  + LogiTech 1.0.0
+  + UltimateGenerators2 Build 3 (git 35026dd)
+  + EMCTech Build 8 (git f3c137d)
+  + CompressionCraft Build 6 (git ed37c51)
+  + EnderCargo Build 1 zh-CN(SlimefunGuguProject) (git 04f339e)
+  + InfernalExpansion Build 2 zh-CN(SlimefunGuguProject) (git 93c2287)
+  + RykenSlimefunCustomizer b63 (git c5fbf2f)
+  + CommandAPI 9.5.3
+  + spark 1.10.103
+  + Wildernether Build 4 zh-CN(SlimefunGuguProject) (git 32218bd)
+  + ViaBackwards 4.10.2
+  + StackMachine 1.0-SNAPSHOT
+  + SlimefunServerEssentials 1.0
+  + Skript 2.8.5
+  + sj_Expansion 1.0.3
+  + ResearchTogether 1.0.0
+  + PlugManX 2.3.4
+  + ItemEdit 3.1.0
+  + GuguSlimefunLib Build 17 (git 1b623ae)
+  + EzSlimeFunAddon Build 13 zh-CN(haiman233) (git 28198cf)
+  + CraftableEnchantments 1.0.0
+  + ChocoHills Build 9 zh-CN(SlimefunGuguProject) (git 1cbaa5f)
+  + MyFirstAddon Build 1 zh-CN(SlimefunGuguProject) (git 82208d8)
+
+Block Info:
+  World: world
+  X: 45
+  Y: 66
+  Z: -103
+  Material: PLAYER_HEAD
+  Block Data: org.bukkit.craftbukkit.v1_20_R1.block.impl.CraftSkullPlayer
+  State: org.bukkit.craftbukkit.v1_20_R1.block.CraftSkull
+
+Ticker-Info:
+  Type: Synchronized
+
+Slimefun Data:
+  ID: POTION_SPRINKLER
+  Is data loaded: true
+  Inventory: true
+  Data: 
+    energy-charge: 224
+
+Stacktrace:
+
+java.lang.NoSuchMethodError: 'org.bukkit.potion.PotionType org.bukkit.inventory.meta.PotionMeta.getBasePotionType()'
+	at DynaTech-Build 71 (git 857c760).jar//me.profelements.dynatech.items.electric.PotionSprinkler.tick(PotionSprinkler.java:114)
+	at DynaTech-Build 71 (git 857c760).jar//me.profelements.dynatech.items.abstracts.AbstractTicker$1.tick(AbstractTicker.java:37)
+	at Slimefun-538e41a-Beta.jar//me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker.tick(BlockTicker.java:58)
+	at Slimefun-538e41a-Beta.jar//io.github.thebusybiscuit.slimefun4.implementation.tasks.TickerTask.tickBlock(TickerTask.java:180)
+	at Slimefun-538e41a-Beta.jar//io.github.thebusybiscuit.slimefun4.implementation.tasks.TickerTask.lambda$tickLocation$2(TickerTask.java:161)
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1507)
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:487)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1421)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1192)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+	at java.base/java.lang.Thread.run(Thread.java:1570)

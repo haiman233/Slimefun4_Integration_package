@@ -1,0 +1,538 @@
+SLFDJ_PLUS:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&l&1基础水力发电机Plus'
+    lore:
+    - 
+    - 
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: skull_hash
+    material: 57c7a297103db084af6273b879805afc8577cc82c752ac266cf8d7a6eea60
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SUPREME_BASIC_AQUA_GENERATOR
+      amount: 1
+  capacity: 100000
+  production: 22500
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+
+SLFDJ_PLUS+:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&l&#7511FB水力发电机Plus+'
+    lore:
+    - 
+    - 
+    - '&8⇨ &e⚡&7 2000000 J 可存储'
+    - '&8⇨ &e⚡&7 700000 J/s'
+    material_type: skull_hash
+    material: 681e376322188b1e988309f99a015d949b68ffe9c9d73cb97813538d0864897e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SLFDJ_PLUS
+      amount: 1
+  capacity: 2000000
+  production: 350000
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53] 
+
+SLFDJ_PLUS++:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&#7511fb&l水&#9714d2&l力&#b918a9&l发&#db1b7f&l电&#fd1e56&l机Plus++'
+    lore:
+    - 
+    - 
+    - '&8⇨ &e⚡&7 200000000 J 可存储'
+    - '&8⇨ &e⚡&7 10000000 J/s'
+    material_type: skull_hash
+    material: b1ffe638a3dcae7f6d64a181c564272aaf22dc5882bd306b1be953df3fbe3a4e
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_5
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SLFDJ_PLUS+
+      amount: 1
+  capacity: 200000000
+  production: 5000000
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]   
+
+HLFDJ_PLUS:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&l&#FB8534基础火力发电机Plus'
+    lore:
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: skull_hash
+    material: 63f13e23ec23467ac5e6f65a83f2686ebecd9986df5f8cbcd6fafc42e662b38
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SUPREME_BASIC_IGNIS_GENERATOR
+      amount: 1
+  capacity: 100000
+  production: 22500
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+
+HLFDJ_PLUS+:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&l&#FB2F2F火力发电机Plus+'
+    lore:
+    - '&8⇨ &e⚡&7 2000000 J 可存储'
+    - '&8⇨ &e⚡&7 700000 J/s'
+    material_type: skull_hash
+    material: b0a61c3bbc8d7af274c04b802cb33611dfad401fbd97b2ee7756dc449a371138
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HLFDJ_PLUS
+      amount: 1
+  capacity: 2000000
+  production: 350000
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]  
+
+HLFDJ_PLUS++:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&#fb9d34&l火&#fc7e2f&l力&#fc5f2a&l发&#fd3f25&l电&#fd2020&l机Plus++'
+    lore:
+    - '&8⇨ &e⚡&7 200000000 J 可存储'
+    - '&8⇨ &e⚡&7 10000000 J/s'
+    material_type: skull_hash
+    material: 2bb8d7259c8e725e7cf7581c769add4222e76675fe96ed01ad7b4db7d554f4a3
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_5
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HLFDJ_PLUS+
+      amount: 1
+  capacity: 200000000
+  production: 5000000
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]   
+
+FLFDJ_PLUS:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&l&#73FBE1基础风力发电机Plus'
+    lore:
+    - 
+    - 
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: skull_hash
+    material: 6dbdf4bb7d22d0915df5c993f919e4ab6656c1ec1e715b9fa68109290bac9ab4
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+  capacity: 100000
+  production: 22500
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+
+FLFDJ_PLUS+:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&l&#70A1FB风力发电机Plus+'
+    lore:
+    - '&8⇨ &e⚡&7 2000000 J 可存储'
+    - '&8⇨ &e⚡&7 700000 J/s'
+    material_type: skull_hash
+    material: df960bf1f594709b93f1c7c444f89a54e7dc710a620ddae28b1079cf5c307193
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FLFDJ_PLUS
+      amount: 1
+  capacity: 2000000
+  production: 350000
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]    
+
+FLFDJ_PLUS++:
+  lateInit: true
+  item_group: jp_fadianji
+  item:
+    name: '&#7dfbea&l风&#85deef&l力&#8ec2f4&l发&#96a5f8&l电&#9e88fd&l机Plus++'
+    lore:
+    - '&8⇨ &e⚡&7 200000000 J 可存储'
+    - '&8⇨ &e⚡&7 10000000 J/s'
+    material_type: skull_hash
+    material: 904bef1ff44f5c979639c574b55187ce236c3cf173295ad45b50407fef4e92
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_5
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FLFDJ_PLUS+
+      amount: 1
+  capacity: 200000000
+  production: 5000000
+  fuels:
+    '1':
+      seconds: 999999
+      item:
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]   

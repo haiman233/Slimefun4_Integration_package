@@ -11,3 +11,6 @@ update:
   - ''
 debug: false
 pluginUpdate: true
+repositories:
+- https://maven.aliyun.com/repository/public
+- https://repo1.maven.org/maven2

@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: ZOMBIE_SPAWN_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: '[{"text":"神秘怪物","italic":false,"color":"gold","bold":true},{"text":"Lv.2","color":"yellow"}]'
+    internal: H4sIAAAAAAAA/1WQwU7DMAyG3a2DtWIIIcGFV0B7BrYxQS8ICe6Tl7ptRJNMiccYJ65InDlzQ/AIex7EXoO0K2hYspQ4n+P/dwwQQzTWLHl5i3kE8cAqYxMm5WIACH12oSVT2E8lKqPTSUGlIm5DZ2Tmmv17ABH0BoLlPY2zjATXnUEbWknqD8cB9G4Ks7hGy1KU5MDzoR/munXz3tfqZb16/376XD9/RHBQCzi3ZjYqUAtynUbGvwhg96I0C6lzP2fnkrDkwldP/SVxQ5wuK6Zyw2zldM60cdOF8AoVwVFOmqwUfWRGcTdJUWFOHQiH6Gg4q01vyN4fWclqiMHbFnHyaNRUUt/NcKEnlqTOjBWkSLNr+LNt/vD3R4UPfpmV8gYbvdbefgD9EGkDlAEAAA==

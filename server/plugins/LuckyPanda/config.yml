@@ -1,0 +1,17 @@
+options:
+  auto-update: true
+luckypanda:hole: true
+luckypanda:jail_anvil: true
+luckypanda:jail_lava: true
+luckypanda:baby_panda: true
+luckypanda:stacked_pandas: true
+luckypanda:flying_panda: true
+luckypanda:try_again_panda: true
+luckypanda:panda_skull: true
+luckypanda:panda_chestplate: true
+luckypanda:panda_leggings: true
+luckypanda:panda_boots: true
+luckypanda:exploding_panda: true
+luckypanda:panda_cannon: true
+luckypanda:lucky_potion: true
+luckypanda:panda_firework: true

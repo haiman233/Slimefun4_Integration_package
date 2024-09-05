@@ -2964,3 +2964,73 @@ fastmachines:
     cost: 4
     currency-cost: 100.0
     enabled: true
+missilewarfare:
+  basic_fuel:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  explosives:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  chlorine:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  groundlauncher:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  antimissilelauncher:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  antielytramissilelauncher:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  smallgmissileparts:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  gmissileparts:
+    cost: 15
+    currency-cost: 375.0
+    enabled: true
+  smallgmissile:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  advancedfuel:
+    cost: 20
+    currency-cost: 500.0
+    enabled: true
+  missileparts:
+    cost: 25
+    currency-cost: 625.0
+    enabled: true
+globalwarming:
+  thermometer:
+    cost: 10
+    currency-cost: 250.0
+    enabled: true
+  air_quality_meter:
+    cost: 30
+    currency-cost: 750.0
+    enabled: true
+  air_compressor:
+    cost: 40
+    currency-cost: 1000.0
+    enabled: true
+  canisters:
+    cost: 6
+    currency-cost: 150.0
+    enabled: true
+  filter:
+    cost: 8
+    currency-cost: 200.0
+    enabled: true
+  mercury:
+    cost: 12
+    currency-cost: 300.0
+    enabled: true

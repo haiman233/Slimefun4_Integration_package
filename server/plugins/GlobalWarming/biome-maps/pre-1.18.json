@@ -1,0 +1,749 @@
+[
+  {
+    "value": {
+      "temperature": -13.5,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:ice_spikes"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -10,
+      "max-temp-drop-at-night": 15
+    },
+    "biomes": [
+      "minecraft:frozen_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -10,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:frozen_river"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -10,
+      "max-temp-drop-at-night": 13
+    },
+    "biomes": [
+      "minecraft:snowy_mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -10,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:deep_frozen_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -6,
+      "max-temp-drop-at-night": 5
+    },
+    "biomes": [
+      "minecraft:snowy_tundra"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -2,
+      "max-temp-drop-at-night": 16
+    },
+    "biomes": [
+      "minecraft:snowy_taiga_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": -2,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:snowy_taiga_mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 0,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:the_end"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 0,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:small_end_islands"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 0,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:end_midlands"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 0,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:end_highlands"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 0,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:end_barrens"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 0,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:the_void"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 1,
+      "max-temp-drop-at-night": 15
+    },
+    "biomes": [
+      "minecraft:snowy_taiga"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 2,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:cold_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 2,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:deep_cold_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 3,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:snowy_beach"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 5,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 8,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:taiga_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 10,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:deep_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 10,
+      "max-temp-drop-at-night": 14
+    },
+    "biomes": [
+      "minecraft:wooded_mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 10,
+      "max-temp-drop-at-night": 15
+    },
+    "biomes": [
+      "minecraft:taiga_mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 10,
+      "max-temp-drop-at-night": 14
+    },
+    "biomes": [
+      "minecraft:giant_spruce_taiga_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 10,
+      "max-temp-drop-at-night": 14
+    },
+    "biomes": [
+      "minecraft:dripstone_caves"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 11.5,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:mountain_edge"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 12,
+      "max-temp-drop-at-night": 14
+    },
+    "biomes": [
+      "minecraft:taiga"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 12,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:swamp_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 12,
+      "max-temp-drop-at-night": 8
+    },
+    "biomes": [
+      "minecraft:dark_forest_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 12,
+      "max-temp-drop-at-night": 14
+    },
+    "biomes": [
+      "minecraft:giant_spruce_taiga"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 14,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:stone_shore"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 14,
+      "max-temp-drop-at-night": 13
+    },
+    "biomes": [
+      "minecraft:dark_forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 15,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:swamp"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 15,
+      "max-temp-drop-at-night": 15
+    },
+    "biomes": [
+      "minecraft:giant_tree_taiga_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 15,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:gravelly_mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 15,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:modified_gravelly_mountains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 15,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:custom"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 16,
+      "max-temp-drop-at-night": 7
+    },
+    "biomes": [
+      "minecraft:river"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 16,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:mushroom_fields"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 16,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:mushroom_field_shore"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 16,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:birch_forest_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 17,
+      "max-temp-drop-at-night": 15
+    },
+    "biomes": [
+      "minecraft:giant_tree_taiga"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 18,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 18,
+      "max-temp-drop-at-night": 8
+    },
+    "biomes": [
+      "minecraft:forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 18,
+      "max-temp-drop-at-night": 13
+    },
+    "biomes": [
+      "minecraft:wooded_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 18,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:tall_birch_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 19,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:lush_caves"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 19.7,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:deep_lukewarm_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 20,
+      "max-temp-drop-at-night": 11
+    },
+    "biomes": [
+      "minecraft:birch_forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 20,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:lukewarm_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 20,
+      "max-temp-drop-at-night": 12
+    },
+    "biomes": [
+      "minecraft:tall_birch_forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 20,
+      "max-temp-drop-at-night": 18
+    },
+    "biomes": [
+      "minecraft:shattered_savanna_plateau"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 21,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:modified_jungle_edge"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 21,
+      "max-temp-drop-at-night": 18
+    },
+    "biomes": [
+      "minecraft:shattered_savanna"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 23,
+      "max-temp-drop-at-night": 18
+    },
+    "biomes": [
+      "minecraft:eroded_badlands"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 23.5,
+      "max-temp-drop-at-night": 13
+    },
+    "biomes": [
+      "minecraft:beach"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 24,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:plains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 24,
+      "max-temp-drop-at-night": 20
+    },
+    "biomes": [
+      "minecraft:badlands_plateau"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 24,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:sunflower_plains"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 24,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:flower_forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 24,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:modified_jungle"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 24,
+      "max-temp-drop-at-night": 10
+    },
+    "biomes": [
+      "minecraft:bamboo_jungle_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 25,
+      "max-temp-drop-at-night": 8
+    },
+    "biomes": [
+      "minecraft:warm_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 25,
+      "max-temp-drop-at-night": 8
+    },
+    "biomes": [
+      "minecraft:deep_warm_ocean"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 25,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:basalt_deltas"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 26,
+      "max-temp-drop-at-night": 20
+    },
+    "biomes": [
+      "minecraft:wooded_badlands_plateau"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 26,
+      "max-temp-drop-at-night": 19
+    },
+    "biomes": [
+      "minecraft:modified_wooded_badlands_plateau"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 26,
+      "max-temp-drop-at-night": 8
+    },
+    "biomes": [
+      "minecraft:bamboo_jungle"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 27,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:jungle_edge"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 27,
+      "max-temp-drop-at-night": 20
+    },
+    "biomes": [
+      "minecraft:savanna_plateau"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 27,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:soul_sand_valley"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 28,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:jungle_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 28,
+      "max-temp-drop-at-night": 20
+    },
+    "biomes": [
+      "minecraft:savanna"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 28,
+      "max-temp-drop-at-night": 20
+    },
+    "biomes": [
+      "minecraft:badlands"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 28,
+      "max-temp-drop-at-night": 20
+    },
+    "biomes": [
+      "minecraft:modified_badlands_plateau"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 34,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:crimson_forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 34,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:warped_forest"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 35,
+      "max-temp-drop-at-night": 38
+    },
+    "biomes": [
+      "minecraft:desert_hills"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 35,
+      "max-temp-drop-at-night": 6
+    },
+    "biomes": [
+      "minecraft:jungle"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 35,
+      "max-temp-drop-at-night": 30
+    },
+    "biomes": [
+      "minecraft:desert_lakes"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 37,
+      "max-temp-drop-at-night": 40
+    },
+    "biomes": [
+      "minecraft:desert"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 40,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:nether"
+    ]
+  },
+  {
+    "value": {
+      "temperature": 40,
+      "max-temp-drop-at-night": 0
+    },
+    "biomes": [
+      "minecraft:nether_wastes"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+f33bf0f9-b69b-3ca2-abb0-cb1629994463:
+  PLANT:
+    BREEDING:
+      CLT_PLANT_SKELETON:
+        UNLOCKED: true
+      CLT_PLANT_BEE:
+        UNLOCKED: true
+      CLT_PLANT_FLOWER:
+        UNLOCKED: true
+      CLT_PLANT_ENDERMAN:
+        UNLOCKED: true
+      CLT_PLANT_COW:
+        UNLOCKED: true
+      CLT_PLANT_SHULKER:
+        UNLOCKED: true
+      CLT_PLANT_AMETHYST:
+        UNLOCKED: true
+      CLT_PLANT_RAW_GOLD:
+        UNLOCKED: true
+      CLT_PLANT_ECHO:
+        UNLOCKED: true
