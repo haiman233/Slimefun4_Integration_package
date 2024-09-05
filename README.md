@@ -1,4 +1,7 @@
 # 1.20.1粘液科技整合包
+## 统计
+
+![当前版本](https://img.shields.io/github/v/release/haiman233/Slimefun4_Integration_package?include_prereleases)
 
 ## 前言
 
