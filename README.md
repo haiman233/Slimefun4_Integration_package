@@ -23,6 +23,10 @@
 
 下载地址：https://pan.quark.cn/s/5b463659e1a2
 
+虽然您完全可以用纯净端进服，但是为了游玩体验，强烈建议您使用有粘液JEI的端，版本是1.20.4，不用担心，在v2版我已经帮您安装好了跨版本
+
+粘液JEI整合包：https://github.com/haiman233/Slimefun4_JEI_All_Addon
+
 ## 使用教程
 
 以下为使用步骤
