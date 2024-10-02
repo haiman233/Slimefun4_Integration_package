@@ -1,0 +1,72 @@
+SHINING_DUST:
+  lateInit: false
+  item_group: bigsnake_geo-resources_category
+  item:
+    name: '{#ffdbdb}闪{#eed3d3}烁{#ddcbcb}的{#cbc2c2}微{#bababa}茫'
+    lore:
+    - '{#aaaaaa}纪{#a7a7a7}念{#a5a4a4}逝{#a2a2a2}者{#a09f9f}.{#9d9c9c}.{#9b9999}.{#989797}.{#969494}.{#939191}.'
+    material_type: skull_hash
+    material: 5622c30c38f26b5594b008cfdee4420cd05385726a9791b6b8414414222b001a
+  max_deviation: 1
+  geo_name: '&x&f&f&d&b&d&b闪&x&e&e&d&3&d&3烁&x&d&d&c&b&c&b的&x&c&b&c&2&c&2微&x&b&a&b&a&b&a茫'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+BS_FAMINE_OF_CHANGE:
+  lateInit: false
+  item_group: bigsnake_items_category
+  item:
+    name: '{#5fdbdb}质{#57d8d8}变{#4fd4d4}催{#47d1d1}发{#3fcece}素'
+    lore:
+    - '{#ffffff}催{#fff9f9}生{#fff3f3}质{#ffeded}变{#ffe7e7}的{#ffe1e1}合{#ffdbdb}成{#ffd5d5}原{#ffcfcf}料'
+    material_type: skull_hash
+    material: 1528be6d4263dadce613a7bbc0423aa76a39c74846702fa85c2787a7f53c4
+  max_deviation: 1
+  geo_name: '&x&5&f&d&b&d&b质&x&5&7&d&8&d&8变&x&4&f&d&4&d&4催&x&4&7&d&1&d&1发&x&3&f&c&e&c&e素'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+BS_CYAN_GEM:
+  lateInit: false
+  item_group: bigsnake_geo-resources_category
+  item:
+    name: '{#18c2c2}青{#15bebe}宝{#12b9b9}石'
+    lore: []
+    material_type: skull_hash
+    material: e4166254ac8b324c1b78eadc7c249866c6742c17586a33aea6a89fe346b2acf0
+  max_deviation: 1
+  geo_name: '&x&1&8&c&2&c&2青&x&1&5&b&e&b&e宝&x&1&2&b&9&b&9石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+BS_PINK_GEM:
+  lateInit: false
+  item_group: bigsnake_geo-resources_category
+  item:
+    name: '{#ff80ff}粉{#ff7fff}宝{#ff7eff}石'
+    lore: []
+    material_type: skull_hash
+    material: a73511e504c316b139edb35febe73ef591c0f455e8caf9ee353bc12b6c14a922
+  max_deviation: 1
+  geo_name: '&x&f&f&8&0&f&f粉&x&f&f&7&f&f&f宝&x&f&f&7&e&f&f石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1
+BS_DARK_GEM:
+  lateInit: false
+  item_group: bigsnake_geo-resources_category
+  item:
+    name: '{#aaaaaa}黑{#aaaaaa}宝{#aaaaaa}石'
+    lore: []
+    material_type: skull_hash
+    material: 352a91f44bcbc78d4c9d045e941a23f7bdb4d99609e60bdcec842396feb315a7
+  max_deviation: 1
+  geo_name: '&x&a&a&a&a&a&a黑&x&a&a&a&a&a&a宝&x&a&a&a&a&a&a石'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1

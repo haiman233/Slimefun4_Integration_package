@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: MAGENTA_SHULKER_BOX
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    internal: H4sIAAAAAAAA/4XQzU7DMBAE4E3bQBughQISz8IRxIEz3CMnWRwrGztyNwp+ew5F8o9kuH+z2pkKoIL9C5l2eNOs2H0KuYWV6uBxVBpbK774+dTPNKCtG/O9g/KdcTxVAHBbwOaDDEMB5auZNRfn5L1PLr1irDuH8GuLxD55S0r2XEsrXBhYJYGjD6R0/d/thubomU3+dkrLhD54Os12oghfJDiYchQSNYtQX+bna6xZdGi3ib3z1mIXyl2+26T0ENIq381YoWXU7SqPHRKZJcTX+SdIjdHdm/wK0iJGK+z/WIxEG5U75F9onTifBfgBumaaPwcDAAA=
+    blockMaterial: MAGENTA_SHULKER_BOX

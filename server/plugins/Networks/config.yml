@@ -209,3 +209,41 @@ items:
     use-special-model:
       enable: true
       type: '13'
+  NTW_EXPANSION_LINE_POWER_OUTLET_1:
+    max-distance: 32
+    rate: 64
+  NTW_EXPANSION_LINE_POWER_OUTLET_2:
+    max-distance: 32
+    rate: 256
+  NTW_EXPANSION_LINE_POWER_OUTLET_3:
+    max-distance: 32
+    rate: 1024
+  NTW_EXPANSION_LINE_POWER_OUTLET_4:
+    max-distance: 32
+    rate: 4096
+  NTW_EXPANSION_LINE_POWER_OUTLET_5:
+    max-distance: 32
+    rate: 32768
+  NTW_EXPANSION_LINE_POWER_OUTLET_6:
+    max-distance: 32
+    rate: 262144
+  NTW_EXPANSION_LINE_POWER_OUTLET_7:
+    max-distance: 32
+    rate: 2097152
+  NTW_EXPANSION_LINE_POWER_OUTLET_8:
+    max-distance: 32
+    rate: 16777216
+  NTW_EXPANSION_LINE_POWER_OUTLET_9:
+    max-distance: 32
+    rate: 134217728
+  NTW_EXPANSION_LINE_POWER_OUTLET_10:
+    max-distance: 32
+    rate: 1073741824
+  NTW_EXPANSION_LINE_POWER_OUTLET_11:
+    max-distance: 32
+    rate: 2147483647
+integrations:
+  guide:
+    survival-override: false
+    cheat-override: false
+drawer-auto-save-period: 300

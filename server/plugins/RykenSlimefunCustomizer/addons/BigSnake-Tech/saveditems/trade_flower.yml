@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PINK_SHULKER_BOX
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    internal: H4sIAAAAAAAA/3XSTU/DMAwGYHessBXYkPg48Us4gjhwhnuUte4a1Y2jNGErv54ilmWL1Gv02H6TuAAoYPVKXLbv2ik3fMntAmaqgsdOaSytrN1L33hq0YoN75eQfzjs+gIAbjOYfxI7yCB/Y69d9l95FyslkfIdHGCWwJMR8sdbFBvy6IKeJfoh6pKtrol3aAO+SPB9xJXUFZJiHew8satoa7RHlk+n5T0OKCqp+iHoy0SvozZszNFdTQe1WAnnSZlgF4l9Oklgpd7iOV9OP5hRuj3HxfTtdo1ySevraf33Z4Jt2YzHB32T6OeoSdEguBauQfE9bgcO4yL9AlzHZuGFAgAA
+    blockMaterial: PINK_SHULKER_BOX

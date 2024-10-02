@@ -1,0 +1,316 @@
+{
+  "space": {
+    "item": {
+      "item": "minecraft:totem_of_undying",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"空间技艺\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_HYPER_LINK",
+      "LOGITECH_PORTAL_CORE",
+      "LOGITECH_PORTAL_FRAME",
+      "LOGITECH_SOLAR_REACTOR",
+      "LOGITECH_SOLAR_REACTOR_FRAME",
+      "LOGITECH_SOLAR_REACTOR_GLASS",
+      "LOGITECH_SOLAR_INPUT",
+      "LOGITECH_SOLAR_OUTPUT"
+    ]
+  },
+  "cargo": {
+    "item": {
+      "item": "minecraft:bamboo_chest_raft",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"货运机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_CARGO_PART",
+      "LOGITECH_CARGO_CONFIG",
+      "LOGITECH_CARGO_CONFIGURATOR",
+      "LOGITECH_ADV_TRASH",
+      "LOGITECH_STORAGE",
+      "LOGITECH_STORAGE_INPUT",
+      "LOGITECH_STORAGE_OUTPUT",
+      "LOGITECH_SIMPLE_CARGO",
+      "LOGITECH_REMOTE_CARGO",
+      "LOGITECH_LINE_CARGO",
+      "LOGITECH_BISORTER",
+      "LOGITECH_QUARSORTER",
+      "LOGITECH_OCTASORTER",
+      "LOGITECH_BIFILTER",
+      "LOGITECH_QUARFILTER",
+      "LOGITECH_OCTAFILTER",
+      "LOGITECH_ADV_ADJACENT_CARGO",
+      "LOGITECH_ADV_REMOTE_CARGO",
+      "LOGITECH_ADV_LINE_CARGO",
+      "LOGITECH_REDSTONE_ADJACENT_CARGO",
+      "LOGITECH_CHIP_ADJ_CARGO"
+    ]
+  },
+  "vanilla": {
+    "item": {
+      "item": "minecraft:observer",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"extra\":[{\"italic\":false,\"color\":\"yellow\",\"text\":\"哦不...应该是红石科技辣\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"赤石科技\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_REDSTONE_ENGINE",
+      "LOGITECH_WITHERPROOF_REDSTONE",
+      "LOGITECH_WITHERPROOF_REDS",
+      "LOGITECH_ENDFRAME_MACHINE",
+      "LOGITECH_TNT_GEN",
+      "LOGITECH_BEDROCK_BREAKER",
+      "LOGITECH_REDSTONE_MG",
+      "LOGITECH_TNT_MG",
+      "LOGITECH_DUPE_MG",
+      "LOGITECH_ENDDUPE_MG"
+    ]
+  },
+  "basic": {
+    "item": {
+      "item": "minecraft:furnace",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"基础机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_BOOL_GENERATOR",
+      "LOGITECH_LOGIC_REACTOR",
+      "LOGITECH_BUG_CRAFTER",
+      "LOGITECH_FURNACE_FACTORY",
+      "LOGITECH_PRESSOR_FACTORY",
+      "LOGITECH_GRIND_FACTORY",
+      "LOGITECH_SMELTRY",
+      "LOGITECH_DUST_EXTRACTOR",
+      "LOGITECH_INGOT_FACTORY",
+      "LOGITECH_CRAFTER",
+      "LOGITECH_CONVERTOR",
+      "LOGITECH_VIRTUAL_KILLER",
+      "LOGITECH_SPECIAL_CRAFTER",
+      "LOGITECH_SEQ_CONSTRUCTOR",
+      "LOGITECH_EASYSTACKMACHINE",
+      "LOGITECH_INFINITY_AUTOCRAFT",
+      "LOGITECH_INF_MOBSIMULATION",
+      "LOGITECH_INF_GEOQUARRY"
+    ]
+  },
+  "manual": {
+    "item": {
+      "item": "minecraft:crafting_table",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"懒人福音,好耶\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"快捷机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_MANUAL_CORE",
+      "LOGITECH_CRAFT_MANUAL",
+      "LOGITECH_FURNACE_MANUAL",
+      "LOGITECH_ENHANCED_CRAFT_MANUAL",
+      "LOGITECH_GRIND_MANUAL",
+      "LOGITECH_ARMOR_FORGE_MANUAL",
+      "LOGITECH_ORE_CRUSHER_MANUAL",
+      "LOGITECH_COMPRESSOR_MANUAL",
+      "LOGITECH_PRESSURE_MANUAL",
+      "LOGITECH_MAGIC_WORKBENCH_MANUAL",
+      "LOGITECH_ORE_WASHER_MANUAL",
+      "LOGITECH_GOLD_PAN_MANUAL",
+      "LOGITECH_ANCIENT_ALTAR_MANUAL",
+      "LOGITECH_SMELTERY_MANUAL",
+      "LOGITECH_CRUCIBLE_MANUAL",
+      "LOGITECH_PULVERIZER_MANUAL",
+      "LOGITECH_MULTICRAFTTABLE_MANUAL",
+      "LOGITECH_TABLESAW_MANUAL",
+      "LOGITECH_COMPOSTER",
+      "LOGITECH_MULTIMACHINE_MANUAL",
+      "LOGITECH_MULTIBLOCK_MANUAL",
+      "LOGITECH_REPLACE_CARD",
+      "LOGITECH_CARD_MAKER",
+      "LOGITECH_MOBDATA_MANUAL",
+      "LOGITECH_INFINITY_MANUAL",
+      "LOGITECH_NTWWORKBENCH_MANUAL"
+    ]
+  },
+  "functional": {
+    "item": {
+      "item": "minecraft:structure_void",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"功能性物品\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_SAMPLE_SPAWNER",
+      "TMP1",
+      "LOGITECH_RESOLVE_FAILED",
+      "LOGITECH_SHELL",
+      "LOGITECH_TESTUNIT1"
+    ]
+  },
+  "advanced": {
+    "item": {
+      "item": "minecraft:beacon",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"进阶机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_CHIP",
+      "LOGITECH_CHIP_CORE",
+      "LOGITECH_LASER",
+      "LOGITECH_STAR_SMELTERY",
+      "LOGITECH_CHIP_MAKER",
+      "LOGITECH_CHIP_CONSUMER",
+      "LOGITECH_CHIP_BICONSUMER",
+      "LOGITECH_STACKMACHINE",
+      "LOGITECH_ADVANCED_CHIP_MAKER",
+      "LOGITECH_TRANSMUTATOR_FRAME",
+      "LOGITECH_TRANSMUTATOR_GLASS",
+      "LOGITECH_TRANSMUTATOR_ROD",
+      "LOGITECH_TRANSMUTATOR"
+    ]
+  },
+  "beyond": {
+    "item": {
+      "item": "minecraft:repeating_command_block",
+      "nbt": "{Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:35,display:{Lore:[\u0027{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"Beyond Tech\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"终章 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"超越领域\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_ANTIMASS",
+      "LOGITECH_FINAL_LASER",
+      "LOGITECH_FINAL_BASE",
+      "LOGITECH_FINAL_ALTAR",
+      "LOGITECH_FINAL_SEQUENTIAL",
+      "LOGITECH_FINAL_STONE_MG",
+      "LOGITECH_FINAL_MANUAL",
+      "LOGITECH_FINAL_CONVERTOR",
+      "LOGITECH_FINAL_STACKMACHINE",
+      "LOGITECH_FINAL_STACKMGENERATOR",
+      "LOGITECH_RAND_EDITOR"
+    ]
+  },
+  "singularity": {
+    "item": {
+      "item": "minecraft:nether_star",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"概念奇点工艺\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_STORAGE_OPERATOR",
+      "LOGITECH_RESETTER",
+      "LOGITECH_STORAGE_SINGULARITY",
+      "LOGITECH_QUANTUM_LINK",
+      "LOGITECH_INPORT",
+      "LOGITECH_OUTPORT",
+      "LOGITECH_IOPORT",
+      "NTW_QUANTUM_STORAGE_DISPLAY"
+    ]
+  },
+  "energy": {
+    "item": {
+      "item": "minecraft:lightning_rod",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"电力与能源拓展\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_LVOID_GENERATOR",
+      "LOGITECH_SIMU_LVOID",
+      "LOGITECH_ENERGY_TRASH",
+      "LOGITECH_OPPO_GEN",
+      "LOGITECH_ARC_REACTOR",
+      "LOGITECH_CHIP_REACTOR",
+      "LOGITECH_ENERGY_AMPLIFIER"
+    ]
+  },
+  "special": {
+    "item": {
+      "item": "minecraft:sculk_catalyst",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"这些机器怎么看起来功能怪怪的...\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"谜之领域\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_SAMPLE_HEAD",
+      "LOGITECH_ATTR_OP",
+      "LOGITECH_HEAD_ANALYZER",
+      "LOGITECH_RECIPE_LOGGER",
+      "LOGITECH_LASER_GUN",
+      "LOGITECH_RADIATION_CLEAR",
+      "LOGITECH_ANTIMASS_CLEAR",
+      "LOGITECH_HOLOGRAM_REMOVER"
+    ]
+  },
+  "material": {
+    "item": {
+      "item": "minecraft:end_crystal",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"基础材料\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_MATL114",
+      "LOGITECH_BUG",
+      "LOGITECH_TRUE_",
+      "LOGITECH_FALSE_",
+      "LOGITECH_LOGIGATE",
+      "LOGITECH_LOGIC",
+      "LOGITECH_NOLOGIC",
+      "LOGITECH_EXISTE",
+      "LOGITECH_UNIQUE",
+      "LOGITECH_PARADOX",
+      "LOGITECH_LENGINE",
+      "LOGITECH_LFIELD",
+      "LOGITECH_LSCHEDULER",
+      "LOGITECH_LCRAFT",
+      "LOGITECH_LBOOLIZER",
+      "LOGITECH_LMOTOR",
+      "LOGITECH_LDIGITIZER",
+      "LOGITECH_LIOPORT",
+      "LOGITECH_LPLATE",
+      "LOGITECH_DIMENSIONAL_SHARD",
+      "LOGITECH_STAR_GOLD",
+      "LOGITECH_STAR_GOLD_INGOT",
+      "LOGITECH_WORLD_FEAT",
+      "LOGITECH_NETHER_FEAT",
+      "LOGITECH_END_FEAT",
+      "LOGITECH_ENTITY_FEAT",
+      "LOGITECH_METAL_CORE",
+      "LOGITECH_SMELERY_CORE",
+      "LOGITECH_MASS_CORE",
+      "LOGITECH_TECH_CORE",
+      "LOGITECH_LSINGULARITY",
+      "LOGITECH_ATOM_INGOT",
+      "LOGITECH_CHIP_INGOT",
+      "LOGITECH_ABSTRACT_INGOT",
+      "LOGITECH_PALLADIUM_INGOT",
+      "LOGITECH_PLATINUM_INGOT",
+      "LOGITECH_MOLYBDENUM",
+      "LOGITECH_CERIUM",
+      "LOGITECH_CADMIUM_INGOT",
+      "LOGITECH_MENDELEVIUM",
+      "LOGITECH_DYSPROSIUM",
+      "LOGITECH_BISMUTH_INGOT",
+      "LOGITECH_ANTIMONY_INGOT",
+      "LOGITECH_THALLIUM",
+      "LOGITECH_HYDRAGYRUM",
+      "LOGITECH_BORON",
+      "LOGITECH_BISILVER",
+      "LOGITECH_PAGOLD",
+      "LOGITECH_PDCECDMD",
+      "LOGITECH_HGTLPBBI",
+      "LOGITECH_REINFORCED_CHIP_INGOT",
+      "LOGITECH_SPACE_PLATE",
+      "LOGITECH_VIRTUAL_SPACE",
+      "LOGITECH_LOGIC_CORE",
+      "LOGITECH_FINAL_FRAME",
+      "LOGITECH_STACKFRAME",
+      "LOGITECH_VIRTUALWORLD",
+      "LOGITECH_ANTI_GRAVITY_ITEM",
+      "LOGITECH_TEST_MCORE",
+      "LOGITECH_TEST_SEQ"
+    ]
+  },
+  "generators": {
+    "item": {
+      "item": "minecraft:lava_bucket",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"⇨ \"},{\"italic\":false,\"color\":\"green\",\"text\":\"单击打开\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"逻辑工艺 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"材料生成与转化\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LOGITECH_MAGIC_STONE",
+      "LOGITECH_BOOL_MG",
+      "LOGITECH_OVERWORLD_MINER",
+      "LOGITECH_NETHER_MINER",
+      "LOGITECH_END_MINER",
+      "LOGITECH_DIMENSION_MINER",
+      "LOGITECH_MAGIC_PLANT",
+      "LOGITECH_OVERWORLD_PLANT",
+      "LOGITECH_NETHER_PLANT",
+      "LOGITECH_END_PLANT",
+      "LOGITECH_STONE_FACTORY",
+      "LOGITECH_REVERSE_GENERATOR",
+      "LOGITECH_VIRTUAL_MINER",
+      "LOGITECH_VIRTUAL_PLANT",
+      "LOGITECH_STACKMGENERATOR"
+    ]
+  }
+}

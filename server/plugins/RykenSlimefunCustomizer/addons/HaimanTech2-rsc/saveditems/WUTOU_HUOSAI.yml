@@ -1,0 +1,13 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PISTON
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"无头活塞"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"可用于拆基岩、光源方块等"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"无法被破坏的方块"}],"text":""}'
+    BlockStateTag:
+      extended: 'true'

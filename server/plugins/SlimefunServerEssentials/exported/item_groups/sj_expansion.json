@@ -1,0 +1,108 @@
+{
+  "sj_expansion_info": {
+    "item": {
+      "item": "minecraft:paper",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"信息\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_INFO",
+      "EXPANSION_AUTHOR",
+      "EXPANSION_THANKS"
+    ],
+    "sub": true
+  },
+  "sj_expansion_generators": {
+    "item": {
+      "item": "minecraft:glass",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"发电机\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_IRON_GENERATOR",
+      "EXPANSION_MAGMA_BLOCK_MACHINE"
+    ],
+    "sub": true
+  },
+  "sj_expansion_items": {
+    "item": {
+      "item": "minecraft:stick",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"物品\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_BASKETBALL",
+      "EXPANSION_HELICOPTER",
+      "EXPANSION_BAD_OMEN_POTION",
+      "EXPANSION_RELX_V",
+      "EXPANSION_MOB_ITEM_BAN",
+      "EXPANSION_MOB_ITEM_LOOT",
+      "EXPANSION_HUMANSADDLE",
+      "EXPANSION_JINKELA"
+    ],
+    "sub": true
+  },
+  "sj_expansion_materials": {
+    "item": {
+      "item": "minecraft:iron_ingot",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"零件\u0026材料\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_CONCENTRATED_MAGIC_LUMP",
+      "EXPANSION_CONCENTRATED_ICE",
+      "EXPANSION_VILLAGER_SOUL",
+      "EXPANSION_HELICOPTER_ENGINE",
+      "EXPANSION_HELICOPTER_GLASS",
+      "EXPANSION_HELICOPTER_PROPELLER",
+      "EXPANSION_CORE"
+    ],
+    "sub": true
+  },
+  "sj_expansion_specialitems": {
+    "item": {
+      "item": "minecraft:creeper_head",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"memes\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"特殊物品\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_KOBE",
+      "EXPANSION_MAMBA_SPIRIT",
+      "EXPANSION_ZOBAYAN",
+      "EXPANSION_IKUN_PRIME"
+    ],
+    "sub": true
+  },
+  "sj_expansion_weapons": {
+    "item": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{Damage:0,HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"武器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_FROST_TOUCH",
+      "EXPANSION_ONE_HIT_AXE",
+      "EXPANSION_GRENADE"
+    ],
+    "sub": true
+  },
+  "sj_expansion_armors": {
+    "item": {
+      "item": "minecraft:diamond_chestplate",
+      "nbt": "{Damage:0,HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"盔甲\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_BLUE_SUIT",
+      "EXPANSION_BLUE_PANTS",
+      "EXPANSION_QIE_ER_XI"
+    ],
+    "sub": true
+  },
+  "sj_expansion_machines": {
+    "item": {
+      "item": "minecraft:stone",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"拓展 \"},{\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"italic\":false,\"color\":\"blue\",\"text\":\"机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "EXPANSION_BREWING_STAND",
+      "EXPANSION_STONE_CONVERT_MACHINE",
+      "EXPANSION_STONE_CONVERT_MACHINE_2",
+      "EXPANSION_RESPAWN_MACHINE"
+    ],
+    "sub": true
+  }
+}

@@ -797,6 +797,100 @@ HAIMAN_PLANT_MACHINE:
     49:
       material: gray_stained_glass_pane
       name: '&a'
+HAIMAN_PLANT_MAKER:
+  title: '&a&l植物转换机'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: STONE_SHOVEL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+HAIMAN_FLOWER_MAKER:
+  title: '&6&l花卉转换机'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: STONE_SHOVEL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
 HAIMAN_CORAL_PRODUCER:
   title: '&d&l珊瑚养殖机'
   slots:
@@ -2395,6 +2489,53 @@ HAIMAN_CRAFTING_TABLE:
     49:
       material: gray_stained_glass_pane
       name: '&a'
+HAIMAN_SOUL_MACHINE:
+  title: '&f&l灵魂转换机'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: SOUL_SAND
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
 HAIMAN_CONCRETE_DYING:
   title: '&6&l混凝土染坊'
   slots:
@@ -2677,8 +2818,102 @@ HAIMAN_CANDLE_DYING:
     49:
       material: gray_stained_glass_pane
       name: '&a'
+HAIMAN_BANNER_DYING:
+  title: '&6&l旗帜染坊'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: STONE_SHOVEL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
 HAIMAN_ADVANCE_DYING:
   title: '&4&l终极染坊'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: STONE_SHOVEL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+HAIMAN_BLOCK_DYING:
+  title: '&c&l染色方块浇筑机'
   slots:
     3:
       material: gray_stained_glass_pane
@@ -3572,6 +3807,53 @@ HAIMAN_CARPET_MACHINE:
       name: '&a'
 HAIMAN_RAIL_MACHINE_1:
   title: '&9&l刷铁轨机 &7- &eI'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: STONE_HOE
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+HAIMAN_RAIL_MACHINE_2:
+  title: '&9&l刷铁轨机 &7- &eII'
   slots:
     3:
       material: gray_stained_glass_pane
@@ -8270,6 +8552,53 @@ HAIMAN_SHAGUO:
     49:
       material: gray_stained_glass_pane
       name: '&a'
+HAIMAN_YINGLIAO_MACHINE:
+  title: '&6&l饮料机'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
 HAIMAN_PAIZHUO:
   title: '&f&l牌桌'
   slots:
@@ -9240,7 +9569,7 @@ HAIMAN_NETHERITE_INGOT_MACHINE:
       material: gray_stained_glass_pane
       name: '&a'
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
-  title: '&a&l强和一体机 &7- &eI'
+  title: '&a&l强合一体机 &7- &eI'
   slots:
     0:
       name: '&f提示'
@@ -9263,7 +9592,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
       material: gray_stained_glass_pane
       name: '&a'
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
-  title: '&a&l强和一体机 &7- &6II'
+  title: '&a&l强合一体机 &7- &6II'
   slots:
     0:
       name: '&f提示'
@@ -9286,7 +9615,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
       material: gray_stained_glass_pane
       name: '&a'
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
-  title: '&a&l强和一体机 &7- &4III'
+  title: '&a&l强合一体机 &7- &4III'
   slots:
     0:
       name: '&f提示'
@@ -10368,6 +10697,52 @@ BOAT_MACHINE:
       name: '&a'
 MINECART_MACHINE:
   title: '&4&l矿车爆发仪'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7右侧为输出槽'
+    18:
+      material: gray_stained_glass_pane
+      name: '&a'
+    27:
+      material: gray_stained_glass_pane
+      name: '&a'
+    36:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45:
+      material: gray_stained_glass_pane
+      name: '&a'
+BOW_MACHINE:
+  title: '&4&l弓爆发仪'
+  slots:
+    0:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7右侧为输出槽'
+    18:
+      material: gray_stained_glass_pane
+      name: '&a'
+    27:
+      material: gray_stained_glass_pane
+      name: '&a'
+    36:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45:
+      material: gray_stained_glass_pane
+      name: '&a'
+CROSSBOW_MACHINE:
+  title: '&4&l弩爆发仪'
   slots:
     0:
       name: '&f提示'

@@ -1,0 +1,11 @@
+# 是否启用自动更新
+auto-update: true
+# 检查背包中地图干扰器的频率，单位：秒
+time-frame: 10
+# 地图干扰器每秒消耗的电力
+energy-cost: 1
+# 当玩家 y 小于以下设置时是否让玩家从地图上隐藏
+# 即使玩家没有地图干扰器
+underground-hide: true
+# 当 underground-hide 为 true 时，玩家 y 小于该设置，会从地图上隐藏
+underground-y: 0

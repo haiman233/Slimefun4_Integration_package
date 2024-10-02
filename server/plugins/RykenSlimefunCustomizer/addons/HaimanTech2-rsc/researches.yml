@@ -93,6 +93,10 @@ fenzi5:
   items:
   - MOLECULAR_RECOMBINATION_INSTRUMENT_V
   - HT_MODULE_1
+  - CHUANGSHI_YIN
+  - YUEYIN
+  - ZAYIN
+  - YGYIN
 fenzi_32767:
   lateInit: false
   id: 110000011
@@ -120,6 +124,12 @@ xingchenfensui:
   items:
   - HAIMAN_GALAXY_PIECE
   - HAIMAN_BLACK_HOLE_PIECE
+  - JUBIAN_MOKUAI
+  - JIJIN_ZHIXING
+  - HUIXIANG_ZHIXING
+  - ANDAN_ZHIXING
+  - SIHOU_ZHIXING
+  - SHENGMING_ZHIXING
 haimanxingchen:
   lateInit: false
   id: 110000814
@@ -291,6 +301,8 @@ zaipeiji:
   - HAIMAN_FLOWER_MACHINE
   - HAIMAN_PLANT_MACHINE
   - HAIMAN_CORAL_PRODUCER
+  - HAIMAN_PLANT_MAKER
+  - HAIMAN_FLOWER_MAKER
 wubiaoqian:
   lateInit: false
   id: 110000032
@@ -359,6 +371,7 @@ riyongjiqi2:
   - HAIMAN_FOOD_FERMENTATION_MACHINE
   - HAIMAN_LEARHER_CHANGER
   - HAIMAN_CRAFTING_TABLE
+  - HAIMAN_SOUL_MACHINE
 riyongjiqi3:
   lateInit: false
   id: 120000040
@@ -483,6 +496,7 @@ yuanbanyiti2:
   items:
   - RAIL_INTEGRATED_MACHINE
   - HAIMAN_RAIL_MACHINE_1
+  - HAIMAN_RAIL_MACHINE_2
   - HAIMAN_SHULKER_BOX_MACHINE
 yuanbanyiti3:
   lateInit: false
@@ -561,6 +575,14 @@ ranfang:
   - HAIMAN_SHULKER_BOX_DYING
   - HAIMAN_CANDLE_DYING
   - HAIMAN_ADVANCE_DYING
+  - HAIMAN_BANNER_DYING
+ranfang2:
+  lateInit: false
+  id: 112000055
+  name: 染色方块的批量生产方法
+  levelCost: 200
+  items:
+  - HAIMAN_BLOCK_DYING
 yiqijiqi:
   lateInit: false
   id: 110000056
@@ -795,6 +817,14 @@ renzaoyuzhou:
   levelCost: 2380
   items:
   - MAN_MADE_UNIVERSE
+  - HUANYU_LIZI
+nitaiyuzhou:
+  lateInit: false
+  id: 112000088
+  name: 拟态宇宙
+  levelCost: 5000
+  items:
+  - MAN_MADE_UNIVERSE_PLUS
 zhongjifadianji:
   lateInit: false
   id: 110000089
@@ -953,7 +983,7 @@ bolanqiu:
   - SNJE_BALL
   - LWD_BALL
   - MLQS_BALL
-  - 1MLTNY_BALL
+  - MLTNY_BALL_2
   - MDJSJ_BALL
   - NRLY_BALL
   - NRE_BALL
@@ -1357,6 +1387,14 @@ ptgjyitiji:
   - FLINT_AND_STEEL_MACHINE
   - FISHING_ROD_MACHINE
   - SHEARS_MACHINE
+duidiegongnu:
+  lateInit: false
+  id: 110102033
+  name: 堆叠弓弩
+  levelCost: 102
+  items:
+  - BOW_MACHINE
+  - CROSSBOW_MACHINE
 jdyitiji:
   lateInit: false
   id: 110101034
@@ -1772,6 +1810,7 @@ shaguo:
   levelCost: 32
   items:
   - HAIMAN_SHAGUO
+  - HAIMAN_YINGLIAO_MACHINE
 doudizhu:
   lateInit: false
   id: 110101080
@@ -1804,3 +1843,10 @@ ditandr:
   levelCost: 28
   items:
   - DITAN_DIANRONG
+wutouhuosai:
+  lateInit: false
+  id: 110101084
+  name: 可恶的基岩
+  levelCost: 30
+  items:
+  - WUTOU_HUOSAI

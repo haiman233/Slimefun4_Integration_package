@@ -37,6 +37,13 @@ slime_customizer_yuanban:
     material: 2388794b98ed253e2271661fe3aa23e2d6840926ee81e1eb996a5c47bfadcce
     name: '&6&l海曼科技院 &7- &f&l原版物品'
   parent: haimantech
+gongju_zhuangbei:
+  lateInit: false
+  type: sub
+  item:
+    material: NETHERITE_AXE
+    name: '&6&l海曼科技院 &7- &c&l工具与装备'
+  parent: haimantech
 slime_customizer_material:
   lateInit: false
   type: sub
@@ -52,6 +59,14 @@ slime_customizer:
     material_type: skull_hash
     material: 4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
     name: '&6&l海曼科技院 &7- &e&l能源与电力'
+  parent: haimantech
+ranfang:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 777dcaa50f9580bb0c6d5cd5ee9b1e3b354426e671d4782150f2acf5b4e2ae51
+    name: '&6&l海曼科技院 &7- &f&l染色工艺'
   parent: haimantech
 slime_customizer_huanbao:
   lateInit: false

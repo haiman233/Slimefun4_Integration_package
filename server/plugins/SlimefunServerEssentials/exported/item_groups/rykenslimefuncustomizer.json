@@ -1,0 +1,2808 @@
+{
+  "gongju_zhuangbei": {
+    "item": {
+      "item": "minecraft:netherite_axe",
+      "nbt": "{Damage:0,HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"red\",\"text\":\"工具与装备\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "WUTOU_HUOSAI"
+    ],
+    "sub": true
+  },
+  "slime_customizer_farm": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1534165909,2138454776,-1635765389,-2058038230],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0M2QwZmFiYmQ5MTNjMDAxZDRkY2VjOGIzMjk0ODMyYjFmNGZmNzlkOGYzZDU2ODNhNTA3MGQzNzFmOGNmNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"green\",\"text\":\"农牧型机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_MUSHROOM_MACHINE",
+      "HAIMAN_FLOWER_MACHINE",
+      "HAIMAN_PLANT_MACHINE",
+      "HAIMAN_PLANT_MAKER",
+      "HAIMAN_FLOWER_MAKER",
+      "HAIMAN_CORAL_PRODUCER",
+      "SOIL_CHANGER",
+      "GRASS_WOOD_CHANGER",
+      "CORAL_DEAD_MACHINE",
+      "HAIMAN_SUGAR_PRODUCER_MACHINE",
+      "HAIMAN_FISH_MACHINE",
+      "HAIMAN_FOOD_FERMENTATION_MACHINE",
+      "HAIMAN_MEAT_CHANGER",
+      "KUANGWUCUISHENGQI",
+      "SAPLING_INTEGRATED_MACHINE"
+    ],
+    "sub": true
+  },
+  "jp_jq_plus": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-914467943,-255575237,-1138891023,-1174281712],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMwZmU3NzFmY2MzZWNjMDUzMGVlOTU0NWFiMDc3OTc0MzdmOTVlMDlhMGVhYTliNTEyNDk3ZmU4OTJmNTJmYiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_ZNCJ",
+      "JP_JQGC",
+      "JP_SGRZ",
+      "JP_WZJ",
+      "JP_GLJ",
+      "JP_YXYTJ1",
+      "JP_WXYTJ1"
+    ],
+    "sub": true
+  },
+  "haiman_egg": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1773454675,-993312779,-1442744844,2050154875],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRlYTU4NDQ1NTIwMmJlNTJjYzk1M2I5Zjk4ZDgxOTAyYjY3NGM2YzZkMDY4ODBhMjcxMDIzNThiNzFkNzllMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"green\",\"text\":\"生物学\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HM_HJZJ",
+      "HM_YYZJ",
+      "HM_SWZJ",
+      "HM_ZDZJ",
+      "HM_FKZJ",
+      "HM_HSZJ",
+      "HM_YSZJ",
+      "HM_ZWZJ",
+      "HM_DDXP",
+      "SWPY_1",
+      "SWPY_2",
+      "SWPY_3",
+      "SWPY_4",
+      "SWPY_5",
+      "SWPY_6",
+      "SWPY_7",
+      "SWPY_8",
+      "SWPY_9",
+      "SWPY_10",
+      "SWPY_11",
+      "SWPY_12",
+      "SWPY_13",
+      "SWPY_14",
+      "SWPY_15",
+      "SWPY_BOSS"
+    ],
+    "sub": true
+  },
+  "bigsnake_fisheries_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1616498615,-290832537,-1136424082,-2071652808],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBhZDg2NTE4Y2Q0OWNjZmUyODdmZTFkNzM5OTk0NTA1MjFhZDAxODE5ZTVhOGQ5OTg5NTIzMTUyY2IxZjY2ZSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D8FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#89FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5AEAFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#61CAFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#69AAFF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#708AFF\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7070FF\",\"text\":\"应\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5F5FFF\",\"text\":\"用\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#4F4FFF\",\"text\":\"渔\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#3E3EFF\",\"text\":\"业\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#2E2EFF\",\"text\":\"学\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_EARTHWORM",
+      "BS_LITTLE_FISH",
+      "BS_RED_EARTHWORM",
+      "BS_SHRIMP",
+      "BS_SUPREME_FISH_FEED",
+      "BS_FISH_BAIT_PROCESSING_FACTORY",
+      "BS_FISHERMAN",
+      "BS_PRIMARY_FISH_TANK",
+      "BS_ADVANCED_FISH_TANK"
+    ],
+    "sub": true
+  },
+  "ranfang": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-2033494216,-31376034,-2019076605,1255465221],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc3ZGNhYTUwZjk1ODBiYjBjNmQ1Y2Q1ZWU5YjFlM2IzNTQ0MjZlNjcxZDQ3ODIxNTBmMmFjZjViNGUyYWU1MSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"white\",\"text\":\"染色工艺\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_CONCRETE_DYING",
+      "HAIMAN_WOOL_DYING",
+      "HAIMAN_GLASS_DYING",
+      "HAIMAN_TERRACOTTA_DYING",
+      "HAIMAN_SHULKER_BOX_DYING",
+      "HAIMAN_CANDLE_DYING",
+      "HAIMAN_BANNER_DYING",
+      "HAIMAN_ADVANCE_DYING",
+      "HAIMAN_BLOCK_DYING"
+    ],
+    "sub": true
+  },
+  "slime_customizer_zhuangshi": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1574212731,-1281739565,-1740883418,48031324],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMzY2ZlN2YwNGUwMjMxOTliMzBhOWU4NzkxYWE1ZTQ4ZGVhOGNiY2JkNzFhMjhkMTJkMjU2MmE3ZDM0OCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_purple\",\"text\":\"杂项\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MAGIC_SWEET_POTATO",
+      "FKS",
+      "HAIMAN_TEA",
+      "HAIMAN_BIRTHDAY_CAKE_1",
+      "CAO_TC",
+      "LIGHT_0",
+      "LIGHT_1",
+      "LIGHT_2",
+      "LIGHT_3",
+      "LIGHT_4",
+      "LIGHT_5",
+      "LIGHT_6",
+      "LIGHT_7",
+      "LIGHT_8",
+      "LIGHT_9",
+      "LIGHT_10",
+      "LIGHT_11",
+      "LIGHT_12",
+      "LIGHT_13",
+      "LIGHT_14",
+      "MEITANZHONGZI",
+      "TIEZHONGZI",
+      "JINZHONGZI",
+      "LVBAOSHIZHONGZI",
+      "ZUANSHIZHONGZI",
+      "SHIYINGZHONGZI",
+      "QINGJINSHIZHONGZI",
+      "HONGSHISHIZHONGZI",
+      "TONGZHONGZI",
+      "BOOK_1",
+      "BOOK_2",
+      "BOOK_3",
+      "BOOK_4",
+      "HAIMAN_COFFEE"
+    ],
+    "sub": true
+  },
+  "slime_customizer_19": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1369518667,-202818061,-1181529487,-1356233945],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM2OTdkMmM5YmU5OTJmMDQ4MDliMDdhODA5NmU2OWQwODlkYzA5MDg4NDZlMzU0ZmFmYzc3MjljNzFmMzRkOCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"1.19版机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "WAMING_MACHINE",
+      "DANZH_MACHINE",
+      "SBYQH_MACHINE",
+      "YOUNI_MACHINE",
+      "HUIXIANG_MACHINE",
+      "SHANYANGJIAO_MACHINE"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_l_region": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1999329271,-535153302,-1731865684,1938398474],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxNTJhMDQ5MDU4YTliZGQ1NjJmNTQxNGIxMzhjZDUzNWJmMDEyZjdjYzRiMzg3MTIzMjhhOWZmMGJhOWQ2YiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_gray\",\"text\":\"十二区分部 (L Region Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_SIN_LUXURIA",
+      "HIVECORPORATION_SIN_GULA",
+      "HIVECORPORATION_SIN_AVARITIA",
+      "HIVECORPORATION_SIN_ACEIDA",
+      "HIVECORPORATION_SIN_IRA",
+      "HIVECORPORATION_SIN_INVIDIA",
+      "HIVECORPORATION_SIN_SUPERBIA",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_CHICKEN_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_CHICKEN_2",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SHEEP_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SHEEP_2",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_PIG_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_COW_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_COW_2",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_ZOMBIE_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SKELETON_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SKELETON_2",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SPIDER_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SPIDER_2",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_CREEPER_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_ENDERMAN_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_SLIME_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_GUARDIAN_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_GUARDIAN_2",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_PILLAGER_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_PIGLIN_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_BLAZE_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_MAGMA_CUBE_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_WITHER_SKELETON_1",
+      "HIVECORPORATION_SOUL_TREMOR_BOX_WITHER_1"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_machine": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1115508449,-1916256617,-1560510177,-775349734],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThiNTZjMDFkOGZhZjhkY2U2Zjg2YzgyODFjMGJmZWQwMDVlMDlmYTRkODFjMjFkODQ2NWEzMzNhOWQ0NmYwMyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"机械部 (Industry Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_IMAGINE_MACHINE_COMPRESS",
+      "HIVECORPORATION_IMAGINE_MACHINE_EXTEND",
+      "HIVECORPORATION_IMAGINE_MACHINE_CUT",
+      "HIVECORPORATION_IMAGINE_MACHINE_ASSEMBLE",
+      "HIVECORPORATION_COBBLESTONE_MACHINE",
+      "HIVECORPORATION_COBBLESTONE_MACHINE_I",
+      "HIVECORPORATION_SALT_MIRROR_MACHINE",
+      "HIVECORPORATION_SALT_MIRROR_MACHINE_I",
+      "HIVECORPORATION_LINKER",
+      "HIVECORPORATION_KEY_COPYER",
+      "HIVECORPORATION_TIANFANGYETAN",
+      "HIVECORPORATION_COBBLESTONE_MACHINE_II",
+      "HIVECORPORATION_COLLAPSE",
+      "HIVECORPORATION_COLLAPSE_I",
+      "HIVECORPORATION_DUST_MACHINE",
+      "HIVECORPORATION_DUST_MACHINE_I",
+      "HIVECORPORATION_DUST_MACHINE_II",
+      "HIVECORPORATION_DUST_MACHINE_III"
+    ],
+    "sub": true
+  },
+  "jp_zwf_12": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_12"
+    ],
+    "sub": true
+  },
+  "jp_zwf_13": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_13"
+    ],
+    "sub": true
+  },
+  "jp_zwf_14": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_14"
+    ],
+    "sub": true
+  },
+  "slimefun_expansion_material": {
+    "item": {
+      "item": "minecraft:flint",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF3333\",\"text\":\"材\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF7744\",\"text\":\"料\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "SE_BUCKET_CARD",
+      "SE_WATER_BUCKET_CARD",
+      "SE_LAVA_BUCKET_CARD"
+    ],
+    "sub": true
+  },
+  "jp_zwf_17": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_17"
+    ],
+    "sub": true
+  },
+  "bigsnake_template_category": {
+    "item": {
+      "item": "minecraft:silence_armor_trim_smithing_template",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E5FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#4FF8EC\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#43EBC6\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E9E9E9\",\"text\":\"生\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DCDCDC\",\"text\":\"物\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D0D0D0\",\"text\":\"芯\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C3C3C3\",\"text\":\"片\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B7B7B7\",\"text\":\"模\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAAAAA\",\"text\":\"板\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_TEMPLATE_DRAGON",
+      "BS_TEMPLATE_WITHER",
+      "BS_TEMPLATE_WITHER_SKELETON",
+      "BS_TEMPLATE_BEE",
+      "BS_TEMPLATE_ZOMBIE",
+      "BS_TEMPLATE_SPIDER",
+      "BS_TEMPLATE_SLIME",
+      "BS_TEMPLATE_GHAST",
+      "BS_TEMPLATE_GOLEM",
+      "BS_TEMPLATE_PIG",
+      "BS_TEMPLATE_SHEEP",
+      "BS_TEMPLATE_COW",
+      "BS_TEMPLATE_CHICKEN",
+      "BS_TEMPLATE_COD",
+      "BS_TEMPLATE_SALMON",
+      "BS_TEMPLATE_TROPICAL_FISH",
+      "BS_TEMPLATE_PUFFERFISH",
+      "BS_TEMPLATE_MAGMA",
+      "BS_TEMPLATE_SKELETON",
+      "BS_TEMPLATE_ENDERMAN",
+      "BS_TEMPLATE_GUARDIAN",
+      "BS_TEMPLATE_CREEPER",
+      "BS_TEMPLATE_BLAZE",
+      "BS_TEMPLATE_VILLAGER",
+      "BS_TEMPLATE_WITCH",
+      "BS_TEMPLATE_PHANTOM",
+      "BS_TEMPLATE_VEX"
+    ],
+    "sub": true
+  },
+  "bigsnake_snake_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1362074837,1621638269,-1731542302,251419579],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc5NDVkN2M1MGVkNDY0MTBjOWNkNWU0ZGRlYWE3OWE2YjQ2ZWJiZGE3N2FmNzNjOWI4Y2EzOTQ0ZmJiNzI1ZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E5FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#4FF8EC\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#43EBC6\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFDD98\",\"text\":\"诸\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFD37A\",\"text\":\"蛇\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFC85C\",\"text\":\"黄\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFBE3E\",\"text\":\"昏\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_GREED",
+      "BS_REBUKE",
+      "BS_FOOL",
+      "BS_THE_KING_ROD",
+      "BS_BLOODLUST",
+      "BS_BROKEN_GREED",
+      "BS_BROKEN_REBUKE",
+      "BS_BROKEN_FOOL",
+      "BS_KING_HELMET"
+    ],
+    "sub": true
+  },
+  "jp_zwf_18": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_18"
+    ],
+    "sub": true
+  },
+  "slime_customizer_emoji": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-91711915,-222216251,-1426214283,-1059544556],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JhYWJlNzI0ZWFlNTljNWQxM2Y0NDJjN2RjNWQyYjFjNmI3MGMyZjgzMzY0YTQ4OGNlNTk3M2FlODBiNGMzIn19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"red\",\"text\":\"表情\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "DOGE",
+      "EMOJI_HAPPY",
+      "EMOJI_NERVOUS",
+      "EMOJI_ANGRY",
+      "EMOJI_ICE",
+      "EMOJI_ZZZ",
+      "EMOJI_OU",
+      "EMOJI_LAUGH",
+      "EMOJI_LAUGHING_CRYING",
+      "EMOJI_SAD",
+      "EMOJI_CRY",
+      "EMOJI_SHIT",
+      "EMOJI_WOW",
+      "EMOJI_CRAZY",
+      "EMOJI_LOVE",
+      "EMOJI_LUE",
+      "EMOJI_CONFIDENCE",
+      "EMOJI_DEAD",
+      "EMOJI_THINKING",
+      "EMOJI_EMOTICON_EYES",
+      "EMOJI_XOK",
+      "EMOJI_BIG_MOUTH_CRYING",
+      "EMOJI_COOL",
+      "EMOJI_BEARD",
+      "EMOJI_SPIKE"
+    ],
+    "sub": true
+  },
+  "jp_zwf_19": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_19"
+    ],
+    "sub": true
+  },
+  "haiman_muban": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1311244125,374617743,-1705358450,1806774204],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlZTIxMGU3YzI3Mjc3ODhhZmMyN2MwY2M5Njk5ZjUyNDY3YWE1MTMxNTdiZTk3ZDkyMGMyMmEwZTEwOWJlNiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"火漆印刷\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HM_HUOQI",
+      "HM_XIXUEHUOQI",
+      "HM_CHUJUEHUOQI",
+      "HM_BINGFENGHUOQI",
+      "HM_BAOZHAHUOQI",
+      "HM_DIZHENHUOQI",
+      "HM_NAINAIHUOQI",
+      "HM_YEYEHUOQI",
+      "HM_RONGLUHUOQI",
+      "HM_FAMUHUOQI",
+      "HM_SHUAGUAILONGHUOQI",
+      "HM_XUNKUANGHUOQI",
+      "HM_KUANGMAIHUOQI",
+      "HM_PANYANHUOQI",
+      "HM_YESHIHUOQI",
+      "HM_HUANJIANGHUOQI",
+      "HM_NONGFUHUOQI",
+      "HM_QIAOCHIHUOQI",
+      "HM_JIANTAZHEHUOQI",
+      "HM_MOYINGHUOQI",
+      "HM_SHILAIMUHUOQI",
+      "HM_YINGSHIHUOQI",
+      "HM_CAIHONGHUOQI",
+      "HM_MIFENGHUOQI",
+      "HM_TAIYANGNENGHUOQI",
+      "HM_FANGHUAHUOQI",
+      "HM_XIANRENZHANGHUOQI",
+      "HM_SUOLIANHUOQI",
+      "HM_LHBDHUOQI",
+      "HM_HQKYJ"
+    ],
+    "sub": true
+  },
+  "slime_customizer_20": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1189838569,1920874801,-1200560382,520980322],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U3ODg5YTBkM2VmOWRmMWVmNmUxOTU2YmNlZTgyNWZhMTgzZmQ2NzI4NjkyNzVjODhlYjM4NTM5MWRiNTU0In19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"gold\",\"text\":\"1.20版机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "SGJ_MACHINE",
+      "KYDJQ_MACHINE",
+      "MBYK_MACHINE",
+      "TPKY_MACHINE"
+    ],
+    "sub": true
+  },
+  "bigsnake_phigros_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;114823056,1530083290,-2124163867,-232230815],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIyZTQwYjRiZmJjYzA0MzMwNDRkODZkNjc2ODVmMDU2NzAyNTkwNDI3MWQwYTc0OTk2YWZiZTNmOWJlMmMwZiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E4FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C9FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AEFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#94FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#79FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5EFFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5AF2FF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#61DEFF\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#68CBFF\",\"text\":\"P\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#70B7FF\",\"text\":\"h\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77A4FF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7E90FF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8986FF\",\"text\":\"r\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#9C8EFE\",\"text\":\"o\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AE95FD\",\"text\":\"s\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C19DFC\",\"text\":\",\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4A5FB\",\"text\":\"启\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E6ADFA\",\"text\":\"动\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#F9B5F9\",\"text\":\"!\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_PRAY",
+      "BS_NIGHT",
+      "BS_PAPIPUPIPA",
+      "BS_SAKURA_STREET",
+      "BS_DRAG",
+      "BS_NOTE",
+      "BS_HOLD",
+      "BS_FLICK",
+      "BS_FC",
+      "BS_ALL_PERFECT",
+      "BS_BEATMAPS_GENERATOR",
+      "BS_BEATMAPS_PRIME_GENERATOR",
+      "BS_AUTO_PLAY"
+    ],
+    "sub": true
+  },
+  "bigsnake_ruin_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;608449083,461518728,-1340338526,116926955],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E0MGNmOTQwNjliNTlhYWY3YzgxM2U0YTJlOGI3MTFhODVkZTdkYzkzMmRhMDMzYmUyZTQ0ZTNkYzY5ODYxMyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DDFFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#BBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#99FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#4DD5D5\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#45AAAA\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#3E8080\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#365555\",\"text\":\"毁\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#2E2B2B\",\"text\":\"灭\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_DESTROYER_1",
+      "BS_DESTROYER_2",
+      "BS_DESTROYER_3",
+      "BS_DESTROYER_4"
+    ],
+    "sub": true
+  },
+  "jp_zwf_20": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_20"
+    ],
+    "sub": true
+  },
+  "jp_yfr": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-784342467,1461728721,-2137820290,-1469689577],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"养蜂人\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "VEX_GEM_1",
+      "JP_BEEBZQ",
+      "JP_FENGCHAO",
+      "JP_BEE",
+      "JP_FC_SOLDER_INGOT",
+      "JP_FC_ALUMINUM_BRASS_INGOT",
+      "JP_FC_ALUMINUM_BRONZE_INGOT",
+      "JP_FC_BRONZE_INGOT",
+      "JP_FC_STEEL",
+      "JP_FC_DURALUMIN",
+      "JP_FC_BILLON",
+      "JP_FC_BRASS",
+      "JP_FC_CORINTHIAN_BRONZE",
+      "JP_FC_DAMASCUS_STEEL",
+      "JP_FC_HARDENED_METAL",
+      "JP_FC_REINFORCED_ALLOY",
+      "JP_FC_FERROSILICON",
+      "JP_FC_GILDED",
+      "JP_FC_NICKEL",
+      "JP_FC_COBALT",
+      "JP_FC_REDSTONE_ALLOY",
+      "JP_FC_SYNTHETIC_DIAMOND",
+      "JP_FC_SYNTHETIC_EMERALD",
+      "JP_FC_SYNTHETIC_SAPPHIRE",
+      "JP_FC_CARBONADO"
+    ],
+    "sub": true
+  },
+  "slime_customizer_zuozhe": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1506170734,1750022949,-1732838974,-6934261],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVlMDAwNmNjODBlY2I0MGE4ZjI1MTcxMTEwMTUyZGZkYTU2YTBiOWJiMzU2NjI4NTBkMjlmZDFjZjcyZTZlNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_red\",\"text\":\"作者\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN",
+      "YITOUDAIDAI",
+      "YH_MC"
+    ],
+    "sub": true
+  },
+  "jp_zwf_21": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_21"
+    ],
+    "sub": true
+  },
+  "jp_zwf_22": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_22"
+    ],
+    "sub": true
+  },
+  "jp_zwf_23": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_23"
+    ],
+    "sub": true
+  },
+  "jp_zwf_24": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_24"
+    ],
+    "sub": true
+  },
+  "bigsnake_module-parts_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;2098709734,112344950,-1314701103,-310337472],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4NTZhOGYzN2I2YzMxNDY4NTRmMmNhYTcxMDFiOWRkNTkyZjQ2NjlhM2M3NWY5NDFlMjg1OTU1MmJkMWFlOCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E2FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C4FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A7FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8AFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#4FFFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6CF8F8\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8AF1F1\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A7EBEB\",\"text\":\"模\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C4E4E4\",\"text\":\"块\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E2DDDD\",\"text\":\"零\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFD6D6\",\"text\":\"件\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BAN1_ITEM",
+      "BAN2_ITEM",
+      "MADA_ITEM",
+      "WUXIAN_SET",
+      "MACHINE_SET",
+      "CORE_SET",
+      "COMPLETE_CORE_SET",
+      "INFINITE_COMPLETE_CORE_SET",
+      "BS_ARTIFICIAL_CORE",
+      "BS_ARTIFICIAL_CORE_ADVANCED",
+      "BS_PROPULSION_MODEL",
+      "BS_COOLING_MODEL"
+    ],
+    "sub": true
+  },
+  "jp_zwf_25": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_25"
+    ],
+    "sub": true
+  },
+  "slime_customizer_qiu": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;647816046,1462516085,-1128399284,1104273427],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxYjJhZjhkMjMyMjI4MmZjZTRhMWFhNGYyNTdhNTJiNjhlMjdlYjMzNGY0YTE4MWZkOTc2YmFlNmQ4ZWIifX19\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"white\",\"text\":\"波兰球\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_ASIA_COUNTRY",
+      "CHINA_TAIWAN_BALL",
+      "CHINA_XIANGGANG_BALL",
+      "CHINA_AOMEN_BALL",
+      "CHINA_BALL",
+      "CX_BALL",
+      "XJP_BALL",
+      "YM_BALL",
+      "LG_BALL",
+      "TG_BALL",
+      "YSL_BALL",
+      "FLB_BALL",
+      "AFH_BALL",
+      "BJST_BALL",
+      "MJLG_BALL",
+      "BALIN_BALL",
+      "ASBJ_BALL",
+      "AEZH_BALL",
+      "YMNY_BALL",
+      "RIBEN_BALL",
+      "WZBKST_BALL",
+      "ALBLHQZG_BALL",
+      "TKMST_BALL",
+      "TJKST_BALL",
+      "XLY_BALL",
+      "HANGUO_BALL",
+      "DTJST_BALL",
+      "STALB_BALL",
+      "HSKST_BALL",
+      "YDNXY_BALL",
+      "ABHQY_BALL",
+      "WENLAI_BALL",
+      "BUDAN_BALL",
+      "DDF_BALL",
+      "SPLS_BALL",
+      "JPZ_BALL",
+      "GLJY_BALL",
+      "MIANDIAN_BALL",
+      "MENGGU_BALL",
+      "MEDF_BALL",
+      "MLXY_BALL",
+      "LBN_BALL",
+      "JEJSST_BALL",
+      "KWT_BALL",
+      "YUEDAN_BALL",
+      "YLK_BALL",
+      "YILANG_BALL",
+      "INDIA_BALL",
+      "KATAER_BALL",
+      "BLST_BALL",
+      "AMSD_BALL",
+      "NBE_BALL",
+      "NAST_BALL",
+      "YUENAN_BALL",
+      "TUERQI_BALL",
+      "ASEAN_BALL",
+      "HAIMAN_EUROPE_COUNTRY",
+      "SHAE_BALL",
+      "SULIAN_BALL",
+      "RUSSIA_BALL",
+      "PTY_BALL",
+      "BLS_BALL",
+      "YDL_BALL",
+      "MET_BALL",
+      "UK_BALL",
+      "FG_BALL",
+      "XL_BALL",
+      "DG_BALL",
+      "PLSDG_BALL",
+      "MNG_BALL",
+      "JIEKE_BALL",
+      "AEL_BALL",
+      "LTW_BALL",
+      "RS_BALL",
+      "WKL_BALL",
+      "DANMAI_BALL",
+      "BOLAN_BALL",
+      "LTWY_BALL",
+      "ASNY_BALL",
+      "BELS_BALL",
+      "ADL_BALL",
+      "XYL_BALL",
+      "LMNY_BALL",
+      "SLWNY_BALL",
+      "BLLTW_BALL",
+      "SEWY_BALL",
+      "HELAN_BALL",
+      "SLFK_BALL",
+      "KLDY_BALL",
+      "FENLAN_BALL",
+      "SMLN_BALL",
+      "BINGDAO_BALL",
+      "NUOWEI_BALL",
+      "RUIDIAN_BALL",
+      "JTLNY_BALL",
+      "AEBNY_BALL",
+      "ADE_BALL",
+      "BJLY_BALL",
+      "XBY_BALL",
+      "BSNYHHSGWN_BALL",
+      "HS_BALL",
+      "MEDW_BALL",
+      "LZDSD_BALL",
+      "FDG_BALL",
+      "DNSTHDAGHG_BALL",
+      "LSB_BALL",
+      "MSWEJQD_BALL",
+      "NSLF_BALL",
+      "AXDG_BALL",
+      "LBL_BALL",
+      "JKSLFK_BALL",
+      "DD_BALL",
+      "SKSGG_BALL",
+      "OM_BALL",
+      "HY_BALL",
+      "HAIMAN_AFRICA_COUNTRY",
+      "AJ_BALL",
+      "ASEBY_BALL",
+      "WGD_BALL",
+      "SLLA_BALL",
+      "SNJE_BALL",
+      "LWD_BALL",
+      "MLQS_BALL",
+      "MLTNY_BALL",
+      "MDJSJ_BALL",
+      "NRLY_BALL",
+      "NRE_BALL",
+      "MLG_BALL",
+      "AEJLY_BALL",
+      "BCWN_BALL",
+      "AGL_BALL",
+      "BLD_BALL",
+      "BJNFS_BALL",
+      "BN_BALL",
+      "SWSL_BALL",
+      "ELTLY_BALL",
+      "CDJNY_BALL",
+      "JBT_BALL",
+      "KTDW_BALL",
+      "GGGHG_BALL",
+      "GGMZGHG_BALL",
+      "KML_BALL",
+      "ZFGHG_BALL",
+      "KAMAILONG_BALL",
+      "FDJ_BALL",
+      "JNYBS_BALL",
+      "JNY_BALL",
+      "JN_BALL",
+      "JP_BALL",
+      "MSBK_BALL",
+      "MLTNY_BALL_2",
+      "MLW_BALL",
+      "LBY_BALL",
+      "KBLY_BALL",
+      "LST_BALL",
+      "NNW_BALL",
+      "KNY_BALL",
+      "GBY_BALL",
+      "NMBY_BALL",
+      "SD_BALL",
+      "NSD_BALL",
+      "NF_BALL",
+      "SMLL_BALL",
+      "SML_BALL",
+      "SSE_BALL",
+      "SDMHPLXB_BALL",
+      "ALBSHLMZGHG_BALL",
+      "JBBW_BALL",
+      "ZBY_BALL",
+      "TNS_BALL",
+      "DUOGE_BALL",
+      "TSNY_BALL",
+      "KEDST_BALL",
+      "MMLKSD_BALL",
+      "ML_BALL",
+      "ZD_BALL",
+      "JNL_BALL",
+      "FM_BALL",
+      "HAIMAN_AMERICA_COUNTRY",
+      "USA_BALL",
+      "JND_BALL",
+      "BNM_BALL",
+      "BAXI_BALL",
+      "AGT_BALL",
+      "BLWY_BALL",
+      "GLBY_BALL",
+      "HAIDI_BALL",
+      "BILU_BALL",
+      "MXG_BALL",
+      "WLG_BALL",
+      "EEDG_BALL",
+      "ZL_BALL",
+      "ADGHBBD_BALL",
+      "BBDS_BALL",
+      "BHM_BALL",
+      "BLZ_BALL",
+      "SEWD_BALL",
+      "DMNJ_BALL",
+      "DMNK_BALL",
+      "GUBA_BALL",
+      "GSDLJ_BALL",
+      "GYN_BALL",
+      "GLND_BALL",
+      "YMJ_BALL",
+      "HDLS_BALL",
+      "BLG_BALL",
+      "NJLG_BALL",
+      "SLN_BALL",
+      "SWSTHGLNT_BALL",
+      "SLXY_BALL",
+      "SJZHNWS_BALL",
+      "WNRL_BALL",
+      "DLNDHDBG_BALL",
+      "SPAEHMKL_BALL",
+      "GLL_BALL",
+      "FSGYN_BALL",
+      "WDML_BALL",
+      "BY_BALL",
+      "HAIMAN_OCEANIA_COUNTRY",
+      "ADLY_BALL",
+      "FIJI_BALL",
+      "MKLNXY_BALL",
+      "MSEQD_BALL",
+      "JLBS_BALL",
+      "BBYXJNY_BALL",
+      "PL_BALL",
+      "NIUAI_BALL",
+      "XXL_BALL",
+      "NAOLU_BALL",
+      "SLMQD_BALL",
+      "SMYQD_BALL",
+      "WNAT_BALL",
+      "TWL_BALL",
+      "TJ_BALL",
+      "XKLDNY_BALL",
+      "NFKD_BALL",
+      "HAIMAN_ANTARCTICA_COUNTRY",
+      "NANJI_BALL"
+    ],
+    "sub": true
+  },
+  "jp_prop": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1010053055,-1223020056,-1497983093,2135873898],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhN2RlZDVlMzRkMWRkNzViZWQ3MDczNjhmY2FlODFhOGQ2YTUzMjY4NjdiMTBmNzAyOGIzZTIxNTM1NjE4ZiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FB4170\",\"text\":\"道具\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_CSWQ",
+      "JP_道具",
+      "JP_NULL",
+      "RPG_ZOMBIE_1",
+      "RPG_ZOMBIE_2",
+      "RPG_ZOMBIE_3",
+      "JP_FENKA",
+      "JP_DLKLJ",
+      "JP_JYSNQ250",
+      "JP_XXDF",
+      "JP_LANQIU",
+      "JP_FWQ",
+      "JP_HKS_PICKAXE",
+      "JP_SANSHEGONG",
+      "JP_HKS_DIAMOND_SWORD",
+      "JP_YXJ",
+      "JP_JHZR",
+      "JP_QHFMS",
+      "JP_SHZFS",
+      "JP_HJZFS",
+      "JP_KJRXZFS",
+      "JP_SMZFS",
+      "JP_PLAYPLAN",
+      "JP_ZBYG",
+      "JP_WJZFK"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_purchase": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1140214730,-946916284,-1639837464,-1321002719],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY4ZDZlMDViN2Q2YWVlNzRhMmJkM2EwYjFlNDgyZDY2OTA2MWQxMmI1ZWRhZjk4NTBmZDNmZGQ3YzY2YWNhMyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"市场部 (Purchase Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_BOTTLE_COLLAPSE",
+      "HIVECORPORATION_PACT_EOZOIUM",
+      "HIVECORPORATION_TEAR_SOUL_TREMOR_BOX",
+      "HIVECORPORATION_TEAR_HEAL_REACTOR"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_technology": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1509039848,-80135822,-1265882140,-1765187480],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYxYmNiMDM3N2FkY2JkMTY5NDVjYjc0ZWVmYmZjYTg4NDQ3MTAwYmQxMThkMjU1NjRlZTc3N2NmNTQxYjA5MiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"技术部 (Technology Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_COCOON_TIANFANGYETAN",
+      "HIVECORPORATION_COCOON_COBBLESTONE_MACHINE"
+    ],
+    "sub": true
+  },
+  "pifu": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;2012741944,-984140412,-1657788787,-1973346901],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJlZGViNWJhZmM2MDNkNDliMWQzMjFjYmRkZDRlOTNmYmYzMTA5ODFkZTAyMjJjNTcxOGI5OWE5ZmY3MWMifX19\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"皮肤装扮\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "RED_ENERGY",
+      "GREEN_ENERGY",
+      "YELLOW_ENERGY",
+      "PURPLE_ENERGY"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_library": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1409059644,1811562459,-1297200844,-1026075279],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJlMzdhZTJlZWEwNGRlNTljNTllNjZkZThlOTYxMzA5NThhMTg4YTBjYzA0NzdlMmNiM2ZiNDNjMGMyZDkyOSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"档案部 (Library Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_INFORMATION_1",
+      "HIVECORPORATION_INFORMATION_2",
+      "HIVECORPORATION_INFORMATION_3",
+      "HIVECORPORATION_INFORMATION_4",
+      "HIVECORPORATION_INFORMATION_5",
+      "HIVECORPORATION_INFORMATION_6",
+      "HIVECORPORATION_INFORMATION_7"
+    ],
+    "sub": true
+  },
+  "bigsnake_network_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1668729009,2041591270,-1608306393,-749835736],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgwNWNhZjNkMDJlMzVlNGFhZGMxOWFmMTVlODI3OTAxNzdmMWNkN2I3OWY0ZjViODhkOTQzYWM2YmUyMDNhMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7FFFF0\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A9FEE0\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D3FED1\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FDFDC1\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FEFE91\",\"text\":\"量\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FEFE61\",\"text\":\"子\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFF30\",\"text\":\"纠\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFF00\",\"text\":\"缠\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_LIANGZIJIUCHAN_MACHINE",
+      "BS_BASIC_CARGO_MAKER",
+      "BS_NETWORK_MAKER"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_energy": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;85845028,-1004129419,-1383846617,5628064],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGViZWU4ODhmMmI4ZjM3M2FhMjNjNWUwZWFiNDExY2UzZTExYTU5MmE4MWFmNDZiZDZkOGVlYjYzMTA0YWI1OSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"能源部 (Energy Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_EOZOIUM_BATTERY",
+      "HIVECORPORATION_EOZOIUM_BOX",
+      "HIVECORPORATION_EOZOIUMTOELECTRIC_MACHINE",
+      "HIVECORPORATION_ELECTRICTOEOZOIUM_MACHINE"
+    ],
+    "sub": true
+  },
+  "bigsnake_dust_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1007361587,1975203839,-1282537430,1610214357],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjM2Y5MmJmOWJlNzNhZGQzZjllM2RkM2RhY2M1NzM4MzVmNDgyYmZlMTFkMzFjMWZjZjk5MWQwOTZkZWVjNyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D8FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#89FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#56E6E6\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#57C0C0\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#589999\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#597373\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#606060\",\"text\":\"粉\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#737373\",\"text\":\"锭\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#858585\",\"text\":\"一\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#989898\",\"text\":\"体\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAAAAA\",\"text\":\"化\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MAGNESIUM_DUST_GENERATOR",
+      "IRON_DUST_GENERATOR",
+      "GOLD_DUST_GENERATOR",
+      "COPPER_DUST_GENERATOR",
+      "TIN_DUST_GENERATOR",
+      "SILVER_DUST_GENERATOR",
+      "LEAD_DUST_GENERATOR",
+      "ALUMINUM_DUST_GENERATOR",
+      "ZINC_DUST_GENERATOR",
+      "BS_MAGNESIUM_DUST_GENERATOR",
+      "BS_IRON_DUST_GENERATOR",
+      "BS_GOLD_DUST_GENERATOR",
+      "BS_COPPER_DUST_GENERATOR",
+      "BS_TIN_DUST_GENERATOR",
+      "BS_SILVER_DUST_GENERATOR",
+      "BS_LEAD_DUST_GENERATOR",
+      "BS_ALUMINUM_DUST_GENERATOR",
+      "BS_ZINC_DUST_GENERATOR",
+      "BS_MAGNESIUM_INGOT_GENERATOR",
+      "BS_IRON_INGOT_GENERATOR",
+      "BS_GOLD_INGOT_GENERATOR",
+      "BS_COPPER_INGOT_GENERATOR",
+      "BS_TIN_INGOT_GENERATOR",
+      "BS_SILVER_INGOT_GENERATOR",
+      "BS_LEAD_INGOT_GENERATOR",
+      "BS_ALUMINUM_INGOT_GENERATOR",
+      "BS_ZINC_INGOT_GENERATOR"
+    ],
+    "sub": true
+  },
+  "bigsnake_compression_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;669042066,-1655885717,-2126923681,-1008531366],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ4MzM3ZjdlZGUxNWMzYjJmOGRjNmE2M2JkOTI4NzRjZGY3NGVjODYyYjQxMThjN2UzNTU1OWNlOGI0ZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5EDDEC\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#67BAD8\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7098C5\",\"text\":\"压\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7975B2\",\"text\":\"缩\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#82539E\",\"text\":\"工\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8B308B\",\"text\":\"艺\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_COMPRESSION_CRAFTING_TABLE_STAGE_1",
+      "BS_COMPRESSION_CRAFTING_TABLE_STAGE_2",
+      "BS_COMPRESSION_CRAFTING_TABLE_STAGE_3",
+      "BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1",
+      "BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2",
+      "BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_3",
+      "BS_SILICON_BOX_4",
+      "BS_SUPREME_SYNTHETIC_RUBY_BOX_4",
+      "BS_BRONZE_BOX_4",
+      "BS_SUPREME_ALLOY_ZIRCONIUM_BOX_4",
+      "BS_SUPREME_ALLOY_TITANIUM_BOX_4",
+      "BS_SUPREME_ALLOY_IRIDIUM_BOX_4",
+      "BS_SUPREME_ALLOY_MANGANESE_BOX_4",
+      "BS_SUPREME_ALLOY_PLATINUM_BOX_4",
+      "BS_SUPREME_ALLOY_AURUM_BOX_4",
+      "BS_SUPREME_ALLOY_ADAMANTIUM__BOX_4",
+      "BS_ELECTRO_MAGNET_BOX_4",
+      "BS_ELECTRIC_MOTOR_BOX_4",
+      "BS_ALUMINUM_COMPOSITE_BOX_4",
+      "BS_STAINLESS_STEEL_BOX_4",
+      "BS_MAGSTEEL_BOX_4",
+      "BS_TITANIUM_BOX_4",
+      "BS_DT_STEEL_MINERALIZED_APIARY_4",
+      "BS_DT_DURALUMIN_MINERALIZED_APIARY_4",
+      "BS_DT_BILLON_MINERALIZED_APIARY_4",
+      "BS_DT_BRASS_MINERALIZED_APIARY_4",
+      "BS_DT_ALUMINUM_BRASS_MINERALIZED_APIARY_4",
+      "BS_DT_ALUMINUM_BRONZE_MINERALIZED_APIARY_4",
+      "BS_DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY4",
+      "BS_DT_SOLDER_MINERALIZED_APIARY_4",
+      "BS_DT_DAMASCUS_STEEL_MINERALIZED_APIARY_4",
+      "BS_DT_FERROSILICON_MINERALIZED_APIARY_4",
+      "BS_DT_GILDED_IRON_MINERALIZED_APIARY_4",
+      "BS_DT_NICKEL_MINERALIZED_APIARY_4",
+      "BS_DT_COBALT_MINERALIZED_APIARY_4",
+      "BS_DT_REINFORCED_ALLOY_MINERALIZED_APIARY_4",
+      "BS_DT_HARDENED_METAL_MINERALIZED_APIARY_4",
+      "BS_DT_REDSTONE_ALLOY_MINERALIZED_APIARY_4",
+      "BS_DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY_4",
+      "BS_DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY_4",
+      "BS_DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY_4",
+      "BS_DT_CARBONADO_MINERALIZED_APIARY_4",
+      "BS_SILICON_BOX_5",
+      "BS_SUPREME_SYNTHETIC_RUBY_BOX_5",
+      "BS_BRONZE_BOX_5",
+      "BS_SUPREME_ALLOY_ZIRCONIUM_BOX_5",
+      "BS_SUPREME_ALLOY_TITANIUM_BOX_5",
+      "BS_SUPREME_ALLOY_IRIDIUM_BOX_5",
+      "BS_SUPREME_ALLOY_AURUM_BOX_5",
+      "BS_SUPREME_ALLOY_MANGANESE_BOX_5",
+      "BS_SUPREME_ALLOY_PLATINUM_BOX_5",
+      "BS_SUPREME_ALLOY_ADAMANTIUM__BOX_5",
+      "BS_ELECTRO_MAGNET_BOX_5",
+      "BS_ELECTRIC_MOTOR_BOX_5",
+      "BS_MAGSTEEL_BOX_5",
+      "BS_TITANIUM_BOX_5",
+      "BS_ALUMINUM_COMPOSITE_BOX_5",
+      "BS_STAINLESS_STEEL_BOX_5",
+      "BS_DT_STEEL_MINERALIZED_APIARY_5",
+      "BS_DT_DURALUMIN_MINERALIZED_APIARY_5",
+      "BS_DT_BILLON_MINERALIZED_APIARY_5",
+      "BS_DT_BRASS_MINERALIZED_APIARY_5",
+      "BS_DT_ALUMINUM_BRONZE_MINERALIZED_APIARY_5",
+      "BS_DT_ALUMINUM_BRASS_MINERALIZED_APIARY_5",
+      "BS_DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY5",
+      "BS_DT_SOLDER_MINERALIZED_APIARY_5",
+      "BS_DT_DAMASCUS_STEEL_MINERALIZED_APIARY_5",
+      "BS_DT_FERROSILICON_MINERALIZED_APIARY_5",
+      "BS_DT_GILDED_IRON_MINERALIZED_APIARY_5",
+      "BS_DT_NICKEL_MINERALIZED_APIARY_5",
+      "BS_DT_COBALT_MINERALIZED_APIARY_5",
+      "BS_DT_REINFORCED_ALLOY_MINERALIZED_APIARY_5",
+      "BS_DT_HARDENED_METAL_MINERALIZED_APIARY_5",
+      "BS_DT_REDSTONE_ALLOY_MINERALIZED_APIARY_5",
+      "BS_DT_CARBONADO_MINERALIZED_APIARY_5",
+      "BS_DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY_5",
+      "BS_DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY_5",
+      "BS_DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY_5"
+    ],
+    "sub": true
+  },
+  "bigsnake_respawn_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1953556373,2132360109,-1770418390,-1899590001],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJkOTY2ZDg1ZDRhNGI4ZTIxZTY3NjkwMWUzZDlmZDE5ZWVjODA4N2MzMWJhZjUxOWI0ZjM5YjNjZTU3ZDE5MiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DDFFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#BBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#99FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77DDDD\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#99BBBB\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#BB9999\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DD7777\",\"text\":\"重\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF5555\",\"text\":\"生\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_RESPAWN_1",
+      "BS_RESPAWN_2",
+      "BS_RESPAWN_3",
+      "BS_RESPAWN_4"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_core": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1435914691,-400278548,-1609305174,1919923072],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYwMDE2OWY3NjY5NzlkZmQ2OGNiNGQ0MzZlOGMxMTA1NGY1ZjE3N2MxM2RkMjY0NTllZTdiN2RiZDBkNjNmNSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"核心部 (Core Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "TEST2"
+    ],
+    "sub": true
+  },
+  "huanyu_vr": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;2035594496,-1820574736,-1537088033,-2022761942],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFhOTliY2RkZTg1YTIxZDllM2NlYjA4ZGM3YjZhZDViMTBjZDA2YzE3YjdiOTQyNTdkZGJkNDkwNTY0YmUyYSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"1.RV-Pre1拓展\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "VR_INFO",
+      "VR_YANJING",
+      "DIANZI_JIAOLIAO",
+      "ZHINENG_SHOUBIAO"
+    ],
+    "sub": true
+  },
+  "bigsnake_bee_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-568967393,-1978387564,-1270461686,-2081299534],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU5MDAxYTg1MWJiMWI5ZTljMDVkZTVkNWM2OGIxZWEwZGM4YmQ4NmJhYmYxODhlMGFkZWQ4ZjkxMmMwN2QwZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71F1D5\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EE3AA\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAD480\",\"text\":\"蜂\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6C655\",\"text\":\"箱\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3B82B\",\"text\":\"拓\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFAA00\",\"text\":\"展\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_PRIME_CHANGER",
+      "BS_BRONZE_BOX",
+      "BS_BRONZE_BOX_1",
+      "BS_BRONZE_BOX_2",
+      "BS_BRONZE_BOX_3",
+      "BS_SILICON_BOX",
+      "BS_SILICON_BOX_1",
+      "BS_SILICON_BOX_2",
+      "BS_SILICON_BOX_3",
+      "BS_SUPREME_SYNTHETIC_RUBY_BOX",
+      "BS_SUPREME_SYNTHETIC_RUBY_BOX_1",
+      "BS_SUPREME_SYNTHETIC_RUBY_BOX_2",
+      "BS_SUPREME_SYNTHETIC_RUBY_BOX_3",
+      "BS_SUPREME_ALLOY_ZIRCONIUM_BOX",
+      "BS_SUPREME_ALLOY_ZIRCONIUM_BOX_1",
+      "BS_SUPREME_ALLOY_ZIRCONIUM_BOX_2",
+      "BS_SUPREME_ALLOY_ZIRCONIUM_BOX_3",
+      "BS_SUPREME_ALLOY_TITANIUM_BOX",
+      "BS_SUPREME_ALLOY_TITANIUM_BOX_1",
+      "BS_SUPREME_ALLOY_TITANIUM_BOX_2",
+      "BS_SUPREME_ALLOY_TITANIUM_BOX_3",
+      "BS_SUPREME_ALLOY_IRIDIUM_BOX",
+      "BS_SUPREME_ALLOY_IRIDIUM_BOX_1",
+      "BS_SUPREME_ALLOY_IRIDIUM_BOX_2",
+      "BS_SUPREME_ALLOY_IRIDIUM_BOX_3",
+      "BS_SUPREME_ALLOY_AURUM_BOX",
+      "BS_SUPREME_ALLOY_AURUM_BOX_1",
+      "BS_SUPREME_ALLOY_AURUM_BOX_2",
+      "BS_SUPREME_ALLOY_AURUM_BOX_3",
+      "BS_SUPREME_ALLOY_MANGANESE_BOX",
+      "BS_SUPREME_ALLOY_MANGANESE_BOX_1",
+      "BS_SUPREME_ALLOY_MANGANESE_BOX_2",
+      "BS_SUPREME_ALLOY_MANGANESE_BOX_3",
+      "BS_SUPREME_ALLOY_PLATINUM_BOX",
+      "BS_SUPREME_ALLOY_PLATINUM_BOX_1",
+      "BS_SUPREME_ALLOY_PLATINUM_BOX_2",
+      "BS_SUPREME_ALLOY_PLATINUM_BOX_3",
+      "BS_SUPREME_ALLOY_ADAMANTIUM_BOX",
+      "BS_SUPREME_ALLOY_ADAMANTIUM_BOX_1",
+      "BS_SUPREME_ALLOY_ADAMANTIUM_BOX_2",
+      "BS_SUPREME_ALLOY_ADAMANTIUM__BOX_3",
+      "BS_ELECTRO_MAGNET_BOX",
+      "BS_ELECTRO_MAGNET_BOX_1",
+      "BS_ELECTRO_MAGNET_BOX_2",
+      "BS_ELECTRO_MAGNET_BOX_3",
+      "BS_ELECTRIC_MOTOR_BOX",
+      "BS_ELECTRIC_MOTOR_BOX_1",
+      "BS_ELECTRIC_MOTOR_BOX_2",
+      "BS_ELECTRIC_MOTOR_BOX_3",
+      "BS_ALUMINUM_COMPOSITE_BOX",
+      "BS_ALUMINUM_COMPOSITE_BOX_1",
+      "BS_ALUMINUM_COMPOSITE_BOX_2",
+      "BS_ALUMINUM_COMPOSITE_BOX_3",
+      "BS_STAINLESS_STEEL_BOX",
+      "BS_STAINLESS_STEEL_BOX_1",
+      "BS_STAINLESS_STEEL_BOX_2",
+      "BS_STAINLESS_STEEL_BOX_3",
+      "BS_MAGSTEEL_BOX",
+      "BS_MAGSTEEL_BOX_1",
+      "BS_MAGSTEEL_BOX_2",
+      "BS_MAGSTEEL_BOX_3",
+      "BS_TITANIUM_BOX",
+      "BS_TITANIUM_BOX_1",
+      "BS_TITANIUM_BOX_2",
+      "BS_TITANIUM_BOX_3"
+    ],
+    "sub": true
+  },
+  "slime_customizer_newyear": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;466225382,-1353760817,-1665320755,-838570908],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ1OGEzOTdhYWMyZmRiNWExYmI5YjQyMTg4ZDIzOGFmNGY4MjMwMThjYTQ5MWE4ZTRhZWIyOTZmZDlmODkifX19\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"新年快乐！\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_CHINESE_DRAGON_1",
+      "HAIMAN_TIGER_1",
+      "HAIMAN_CHINA_1",
+      "HAIMAN_CHINESE_LANTERN_1",
+      "HAIMAN_TIGER_FURRY_1",
+      "HAIMAN_TIGER_STICK_1",
+      "HAIMAN_TIGER_DUN_1",
+      "HAIMAN_TIGER_AXE_1",
+      "HAIMAN_XIONGSHILAOFANG"
+    ],
+    "seasonal": 1
+  },
+  "bigsnake_horticulture_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;822573196,801519148,-1565708209,29471531],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIwZWU3NzQxZmYxYjk1OGRiYjlmYTdjZGRhZDljM2NjZTkzMzczZjQ3MGY5YjgzNGRhMDJkYTY3YzgyMDJhNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D8FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#89FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#58FFE8\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5CFFC5\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#60FFA1\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#64FF7E\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#73FE72\",\"text\":\"应\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FD94\",\"text\":\"用\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B9FBB5\",\"text\":\"园\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DCFAD7\",\"text\":\"艺\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFF8F8\",\"text\":\"学\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BIGSNAKE_TREE_MACHINE",
+      "BIGSNAKE_HUA_MACHINE",
+      "BS_BASIC_TREE_FACTORY",
+      "BS_ADVANCED_TREE_FACTORY",
+      "BS_BASIC_FARM_FACTORY",
+      "BS_ADVANCED_FARM_FACTORY",
+      "BS_MAIN_DIMENSION_GRASS_GENERATOR",
+      "BS_NETHERITE_GRASS_GENERATOR",
+      "BS_CAVE_SITIMULATE_SPACE",
+      "BS_SAPLING_CHANGER"
+    ],
+    "sub": true
+  },
+  "bigsnake_information_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1193644016,1221344670,-1350188568,-755929877],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGExNjAzOGJjOGU2NTE4YWZhOTE0OThkYWI3Njc1YzAxY2IzMWExMjVkMjFjNDliODYxMjk0ZDM5ZTFjNTYwYyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E7FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CEFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B6FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#9DFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#85FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#9CF6F6\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B4ECEC\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBE3E3\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3D9D9\",\"text\":\"信\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FAD0D0\",\"text\":\"息\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_VERSION_INFORMATION",
+      "BS_PLAY_INFORMATION",
+      "BS_OTHER_INFORMATION"
+    ],
+    "sub": true
+  },
+  "wujinkuozhan": {
+    "item": {
+      "item": "minecraft:nether_star",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true,\"color\":\"yellow\",\"text\":\"6\"},{\"italic\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"无尽\"},{\"italic\":false,\"color\":\"dark_red\",\"text\":\"扩展\"},{\"bold\":true,\"italic\":false,\"color\":\"green\",\"text\":\"V2—\"},{\"bold\":false,\"italic\":false,\"color\":\"yellow\",\"text\":\"重构版\"},{\"italic\":false,\"obfuscated\":true,\"color\":\"dark_red\",\"text\":\"6\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "WUJINTUDOU",
+      "KPKJ",
+      "WJK",
+      "XUKK",
+      "DCK",
+      "XUKWZ",
+      "WJKPHX",
+      "CJWJQD",
+      "XKQD",
+      "WJXKD",
+      "WJXKQD",
+      "DCQD",
+      "WJKPJWZDWP",
+      "WJKPJJHHX",
+      "CJWJTD",
+      "WUJINCL",
+      "CZK",
+      "CZDXH",
+      "CZDXL",
+      "WJJS",
+      "WJYTHX",
+      "WJMG",
+      "XKMG",
+      "WJCZK",
+      "WJMGYL",
+      "XWD",
+      "WJJQHX",
+      "SHDR",
+      "XKWZZZJ",
+      "TSQDGZJ",
+      "WJKPJQD",
+      "WJKPJKW",
+      "CZJ1",
+      "CZJ2",
+      "CZJ3",
+      "WJCZJ",
+      "WJDYTJ",
+      "CJWJDYTJ",
+      "XKZWJJ",
+      "WJMGYZJ",
+      "WJQDFZJ",
+      "WJCLHCJ",
+      "WJDSCQ"
+    ]
+  },
+  "slime_customizer_yitihua": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1504406343,1258566276,-1080579464,978743195],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyZmZkMDg1MjhlYzgxODNiMzVhYWM2NThiMjkyMjZhZDhiOWFhY2FjOGRkOWUwNGNmMTg2YjExMDY0Y2E0ZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"light_purple\",\"text\":\"科技一体化发展\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MILK_HONEY_MACHINE",
+      "HAIMAN_12K_GOLD_PRODUCER",
+      "HAIMAN_24K_GOLD_PRODUCER",
+      "HAIMAN_VOID_INGOT_PRODUCER",
+      "HAIMAN_LUMP_PRODUCER",
+      "4K_GOLD_INTEGRATED_MACHINE",
+      "4K_GOLD_INTEGRATED_MACHINE_2",
+      "4K_GOLD_INTEGRATED_MACHINE_3",
+      "RAIL_INTEGRATED_MACHINE",
+      "HAIMAN_MAGMA_BLOCK_MACHINE",
+      "INFINITY_ALL_IN_ONE_MACHINE_1",
+      "INFINITY_ALL_IN_ONE_MACHINE_2",
+      "INFINITY_ALL_IN_ONE_MACHINE_3",
+      "HAIMAN_CLAY_BALL_INGOT_PRODUCER",
+      "HAIMAN_DIRT_PRODUCER",
+      "ELECTRO_MAGNET_INTEGRATED_MACHINE_1",
+      "ELECTRO_MAGNET_INTEGRATED_MACHINE_2",
+      "ELECTRO_MAGNET_INTEGRATED_MACHINE_3",
+      "HAIMAN_BASIC_PRODUCER",
+      "HAIMAN_DEEPSLATE_PRODUCER",
+      "HAIMAN_QUARTZ_PRODUCER_1",
+      "HAIMAN_QUARTZ_PRODUCER_2",
+      "HAIMAN_QUARTZ_PRODUCER_3",
+      "HAIMAN_NETHERITE_INGOT_MACHINE",
+      "HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1",
+      "HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2",
+      "HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3",
+      "HAIMAN_YINSHI_PRODUCER",
+      "HAIMAN_UU_MACHINE",
+      "HAIMAN_TOTEM_EXPLORER",
+      "HAIMAN_SHULKER_BOX_MACHINE",
+      "HAIMAN_SFBOOK_MACHINE_1",
+      "HAIMAN_SFBOOK_MACHINE",
+      "CALCITE_MACHINE",
+      "ZISHUJIN_MACHINE",
+      "MYZHENZHU_MACHINE",
+      "HAIMAN_U_GENERATOR",
+      "HAIMAN_ROBOT_GENERATOR",
+      "HAIMAN_GAOJI_ROBOT_GENERATOR",
+      "MYZHIYAN_MACHINE",
+      "STRING_MACHINE",
+      "KQHYS_MACHINE",
+      "YANGMAO_MACHINE",
+      "ZHONG_MACHINE",
+      "GLYANJIANGKUAI_MACHINE",
+      "KUIJIAJIA_MACHINE",
+      "TIZI_MACHINE",
+      "ZHIJIANTAI_MACHINE",
+      "HUAPEN_MACHINE",
+      "YINGWULUO_MACHINE",
+      "AIR_HA_MACHINE",
+      "MINGMINPAI_MACHINE",
+      "MONANG_MACHINE",
+      "HEIYAOSHI_MACHINE",
+      "KONGBAIFUWEN_MACHINE",
+      "SHUCHUXIANG_MACHINE",
+      "WATER_BUCKET_MACHINE",
+      "LAVA_BUCKET_MACHINE",
+      "MILK_BUCKET_MACHINE",
+      "POWDER_SNOW_BUCKET_MACHINE",
+      "DIAMOND_PICKAXE_MACHINE",
+      "IRON_PICKAXE_MACHINE",
+      "NETHERITE_PICKAXE_MACHINE",
+      "DIAMOND_AXE_MACHINE",
+      "DIAMOND_HOE_MACHINE",
+      "DIAMOND_SWORD_MACHINE",
+      "FLINT_AND_STEEL_MACHINE",
+      "FISHING_ROD_MACHINE",
+      "SHEARS_MACHINE",
+      "11_DISC_MACHINE",
+      "EGG_MACHINE",
+      "BOAT_MACHINE",
+      "MINECART_MACHINE",
+      "BOW_MACHINE",
+      "CROSSBOW_MACHINE"
+    ],
+    "sub": true
+  },
+  "slime_customizer_fengcang": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;2057681584,265501894,-1502154966,-1410293640],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM3NDFkODM2MGFmYjg3MDZkYmU4YzI4NjAxZjY4ODk4YjkyMTQ2MDMwOWQ4YjU1MGI1MDNmY2MxMjdhZWUxMiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_red\",\"text\":\"封藏簿\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "NANJING_MASSACRE_MONUMENT"
+    ],
+    "sub": true
+  },
+  "slime_customizer_generator": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-652882486,-560186520,-1113443265,1833343868],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlNGU0MmYzNjMzOWE1OWRlNGVlOWJmMjEyMjRjYzQ0NmRiOGNlYzE3NTY1NzI4YjE2NjAyMDUwZDJhNzM3In19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_aqua\",\"text\":\"现代化发电机\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_EXAMPLE_GENERATOR",
+      "LILY_PAD_GENERATOR",
+      "HAIMAN_ELEMENT_GENERATOR",
+      "ADVANCED_NUCLEAR_REACTOR",
+      "RADIOISOTOPE_THERMOELECTRIC_MACHINE_T",
+      "VAGETABLE_SOLAR_GENERATOR",
+      "HAIMAN_EARTH_GENERATOR",
+      "HAIMAN_SEND_CACTUS_GENERATOR",
+      "HAIMAN_END_GENERATOR",
+      "GUANGYUAN_FADIAN",
+      "FUZHU_GENERATOR"
+    ],
+    "sub": true
+  },
+  "slime_customizer_new": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1770175542,-59362948,-1450129433,-996932332],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0MWVjMDMyNTFhODVlZDM2NTBhYWMzOGQ3ZGNkZDlhMWFmNDEzZThjNWI3NTM3ZDU0MDgyODIwOGY0YmI2MyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_gray\",\"text\":\"1.17版机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_CRAFTING_TABLE",
+      "HAIMAN_SOUL_MACHINE",
+      "HAIMAN_LIGHT_PRODUCER",
+      "HAIMAN_LIGHT_UPDATER",
+      "HAIMAN_CAVE_MACHINE",
+      "HAIMAN_POWDER_SNOW_MACHINE",
+      "HAIMAN_RAW_INGOT_CHANGER",
+      "HAIMAN_ORE_CHANGER",
+      "HAIMAN_GLOWER",
+      "HAIMAN_COPPER_INGOT_CHANGER",
+      "HAIMAN_WAX_ON_MACHINE",
+      "HAIMAN_WAX_OFF_MACHINE",
+      "HAIMAN_OXIDIZED_MACHINE",
+      "HAIMAN_RUST_REMOVAL_MACHINE"
+    ],
+    "sub": true
+  },
+  "haiman_jiaju": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1542401102,-1049412578,-1557062799,760833025],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIxNmFmMjliMTlhNmZmNzUyNWQxODUzYjgxNDI3MGI4ZjA2ODU4MTBiMDg4NzBkY2UxNGJjOGYxZWE5NzQzZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"家用设备\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "DITAN_DIANRONG",
+      "HAIMAN_WASHING_MACHINE",
+      "HAIMAN_AUTO_JUICER",
+      "HAIMAN_DANGAO_HONGBEI",
+      "HAIMAN_COFFEE_MAKER",
+      "HAIMAN_CAIBAN",
+      "HAIMAN_FENGGANJI",
+      "HAIMAN_BINGGANLLU",
+      "HAIMAN_ZHUSHUICHI",
+      "HAIMAN_WUJUNTAI",
+      "HAIMAN_SHOUGONGTAI",
+      "HAIMAN_DIANRECHUANG",
+      "HAIMAN_SHAGUO",
+      "HAIMAN_YINGLIAO_MACHINE"
+    ],
+    "sub": true
+  },
+  "zhenghebao_info": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-2106142864,-1946469076,-1227899304,1818893790],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvT0FLX1NJR04ifX19\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"本整合包是完全公开免费的\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZHENGHEBAO_INFO"
+    ],
+    "sub": true
+  },
+  "slime_customizer_info": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-849109783,-2102905127,-1422794398,-522743366],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJkMDAzYmI4ZTk5MTZjZDFmZTYwMzE2Njk2YjJhZGM5YTA3MjM0MzliZTE2YmQ1MzViOTAyN2EwNzY1MzgxMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_red\",\"text\":\"信息\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMANTECH_INFO",
+      "VERSION_INFO",
+      "ZHANWEIFU"
+    ],
+    "sub": true
+  },
+  "slime_customizer_fenzi": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;895627146,1204565844,-1912424142,-423768428],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZjhkYmJhYjE1YmZiYjExZTIzYjFmNTBiMzRlZjU0OGFkOTgzMmMwYmQ3ZjVhMTM3OTFhZGFkMDA1N2UxYiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"blue\",\"text\":\"分子重组仪系列\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MOLECULAR_RECOMBINATION_INSTRUMENT_I",
+      "MOLECULAR_RECOMBINATION_INSTRUMENT_II",
+      "MOLECULAR_RECOMBINATION_INSTRUMENT_III",
+      "MOLECULAR_RECOMBINATION_INSTRUMENT_IV",
+      "MOLECULAR_RECOMBINATION_INSTRUMENT_V",
+      "MOLECULAR_RECOMBINATION_INSTRUMENT_32767",
+      "MOLECULAR_CHANGER"
+    ],
+    "sub": true
+  },
+  "jp_xx": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1193644016,1221344670,-1350188568,-755929877],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGExNjAzOGJjOGU2NTE4YWZhOTE0OThkYWI3Njc1YzAxY2IzMWExMjVkMjFjNDliODYxMjk0ZDM5ZTFjNTYwYyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"为解决卡服问题提供的堆叠附属\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_SM"
+    ],
+    "sub": true
+  },
+  "bigsnake_magic_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;718156300,1494170084,-1987823439,1778225042],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM1ODg1NmExODQzMmY1MzkwNDBlNDBhYTQ1MjZjYjkzNzBlYjljZGYxMTZmN2I3MjQ1NDkxNDM2N2VjM2NiMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8ECDFF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C69CFF\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF6AFF\",\"text\":\"魔\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D29CFF\",\"text\":\"法\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A4CDFF\",\"text\":\"元\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77FFFF\",\"text\":\"素\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MAGIC_MOLA",
+      "MAGIC_YUANSU",
+      "ENDER_LUMP_4_2",
+      "ENDER_LUMP_5",
+      "MAGIC_POWER",
+      "MAGIC_NJH",
+      "MOYING_NJH",
+      "MAGIC_REACTOR_MACHINE",
+      "BIGSNAKE_MAGIC_REACTOR_MACHINE"
+    ],
+    "sub": true
+  },
+  "jp_fadianji": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1952499900,1619407070,-1282503645,718466352],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMzNjA1NGM4NThjMGFkNjUxZjA4YmFiNmM2YjNmZGYxYzQ3ZjVmNjU2ZmQ5NmQ0NTRlOTgxZDNmY2ViOTljMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"发电机\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "SLFDJ_PLUS",
+      "SLFDJ_PLUS_",
+      "SLFDJ_PLUS__",
+      "HLFDJ_PLUS",
+      "HLFDJ_PLUS_",
+      "HLFDJ_PLUS__",
+      "FLFDJ_PLUS",
+      "FLFDJ_PLUS_",
+      "FLFDJ_PLUS__"
+    ],
+    "sub": true
+  },
+  "bigsnake_dusts_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1776054772,-868074565,-1127824289,306110557],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBjMmRlNWM3YzQxMDJmYzdmNGQ2M2NiN2ZmZjU2OGE4ODhmZWYxYzk5ZGNhNDUzY2VmODlmMDhhZDcwYzlkNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E5FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#58F4FF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5DDFFF\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62CAFF\",\"text\":\"陨\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#67B5FF\",\"text\":\"落\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6CA0FF\",\"text\":\"的\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#718BFF\",\"text\":\"尘\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7676FF\",\"text\":\"埃\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "GRASS_DUST",
+      "CRIMSON_DUST",
+      "TWISTING_DUST",
+      "VINE_DUST",
+      "DEEPSLATE_DUST",
+      "AZALEA_DUST",
+      "PRISMARINE_DUST",
+      "NAUTILUS_DUST",
+      "AMETHYST_DUST",
+      "EGG_DUST",
+      "TURTLE_DUST",
+      "HONEY_DUST",
+      "SILVER_SINGULARITY_DUST",
+      "REDSTONE_SINGULARITY_DUST",
+      "MAGNESIUM_SINGULARITY_DUST",
+      "LAPIS_SINGULARITY_DUST",
+      "LEAD_SINGULARITY_DUST",
+      "QUARTZ_SINGULARITY_DUST",
+      "GOLD_SINGULARITY_DUST",
+      "IRON_SINGULARITY_DUST",
+      "COAL_SINGULARITY_DUST",
+      "COPPER_SINGULARITY_DUST",
+      "DIAMOND_SINGULARITY_DUST",
+      "ZINC_SINGULARITY_DUST",
+      "EMERALD_SINGULARITY_DUST",
+      "TIN_SINGULARITY_DUST",
+      "NETHERITE_SINGULARITY_DUST",
+      "ALUMINUM_SINGULARITY_DUST",
+      "INFINITY_SINGULARITY_DUST",
+      "CHUNDASHE_ITEM_DUST",
+      "CHUNFVV_ITEM_DUST"
+    ],
+    "sub": true
+  },
+  "slime_customizer_huanbao": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-332113525,462765436,-2031980380,1117704476],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI5YzQ5ZmZkZjRjZTRjNmY1ZjA0OWVmYzhjYTBlMDhiOWI1YmJmM2M2YTg3ODNkZmFhY2NhZDc3ZGZjOTk3YSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"电力工程与交易\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_ELECTRIC_ENERGY",
+      "HAIMAN_ELECTRIC_UNIT_EMPTY",
+      "KULUN_ELECTRIC_UNIT_EMPTY",
+      "LEIYI_ELECTRIC_UNIT_EMPTY",
+      "INFINITE_ELECTRIC_UNIT_EMPTY",
+      "LIANGZI_ELECTRIC_UNIT_EMPTY",
+      "HAIMAN_ELECTRIC_UNIT_FULL",
+      "KULUN_ELECTRIC_UNIT_FULL",
+      "LEIYI_ELECTRIC_UNIT_FULL",
+      "INFINITE_ELECTRIC_UNIT_FULL",
+      "LIANGZI_ELECTRIC_UNIT_FULL",
+      "HAIMAN_RESISTANCE",
+      "HAIMAN_POWER_STORAGER_0",
+      "HAIMAN_POWER_STORAGER_1",
+      "HAIMAN_POWER_STORAGER_2",
+      "HAIMAN_POWER_STORAGER_3",
+      "HAIMAN_POWER_STORAGER_4",
+      "HAIMAN_POWER_STORAGER_5",
+      "HAIMAN_LOW_RESISTANCE",
+      "HAIMAN_TIAODIAN_MAHCINE_G",
+      "HAIMAN_TIAODIAN_MAHCINE_S",
+      "HAIMAN_TIAODIAN_MAHCINE_B",
+      "HAIMAN_TIAODIAN_MAHCINE_Q",
+      "HAIMAN_POWER_OFF_MACHINE_0",
+      "HAIMAN_POWER_OFF_MACHINE_1",
+      "HAIMAN_POWER_OFF_MACHINE_2",
+      "HAIMAN_POWER_OFF_MACHINE_3",
+      "HAIMAN_POWER_OFF_MACHINE_4",
+      "HAIMAN_POWER_OFF_MACHINE_5",
+      "HAIMAN_FDTIAODIAN_MAHCINE_G",
+      "HAIMAN_FDTIAODIAN_MAHCINE_S",
+      "HAIMAN_FDTIAODIAN_MAHCINE_B",
+      "HAIMAN_FDTIAODIAN_MAHCINE_Q",
+      "HIGH_VOLTAGE_TRANSMISSION_LINES",
+      "HAIMAN_POWER_NET"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_finance": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1162140861,2107390309,-1905528799,225512409],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDliZDAxNmRmNTQwMDY2NGYzMWY0OGViMjcyNzY4MzViZjRhN2I2N2RlMGUyNjg0ZDdkMTEzMjlmMjYwMjZjZiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"财政部(Finance Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_FINANCE_CORD",
+      "HIVECORPORATION_FINANCE_HIVEPOINT",
+      "HIVECORPORATION_FINANCE_SWORD",
+      "HIVECORPORATION_FINANCE_HELMET_1",
+      "HIVECORPORATION_FINANCE_CHESTPLATE_1",
+      "HIVECORPORATION_FINANCE_LEGGINGS_1",
+      "HIVECORPORATION_FINANCE_BOOTS_1",
+      "HIVECORPORATION_FINANCE_HELMET_2",
+      "HIVECORPORATION_FINANCE_CHESTPLATE_2",
+      "HIVECORPORATION_FINANCE_LEGGINGS_2",
+      "HIVECORPORATION_FINANCE_BOOTS_2"
+    ],
+    "sub": true
+  },
+  "bigsnake_mutation_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-891489280,-1304871966,-1895428590,-1559881425],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ4NjY5NjA5ZWVmNmM1MTI2MTU4NTE2NDRhOWRkOGJiNzI3YzkwYzJjM2Y3YzBlZDhiNDZjODg2NjhlOGNhMiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E5FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#4FF8EC\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#43EBC6\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#65D4D4\",\"text\":\"至\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#54CDCD\",\"text\":\"尊\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#43C6C6\",\"text\":\"一\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#33BFBF\",\"text\":\"体\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#22B8B8\",\"text\":\"化\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#11B1B1\",\"text\":\"工\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#00AAAA\",\"text\":\"程\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_MUTATION_REACTOR",
+      "BS_BLOCK_SUPREME_ELECTRIC_CORE_I",
+      "BS_BLOCK_SUPREME_ELECTRIC_CORE_II",
+      "BS_BLOCK_SUPREME_ELECTRIC_CORE_III",
+      "BS_SUPREME_CORE_STONE_GENERATOR_I",
+      "BS_SUPREME_CORE_GRANITE_GENERATOR_I",
+      "BS_SUPREME_CORE_ANDESITE_GENERATOR_I",
+      "BS_SUPREME_CORE_DIORITE_GENERATOR_I",
+      "BS_SUPREME_CORE_SAND_GENERATOR_I",
+      "BS_SUPREME_CORE_GRAVEL_GENERATOR_I",
+      "BS_SUPREME_CORE_CLAY_GENERATOR_I",
+      "BS_SUPREME_CORE_SNOW_GENERATOR_I",
+      "BS_SUPREME_CORE_ENDSTONE_GENERATOR_I",
+      "BS_SUPREME_CORE_SPIDER_EYE_GENERATOR_I",
+      "BS_SUPREME_CORE_TEAR_GENERATOR_I",
+      "BS_SUPREME_CORE_PORKCHOP_GENERATOR_I",
+      "BS_SUPREME_CORE_BEEF_GENERATOR_I",
+      "BS_SUPREME_CORE_MUTTON_GENERATOR_I",
+      "BS_SUPREME_CORE_CHICKEN_GENERATOR_I",
+      "BS_SUPREME_CORE_SALMON_GENERATOR_I",
+      "BS_SUPREME_CORE_COD_GENERATOR_I",
+      "BS_SUPREME_CORE_STRING_GENERATOR_I",
+      "BS_SUPREME_CORE_POTATO_GENERATOR_I",
+      "BS_SUPREME_CORE_WHEAT_GENERATOR_I",
+      "BS_SUPREME_CORE_PUMPKIN_GENERATOR_I",
+      "BS_SUPREME_CORE_MELON_GENERATOR_I",
+      "BS_SUPREME_CORE_BEETROOT_GENERATOR_I",
+      "BS_SUPREME_CORE_APPLE_GENERATOR_I",
+      "BS_SUPREME_CORE_SWEET_BERRIES_GENERATOR_I",
+      "BS_SUPREME_CORE_SUGAR_CANE_GENERATOR_I",
+      "BS_SUPREME_CORE_CARROT_GENERATOR_I",
+      "BS_SUPREME_CORE_OAK_LOG_GENERATOR_I",
+      "BS_SUPREME_CORE_SPRUCE_LOG_GENERATOR_I",
+      "BS_SUPREME_CORE_BIRCH_LOG_GENERATOR_I",
+      "BS_SUPREME_CORE_JUNGLE_LOG_GENERATOR_I",
+      "BS_SUPREME_CORE_ACACIA_LOG_GENERATOR_I",
+      "BS_SUPREME_CORE_DARK_OAK_LOG_GENERATOR_I",
+      "BS_SUPREME_CORE_WARPED_STEM_GENERATOR_I",
+      "BS_SUPREME_CORE_CRIMSON_STEM_GENERATOR_I",
+      "BS_SUPREME_CORE_WITHER_ROSE_GENERATOR_I",
+      "BS_SUPREME_CORE_COAL_GENERATOR_I",
+      "BS_SUPREME_CORE_IRON_GENERATOR_I",
+      "BS_SUPREME_CORE_GOLD_GENERATOR_I",
+      "BS_SUPREME_CORE_REDSTONE_GENERATOR_I",
+      "BS_SUPREME_CORE_LAPIS_GENERATOR_I",
+      "BS_SUPREME_CORE_DIAMOND_GENERATOR_I",
+      "BS_SUPREME_CORE_EMERALD_GENERATOR_I",
+      "BS_SUPREME_CORE_QUARTZ_GENERATOR_I",
+      "BS_SUPREME_CORE_NETHERITE_GENERATOR_I"
+    ],
+    "sub": true
+  },
+  "slime_customizer_slimefun_machine": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-954420654,757281128,-1924839423,-261722338],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMxYjZjMzVhOGFjODM2NmE0ZGI1MWIwNDJhODcyOGRkMmU4ZTVmMmZlNDRhZmYwOGZjZjVhZjNiOTIxYzZkZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"dark_green\",\"text\":\"更高级的粘液原版机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_ELECTRIC_INGOT_FACTORY_4",
+      "HAIMAN_ELECTRIC_INGOT_FACTORY_5",
+      "HAIMAN_CARBON_PRESS_4",
+      "HAIMAN_CARBON_PRESS_5"
+    ],
+    "sub": true
+  },
+  "bigsnake_items_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;783868039,-154323785,-1134827912,-1303686335],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdmZmZiYjIzMzM2MTEwNmY4Y2RhZmRkNzU4MDBlNTMzMTBlMmI0ZTlhYzQ0N2E5YTU0MzE1YzcxNGIxNzA1NSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6DEED5\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#86DEAA\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#9FCD80\",\"text\":\"大\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B7BC55\",\"text\":\"蛇\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CFAC2B\",\"text\":\"材\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E89B00\",\"text\":\"料\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MO_LA",
+      "BS_BEE_PRIME",
+      "BS_WANDERING_PRIME",
+      "BS_FAMINE_OF_CHANGE",
+      "RONGHE_ITEM",
+      "NINGHE_ITEM",
+      "BS_DIAMOND_LATTICE",
+      "BS_CRYSTAL_MATRIX_INGOT",
+      "BS_CRYSTAL_PLUS",
+      "BS_CRYSTAL_MATRIX_BLOCK",
+      "BS_VOID_BLOCK",
+      "NSMOLA_ITEM",
+      "MOLA_INGOT",
+      "MOLA_PLATE",
+      "BS_CRUDE_ALLOY",
+      "VOID_SHARD",
+      "DEMON_JINGHUA_ITEM",
+      "DEMON_POWER",
+      "BS_HY_BURGER",
+      "BS_SUPER_POT",
+      "YUANSHI",
+      "MOLA_CATALYST",
+      "INFINITE_SHARD",
+      "BS_SPACE_UP",
+      "BS_SPACE_DOWN",
+      "BS_SPACE_LEFT",
+      "BS_SPACE_RIGHT",
+      "BS_YUANSHI_LEFT",
+      "BS_YUANSHI_RIGHT",
+      "BS_YUANSHI_UP",
+      "BS_YUANSHI_DOWN",
+      "BS_SNAKE_COMPONENT",
+      "MYSTERIOUS_CONDENSATE",
+      "ALIEN_TRACK_TEARS",
+      "CHUNDASHE_ITEM",
+      "CHUNFVV_ITEM",
+      "POWER_OF_DESTROY",
+      "POWER_OF_CREATIVE",
+      "BS_WM",
+      "BS_MUTATION",
+      "BS_INFINITE_POWER",
+      "BS_INFINITE_POLYMER",
+      "BS_ADVANCED_BEE",
+      "BS_MAGIC_CLOTH",
+      "BS_MAGIC_BAG",
+      "BS_COMPRESSED_VOID_BLOCK",
+      "BS_SEED_BLOOD",
+      "BS_SEED_SEA",
+      "BS_COMPRESSED_URANIUM_EXTRACTOR",
+      "BS_SOUL_CRYSTAL",
+      "BS_EVIL_GOOD_COMPOUND_INGOT",
+      "BS_MOON_INGOT",
+      "BS_MARS_INGOT",
+      "BS_OUTSIDE_INGOT",
+      "BS_FAMINE_GRANITE",
+      "BS_FAMINE_DIORITE",
+      "BS_FAMINE_ANDESITE",
+      "BS_FAMINE_GRAVEL",
+      "BS_FAMINE_SAND",
+      "BS_RED_GEM",
+      "BS_BLUE_GEM",
+      "BS_COLORFUL_GEM"
+    ],
+    "sub": true
+  },
+  "slimefun_expansion_energy": {
+    "item": {
+      "item": "minecraft:redstone_lamp",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FF55\",\"text\":\"能\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FF7F\",\"text\":\"源\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFAA\",\"text\":\"与\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFD4\",\"text\":\"电\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"力\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "SE_ELECTRIC_FURNACE_1",
+      "SE_ELECTRIC_FURNACE_2",
+      "SE_ELECTRIC_FURNACE_3",
+      "SE_ELECTRIC_FURNACE_4",
+      "SE_ELECTRIC_FURNACE_5",
+      "1_UI_BACKGROUND",
+      "2_UI_BACKGROUND",
+      "3_UI_BACKGROUND",
+      "4_UI_BACKGROUND",
+      "SE_ELECTRIC_ORE_GRINDER_1",
+      "SE_ELECTRIC_ORE_GRINDER_2",
+      "SE_ELECTRIC_ORE_GRINDER_3",
+      "SE_ELECTRIC_ORE_GRINDER_4",
+      "SE_ELECTRIC_ORE_GRINDER_5",
+      "5_UI_BACKGROUND",
+      "6_UI_BACKGROUND",
+      "7_UI_BACKGROUND",
+      "8_UI_BACKGROUND",
+      "SE_ELECTRIC_GOLD_PAN_1",
+      "SE_ELECTRIC_GOLD_PAN_2",
+      "SE_ELECTRIC_GOLD_PAN_3",
+      "SE_ELECTRIC_GOLD_PAN_4",
+      "SE_ELECTRIC_GOLD_PAN_5",
+      "9_UI_BACKGROUND",
+      "10_UI_BACKGROUND",
+      "11_UI_BACKGROUND",
+      "12_UI_BACKGROUND",
+      "SE_ELECTRIC_DUST_WASHER_1",
+      "SE_ELECTRIC_DUST_WASHER_2",
+      "SE_ELECTRIC_DUST_WASHER_3",
+      "SE_ELECTRIC_DUST_WASHER_4",
+      "SE_ELECTRIC_DUST_WASHER_5",
+      "13_UI_BACKGROUND",
+      "14_UI_BACKGROUND",
+      "15_UI_BACKGROUND",
+      "16_UI_BACKGROUND",
+      "SE_ELECTRIC_INGOT_FACTORY_1",
+      "SE_ELECTRIC_INGOT_FACTORY_2",
+      "SE_ELECTRIC_INGOT_FACTORY_3",
+      "SE_ELECTRIC_INGOT_FACTORY_4",
+      "SE_ELECTRIC_INGOT_FACTORY_5",
+      "17_UI_BACKGROUND",
+      "18_UI_BACKGROUND",
+      "19_UI_BACKGROUND",
+      "20_UI_BACKGROUND",
+      "SE_ELECTRIFIED_CRUCIBLE_1",
+      "SE_ELECTRIFIED_CRUCIBLE_2",
+      "SE_ELECTRIFIED_CRUCIBLE_3",
+      "SE_ELECTRIFIED_CRUCIBLE_4",
+      "SE_ELECTRIFIED_CRUCIBLE_5",
+      "21_UI_BACKGROUND",
+      "22_UI_BACKGROUND",
+      "23_UI_BACKGROUND",
+      "24_UI_BACKGROUND",
+      "SE_HEATED_PRESSURE_CHAMBER_1",
+      "SE_HEATED_PRESSURE_CHAMBER_2",
+      "SE_HEATED_PRESSURE_CHAMBER_3",
+      "SE_HEATED_PRESSURE_CHAMBER_4",
+      "SE_HEATED_PRESSURE_CHAMBER_5",
+      "25_UI_BACKGROUND",
+      "26_UI_BACKGROUND",
+      "27_UI_BACKGROUND",
+      "28_UI_BACKGROUND",
+      "SE_ELECTRIC_INGOT_PULVERIZER_1",
+      "SE_ELECTRIC_INGOT_PULVERIZER_2",
+      "SE_ELECTRIC_INGOT_PULVERIZER_3",
+      "SE_ELECTRIC_INGOT_PULVERIZER_4",
+      "SE_ELECTRIC_INGOT_PULVERIZER_5",
+      "29_UI_BACKGROUND",
+      "30_UI_BACKGROUND",
+      "31_UI_BACKGROUND",
+      "32_UI_BACKGROUND",
+      "SE_FREEZER_1",
+      "SE_FREEZER_2",
+      "SE_FREEZER_3",
+      "SE_FREEZER_4",
+      "SE_FREEZER_5",
+      "33_UI_BACKGROUND",
+      "34_UI_BACKGROUND",
+      "35_UI_BACKGROUND",
+      "36_UI_BACKGROUND",
+      "SE_CARBON_PRESS_1",
+      "SE_CARBON_PRESS_2",
+      "SE_CARBON_PRESS_3",
+      "SE_CARBON_PRESS_4",
+      "SE_CARBON_PRESS_5",
+      "37_UI_BACKGROUND",
+      "38_UI_BACKGROUND",
+      "39_UI_BACKGROUND",
+      "40_UI_BACKGROUND"
+    ],
+    "sub": true
+  },
+  "bigsnake_magicbag_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1833390463,-106481380,-1531050477,1326331752],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMwYTU5MWU3YzJiMjU4YThhZTgxZGI1MTA5OTEzOTg3MmJlNGM4OTY2NGM0YWUyNGZkNzhkNjdmNDc1Y2M1ZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D1FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A2FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#74FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5DF7F7\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#74E0E0\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8BC9C9\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A2B2B2\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B99BB9\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D183D1\",\"text\":\"魔\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E86CE8\",\"text\":\"法\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF55FF\",\"text\":\"袋\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_MAGIC_BAG_URANIUM",
+      "BS_MAGIC_BAG_BLISTERING_INGOT_3",
+      "BS_MAGIC_BAG_SYNTHETIC_DIAMOND",
+      "BS_MAGIC_BAG_SYNTHETIC_SAPPHIRE",
+      "BS_MAGIC_BAG_SYNTHETIC_EMERALD",
+      "BS_MAGIC_BAG_SUPREME_SYNTHETIC_AMETHYST",
+      "BS_MAGIC_BAG_SUPREME_SYNTHETIC_RUBY",
+      "BS_MAGIC_BAG_CARBONADO",
+      "BS_MAGIC_BAG_ELECTRO_MAGNET",
+      "BS_MAGIC_BAG_ELECTRIC_MOTOR",
+      "BS_MAGIC_BAG_HEATING_COIL",
+      "BS_MAGIC_BAG_REINFORCED_ALLOY_INGOT",
+      "BS_MAGIC_BAG_HARDENED_METAL_INGOT",
+      "BS_MAGIC_BAG_REDSTONE_ALLOY",
+      "BS_MAGIC_BAG_NEPTUNIUM",
+      "BS_MAGIC_BAG_PLUTONIUM",
+      "BS_MAGIC_BAG_BOOSTED_URANIUM",
+      "BS_MAGIC_BAG_BUCKET_OF_OIL",
+      "BS_MAGIC_BAG_BUCKET_OF_FUEL",
+      "BS_MAGIC_BAG_ENRICHED_NETHER_ICE",
+      "BS_MAGIC_BAG_STRANGE_NETHER_GOO",
+      "BS_MAGIC_BAG_UU_MATTER",
+      "BS_MAGIC_BAG_IRIDIUM",
+      "BS_MAGIC_BAG_THORIUM",
+      "BS_MAGIC_BAG_REFINED_IRON",
+      "BS_MAGIC_BAG_ADVANCED_ALLOY",
+      "BS_MAGIC_BAG_LAPOTRON_CRYSTAL",
+      "BS_MAGIC_BAG_POWER_CRYSTAL",
+      "BS_MAGIC_BAG_ANDROID_MEMORY_CORE",
+      "BS_MAGIC_BAG_MACHINE_CIRCUIT",
+      "BS_MAGIC_BAG_MACHINE_CORE",
+      "BS_MAGIC_BAG_MACHINE_PLATE",
+      "BS_MAGIC_BAG_MAGSTEEL_PLATE",
+      "BS_MAGIC_BAG_VOID_INGOT",
+      "BS_MAGIC_BAG_END_ESSENCE",
+      "BS_MAGIC_BAG_INFINITE_INGOT",
+      "BS_MAGIC_BAG_FORTUNE_SINGULARITY",
+      "BS_MAGIC_BAG_MAGIC_SINGULARITY",
+      "BS_MAGIC_BAG_EARTH_SINGULARITY",
+      "BS_MAGIC_BAG_METAL_SINGULARITY",
+      "BS_MAGIC_BAG_COMPRESSED_SPONGE",
+      "BS_MAGIC_BAG_PURE_BONE_DUST",
+      "BS_MAGIC_BAG_POSEIDONS_BLESSING",
+      "BS_MAGIC_BAG_DEMONIC_PLATE"
+    ],
+    "sub": true
+  },
+  "jp_gws": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;545113553,-898155877,-1604938123,1541623450],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY1NzViYjU0YTJlOTEzM2FhYTEzMTBhMTQ2NDJmNzhhMDE0ZmNjOTM2MDc3NDE3MTY2M2QzNGRiMjM2Y2NjNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"养鸡人\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_GWS1_SAND",
+      "JP_GWS1_SLIME_BALL",
+      "JP_GWS1_FLINT",
+      "JP_GWS1_KELP",
+      "JP_GWS1_GUNPOWDER",
+      "JP_GWS1_OAK_LOG",
+      "JP_GWS1_CLAY",
+      "JP_GWS1_GRANITE",
+      "JP_GWS1_CACTUS",
+      "JP_GWS1_REDSTONE",
+      "JP_GWS1_ICE",
+      "JP_GWS1_GRAVEL",
+      "JP_GWS1_SNOWBALL",
+      "JP_GWS1_ANDESITE",
+      "JP_GWS1_MAGMA_CREAM",
+      "JP_GWS1_DIORITE",
+      "JP_GWS1_NETHER_WART",
+      "JP_GWS1_OBSIDIAN",
+      "JP_GWS1_CRYING_OBSIDIAN",
+      "JP_GWS1_SULFATE",
+      "JP_GWS1_EMERALD",
+      "JP_GWS1_BONE",
+      "JP_GWS1_SPONGE",
+      "JP_GWS1_LEATHER",
+      "JP_GWS1_PHANTOM_MEMBRANE",
+      "JP_GWS1_STRING",
+      "JP_GWS1_ENDER_PEARL",
+      "JP_GWS1_IRON_INGOT",
+      "JP_GWS1_BASALT",
+      "JP_GWS1_GHAST_TEAR",
+      "JP_GWS1_COAL",
+      "JP_GWS1_LAPIS_LAZULI",
+      "JP_GWS1_GLASS",
+      "JP_GWS1_SOUL_SAND",
+      "JP_GWS1_NETHERRACK",
+      "JP_GWS1_QUARTZ",
+      "JP_GWS1_BLAZE_ROD",
+      "JP_GWS1_GOLD_INGOT",
+      "JP_GWS1_SOUL_SOIL",
+      "JP_GWS1_BLACKSTONE",
+      "JP_GWS1_DIAMOND",
+      "JP_GWS1_NETHERITE_INGOT",
+      "JP_GWS1_EXPERIENCE_BOTTLE"
+    ],
+    "sub": true
+  },
+  "slime_customizer_yuanban": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1071262698,256458263,-1399587926,800410405],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM4ODc5NGI5OGVkMjUzZTIyNzE2NjFmZTNhYTIzZTJkNjg0MDkyNmVlODFlMWViOTk2YTVjNDdiZmFkY2NlIn19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"white\",\"text\":\"原版物品\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HM_COMMAND_BLOCK",
+      "HM_LS_XH_COMMAND_BLOCK",
+      "HM_JG_PT",
+      "HM_JGKW",
+      "HM_PLHEAD",
+      "HM_JY_PZ",
+      "HM_MLFKFC",
+      "HM_ZSZZ",
+      "HM_TJ_GT",
+      "HM_SHMTJ",
+      "HM_CSFK",
+      "HM_ZSJMY",
+      "HM_MDCSMKJ",
+      "HM_SGL",
+      "HM_ZSZS",
+      "HM_DEBUG",
+      "HM_LIGHT_ZS",
+      "HM_SHOUNADAI",
+      "HM_QINGWALUAN",
+      "HM_QHSBY",
+      "HM_KYDFK",
+      "HM_SGD"
+    ],
+    "sub": true
+  },
+  "dianro": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1020349247,-428852507,-1410620712,1198000706],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU4NDQzMmFmNmYzODIxNjcxMjAyNThkMWVlZThjODdjNmU3NWQ5ZTQ3OWU3YjBkNGM3YjZhZDQ4Y2ZlZWYifX19\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"green\",\"text\":\"电容\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "CHOU_CAPACITOR",
+      "FEI_CAPACITOR",
+      "ZHISHU_CAPACITOR",
+      "HESHU_CAPACITOR",
+      "YINGXINGDIANRONG"
+    ],
+    "sub": true
+  },
+  "bigsnake_dimension_miner_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-380973653,1455633268,-2115824352,-170011078],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWExNDBhOGRmYjBmMWY1YWI5NzkyNDFlNThjMjUzYTk0ZDY1ZTcyNWYxODBhYjUyMzk2ZTFkOGU0YzgxY2UzNyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#47D5F1\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#39AAE3\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#2B80D4\",\"text\":\"维\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#1C55C6\",\"text\":\"度\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#0E2BB8\",\"text\":\"矿\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#0000AA\",\"text\":\"工\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_NETHER_CORE",
+      "BS_DIMENSION_CORE",
+      "BS_SPACE_CORE",
+      "BS_DIMENSION_MINER",
+      "BS_SPACE_MINER"
+    ],
+    "sub": true
+  },
+  "jp_crafting": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-801833093,2027830261,-1654149306,380894899],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWYzMGZmYmMwMTEwZWZhMzRlMDMwODYwZGExOGM4YTFkNmIyMjNkZTBmMDBkOWU0YzVkMGNmYTdlY2ZhZmE0OCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FBD416\",\"text\":\"多\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FBAD15\",\"text\":\"方\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FC8513\",\"text\":\"块\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FC5E12\",\"text\":\"工\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FD3610\",\"text\":\"作\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FD0F0F\",\"text\":\"台\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_SWSYS",
+      "JP_WZTQY",
+      "JP_KJJQ",
+      "JP_GOD_CRAFTING_TABLE"
+    ],
+    "sub": true
+  },
+  "jp_zwf_26": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_26"
+    ],
+    "sub": true
+  },
+  "jp_zwf_27": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_27"
+    ],
+    "sub": true
+  },
+  "jp_zwf_28": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_28"
+    ],
+    "sub": true
+  },
+  "bigsnake_advanced_slimefun_machine_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-2016380686,1466972924,-1906355736,873632277],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdlMTVkZTBkNGI1ZTIwZTZjNmQwMmMwNjQ2NWU4ZDg3ZTJiMGFiYjdmNGVkNThmYzZhNGJiNDllMDA4NmY1YyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E4FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C9FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AEFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#94FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#79FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5EFFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5EF6F6\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6BE9E9\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#79DBDB\",\"text\":\"能\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#86CECE\",\"text\":\"源\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#94C0C0\",\"text\":\"与\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#A1B3B3\",\"text\":\"电\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AEAEAB\",\"text\":\"力\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#BBBBAD\",\"text\":\"[\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C7C7AF\",\"text\":\"P\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4D4B1\",\"text\":\"l\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E0E0B4\",\"text\":\"u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#EDEDB6\",\"text\":\"s\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#F9F9B8\",\"text\":\"]\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_HEATED_PRESSURE_CHAMBER_3",
+      "BS_HEATED_PRESSURE_CHAMBER_4",
+      "BS_HEATED_PRESSURE_CHAMBER_5",
+      "BS_FREEZER_4",
+      "BS_FREEZER_5",
+      "BS_ADVANCED_NUCLEAR_REACTOR"
+    ],
+    "sub": true
+  },
+  "slime_customizer": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1367791385,1975136549,-1228078968,1098787845],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI1N2E0YzY4ZDFkMmM1ZGU5NzhlYTZkZTRkYjkxZWYzODdjYTZjMzc5NjZiYjhlN2M4ODI2ZjkzN2U2YzMifX19\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"能源与电力\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "COMPRESSION_BLOCK_MACHINE",
+      "NUCLEAR_DECAY_MACHINE",
+      "ANCIENT_DEBRIS_MACHINE",
+      "COMMAND_BLOCK_DYE_MACHINE",
+      "COMMAND_BLOCK_DYE_MACHINE_2",
+      "NONE_NBT_MACHINE",
+      "STRANGE_NETHER_GOO_MACHINE",
+      "LILY_PAD_MACHINE",
+      "HAIMAN_ANVIL_BROKER",
+      "HAIMAN_ANVIL_FIXER",
+      "HAIMAN_GRAVEL_CREATER",
+      "HAIMAN_END_PORTAL_FRAME_CREATER",
+      "HAIMAN_WOOD_PEELER",
+      "INFESTED_MACHINE",
+      "HAIMAN_INFINITY_OIL_PUMP",
+      "HAIMAN_COPPER_DUST_PRODUCER",
+      "HAIMAN_IRON_DUST_PRODUCER",
+      "HAIMAN_DECOMPRESSOR_MACHINE_1",
+      "HAIMAN_DECOMPRESSOR_MACHINE_2",
+      "SYNTHETIC_CHANGER",
+      "HAIMAN_BANNER_PATTERN_PRODUCER",
+      "MUSIC_DISC_PRODUCER",
+      "HAIMAN_HORSE_ARMOR_PRODUCER",
+      "HAIMAN_STONE_CHANGER",
+      "HAIMAN_LEARHER_CHANGER",
+      "HAIMAN_FUEL_MACHINE",
+      "HAIMAN_CARPET_MACHINE",
+      "HAIMAN_RAIL_MACHINE_1",
+      "HAIMAN_RAIL_MACHINE_2",
+      "HAIMAN_MINECART_MACHINE",
+      "HAIMAN_BOOK_MACHINE",
+      "HAIMAN_DEBUG_MACHINE",
+      "HAIMAN_JINGLIANLU",
+      "HAIMAN_BOTTLE_CHANGER",
+      "HAIMAN_WRITTEN_BOOK_CHANGER",
+      "HAIMAN_WRITTEN_BOOK_CHANGERNEW",
+      "HAIMAN_YINGXING_MACHINE",
+      "HAIMAN_YJ_SX_MACHINE",
+      "HAIMAN_LU_CAT_MACHINE",
+      "HAIMAN_ZLJY_MACHINE",
+      "HAIMAN_CMLW_MACHINE",
+      "HAIMAN_DUANZAO_MACHINE",
+      "XUESHIZHIPINGZHUANGPEIJI",
+      "HEDIANZHAN_1",
+      "HEDIANZHAN_2",
+      "HELIEBIAN_3",
+      "GJJLL",
+      "YUANYOUJIANG_1",
+      "YUANYOUJIANG_2",
+      "YUANYOUJIANG_3",
+      "DIYUKONGJIAN",
+      "MODIKONGJIAN",
+      "MIJINGHUAYUAN",
+      "JINSHUJGC",
+      "SHOUMOJGC",
+      "JIHANZHIDI",
+      "DIAOYUJI",
+      "WANNENGGONGCHANG",
+      "SHITOUGONGCHANG",
+      "CONCRETE_FORMING_MACHINE",
+      "HAIMAN_FOXY_PRODUCER",
+      "HAIMAN_YASUOJI",
+      "HAIMAN_NAMI_CRAFTING_TABLE",
+      "ERDIAOZHUANGPEI",
+      "FENGCGZ_MACHINE",
+      "JINFTZ_MACHINE",
+      "JGJ_MACHINE",
+      "SHUAGUAILONG_MACHINE",
+      "JINKUANGTIQU_MACHINE",
+      "GUZHITIQU_MACHINE",
+      "LIZI_ZENGSHENG",
+      "HAIMAN_DUJINTAI",
+      "HAIMAN_ZHIJIANTAI"
+    ],
+    "sub": true
+  },
+  "haiman_yule": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-2073264672,-1878638845,-1506452534,1167819205],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE1MGMzYTczMTJhYWJkMWFkNzA0N2MxOGY3ZGE1OGY0ZWQxOTllMTBjNTZkMDYwNGExMmRjYzg2Yjk0YTJiYiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"red\",\"text\":\"娱乐设施\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JISHIQI_DUAN",
+      "JISHIQI_CHANG",
+      "TISHI_SHIJIAN",
+      "HM_PUKE_1",
+      "HM_PUKE_2",
+      "HAIMAN_PAIZHUO"
+    ],
+    "sub": true
+  },
+  "bigsnake_machine_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;689747757,145768410,-1149428070,-1150232956],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg4YzZmNjE5NDQ5M2QyNjI2OWYzODM5ODZjNjRmZDMzMmI5ZjliNWUwZDhhZDQ1ZmVkNjQxZjE3MWUyZWMwNyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D7FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AFFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#87FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5FFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#85EDED\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#ABDADA\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D0C8C8\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#F6B5B5\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#F89D9D\",\"text\":\"大\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FB8585\",\"text\":\"蛇\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FD6D6D\",\"text\":\"器\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF5555\",\"text\":\"械\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BIGSNAKE_YASUO_MACHINE",
+      "BIGSNAKE_FINAL_YASUO_MACHINE",
+      "BIGSNAKE_STONECHANGER_MACHINE",
+      "BIGSNAKE_SANDCHANGER_MACHINE",
+      "BIGSNAKE_ICE_MACHINE",
+      "BIGSNAKE_MUB_MACHINE",
+      "BIGSNAKE_TIQU_MACHINE",
+      "BIGSNAKE_ICE_FINAL_MACHINE",
+      "BIGSNAKE_MUD_FINAL_MACHINE",
+      "BIGSNAKE_DIRT_CHANGER_MACHINE",
+      "BIGSNAKE_YELIAN_MACHINE",
+      "BIGSNAKE_YELIAN_FINAL_MACHINE",
+      "BIGSNAKE_STONE_MINER_MACHINE",
+      "BIGSNAKE_JIAGONG_MACHINE",
+      "BIGSNAKE_JIAGONG_FINAL_MACHINE",
+      "BIGSNAKE_ZUZHUANG_MACHINE",
+      "BIGSNAKE_ZHUANGPEI_MACHINE",
+      "BS_INGOT_CHANGER",
+      "BS_SADDLE_CARVING_MACHINE",
+      "BS_ARROW_MAKER",
+      "BS_WANDERING_TRADER_TRADE_CENTER",
+      "BS_DATA_CARD_MAKER",
+      "BS_PUMPKIN_CARVER",
+      "BS_BLOCK_MAKER",
+      "BS_BLOCK_DECOMPOSER",
+      "BS_SOUL_COLLECTOR",
+      "BS_ALCHEMICAL_STATION",
+      "BS_FORGE_MAGIC_TABLE_I",
+      "BIGSNAKE_ADVANCED_ZUZHUANG_MACHINE"
+    ],
+    "sub": true
+  },
+  "bigsnake_bedwars_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1103291325,1186804170,-1383209003,397341831],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk2MmEwY2JmN2IxYjk0NDgyNTliMTNhMGQyYzdjYTU5NmIyZTY1N2VlZDBmNzUwZjFjZWJlNDgxY2M3YjkxMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DDFFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#BBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#99FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#77DDDD\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#99BBBB\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#BB9999\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DD7777\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF5555\",\"text\":\"e\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#F46352\",\"text\":\"d\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E9724F\",\"text\":\"W\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#DF804C\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D48F49\",\"text\":\"r\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C99D46\",\"text\":\"s\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "RED_BED",
+      "YELLOW_BED",
+      "BLUE_BED",
+      "GREEN_BED"
+    ],
+    "sub": true
+  },
+  "hunli": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;167854141,1025978488,-2084742724,1035548058],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q4YzcyZDliN2MxMDNjM2U2ODU3ZDYyYzRiZWJmZDg2ODM2MzUyMzliOTkzM2VhMTI1OGFiZTg3M2E2OTlmOSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"white\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"婚礼\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JH_3",
+      "JH_4"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_beekeeper": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;77694264,241974947,-1747456287,1846322998],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIyMmIyNjliYmI2YWRlMDk5NTQ1YTJlZGNhNmFiMGQxNzNiZTY5ZGNhZDEzMTViZThhN2VmNzY0MmUwZjI3MiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"养蜂人工坊 (Beekeeper Workshop)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_BEEKEEPER_INFORMATION",
+      "HIVECORPORATION_ETERNAL_HELMET",
+      "HIVECORPORATION_ETERNAL_CHESTPLATE",
+      "HIVECORPORATION_ETERNAL_LEGGINGS",
+      "HIVECORPORATION_ETERNAL_BOOTS",
+      "HIVECORPORATION_ETERNAL_PICKAXE",
+      "HIVECORPORATION_EXCIDE_SWORD",
+      "HIVECORPORATION_GULA_CHESTPLATE",
+      "HIVECORPORATION_COUNTERATTACK_LEGGINGS",
+      "HIVECORPORATION_CONFUCIAN_HELMET"
+    ],
+    "sub": true
+  },
+  "slime_customizer_food": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1414222516,-1207815077,-2137771752,-1657725611],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBlMzBlODhiMmQyMGFkMDZlMjc5MWM4M2Q1YTQxZGE3YmYyZDJlMzBmZWVjZGNiOGU0ZTFmMWFiNzE4OTA1In19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"食物\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "GHAST_ROU",
+      "BAT_ROU",
+      "CAT_ROU",
+      "DONKEY_ROU",
+      "HORSE_ROU",
+      "MULE_ROU",
+      "FOX_ROU",
+      "PARROT_ROU",
+      "SQUID_ROU",
+      "STRIDER_ROU",
+      "VILLAGER_ROU",
+      "WANDERING_TRADER_ROU",
+      "TURTLE_ROU",
+      "GIANT_ROU"
+    ],
+    "sub": true
+  },
+  "bigsnake_formulation_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1644581216,899953204,-2082344664,88309146],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvU0tVTExld29nSUNKMGFXMWxjM1JoYlhBaUlEb2dNVGN3TkRBNE1UQXpOVGd5Tnl3S0lDQWljSEp2Wm1sc1pVbGtJaUE2SUNJNFpXSTNaRFJsTldGak9EYzBPREJrWVdNeE5UazJaamN3TWpKbVpqbGtPU0lzQ2lBZ0luQnliMlpwYkdWT1lXMWxJaUE2SUNKbFptbHphREJySWl3S0lDQWljMmxuYm1GMGRYSmxVbVZ4ZFdseVpXUWlJRG9nZEhKMVpTd0tJQ0FpZEdWNGRIVnlaWE1pSURvZ2V3b2dJQ0FnSWxOTFNVNGlJRG9nZXdvZ0lDQWdJQ0FpZFhKc0lpQTZJQ0pvZEhSd09pOHZkR1Y0ZEhWeVpYTXViV2x1WldOeVlXWjBMbTVsZEM5MFpYaDBkWEpsTHprM1ltRm1NekZqWldFMk9ERXpNV0UxTkRNelpESmlaR0V4WlRJeFl6WTNZV0kxWTJJek5qWmpOR0prTVRFeU1qQXdaakEwTVRZMllUUTRZemxrWVdZaUxBb2dJQ0FnSUNBaWJXVjBZV1JoZEdFaUlEb2dld29nSUNBZ0lDQWdJQ0p0YjJSbGJDSWdPaUFpYzJ4cGJTSUtJQ0FnSUNBZ2ZRb2dJQ0FnZlFvZ0lIMEtmUVx1MDAzZFx1MDAzZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#5BE9FF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#61D2FF\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#67BCFF\",\"text\":\"大\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6CA5FF\",\"text\":\"蛇\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#728FFF\",\"text\":\"配\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7878FF\",\"text\":\"方\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_RESPAWN_1_I",
+      "BS_DESTROYER_1_I",
+      "BS_DESTROYER_2_I",
+      "BS_DESTROYER_3_I",
+      "BS_DESTROYER_4_I",
+      "BS_FISHERIES",
+      "BS_AUTO_PLAY_SIR",
+      "BS_BEATMAP",
+      "BS_BEATMAP_PRIME"
+    ],
+    "sub": true
+  },
+  "jp_jq": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1410748177,1661025501,-2140093203,824346338],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFiYjM2MTQwMDUyY2EyNWQxNTkxMDdlMmY1NGJmYzc5MjE5ZTZiMmM0NzZmZDBkNzA0YzFhZDVmODcxMDFmNiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"一体化机器\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_YSDDJ_C",
+      "JP_YSDDJ_V",
+      "JP_GWS1_KWJ",
+      "JP_FC_FW"
+    ],
+    "sub": true
+  },
+  "jp_zwf_34": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_34"
+    ],
+    "sub": true
+  },
+  "jp_zwf_35": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_35"
+    ],
+    "sub": true
+  },
+  "jp_zwf_36": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_36"
+    ],
+    "sub": true
+  },
+  "jp_zwf_37": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_37"
+    ],
+    "sub": true
+  },
+  "jp_zwf_38": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_38"
+    ],
+    "sub": true
+  },
+  "slime_customizer_material": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1247405559,-1926742684,-1541050812,-1528167069],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlZDg0MzkzYmVjMjUzY2NhNjZjMDQzMTY3MjZhODU4ZTU3NDcxMmI2ZmY5ZjI3MzY2OGRhOThlZmNjMjhmIn19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"aqua\",\"text\":\"科技材料\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "FEIXIANXINGSW",
+      "YASUOKONGJIAN",
+      "DUIDIETEZHEN",
+      "CREEPER_COAL_HEART",
+      "PLAYER_FIRE",
+      "YUEYIN",
+      "ZAYIN",
+      "YGYIN",
+      "HUANYU_LIZI",
+      "JIJIN_ZHIXING",
+      "HUIXIANG_ZHIXING",
+      "ANDAN_ZHIXING",
+      "SIHOU_ZHIXING",
+      "SHENGMING_ZHIXING",
+      "HAIMAN_STAR_DUST",
+      "DERULE_BUG",
+      "HAIMAN_AMETHYST_DUST",
+      "HEJINDING_YUANPEI",
+      "HERANLIAOYJ",
+      "RAINBOW_ZOT",
+      "ZOT_INGOT",
+      "YASUO_SFBOOK",
+      "YASUO_YASUO_SFBOOK",
+      "FUHEBAN",
+      "ARTIFICIAL_SILICON_BASED_MATERIALS",
+      "MINECRAFT_SOURCE_STONE",
+      "ANCIENT_ITEM",
+      "MINECRAFT_DEAD_BUSH_GHOST",
+      "ULTIMATE_ENERGY_MOTOR",
+      "JITANCHENZHOU",
+      "YJ_DINGWEI_QI",
+      "BZ_TCQ",
+      "DOUMAOBANG",
+      "HAIMAN_INFINITY_CONSTRUCTOR_2",
+      "HM_DONGLILINGJIAN",
+      "HM_CHAOPING_CIRCUIT_BOARD",
+      "DUIDIEYUANJIAN",
+      "LIZI_YUANPEI",
+      "H_FUEL",
+      "HD_FUEL",
+      "HDB_FUEL",
+      "HDBU_FUEL",
+      "HAIMAN_GALAXY_PIECE",
+      "HAIMAN_BLACK_HOLE_PIECE",
+      "HM_CAKE_BREAD",
+      "HM_EMPTY_COUNTRY_BALL",
+      "HAIMAN_NEW_YEAR_PIECE_1",
+      "HAIMAN_NEW_YEAR_1",
+      "HM_SHENQUAN_HEXIN",
+      "HAIMAN_INGOT",
+      "TIANXUAN_MADA",
+      "HM_HONGMENG_XINPIAN",
+      "CHUANGSHI_YIN",
+      "HT_MODULE_1",
+      "JUBIAN_MOKUAI"
+    ],
+    "sub": true
+  },
+  "jp_zwf_39": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_39"
+    ],
+    "sub": true
+  },
+  "bigsnake_infinity_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1461324142,-1780469586,-1761988503,-1559119896],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc0MDBlYTE5ZGJkODRmNzVjMzlhZDY4MjNhYzRlZjc4NmYzOWY0OGZjNmY4NDYwMjM2NmFjMjliODM3NDIyIn19fQ\u003d\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80E5E5\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AACBCB\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4B0B0\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF9696\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF7C7C\",\"text\":\"无\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF6262\",\"text\":\"尽\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF4848\",\"text\":\"之\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF2E2E\",\"text\":\"力\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_INFINITE_MACHINE_FRAME_A",
+      "BS_INFINITE_MACHINE_FRAME_B",
+      "BIGSNAKE_INFINITY_BASIC_MACHINE",
+      "BIGSNAKE_INFINITY_FINAL_MACHINE"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_human": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1500230139,1158758182,-1133381008,628012577],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEyMTQ4MWU4YjE1MTZiYTkyNGJkMWRmNTExZGEyYWRiNzU0MTJhZDJkNGU2MGNkZmU4ZTIyOWU1Y2YzMmUzMiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"人力部 (Human Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_HUMAN_SHENG",
+      "HIVECORPORATION_HUMAN_ERIERRY",
+      "HIVECORPORATION_HUMAN_INKER",
+      "HIVECORPORATION_HUMAN_PEKORA",
+      "HIVECORPORATION_HUMAN_FURINA",
+      "HIVECORPORATION_HUMAN_FAIRYKO",
+      "HIVECORPORATION_HUMAN_AIMELIA"
+    ],
+    "sub": true
+  },
+  "hivecorporation_group_resources": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;144639003,942552621,-1099403390,676145757],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RiYTFiYmU1ZWQzNzYwYzA5NjliOTQ4Yzk3OTA5YjM5NTY3MzY0NTNhMzM1MzdhNmMyMjcwZjhhMjQ2Y2UxMSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"物资部 (Resources Department)\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HIVECORPORATION_IMAGINE_COMPRESS",
+      "HIVECORPORATION_IMAGINE_EXTEND",
+      "HIVECORPORATION_IMAGINE_CUT",
+      "HIVECORPORATION_IMAGINE_ASSEMBLE",
+      "HIVECORPORATION_COBBLESTONE_I",
+      "HIVECORPORATION_SALT_MIRROR_FACTOR",
+      "HIVECORPORATION_SALT_MIRROR_CRYSTAL",
+      "HIVECORPORATION_SALT_MIRROR",
+      "HIVECORPORATION_MAGNETISM_MIRROR",
+      "HIVECORPORATION_BROIL_MIRROR",
+      "HIVECORPORATION_FREEZE_MIRROR",
+      "HIVECORPORATION_HIVE_MIRROR",
+      "HIVECORPORATION_HIVE_MIRROR_PLATE",
+      "HIVECORPORATION_HIVE_PUPA",
+      "HIVECORPORATION_ANTICOLLAPSE_PLATE",
+      "HIVECORPORATION_COAL",
+      "HIVECORPORATION_COPPER_INGOT",
+      "HIVECORPORATION_IRON_INGOT",
+      "HIVECORPORATION_GOLD_INGOT",
+      "HIVECORPORATION_LAPIS_LAZULI",
+      "HIVECORPORATION_REDSTONE",
+      "HIVECORPORATION_EMERALD",
+      "HIVECORPORATION_DIAMOND",
+      "HIVECORPORATION_NETHERITE_INGOT"
+    ],
+    "sub": true
+  },
+  "sakurafun_recipe": {
+    "item": {
+      "item": "minecraft:bedrock",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":true,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"strikethrough\":true,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"strikethrough\":true,\"color\":\"gold\",\"text\":\"配方\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "HAIMAN_INFO_FENZI_3",
+      "HAIMAN_INFO_FENZI_4",
+      "HAIMAN_INFO_FENZI_5",
+      "HAIMAN_INFO_FENZI_32767",
+      "HAIMAN_INFO_FENZI_GAIZHUANG",
+      "HAIMAN_INFO_FENZI_YEHUAJI",
+      "HAIMAN_INFO_COFFEE_MACHINE",
+      "HAIMAN_INFO_HAIMAN_ADVANCE_DYING",
+      "HAIMAN_INFO_CHUDIAN",
+      "HAIMAN_INFO_GUANGDIANJUHE",
+      "HAIMAN_INFO_GUANGDIAN",
+      "HAIMAN_INFO_BIRTHDAY_CAKE_STOVE",
+      "HAIMAN_INFO_WRITTEN_BOOK_CHANGER",
+      "HAIMAN_INFO_HEIDONG"
+    ],
+    "sub": true
+  },
+  "slime_customizer_xingji": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;398004992,-779928201,-1460789881,434197486],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmYjI3YTFhMTFiYTQ1NmMwYTEzZjkwOTAxMzY0Y2VkOWVjYWQ4ZmU5Yzk5YjY4MzhmZjVmNGRhYjFmNjE5MSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"海曼科技院 \"},{\"bold\":false,\"italic\":false,\"color\":\"gray\",\"text\":\"- \"},{\"bold\":true,\"italic\":false,\"color\":\"aqua\",\"text\":\"宇宙！起航！\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MAN_MADE_SUN",
+      "MAN_MADE_GALAXY",
+      "MAN_MADE_BLACK_HOLE",
+      "MAN_MADE_UNIVERSE",
+      "MAN_MADE_UNIVERSE_PLUS",
+      "MAN_MADE_MOON"
+    ],
+    "sub": true
+  },
+  "bigsnake_industry_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;239011796,-1578028856,-1501380870,1565688377],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiNDM3NzY3OTYwMTQ5OGIyNTM3ZDgwZDhlZjQ5MDUyMjc4OWZiZTFhMjE3ZWU0MTJlMzI2NzdiNmQ3OTg1NCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E5FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55F2F2\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55D8D8\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55BEBE\",\"text\":\"工\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55A3A3\",\"text\":\"业\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#558989\",\"text\":\"一\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#556F6F\",\"text\":\"体\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#555555\",\"text\":\"化\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BS_INDUSTRY_FRAME",
+      "BIGSNAKE_BASIC_MACHINE",
+      "BIGSNAKE_ADVANCE_MACHINE",
+      "BIGSNAKE_FINAL_MACHINE",
+      "BIGSNAKE_BASIC1_MACHINE",
+      "BIGSNAKE_FINAL1_MACHINE"
+    ],
+    "sub": true
+  },
+  "bigsnake_end_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-240600115,-1216531470,-1773737429,663549159],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhjZjI1OTZmYjRjY2EwMDRlZTc5NTYxYTA2MjgxOWMyNDdjYjRiYTcxMWQ5NTQwOTcwZTQzOThkOWRiYWM0MyJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E3FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#C6FFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8EFFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71FFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#63D5F1\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#71AAE3\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8080D4\",\"text\":\"末\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#8E55C6\",\"text\":\"地\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#9C2BB8\",\"text\":\"终\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AA00AA\",\"text\":\"焉\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "LEFT_EXTREME",
+      "RIGHT_EXTREME",
+      "UP_EXTREME",
+      "DOWN_EXTREME",
+      "END_CORE",
+      "FINAL_PEARL",
+      "ENDER_CORE",
+      "YASUO_QUIRPCONDENSATE",
+      "STABLE_POWER",
+      "RONGHE_ENDER_INGOT",
+      "BS_CHARGED_FRAME",
+      "UNSTABLEINGOT_GENERATOR",
+      "75UNSTABLEINGOT_GENERATOR",
+      "50UNSTABLEINGOT_GENERATOR",
+      "25UNSTABLEINGOT_GENERATOR",
+      "STABLEINGOT_GENERATOR",
+      "BIGSNAKE_UNSTABLEINGOT_GENERATOR",
+      "BS_CHARGER",
+      "QUIRPCONDENSATE_GENERATOR",
+      "BS_QUIRP_UP_GENERATOR",
+      "BS_QUIRP_DOWN_GENERATOR",
+      "BS_QUIRP_LEFT_GENERATOR",
+      "BS_QUIRP_RIGHT_GENERATOR"
+    ],
+    "sub": true
+  },
+  "bigsnake_material-generators_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1192103192,-1426771896,-1574498175,-2138468886],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5ZjM1NmY1ZmU3ZDFiYzkyY2RkZmFlYmEzZWU3NzNhYzlkZjFjYzRkMWMyZjhmZTVmNDcwMTMwMzJjNTUxZCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E5FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CBFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CFFFF\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62FFFF\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#62F2FF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7CD9FF\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#96C0FF\",\"text\":\"一\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#B1A7FF\",\"text\":\"体\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#CB8EFF\",\"text\":\"化\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E575FF\",\"text\":\"器\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF5CFF\",\"text\":\"械\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MAGMA_BLOCK_GENERATOR",
+      "BS_MOLA_GENERATOR",
+      "BS_MOLA_FINAL_GENERATOR",
+      "BS_VOID_INGOT_GENERATOR_1",
+      "BS_VOID_INGOT_GENERATOR_2",
+      "BS_VOID_INGOT_GENERATOR_3",
+      "BS_ITEM_FRAME_GENERATOR",
+      "BS_WATER_BUCKET_GENERATOR",
+      "BS_LAVA_BUCKET_GENERATOR",
+      "BS_MILK_BUCKET_GENERATOR",
+      "BS_STONE_GENERATOR",
+      "BS_URANIUM_GENERATOR_I",
+      "BS_URANIUM_GENERATOR_II",
+      "BS_STONE_BRICKS_GENERATOR",
+      "BS_CHISELED_STONE_BRICKS_GENERATOR",
+      "BS_CRACKED_STONE_BRICKS_GENERATOR",
+      "BS_SMOOTH_STONE_GENERATOR",
+      "BS_EGG_GENERATOR",
+      "BS_FEATHER_GENERATOR",
+      "BS_NETHERRACK_GENERATOR",
+      "BS_NETHER_BRICKS_GENERATOR",
+      "BS_CRACKED_NETHER_BRICKS_GENERATOR",
+      "BS_GRANITE_GENERATOR",
+      "BS_DIORITE_GENERATOR",
+      "BS_ANDESITE_GENERATOR",
+      "BS_GRAVEL_GENERATOR",
+      "BS_SAND_GENERATOR",
+      "BS_BLAZE_ROD_GENERATOR",
+      "BS_SPIDER_EYE_GENERATOR",
+      "BS_GHAST_TEAR_GENERATOR",
+      "BS_SLIME_BALL_GENERATOR",
+      "BS_HONEY_BOTTLE_GENERATOR",
+      "BS_STRING_GENERATOR",
+      "BS_ARROW_GENERATOR",
+      "BS_TORCH_GENERATOR",
+      "BS_SOUL_TORCH_GENERATOR",
+      "BS_CAMPFIRE_GENERATOR",
+      "BS_SOUL_CAMPFIRE_GENERATOR",
+      "BS_GLOWSTONE_GENERATOR",
+      "BS_SEA_LANTERN_GENERATOR",
+      "BS_REDSTONE_LAMP_GENERATOR",
+      "BS_LEATHER_GENERATOR"
+    ],
+    "sub": true
+  },
+  "jp_zwf_40": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_40"
+    ],
+    "sub": true
+  },
+  "jp_zwf_41": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_41"
+    ],
+    "sub": true
+  },
+  "jp_zwf_42": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_42"
+    ],
+    "sub": true
+  },
+  "jp_zwf_9": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_9"
+    ],
+    "sub": true
+  },
+  "jp_cl": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1386096532,615397553,-1386535622,763283905],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk5YjI3NjE5NjBmNjhjMDFhN2YzZDMyOWZlZjc0OWIwYmNjZGU1NjAwNDMyYzExYjJlMDhjMTk3YjQ3NWVlNSJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"text\":\"材料\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "JP_JXHX",
+      "JP_JBJQR",
+      "JP_JXKJ",
+      "JP_WKS",
+      "JP_WG",
+      "JP_WGK",
+      "JP_KJ_HX",
+      "JP_WGKJ",
+      "JP_WGKJHX",
+      "JP_JGQGQ",
+      "JP_JXB",
+      "JP_ZNKZZX",
+      "JP_GMK",
+      "JP_DDJFZMK",
+      "JP_DDJJSMK",
+      "JP_ZC",
+      "JP_YX",
+      "JP_WX",
+      "JP_JH_1",
+      "JP_JH_2",
+      "JP_JH_3",
+      "JP_JH_4",
+      "JP_JH_5",
+      "JP_JH_6",
+      "JP_SHEEP_GENOME",
+      "JP_COW_GENOME",
+      "JP_PIG_GENOME",
+      "JP_CHICKEN_GENOME",
+      "JP_RABBIT_GENOME",
+      "JP_COD_GENOME",
+      "JP_SALMON_GENOME",
+      "JP_TROPICAL_FISH_GENOME",
+      "JP_PUFFERFISH_GENOME"
+    ],
+    "sub": true
+  },
+  "jp_zwf_43": {
+    "item": {
+      "item": "minecraft:yellow_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_43"
+    ],
+    "sub": true
+  },
+  "bigsnake_geo-resources_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;1305277455,476133780,-2051703496,23556178],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ5MTU5NDM2ZDIyMTIxNTI0MTg2ZWEzNTVlOWIxNWU3Mjk4YTZlYTcyODEyYTBhMzllYjU5ZTllYWUxMWNiNCJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#6AEAEA\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80D4D4\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#95BFBF\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAAAAA\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#949494\",\"text\":\"终\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#7F7E7E\",\"text\":\"末\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#696868\",\"text\":\"遗\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#535252\",\"text\":\"物\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "SHINING_DUST",
+      "BS_CYAN_GEM",
+      "BS_PINK_GEM",
+      "BS_DARK_GEM"
+    ],
+    "sub": true
+  },
+  "jp_zwf_44": {
+    "item": {
+      "item": "minecraft:gray_stained_glass_pane",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "ZWF_44"
+    ],
+    "sub": true
+  },
+  "bigsnake_imprint_category": {
+    "item": {
+      "item": "minecraft:player_head",
+      "nbt": "{HideFlags:35,SkullOwner:{Id:[I;-1067908756,-1228918418,-1862997492,1180195718],Name:\"CS-CoreLib\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRkYTJhODg0MmY5ZGFjY2M4OTcxN2E0YmMxM2Q2Mjk3NzlkYTNjMWY3YmNkZTZjNGJjNWFlNzhkYTJmMmY1NiJ9fX0\u003d\"}]}},display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"B\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4FFFF\",\"text\":\"i\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAFFFF\",\"text\":\"g\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80FFFF\",\"text\":\"S\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#55FFFF\",\"text\":\"n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#80F5E1\",\"text\":\"a\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#AAEBC3\",\"text\":\"k\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#D4E1A5\",\"text\":\"e \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFD787\",\"text\":\"- \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFB7A5\",\"text\":\"七\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF96C3\",\"text\":\"色\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF76E1\",\"text\":\"元\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FF55FF\",\"text\":\"素\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "YAN_POWER",
+      "WIND_POWER",
+      "LIGHT_POWER",
+      "PLANT_POWER",
+      "WATER_POWER",
+      "SNOW_POWER",
+      "FIRE_POWER"
+    ],
+    "sub": true
+  }
+}

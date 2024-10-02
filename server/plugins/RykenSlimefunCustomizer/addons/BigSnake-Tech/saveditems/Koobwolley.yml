@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: d9f67f95-bb67-3fa8-943c-57a5cf78bc4c
+      name: "&bOther release - 其他相关"
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcwODI2MjUzODIwOCwKICAicHJvZmlsZUlkIiA6ICI0ODc0YjFlOWMzNDQ0ZWVlODNhZDNkOGI5MTY1MjAxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLb29id29sbGV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3OTQ1ZDdjNTBlZDQ2NDEwYzljZDVlNGRkZWFhNzlhNmI0NmViYmRhNzdhZjczYzliOGNhMzk0NGZiYjcyNWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        signature: TuVxBrRN90JiujNooj8bMrbfQLMNBTKzxyPc7rO5y/Hp3yEsyjaeZgJhwETGJWdrjXhYORO4p7zsFTJmXtPXl6qWOf/AyQgppfx/8APFOtnes7LoVWd74+c2cGgOmUywQDo1/kcd8jqsAZaVH3P/6+nzCFI3jHLA+pwS+eSZYRdkY/5gLvplRXG3RHfjP0DP6PpMOOx4rJZ44RGsSnxQ17kjpWpxosFAXrrzb6KmeRb1vr5zLEU3ad75w2kkBqjCtD5+H4DEUZFin+nKToEmsoa8oqtZyDbBUInOyIjKKZ3VPysEKtZNrR8IM2MPuF2+FGR9D54r3Wr+Duq1Nv5AoxofRcHzE7ZGgTvyQG2xsT4LoW2gWmTq9zDDaFAkP0sNhljFPDjf6Ox37uP4bGdVAUojIAEAXvoA2XrZ3RO6O8dztazPWdqqm2hw2o3d5doQ+g6J90N4hZTyVhZ+rN0M3amanP9c3aSfcpsC9e6FUEljBqnrwwWirB+exaJXZs10lBdgiY6jWd/Rezy5jCHNFZgUJHtKtWTfd12XuJkt7gOc2x2U+sJ3Kr7Lvdx1IWS2LkwMcJ7E2ETP7Qe0DDjIXI/ax9BfPbWSSmDxFocA8En9uLxUFI2qeFfQ6MhK3zqSdhMI2286939BKSLhTtLvKgUgu+EpkYp/4EzO1qvunAM=

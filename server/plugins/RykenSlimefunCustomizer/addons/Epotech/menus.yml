@@ -31,7 +31,7 @@ SLFDJ_PLUS:
       material: gray_stained_glass_pane
       name: '&a'
 
-SLFDJ_PLUS+:
+SLFDJ_PLUS_:
   title: '&l&#7511FB水力发电机Plus+'
   slots:
     4:
@@ -64,7 +64,7 @@ SLFDJ_PLUS+:
       material: gray_stained_glass_pane
       name: '&a'
 
-SLFDJ_PLUS++:
+SLFDJ_PLUS__:
   title: '&#7511fb&l水&#9714d2&l力&#b918a9&l发&#db1b7f&l电&#fd1e56&l机Plus++'
   slots:
     4:
@@ -130,7 +130,7 @@ HLFDJ_PLUS:
       material: gray_stained_glass_pane
       name: '&a'
 
-HLFDJ_PLUS+:
+HLFDJ_PLUS_:
   title: '&l&#FB2F2F火力发电机Plus+'
   slots:
     4:
@@ -163,7 +163,7 @@ HLFDJ_PLUS+:
       material: gray_stained_glass_pane
       name: '&a'    
 
-HLFDJ_PLUS++:
+HLFDJ_PLUS__:
   title: '&#fb9d34&l火&#fc7e2f&l力&#fc5f2a&l发&#fd3f25&l电&#fd2020&l机Plus++'
   slots:
     4:
@@ -229,7 +229,7 @@ FLFDJ_PLUS:
       material: gray_stained_glass_pane
       name: '&a'
 
-FLFDJ_PLUS+:
+FLFDJ_PLUS_:
   title: '&l&#70A1FB风力发电机Plus+'
   slots:
     4:
@@ -262,7 +262,7 @@ FLFDJ_PLUS+:
       material: gray_stained_glass_pane
       name: '&a'     
 
-FLFDJ_PLUS++:
+FLFDJ_PLUS__:
   title: '&#7dfbea&l风&#85deef&l力&#8ec2f4&l发&#96a5f8&l电&#9e88fd&l机Plus++'
   slots:
     4:

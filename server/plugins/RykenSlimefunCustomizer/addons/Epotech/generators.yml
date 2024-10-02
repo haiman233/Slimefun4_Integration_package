@@ -59,11 +59,11 @@ SLFDJ_PLUS:
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 
-SLFDJ_PLUS+:
+SLFDJ_PLUS_:
   lateInit: true
   item_group: jp_fadianji
   item:
-    name: '&l&#7511FB水力发电机Plus+'
+    name: '&l&#7511FB水力发电机PLUS_'
     lore:
     - 
     - 
@@ -120,7 +120,7 @@ SLFDJ_PLUS+:
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53] 
 
-SLFDJ_PLUS++:
+SLFDJ_PLUS__:
   lateInit: true
   item_group: jp_fadianji
   item:
@@ -136,19 +136,19 @@ SLFDJ_PLUS++:
   recipe:
     1:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     2:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     3:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     4:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     5:
       material_type: slimefun
@@ -156,19 +156,19 @@ SLFDJ_PLUS++:
       amount: 1
     6:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     7:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     8:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
     9:
       material_type: slimefun
-      material: SLFDJ_PLUS+
+      material: SLFDJ_PLUS_
       amount: 1
   capacity: 200000000
   production: 5000000
@@ -240,7 +240,7 @@ HLFDJ_PLUS:
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 
-HLFDJ_PLUS+:
+HLFDJ_PLUS_:
   lateInit: true
   item_group: jp_fadianji
   item:
@@ -299,7 +299,7 @@ HLFDJ_PLUS+:
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]  
 
-HLFDJ_PLUS++:
+HLFDJ_PLUS__:
   lateInit: true
   item_group: jp_fadianji
   item:
@@ -313,19 +313,19 @@ HLFDJ_PLUS++:
   recipe:
     1:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     2:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     3:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     4:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     5:
       material_type: slimefun
@@ -333,19 +333,19 @@ HLFDJ_PLUS++:
       amount: 1
     6:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     7:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     8:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
     9:
       material_type: slimefun
-      material: HLFDJ_PLUS+
+      material: HLFDJ_PLUS_
       amount: 1
   capacity: 200000000
   production: 5000000
@@ -419,7 +419,7 @@ FLFDJ_PLUS:
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 
-FLFDJ_PLUS+:
+FLFDJ_PLUS_:
   lateInit: true
   item_group: jp_fadianji
   item:
@@ -478,7 +478,7 @@ FLFDJ_PLUS+:
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]    
 
-FLFDJ_PLUS++:
+FLFDJ_PLUS__:
   lateInit: true
   item_group: jp_fadianji
   item:
@@ -492,19 +492,19 @@ FLFDJ_PLUS++:
   recipe:
     1:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     2:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     3:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     4:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     5:
       material_type: slimefun
@@ -512,19 +512,19 @@ FLFDJ_PLUS++:
       amount: 1
     6:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     7:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     8:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
     9:
       material_type: slimefun
-      material: FLFDJ_PLUS+
+      material: FLFDJ_PLUS_
       amount: 1
   capacity: 200000000
   production: 5000000

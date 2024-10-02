@@ -141,6 +141,18 @@ COMPRESSION_BLOCK_MACHINE:
       input:
         1:
           material_type: mc
+          material: DIAMOND
+          amount: 9
+      output:
+        1:
+          material_type: mc
+          material: DIAMOND_BLOCK
+          amount: 1
+    '27':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
           material: COPPER_INGOT
           amount: 9
       output:
@@ -4006,7 +4018,11 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         1:
           material_type: slimefun
           material: INFINITE_PANEL
-          amount: 5
+          amount: 12
+        2:
+          material_type: slimefun
+          material: CHUANGSHI_YIN
+          amount: 6
       output:
         1:
           material_type: slimefun
@@ -4546,7 +4562,11 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         1:
           material_type: slimefun
           material: INFINITE_PANEL
-          amount: 5
+          amount: 12
+        2:
+          material_type: slimefun
+          material: CHUANGSHI_YIN
+          amount: 6
       output:
         1:
           material_type: slimefun
@@ -4950,6 +4970,7 @@ HAIMAN_MUSHROOM_MACHINE:
     name: '&9&l菌落机'
     lore:
     - '&7自动培育各类蘑菇'
+    - '&7须在输入槽内放入相应的蘑菇'
     - '&b机器'
     - '&8⇨ &e⚡&7 1000 J 可存储'
     - '&8⇨ &e⚡&7 30 J/s'
@@ -4998,112 +5019,124 @@ HAIMAN_MUSHROOM_MACHINE:
   energyPerCraft: 15
   recipes:
     '1':
-      seconds: 3
+      seconds: 1
       input:
         1:
           material_type: mc
           material: BROWN_MUSHROOM
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: BROWN_MUSHROOM
           amount: 2
     '2':
-      seconds: 3
+      seconds: 1
       input:
         1:
           material_type: mc
           material: RED_MUSHROOM
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: RED_MUSHROOM
           amount: 2
     '3':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: WARPED_FUNGUS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: WARPED_FUNGUS
           amount: 2
     '4':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: CRIMSON_FUNGUS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: CRIMSON_FUNGUS
           amount: 2
     '5':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: WARPED_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: WARPED_ROOTS
           amount: 2
     '6':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: CRIMSON_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: CRIMSON_ROOTS
           amount: 2
     '7':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: BROWN_MUSHROOM_BLOCK
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: BROWN_MUSHROOM_BLOCK
           amount: 2
     '8':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: RED_MUSHROOM_BLOCK
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: RED_MUSHROOM_BLOCK
           amount: 2
     '9':
-      seconds: 4
+      seconds: 1
       input:
         1:
           material_type: mc
           material: MUSHROOM_STEM
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: MUSHROOM_STEM
+          amount: 2
+    '10':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SHROOMLIGHT
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: SHROOMLIGHT
           amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -5114,6 +5147,7 @@ HAIMAN_FLOWER_MACHINE:
     name: '&6&l花匠机'
     lore:
     - '&7自动培育各类花'
+    - '&7须在输入槽内放入相应的花'
     - '&b机器'
     - '&8⇨ &e⚡&7 1000 J 可存储'
     - '&8⇨ &e⚡&7 30 J/s'
@@ -5167,7 +5201,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: DANDELION
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5179,7 +5213,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: POPPY
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5191,7 +5225,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: BLUE_ORCHID
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5203,7 +5237,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: ALLIUM
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5215,7 +5249,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: AZURE_BLUET
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5227,7 +5261,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: RED_TULIP
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5239,7 +5273,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: ORANGE_TULIP
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5251,7 +5285,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: WHITE_TULIP
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5263,7 +5297,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: PINK_TULIP
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5275,7 +5309,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: OXEYE_DAISY
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5287,7 +5321,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: CORNFLOWER
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5299,19 +5333,19 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: LILY_OF_THE_VALLEY
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: LILY_OF_THE_VALLEY
           amount: 2
     '13':
-      seconds: 100
+      seconds: 6
       input:
         1:
           material_type: mc
           material: WITHER_ROSE
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5323,7 +5357,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: SUNFLOWER
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5335,7 +5369,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: LILAC
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5347,7 +5381,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: PEONY
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5359,7 +5393,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: ROSE_BUSH
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5371,7 +5405,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: SPORE_BLOSSOM
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5383,7 +5417,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: AZALEA
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5395,7 +5429,7 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: FLOWERING_AZALEA
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5407,11 +5441,47 @@ HAIMAN_FLOWER_MACHINE:
         1:
           material_type: mc
           material: FLOWERING_AZALEA_LEAVES
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: FLOWERING_AZALEA_LEAVES
+          amount: 2
+    '22':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 2
+    '23':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 2
+    '24':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: TORCHFLOWER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: TORCHFLOWER
           amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -5422,6 +5492,7 @@ HAIMAN_PLANT_MACHINE:
     name: '&a&l植物栽培机'
     lore:
     - '&7自动培育杂类陆地/海洋/下界/末地植物'
+    - '&7须在输入槽内放入相应的植物'
     - '&b机器'
     - '&8⇨ &e⚡&7 1000 J 可存储'
     - '&8⇨ &e⚡&7 30 J/s'
@@ -5475,7 +5546,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: GRASS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5487,7 +5558,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: TALL_GRASS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5499,7 +5570,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: FERN
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5511,7 +5582,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: LARGE_FERN
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5523,7 +5594,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: DEAD_BUSH
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5535,7 +5606,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SEAGRASS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5547,7 +5618,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SEA_PICKLE
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5559,7 +5630,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: KELP
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5571,7 +5642,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: NETHER_SPROUTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5583,7 +5654,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: WARPED_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5595,23 +5666,11 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: CRIMSON_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: CRIMSON_ROOTS
-          amount: 2
-    '12':
-      seconds: 4
-      input:
-        1:
-          material_type: mc
-          material: CHORUS_FLOWER
-          amount: 1
-      output:
-        1:
-          material_type: mc
-          material: CHORUS_FLOWER
           amount: 2
     '13':
       seconds: 2
@@ -5619,7 +5678,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: VINE
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5631,7 +5690,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: LILY_PAD
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5643,7 +5702,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: GLOW_LICHEN
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5655,7 +5714,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: HANGING_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5667,7 +5726,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: MOSS_BLOCK
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5679,7 +5738,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: MOSS_CARPET
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5691,7 +5750,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SMALL_DRIPLEAF
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5703,7 +5762,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: BIG_DRIPLEAF
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5715,7 +5774,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: GLOW_BERRIES
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5727,7 +5786,7 @@ HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: CHORUS_PLANT
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5738,12 +5797,96 @@ HAIMAN_PLANT_MACHINE:
       input:
         1:
           material_type: mc
-          material: PINK_PETALS
-          amount: 1
+          material: WEEPING_VINES
+          amount: 0
       output:
         1:
           material_type: mc
-          material: PINK_PETALS
+          material: WEEPING_VINES
+          amount: 2
+    '24':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 2
+    '25':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 2
+    '26':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 2
+    '27':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 2
+    '28':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 2
+    '29':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 2
+    '30':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
           amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -5754,6 +5897,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
     name: '&a&l植物栽培机'
     lore:
     - '&7自动培育杂类陆地/海洋/下界/末地植物'
+    - '&7须在输入槽内放入相应的植物'
     - '&b机器'
     - '&8⇨ &e⚡&7 1000 J 可存储'
     - '&8⇨ &e⚡&7 30 J/s'
@@ -5807,7 +5951,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SHORT_GRASS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5819,7 +5963,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: TALL_GRASS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5831,7 +5975,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: FERN
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5843,7 +5987,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: LARGE_FERN
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5855,7 +5999,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: DEAD_BUSH
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5867,7 +6011,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SEAGRASS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5879,7 +6023,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SEA_PICKLE
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5891,7 +6035,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: KELP
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5903,7 +6047,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: NETHER_SPROUTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5915,7 +6059,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: WARPED_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5927,23 +6071,11 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: CRIMSON_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
           material: CRIMSON_ROOTS
-          amount: 2
-    '12':
-      seconds: 4
-      input:
-        1:
-          material_type: mc
-          material: CHORUS_FLOWER
-          amount: 1
-      output:
-        1:
-          material_type: mc
-          material: CHORUS_FLOWER
           amount: 2
     '13':
       seconds: 2
@@ -5951,7 +6083,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: VINE
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5963,7 +6095,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: LILY_PAD
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5975,7 +6107,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: GLOW_LICHEN
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5987,7 +6119,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: HANGING_ROOTS
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -5999,7 +6131,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: MOSS_BLOCK
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -6011,7 +6143,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: MOSS_CARPET
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -6023,7 +6155,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: SMALL_DRIPLEAF
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -6035,7 +6167,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: BIG_DRIPLEAF
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -6047,7 +6179,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: GLOW_BERRIES
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -6059,7 +6191,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: CHORUS_PLANT
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -6070,17 +6202,1257 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
       input:
         1:
           material_type: mc
-          material: PINK_PETALS
-          amount: 1
+          material: WEEPING_VINES
+          amount: 0
       output:
         1:
           material_type: mc
-          material: PINK_PETALS
+          material: WEEPING_VINES
+          amount: 2
+    '24':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 2
+    '25':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 2
+    '26':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 2
+    '27':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 2
+    '28':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 2
+    '29':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 2
+    '30':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
           amount: 2
   id_alias: HAIMAN_PLANT_MACHINE
   register:
     conditions:
     - version >= 1.20.3
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_PLANT_MAKER:
+  lateInit: false
+  item_group: slime_customizer_farm
+  item:
+    name: '&a&l植物转换机'
+    lore:
+    - '&7转换各类陆地/海洋/下界/末地植物'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1500 J 可存储'
+    - '&8⇨ &e⚡&7 30 J/s'
+    material_type: skull_hash
+    material: 847b95f1240e5a4d025858b2f2bd825a73d0792136a157ea925e56f9ee31851b
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_PLANT_MACHINE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    7:
+      material_type: mc
+      material: WEEPING_VINES
+      amount: 1
+    8:
+      material_type: mc
+      material: CHORUS_FLOWER
+      amount: 1
+    9:
+      material_type: mc
+      material: TUBE_CORAL
+      amount: 1
+  capacity: 1500
+  energyPerCraft: 15
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRASS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TALL_GRASS
+          amount: 1
+    '2':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: TALL_GRASS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FERN
+          amount: 1
+    '3':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: FERN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LARGE_FERN
+          amount: 1
+    '4':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: LARGE_FERN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+    '5':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SEAGRASS
+          amount: 1
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SEAGRASS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SEA_PICKLE
+          amount: 1
+    '7':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SEA_PICKLE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: KELP
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_SPROUTS
+          amount: 1
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: NETHER_SPROUTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_ROOTS
+          amount: 1
+    '10':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: WARPED_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CRIMSON_ROOTS
+          amount: 1
+    '11':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: CRIMSON_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: VINE
+          amount: 1
+    '13':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: VINE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LILY_PAD
+          amount: 1
+    '14':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: LILY_PAD
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOW_LICHEN
+          amount: 1
+    '15':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: GLOW_LICHEN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: HANGING_ROOTS
+          amount: 1
+    '16':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: HANGING_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MOSS_BLOCK
+          amount: 1
+    '17':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: MOSS_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MOSS_CARPET
+          amount: 1
+    '18':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MOSS_CARPET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SMALL_DRIPLEAF
+          amount: 1
+    '19':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: SMALL_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BIG_DRIPLEAF
+          amount: 1
+    '20':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: BIG_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOW_BERRIES
+          amount: 1
+    '21':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GLOW_BERRIES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '22':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WEEPING_VINES
+          amount: 1
+    '23':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: WEEPING_VINES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 1
+    '24':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 1
+    '25':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 1
+    '26':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 1
+    '27':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 1
+    '28':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 1
+    '29':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 1
+    '30':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GRASS
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+VERSIONED_HAIMAN_PLANT_MAKER:
+  lateInit: false
+  item_group: slime_customizer_farm
+  item:
+    name: '&a&l植物转换机'
+    lore:
+    - '&7转换各类陆地/海洋/下界/末地植物'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1500 J 可存储'
+    - '&8⇨ &e⚡&7 30 J/s'
+    material_type: skull_hash
+    material: 847b95f1240e5a4d025858b2f2bd825a73d0792136a157ea925e56f9ee31851b
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_PLANT_MACHINE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    7:
+      material_type: mc
+      material: WEEPING_VINES
+      amount: 1
+    8:
+      material_type: mc
+      material: CHORUS_FLOWER
+      amount: 1
+    9:
+      material_type: mc
+      material: TUBE_CORAL
+      amount: 1
+  capacity: 1500
+  energyPerCraft: 15
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SHORT_GRASS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TALL_GRASS
+          amount: 1
+    '2':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: TALL_GRASS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FERN
+          amount: 1
+    '3':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: FERN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LARGE_FERN
+          amount: 1
+    '4':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: LARGE_FERN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+    '5':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: DEAD_BUSH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SEAGRASS
+          amount: 1
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SEAGRASS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SEA_PICKLE
+          amount: 1
+    '7':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SEA_PICKLE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: KELP
+          amount: 1
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: KELP
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_SPROUTS
+          amount: 1
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: NETHER_SPROUTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_ROOTS
+          amount: 1
+    '10':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: WARPED_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CRIMSON_ROOTS
+          amount: 1
+    '11':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: CRIMSON_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: VINE
+          amount: 1
+    '13':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: VINE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LILY_PAD
+          amount: 1
+    '14':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: LILY_PAD
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOW_LICHEN
+          amount: 1
+    '15':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: GLOW_LICHEN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: HANGING_ROOTS
+          amount: 1
+    '16':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: HANGING_ROOTS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MOSS_BLOCK
+          amount: 1
+    '17':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: MOSS_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MOSS_CARPET
+          amount: 1
+    '18':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MOSS_CARPET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SMALL_DRIPLEAF
+          amount: 1
+    '19':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: SMALL_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BIG_DRIPLEAF
+          amount: 1
+    '20':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: BIG_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOW_BERRIES
+          amount: 1
+    '21':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GLOW_BERRIES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+    '22':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WEEPING_VINES
+          amount: 1
+    '23':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: WEEPING_VINES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 1
+    '24':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: TWISTING_VINES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 1
+    '25':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 1
+    '26':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 1
+    '27':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CACTUS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 1
+    '28':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SUGAR_CANE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 1
+    '29':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 1
+    '30':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SHORT_GRASS
+          amount: 1
+  id_alias: HAIMAN_PLANT_MAKER
+  register:
+    conditions:
+    - version >= 1.20.3
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_FLOWER_MAKER:
+  lateInit: false
+  item_group: slime_customizer_farm
+  item:
+    name: '&6&l花卉转换机'
+    lore:
+    - '&7转换各类花'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1000 J 可存储'
+    - '&8⇨ &e⚡&7 30 J/s'
+    material_type: skull_hash
+    material: dc6f38a37f71328c34df3ff9bd819d2e549f6150c7710c8ba95e1b0b4919f04f
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: NEPTUNIUM
+      amount: 1
+    3:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_FLOWER_MACHINE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    7:
+      material_type: mc
+      material: LILY_OF_THE_VALLEY
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    9:
+      material_type: mc
+      material: LILY_OF_THE_VALLEY
+      amount: 1
+  capacity: 1000
+  energyPerCraft: 15
+  recipes:
+    '1':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: DANDELION
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+    '2':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: POPPY
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BLUE_ORCHID
+          amount: 1
+    '3':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: BLUE_ORCHID
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ALLIUM
+          amount: 1
+    '4':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: ALLIUM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: AZURE_BLUET
+          amount: 1
+    '5':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: AZURE_BLUET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: RED_TULIP
+          amount: 1
+    '6':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: RED_TULIP
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_TULIP
+          amount: 1
+    '7':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_TULIP
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WHITE_TULIP
+          amount: 1
+    '8':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: WHITE_TULIP
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PINK_TULIP
+          amount: 1
+    '9':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PINK_TULIP
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: OXEYE_DAISY
+          amount: 1
+    '10':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: OXEYE_DAISY
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CORNFLOWER
+          amount: 1
+    '11':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CORNFLOWER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LILY_OF_THE_VALLEY
+          amount: 1
+    '12':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: LILY_OF_THE_VALLEY
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+    '13':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: WITHER_ROSE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SUNFLOWER
+          amount: 1
+    '14':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SUNFLOWER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LILAC
+          amount: 1
+    '15':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: LILAC
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PEONY
+          amount: 1
+    '16':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PEONY
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ROSE_BUSH
+          amount: 1
+    '17':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: ROSE_BUSH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SPORE_BLOSSOM
+          amount: 1
+    '18':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: SPORE_BLOSSOM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: AZALEA
+          amount: 1
+    '19':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: AZALEA
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FLOWERING_AZALEA
+          amount: 1
+    '20':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: FLOWERING_AZALEA
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FLOWERING_AZALEA_LEAVES
+          amount: 1
+    '21':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: FLOWERING_AZALEA_LEAVES
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 1
+    '22':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+    '23':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FLOWER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TORCHFLOWER
+          amount: 1
+    '24':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: TORCHFLOWER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: DANDELION
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_CORAL_PRODUCER:
@@ -7894,6 +9266,30 @@ SOIL_CHANGER:
           material_type: mc
           material: NETHER_WART_BLOCK
           amount: 1
+    '20':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: COARSE_DIRT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GRAVEL
+          amount: 1
+    '21':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAVEL
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: COARSE_DIRT
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_12K_GOLD_PRODUCER:
@@ -9353,6 +10749,22 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
           material_type: slimefun
           material: TINY_URANIUM
           amount: 9
+    '13':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: NETHERITE_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHERITE_SCRAP
+          amount: 4
+        2:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 4
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_DECOMPRESSOR_MACHINE_2:
@@ -9561,6 +10973,22 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
           material_type: slimefun
           material: TINY_URANIUM
           amount: 12
+    '13':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: NETHERITE_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHERITE_SCRAP
+          amount: 6
+        2:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 6
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_FISH_MACHINE:
@@ -9863,6 +11291,18 @@ SYNTHETIC_CHANGER:
           material_type: slimefun
           material: SYNTHETIC_EMERALD
           amount: 2
+    '4':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 26
+      output:
+        1:
+          material_type: slimefun
+          material: SYNTHETIC_SHULKER_SHELL
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_BANNER_PATTERN_PRODUCER:
@@ -10296,7 +11736,7 @@ MUSIC_DISC_PRODUCER:
           material: MUSIC_DISC_OTHERSIDE
           amount: 1
     '15':
-      seconds: 1
+      seconds: 4
       input:
         1:
           material_type: mc
@@ -10308,7 +11748,7 @@ MUSIC_DISC_PRODUCER:
           material: MUSIC_DISC_5
           amount: 1
     '16':
-      seconds: 1
+      seconds: 6
       input:
         1:
           material_type: mc
@@ -10528,6 +11968,30 @@ HAIMAN_STONE_CHANGER:
           material_type: mc
           material: STONE
           amount: 64
+    '4':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 32
+      output:
+        1:
+          material_type: mc
+          material: POINTED_DRIPSTONE
+          amount: 2
+    '5':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_DYE
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: SMALL_AMETHYST_BUD
+          amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_LEARHER_CHANGER:
@@ -10726,9 +12190,125 @@ HAIMAN_CRAFTING_TABLE:
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_SOUL_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_new
+  item:
+    name: '&f&l灵魂转换机'
+    lore:
+    - '&7注入灵魂...'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 240 J 可存储'
+    - '&8⇨ &e⚡&7 48 J/s'
+    material_type: skull_hash
+    material: 9580e5cd970c1ded973d0c139be418b0755e0713345d716ed594244a53e6e13d
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: SOUL_CAMPFIRE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    3:
+      material_type: mc
+      material: SOUL_CAMPFIRE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGNET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGNET
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  capacity: 240
+  energyPerCraft: 24
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SAND
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SOUL_SAND
+          amount: 1
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: DIRT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SOUL_SOIL
+          amount: 1
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: TORCH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SOUL_TORCH
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LANTERN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SOUL_LANTERN
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CAMPFIRE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SOUL_CAMPFIRE
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_CONCRETE_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&6&l混凝土染坊'
     lore:
@@ -11168,7 +12748,7 @@ HAIMAN_CONCRETE_DYING:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_WOOL_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&6&l羊毛染坊'
     lore:
@@ -11800,7 +13380,7 @@ HAIMAN_WOOL_DYING:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_GLASS_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&6&l玻璃染坊'
     lore:
@@ -12264,7 +13844,7 @@ HAIMAN_GLASS_DYING:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_TERRACOTTA_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&6&l陶瓦染坊'
     lore:
@@ -12716,7 +14296,7 @@ HAIMAN_TERRACOTTA_DYING:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_SHULKER_BOX_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&6&l潜影盒染坊'
     lore:
@@ -12976,7 +14556,7 @@ HAIMAN_SHULKER_BOX_DYING:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_CANDLE_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&6&l蜡烛染坊'
     lore:
@@ -13234,13 +14814,263 @@ HAIMAN_CANDLE_DYING:
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_BANNER_DYING:
+  lateInit: false
+  item_group: ranfang
+  item:
+    name: '&6&l旗帜染坊'
+    lore:
+    - '&7可以对旗帜进行染色'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1000 J 可存储'
+    - '&8⇨ &e⚡&7 20 J/s'
+    material_type: skull_hash
+    material: 76184610c50c2efb7285bc2d20f394364e8367bb314841c238a6a521a1ee12bf
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HAIMAN_AMETHYST_DUST
+      amount: 1
+    2:
+      material_type: mc
+      material: WHITE_BANNER
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HAIMAN_AMETHYST_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD
+      amount: 1
+    7:
+      material_type: mc
+      material: RED_DYE
+      amount: 1
+    8:
+      material_type: mc
+      material: LIME_DYE
+      amount: 1
+    9:
+      material_type: mc
+      material: BLUE_DYE
+      amount: 1
+  capacity: 1000
+  energyPerCraft: 10
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: WHITE_BANNER
+          amount: 1
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_BANNER
+          amount: 1
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_BANNER
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_BANNER
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_BANNER
+          amount: 1
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LIME_BANNER
+          amount: 1
+    '7':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PINK_BANNER
+          amount: 1
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GRAY_BANNER
+          amount: 1
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_BANNER
+          amount: 1
+    '10':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CYAN_BANNER
+          amount: 1
+    '11':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_BANNER
+          amount: 1
+    '12':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BLUE_BANNER
+          amount: 1
+    '13':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BROWN_BANNER
+          amount: 1
+    '14':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GREEN_BANNER
+          amount: 1
+    '15':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: RED_BANNER
+          amount: 1
+    '16':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_BANNER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BLACK_BANNER
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_ADVANCE_DYING:
   lateInit: false
-  item_group: slime_customizer
+  item_group: ranfang
   item:
     name: '&4&l终极染坊'
     lore:
     - '&7对物品进行终极染色'
+    - '&7如果想要机器输出彩虹方块'
+    - '&7须要在输入槽内放入相应的彩虹方块'
     - '&b机器'
     - '&8⇨ &e⚡&7 1000 J 可存储'
     - '&8⇨ &e⚡&7 20 J/s'
@@ -13292,9 +15122,9 @@ HAIMAN_ADVANCE_DYING:
       seconds: 1
       input:
         1:
-          material_type: mc
-          material: WHITE_WOOL
-          amount: 1
+          material_type: slimefun
+          material: RAINBOW_WOOL
+          amount: 0
       output:
         1:
           material_type: slimefun
@@ -13304,9 +15134,9 @@ HAIMAN_ADVANCE_DYING:
       seconds: 1
       input:
         1:
-          material_type: mc
-          material: WHITE_STAINED_GLASS
-          amount: 1
+          material_type: slimefun
+          material: RAINBOW_GLASS
+          amount: 0
       output:
         1:
           material_type: slimefun
@@ -13316,9 +15146,9 @@ HAIMAN_ADVANCE_DYING:
       seconds: 1
       input:
         1:
-          material_type: mc
-          material: WHITE_STAINED_GLASS_PANE
-          amount: 1
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE
+          amount: 0
       output:
         1:
           material_type: slimefun
@@ -13328,9 +15158,9 @@ HAIMAN_ADVANCE_DYING:
       seconds: 1
       input:
         1:
-          material_type: mc
-          material: WHITE_TERRACOTTA
-          amount: 1
+          material_type: slimefun
+          material: RAINBOW_CLAY
+          amount: 0
       output:
         1:
           material_type: slimefun
@@ -13340,9 +15170,9 @@ HAIMAN_ADVANCE_DYING:
       seconds: 1
       input:
         1:
-          material_type: mc
-          material: WHITE_CONCRETE
-          amount: 1
+          material_type: slimefun
+          material: RAINBOW_CONCRETE
+          amount: 0
       output:
         1:
           material_type: slimefun
@@ -13352,9 +15182,9 @@ HAIMAN_ADVANCE_DYING:
       seconds: 1
       input:
         1:
-          material_type: mc
-          material: WHITE_GLAZED_TERRACOTTA
-          amount: 1
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA
+          amount: 0
       output:
         1:
           material_type: slimefun
@@ -13395,6 +15225,2645 @@ HAIMAN_ADVANCE_DYING:
         1:
           material_type: slimefun
           material: YH_MC
+          amount: 1
+    '10':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_WOOL_XMAS
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_WOOL_XMAS
+          amount: 1
+    '11':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_XMAS
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_XMAS
+          amount: 1
+    '12':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE_XMAS
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE_XMAS
+          amount: 1
+    '13':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CLAY_XMAS
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CLAY_XMAS
+          amount: 1
+    '14':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CONCRETE_XMAS
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CONCRETE_XMAS
+          amount: 1
+    '15':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA_XMAS
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA_XMAS
+          amount: 1
+    '16':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_WOOL_VALENTINE
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_WOOL_VALENTINE
+          amount: 1
+    '17':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_VALENTINE
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_VALENTINE
+          amount: 1
+    '18':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE_VALENTINE
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE_VALENTINE
+          amount: 1
+    '19':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CLAY_VALENTINE
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CLAY_VALENTINE
+          amount: 1
+    '20':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CONCRETE_VALENTINE
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CONCRETE_VALENTINE
+          amount: 1
+    '21':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA_VALENTINE
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA_VALENTINE
+          amount: 1
+    '22':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_WOOL_HALLOWEEN
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_WOOL_HALLOWEEN
+          amount: 1
+    '23':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_HALLOWEEN
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_HALLOWEEN
+          amount: 1
+    '24':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE_HALLOWEEN
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLASS_PANE_HALLOWEEN
+          amount: 1
+    '25':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CLAY_HALLOWEEN
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CLAY_HALLOWEEN
+          amount: 1
+    '26':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CONCRETE_HALLOWEEN
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CONCRETE_HALLOWEEN
+          amount: 1
+    '27':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA_HALLOWEEN
+          amount: 0
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_GLAZED_TERRACOTTA_HALLOWEEN
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_BLOCK_DYING:
+  lateInit: false
+  item_group: ranfang
+  item:
+    name: '&c&l染色方块浇筑机'
+    lore:
+    - '&7一个可以量产染色方块的机器'
+    - '&7包含所有染色方块'
+    - '&7须在输入槽内放入相应的染色方块'
+    - '&7输入槽内的染色方块不会被消耗'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1200 J 可存储'
+    - '&8⇨ &e⚡&7 240 J/s'
+    material_type: skull_hash
+    material: 67844a5b74f341039560f280db1fcdf836e3b6a48dc2a09351937626977e1c2
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    6:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    9:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+  capacity: 1200
+  energyPerCraft: 120
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_CONCRETE
+          amount: 1
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_CONCRETE
+          amount: 1
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_CONCRETE
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CONCRETE
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_CONCRETE
+          amount: 1
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_CONCRETE
+          amount: 1
+    '7':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_CONCRETE
+          amount: 1
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_CONCRETE
+          amount: 1
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CONCRETE
+          amount: 1
+    '10':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_CONCRETE
+          amount: 1
+    '11':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_CONCRETE
+          amount: 1
+    '12':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_CONCRETE
+          amount: 1
+    '13':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_CONCRETE
+          amount: 1
+    '14':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_CONCRETE
+          amount: 1
+    '15':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_CONCRETE
+          amount: 1
+    '16':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_CONCRETE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_CONCRETE
+          amount: 1
+    '17':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_CONCRETE_POWDER
+          amount: 1
+    '18':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_CONCRETE_POWDER
+          amount: 1
+    '19':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_CONCRETE_POWDER
+          amount: 1
+    '20':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CONCRETE_POWDER
+          amount: 1
+    '21':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_CONCRETE_POWDER
+          amount: 1
+    '22':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_CONCRETE_POWDER
+          amount: 1
+    '23':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_CONCRETE_POWDER
+          amount: 1
+    '24':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_CONCRETE_POWDER
+          amount: 1
+    '25':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CONCRETE_POWDER
+          amount: 1
+    '26':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_CONCRETE_POWDER
+          amount: 1
+    '27':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_CONCRETE_POWDER
+          amount: 1
+    '28':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_CONCRETE_POWDER
+          amount: 1
+    '29':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_CONCRETE_POWDER
+          amount: 1
+    '30':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_CONCRETE_POWDER
+          amount: 1
+    '31':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_CONCRETE_POWDER
+          amount: 1
+    '32':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_CONCRETE_POWDER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_CONCRETE_POWDER
+          amount: 1
+    '33':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_BED
+          amount: 1
+    '34':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_BED
+          amount: 1
+    '35':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_BED
+          amount: 1
+    '36':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_BED
+          amount: 1
+    '37':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_BED
+          amount: 1
+    '38':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_BED
+          amount: 1
+    '39':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_BED
+          amount: 1
+    '40':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_BED
+          amount: 1
+    '41':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_BED
+          amount: 1
+    '42':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_BED
+          amount: 1
+    '43':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_BED
+          amount: 1
+    '44':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_BED
+          amount: 1
+    '45':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_BED
+          amount: 1
+    '46':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_BED
+          amount: 1
+    '47':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_BED
+          amount: 1
+    '48':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_BED
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_BED
+          amount: 1
+    '49':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_STAINED_GLASS
+          amount: 1
+    '50':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_STAINED_GLASS
+          amount: 1
+    '51':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_STAINED_GLASS
+          amount: 1
+    '52':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_STAINED_GLASS
+          amount: 1
+    '53':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_STAINED_GLASS
+          amount: 1
+    '54':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_STAINED_GLASS
+          amount: 1
+    '55':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_STAINED_GLASS
+          amount: 1
+    '56':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_STAINED_GLASS
+          amount: 1
+    '57':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_STAINED_GLASS
+          amount: 1
+    '58':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_STAINED_GLASS
+          amount: 1
+    '59':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_STAINED_GLASS
+          amount: 1
+    '60':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_STAINED_GLASS
+          amount: 1
+    '61':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_STAINED_GLASS
+          amount: 1
+    '62':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_STAINED_GLASS
+          amount: 1
+    '63':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_STAINED_GLASS
+          amount: 1
+    '64':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_STAINED_GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_STAINED_GLASS
+          amount: 1
+    '65':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GLASS
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GLASS
+          amount: 1
+    '66':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_STAINED_GLASS_PANE
+          amount: 1
+    '67':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_STAINED_GLASS_PANE
+          amount: 1
+    '68':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_STAINED_GLASS_PANE
+          amount: 1
+    '69':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_STAINED_GLASS_PANE
+          amount: 1
+    '70':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_STAINED_GLASS_PANE
+          amount: 1
+    '71':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_STAINED_GLASS_PANE
+          amount: 1
+    '72':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_STAINED_GLASS_PANE
+          amount: 1
+    '73':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_STAINED_GLASS_PANE
+          amount: 1
+    '74':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_STAINED_GLASS_PANE
+          amount: 1
+    '75':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_STAINED_GLASS_PANE
+          amount: 1
+    '76':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_STAINED_GLASS_PANE
+          amount: 1
+    '77':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_STAINED_GLASS_PANE
+          amount: 1
+    '78':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_STAINED_GLASS_PANE
+          amount: 1
+    '79':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_STAINED_GLASS_PANE
+          amount: 1
+    '80':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_STAINED_GLASS_PANE
+          amount: 1
+    '81':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_STAINED_GLASS_PANE
+          amount: 1
+    '82':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GLASS_PANE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GLASS_PANE
+          amount: 1
+    '83':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_CANDLE
+          amount: 1
+    '84':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_CANDLE
+          amount: 1
+    '85':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_CANDLE
+          amount: 1
+    '86':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CANDLE
+          amount: 1
+    '87':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_CANDLE
+          amount: 1
+    '88':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_CANDLE
+          amount: 1
+    '89':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_CANDLE
+          amount: 1
+    '90':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_CANDLE
+          amount: 1
+    '91':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CANDLE
+          amount: 1
+    '92':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_CANDLE
+          amount: 1
+    '93':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_CANDLE
+          amount: 1
+    '94':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_CANDLE
+          amount: 1
+    '95':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_CANDLE
+          amount: 1
+    '96':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_CANDLE
+          amount: 1
+    '97':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_CANDLE
+          amount: 1
+    '98':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_CANDLE
+          amount: 1
+    '99':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CANDLE
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CANDLE
+          amount: 1
+    '100':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_BANNER
+          amount: 1
+    '101':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_BANNER
+          amount: 1
+    '102':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_BANNER
+          amount: 1
+    '103':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_BANNER
+          amount: 1
+    '104':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_BANNER
+          amount: 1
+    '105':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_BANNER
+          amount: 1
+    '106':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_BANNER
+          amount: 1
+    '107':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_BANNER
+          amount: 1
+    '108':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_BANNER
+          amount: 1
+    '109':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_BANNER
+          amount: 1
+    '110':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_BANNER
+          amount: 1
+    '111':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_BANNER
+          amount: 1
+    '112':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_BANNER
+          amount: 1
+    '113':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_BANNER
+          amount: 1
+    '114':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_BANNER
+          amount: 1
+    '115':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_BANNER
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_BANNER
+          amount: 1
+    '116':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_WOOL
+          amount: 1
+    '117':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_WOOL
+          amount: 1
+    '118':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_WOOL
+          amount: 1
+    '119':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_WOOL
+          amount: 1
+    '120':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_WOOL
+          amount: 1
+    '121':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_WOOL
+          amount: 1
+    '122':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_WOOL
+          amount: 1
+    '123':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_WOOL
+          amount: 1
+    '124':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_WOOL
+          amount: 1
+    '125':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_WOOL
+          amount: 1
+    '126':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_WOOL
+          amount: 1
+    '127':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_WOOL
+          amount: 1
+    '128':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_WOOL
+          amount: 1
+    '129':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_WOOL
+          amount: 1
+    '130':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_WOOL
+          amount: 1
+    '131':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_WOOL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_WOOL
+          amount: 1
+    '132':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_CARPET
+          amount: 1
+    '133':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_CARPET
+          amount: 1
+    '134':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_CARPET
+          amount: 1
+    '135':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_CARPET
+          amount: 1
+    '136':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_CARPET
+          amount: 1
+    '137':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_CARPET
+          amount: 1
+    '138':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_CARPET
+          amount: 1
+    '139':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_CARPET
+          amount: 1
+    '140':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_CARPET
+          amount: 1
+    '141':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_CARPET
+          amount: 1
+    '142':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_CARPET
+          amount: 1
+    '143':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_CARPET
+          amount: 1
+    '144':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_CARPET
+          amount: 1
+    '145':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_CARPET
+          amount: 1
+    '146':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_CARPET
+          amount: 1
+    '147':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_CARPET
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_CARPET
+          amount: 1
+    '148':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_TERRACOTTA
+          amount: 1
+    '149':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_TERRACOTTA
+          amount: 1
+    '150':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_TERRACOTTA
+          amount: 1
+    '151':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_TERRACOTTA
+          amount: 1
+    '152':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_TERRACOTTA
+          amount: 1
+    '153':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_TERRACOTTA
+          amount: 1
+    '154':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_TERRACOTTA
+          amount: 1
+    '155':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_TERRACOTTA
+          amount: 1
+    '156':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_TERRACOTTA
+          amount: 1
+    '157':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_TERRACOTTA
+          amount: 1
+    '158':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_TERRACOTTA
+          amount: 1
+    '159':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_TERRACOTTA
+          amount: 1
+    '160':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_TERRACOTTA
+          amount: 1
+    '161':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_TERRACOTTA
+          amount: 1
+    '162':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_TERRACOTTA
+          amount: 1
+    '163':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_TERRACOTTA
+          amount: 1
+    '164':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: TERRACOTTA
+          amount: 1
+    '165':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_GLAZED_TERRACOTTA
+          amount: 1
+    '166':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_GLAZED_TERRACOTTA
+          amount: 1
+    '167':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_GLAZED_TERRACOTTA
+          amount: 1
+    '168':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_GLAZED_TERRACOTTA
+          amount: 1
+    '169':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_GLAZED_TERRACOTTA
+          amount: 1
+    '170':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_GLAZED_TERRACOTTA
+          amount: 1
+    '171':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_GLAZED_TERRACOTTA
+          amount: 1
+    '172':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_GLAZED_TERRACOTTA
+          amount: 1
+    '173':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_GLAZED_TERRACOTTA
+          amount: 1
+    '174':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_GLAZED_TERRACOTTA
+          amount: 1
+    '175':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_GLAZED_TERRACOTTA
+          amount: 1
+    '176':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_GLAZED_TERRACOTTA
+          amount: 1
+    '177':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_GLAZED_TERRACOTTA
+          amount: 1
+    '178':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_GLAZED_TERRACOTTA
+          amount: 1
+    '179':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_GLAZED_TERRACOTTA
+          amount: 1
+    '180':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_GLAZED_TERRACOTTA
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_GLAZED_TERRACOTTA
+          amount: 1
+    '181':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: WHITE_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: WHITE_SHULKER_BOX
+          amount: 1
+    '182':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ORANGE_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ORANGE_SHULKER_BOX
+          amount: 1
+    '183':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: MAGENTA_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: MAGENTA_SHULKER_BOX
+          amount: 1
+    '184':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_BLUE_SHULKER_BOX
+          amount: 1
+    '185':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: YELLOW_SHULKER_BOX
+          amount: 1
+    '186':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIME_SHULKER_BOX
+          amount: 1
+    '187':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PINK_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PINK_SHULKER_BOX
+          amount: 1
+    '188':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAY_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GRAY_SHULKER_BOX
+          amount: 1
+    '189':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: LIGHT_GRAY_SHULKER_BOX
+          amount: 1
+    '190':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: CYAN_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: CYAN_SHULKER_BOX
+          amount: 1
+    '191':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPLE_SHULKER_BOX
+          amount: 1
+    '192':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLUE_SHULKER_BOX
+          amount: 1
+    '193':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BROWN_SHULKER_BOX
+          amount: 1
+    '194':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GREEN_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: GREEN_SHULKER_BOX
+          amount: 1
+    '195':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: RED_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_SHULKER_BOX
+          amount: 1
+    '196':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: BLACK_SHULKER_BOX
+          amount: 1
+    '197':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SHULKER_BOX
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_BOX
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -14401,7 +18870,7 @@ HAIMAN_GLOWER:
   energyPerCraft: 50
   recipes:
     '1':
-      seconds: 7
+      seconds: 3
       input:
         1:
           material_type: mc
@@ -14413,7 +18882,7 @@ HAIMAN_GLOWER:
           material: GLOW_INK_SAC
           amount: 1
     '2':
-      seconds: 14
+      seconds: 3
       input:
         1:
           material_type: mc
@@ -14423,6 +18892,42 @@ HAIMAN_GLOWER:
         1:
           material_type: mc
           material: GLOW_ITEM_FRAME
+          amount: 1
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOWSTONE_DUST
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GLOWSTONE
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_MUSHROOM_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SHROOMLIGHT
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -16071,6 +20576,7 @@ HAIMAN_CARPET_MACHINE:
     name: '&9&l刷地毯机'
     lore:
     - '&7自动复制各种地毯'
+    - '&7须在输入槽内放入相应的地毯'
     - '&b机器'
     - '&8⇨ &e⚡&7 1000 J 可存储'
     - '&8⇨ &e⚡&7 30 J/s'
@@ -16124,7 +20630,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: white_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16136,7 +20642,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: orange_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16148,7 +20654,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: magenta_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16160,7 +20666,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: light_blue_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16172,7 +20678,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: yellow_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16184,7 +20690,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: lime_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16196,7 +20702,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: pink_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16208,7 +20714,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: gray_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16220,7 +20726,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: light_gray_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16232,7 +20738,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: cyan_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16244,7 +20750,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: purple_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16256,7 +20762,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: blue_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16268,7 +20774,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: brown_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16280,7 +20786,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: green_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16292,7 +20798,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: red_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16304,7 +20810,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: black_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16316,7 +20822,7 @@ HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: moss_carpet
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16331,6 +20837,7 @@ HAIMAN_RAIL_MACHINE_1:
     name: '&9&l刷铁轨机 &7- &eI'
     lore:
     - '&7自动复制各种原版铁轨'
+    - '&7须在输入槽内放入相应的铁轨'
     - '&b机器'
     - '&8⇨ &e⚡&7 2500 J 可存储'
     - '&8⇨ &e⚡&7 50 J/s'
@@ -16384,7 +20891,7 @@ HAIMAN_RAIL_MACHINE_1:
         1:
           material_type: mc
           material: RAIL
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16396,7 +20903,7 @@ HAIMAN_RAIL_MACHINE_1:
         1:
           material_type: mc
           material: ACTIVATOR_RAIL
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16408,7 +20915,7 @@ HAIMAN_RAIL_MACHINE_1:
         1:
           material_type: mc
           material: POWERED_RAIL
-          amount: 1
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16420,7 +20927,112 @@ HAIMAN_RAIL_MACHINE_1:
         1:
           material_type: mc
           material: DETECTOR_RAIL
-          amount: 1
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: DETECTOR_RAIL
+          amount: 4
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_RAIL_MACHINE_2:
+  lateInit: false
+  item_group: slime_customizer
+  item:
+    name: '&9&l刷铁轨机 &7- &eII'
+    lore:
+    - '&7自动复制各种原版铁轨'
+    - '&7须在输入槽内放入相应的铁轨'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2500 J 可存储'
+    - '&8⇨ &e⚡&7 50 J/s'
+    material_type: skull_hash
+    material: 3b925d3a52759fde8c0258871fefd9141e5c97fdf453af3df21104cc8c488
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: NEPTUNIUM
+      amount: 1
+    3:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_RAIL_MACHINE_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    7:
+      material_type: mc
+      material: ACTIVATOR_RAIL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    9:
+      material_type: mc
+      material: ACTIVATOR_RAIL
+      amount: 1
+  capacity: 2500
+  energyPerCraft: 25
+  recipes:
+    '1':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: RAIL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: RAIL
+          amount: 4
+    '2':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: ACTIVATOR_RAIL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: ACTIVATOR_RAIL
+          amount: 4
+    '3':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: POWERED_RAIL
+          amount: 0
+      output:
+        1:
+          material_type: mc
+          material: POWERED_RAIL
+          amount: 4
+    '4':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: DETECTOR_RAIL
+          amount: 0
       output:
         1:
           material_type: mc
@@ -16738,6 +21350,30 @@ HAIMAN_BOOK_MACHINE:
           material_type: saveditem
           material: SFBOOK
           amount: 1
+    '10':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CHISELED_BOOKSHELF
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHISELED_BOOKSHELF
+          amount: 2
+    '11':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: PAPER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PAPER
+          amount: 8
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_DEBUG_MACHINE:
@@ -17114,7 +21750,7 @@ HAIMAN_POWER_STORAGER_3:
     name: '&d&l储电机 &7- &6III'
     lore:
     - '&7将电能存入电单元中'
-    - '&8以不备之需...'
+    - '&8以便不时之需...'
     - '&b机器'
     - '&8⇨ &e⚡&7 6628035 J 可存储'
     - '&8⇨ &e⚡&7 13256070 J/s'
@@ -17549,7 +22185,7 @@ HAIMAN_DANGAO_HONGBEI:
           material: PUMPKIN_PIE
           amount: 1
     '7':
-      seconds: 5
+      seconds: 4
       input:
         1:
           material_type: mc
@@ -17560,6 +22196,114 @@ HAIMAN_DANGAO_HONGBEI:
           material_type: mc
           material: POPPED_CHORUS_FRUIT
           amount: 4
+    '8':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: MELON
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_FRUIT_CAKE
+          amount: 2
+    '9':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: APPLE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_APPLE_PIE
+          amount: 2
+    '10':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: WHEAT_FLOUR
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_CAKE
+          amount: 2
+    '11':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: CARROT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CARROT_PIE
+          amount: 2
+    '12':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: EASTER_APPLE_PIE
+          amount: 2
+    '13':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: CAKE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BIRTHDAY_CAKE
+          amount: 1
+    '14':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: SUGAR
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_CARAMEL
+          amount: 2
+    '15':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_CARAMEL
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_CARAMEL_APPLE
+          amount: 2
+    '16':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_CHOCOLATE_APPLE
+          amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_MEAT_CHANGER:
@@ -19731,7 +24475,7 @@ XUESHIZHIPINGZHUANGPEIJI:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 KUANGWUCUISHENGQI:
   lateInit: false
-  item_group: slime_customizer
+  item_group: slime_customizer_farm
   item:
     name: '&a&l矿物催生器'
     lore:
@@ -20692,6 +25436,66 @@ DIYUKONGJIAN:
           material_type: mc
           material: NETHER_WART
           amount: 64
+    '9':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 64
+    '10':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 64
+    '11':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: FIRE_CHARGE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FIRE_CHARGE
+          amount: 64
+    '12':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 64
+    '13':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: BLAZE_POWDER
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_POWDER
+          amount: 64
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MODIKONGJIAN:
@@ -20811,6 +25615,30 @@ MODIKONGJIAN:
         2:
           material_type: mc
           material: END_STONE
+          amount: 64
+    '6':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_FRUIT
+          amount: 64
+    '7':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CHORUS_PLANT
           amount: 64
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -21513,7 +26341,7 @@ JIHANZHIDI:
   energyPerCraft: 512
   recipes:
     '1':
-      seconds: 1
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -21525,7 +26353,7 @@ JIHANZHIDI:
           material: PACKED_ICE
           amount: 9
     '2':
-      seconds: 1
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -21537,7 +26365,7 @@ JIHANZHIDI:
           material: SNOW_BLOCK
           amount: 4
     '3':
-      seconds: 1
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -21549,7 +26377,7 @@ JIHANZHIDI:
           material: BLUE_ICE
           amount: 1
     '4':
-      seconds: 1
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -21565,7 +26393,7 @@ JIHANZHIDI:
           material: SNOWBALL
           amount: 16
     '5':
-      seconds: 1
+      seconds: 0
       input:
         1:
           material_type: mc
@@ -21576,6 +26404,18 @@ JIHANZHIDI:
           material_type: mc
           material: SNOW
           amount: 4
+    '6':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: SNOW
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: ICE
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 DIAOYUJI:
@@ -35411,6 +40251,18 @@ HAIMAN_DUJINTAI:
           material_type: mc
           material: GILDED_BLACKSTONE
           amount: 8
+    '7':
+      seconds: 3
+      input:
+        1:
+          material_type: mc
+          material: GRINDSTONE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BELL
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_ZHIJIANTAI:
@@ -35831,6 +40683,18 @@ HAIMAN_BINGGANLLU:
           material_type: slimefun
           material: DIET_COOKIE
           amount: 16
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_DYE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_COOKIE
+          amount: 16
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_ZHUSHUICHI:
@@ -36211,6 +41075,42 @@ HAIMAN_SHOUGONGTAI:
           material_type: slimefun
           material: DUCT_TAPE
           amount: 2
+    '7':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: NAME_TAG
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_PRESENT
+          amount: 8
+    '8':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: EASTER_EGG
+          amount: 4
+    '9':
+      seconds: 60
+      input:
+        1:
+          material_type: slimefun
+          material: RADIANT_BACKPACK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: RESTORED_BACKPACK
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_DIANRECHUANG:
@@ -36381,6 +41281,142 @@ HAIMAN_SHAGUO:
         1:
           material_type: mc
           material: SUSPICIOUS_STEW
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_YINGLIAO_MACHINE:
+  lateInit: false
+  item_group: haiman_jiaju
+  item:
+    name: '&6&l饮料机'
+    lore:
+    - '&7早上来杯牛奶'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 450 J 可存储'
+    - '&8⇨ &e⚡&7 100 J/s'
+    material_type: skull_hash
+    material: 24a37e0c123f4e1a7eb3cce17c12143f93c0c7ce8ce62d2ff86a7ce3a079f473
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+  capacity: 450
+  energyPerCraft: 50
+  recipes:
+    '1':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: MILK_BUCKET
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_MILK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: CHRISTMAS_MILK
+          amount: 1
+    '2':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_MILK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_CHOCOLATE_MILK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: CHRISTMAS_CHOCOLATE_MILK
+          amount: 1
+    '3':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_EGG_NOG
+          amount: 1
+        2:
+          material_type: slimefun
+          material: CHRISTMAS_EGG_NOG
+          amount: 1
+    '4':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: APPLE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_APPLE_CIDER
+          amount: 1
+        2:
+          material_type: slimefun
+          material: CHRISTMAS_APPLE_CIDER
+          amount: 1
+    '5':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHRISTMAS_HOT_CHOCOLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: CHRISTMAS_HOT_CHOCOLATE
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]

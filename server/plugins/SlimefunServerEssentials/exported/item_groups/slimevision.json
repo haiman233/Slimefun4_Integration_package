@@ -1,0 +1,34 @@
+{
+  "slime_vision": {
+    "item": {
+      "item": "minecraft:ender_eye",
+      "nbt": "{HideFlags:35,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"text\":\"I wish this worked!\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"Slime Vision\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "SV_GUIDE_BASIC",
+      "SV_GUIDE_BASIC2",
+      "SV_GUIDE_BASIC3",
+      "SV_GUIDE_BASIC4",
+      "SV_PARTICLE_BASE",
+      "SV_PARTICLE_TOP",
+      "SV_PARTICLE_BOTTOM",
+      "SV_PARTICLE_EAST",
+      "SV_PARTICLE_WEST",
+      "SV_PARTICLE_SOUTH",
+      "SV_PARTICLE_NORTH",
+      "SV_SLIMECHUNK",
+      "SV_SLIMEGLOB",
+      "SV_SLIMEORB",
+      "SV_SLIMEEYE",
+      "SV_SLIMECHUNK_INVERTED",
+      "SV_SLIMEGLOB_INVERTED",
+      "SV_SLIMEORB_INVERTED",
+      "SV_SLIMEEYE_INVERTED",
+      "SV_SLIMESCRIBE",
+      "SV_SLIMECHUNK_NETWORKS",
+      "SV_SLIMEGLOB_NETWORKS",
+      "SV_SLIMEORB_NETWORKS",
+      "SV_SLIMEEYE_NETWORKS"
+    ]
+  }
+}

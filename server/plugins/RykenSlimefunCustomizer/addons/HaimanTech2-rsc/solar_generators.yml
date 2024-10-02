@@ -165,7 +165,7 @@ HAIMAN_END_GENERATOR:
     name: '&b&l末地发电机'
     lore:
     - '&7从末地石中汲取能量发电'
-    - '&d必须放置在末地石上上'
+    - '&d必须放置在末地石上'
     - '&d上方不能有非透明方块遮挡'
     - '&e太阳能发电机'
     - '&8⇨ &e⚡&7 170 J/s (昼)'
@@ -372,6 +372,60 @@ GUANGYUAN_FADIAN:
   dayEnergy: 2000
   nightEnergy: 3500
   capacity: 3500
+MAN_MADE_UNIVERSE_PLUS:
+  lateInit: true
+  item_group: slime_customizer_xingji
+  item:
+    name: '&4&l拟态宇宙'
+    lore:
+    - '&7最终，人造宇宙成为了现实...'
+    - '&e太阳能发电机'
+    - '&8⇨ &e⚡&7 4294967294 J/s (昼)'
+    - '&8⇨ &e⚡&7 4294967294 J/s (夜)'
+    material_type: skull_hash
+    material: 438cf3f8e54afc3b3f91d20a49f324dca1486007fe545399055524c17941f4dc
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JUBIAN_MOKUAI
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HUANYU_LIZI
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JUBIAN_MOKUAI
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HM_DDXP
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAN_MADE_UNIVERSE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HM_DDXP
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HM_HONGMENG_XINPIAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HUANYU_LIZI
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HM_HONGMENG_XINPIAN
+      amount: 1
+  lightLevel: 1
+  dayEnergy: 2147483647
+  nightEnergy: 2147483647
+  capacity: 2147483647
 FUZHU_GENERATOR:
   lateInit: true
   item_group: slime_customizer_generator

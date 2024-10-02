@@ -185,7 +185,7 @@ JP_JQGC:
       input:
         1:
           material_type: slimefun
-          material: FINALTECH_LINE_TRANSFER
+          material: _FINALTECH_LINE_TRANSFER
           amount: 24
         2:
           material_type: slimefun
@@ -201,7 +201,7 @@ JP_JQGC:
           amount: 4    
         5:
           material_type: slimefun
-          material: FINALTECH_ORDERED_DUST_FACTORY_STONE
+          material: _FINALTECH_ORDERED_DUST_FACTORY_STONE
           amount: 1     
       output:
         1:
@@ -213,7 +213,7 @@ JP_JQGC:
       input:
         1:
           material_type: slimefun
-          material: FINALTECH_LINE_TRANSFER
+          material: _FINALTECH_LINE_TRANSFER
           amount: 24
         2:
           material_type: slimefun
@@ -229,7 +229,7 @@ JP_JQGC:
           amount: 4    
         5:
           material_type: slimefun
-          material: FINALTECH_ORDERED_DUST_FACTORY_DIRT
+          material: _FINALTECH_ORDERED_DUST_FACTORY_DIRT
           amount: 1     
       output:
         1:

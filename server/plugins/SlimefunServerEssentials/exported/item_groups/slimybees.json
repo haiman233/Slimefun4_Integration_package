@@ -1,0 +1,31 @@
+{
+  "slimybees_items": {
+    "item": {
+      "item": "minecraft:honeycomb",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"text\":\"林业蜜蜂\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "BEESWAX",
+      "HONEY_DROP",
+      "HONEY_BLOCK",
+      "HONEY_BOTTLE",
+      "HONEYCOMB",
+      "ROYAL_JELLY",
+      "POLLEN",
+      "BASIC_FRAME",
+      "ADVANCED_FRAME",
+      "SWEET_FRAME",
+      "DEADLY_FRAME",
+      "HIVE_CASING_PLANK",
+      "HIVE_CASING",
+      "BEE_HIVE",
+      "AUTO_BEE_HIVE",
+      "INDUSTRIAL_BEE_HIVE",
+      "SBEE_CENTRIFUGE",
+      "ELECTRIC_CENTRIFUGE",
+      "ELECTRIC_CENTRIFUGE_2",
+      "BEEALYZER",
+      "TOME_OF_DISCOVERY_SHARING"
+    ]
+  }
+}

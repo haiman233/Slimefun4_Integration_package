@@ -10,7 +10,7 @@ SE_BUCKET_CARD:
     material: PAPER
   recipe_type: COMPRESSOR
   recipe:
-    5:
+    1:
       material: BUCKET
       amount: 1
 SE_WATER_BUCKET_CARD:
@@ -25,7 +25,7 @@ SE_WATER_BUCKET_CARD:
     material: PAPER
   recipe_type: COMPRESSOR
   recipe:
-    5:
+    1:
       material: WATER_BUCKET
       amount: 1
 SE_LAVA_BUCKET_CARD:
@@ -40,6 +40,6 @@ SE_LAVA_BUCKET_CARD:
     material: PAPER
   recipe_type: COMPRESSOR
   recipe:
-    5:
+    1:
       material: LAVA_BUCKET
       amount: 1

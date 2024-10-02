@@ -57,7 +57,7 @@ HORSE_ROU:
     material_type: mc
     material: BEEF
     amount: 2
-  entity: DONKEY
+  entity: HORSE
   chance: 60
 MULE_ROU:
   lateInit: false
@@ -69,7 +69,7 @@ MULE_ROU:
     material_type: mc
     material: PORKCHOP
     amount: 2
-  entity: DONKEY
+  entity: MULE
   chance: 60
 FOX_ROU:
   lateInit: false
@@ -228,3 +228,111 @@ PLAYER_FIRE:
     amount: 1
   entity: PLAYER
   chance: 23
+YUEYIN:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&e&l悦音'
+    lore:
+    - '&7清脆动听'
+    material_type: skull_hash
+    material: 7e10107021311246e4c27193ebeaec3cd064bdb86d62d29af07b7fa49682c7
+    amount: 1
+  entity: ALLAY
+  chance: 20
+ZAYIN:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&b&l杂音'
+    lore:
+    - '&7令人烦躁'
+    material_type: skull_hash
+    material: a00c30233fe46fb983ef6c46c02c9ec3e2b2b91fdfb916cba8721b235f273f98
+    amount: 1
+  entity: VEX
+  chance: 20
+YGYIN:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&c&l远古之音'
+    lore:
+    - '&7源远流长'
+    material_type: skull_hash
+    material: 3b481c31dc683bdcb7d375a7c5db7ac7adf9e9fe8b6c04a64931613e29fe470e
+    amount: 1
+  entity: ELDER_GUARDIAN
+  chance: 20
+HUANYU_LIZI:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&c&l寰宇粒子'
+    lore:
+    - '&7宇宙中的一小粒'
+    material_type: skull_hash
+    material: 3698f3f045ed624edd1431fe7b1554fd9425e4709e97a5eac8af31d96405977f
+    amount: 1
+  entity: ENDER_DRAGON
+  chance: 1
+JIJIN_ZHIXING:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&c&l寂静之星'
+    lore:
+    - '&7......'
+    material_type: skull_hash
+    material: ca49defbdd937c233f36c4ad3ce5ec564ebf9d0c1f355090cc8eb56b60a559cc
+    amount: 1
+  entity: WITHER
+  chance: 1
+HUIXIANG_ZHIXING:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&f&l回响之星'
+    lore:
+    - '&7令人恐惧...'
+    material_type: skull_hash
+    material: 8d2c496fa4422dae5daedb803d0bf2968bf8a714561330c30066314ba87675b5
+    amount: 1
+  entity: WARDEN
+  chance: 1
+ANDAN_ZHIXING:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&b&l黯淡之星'
+    lore:
+    - '&7什么都看不见...'
+    material_type: skull_hash
+    material: 65387c753249959a3c96accf7f38abd9c85431c93344457f828b943b7c77fec1
+    amount: 1
+  entity: ZOGLIN
+  chance: 1
+SIHOU_ZHIXING:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&e&l嘶吼之星'
+    lore:
+    - '&7一声低鸣...'
+    material_type: skull_hash
+    material: 21a3134de9ff6d562bc5df1f6cfd1b690d2d4b05900b9b8ac3b19d5f7bdf6487
+    amount: 1
+  entity: ZOMBIE_HORSE
+  chance: 1
+SHENGMING_ZHIXING:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&4&l生命之星'
+    lore:
+    - '&7一个个生命...'
+    material_type: skull_hash
+    material: 13eaf685953dec492b349e5ca620c2a8adb129d752249ec30b37add26b4a9c5f
+    amount: 1
+  entity: PLAYER
+  chance: 1

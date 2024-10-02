@@ -1,0 +1,166 @@
+options:
+  auto-update: true
+  lang: zh-CN
+languages:
+  en-US:
+    console:
+      registering-geo: Registering geo resources...
+      loading-items: Loading items...
+      loading-researches: Loading researches...
+      addon-enabled: Enabled Magic8Ball addon
+      addon-disabled: Disabled Magic8Ball addon
+      loading-language: Loading language...
+      loaded-language: 'Loaded language:'
+    item-groups:
+      main:
+        name: '&eMagic 8 Ball'
+        lore: ''
+    items:
+      M8BALL_FRAGMENT:
+        name: '&fMagic &68 &fBall &bFragment'
+        lore:
+        - ''
+        - Emits traces of &6knowledge
+        - ''
+      M8BALL_ITEM:
+        name: '&fMagic &68 &fBall'
+        lore:
+        - ''
+        - '&fCan answer anything ..'
+        - '&f.. maybe, my sources says so'
+        - ''
+        - '&eLeft Click&7 on air to use'
+        - '&eRight Click&7 to use (on block)'
+        - ''
+    responses:
+      affirmative:
+      - It is certain
+      - It is decidedly so
+      - Without a doubt
+      - Yes definitely
+      - You may rely on it
+      - As I see it, yes
+      - Most likely
+      - Outlook good
+      - 'Yes'
+      - Signs point to yes
+      noncommittal:
+      - Reply hazy, try again
+      - Ask again later
+      - Better not tell you now
+      - Cannot predict now
+      - Concentrate and ask again
+      negative:
+      - Don’t count on it
+      - My reply is no
+      - My sources say no
+      - Outlook not so good
+      - Very doubtful
+  pt-BR:
+    console:
+      registering-geo: Registrando recursos geo...
+      loading-items: Carregando items...
+      loading-researches: Carregando pesquisas...
+      addon-enabled: Addon Magic8Ball habilitado
+      addon-disabled: Addon Magic8Ball desabilitado
+      loading-language: Carregando linguagem...
+      loaded-language: 'Linguagem carregada:'
+    item-groups:
+      main:
+        name: '&eBola 8 Mágica'
+        lore: ''
+    items:
+      M8BALL_FRAGMENT:
+        name: '&bFragmento &fde Bola &68 &fMágica'
+        lore:
+        - ''
+        - Emite traços de &6conhecimento
+        - ''
+      M8BALL_ITEM:
+        name: '&fBola &68 &fMágica'
+        lore:
+        - ''
+        - '&fPode responder qualquer coisa ..'
+        - '&f.. talvez, minhas fontes dizem que sim'
+        - ''
+        - '&eBotão Esquerdo&7 no ar para usar'
+        - '&eBotão Direito&7 para usar (no bloco)'
+        - ''
+    responses:
+      affirmative:
+      - É certo
+      - Definitivamente sim
+      - Sem dúvida
+      - Sim, definitivamente
+      - Pode confiar nisso
+      - Ao que parece, sim
+      - Muito provável
+      - As perspectivas são boas
+      - Sim
+      - Sinais apontam que sim
+      noncommittal:
+      - Resposta confusa, tente novamente
+      - Pergunte novamente mais tarde
+      - Melhor não te dizer agora
+      - Não posso prever agora
+      - Concentre-se e pergunte novamente
+      negative:
+      - Não conte com isso
+      - Minha resposta é não
+      - Minhas fontes dizem que não
+      - As perspectivas não são boas
+      - Muito improvável
+  zh-CN:
+    console:
+      registering-geo: 正在注册GEO资源...
+      loading-items: 正在加载物品...
+      loading-researches: 正在加载研究...
+      addon-enabled: 已启用 Magic8Ball 附属
+      addon-disabled: 未启用 Magic8Ball 附属
+      loading-language: 正在加载语言...
+      loaded-language: '已加载语言:'
+    item-groups:
+      main:
+        name: '&e魔法8号球'
+        lore: ''
+    items:
+      M8BALL_FRAGMENT:
+        name: '&f魔法&68&f号球&b碎片'
+        lore:
+        - ''
+        - 散发着&6知识
+        - ''
+      M8BALL_ITEM:
+        name: '&f魔法&68&f号球'
+        lore:
+        - ''
+        - '&f我可以回答你任何事情..'
+        - '&f..至少我的消息来源是这样说的'
+        - ''
+        - '&e左击空气：&7使用'
+        - '&e右击方块：&7使用'
+        - ''
+    responses:
+      affirmative:
+      - 这是肯定的
+      - 绝对是这样
+      - 毫无疑问
+      - 是的，当然
+      - 你可以信赖它
+      - 在我看来，是的
+      - 很有可能
+      - 大吉
+      - 对的
+      - 有迹象表明是的
+      noncommittal:
+      - 回复朦胧，再试一次
+      - 请稍后再问
+      - 最好现在不要告诉你
+      - 现在暂时无法预测
+      - 集中精神，再问一遍
+      negative:
+      - 不要指望它
+      - 我的回答是否定的
+      - 我的消息来源说没有
+      - 大凶
+      - 十分可疑

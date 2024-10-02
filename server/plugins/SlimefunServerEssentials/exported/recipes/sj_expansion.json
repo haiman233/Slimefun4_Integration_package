@@ -1,0 +1,69 @@
+{
+  "EXPANSION_BASKETBALL": {
+    "recipes": {
+      "complex": {
+        "item": "minecraft:egg",
+        "nbt": "{display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"投掷鸡蛋\"}],\"text\":\"\"}\u0027}}"
+      },
+      "inputs": "EXPANSION_IKUN_PRIME:1",
+      "outputs": "?0:1"
+    }
+  },
+  "EXPANSION_BLUE_PANTS": {
+    "recipes": {
+      "complex": [
+        {
+          "item": "minecraft:paper",
+          "nbt": "{display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"蓝色妖姬套装\"}],\"text\":\"\"}\u0027}}"
+        },
+        {
+          "item": "minecraft:egg",
+          "nbt": "{display:{Lore:[\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"穿上一件时: \"},{\"italic\":false,\"color\":\"white\",\"text\":\"获得速度II效果\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"穿上两件时: \"},{\"italic\":false,\"color\":\"white\",\"text\":\"获得速度III效果\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"穿上三件时: \"},{\"italic\":false,\"color\":\"white\",\"text\":\"获得速度V效果\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"套装效果:\"}],\"text\":\"\"}\u0027}}"
+        }
+      ],
+      "inputs": "?0:1",
+      "outputs": "?1:1"
+    }
+  },
+  "EXPANSION_BLUE_SUIT": {
+    "copy": "EXPANSION_BLUE_PANTS"
+  },
+  "EXPANSION_BREWING_STAND": {
+    "speed": 6,
+    "energy": -40
+  },
+  "EXPANSION_IRON_GENERATOR": {
+    "energy": 12,
+    "recipes": {
+      "time": 120,
+      "inputs": "iron_ingot:1",
+      "outputs": "IRON_DUST:1"
+    }
+  },
+  "EXPANSION_MAGMA_BLOCK_MACHINE": {
+    "energy": 20,
+    "recipes": {
+      "time": 60,
+      "inputs": "cobblestone:8",
+      "outputs": "magma_block:3"
+    }
+  },
+  "EXPANSION_QIE_ER_XI": {
+    "copy": "EXPANSION_BLUE_PANTS"
+  },
+  "EXPANSION_STONE_CONVERT_MACHINE": {
+    "speed": 1,
+    "energy": -10
+  },
+  "EXPANSION_STONE_CONVERT_MACHINE_2": {
+    "speed": 4,
+    "energy": -10
+  },
+  "mob_drop": {
+    "recipes": [],
+    "item": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{Damage:0,display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"text\":\"Kill the specified Mob to obtain this Item\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"Mob Drop\"}],\"text\":\"\"}\u0027}}"
+    }
+  }
+}

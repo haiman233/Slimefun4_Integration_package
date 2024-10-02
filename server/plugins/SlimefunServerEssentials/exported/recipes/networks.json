@@ -1,0 +1,2277 @@
+{
+  "NTW_EXPANSION_ADVANCED_LINE_TRANSFER": {
+    "recipes": {
+      "complex": [
+        {
+          "item": "minecraft:book",
+          "nbt": "{display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"[\"},{\"italic\":false,\"color\":\"green\",\"text\":\"最大距离\"},{\"italic\":false,\"color\":\"gray\",\"text\":\"]\"},{\"italic\":false,\"color\":\"white\",\"text\":\":\"},{\"italic\":false,\"color\":\"gold\",\"text\":\"32方块\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"[\"},{\"italic\":false,\"color\":\"green\",\"text\":\"推送频率\"},{\"italic\":false,\"color\":\"gray\",\"text\":\"]\"},{\"italic\":false,\"color\":\"white\",\"text\":\":\"},{\"italic\":false,\"color\":\"gray\",\"text\":\" 每 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"1 SfTick \"},{\"italic\":false,\"color\":\"gray\",\"text\":\"推送一次\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"[\"},{\"italic\":false,\"color\":\"green\",\"text\":\"抓取频率\"},{\"italic\":false,\"color\":\"gray\",\"text\":\"]\"},{\"italic\":false,\"color\":\"white\",\"text\":\":\"},{\"italic\":false,\"color\":\"gray\",\"text\":\" 每 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"1 SfTick \"},{\"italic\":false,\"color\":\"gray\",\"text\":\"抓取一次\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"[\"},{\"italic\":false,\"color\":\"green\",\"text\":\"运输耗电\"},{\"italic\":false,\"color\":\"gray\",\"text\":\"]\"},{\"italic\":false,\"color\":\"white\",\"text\":\":\"},{\"italic\":false,\"color\":\"gray\",\"text\":\" 每次运输消耗 \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"5000 J 网络电力\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"⇩传输数据⇩\"}],\"text\":\"\"}\u0027}}"
+        },
+        {
+          "item": "minecraft:book",
+          "nbt": "{display:{Lore:[\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"默认运输模式: \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"首位阻断\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"可调整运输模式\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"默认运输数量: \"},{\"italic\":false,\"color\":\"gold\",\"text\":\"3456\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"可调整运输数量\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"⇩参数⇩\"}],\"text\":\"\"}\u0027}}"
+        }
+      ],
+      "inputs": "?0:1",
+      "outputs": "?1:1"
+    }
+  },
+  "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_TRANSFER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_TRANSFER_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_ADVANCED_TRANSFER_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_PLUS": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_PLUS_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_PLUS_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_VANILLA_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_LINE_TRANSFER_VANILLA_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_TRANSFER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_TRANSFER_GRABBER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "NTW_EXPANSION_TRANSFER_PUSHER": {
+    "copy": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER"
+  },
+  "expansion_workbench": {
+    "recipes": [
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1",
+          "NTW_EXPANSION_ANCIENT_ALTAR_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_ANCIENT_ALTAR:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR_WITHHOLDING:1",
+          "NTW_EXPANSION_ANCIENT_ALTAR_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_ANCIENT_ALTAR_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1",
+          "NTW_EXPANSION_ARMOR_FORGE_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE_WITHHOLDING:1",
+          "NTW_EXPANSION_ARMOR_FORGE_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1",
+          "NTW_EXPANSION_COMPRESSOR_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_COMPRESSOR:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_COMPRESSOR_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR_WITHHOLDING:1",
+          "NTW_EXPANSION_COMPRESSOR_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_COMPRESSOR_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_AUTO_CRAFTER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_CRAFTING:1"
+      },
+      {
+        "inputs": [
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_CRAFTING_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1",
+          "NTW_EXPANSION_EXPANSION_WORKBENCH_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:1",
+          "NTW_EXPANSION_EXPANSION_WORKBENCH_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1",
+          "NTW_EXPANSION_GRIND_STONE_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_GRIND_STONE:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_GRIND_STONE_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE_WITHHOLDING:1",
+          "NTW_EXPANSION_GRIND_STONE_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_GRIND_STONE_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_JUICER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_JUICER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_JUICER:1",
+          "NTW_EXPANSION_JUICER_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_JUICER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_JUICER:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_JUICER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_JUICER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_JUICER_WITHHOLDING:1",
+          "NTW_EXPANSION_JUICER_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_JUICER_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_JUICER_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1",
+          "NTW_EXPANSION_MAGIC_WORKBENCH_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_MAGIC_WORKBENCH:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH_WITHHOLDING:1",
+          "NTW_EXPANSION_MAGIC_WORKBENCH_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_MAGIC_WORKBENCH_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1",
+          "NTW_EXPANSION_ORE_CRUSHER_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_ORE_CRUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER_WITHHOLDING:1",
+          "NTW_EXPANSION_ORE_CRUSHER_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_ORE_CRUSHER_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1",
+          "NTW_EXPANSION_PRESSURE_CHAMBER_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_PRESSURE_CHAMBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER_WITHHOLDING:1",
+          "NTW_EXPANSION_PRESSURE_CHAMBER_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_PRESSURE_CHAMBER_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1",
+          "NTW_EXPANSION_QUANTUM_WORKBENCH_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_QUANTUM_WORKBENCH:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH_WITHHOLDING:1",
+          "NTW_EXPANSION_QUANTUM_WORKBENCH_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_QUANTUM_WORKBENCH_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_SMELTERY:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_SMELTERY:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_SMELTERY:1",
+          "NTW_EXPANSION_SMELTERY_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_SMELTERY:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_SMELTERY:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_AUTO_SMELTERY_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_SMELTERY_WITHHOLDING:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_INTERDIMENSIONAL_PRESENCE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_SMELTERY_WITHHOLDING:1",
+          "NTW_EXPANSION_SMELTERY_RECIPE_ENCODER:1",
+          "NTW_EXPANSION_AUTO_SMELTERY_WITHHOLDING:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_AUTO_SMELTERY_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPORT:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPORT:1",
+          "NTW_EXPORT:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPORT:1",
+          "NTW_EXPORT:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPORT:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_EXPORT:1"
+      },
+      {
+        "inputs": [
+          "NTW_SYNTHETIC_EMERALD_SHARD:1",
+          "NTW_GREEDY_BLOCK:1",
+          "NTW_SYNTHETIC_EMERALD_SHARD:1",
+          "NTW_GREEDY_BLOCK:1",
+          "NTW_GREEDY_BLOCK:1",
+          "NTW_GREEDY_BLOCK:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_GREEDY_BLOCK:1",
+          "NTW_SHRINKING_BASE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_GREEDY_BLOCK:1"
+      },
+      {
+        "inputs": [
+          "NTW_IMPORT:1",
+          "NTW_IMPORT:1",
+          "NTW_IMPORT:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_IMPORT:1",
+          "NTW_IMPORT:1",
+          "NTW_IMPORT:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_IMPORT:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER:1"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_GRABBER:1",
+          "NTW_BRIDGE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_BRIDGE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_GRABBER:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS:1"
+      },
+      {
+        "inputs": [
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_PUSHER:1",
+          "NTW_BRIDGE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_BRIDGE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_PUSHER:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_TRASH:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_PURGER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_CONFIGURATOR:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_QUANTUM_STORAGE_8:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_CONFIGURATOR:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_QUANTUM_STORAGE:1"
+      },
+      {
+        "inputs": [
+          "",
+          "",
+          "",
+          "",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_TRANSFER:1"
+      },
+      {
+        "inputs": [
+          "",
+          "",
+          "",
+          "",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_TRANSFER_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "",
+          "",
+          "",
+          "",
+          "NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:1"
+        ],
+        "outputs": "NTW_EXPANSION_ADVANCED_TRANSFER_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "ANCIENT_PEDESTAL:1",
+          "ANCIENT_PEDESTAL:1",
+          "ANCIENT_PEDESTAL:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "ANCIENT_ALTAR:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "ANCIENT_PEDESTAL:1",
+          "ANCIENT_PEDESTAL:1",
+          "ANCIENT_PEDESTAL:1"
+        ],
+        "outputs": "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1",
+          "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_ANCIENT_ALTAR_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "anvil:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "NTW_OPTIC_CABLE:1",
+          "dispenser:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1",
+          "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_ARMOR_FORGE_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ANCIENT_ALTAR:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_ANCIENT_ALTAR_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "ARMOR_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_ARMOR_FORGE:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ARMOR_FORGE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_ARMOR_FORGE_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_COMPRESSOR_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_COMPRESSOR_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_COMPRESSOR:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_COMPRESSOR_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_GRIND_STONE_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_GRIND_STONE_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_GRIND_STONE:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_GRIND_STONE_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_JUICER_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_JUICER_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_JUICER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_JUICER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_JUICER:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_JUICER_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_MAGIC_WORKBENCH_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_MAGIC_WORKBENCH_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_ORE_CRUSHER_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_ORE_CRUSHER_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_ORE_CRUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_ORE_CRUSHER_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_PRESSURE_CHAMBER_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_PRESSURE_CHAMBER_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_QUANTUM_WORKBENCH:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_SMELTERY_BLUEPRINT:1",
+          "NTW_OPTIC_GLASS:1",
+          "ELECTRIC_SMELTERY_2:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "ELECTRIC_SMELTERY_2:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_SMELTERY:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CRAFTER_SMART_PORT:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_EXPANSION_AUTO_SMELTERY:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EXPANSION_AUTO_SMELTERY:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_AUTO_CRAFTER_WITHHOLDING:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_AUTO_SMELTERY_WITHHOLDING:1"
+      },
+      {
+        "inputs": [
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_RECIPE_ENCODER:1",
+          "diamond:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_RECIPE_ENCODER:1",
+          "NTW_RECIPE_ENCODER:1"
+        ],
+        "outputs": "NTW_EXPANSION_BLUEPRINT_DECODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "black_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_BLACK:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "blue_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_BLUE:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "brown_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_BROWN:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "cyan_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_CYAN:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "gray_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_GRAY:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "green_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_GREEN:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "light_blue_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_LIGHT_BLUE:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "light_gray_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_LIGHT_GRAY:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "lime_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_LIME:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "magenta_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_MAGENTA:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "orange_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_ORANGE:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "pink_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_PINK:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "purple_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_PURPLE:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "red_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_RED:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "white_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_WHITE:8"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "yellow_dye:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_BRIDGE_YELLOW:8"
+      },
+      {
+        "inputs": [
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1",
+          "NTW_CAPACITOR_4:1"
+        ],
+        "outputs": "NTW_EXPANSION_CAPACITOR_5:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1",
+          "NTW_EXPANSION_CAPACITOR_5:1"
+        ],
+        "outputs": "NTW_EXPANSION_CAPACITOR_6:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_10:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_10_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_11:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_11_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_12:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_12_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_13:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_13_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_1:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_1_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_2:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_2_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_3:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_3_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_4:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_4_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_5:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_5_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_6:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_6_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_7:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_7_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_8:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_8_MODEL:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_9:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_CARGO_STORAGE_UNIT_9_MODEL:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARBON_CHUNK:1",
+          "CARBON_PRESS:1",
+          "CARBON_CHUNK:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_COMPRESSOR_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_COMPRESSOR_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_COMPRESSOR:1",
+          "NTW_EXPANSION_COMPRESSOR_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_COMPRESSOR_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_INPUT_ONLY_MONITOR:1",
+          "NTW_EXPORT:1",
+          "NTW_OUTPUT_ONLY_MONITOR:1",
+          "NTW_IMPORT:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_IMPORT:1",
+          "NTW_OUTPUT_ONLY_MONITOR:1",
+          "NTW_EXPORT:1",
+          "NTW_INPUT_ONLY_MONITOR:1"
+        ],
+        "outputs": "NTW_EXPANSION_DUE_MACHINE:1"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "ANCIENT_PEDESTAL:1",
+          "NTW_BRIDGE:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "NTW_EXPANSION_WORKBENCH:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "NTW_BRIDGE:1",
+          "ANCIENT_PEDESTAL:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_EXPANSION_WORKBENCH:1",
+          "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_EXPANSION_WORKBENCH_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_BRIDGE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_BRIDGE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_GRID:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_BRIDGE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_BRIDGE:1"
+        ],
+        "outputs": "NTW_EXPANSION_GRID_NEW_STYLE:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "BOOSTED_URANIUM:1",
+          "URANIUM:1",
+          "BOOSTED_URANIUM:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_GRIND_STONE_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_GRIND_STONE_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_GRIND_STONE:1",
+          "NTW_EXPANSION_GRIND_STONE_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_GRIND_STONE_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_QUANTUM_STORAGE_8:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_13:1",
+          "NTW_QUANTUM_STORAGE_8:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_13:1",
+          "stick:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_13:1",
+          "NTW_QUANTUM_STORAGE_8:1",
+          "NTW_EXPANSION_CARGO_STORAGE_UNIT_13:1",
+          "NTW_QUANTUM_STORAGE_8:1"
+        ],
+        "outputs": "NTW_EXPANSION_ITEM_MOVER:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "APPLE_JUICE:1",
+          "GOLDEN_APPLE_JUICE:1",
+          "CARROT_JUICE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_JUICER_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_JUICER_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_JUICER:1",
+          "NTW_EXPANSION_JUICER_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_JUICER_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_POWER_OUTLET_1:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_POWER_OUTLET_1:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_POWER_OUTLET_1:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_POWER_OUTLET_1:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_1:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_9:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_9:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_9:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_9:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_10:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_10:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_10:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_10:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_10:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_11:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_1:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_1:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_1:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_1:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_2:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_2:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_2:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_2:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_2:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_3:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_3:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_3:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_3:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_3:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_4:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_4:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_4:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_4:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_4:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_5:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_5:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_5:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_5:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_5:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_6:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_6:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_6:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_6:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_6:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_7:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_7:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_7:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_7:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_7:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_8:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_8:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_8:1",
+          "NTW_RADIOACTIVE_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_8:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_EXPANSION_LINE_POWER_OUTLET_8:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_POWER_OUTLET_9:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_LINE_TRANSFER_PUSHER:1",
+          "NTW_IMPORT:1",
+          "NTW_BRIDGE:1",
+          "NTW_EXPORT:1",
+          "NTW_MONITOR:1",
+          "NTW_EXPORT:1",
+          "NTW_BRIDGE:1",
+          "NTW_IMPORT:1",
+          "NTW_EXPANSION_LINE_TRANSFER_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER:1"
+      },
+      {
+        "inputs": [
+          "NTW_GRABBER:1",
+          "NTW_IMPORT:1",
+          "NTW_AI_CORE:1",
+          "NTW_IMPORT:1",
+          "NTW_MONITOR:1",
+          "NTW_IMPORT:1",
+          "NTW_AI_CORE:1",
+          "NTW_IMPORT:1",
+          "NTW_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_EXPANSION_LINE_TRANSFER_PLUS_PUSHER:1",
+          "NTW_AI_CORE:1",
+          "NTW_BRIDGE:1",
+          "NTW_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_BRIDGE:1",
+          "NTW_AI_CORE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_PLUS_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_PLUS:1"
+      },
+      {
+        "inputs": [
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_GRABBER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_PLUS_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_LINE_TRANSFER_PUSHER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_SHRINKING_BASE:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_PLUS_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_PUSHER:1",
+          "NTW_EXPORT:1",
+          "NTW_AI_CORE:1",
+          "NTW_EXPORT:1",
+          "NTW_MONITOR:1",
+          "NTW_EXPORT:1",
+          "NTW_AI_CORE:1",
+          "NTW_EXPORT:1",
+          "NTW_PUSHER:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_VANILLA_GRABBER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_VANILLA_GRABBER:1",
+          "NTW_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_VANILLA_GRABBER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_VANILLA_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_VANILLA_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_VANILLA_PUSHER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_VANILLA_PUSHER:1",
+          "NTW_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_AI_CORE:1",
+          "NTW_VANILLA_PUSHER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_VANILLA_PUSHER:1"
+        ],
+        "outputs": "NTW_EXPANSION_LINE_TRANSFER_VANILLA_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "NTW_OPTIC_CABLE:1",
+          "bookshelf:1",
+          "crafting_table:1",
+          "dispenser:1"
+        ],
+        "outputs": "NTW_EXPANSION_MAGIC_WORKBENCH_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_MAGIC_WORKBENCH_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_MAGIC_WORKBENCH:1",
+          "NTW_EXPANSION_MAGIC_WORKBENCH_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_MAGIC_WORKBENCH_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_STAR:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_EXPANSION_TRANSFER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_STAR:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_STAR:1"
+        ],
+        "outputs": "NTW_EXPANSION_OFFSETTER:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "GPS_TRANSMITTER_2:1",
+          "GPS_TRANSMITTER_2:1",
+          "GPS_TRANSMITTER_2:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_ORE_CRUSHER_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_ORE_CRUSHER_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_ORE_CRUSHER:1",
+          "NTW_EXPANSION_ORE_CRUSHER_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_ORE_CRUSHER_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "GPS_TRANSMITTER_3:1",
+          "GPS_TRANSMITTER_3:1",
+          "GPS_TRANSMITTER_3:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_PRESSURE_CHAMBER_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_PRESSURE_CHAMBER_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_PRESSURE_CHAMBER:1",
+          "NTW_EXPANSION_PRESSURE_CHAMBER_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_PRESSURE_CHAMBER_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_CABLE:1",
+          "ADVANCED_CIRCUIT_BOARD:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_CABLE:1",
+          "ADVANCED_CIRCUIT_BOARD:1",
+          "NTW_OPTIC_CABLE:1"
+        ],
+        "outputs": "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_QUANTUM_WORKBENCH:1",
+          "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_QUANTUM_WORKBENCH_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_GRABBER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_SIMPLE_NANOBOTS:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_SMART_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_PUSHER:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_EXPANSION_SMART_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "nether_brick_fence:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "nether_bricks:1",
+          "dispenser:1",
+          "nether_bricks:1",
+          "NTW_CRAFTING_BLUEPRINT:1",
+          "IGNITION_CHAMBER:1",
+          "NTW_CRAFTING_BLUEPRINT:1"
+        ],
+        "outputs": "NTW_EXPANSION_SMELTERY_BLUEPRINT:1"
+      },
+      {
+        "inputs": [
+          "BASIC_CIRCUIT_BOARD:1",
+          "ANDROID_MEMORY_CORE:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "NTW_EXPANSION_SMELTERY_BLUEPRINT:1",
+          "NTW_EXPANSION_AUTO_SMELTERY:1",
+          "NTW_EXPANSION_SMELTERY_BLUEPRINT:1",
+          "BASIC_CIRCUIT_BOARD:1",
+          "CARGO_MOTOR:1",
+          "BASIC_CIRCUIT_BOARD:1"
+        ],
+        "outputs": "NTW_EXPANSION_SMELTERY_RECIPE_ENCODER:1"
+      },
+      {
+        "inputs": [
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_QUANTUM_WORKBENCH:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EMPOWERED_AI_CORE:1",
+          "NTW_ADVANCED_NANOBOTS:1",
+          "NTW_EMPOWERED_AI_CORE:1"
+        ],
+        "outputs": "NTW_EXPANSION_STORAGE_UPGRADE_TABLE:1"
+      },
+      {
+        "inputs": [
+          "",
+          "",
+          "",
+          "",
+          "NTW_EXPANSION_LINE_TRANSFER:1"
+        ],
+        "outputs": "NTW_EXPANSION_TRANSFER:1"
+      },
+      {
+        "inputs": [
+          "",
+          "",
+          "",
+          "",
+          "NTW_EXPANSION_LINE_TRANSFER_GRABBER:1"
+        ],
+        "outputs": "NTW_EXPANSION_TRANSFER_GRABBER:1"
+      },
+      {
+        "inputs": [
+          "",
+          "",
+          "",
+          "",
+          "NTW_EXPANSION_LINE_TRANSFER_PUSHER:1"
+        ],
+        "outputs": "NTW_EXPANSION_TRANSFER_PUSHER:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_MONITOR:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "CARGO_NODE_INPUT:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_INPUT_ONLY_MONITOR:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CARGO_NODE_OUTPUT_ADVANCED:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_MONITOR:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_OUTPUT_ONLY_MONITOR:1"
+      }
+    ],
+    "item": {
+      "item": "minecraft:bamboo_block",
+      "nbt": "{display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"在拓展工作台中制作\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E4ED32\",\"text\":\"机器\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#3295A8\",\"text\":\"网络拓展工作台\"}],\"text\":\"\"}\u0027}}"
+    },
+    "type": "grid3"
+  },
+  "plant_breeding": {
+    "recipes": [
+      {
+        "outputs": "NTW_FRAGMENTED_SEED:1"
+      },
+      {
+        "outputs": "NTW_STONE_CHUNK_SEED:1"
+      },
+      {
+        "outputs": "NTW_SYNTHETIC_DIAMOND_SEED:1"
+      },
+      {
+        "outputs": "NTW_SYNTHETIC_EMERALD_SEED:1"
+      },
+      {
+        "outputs": "NTW_SYNTHETIC_SEED:1"
+      }
+    ],
+    "item": {
+      "item": "minecraft:flower_pot",
+      "nbt": "{display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"这个种子可以通过培育获得.\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"你需要将两株植物放在一起,\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"中间间隔一格空气,\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"来进行培育.\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"你可以通过培育笔记\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"来查看所有已发现的培育.\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"提示: 黑色粒子代表\"}],\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"两株植物不能进行培育.\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E4ED32\",\"text\":\"配方类型\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFE89C\",\"text\":\"培育植物\"}],\"text\":\"\"}\u0027}}"
+    },
+    "type": "grid3"
+  },
+  "quantum-workbench": {
+    "recipes": [
+      {
+        "inputs": [
+          "oak_planks:1",
+          "oak_planks:1",
+          "oak_planks:1",
+          "oak_planks:1",
+          "chest:1",
+          "oak_planks:1",
+          "oak_planks:1",
+          "oak_planks:1",
+          "oak_planks:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_0:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_QUANTUM_STORAGE_10:1",
+          "NTW_OPTIC_CABLE:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_GLASS:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_1:1"
+      },
+      {
+        "inputs": [
+          "glass:1",
+          "CARGO_MOTOR:1",
+          "glass:1",
+          "chest:1",
+          "NTW_QUANTUM_STORAGE_9:1",
+          "chest:1",
+          "glass:1",
+          "chest:1",
+          "glass:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_10:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "ALUMINUM_BRASS_INGOT:1",
+          "NTW_OPTIC_GLASS:1",
+          "SYNTHETIC_SAPPHIRE:1",
+          "NTW_QUANTUM_STORAGE_1:1",
+          "SYNTHETIC_SAPPHIRE:1",
+          "NTW_OPTIC_GLASS:1",
+          "ALUMINUM_BRASS_INGOT:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_2:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "CORINTHIAN_BRONZE_INGOT:1",
+          "NTW_OPTIC_GLASS:1",
+          "SYNTHETIC_DIAMOND:1",
+          "NTW_QUANTUM_STORAGE_2:1",
+          "SYNTHETIC_DIAMOND:1",
+          "NTW_OPTIC_GLASS:1",
+          "CORINTHIAN_BRONZE_INGOT:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_3:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "HARDENED_METAL_INGOT:1",
+          "NTW_OPTIC_GLASS:1",
+          "SYNTHETIC_EMERALD:1",
+          "NTW_QUANTUM_STORAGE_3:1",
+          "SYNTHETIC_EMERALD:1",
+          "NTW_OPTIC_GLASS:1",
+          "HARDENED_METAL_INGOT:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_4:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "REINFORCED_ALLOY_INGOT:1",
+          "NTW_OPTIC_GLASS:1",
+          "POWER_CRYSTAL:1",
+          "NTW_QUANTUM_STORAGE_4:1",
+          "POWER_CRYSTAL:1",
+          "NTW_OPTIC_GLASS:1",
+          "REINFORCED_ALLOY_INGOT:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_5:1"
+      },
+      {
+        "inputs": [
+          "STEEL_PLATE:1",
+          "BLISTERING_INGOT:1",
+          "STEEL_PLATE:1",
+          "CARGO_MOTOR:1",
+          "NTW_QUANTUM_STORAGE_5:1",
+          "CARGO_MOTOR:1",
+          "STEEL_PLATE:1",
+          "BLISTERING_INGOT:1",
+          "STEEL_PLATE:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_6:1"
+      },
+      {
+        "inputs": [
+          "REINFORCED_PLATE:1",
+          "BLISTERING_INGOT_2:1",
+          "REINFORCED_PLATE:1",
+          "CARGO_NODE:1",
+          "NTW_QUANTUM_STORAGE_6:1",
+          "CARGO_NODE:1",
+          "REINFORCED_PLATE:1",
+          "BLISTERING_INGOT_2:1",
+          "REINFORCED_PLATE:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_7:1"
+      },
+      {
+        "inputs": [
+          "NTW_OPTIC_GLASS:1",
+          "BLISTERING_INGOT_3:1",
+          "NTW_OPTIC_GLASS:1",
+          "CARGO_MANAGER:1",
+          "NTW_QUANTUM_STORAGE_7:1",
+          "CARGO_MANAGER:1",
+          "NTW_OPTIC_GLASS:1",
+          "BLISTERING_INGOT_3:1",
+          "NTW_OPTIC_GLASS:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_8:1"
+      },
+      {
+        "inputs": [
+          "glass:1",
+          "glass:1",
+          "glass:1",
+          "glass:1",
+          "NTW_QUANTUM_STORAGE_0:1",
+          "glass:1",
+          "glass:1",
+          "glass:1",
+          "glass:1"
+        ],
+        "outputs": "NTW_QUANTUM_STORAGE_9:1"
+      }
+    ],
+    "item": {
+      "item": "minecraft:brain_coral_block",
+      "nbt": "{display:{Lore:[\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"在量子工作台中制作\"}],\"text\":\"\"}\u0027,\u0027{\"text\":\"\"}\u0027,\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#E4ED32\",\"text\":\"机器\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#3295A8\",\"text\":\"网络量子工作台\"}],\"text\":\"\"}\u0027}}"
+    },
+    "type": "grid3"
+  }
+}

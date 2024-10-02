@@ -71125,3 +71125,129 @@ ONE_HIT_AXE:
   hide-in-guide: false
   allow-enchanting: true
   allow-disenchanting: true
+EXPANSION_BASKETBALL:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_HELICOPTER:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_BAD_OMEN_POTION:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_RELX_V:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_MOB_ITEM_BAN:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_MOB_ITEM_LOOT:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_HUMANSADDLE:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_CONCENTRATED_MAGIC_LUMP:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_CONCENTRATED_ICE:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_VILLAGER_SOUL:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_HELICOPTER_ENGINE:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_HELICOPTER_GLASS:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_HELICOPTER_PROPELLER:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_KOBE:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_MAMBA_SPIRIT:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_ZOBAYAN:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_IKUN_PRIME:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_FROST_TOUCH:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_ONE_HIT_AXE:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_GRENADE:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+EXPANSION_QIE_ER_XI:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true

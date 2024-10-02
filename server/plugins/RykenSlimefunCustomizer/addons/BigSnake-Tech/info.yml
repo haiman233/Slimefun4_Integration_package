@@ -1,0 +1,13 @@
+id: BigSnake-Tech
+name: BigSnake-Tech
+depends: []
+pluginDepends:
+- LiteXpansion
+- GuizhanLibPlugin
+- FoxyMachines
+- InfinityExpansion
+version: Beta-1.6
+description: null
+authors:
+- BigSnake
+repo: ''

@@ -1,0 +1,67 @@
+MO_LA:
+  lateInit: false
+  item_group: bigsnake_items_category
+  item:
+    name: '{#ffaa00}摩{#ffaa00}拉'
+    lore: []
+    material_type: mc
+    material: COOKIE
+    amount: 1
+  entity: PIGLIN
+  chance: 100
+BS_BEE_PRIME:
+  lateInit: false
+  item_group: bigsnake_items_category
+  item:
+    name: '{#ffff55}蜜{#ffe339}蜂{#ffc61c}精{#ffaa00}华'
+    lore: []
+    material_type: mc
+    material: GOLD_NUGGET
+    amount: 1
+  entity: BEE
+  chance: 100
+BS_WANDERING_PRIME:
+  lateInit: false
+  item_group: bigsnake_items_category
+  item:
+    name: '{#b2ffff}流{#afffff}浪{#abffff}栓{#a8ffff}绳'
+    lore:
+    - '{#e1e1e1}拿{#dfdfdf}来{#dcdcdc}吧{#dadada}你'
+    material_type: mc
+    material: LEAD
+    amount: 1
+  entity: WANDERING_TRADER
+  chance: 20
+BS_GREED:
+  lateInit: false
+  item_group: bigsnake_snake_category
+  item:
+    name: '{#ff5e5e}贪'
+    lore: []
+    material_type: mc
+    material: REDSTONE
+    amount: 1
+  entity: ZOMBIFIED_PIGLIN
+  chance: 40
+BS_REBUKE:
+  lateInit: false
+  item_group: bigsnake_snake_category
+  item:
+    name: '{#ff8bff}嗔'
+    lore: []
+    material_type: mc
+    material: POPPED_CHORUS_FRUIT
+    amount: 1
+  entity: VINDICATOR
+  chance: 20
+BS_FOOL:
+  lateInit: false
+  item_group: bigsnake_snake_category
+  item:
+    name: '{#a8faa8}痴'
+    lore: []
+    material_type: mc
+    material: EMERALD
+    amount: 1
+  entity: TURTLE
+  chance: 40

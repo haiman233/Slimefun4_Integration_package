@@ -1,0 +1,50 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PURPLE_DYE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBCFF","text":"破"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA3FF","text":"损"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8AFF","text":"嗔"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF70FF","text":"之"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF57FF","text":"戒"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EEFFFF","text":"受"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EBF9F9","text":"辱"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E8F3F3","text":"愤"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4EDED","text":"慨"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E1E7E7","text":"，"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DEE1E1","text":"不"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DBDBDB","text":"喜"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D7D5D5","text":"则"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D4CFCF","text":"嗔"}],"text":""}'
+    - '{"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"破"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAEAE","text":"损"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ABB3B3","text":"的"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ABB7B7","text":"戒"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ACBCBC","text":"指"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ACC0C0","text":"，"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADC5C5","text":"可"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADC9C9","text":"修"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADCECE","text":"复"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AED2D2","text":"，"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AED7D7","text":"穿"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AFDBDB","text":"戴"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AFE0E0","text":"可"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AFE4E4","text":"提"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B0E9E9","text":"供"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B0EDED","text":"对"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B1F2F2","text":"应"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B1F6F6","text":"的"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B2FBFB","text":"加"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B2FFFF","text":"成"}],"text":""}'
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 6.0
+        name: generic.attack_damage
+        slot: OFF_HAND
+        uuid: c903d18e-932d-454f-8d02-32488c28d042
+        operation: 0
+      GENERIC_LUCK:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.8
+        name: generic.luck
+        slot: OFF_HAND
+        uuid: 4d2a43f2-1a1b-4aa5-b110-9123bce6ce39
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -5.0
+        name: generic.max_health
+        slot: OFF_HAND
+        uuid: 520ad487-8155-4ca3-9da1-e6f71a7d23dd
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -5.0
+        name: generic.armor
+        slot: OFF_HAND
+        uuid: f5b1b45a-8d51-48ff-bbcb-cb3527d4a58d
+        operation: 0
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: generic.attack_speed
+        slot: OFF_HAND
+        uuid: 0a3d2dff-72e6-45a2-828f-69ccd009357d
+        operation: 0

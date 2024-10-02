@@ -8,7 +8,7 @@ pluginDepends:
 - TranscEndence
 - GuizhanLibPlugin
 - Gastronomicon
-version: Release-1.4
+version: Release-1.5.1
 description: 海曼科技院旨在完善粘液科技线，拓展新的原版玩法
 authors:
 - haiman233

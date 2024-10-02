@@ -88,7 +88,7 @@ data-loss-fix:
   enable: false
 data-loss-fix-custom:
   enable: false
-valid-item-seed: 6704625419319480687
+valid-item-seed: 1450205314004899885
 setups:
   item-value-table:
     delay: 10

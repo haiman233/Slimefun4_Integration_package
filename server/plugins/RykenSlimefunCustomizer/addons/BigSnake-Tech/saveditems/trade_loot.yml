@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIME_SHULKER_BOX
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    internal: H4sIAAAAAAAA/13NsQrCMBRG4T/VgmZwUcFncaw4OOse0ja2oTeJJDeob6+gUun+HY4EJFYVhWY4erb8vOhugcK22DrrTRP1lfepzzSYqOrwWKI8sXFJApgJzM8UGALlIWTP4lOux7LL/hburYn4WjGxm78LWWdUrYl+uJjg3Yi9zmwpJ5V68w6AFy1KpZnJAAAA
+    blockMaterial: LIME_SHULKER_BOX

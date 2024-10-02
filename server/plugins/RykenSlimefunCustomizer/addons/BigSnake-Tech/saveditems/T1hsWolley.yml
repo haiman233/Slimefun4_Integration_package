@@ -1,0 +1,15 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 004db3dd-cf03-3ea3-b24a-fffb880acca4
+      name: "&bPlay related - 游玩相关"
+      properties:
+      - name: textures
+        value: ewogICJ0aW1lc3RhbXAiIDogMTcwNTczNTkzNDYwNSwKICAicHJvZmlsZUlkIiA6ICJmYmYzYTVjMmJmM2Y0YjU2OWMyNTI2YzRlYzlhZDZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUMWhzV29sbGV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjYjcwNjc0OWE5ZDJiNjdlNzQzYjk2ZjUyYmIwNGZkNGNiMTQ4NjNjODU0Zjg0MDk2NDMyYzJhZjM3NGQwYmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        signature: BSZ+aYXpWsTGgixwyqRcZbOTOBYbcuOwnRZavue643yLkXmlSQVvtUUWGrz+ACgDtId/y0UvwfV7jnap9FMNQqCPp7bEzZxmAe30Z+MONd82NApAq5aWGdwW++T4JWLMtVlVzdnJD6Jh+qc+53lvD09WAPsEe1Zsuhrf6EImZFLAzQ8jWHXbGQUOwer0a+AEY6Rq7QjUHiz87e6hFIcOrXDJ3Kj6XbpYfororicLsU3OJrpSV5ohvGKEKPSoi6iI7EbEl10GExAg0lkGHXziYLjLMGcG40UXNdgs1ocNe3MoQm8y38OhL9EfGp+GPBR8/Ha37ZlSqTnWsh+XxMsR1IOPSFICsvV5sHenNxPMoe1RDuuOOL57Hrw4uiKscAHgoM5EgSu90VESz41BlJRcQRDzTF2wV4ufoyxdLcsOZYRMpbA8+iWDY5W5u2nJspLpcdXg3KHoM64fcgDl0z1yVUeHBIfxh12UsJ/tgXx1454J3rikNtRKcffXNx5c7AhouKe82Y9sEr36ijmzthKIFktzyiLgGbgBepJc3Uz/wyKOoeFNmWZXQQ+1UF2Muv4amVrmPGd0scm/1MWAtRsCshRufuiPRxInbjp/NNdWNMuTJJqYCWsBo1aU2rGGRmG2ACr3Ov4EdVafTfuXyOsFq3u7OPqLKoIYqHGqvpISwA8=

@@ -1,0 +1,268 @@
+bigsnake_category:
+  lateInit: false
+  type: nested
+  item:
+    material_type: skull_hash
+    material: ewogICJ0aW1lc3RhbXAiIDogMTcwNDA4MTAzNTgyNywKICAicHJvZmlsZUlkIiA6ICI4ZWI3ZDRlNWFjODc0ODBkYWMxNTk2ZjcwMjJmZjlkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlZmlzaDBrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3YmFmMzFjZWE2ODEzMWE1NDMzZDJiZGExZTIxYzY3YWI1Y2IzNjZjNGJkMTEyMjAwZjA0MTY2YTQ4YzlkYWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    name: '{#d3d3d3}B{#d3dede}i{#d3e9e9}g{#d3f4f4}S{#d3ffff}n{#c3ffff}a{#b3ffff}k{#a2ffff}e
+      {#92ffff}- {#99ebfb}大{#a1d7f7}蛇{#a8c3f2}科{#afafee}技'
+bigsnake_information_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8a16038bc8e6518afa91498dab7675c01cb31a125d21c49b861294d39e1c560c
+    name: '{#ffffff}B{#e7ffff}i{#ceffff}g{#b6ffff}S{#9dffff}n{#85ffff}a{#9cf6f6}k{#b4ecec}e
+      {#cbe3e3}- {#e3d9d9}信{#fad0d0}息'
+  parent: bigsnake_category
+bigsnake_formulation_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: SKULLewogICJ0aW1lc3RhbXAiIDogMTcwNDA4MTAzNTgyNywKICAicHJvZmlsZUlkIiA6ICI4ZWI3ZDRlNWFjODc0ODBkYWMxNTk2ZjcwMjJmZjlkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlZmlzaDBrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3YmFmMzFjZWE2ODEzMWE1NDMzZDJiZGExZTIxYzY3YWI1Y2IzNjZjNGJkMTEyMjAwZjA0MTY2YTQ4YzlkYWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    name: '{#ffffff}B{#e3ffff}i{#c6ffff}g{#aaffff}S{#8effff}n{#71ffff}a{#55ffff}k{#5be9ff}e
+      {#61d2ff}- {#67bcff}大{#6ca5ff}蛇{#728fff}配{#7878ff}方'
+  parent: bigsnake_category
+bigsnake_machine_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 988c6f6194493d26269f383986c64fd332b9f9b5e0d8ad45fed641f171e2ec07
+    name: '{#ffffff}B{#d7ffff}i{#afffff}g{#87ffff}S{#5fffff}n{#85eded}a{#abdada}k{#d0c8c8}e
+      {#f6b5b5}- {#f89d9d}大{#fb8585}蛇{#fd6d6d}器{#ff5555}械'
+  parent: bigsnake_category
+bigsnake_items_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: a7fffbb233361106f8cdafdd75800e53310e2b4e9ac447a9a54315c714b17055
+    name: '{#ffffff}B{#e3ffff}i{#c6ffff}g{#aaffff}S{#8effff}n{#71ffff}a{#55ffff}k{#6deed5}e
+      {#86deaa}- {#9fcd80}大{#b7bc55}蛇{#cfac2b}材{#e89b00}料'
+  parent: bigsnake_category
+bigsnake_material-generators_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 7f9f356f5fe7d1bc92cddfaeba3ee773ac9df1cc4d1c2f8fe5f47013032c551d
+    name: '{#ffffff}B{#e5ffff}i{#cbffff}g{#b1ffff}S{#96ffff}n{#7cffff}a{#62ffff}k{#62f2ff}e
+      {#7cd9ff}- {#96c0ff}一{#b1a7ff}体{#cb8eff}化{#e575ff}器{#ff5cff}械'
+  parent: bigsnake_category
+bigsnake_geo-resources_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 749159436d22121524186ea355e9b15e7298a6ea72812a0a39eb59e9eae11cb4
+    name: '{#ffffff}B{#d4ffff}i{#aaffff}g{#80ffff}S{#55ffff}n{#6aeaea}a{#80d4d4}k{#95bfbf}e
+      {#aaaaaa}- {#949494}终{#7f7e7e}末{#696868}遗{#535252}物'
+  parent: bigsnake_category
+bigsnake_module-parts_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 76856a8f37b6c3146854f2caa7101b9dd592f4669a3c75f941e2859552bd1ae8
+    name: '{#ffffff}B{#e2ffff}i{#c4ffff}g{#a7ffff}S{#8affff}n{#6cffff}a{#4fffff}k{#6cf8f8}e
+      {#8af1f1}- {#a7ebeb}模{#c4e4e4}块{#e2dddd}零{#ffd6d6}件'
+  parent: bigsnake_category
+bigsnake_imprint_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: c4da2a8842f9daccc89717a4bc13d629779da3c1f7bcde6c4bc5ae78da2f2f56
+    name: '{#ffffff}B{#d4ffff}i{#aaffff}g{#80ffff}S{#55ffff}n{#80f5e1}a{#aaebc3}k{#d4e1a5}e
+      {#ffd787}- {#ffb7a5}七{#ff96c3}色{#ff76e1}元{#ff55ff}素'
+  parent: bigsnake_category
+bigsnake_network_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: b805caf3d02e35e4aadc19af15e82790177f1cd7b79f4f5b88d943ac6be203a1
+    name: '{#ffffff}B{#d4ffff}i{#aaffff}g{#80ffff}S{#55ffff}n{#7ffff0}a{#a9fee0}k{#d3fed1}e
+      {#fdfdc1}- {#fefe91}量{#fefe61}子{#ffff30}纠{#ffff00}缠'
+  parent: bigsnake_category
+bigsnake_infinity_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 77400ea19dbd84f75c39ad6823ac4ef786f39f48fc6f84602366ac29b837422
+    name: '{#ffffff}B{#d4ffff}i{#aaffff}g{#80ffff}S{#55ffff}n{#80e5e5}a{#aacbcb}k{#d4b0b0}e
+      {#ff9696}- {#ff7c7c}无{#ff6262}尽{#ff4848}之{#ff2e2e}力'
+  parent: bigsnake_category
+bigsnake_dust_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: f7c3f92bf9be73add3f9e3dd3dacc573835f482bfe11d31c1fcf991d096deec7
+    name: '{#ffffff}B{#d8ffff}i{#b1ffff}g{#89ffff}S{#62ffff}n{#56e6e6}a{#57c0c0}k{#589999}e
+      {#597373}- {#606060}粉{#737373}锭{#858585}一{#989898}体{#aaaaaa}化'
+  parent: bigsnake_category
+bigsnake_magic_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8358856a18432f539040e40aa4526cb9370eb9cdf116f7b72454914367ec3cb1
+    name: '{#ffffff}B{#c6ffff}i{#8effff}g{#55ffff}S{#55ffff}n{#55ffff}a{#55ffff}k{#8ecdff}e
+      {#c69cff}- {#ff6aff}魔{#d29cff}法{#a4cdff}元{#77ffff}素'
+  parent: bigsnake_category
+bigsnake_bedwars_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8962a0cbf7b1b9448259b13a0d2c7ca596b2e657eed0f750f1cebe481cc7b911
+    name: '{#ffffff}B{#ddffff}i{#bbffff}g{#99ffff}S{#77ffff}n{#55ffff}a{#77dddd}k{#99bbbb}e
+      {#bb9999}- {#dd7777}B{#ff5555}e{#f46352}d{#e9724f}W{#df804c}a{#d48f49}r{#c99d46}s'
+  parent: bigsnake_category
+bigsnake_end_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 78cf2596fb4cca004ee79561a062819c247cb4ba711d9540970e4398d9dbac43
+    name: '{#ffffff}B{#e3ffff}i{#c6ffff}g{#aaffff}S{#8effff}n{#71ffff}a{#55ffff}k{#63d5f1}e
+      {#71aae3}- {#8080d4}末{#8e55c6}地{#9c2bb8}终{#aa00aa}焉'
+  parent: bigsnake_category
+bigsnake_ruin_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 3a40cf94069b59aaf7c813e4a2e8b711a85de7dc932da033be2e44e3dc698613
+    name: '{#ffffff}B{#ddffff}i{#bbffff}g{#99ffff}S{#77ffff}n{#55ffff}a{#4dd5d5}k{#45aaaa}e
+      {#3e8080}- {#365555}毁{#2e2b2b}灭'
+  parent: bigsnake_category
+bigsnake_respawn_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: fbd966d85d4a4b8e21e676901e3d9fd19eec8087c31baf519b4f39b3ce57d192
+    name: '{#ffffff}B{#ddffff}i{#bbffff}g{#99ffff}S{#77ffff}n{#55ffff}a{#77dddd}k{#99bbbb}e
+      {#bb9999}- {#dd7777}重{#ff5555}生'
+  parent: bigsnake_category
+bigsnake_dusts_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 30c2de5c7c4102fc7f4d63cb7fff568a888fef1c99dca453cef89f08ad70c9d4
+    name: '{#ffffff}B{#e5ffff}i{#cbffff}g{#b1ffff}S{#96ffff}n{#7cffff}a{#62ffff}k{#58f4ff}e
+      {#5ddfff}- {#62caff}陨{#67b5ff}落{#6ca0ff}的{#718bff}尘{#7676ff}埃'
+  parent: bigsnake_category
+bigsnake_mutation_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 6d8669609eef6c512615851644a9dd8bb727c90c2c3f7c0ed8b46c88668e8ca2
+    name: '{#ffffff}B{#e5ffff}i{#cbffff}g{#b1ffff}S{#96ffff}n{#7cffff}a{#62ffff}k{#4ff8ec}e
+      {#43ebc6}- {#65d4d4}至{#54cdcd}尊{#43c6c6}一{#33bfbf}体{#22b8b8}化{#11b1b1}工{#00aaaa}程'
+  parent: bigsnake_category
+bigsnake_dimension_miner_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 5a140a8dfb0f1f5ab979241e58c253a94d65e725f180ab52396e1d8e4c81ce37
+    name: '{#ffffff}B{#e3ffff}i{#c6ffff}g{#aaffff}S{#8effff}n{#71ffff}a{#55ffff}k{#47d5f1}e
+      {#39aae3}- {#2b80d4}维{#1c55c6}度{#0e2bb8}矿{#0000aa}工'
+  parent: bigsnake_category
+bigsnake_bee_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 259001a851bb1b9e9c05de5d5c68b1ea0dc8bd86babf188e0aded8f912c07d0d
+    name: '{#ffffff}B{#e3ffff}i{#c6ffff}g{#aaffff}S{#8effff}n{#71ffff}a{#55ffff}k{#71f1d5}e
+      {#8ee3aa}- {#aad480}蜂{#c6c655}箱{#e3b82b}拓{#ffaa00}展'
+  parent: bigsnake_category
+bigsnake_industry_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 9bb4377679601498b2537d80d8ef490522789fbe1a217ee412e32677b6d79854
+    name: '{#ffffff}B{#e5ffff}i{#cbffff}g{#b1ffff}S{#96ffff}n{#7cffff}a{#62ffff}k{#55f2f2}e
+      {#55d8d8}- {#55bebe}工{#55a3a3}业{#558989}一{#556f6f}体{#555555}化'
+  parent: bigsnake_category
+bigsnake_phigros_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: f22e40b4bfbcc0433044d86d67685f0567025904271d0a74996afbe3f9be2c0f
+    name: '{#ffffff}B{#e4ffff}i{#c9ffff}g{#aeffff}S{#94ffff}n{#79ffff}a{#5effff}k{#5af2ff}e
+      {#61deff}- {#68cbff}P{#70b7ff}h{#77a4ff}i{#7e90ff}g{#8986ff}r{#9c8efe}o{#ae95fd}s{#c19dfc},{#d4a5fb}启{#e6adfa}动{#f9b5f9}!'
+  parent: bigsnake_category
+bigsnake_horticulture_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 220ee7741ff1b958dbb9fa7cddad9c3cce93373f470f9b834da02da67c8202a4
+    name: '{#ffffff}B{#d8ffff}i{#b1ffff}g{#89ffff}S{#62ffff}n{#58ffe8}a{#5cffc5}k{#60ffa1}e
+      {#64ff7e}- {#73fe72}应{#96fd94}用{#b9fbb5}园{#dcfad7}艺{#fff8f8}学'
+  parent: bigsnake_category
+bigsnake_fisheries_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: a0ad86518cd49ccfe287fe1d73999450521ad01819e5a8d9989523152cb1f66e
+    name: '{#ffffff}B{#d8ffff}i{#b1ffff}g{#89ffff}S{#62ffff}n{#5aeaff}a{#61caff}k{#69aaff}e
+      {#708aff}- {#7070ff}应{#5f5fff}用{#4f4fff}渔{#3e3eff}业{#2e2eff}学'
+  parent: bigsnake_category
+bigsnake_compression_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: e48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
+    name: '{#ffffff}B{#e3ffff}i{#c6ffff}g{#aaffff}S{#8effff}n{#71ffff}a{#55ffff}k{#5eddec}e
+      {#67bad8}- {#7098c5}压{#7975b2}缩{#82539e}工{#8b308b}艺'
+  parent: bigsnake_category
+bigsnake_advanced_slimefun_machine_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: a7e15de0d4b5e20e6c6d02c06465e8d87e2b0abb7f4ed58fc6a4bb49e0086f5c
+    name: '{#ffffff}B{#e4ffff}i{#c9ffff}g{#aeffff}S{#94ffff}n{#79ffff}a{#5effff}k{#5ef6f6}e
+      {#6be9e9}- {#79dbdb}能{#86cece}源{#94c0c0}与{#a1b3b3}电{#aeaeab}力{#bbbbad}[{#c7c7af}P{#d4d4b1}l{#e0e0b4}u{#ededb6}s{#f9f9b8}]'
+  parent: bigsnake_category
+bigsnake_magicbag_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 330a591e7c2b258a8ae81db51099139872be4c89664c4ae24fd78d67f475cc5d
+    name: '{#ffffff}B{#d1ffff}i{#a2ffff}g{#74ffff}S{#5df7f7}n{#74e0e0}a{#8bc9c9}k{#a2b2b2}e
+      {#b99bb9}- {#d183d1}魔{#e86ce8}法{#ff55ff}袋'
+  parent: bigsnake_category
+bigsnake_template_category:
+  lateInit: false
+  type: sub
+  item:
+    material: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+    name: '{#ffffff}B{#e5ffff}i{#cbffff}g{#b1ffff}S{#96ffff}n{#7cffff}a{#62ffff}k{#4ff8ec}e
+      {#43ebc6}- {#e9e9e9}生{#dcdcdc}物{#d0d0d0}芯{#c3c3c3}片{#b7b7b7}模{#aaaaaa}板'
+  parent: bigsnake_category
+bigsnake_snake_category:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: ewogICJ0aW1lc3RhbXAiIDogMTcwODI2MjUzODIwOCwKICAicHJvZmlsZUlkIiA6ICI0ODc0YjFlOWMzNDQ0ZWVlODNhZDNkOGI5MTY1MjAxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLb29id29sbGV5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3OTQ1ZDdjNTBlZDQ2NDEwYzljZDVlNGRkZWFhNzlhNmI0NmViYmRhNzdhZjczYzliOGNhMzk0NGZiYjcyNWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    name: '{#ffffff}B{#e5ffff}i{#cbffff}g{#b1ffff}S{#96ffff}n{#7cffff}a{#62ffff}k{#4ff8ec}e
+      {#43ebc6}- {#ffdd98}诸{#ffd37a}蛇{#ffc85c}黄{#ffbe3e}昏'
+  parent: bigsnake_category

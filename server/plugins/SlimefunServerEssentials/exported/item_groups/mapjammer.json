@@ -1,0 +1,13 @@
+{
+  "map_jammer": {
+    "item": {
+      "item": "minecraft:compass",
+      "nbt": "{HideFlags:35,display:{Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"地图干扰\"}],\"text\":\"\"}\u0027}}"
+    },
+    "items": [
+      "MAP_JAMMER",
+      "MAP_JAMMER_2",
+      "MAP_JAMMER_3"
+    ]
+  }
+}

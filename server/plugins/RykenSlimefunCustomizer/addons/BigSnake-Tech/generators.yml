@@ -1,0 +1,263 @@
+BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1:
+  lateInit: true
+  item_group: bigsnake_compression_category
+  item:
+    name: '{#ebffff}一{#e2ffff}阶{#daffff}压{#d1ffff}缩{#c8ffff}风{#bfffff}力{#b7ffff}发{#aeffff}电{#a5ffff}机'
+    lore:
+    - '{#ffeded}即{#ffeaea}放{#ffe6e6}即{#ffe3e3}用'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 45000 J 可存储'
+    - '&8⇨ &e⚡&7 45000 J/s'
+    material: LIGHT_BLUE_CONCRETE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SUPREME_BASIC_VENTUS_GENERATOR
+      amount: 1
+  capacity: 45000
+  production: 22500
+  fuels:
+    '1':
+      seconds: 120960000
+      item:
+        material_type: mc
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2:
+  lateInit: true
+  item_group: bigsnake_compression_category
+  item:
+    name: '{#ebffff}二{#e2ffff}阶{#daffff}压{#d1ffff}缩{#c8ffff}风{#bfffff}力{#b7ffff}发{#aeffff}电{#a5ffff}机'
+    lore:
+    - '{#ffeded}即{#ffeaea}放{#ffe6e6}即{#ffe3e3}用'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 405000 J 可存储'
+    - '&8⇨ &e⚡&7 405000 J/s'
+    material: LIGHT_BLUE_CONCRETE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_1
+      amount: 1
+  capacity: 405000
+  production: 202500
+  fuels:
+    '1':
+      seconds: 120960000
+      item:
+        material_type: mc
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_3:
+  lateInit: true
+  item_group: bigsnake_compression_category
+  item:
+    name: '{#ebffff}三{#e2ffff}阶{#daffff}压{#d1ffff}缩{#c8ffff}风{#bfffff}力{#b7ffff}发{#aeffff}电{#a5ffff}机'
+    lore:
+    - '{#ffeded}即{#ffeaea}放{#ffe6e6}即{#ffe3e3}用'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 3645000 J 可存储'
+    - '&8⇨ &e⚡&7 3645000 J/s'
+    material: LIGHT_BLUE_CONCRETE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BS_COMPRESSION_SUPREME_BASIC_VENTUS_GENERATOR_2
+      amount: 1
+  capacity: 3645000
+  production: 1822500
+  fuels:
+    '1':
+      seconds: 120960000
+      item:
+        material_type: mc
+        material: COBBLESTONE
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+BS_ADVANCED_NUCLEAR_REACTOR:
+  lateInit: true
+  item_group: bigsnake_advanced_slimefun_machine_category
+  item:
+    name: '&c高级&2核反应堆'
+    lore:
+    - '&5无需反应堆冷却剂!'
+    - '&7⇨ &b无需浸水环境'
+    - '&7⇨ &b发电量更高，反应速度更快'
+    - '&a发电机'
+    - '&8⇨ &e⚡&7 33768 J 可存储'
+    - '&8⇨ &e⚡&7 1250 J/s'
+    material_type: skull_hash
+    material: a7e15de0d4b5e20e6c6d02c06465e8d87e2b0abb7f4ed58fc6a4bb49e0086f5c
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: BAN2_ITEM
+      amount: 1
+    2:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BAN2_ITEM
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MADA_ITEM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MADA_ITEM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BS_CRYSTAL_MATRIX_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BS_CRYSTAL_MATRIX_INGOT
+      amount: 1
+  capacity: 33768
+  production: 625
+  fuels:
+    '1':
+      seconds: 150
+      item:
+        material_type: slimefun
+        material: URANIUM
+        amount: 1
+      output:
+        material_type: slimefun
+        material: NEPTUNIUM
+        amount: 1
+    '2':
+      seconds: 120
+      item:
+        material_type: slimefun
+        material: NEPTUNIUM
+        amount: 1
+      output:
+        material_type: slimefun
+        material: PLUTONIUM
+        amount: 1
+    '3':
+      seconds: 150
+      item:
+        material_type: slimefun
+        material: BOOSTED_URANIUM
+        amount: 1
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]

@@ -142,19 +142,19 @@ MAN_MADE_SUN:
   recipe:
     1:
       material_type: slimefun
-      material: ENERGIZED_CAPACITOR
+      material: HM_CHAOPING_CIRCUIT_BOARD
       amount: 1
     2:
       material_type: slimefun
-      material: MOLECULAR_RECOMBINATION_INSTRUMENT_III
+      material: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
       amount: 1
     3:
       material_type: slimefun
-      material: ENERGIZED_CAPACITOR
+      material: HM_CHAOPING_CIRCUIT_BOARD
       amount: 1
     4:
       material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
+      material: HM_SHENQUAN_HEXIN
       amount: 1
     5:
       material_type: slimefun
@@ -162,7 +162,7 @@ MAN_MADE_SUN:
       amount: 1
     6:
       material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
+      material: HM_SHENQUAN_HEXIN
       amount: 1
     7:
       material_type: slimefun
@@ -227,7 +227,7 @@ MAN_MADE_GALAXY:
       amount: 1
     7:
       material_type: slimefun
-      material: FUHEBAN
+      material: HAIMAN_INGOT
       amount: 1
     8:
       material_type: slimefun
@@ -235,7 +235,7 @@ MAN_MADE_GALAXY:
       amount: 1
     9:
       material_type: slimefun
-      material: FUHEBAN
+      material: TIANXUAN_MADA
       amount: 1
   capacity: 120000000
   production: 18750000
@@ -263,16 +263,16 @@ MAN_MADE_BLACK_HOLE:
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
-      material_type: mc
-      material: NETHER_STAR
+      material_type: slimefun
+      material: JIJIN_ZHIXING
       amount: 1
     2:
       material_type: slimefun
       material: HAIMAN_BLACK_HOLE_PIECE
       amount: 1
     3:
-      material_type: mc
-      material: NETHER_STAR
+      material_type: slimefun
+      material: HUIXIANG_ZHIXING
       amount: 1
     4:
       material_type: slimefun
@@ -287,16 +287,16 @@ MAN_MADE_BLACK_HOLE:
       material: HAIMAN_BLACK_HOLE_PIECE
       amount: 1
     7:
-      material_type: mc
-      material: NETHER_STAR
+      material_type: slimefun
+      material: ANDAN_ZHIXING
       amount: 1
     8:
       material_type: slimefun
       material: HT_MODULE_1
       amount: 1
     9:
-      material_type: mc
-      material: NETHER_STAR
+      material_type: slimefun
+      material: SIHOU_ZHIXING
       amount: 1
   capacity: 2000000000
   production: 225000000
@@ -306,6 +306,16 @@ MAN_MADE_BLACK_HOLE:
       item:
         material_type: slimefun
         material: HDB_FUEL
+        amount: 1
+    '2':
+      seconds: 1
+      item:
+        material_type: slimefun
+        material: HT_MODULE_1
+        amount: 1
+      output:
+        material_type: slimefun
+        material: JUBIAN_MOKUAI
         amount: 1
   input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -325,19 +335,19 @@ MAN_MADE_UNIVERSE:
   recipe:
     1:
       material_type: slimefun
-      material: HT_MODULE_1
+      material: JUBIAN_MOKUAI
       amount: 1
     2:
       material_type: slimefun
-      material: HAIMAN_BLACK_HOLE_PIECE
+      material: SHENGMING_ZHIXING
       amount: 1
     3:
       material_type: slimefun
-      material: HT_MODULE_1
+      material: JUBIAN_MOKUAI
       amount: 1
     4:
       material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
+      material: HM_HONGMENG_XINPIAN
       amount: 1
     5:
       material_type: slimefun
@@ -345,11 +355,11 @@ MAN_MADE_UNIVERSE:
       amount: 1
     6:
       material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
+      material: HM_HONGMENG_XINPIAN
       amount: 1
     7:
       material_type: slimefun
-      material: FUHEBAN
+      material: HM_DDXP
       amount: 1
     8:
       material_type: slimefun
@@ -357,7 +367,7 @@ MAN_MADE_UNIVERSE:
       amount: 1
     9:
       material_type: slimefun
-      material: FUHEBAN
+      material: HM_DDXP
       amount: 1
   capacity: 2147483647
   production: 2147483647
