@@ -1,7 +1,7 @@
 
 # Whether to enable auto update module (see updater.yml for details)
 # 是否开启自动更新模块（详见 updater.yml）
-auto-update: true
+auto-update: false
 
 # Universal Updater Settings
 # 统一更新设置
@@ -18,7 +18,7 @@ updater:
   location: global
 
   # en_US, zh_CN
-  lang: en_US
+  lang: zh_CN
 
 # Whether to print debug messages in console.
 # 是否在控制台输出调试信息。
