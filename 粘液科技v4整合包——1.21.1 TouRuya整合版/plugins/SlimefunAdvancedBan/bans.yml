@@ -1,0 +1,95 @@
+bans:
+  # Execute when player breaks block
+  block-break:
+    group1:
+      enabled: true # true / false
+      priority: lowest # lowest / low / normal / high / highest / monitor
+      items:
+        - a_slimefun_id # Slimefun item IDs, ex: STONE_CHUNK / stone_chunk
+      players:
+        - a_player_name # Players that can bypass the ban
+      permissions:
+        - a_permission_node # Players who have ALL these permission nodes can bypass the ban
+  # Execute when player places block
+  block-place:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+  # Execute when player crafts item by crafting table
+  craft-item:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+  # Execute when player crafts item by multiblock
+  multi-block-craft:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+  # Execute when player drops item
+  player-drop-item:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+  # Execute when player interacts with item
+  player-interact:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+
+  # Execute when an entity explodes (creeper, tnt, etc.)
+  entity-explode:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+
+  # Execute when a block explodes (respawn_anchor, bed, etc.)
+  block-explode:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+
+  # Execute when a player break blocks with explosive tool
+  explosive-tool-break-blocks:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+
+  # Execute when the block burns
+  block-burn:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+
+  # Execute when an entity changes block (wither break blocks, ender dragon break blocks, etc.)
+  entity-change-block:
+    group1:
+      enabled: true
+      priority: lowest
+      items:
+        - a_slimefun_id
+
+  # Unstable feature
+  machine-craft:
+    group1:
+      enabled: true
+      # No priority for machine-craft
+      items:
+        - a_slimefun_id

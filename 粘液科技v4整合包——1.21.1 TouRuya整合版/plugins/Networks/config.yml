@@ -1,0 +1,177 @@
+auto-update: true
+language: zh-CN
+config-version: Special-Version-41
+debug: false
+ban-quantum-in-quantum: false
+drawer-auto-save-period: 300
+rpg-fix:
+  force-check-lore: false
+speed-up:
+  persistent-threshold: 15
+  cache-miss-threshold: 15
+  soft-cell-ban: false
+  soft-cell-ban-threshold: 0
+speed-down:
+  transport-miss-threshold: 120
+  reduce-ms: 8000
+record-gc:
+  threshold: 131072
+  deadline: 120000
+items:
+  NTW_EXPANSION_LINE_TRANSFER_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_MORE_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_BEST_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_GRABBER:
+    max-distance: 32
+    grabitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_PLUS_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_PLUS_MORE_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_PLUS_BEST_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_PLUS_GRABBER:
+    max-distance: 64
+    grabitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_MORE_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_BEST_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:
+    max-distance: 32
+    grabitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER:
+    max-distance: 32
+    pushitem-tick: 1
+    grabitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_MORE_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_BEST_PUSHER:
+    max-distance: 64
+    pushitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER:
+    max-distance: 64
+    grabitem-tick: 1
+  NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS:
+    max-distance: 64
+    pushitem-tick: 1
+    grabitem-tick: 1
+    required-power: 5000
+  NTW_EXPANSION_LINE_TRANSFER_VANILLA_PUSHER:
+    max-distance: 32
+    pushitem-tick: 1
+  NTW_EXPANSION_LINE_TRANSFER_VANILLA_GRABBER:
+    max-distance: 32
+    grabitem-tick: 1
+  CARGO_STORAGE_UNIT_1_MODEL:
+    use-special-model:
+      enable: true
+      type: '1'
+  CARGO_STORAGE_UNIT_2_MODEL:
+    use-special-model:
+      enable: true
+      type: '2'
+  CARGO_STORAGE_UNIT_3_MODEL:
+    use-special-model:
+      enable: true
+      type: '3'
+  CARGO_STORAGE_UNIT_4_MODEL:
+    use-special-model:
+      enable: true
+      type: '4'
+  CARGO_STORAGE_UNIT_5_MODEL:
+    use-special-model:
+      enable: true
+      type: '5'
+  CARGO_STORAGE_UNIT_6_MODEL:
+    use-special-model:
+      enable: true
+      type: '6'
+  CARGO_STORAGE_UNIT_7_MODEL:
+    use-special-model:
+      enable: true
+      type: '7'
+  CARGO_STORAGE_UNIT_8_MODEL:
+    use-special-model:
+      enable: true
+      type: '8'
+  CARGO_STORAGE_UNIT_9_MODEL:
+    use-special-model:
+      enable: true
+      type: '9'
+  CARGO_STORAGE_UNIT_10_MODEL:
+    use-special-model:
+      enable: true
+      type: '10'
+  CARGO_STORAGE_UNIT_11_MODEL:
+    use-special-model:
+      enable: true
+      type: '11'
+  CARGO_STORAGE_UNIT_12_MODEL:
+    use-special-model:
+      enable: true
+      type: '12'
+  CARGO_STORAGE_UNIT_13_MODEL:
+    use-special-model:
+      enable: true
+      type: '13'
+  NTW_EXPANSION_LINE_POWER_OUTLET_1:
+    max-distance: 32
+    rate: 64
+  NTW_EXPANSION_LINE_POWER_OUTLET_2:
+    max-distance: 32
+    rate: 256
+  NTW_EXPANSION_LINE_POWER_OUTLET_3:
+    max-distance: 32
+    rate: 1024
+  NTW_EXPANSION_LINE_POWER_OUTLET_4:
+    max-distance: 32
+    rate: 4096
+  NTW_EXPANSION_LINE_POWER_OUTLET_5:
+    max-distance: 32
+    rate: 32768
+  NTW_EXPANSION_LINE_POWER_OUTLET_6:
+    max-distance: 32
+    rate: 262144
+  NTW_EXPANSION_LINE_POWER_OUTLET_7:
+    max-distance: 32
+    rate: 2097152
+  NTW_EXPANSION_LINE_POWER_OUTLET_8:
+    max-distance: 32
+    rate: 16777216
+  NTW_EXPANSION_LINE_POWER_OUTLET_9:
+    max-distance: 32
+    rate: 134217728
+  NTW_EXPANSION_LINE_POWER_OUTLET_10:
+    max-distance: 32
+    rate: 1073741824
+  NTW_EXPANSION_LINE_POWER_OUTLET_11:
+    max-distance: 32
+    rate: 2147483647

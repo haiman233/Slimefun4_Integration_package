@@ -1,0 +1,182 @@
+console:
+  paper-only: This plugin requires paper to run! Please use paper or its forks instead
+    of spigot.
+  load:
+    language: 'Loaded language: {0}'
+    items: Loading items...
+    researches: Loading researches...
+    commands-fail: Cannot initialize commands! Please report this to the developer!
+    database: Loading database...
+    chickens: Registered {0} chickens.
+    integrations: Loading integrations...
+    integration: Detected {0}, initiating integration...
+  database:
+    connect-fail: Cannot connect to database!
+    connected: Connected to database!
+    not-connected: Database is not connected! Aborting current operation.
+    exception: A SQLException occurred while executing SQL entries!
+    cleanup: Removed {0} old chicken records from database. Did they die?
+
+categories:
+  ICON:
+    name: '&eGenetic Chickengineering'
+  DIRECTORY_ICON:
+    name: '&eGCE Chicken Directory'
+
+recipes:
+  from_net:
+    name: '&aChicken Net'
+    lore:
+    - '&fCapture with a &aChicken Net,'
+    - '&for breed in a &ePrivate Coop.'
+  from_chicken:
+    name: '&eExcitation Chamber'
+    lore:
+    - '&fObtained from a &bPocket Chicken,'
+    - '&fin an &eExcitation Chamber.'
+
+items:
+  POCKET_CHICKEN:
+    name: '&bPocket Chicken'
+    lore:
+    - '&7Right click on a block'
+    - '&7to release the chicken.'
+  CHICKEN_NET:
+    name: '&aChicken Net'
+    lore:
+    - '&7Make chicken portable.'
+  WATER_EGG:
+    name: '&9Water Egg'
+    lore:
+    - '&7Contains water.'
+  LAVA_EGG:
+    name: '&cLava Egg'
+    lore:
+    - '&7Contains lava.'
+  GENETIC_SEQUENCER:
+    name: '&eGenetic Sequencer'
+    lore:
+    - '&7Used to determine a chicken''s genotype.'
+  EXCITATION_CHAMBER:
+    name: '&eExcitation Chamber'
+    lore:
+    - '&7Enables chickens to produce resources.'
+  EXCITATION_CHAMBER_2:
+    name: '&eBoosted Excitation Chamber'
+    lore:
+    - '&7Enables chickens to produce resources'
+    - '&7faster.'
+  EXCITATION_CHAMBER_3:
+    name: '&eUltimate Excitation Chamber'
+    lore:
+    - '&7Enables chickens to produce resources'
+    - '&7much faster.'
+  PRIVATE_COOP:
+    name: '&ePrivate Coop'
+    lore:
+    - '&7Can store chickens.'
+  RESTORATION_CHAMBER:
+    name: '&eRestoration Chamber'
+    lore:
+    - '&7Can heal chickens.'
+  GROWTH_CHAMBER:
+    name: '&eGrowth Chamber'
+    lore:
+    - '&7Can raise baby chickens'
+    - '&7with wheat seeds.'
+
+lores:
+  right-click-to-use: '&eRight Click&7 to use'
+  chicken:
+    health: '&7Health: &e{0}'
+    name: '&7Name: &e{0}'
+    on-fire: '&7On Fire: &e✓'
+    baby: '&7Baby: &e✓'
+    status:
+      line: '&7Status: &e{0}'
+      healthy: '&aHealthy'
+      exhausted: '&4Exhausted'
+      fatigued: '&eFatigued'
+    dna: '&7DNA: &e{0}'
+    type: '&7Type: &e{0} &eChicken'
+
+products:
+  FEATHER: Feather
+  BONE: Bone
+  COBBLESTONE: Cobblestone
+  DIRT: Dirt
+  FLINT: Flint
+  SAND: Sand
+  WATER: Water
+  COAL: Coal
+  STRING: String
+  LEATHER: Leather
+  SUGAR: Sugar
+  SPONGE: Sponge
+  DIORITE: Diorite
+  ANDESITE: Andesite
+  GRAVEL: Gravel
+  ICE: Ice
+  GRANITE: Granite
+  CLAY: Clay
+  OAK_LOG: Oak Log
+  GUNPOWDER: Gunpowder
+  KELP: Kelp
+  SLIME_BALL: Slime Ball
+  GOLD: Gold
+  NETHERRACK: Netherrack
+  GLASS: Glass
+  LAPIS: Lapis
+  IRON: Iron
+  IRON_DUST: Iron Dust
+  GOLD_DUST: Gold Dust
+  SILVER_DUST: Silver Dust
+  ZINC_DUST: Zinc Dust
+  CAKE: Cake
+  OBSIDIAN: Obsidian
+  COPPER_DUST: Copper Dust
+  MAGNESIUM_DUST: Magnesium Dust
+  LAVA: Lava
+  TIN_DUST: Tin Dust
+  SNOWBALL: Snowball
+  REDSTONE: Redstone
+  CACTUS: Cactus
+  ALUMINUM_DUST: Aluminum Dust
+  LEAD_DUST: Lead Dust
+  BLACKSTONE: Blackstone
+  SOUL_SOIL: Soul Soil
+  BLAZE_ROD: Blaze Rod
+  GHAST_TEAR: Ghast Tear
+  SULFATE: Sulfate
+  SHROOMLIGHT: Shroomlight
+  QUARTZ: Quartz
+  BASALT: Basalt
+  CRYING_OBSIDIAN: Crying Obsidian
+  SOUL_SAND: Soul Sand
+  ENDER_PEARL: Ender Pearl
+  NETHER_WART: Nether Wart
+  PHANTOM_MEMBRANE: Phantom Membrane
+  MAGMA_CREAM: Magma Cream
+  GLOWSTONE_DUST: Glowstone Dust
+  DIAMOND: Diamond
+  END_STONE: End Stone
+  PRISMARINE_CRYSTALS: Prismarine Crystals
+  PRISMARINE_SHARD: Prismarine Shard
+  EXPERIENCE: Experience
+  EMERALD: Emerald
+  NETHERITE: Netherite
+
+commands:
+  calcchance:
+    description: '&fCalculate the chance of getting a chicken with the given 2 parent
+      DNAs and child DNA.'
+  makechicken:
+    description: '&fCreate a chicken item with the given DNA.'
+
+messages:
+  no-permission: '&cYou do not have permission!'
+  no-console: '&cYou must be a player to do this!'
+  usage: '&bUsage: &e{0}'
+  invalid-dna-notation: '&cInvalid DNA notation: {0}'
+  chance-result: '&eThere is a &b{0}% &echance for parent 1 ({1}) and parent 2 ({2})
+    to have a child ({3}).'

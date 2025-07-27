@@ -1,0 +1,43 @@
+display-name: "爆炸挖掘"
+description: "有&a%placeholder%%&r的几率挖掘一个3x3的区域"
+placeholder: "5 * %level%"
+type: special
+
+targets:
+  - pickaxe
+conflicts:
+  - veinminer
+rarity: special
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - effects:
+      - id: create_explosion
+        args:
+          power: 0
+          amount: 1
+      - id: mine_radius
+        args:
+          radius: 1
+          blacklisted_blocks:
+            - bedrock
+            - obsidian
+            - crying_obsidian
+            - chest
+            - barrel
+            - barrier
+            - reinforced_deepslate
+          check_hardness: true
+          disable_on_sneak: true
+    args:
+      chance: "5 * %level%"
+      cooldown: 0.05
+      send_cooldown_message: false
+    triggers:
+      - mine_block
+
+conditions: []

@@ -1,0 +1,15 @@
+
+options:
+  auto-update: true
+
+plant-harvest:
+  drop-weights:
+    common: 1000.0
+    uncommon: 100.0
+    rare: 10.0
+    secret: 1.0
+  drop-chance: 0.3
+
+soul-scythe:
+  weight-multipliers:
+    secret: 3.0

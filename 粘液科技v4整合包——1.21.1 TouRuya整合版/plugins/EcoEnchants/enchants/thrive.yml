@@ -1,0 +1,21 @@
+display-name: "生机勃勃"
+description: "提供额外&a%placeholder%&r点生命值"
+placeholder: "%level%"
+type: normal
+
+targets:
+  - armor
+conflicts: []
+rarity: legendary
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: bonus_health
+    args:
+      health: "%level%"
+
+conditions: []

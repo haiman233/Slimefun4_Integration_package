@@ -1,0 +1,155 @@
+# BetterRTP 插件 by SuperRonanCraft!（加入我的公共服务器：ronanplugins.com）
+# 需要帮助？访问 https://ronanplugins.com/discord！
+
+Language-File: chs.yml # 语言文件（中文简体）
+
+Settings:
+  Respect:
+    # 是否尊重以下领地/保护插件的区域（防止在领地内随机传送）
+    MinePlots: false # MinePlots 领地（https://builtbybit.com/resources/mineplots.21646/）
+    WorldGuard: true # WorldGuard 区域（https://dev.bukkit.org/projects/worldguard）
+    GriefPrevention: false # GriefPrevention 领地（https://www.spigotmc.org/resources/griefprevention.1884/）
+    Towny: false # Towny 城镇区域（https://www.spigotmc.org/resources/towny.72694/）
+    RedProtect: false # RedProtect 保护区域（https://www.spigotmc.org/resources/redprotect.15841/）
+    FactionsUUID: false # FactionsUUID 领地（https://www.spigotmc.org/resources/factionsuuid.1035/）
+    Lands: false # Lands 领地系统（https://www.spigotmc.org/resources/lands.53313/）
+    Residence: true # Residence 住宅保护（https://www.spigotmc.org/resources/residence.11480/）
+    KingdomsX: false # KingdomsX 王国领地（https://www.spigotmc.org/resources/kingdomsx.77670/）
+    hClaims: false # hClaims 领地（https://www.spigotmc.org/resources/hclaims.90540/）
+    GriefDefender: false # GriefDefender 保护（https://www.spigotmc.org/resources/griefdefender.68900/）
+    UltimateClaims: false # UltimateClaims 领地（https://songoda.com/marketplace/product/ultimateclaims-the-ultimate-claiming-plugin.65）
+    Pueblos: false # Pueblos 区域（作者最爱 :D）（https://www.spigotmc.org/resources/pueblos.91255/）
+    SaberFactions: false # SaberFactions 领地（3.4.5 新增）（https://www.spigotmc.org/resources/saberfactions.69771/）
+    HuskTowns: false # HuskTowns 城镇（3.4.5 新增）（https://www.spigotmc.org/resources/husktowns.92672/）
+    FactionsBridge: false # FactionsBridge 兼容领地（3.6.9 新增）（https://www.spigotmc.org/resources/factionsbridge.89716/）
+    CrashClaim: false # CrashClaim 领地（3.6.9 新增）（https://www.spigotmc.org/resources/crashclaim-claiming-plugin.94037/）
+  
+  # 控制台调试信息输出
+  Debugger: false
+  # 预加载安全位置周围的区块数量
+  PreloadRadius: 5
+  # 最大尝试次数，超过后发送 NotSafeMessage 并停止寻找安全位置
+  MaxAttempts: 32
+  RtpOnFirstJoin: # 玩家首次加入服务器时自动执行 RTP（以控制台身份运行，可绕过延迟）
+    Enabled: false # 是否启用首次加入自动传送
+    World: world # 首次传送的目标世界
+    SetAsRespawn: false # 是否将此位置设为玩家重生点
+  Cooldown:
+    Enabled: false # 是否启用冷却时间
+    LockAfter: 0 # 在 # 次 RTP 后永久锁定冷却（0 表示禁用）
+    Time: 60 # 冷却时间（秒）
+    PerWorld: false # 是否按世界独立计算冷却时间（禁用时，玩家在其他世界也无法 RTP，直到原冷却结束）
+  # 执行命令到实际传送之间的延迟（秒），设为 "0" 可禁用延迟
+  Delay:
+    Enabled: true
+    Time: 5
+    CancelOnMove: true # 玩家移动时是否取消传送
+  Queue:
+    Enabled: true # 是否预先生成安全的 RTP 位置队列（优化性能）
+  DisableUpdater: false # 禁用自动更新检查
+  Logger:
+    Enabled: true # 是否记录 RTP 日志到 log.log 文件
+    LogToConsole: false # 是否在控制台显示日志
+    Format: yyyy-MM-dd HH:mm:ss # 日志时间格式
+
+Default:
+  UseWorldBorder: false # 是否以世界边界作为 RTP 范围
+  # "Biomes: []" 表示允许所有生物群系！
+  # 可选生物群系列表：https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html
+  Biomes: []
+  MaxRadius: 10000 # 最大半径
+  MinRadius: 1000 # 最小半径
+  # 如果 UseWorldBorder=true，则 CenterX 和 CenterZ 会被忽略！
+  CenterX: 0 # 中心点 X 坐标
+  CenterZ: 0 # 中心点 Z 坐标
+  Shape: circle # 范围形状（square=方形，circle=圆形）
+  MaxY: 320 # 最大高度
+  MinY: 0 # 最小高度
+  RTPOnDeath: false # 死亡时是否自动 RTP
+
+# 禁止作为传送目标的方块列表
+# 更多方块类型：https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+BlacklistedBlocks:
+- stationary_water
+- stationary_lava
+- water
+- flowing_water
+- lava
+- flowing_lava
+- cactus
+- leaves
+- leaves_2
+- air
+- void_air
+- bedrock
+- oak_leaves
+- jungle_leaves
+- kelp
+
+# 禁止使用 /rtp 的世界（除非有覆盖设置）
+DisabledWorlds:
+- prison
+- creative
+
+# 自定义世界的 RTP 参数
+# [MaxRadius] 和 [MinRadius] 必须为正数且不能相等！
+CustomWorlds:
+- custom_world_1:
+    UseWorldBorder: false
+    MaxRadius: 1000
+    MinRadius: 100
+    CenterX: 0
+    CenterZ: 0
+    Price: 50
+    Shape: square
+    MaxY: 320
+    MinY: 0
+    Cooldown: 60
+- other_custom_world:
+    MaxRadius: 10000
+    MinRadius: 150
+    CenterX: 123
+    CenterZ: -123
+    Price: 0
+    Biomes:
+    - desert
+    - forest
+    Shape: circle
+    RTPOnDeath: true
+
+# 世界覆盖：在指定世界执行 /rtp 时，实际传送到另一个世界
+Overrides:
+- master_world: world
+- creative_world: world
+
+WorldType: # 世界类型（NORMAL=主世界，NETHER=下界）
+  - world: NORMAL
+  - world_nether: NETHER
+  - world_the_end: NORMAL
+
+PermissionGroup: # 权限组配置（玩家需要 betterrtp.group.<组名> 权限）
+  Enabled: false # 是否启用权限组功能
+  Groups:
+  - vip:
+    - Build_World:
+        Priority: 0
+        MaxRadius: 10000
+        MinRadius: 1000
+        Price: 100
+        Cooldown: 500
+    - Survival_World:
+        Priority: 10
+        UseWorldBorder: false
+        MaxRadius: 5000
+        MinRadius: 1000
+        CenterX: 10
+        CenterZ: 10
+        Price: 10
+        MaxY: 320
+        MinY: 0
+  - vip2:
+    - Build_World:
+        MaxRadius: 25000
+        MinRadius: 10000
+        Price: 15
+        Cooldown: 1500

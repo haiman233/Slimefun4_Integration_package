@@ -1,0 +1,33 @@
+'1753612125501':
+  last_user: jdhyjy
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"无底背包","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A60000","bold":false}]}'
+      lore:
+      - '""'
+      - '{"text":"","extra":[{"text":"无底背包可以容纳许多物品","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"等级 9","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#E4ED32","bold":false}]}'
+      PublicBukkitValues: |-
+        {
+            "danktech2:dank_instance": {
+                "danktech2:dank_amounts": [I; 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "danktech2:dank_id": 1753612125501L,
+                "danktech2:dank_items": [B; -84B, -19B, 0B, 5B, 119B, 4B, 0B, 0B, 0B, 9B, 112B, 112B, 112B, 112B, 112B, 112B, 112B, 112B, 112B],
+                "danktech2:dank_tier": 9,
+                "danktech2:dank_user": "jdhyjy"
+            },
+            "slimefun:slimefun_item": "DK2_PACK_9"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: e1802eea-8bc7-39c6-b7c5-7061d0e2eae4
+        name: CS-CoreLib
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg5YjRjNWUxMTlhNjE3NzNkZDUyZDM2YjU3MmJjMGY5NTQ4ZDk4NGNlMDg0MTQxN2EzMDFhNjUzNTFhNzY4ZCJ9fX0=

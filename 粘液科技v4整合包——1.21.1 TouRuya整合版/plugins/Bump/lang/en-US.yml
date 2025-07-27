@@ -1,0 +1,391 @@
+categories:
+  main: '&bBump'
+  armor: '&bBump - Armor'
+  food: '&bBump - Food'
+  machine: '&bBump - Machine'
+  stuff: '&bBump - Stuff'
+  tool: '&bBump - Tool'
+  weapon: '&bBump - Magic Weapon'
+  appraise_info: '&eBump - Appraise Information'
+  wiki: '&eBump - Wiki'
+items:
+  random_helmet:
+    name: '&6Random Helmet'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oHow is my luck...'
+    - '&b&k|&b- &e&oThe appraiser &7&orandomly gives this attribute...'
+  random_horse_armor:
+    name: '&6Random Horse Armor'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oHow is my luck...'
+    - '&b&k|&b- &e&oThe appraiser &7&orandomly gives this attribute...'
+  xuebi:
+    name: '&6Sprite'
+    lore:
+    - ''
+    - '&b&k|&b- Very sweet and sweet, still bubbling!'
+    - ''
+  kele:
+    name: '&eCola'
+    lore:
+    - ''
+    - '&b&k|&b- The ice is full of strength, and if you drink it, you can fly!'
+    - ''
+  fangbianmian:
+    name: '&eMaster Kong instant noodle'
+    lore:
+    - ''
+    - '&b&k|&b- This taste is spicy!!'
+    - ''
+  latiao:
+    name: '&eSpicy gluten'
+    lore:
+    - ''
+    - '&b&k|&b- Cool! I still don''t forget to lick the spicy oil after eating...'
+    - ''
+  kouxiangtang:
+    name: '&eChewing Gum'
+    lore:
+    - ''
+    - '&b&k|&b- Very sticky...'
+    - ''
+  zongzi:
+    name: '&aZongzi'
+    lore:
+    - ''
+    - '&b&k|&b- Happy Dragon Boat Festival!'
+    - ''
+  appraisal:
+    name: '&bAppraisal instrument'
+    lore:
+    - ''
+    - '&c&k|&7- Oh! A defective instrument...'
+    - ''
+  attribute_grindstone:
+    name: '&bAttribute Grindstone'
+    lore:
+    - ''
+    - '&c&k|&7- It is able to purge attributes...'
+    - ''
+  sun_energy:
+    name: '&ePhotosynthetic Energy'
+    lore:
+    - ''
+    - '&b&k|&b- Mutated plants will also photosynthesize...'
+    - ''
+  mecha_gear:
+    name: '&eMechanical Gear'
+    lore:
+    - ''
+    - '&b&k|&b- Something eliminated by a large factory...'
+    - ''
+  old_coin:
+    name: '&eBroken Gold Coin'
+    lore:
+    - ''
+    - '&b&k|&b- What can I buy...'
+    - ''
+  make:
+    name: '&eComputer Technology Core'
+    lore:
+    - ''
+    - '&b&k|&b- What is it used for...'
+    - ''
+  old_cpu:
+    name: '&eBroken CPU'
+    lore:
+    - ''
+    - '&b&k|&b- From which computer it was removed...'
+    - ''
+  cpu:
+    name: '&eCPU'
+    lore:
+    - ''
+    - '&b&k|&b- Intact...'
+    - ''
+  soul_paper:
+    name: '&eSoul Talisman'
+    lore:
+    - ''
+    - '&b&k|&b- The power of the soul'
+    - ''
+  ksf_stuff:
+    name: '&eInstant Noodle Seasoning'
+    lore:
+    - ''
+    - '&b&k|&b- Sizzle~ It''s spicy'
+    - ''
+  water_sugar:
+    name: '&eSoda Candy'
+    lore:
+    - ''
+    - '&b&k|&b- Sprite? Or Coca-Cola?'
+    - ''
+  peach_wood:
+    name: '&ePeach Wood'
+    lore:
+    - ''
+    - '&b&k|&b- Refuge From Evil Spirits'
+    - ''
+  update_power:
+    name: '&eUpgrade Core'
+    lore:
+    - ''
+    - '&b&k|&b- Used to upgrade some weird items...'
+    - ''
+  compressed_random_equipment:
+    name: '&eCompressed Random Equipment'
+    lore:
+    - ''
+    - '&b&k|&b- Can''t be used any more... Crap...'
+    - ''
+  getgold_spade:
+    name: '&eGetting-gold Shovel'
+    lore:
+    - ''
+    - '&b&k|&b- There is a certain chance to dig out broken gold coins in the sand!'
+    - ''
+  quality_identifier:
+    name: '&eQuality Identifier'
+    lore:
+    - ''
+    - '&b&k|&b- Add some random attributes for applicable items!'
+    - '&b&k|&b- Very expensive, be sure to keep it...'
+    - ''
+  appraisal_paper_armor:
+    name: '&eArmor Quality Identifier'
+    lore:
+    - ''
+    - '&b&k|&b- A random armor attribute for a given item!'
+    - '&b&k|&b- Very expensive, be sure to keep it...'
+    - ''
+  appraisal_paper_damage:
+    name: '&eWeapon Quality Identifier'
+    lore:
+    - ''
+    - '&b&k|&b- A random attack attribute for a given item!'
+    - '&b&k|&b- Very expensive, be sure to keep it...'
+    - ''
+  appraisal_paper_horse_armor:
+    name: '&eHorse Armor Quality Identifier'
+    lore:
+    - ''
+    - '&b&k|&b- A random armor attribute for a given item!'
+    - '&b&k|&b- Very expensive, be sure to keep it...'
+    - ''
+  light_bow:
+    name: '&6God''s Punishment Bow'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oAccept God''s punishment...'
+    - ''
+  witherskull_bow:
+    name: '&6Withered Bow'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oWhat it launches is every undead...'
+    - ''
+  emer_sword:
+    name: '&6Emerald Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oMade of expensive emeralds...'
+    - ''
+  bone_sword:
+    name: '&6Bone Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oVery hard...'
+    - ''
+  random_sword:
+    name: '&6Random Short Edge'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oHow is my luck...'
+    - '&b&k|&b- &e&oThe appraiser &7&orandomly gives this attribute...'
+  guard_sword:
+    name: '&6Guardian Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oI will guard you until the last moment of life'
+    - ''
+  peach_sword:
+    name: '&6Peach Wood Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oTribute to the classic zombie movie...'
+    - ''
+  soul_sword:
+    name: '&6Soul Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oThe soul of the devil is injected here...'
+    - '&b&k|&b- &e&oRight click &7&oto make a low growl...'
+    - '&b&k|&b- &7&oTurn &7&oyour &e&osatiety &7&ointo &e&ohealth&7&o...'
+    - ''
+  sky_sword:
+    name: '&6Heaven Breaking Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oHeaven Breaking,what a domineering name...'
+    - '&b&k|&b- &e&oRight click &7&oand rush to the sky...'
+    - ''
+  devil_sword:
+    name: '&6Demon Slayer Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oDemon Slayer, what a mighty title...'
+    - '&b&k|&b- &e&oRight click &7&oto send out the holy fire to sweep all darkness...'
+    - ''
+  sky_devil_sword:
+    name: '&6Heaven-demon Crumble Sword'
+    lore:
+    - ''
+    - '&b&k|&b- &7&oBreaking the sky and cutting the devil, one after another emits
+      powerful energy...'
+    - '&b&k|&b- &e&oRight-click &7&oto launch three dragon breaths forward in a row
+      and strengthen yourself...'
+    - ''
+lores:
+  per-use: '&7per use'
+  not-appraised: '&b&k|&b- &7&oNot appraised'
+  appraised: '&b&k|&b- &7&oAppraised &b| &dLevel: &e&l{0}'
+  click-to-open: '&7⇨ &aClick to open'
+  any-random-equipment: '&fAny random equipment'
+recipes:
+  compressor_mock:
+    name: '&bCompressor'
+    lore:
+    - '&7Craft this Item as shown'
+    - '&7using a Compressor'
+researches:
+  food: Bump food
+  random_equipment: Random equipment
+  appraise: Appraise
+  stuff: Magical stuff
+  old_stuff: Getting gold
+  bow: Bump bows
+  peach_sword: Peach sword
+  normal_sword: Normal sword
+  soul_sword: Soul sword
+  sky_devil: Heaven or Demon
+messages:
+  no-permission: '&cYou don''t have permission.'
+  no-input: '&cPlease put in items.'
+  output-no-space: '&cNo output space!'
+  not-enough-power: '&cNot enough energy.'
+  stacked: '&cYou cannot use this item when stacked.'
+  legacy: '&cYou are using a legacy item. You will need to upgrade it to new one.'
+  deprecated: '&cYou are using a deprecated item, it will be removed soon.'
+  click-here: '&eClick here:'
+  food:
+    cooldown: '&b&k|&b- &7&oYou need to wait for a while to eat this again!'
+    xuebi: '&b&k|&b- &7&oA cool summer!!'
+    kele: '&b&k|&b- &7&oThe victory of the fat otaku!'
+    fangbianmian: '&b&k|&b- &7&oThe taste of childhood!'
+    latiao: '&b&k|&b- &7&oThis is spicy enough!'
+    kouxiangtang: '&b&k|&b- &7&oFairy spirit fluttering!'
+    zongzi: '&b&k|&b- &7&oSweet or savory?'
+  tool:
+    getgold_spade: '&b&k|&b- &7&oOMG, gold...'
+    appraisal_paper:
+      legacy: '&bYour legacy quality identifiers have been upgraded.'
+      invalid: '&cThis item is not appraisable!'
+      success: '&aThis item can be appraised now!'
+  weapon:
+    unavailable: '&b&k|&b- &7&oYou cannot activate this skill now!'
+    low-food-level: '&b&k|&b- &7&oYour food level is not enough to convert your health!'
+    cooldown: '&b&k|&b- &7&oYou need to wait for a while to use weapon abilities!'
+    soul_sword:
+      converted-part: '&b&k|&b- &7&oPart of your food level has been converted into
+        health!'
+      converted-all: '&b&k|&b- &7&oAll of your food level has been converted into
+        health!'
+    devil_sword: '&b&k|&b- &7&oDemon Slayer, bring justice from the sky!'
+    sky_sword:
+      activated: '&b&k|&b- &7&oHeaven Breaking, soar into the sky!'
+      protected: '&b&k|&b- &7&oHeaven Breaking Sword protected you from fall damage!'
+    sky_devil_sword:
+      activated: '&b&k|&b- &7&oDemon Slayer or Heaven Breaking, only to the justice!'
+      deactivated: '&b&k|&b- &7&oThe strengthening time is over!'
+    light_bow: '&b&k|&b- &7&oGod punishes!'
+    wither_skull_bow: '&b&k|&b- &7&oWithering!'
+  machine:
+    appraisal:
+      invalid: '&cThe item does not support being appraised!'
+      not-accepted: '&cCurrent appraise type does not accept this item.'
+      appraised: '&cSorry that the item cannot be identified or has already been appraised!'
+      success: '&aAppraisal!'
+    attribute-grindstone:
+      invalid: '&cThis item is not appraised yet.'
+      success: '&aThe appraisal result is purged!'
+console:
+  loading-appraise-types: Loading appraise types from config.
+  loading-appraise-type: Loading appraise type "{0}".
+  disabled-appraise-type: The appraise type "{0}" is disabled, ignoring.
+  loaded-appraise-type: Loaded appraise type "{0}".
+  error-loading-appraise-type: 'An error has occurred while loading appraise type
+    "{0}": {1}'
+  missing-appraise-stars: Config section 'appraise.stars' is missing.
+  use-default-appraise-stars: Using default appraise stars settings.
+  invalid-appraise-stars: You can only set appraise stars to between 0 and 127!
+  error-sound: 'An error has occurred while loading sound config: {0}'
+  invalid-sound-config: 'Cannot find sound config for BumpSound: {0}'
+  invalid-sound-volume: 'Invalid sound volume for BumpSound "{0}": {1} (must be at
+    least {2})'
+  invalid-sound-pitch: 'Invalid sound pitch for BumpSound "{0}": {1} (must be at least
+    {2})'
+gui:
+  appraise:
+    name: '&eClick to appraise'
+    lore:
+    - '&7<- Put the items to be appraised on the left side'
+    - '&7Click here to appraise'
+  appraise_type_selector:
+    name: '&bCurrent type: &e{0}'
+    lore:
+    - ''
+    - '&7View details in Bump''s category'
+    - '&eClick to select type'
+  appraise_type_selector_menu:
+    title: '&6Select appraise type'
+    lore:
+    - ''
+    - '&eClick to select this type'
+  appraisal_paper:
+    name: '&eClick to apply'
+    lore:
+    - '&7<- Put items on the left side'
+    - '&7Click here to allow the item to be appraised'
+  grind:
+    name: '&eClick to purge attributes'
+    lore:
+    - '&7<- Put appraised items on the left side'
+    - '&7Click here to purge attributes'
+appraise_info:
+  name: '&bAppraise type: &e{0}'
+  click: '&eClick to view details'
+  equipment_type:
+    name: '&aApplicable equipment type: &b{0}'
+    any: '&7Any item'
+    vanilla: '&7Vanilla items only'
+    slimefun: '&7Slimefun items only'
+  material:
+    name: '&aCheck equipment material: &b{0}'
+    lore_enabled:
+    - '&7Only these materials are accepted:'
+    lore_enabled_more: '&7And {0} more...'
+    lore_disabled:
+    - '&7Material will not be checked.'
+  equipment_slot:
+    name: '&aEquipment slots'
+    lore:
+    - '&7Attributes will be applied'
+    - '&7to the equipment slot(s):'
+  attribute:
+    name: '&eAttribute: &9{0}'
+    range: '&7Range: &b{0} &7~ &b{1}'
+    weight: '&7Weight: &b{0}%'
+

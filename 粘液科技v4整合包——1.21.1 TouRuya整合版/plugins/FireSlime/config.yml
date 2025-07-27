@@ -1,0 +1,4 @@
+options:
+  autoupdate: false
+  decompiler-acceptDamagableItems: true
+  slimefunVillagerChance: 12

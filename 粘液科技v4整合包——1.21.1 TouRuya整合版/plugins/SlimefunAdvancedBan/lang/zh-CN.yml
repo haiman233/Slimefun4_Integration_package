@@ -1,0 +1,48 @@
+# Allows color codes
+messages:
+  debug-prefix: '&b[Debug] '
+  commands:
+    no-permission: 你没有权限使用这个指令!
+    player-only: 这个指令只能由玩家使用!
+    console-only: 这个指令只能由控制台使用!
+    not-slimefun-item-in-hand: 你必须手持 Slimefun 物品才能使用这个指令!
+    click-to-copy: 点击复制
+    help:
+      header: '&b[Help] &f帮助.'
+      help: '&f/advancedban help &7- &f显示帮助菜单.'
+      reload: '&f/advancedban reload &7- &f重新加载插件.'
+      version: '&f/advancedban version &7- &f显示插件版本.'
+    reload:
+      success: '&a插件已重新加载.'
+    version:
+      # {version} = plugin version
+      success: '&a插件版本: &f{version}'
+    id:
+      # {id} = item ID
+      success: '&a物品 ID: &f{id}'
+  events:
+    # {name} = item name
+    cancel-block-break: '&c服务器已禁止破坏 {name}.'
+    cancel-block-place: '&c服务器已禁止放置 {name}.'
+    cancel-craft-item: '&c服务器已禁止合成 {name}.'
+    cancel-multi-block-craft: '&c服务器已禁止合成 {name}.'
+    cancel-player-drop-item: '&c服务器已禁止丢弃 {name}.'
+    cancel-player-interact: '&c服务器已禁止交互 {name}.'
+    cancel-machine-craft: '&c服务器已禁止合成 {name}.'
+    cancel-entity-explode: '&c服务器已禁止爆炸 {name}.'
+    cancel-block-explode: '&c服务器已禁止爆炸 {name}.'
+    cancel-explosive-tool-break-blocks: '&c服务器已禁止爆炸 {name}.'
+    cancel-block-burn: '&c服务器已禁止烧毁 {name}.'
+    cancel-entity-change-block: '&c服务器已禁止破坏 {name}.'
+  load:
+    # {message} = error message
+    failed-auto-update: '&c自动更新失败: {message}'
+    # {id} = item ID, {event_priority} = priority, {event_type} = event type
+    added-predication: Added predication for {id} with priority {event_priority} for
+      {event_type}
+    no-configured-predications: 你还没有开始配置插件!
+    invalid-bans-key: '无效的物品: '
+    # {path} = path to config file
+    path: '位置: {path}'
+    # {value} = value of config option
+    value: '值: {value}'

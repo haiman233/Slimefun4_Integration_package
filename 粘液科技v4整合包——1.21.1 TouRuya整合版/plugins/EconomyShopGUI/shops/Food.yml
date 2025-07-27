@@ -1,0 +1,115 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: APPLE
+        buy: 10
+        sell: -1
+      '2':
+        material: BREAD
+        buy: 15.75
+        sell: -1
+      '3':
+        material: CAKE
+        buy: 79.32
+        sell: -1
+      '4':
+        material: COOKED_SALMON
+        buy: 6.3
+        sell: -1
+      '5':
+        material: COOKIE
+        buy: 2.1
+        sell: -1 0.53
+      '6':
+        material: GLISTERING_MELON_SLICE
+        buy: 8
+        sell: -1 2
+      '7':
+        material: GLOW_BERRIES
+        buy: 1
+        sell: -1 0.25
+      '8':
+        material: GOLDEN_CARROT
+        buy: 12.2
+        sell: -1 3.05
+      '9':
+        material: HONEY_BOTTLE
+        buy: 7.94
+        sell: -1 1.99
+      '10':
+        material: BAKED_POTATO
+        buy: 5.25
+        sell: -1 1.32
+      '11':
+        material: COOKED_BEEF
+        buy: 6.3
+        sell: -1 1.58
+      '12':
+        material: COOKED_CHICKEN
+        buy: 6.3
+        sell: -1 1.58
+      '13':
+        material: COOKED_MUTTON
+        buy: 6.3
+        sell: -1 1.58
+      '14':
+        material: COOKED_PORKCHOP
+        buy: 6.3
+        sell: -1 1.58
+      '15':
+        material: COOKED_RABBIT
+        buy: 6.3
+        sell: -1 1.58
+      '16':
+        material: BEEF
+        buy: 6
+        sell: -1 1.5
+      '17':
+        material: CHICKEN
+        buy: 6
+        sell: -1 1.5
+      '18':
+        material: MUTTON
+        buy: 6
+        sell: -1 1.5
+      '19':
+        material: PORKCHOP
+        buy: 6
+        sell: -1 1.5
+      '20':
+        material: RABBIT
+        buy: 6
+        sell: -1 1.5
+      '21':
+        material: BEETROOT_SOUP
+        buy: 38.72
+        sell: -1 9.68
+      '22':
+        material: COD
+        buy: 15
+        sell: -1 9.68
+      '23':
+        material: COOKED_COD
+        buy: 15
+        sell: -1 9.68
+      '24':
+        material: SALMON
+        buy: 15
+        sell: -1 9.68
+      '25':
+        material: COOKED_SALMON
+        buy: 15
+        sell: -1 9.68
+      '26':
+        material: TROPICAL_FISH
+        buy: 15
+        sell: -1 9.68
+      '27':
+        material: PUFFERFISH
+        buy: 15
+        sell: -1 9.68
+      '28':
+        material: HONEY_BOTTLE
+        buy: 10
+        sell: -1 9.68

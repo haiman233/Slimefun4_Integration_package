@@ -1,0 +1,715 @@
+COMMON:
+  Quiet Days:
+    name: 恬静之时
+    type: ELEMENTAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 存在于世界开端之际.
+    - 万物都是如此的平和安详.
+  Grinding Gears:
+    name: 砂轮
+    type: MECHANICAL
+    shards:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 经常使用而不感激
+    - 会轻易地消磨精神.
+  Lead into Gold:
+    name: 点石成金
+    type: ALCHEMICAL
+    shards:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    lore:
+    - 对财富的追求会让许多人走向疯狂.
+  Everlasting:
+    name: 永恒
+    type: HISTORICAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 这个方块见证过无数帝国的兴衰,
+    - 证明了它的永恒与坚定.
+  Toil:
+    name: 辛劳
+    type: HUMAN
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    lore:
+    - 它见证了历代众人的辛劳,
+    - 尽一切可能帮助; 只为了完成不可能的任务.
+  Free Range:
+    name: 自由漫步
+    type: ANIMAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    lore:
+    - 只有自由才能让你走向狂野,
+    - 没有什么能比动物的肆意妄为更能激发魔力了.
+  Moonlit:
+    name: 月耀
+    type: CELESTIAL
+    shards:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    lore:
+    - 一个只喜欢沐浴在残月光芒下的灵魂.
+  Despair:
+    name: 绝望
+    type: VOID
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    lore:
+    - 对深掘心灵的渴望
+    - 只会导致沮丧与悲伤.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    lore:
+    - 尽管你不明白美好生活的含义,
+    - 但这个方块仍有很多未解之疑等待回答.
+UNCOMMON:
+  Quiet Days:
+    name: 恬静之时
+    type: ELEMENTAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 存在于世界开端之际.
+    - 万物都是如此的平和安详.
+  Grinding Gears:
+    name: 磨具
+    type: MECHANICAL
+    shards:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 经常使用而不感激
+    - 会轻易地消磨精神.
+  Lead into Gold:
+    name: 点石成金
+    type: ALCHEMICAL
+    shards:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    lore:
+    - 对财富的追求会让许多人走向疯狂.
+  Everlasting:
+    name: 永恒
+    type: HISTORICAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 这个方块见证过无数帝国的兴衰,
+    - 证明了它的永恒与坚定.
+  Toil:
+    name: 辛劳
+    type: HUMAN
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    lore:
+    - 它见证了历代众人的辛劳,
+    - 尽一切可能帮助; 只为了完成不可能的任务.
+  Free Range:
+    name: 自由漫步
+    type: ANIMAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    lore:
+    - 只有自由才能让你走向狂野,
+    - 没有什么能比动物的肆意妄为更能激发魔力了.
+  Moonlit:
+    name: 月耀
+    type: CELESTIAL
+    shards:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    lore:
+    - 一个只喜欢沐浴在残月光芒下的灵魂.
+  Despair:
+    name: 绝望
+    type: VOID
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    lore:
+    - 对深掘心灵的渴望
+    - 只会导致沮丧与悲伤.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    lore:
+    - 尽管你不明白美好生活的含义,
+    - 但这个方块仍有很多未解之疑等待回答.
+RARE:
+  Quiet Days:
+    name: 恬静之时
+    type: ELEMENTAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 存在于世界开端之际.
+    - 万物都是如此的平和安详.
+  Grinding Gears:
+    name: 砂轮
+    type: MECHANICAL
+    shards:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 经常使用而不感激
+    - 会轻易地消磨精神.
+  Lead into Gold:
+    name: 点石成金
+    type: ALCHEMICAL
+    shards:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    lore:
+    - 对财富的追求会让许多人走向疯狂.
+  Everlasting:
+    name: 永恒
+    type: HISTORICAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 这个方块见证过无数帝国的兴衰,
+    - 证明了它的永恒与坚定.
+  Toil:
+    name: 辛劳
+    type: HUMAN
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    lore:
+    - 它见证了历代众人的辛劳,
+    - 尽一切可能帮助; 只为了完成不可能的任务.
+  Free Range:
+    name: 自由漫步
+    type: ANIMAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    lore:
+    - 只有自由才能让你走向狂野,
+    - 没有什么能比动物的肆意妄为更能激发魔力了.
+  Moonlit:
+    name: 月耀
+    type: CELESTIAL
+    shards:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    lore:
+    - 一个只喜欢沐浴在残月光芒下的灵魂.
+  Despair:
+    name: 绝望
+    type: VOID
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    lore:
+    - 对深掘心灵的渴望
+    - 只会导致沮丧与悲伤.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    lore:
+    - 尽管你不明白美好生活的含义,
+    - 但这个方块仍有很多未解之疑等待回答.
+EPIC:
+  Quiet Days:
+    name: 恬静之时
+    type: ELEMENTAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 存在于世界开端之际.
+    - 万物都是如此的平和安详.
+  Grinding Gears:
+    name: 磨具
+    type: MECHANICAL
+    shards:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 经常使用而不感激
+    - 会轻易地消磨精神.
+  Lead into Gold:
+    name: 点石成金
+    type: ALCHEMICAL
+    shards:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    lore:
+    - 对财富的追求会让许多人走向疯狂.
+  Everlasting:
+    name: 永恒
+    type: HISTORICAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 这个方块见证过无数帝国的兴衰,
+    - 证明了它的永恒与坚定.
+  Toil:
+    name: 辛劳
+    type: HUMAN
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    lore:
+    - 它见证了历代众人的辛劳,
+    - 尽一切可能帮助; 只为了完成不可能的任务.
+  Free Range:
+    name: 自由漫步
+    type: ANIMAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    lore:
+    - 只有自由才能让你走向狂野,
+    - 没有什么能比动物的肆意妄为更能激发魔力了.
+  Moonlit:
+    name: 月耀
+    type: CELESTIAL
+    shards:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    lore:
+    - 一个只喜欢沐浴在残月光芒下的灵魂.
+  Despair:
+    name: 绝望
+    type: VOID
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    lore:
+    - 对深掘心灵的渴望
+    - 只会导致沮丧与悲伤.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    lore:
+    - 尽管你不明白美好生活的含义,
+    - 但这个方块仍有很多未解之疑等待回答.
+MYTHICAL:
+  Quiet Days:
+    name: 恬静之时
+    type: ELEMENTAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 存在于世界开端之际.
+    - 万物都是如此的平和安详.
+  Grinding Gears:
+    name: 磨具
+    type: MECHANICAL
+    shards:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 经常使用而不感激
+    - 会轻易地消磨精神.
+  Lead into Gold:
+    name: 点石成金
+    type: ALCHEMICAL
+    shards:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    lore:
+    - 对财富的追求会让许多人走向疯狂.
+  Everlasting:
+    name: 永恒
+    type: HISTORICAL
+    shards:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    lore:
+    - 这个方块见证过无数帝国的兴衰,
+    - 证明了它的永恒与坚定.
+  Toil:
+    name: 辛劳
+    type: HUMAN
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    lore:
+    - 它见证了历代众人的辛劳,
+    - 尽一切可能帮助; 只为了完成不可能的任务.
+  Free Range:
+    name: 自由漫步
+    type: ANIMAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    lore:
+    - 只有自由才能让你走向狂野,
+    - 没有什么能比动物的肆意妄为更能激发魔力了.
+  Moonlit:
+    name: 月耀
+    type: CELESTIAL
+    shards:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    lore:
+    - 一个只喜欢沐浴在残月光芒下的灵魂.
+  Despair:
+    name: 绝望
+    type: VOID
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    lore:
+    - 对深掘心灵的渴望
+    - 只会导致沮丧与悲伤.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    lore:
+    - 尽管你不明白美好生活的含义,
+    - 但这个方块仍有很多未解之疑等待回答.

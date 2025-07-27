@@ -1,0 +1,21 @@
+display-name: "饥饿诅咒"
+description: "增加&a%placeholder%%&r的饥饿值流失速度"
+placeholder: "50 * %level%"
+type: curse
+
+targets:
+- helmet
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+effects:
+  - id: hunger_multiplier
+    args:
+      multiplier: "1 + 0.5 * %level%"
+
+conditions: []

@@ -1,0 +1,668 @@
+categories:
+  main: '&4至尊研究院2.0'
+  resource: '&4资源'
+  components: '&4零件'
+  cards: '&4卡片'
+  techmob: '&4生物科技'
+  machines: '&4机器'
+  electric: '&4电力'
+  tools: '&4至尊工具'
+  armor: '&4至尊盔甲'
+  weapons: '&4至尊武器'
+items:
+  supreme_adamantium_helmet:
+    name: '&f&l精金头盔'
+    lore:
+    - '&f&l精金制的头盔'
+    - ''
+    - '&3至尊盔甲'
+  supreme_aurum_helmet:
+    name: '&f&l古金头盔'
+    lore:
+    - '&f&l古金制的头盔'
+    - ''
+    - '&3至尊盔甲'
+  supreme_titanium_helmet:
+    name: '&f&l钛合金头盔'
+    lore:
+    - '&f&l钛合金制的头盔'
+    - ''
+    - '&3至尊盔甲'
+  supreme_adamantium_chestplate:
+    name: '&f&l精金胸甲'
+    lore:
+    - '&f&l精金制的胸甲'
+    - ''
+    - '&3至尊盔甲'
+  supreme_aurum_chestplate:
+    name: '&f&l古金胸甲'
+    lore:
+    - '&f&l古金制的胸甲'
+    - ''
+    - '&3至尊盔甲'
+  supreme_titanium_chestplate:
+    name: '&f&l钛合金胸甲'
+    lore:
+    - '&f&l钛合金制的胸甲'
+    - ''
+    - '&3至尊盔甲'
+  supreme_adamantium_leggings:
+    name: '&f&l精金护腿'
+    lore:
+    - '&f&l精金制的护腿'
+    - ''
+    - '&3至尊盔甲'
+  supreme_aurum_leggings:
+    name: '&f&l古金护腿'
+    lore:
+    - '&f&l古金制的护腿'
+    - ''
+    - '&3至尊盔甲'
+  supreme_titanium_leggings:
+    name: '&f&l钛合金护腿'
+    lore:
+    - '&f&l钛合金制的护腿'
+    - ''
+    - '&3至尊盔甲'
+  supreme_adamantium_boots:
+    name: '&f&l精金靴子'
+    lore:
+    - '&f&l精金制的靴子'
+    - ''
+    - '&3至尊盔甲'
+  supreme_aurum_boots:
+    name: '&f&l古金靴子'
+    lore:
+    - '&f&l古金制的靴子'
+    - ''
+    - '&3至尊盔甲'
+  supreme_titanium_boots:
+    name: '&f&l钛合金靴子'
+    lore:
+    - '&f&l钛合金制的靴子'
+    - ''
+    - '&3至尊盔甲'
+  supreme_boots_thornium:
+    name: '&f&l钍合金靴子'
+    lore:
+    - '&f&l钍合金制的靴子'
+    - ''
+    - '&3至尊盔甲'
+  supreme_boots_magic:
+    name: '&a&l魔法之靴'
+    lore:
+    - '&f&l蕴含着神秘且古老的魔法'
+    - ''
+    - '&3至尊盔甲'
+  supreme_boots_rare:
+    name: '&b&l珍奇之靴'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊盔甲'
+  supreme_boots_epic:
+    name: '&d&l史诗之靴'
+    lore:
+    - '&f&l由史诗钍合金制成'
+    - ''
+    - '&3至尊盔甲'
+  supreme_boots_legendary:
+    name: '&6&l传奇之靴'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊盔甲'
+  supreme_boots_supreme:
+    name: '&4&l至尊之靴'
+    lore:
+    - '&f&l至尊的终极之靴'
+    - ''
+    - '&3至尊盔甲'
+  supreme_chestplate_thornium:
+    name: '&f&l钍合金胸甲'
+    lore:
+    - '&f&l钍合金制的胸甲'
+    - ''
+    - '&3至尊盔甲'
+  supreme_chestplate_magic:
+    name: '&a&l魔法胸甲'
+    lore:
+    - '&f&l蕴含着神秘且古老的魔法'
+    - ''
+    - '&3至尊盔甲'
+  supreme_chestplate_rare:
+    name: '&b&l珍奇胸甲'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊盔甲'
+  supreme_chestplate_epic:
+    name: '&d&l史诗胸甲'
+    lore:
+    - '&f&l由史诗钍合金制成'
+    - ''
+    - '&3至尊盔甲'
+  supreme_chestplate_legendary:
+    name: '&6&l传奇胸甲'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊盔甲'
+  supreme_chestplate_supreme:
+    name: '&4&l至尊胸甲'
+    lore:
+    - '&f&l至尊的终极胸甲'
+    - ''
+    - '&3至尊盔甲'
+  supreme_helmet_thornium:
+    name: '&f&l钍合金头盔'
+    lore:
+    - '&f&l钍合金制的头盔'
+    - ''
+    - '&3至尊盔甲'
+  supreme_helmet_magic:
+    name: '&a&l魔法头盔'
+    lore:
+    - '&f&l蕴含着神秘且古老的魔法'
+    - ''
+    - '&3至尊盔甲'
+  supreme_helmet_rare:
+    name: '&b&l珍奇头盔'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊盔甲'
+  supreme_helmet_epic:
+    name: '&d&l史诗头盔'
+    lore:
+    - '&f&l由史诗钍合金制成'
+    - ''
+    - '&3至尊盔甲'
+  supreme_helmet_legendary:
+    name: '&6&l传奇头盔'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊盔甲'
+  supreme_helmet_supreme:
+    name: '&4&l至尊头盔'
+    lore:
+    - '&f&l至尊的终极头盔'
+    - ''
+    - '&3至尊盔甲'
+  supreme_leggings_thornium:
+    name: '&f&l钍合金护腿'
+    lore:
+    - '&f&l钍合金制的护腿'
+    - ''
+    - '&3至尊盔甲'
+  supreme_leggings_magic:
+    name: '&a&l魔法护腿'
+    lore:
+    - '&f&l蕴含着古老且神秘的魔法'
+    - ''
+    - '&3至尊盔甲'
+  supreme_leggings_rare:
+    name: '&b&l珍奇护腿'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊盔甲'
+  supreme_leggings_epic:
+    name: '&d&l史诗护腿'
+    lore:
+    - '&f&l由史诗钍合金制成'
+    - ''
+    - '&3至尊盔甲'
+  supreme_leggings_legendary:
+    name: '&6&l传奇护腿'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊盔甲'
+  supreme_leggings_supreme:
+    name: '&4&l至尊护腿'
+    lore:
+    - '&f&l至尊的终极护腿'
+    - ''
+    - '&3至尊盔甲'
+  supreme_adamantium_sword:
+    name: '&f&l精金剑'
+    lore:
+    - '&f&l精金制的剑'
+    - ''
+    - '&3至尊武器'
+  supreme_aurum_sword:
+    name: '&f&l古金剑'
+    lore:
+    - '&f&l古金制的剑'
+    - ''
+    - '&3至尊武器'
+  supreme_titanium_sword:
+    name: '&f&l钛合金剑'
+    lore:
+    - '&f&l钛合金制的剑'
+    - ''
+    - '&3至尊武器'
+  supreme_bow_thornium:
+    name: '&f&l钍合金弓'
+    lore:
+    - '&f&l钍合金制的弓'
+    - ''
+    - '&3至尊武器'
+  supreme_bow_magic:
+    name: '&a&l魔法之弓'
+    lore:
+    - '&f&l蕴含着古老且神秘的魔法'
+    - ''
+    - '&3至尊武器'
+  supreme_bow_rare:
+    name: '&b&l珍奇之弓'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊武器'
+  supreme_bow_epic:
+    name: '&d&l史诗之弓'
+    lore:
+    - '&f&l史诗般的缠丝工艺'
+    - ''
+    - '&3至尊武器'
+  supreme_bow_legendary:
+    name: '&6&l传奇之弓'
+    lore:
+    - '&f&l传奇的工艺早就了它的一生'
+    - ''
+    - '&3至尊武器'
+  supreme_bow_supreme:
+    name: '&4&l至尊之弓'
+    lore:
+    - '&f&l至尊的终极之弓'
+    - ''
+    - '&3至尊武器'
+  supreme_shield_thornium:
+    name: '&f&l钍合金盾牌'
+    lore:
+    - '&f&l钍合金制的盾牌'
+    - ''
+    - '&3至尊武器'
+  supreme_shield_magic:
+    name: '&a&l魔法盾牌'
+    lore:
+    - '&f&l蕴含着神秘且古老的魔法'
+    - ''
+    - '&3至尊武器'
+  supreme_shield_rare:
+    name: '&b&l珍奇盾牌'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊武器'
+  supreme_shield_epic:
+    name: '&d&l史诗盾牌'
+    lore:
+    - '&f&l史诗般的防御工程'
+    - ''
+    - '&3至尊武器'
+  supreme_shield_legendary:
+    name: '&6&l传奇盾牌'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊武器'
+  supreme_shield_supreme:
+    name: '&4&l至尊盾牌'
+    lore:
+    - '&f&l至尊的终极盾牌'
+    - ''
+    - '&3至尊武器'
+  supreme_sword_thornium:
+    name: '&f&l钍合金剑'
+    lore:
+    - '&f&l钍合金制的盾牌'
+    - ''
+    - '&3至尊武器'
+  supreme_sword_magic:
+    name: '&a&l魔法剑'
+    lore:
+    - '&f&l蕴含着神秘且古老的魔法'
+    - ''
+    - '&3至尊武器'
+  supreme_sword_rare:
+    name: '&b&l珍奇剑'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊武器'
+  supreme_sword_epic:
+    name: '&d&l史诗剑'
+    lore:
+    - '&f&l锋芒毕露'
+    - ''
+    - '&3至尊武器'
+  supreme_sword_legendary:
+    name: '&6&l传奇之剑'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊武器'
+  supreme_sword_supreme:
+    name: '&4&l至尊剑'
+    lore:
+    - '&f&l钍制的至尊之剑'
+    - ''
+    - '&3至尊武器'
+  supreme_adamantium_axe:
+    name: '&f&l精金斧'
+    lore:
+    - '&f&l精金制的斧头'
+    - ''
+    - '&3至尊工具'
+  supreme_aurum_axe:
+    name: '&f&l古金斧'
+    lore:
+    - '&f&l古金制的斧头'
+    - ''
+    - '&3至尊工具'
+  supreme_titanium_axe:
+    name: '&f&l钛合金斧'
+    lore:
+    - '&f&l钛合金制的斧头'
+    - ''
+    - '&3至尊工具'
+  supreme_adamantium_pickaxe:
+    name: '&f&l精金镐'
+    lore:
+    - '&f&l精金制的镐子'
+    - ''
+    - '&3至尊工具'
+  supreme_aurum_pickaxe:
+    name: '&f&l古金镐'
+    lore:
+    - '&f&l古金制的镐子'
+    - ''
+    - '&3至尊工具'
+  supreme_titanium_pickaxe:
+    name: '&f&l钛合金镐'
+    lore:
+    - '&f&l钛合金制的镐子'
+    - ''
+    - '&3至尊工具'
+  supreme_adamantium_shovel:
+    name: '&f&l精金锹'
+    lore:
+    - '&f&l精金制的铲子'
+    - ''
+    - '&3至尊工具'
+  supreme_aurum_shovel:
+    name: '&f&l古金锹'
+    lore:
+    - '&f&l古金制的铲子'
+    - ''
+    - '&3至尊工具'
+  supreme_titanium_shovel:
+    name: '&f&l钛合金锹'
+    lore:
+    - '&f&l钛合金制的铲子'
+    - ''
+    - '&3至尊工具'
+  supreme_axe_thornium:
+    name: '&f&l钍合金斧'
+    lore:
+    - '&f&l钍合金制的斧头'
+    - ''
+    - '&3至尊工具'
+  supreme_axe_magic:
+    name: '&a&l魔法斧'
+    lore:
+    - '&f&l蕴含着古老且神秘的魔法'
+    - ''
+    - '&3至尊工具'
+  supreme_axe_rare:
+    name: '&b&l珍奇斧'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊工具'
+  supreme_axe_epic:
+    name: '&d&l史诗斧'
+    lore:
+    - '&f&l史诗般的破刃工艺'
+    - ''
+    - '&3至尊工具'
+  supreme_axe_legendary:
+    name: '&6&l传奇斧'
+    lore:
+    - '&f&l传奇的工艺造就了它的一生'
+    - ''
+    - '&3至尊工具'
+  supreme_axe_supreme:
+    name: '&4&l至尊斧'
+    lore:
+    - '&f&l至尊的终极之斧'
+    - ''
+    - '&3至尊工具'
+  supreme_pickaxe_thornium:
+    name: '&f&l钍合金镐'
+    lore:
+    - '&f&l钍合金制的镐子'
+    - ''
+    - '&3至尊工具'
+  supreme_pickaxe_magic:
+    name: '&a&l魔法镐'
+    lore:
+    - '&f&l蕴含着古老且神秘的魔法'
+    - ''
+    - '&3至尊工具'
+  supreme_pickaxe_rare:
+    name: '&b&l珍奇镐'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊工具'
+  supreme_pickaxe_epic:
+    name: '&d&l史诗镐'
+    lore:
+    - '&f&l史诗般的打磨工艺'
+    - ''
+    - '&3至尊工具'
+  supreme_pickaxe_legendary:
+    name: '&6&l传奇镐'
+    lore:
+    - '&f&l传奇的工艺早就了它的一生'
+    - ''
+    - '&3至尊工具'
+  supreme_pickaxe_supreme:
+    name: '&4&l至尊镐'
+    lore:
+    - '&f&l至尊的终极之镐'
+    - ''
+    - '&3至尊工具'
+  supreme_shovel_thornium:
+    name: '&f&l钍合金锹'
+    lore:
+    - '&f&l钍合金制的铲子'
+    - ''
+    - '&3至尊工具'
+  supreme_shovel_magic:
+    name: '&a&l魔法锹'
+    lore:
+    - '&f&l蕴含着古老且神秘的魔法'
+    - ''
+    - '&3至尊工具'
+  supreme_shovel_rare:
+    name: '&b&l珍奇锹'
+    lore:
+    - '&f&l珍奇且珍贵'
+    - ''
+    - '&3至尊工具'
+  supreme_shovel_epic:
+    name: '&d&l史诗锹'
+    lore:
+    - '&f&l史诗般的榫卯技术'
+    - ''
+    - '&3至尊工具'
+  supreme_shovel_legendary:
+    name: '&6&l传奇锹'
+    lore:
+    - '&f&l传奇的工艺早就了它的一生'
+    - ''
+    - '&3至尊工具'
+  supreme_shovel_supreme:
+    name: '&4&l至尊锹'
+    lore:
+    - '&f&l至尊的终极之锹'
+    - ''
+    - '&3至尊工具'
+  supreme_mob_collector_tool_i:
+    name: '&6生物科技捕捉器 I'
+    lore:
+    - ''
+    - '&f用于捕捉蜜蜂和铁傀儡'
+    - ''
+    - '&3至尊工具'
+  supreme_mob_collector_tool_ii:
+    name: '&6生物科技捕捉器 II'
+    lore:
+    - ''
+    - '&f用于捕捉蜜蜂和铁傀儡'
+    - ''
+    - '&3至尊工具'
+  supreme_mob_collector_tool_iii:
+    name: '&6生物科技捕捉器 III'
+    lore:
+    - ''
+    - '&f用于捕捉蜜蜂和铁傀儡'
+    - ''
+    - '&3至尊工具'
+  supreme_generator_mob_basic:
+    name: '&b基础生物沼气发电机'
+    lore:
+    - '&f从牛、猪、羊的粪便中收集沼气'
+    - '&f通过燃烧沼气来发电'
+    - '&8(需要动物在距发电机3格以内)'
+    - ''
+    - '&3至尊机器'
+  supreme_generator_mob_medium:
+    name: '&b中级生物沼气发电机'
+    lore:
+    - '&f从牛、猪、羊的粪便中收集沼气'
+    - '&f通过燃烧沼气来发电'
+    - '&8(需要动物在距发电机6格以内)'
+    - ''
+    - '&3至尊机器'
+  supreme_generator_mob_advanced:
+    name: '&b高级生物沼气发电机'
+    lore:
+    - '&f从牛、猪、羊的粪便中收集沼气'
+    - '&f通过燃烧沼气来发电'
+    - '&8(需要动物在距发电机9格以内)'
+    - ''
+    - '&3至尊机器'
+  supreme_aurum_capacitor:
+    name: '&9古金电容'
+    lore:
+    - ''
+    - '&3至尊机器'
+  supreme_titanium_capacitor:
+    name: '&9钛合金电容'
+    lore:
+    - ''
+    - '&3至尊机器'
+  supreme_adamantium_capacitor:
+    name: '&9精金电容'
+    lore:
+    - ''
+    - '&3至尊机器'
+  supreme_thornium_capacitor:
+    name: '&9钍合金电容'
+    lore:
+    - ''
+    - '&3至尊机器'
+  supreme_supreme_capacitor:
+    name: '&9至尊电容'
+    lore:
+    - '&c&o建议每个能源网络中'
+    - '&c&o不要使用该电容超过一个'
+    - ''
+    - '&3至尊机器'
+  supreme_basic_ignis_generator:
+    name: '&9基础火电发电机'
+    lore:
+    - '&f下方须点火'
+    - ''
+    - '&3至尊机器'
+  supreme_ignis_generator:
+    name: '&9至尊火电发电机'
+    lore:
+    - '&f下方须点火'
+    - ''
+    - '&3至尊机器'
+  supreme_basic_ventus_generator:
+    name: '&9基础风力发电机'
+    lore:
+    - '&f需将发电机'
+    - '&f置于迎风面中'
+    - ''
+    - '&3至尊机器'
+  supreme_ventus_generator:
+    name: '&9至尊风力发电机'
+    lore:
+    - '&f需将发电机'
+    - '&f置于迎风面中'
+    - ''
+    - '&3至尊机器'
+  supreme_basic_aqua_generator:
+    name: '&9基础水利发电机'
+    lore:
+    - '&f下方须有水源'
+    - ''
+    - '&3至尊机器'
+  supreme_aqua_generator:
+    name: '&9至尊水利发电机'
+    lore:
+    - '&f下方须有水源'
+    - ''
+    - '&3至尊机器'
+  supreme_basic_lux_generator:
+    name: '&9基础光能发电机'
+    lore:
+    - '&f须将其敞天置于'
+    - '&f日光或月光之下'
+    - ''
+    - '&3至尊机器'
+  supreme_lux_generator:
+    name: '&9至尊光能发电机'
+    lore:
+    - '&f需将发电机'
+    - '&f置于迎风面中'
+    - ''
+    - '&3至尊机器'
+  supreme_basic_lumium_generator:
+    name: '&9基础地能发电机'
+    lore:
+    - '&f须将其埋入地下'
+    - ''
+    - '&3至尊机器'
+  supreme_lumium_generator:
+    name: '&9至尊地能发电机'
+    lore:
+    - '&f须将其埋入地下'
+    - ''
+    - '&3至尊机器'
+  supreme_thornium_generator:
+    name: '&9基础万用发电机'
+    lore:
+    - '&f在任何地方都可以发电'
+    - ''
+    - '&3至尊机器'
+  supreme_supreme_generator:
+    name: '&9至尊万用发电机'
+    lore:
+    - '&f在任何地方都可以发电'
+    - ''
+    - '&3至尊机器'
+messages:
+  no-input: '&c请在此放入物品'
+  output-no-space: '&c无输出空间!'
+  not-enough-power: '&c无足够电量!'

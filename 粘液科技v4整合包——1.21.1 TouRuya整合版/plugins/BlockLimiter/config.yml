@@ -1,0 +1,5 @@
+
+options:
+
+  # 是否启用自动更新
+  auto-update: true

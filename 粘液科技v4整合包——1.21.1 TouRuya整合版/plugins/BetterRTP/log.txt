@@ -1,0 +1,50 @@
+2025-07-27 18:53:09 [INFO]: Loading Overrides...
+2025-07-27 18:53:09 [INFO]: Loading World Types...
+2025-07-27 18:53:09 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-07-27 18:53:09 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-07-27 18:53:09 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-07-27 18:53:09 [INFO]: Loading Defaults...
+2025-07-27 18:53:09 [INFO]: Loading Custom Worlds...
+2025-07-27 18:53:09 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-07-27 18:53:09 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-07-27 18:53:09 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2025-07-27 18:53:09 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-07-27 18:53:09 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-07-27 18:53:09 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-07-27 18:54:23 [INFO]: Attempting to queue up some more safe locations...
+2025-07-27 18:54:34 [WARNING]: Seems like the world `SmallSpace` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- SmallSpace: NETHER`
+2025-07-27 18:56:24 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 18:56:24 [WARNING]: Seems like the world `SpaceWorld` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- SpaceWorld: NETHER`
+2025-07-27 18:58:18 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 18:58:18 [INFO]: Queue position generated: id= default_SpaceWorld, database_ID= 1086, location= x: -4833, y: 180, z: -3861, world: SpaceWorld
+2025-07-27 19:00:18 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:02:05 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:03:53 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:06:10 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:08:22 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:10:22 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:12:28 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:14:32 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:16:30 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:18:26 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:20:19 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:22:08 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:23:59 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:26:00 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:27:55 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:29:52 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:31:44 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:33:28 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:35:20 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:37:10 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:38:58 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:40:41 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:42:27 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:44:03 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:45:54 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:47:41 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:49:22 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:51:05 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:51:05 [INFO]: Queue position generated: id= default_SpaceWorld, database_ID= 1087, location= x: -3512, y: 178, z: -1923, world: SpaceWorld
+2025-07-27 19:52:51 [INFO]: Max attempts to create a Queue reached for default_SmallSpace (amount: 0)
+2025-07-27 19:52:51 [INFO]: Queueing paused, max queue limit reached!

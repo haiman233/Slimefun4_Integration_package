@@ -1,0 +1,334 @@
+Better_Shears:
+  name: '&f更好的剪刀'
+  type: Passive
+  lore:
+  - 75% 几率在剪羊毛时获得双倍羊毛!
+Clear_Effects:
+  name: '&增强牛奶'
+  cooldown: 10
+  type: Use Item
+  lore:
+  - 使用时将清除所有药水效果!
+Eggpult:
+  name: '&6鸡蛋布丁'
+  cooldown: 30
+  type: Use Item
+  lore:
+  - 发射一枚爆炸性鸡蛋!
+Pig_Rancher:
+  name: '&d养猪人'
+  type: Passive
+  lore:
+  - 成为养猪人
+  - 骑着猪时你会获得非常快的速度
+Winged_Creature:
+  name: '&a有翼生物'
+  type: Passive
+  lore:
+  - 获得缓降效果!
+Aquatic_Creature:
+  name: '&3水生生物'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 获得潮涌核心效果!
+Ink_Spray:
+  name: '&0墨水喷射'
+  cooldown: 30
+  type: Use Item
+  lore:
+  - 使你周围的玩家失明!
+Speedy_Escape:
+  name: '&e快速逃离'
+  type: Passive
+  lore:
+  - 获得飞快的速度以逃离敌人!
+  - 血量低于10%时触发
+Hops:
+  name: '&e啤酒花'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 获得跳跃提升，像兔子一样跳跃!
+Bee_Buddy:
+  name: '&e蜜蜂的朋友'
+  cooldown: 10
+  type: Use Item
+  lore:
+  - 随机获得蜂蜜或蜜脾!
+Webber:
+  name: '&f织网'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 对附近玩家织网来阻止他们!
+Explode:
+  name: '&c激增'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 释放致命的爆炸!
+Strong_Bones:
+  name: '&f强壮骨骼'
+  type: Passive
+  lore:
+  - 强化你脆弱的骨骼，获得抗性提升!
+  - 血量低于50%时触发
+Undead_Protection:
+  name: '&2亡灵保护'
+  type: Passive
+  lore:
+  - 任何伤害药水效果都会治疗你!
+  - (除了滞留型药水)
+What_Fall:
+  name: '&a不完美的自由落体'
+  type: Passive
+  lore:
+  - 你的摔落伤害减半
+Group_Protection:
+  name: '&c群体保护'
+  type: Passive
+  lore:
+  - 攻击僵尸猪灵时不会激怒附近其他的僵尸猪灵!
+Infest:
+  name: '&8虫蚀'
+  cooldown: 10
+  type: Use Item
+  lore:
+  - 在你使用它的石头上滋生细菌!
+Sly_Fox:
+  name: '&4狡猾的狐狸'
+  type: Passive
+  lore:
+  - 不再受到甜浆果、仙人掌等的伤害!
+Echolocation:
+  name: '&9超声波探测'
+  cooldown: 20
+  type: Use Item
+  lore:
+  - 标记出附近的所有怪物!
+Frosty:
+  name: '&b严寒'
+  type: Passive
+  lore:
+  - 不再受到细雪的影响!
+Stew_Maker:
+  name: '&c炖肉制造商'
+  cooldown: 15
+  type: Use Item
+  lore:
+  - 用炖肉填满空碗
+Lava_Walker:
+  name: '&4岩浆行者'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 暂时获得在岩浆上行走的能力!
+Scute_Shedding:
+  name: '&2鳞甲脱落'
+  type: Passive
+  lore:
+  - 获得脱落的海龟鳞甲!
+  - 受到伤害时有机会掉落鳞甲
+Villager_Friend:
+  name: '&a村民之友'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 与村民交易可获得优惠!
+Poisonous_Thorns:
+  name: '&2毒荆棘'
+  type: Passive
+  lore:
+  - 荆棘伤害有25%的几率附加中毒效果!
+Play_Dead:
+  name: '&d装死'
+  type: Passive
+  lore:
+  - 获得隐形与生命恢复!
+  - 血量低于25%时触发
+Glow_Up:
+  name: '&b焕发光彩'
+  cooldown: 30
+  type: Use Item
+  lore:
+  - 让附近的物品展示框与告示牌发光!
+Light_It_Up:
+  name: '&e点亮它'
+  cooldown: 30
+  type: Use Item
+  lore:
+  - 将岩浆块转化为蛙明灯!
+High_Jump:
+  name: '&6高跳'
+  cooldown: 15
+  type: Use Item
+  lore:
+  - 把自己高高地抛向空中!
+Morning_Gift:
+  name: '&e清晨礼物礼物!'
+  type: Passive
+  lore:
+  - 睡觉后从你的猫那里获得一份礼物!
+Better_Food:
+  name: '&f更好的食物!'
+  type: Passive
+  lore:
+  - 食用时有30%几率获得双倍饥饿度!
+Spitter:
+  name: '&ftui'
+  cooldown: 15
+  type: Use Item
+  lore:
+  - 向你的敌人吐口水!
+Dolphin_Swimmer:
+  name: '&3海豚泳者'
+  type: Passive
+  lore:
+  - 在水下获得海豚的恩惠!
+Natural_Fisher:
+  name: '&f大自然的渔民'
+  type: Passive
+  lore:
+  - 在水下游泳时有机会捉到鱼!
+Crunchy_Bamboo:
+  name: '&2可口的竹子'
+  type: Passive
+  lore:
+  - 获得吃竹子的能力!
+Goats_Instrument:
+  name: '&8山羊乐器'
+  cooldown: 5
+  type: Use Item
+  lore:
+  - 随机播放山羊角音效!
+Poison_Spray:
+  name: '&2毒药喷雾'
+  cooldown: 30
+  type: Use Item
+  lore:
+  - 向所有附近的敌人喷洒浓浓的毒液!
+Strange_Secrets:
+  name: '&d奇怪的秘密'
+  type: Passive
+  lore:
+  - 将黄金转化为奇怪的下界粘液!
+Multishoot:
+  name: '&8多重射击'
+  type: Passive
+  lore:
+  - 你的弓现在有几率多重射击了
+Crit_hit:
+  name: '&6暴击'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 在一段时间内获得力量3效果!
+Mini_Teleport:
+  name: '&5迷你传送'
+  cooldown: 20
+  type: Use Item
+  lore:
+  - 像吃紫颂果一样随机传送!
+Nautral_Thorns:
+  name: '&6自然荆棘'
+  type: Passive
+  lore:
+  - 获得荆棘效果!
+Hunger_Hit:
+  name: '&2饥饿来袭'
+  type: Passive
+  lore:
+  - 攻击敌人时有30%几率施加饥饿效果!
+Slow_Shot:
+  name: '&3慢镜头'
+  type: Passive
+  lore:
+  - 射击敌人时有30%的几率施加缓慢!
+Sleep_No_More:
+  name: '&9不再睡觉'
+  cooldown: 600
+  type: Use Item
+  lore:
+  - 重置幻翼的计时器!
+Blazing_Thorns:
+  name: '&c燃烧的荆棘'
+  type: Passive
+  lore:
+  - 有25%几率点燃攻击你的人!
+Magma_Trap:
+  name: '&4岩浆陷阱'
+  cooldown: 120
+  type: Use Item
+  lore:
+  - 将你的敌人浸泡在熔岩中!
+Better_Brewer:
+  name: '&5更好的酿造师'
+  cooldown: 120
+  type: Use Item
+  lore:
+  - 将水瓶酿造成完美的药水!
+Heavy_Hit:
+  name: '&e重击'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 你的下一次攻击会把你的敌人发射到空中!
+Iron_Defense:
+  name: '&f钢铁防御'
+  type: Passive
+  lore:
+  - 获得抗性提升的效果
+Targeted_Teleport:
+  name: '&d定点传送'
+  cooldown: 20
+  type: Use Item
+  lore:
+  - 向你看的方向传送!
+Another_Chance:
+  name: '&e多一次机会'
+  type: Passive
+  lore:
+  - 死后的又一次机会!
+  - 当你受到致命伤害时触发
+Tank:
+  name: '&8坦克'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 暂时获得力量和抗性提升
+Bullet_Swarm:
+  name: '&d子弹群'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 射出一大群子弹
+  - 会让你成为你敌人的目标
+Wither_Resistance:
+  name: '&0抗枯萎性'
+  type: Passive
+  lore:
+  - 不再受到枯萎效果的伤害
+No_Fatigue:
+  name: '&8不疲劳'
+  type: Passive
+  lore:
+  - 不再受到挖掘疲劳效果的影响
+Skull_Fire:
+  name: '&4骷髅之火'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 发射一个增强的凋灵骷髅头
+Dragons_Breath:
+  name: '&d龙息'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 用龙息灌满瓶子
+Dark_Aura:
+  name: '&b黑暗光环'
+  cooldown: 60
+  type: Use Item
+  lore:
+  - 给所有附近的玩家失明和缓慢效果

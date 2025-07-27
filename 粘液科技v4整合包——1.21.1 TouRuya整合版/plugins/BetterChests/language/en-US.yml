@@ -1,0 +1,65 @@
+groups:
+  main: '&6&l更好的箱子'
+  storages: '&a&l储存'
+  tool_machines: '&b&l工具 & 机器'
+  materials: '&3&l材料'
+  cargo: '&e&l货运'
+items:
+  tip:
+    name: '&b提示'
+    lore:
+    - '&c&l不要在一个世界里放太多抽屉!'
+    - '&c&l抽屉一旦被放置，将会产生3个实体'
+    - '&c&l如果将太多抽屉放在一个抽屉里，可能会丢失一些物品。'
+  gear_wheel:
+    name: '&b箱子齿轮'
+    lore:
+    - '&7一个用来制作箱子的东西'
+  chest_color_changer:
+    name: '&a箱子颜色修改器'
+    lore:
+    - '&a右击 改变箱子颜色'
+    - '&aShift + 右击 循环更改颜色'
+    - ''
+    - '&d当前颜色: &6无颜色'
+    - ''
+    - '&8⇨ &e⚡ &7 0 / 200 J'
+  location_recorder:
+    name: '&a位置记录仪'
+    lore:
+    - '&bShift + 右击 记录位置'
+    - '&b右击 打开相应的机器'
+  tightly_blistering_ingot:
+    name: '&e致密气泡锭'
+    lore:
+    - '&7高硬度金属'
+  tightly_blistering_plate:
+    name: '&e致密起泡板'
+    lore:
+    - '&7高硬度金属板'
+  drawer:
+    name_lvl: '&b抽屉 &aLv. &6%lvl%'
+    name_max: '&b抽屉 &aLv. &6MAX'
+    lore:
+    - '&b空手右击 抓取64个物品'
+    - '&b右击 储存你手中的物品'
+    - '&d容量: %capacity%'
+  infinity_expansion_like_storage:
+    name_lvl: '&b无尽扩展式存储 &aLv. &6%lvl%'
+    name_max: '&b无尽扩展式存储 &aLv. &6MAX'
+    lore:
+    - '&b无尽贪婪式储存单元'
+    - '&d容量: %capacity%'
+    status: '&a状态'
+    error: '&c&l错误'
+  p2p_transfer:
+    name: '&a点对点传输'
+    lore:
+    - '&b&l在两个方块之间转移物品的好工具'
+    - '&d&l放置并准备使用'
+    up: '&7&l上'
+    down: '&7&l下'
+    west: '&7&l西'
+    east: '&7&l东'
+    north: '&7&l北'
+    south: '&7&l南'

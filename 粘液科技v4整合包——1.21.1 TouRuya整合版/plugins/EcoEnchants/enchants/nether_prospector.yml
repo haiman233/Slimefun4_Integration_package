@@ -1,0 +1,29 @@
+display-name: "远古时运"
+description: "挖掘远古残骸时,将额外增加&a%placeholder%%&r的掉落几率"
+placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
+type: normal
+
+targets:
+  - pickaxe
+conflicts:
+  - fortune
+  - silk_touch
+rarity: legendary
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: multiply_drops
+    args:
+      on_items:
+        - ancient_debris
+      fortune: "%level%"
+    filters:
+      player_placed: false
+    triggers:
+      - block_item_drop
+
+conditions: []

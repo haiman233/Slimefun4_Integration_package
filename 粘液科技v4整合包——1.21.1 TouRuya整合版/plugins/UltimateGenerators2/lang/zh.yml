@@ -1,0 +1,354 @@
+console:
+  loaded-language: '已加载语言: {0}'
+
+items:
+  # category items
+  _UG2_MAIN:
+    conditions:
+      force-load: true
+    name: '&d终极发电机2'
+  _UG2_MISC:
+    conditions:
+      force-load: true
+    name: '&d终极发电机2 &7- &7杂项'
+  _UG2_MACHINES:
+    conditions:
+      force-load: true
+    name: '&d终极发电机2 &7- &9机器'
+  _UG2_ELECTRICITY_STORAGE:
+    conditions:
+      force-load: true
+    name: '&d终极发电机2 &7- &e电力存储'
+  _UG2_SIMPLE_GENERATORS:
+    conditions:
+      force-load: true
+    name: '&d终极发电机2 &7- &b简易发电机'
+  _UG2_MODULAR_GENERATORS:
+    conditions:
+      force-load: true
+    name: '&d终极发电机2 &7- &c模块化发电机'
+  
+  # recipe type display items
+  _UG2_CANNOT_CRAFT:
+    conditions:
+      force-load: true
+    name: '&c无法合成'
+    lore:
+    - '&c此物品无法合成。'
+  _UG2_DIESEL_REFINERY:
+    conditions:
+      force-load: true
+    name: '&c柴油精炼厂'
+    lore:
+    - '&f将原油精炼为柴油。'
+  _UG2_BIOMASS_EXTRACTION_MACHINE:
+    conditions:
+      force-load: true
+    name: '&a生物质提取机'
+    lore:
+    - '&f从物品中提取生物质。'
+  _UG2_BIOFUEL_REFINERY:
+    conditions:
+      force-load: true
+    name: '&c生物燃料精炼厂'
+    lore:
+    - '&f将生物质精炼为生物燃料。'
+  _UG2_HEAVY_WATER_REFINING_MACHINE:
+    conditions:
+      force-load: true
+    name: '&7重水精炼机'
+    lore:
+    - '&f将水精炼为重水。'
+  
+  # items
+  ENDLESS_GENERATOR:
+    name: '&6无尽发电机'
+    lore:
+    - '&7根据红石信号强度发电。'
+    - '&7'
+    - '&8⇨ &e⚡ &7256 J/信号强度'
+    lore-overrides:
+      '4': '%sftrlore_Power_256_/信号强度%'
+  DIESEL_REFINERY:
+    name: '&c柴油精炼厂'
+    lore:
+    - ''
+    - '&f将原油精炼为柴油'
+    - ''
+    - '&6高级机器'
+    - '&8⇨ &e⚡ &716 J/t'
+    lore-overrides:
+      '4': '%sftrlore_Machine_Advanced_Machine%'
+      '5': '%sftrlore_PowerPerTick_16%'
+  DIESEL_BUCKET:
+    name: '&r柴油桶'
+  DIESEL_GENERATOR:
+    name: '&7柴油发电机'
+    lore:
+    - ''
+    - '&6高级发电机'
+    - '&8⇨ &e⚡ &7256 J 缓冲'
+    - '&8⇨ &e⚡ &718 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Generator%'
+      '3': '%sftrlore_PowerBuffer_256%'
+      '4': '%sftrlore_PowerPerTick_18%'
+  BIOMASS_EXTRACTION_MACHINE:
+    name: '&a生物质提取机'
+    lore:
+    - ''
+    - '&7中型机器'
+    - '&8⇨ &e⚡ &73 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Medium_Machine%'
+      '3': '%sftrlore_PowerPerTick_3%'
+  BIOMASS_BUCKET:
+    name: '&r生物质桶'
+  BIOFUEL_REFINERY:
+    name: '&c生物燃料精炼厂'
+    lore:
+    - ''
+    - '&f将生物质精炼为生物燃料'
+    - ''
+    - '&6高级机器'
+    - '&8⇨ &e⚡ &718 J/t'
+    lore-overrides:
+      '4': '%sftrlore_Machine_Advanced_Machine%'
+      '5': '%sftrlore_PowerPerTick_18%'
+  BIOFUEL_BUCKET:
+    name: '&r生物燃料桶'
+  BIOFUEL_GENERATOR:
+    name: '&2生物燃料发电机'
+    lore:
+    - ''
+    - '&6高级发电机'
+    - '&8⇨ &e⚡ &7256 J 缓冲'
+    - '&8⇨ &e⚡ &718 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Generator%'
+      '3': '%sftrlore_PowerBuffer_256%'
+      '4': '%sftrlore_PowerPerTick_18%'
+  DRAGON_BREATH_GENERATOR:
+    name: '&5龙息发电机'
+    lore:
+    - ''
+    - '&6高级发电机'
+    - '&8⇨ &e⚡ &7256 J 缓冲'
+    - '&8⇨ &e⚡ &79 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Generator%'
+      '3': '%sftrlore_PowerBuffer_256%'
+      '4': '%sftrlore_PowerPerTick_9%'
+  REACTION_GENERATOR:
+    name: '&2反应堆发电机'
+    lore:
+    - ''
+    - '&r小型核反应发电机'
+    - '&r无需冷却。'
+    - '&r直接消耗低能核燃料，'
+    - '&r但燃料利用率较低。'
+    - ''
+    - '&6高级发电机'
+    - '&8⇨ &e⚡ &7256 J 缓冲'
+    - '&8⇨ &e⚡ &78 J/t'
+    lore-overrides:
+      '7': '%sftrlore_Machine_Advanced_Generator%'
+      '8': '%sftrlore_PowerBuffer_256%'
+      '9': '%sftrlore_PowerPerTick_8%'
+  ENDER_CRYSTAL_GENERATOR:
+    name: '&d末影水晶发电机'
+    lore:
+    - ''
+    - '&r连接并利用附近的强化末影水晶'
+    - '&r来发电。'
+    - ''
+    - '&4终极发电机'
+    lore-overrides:
+      '5': '%sftrlore_Machine_EndGame_Generator%'
+  ENDER_CRYSTAL_GENERATOR_BASE:
+    name: '&b末影水晶发电机基座'
+  ENDER_CRYSTAL_GENERATOR_STABILIZER:
+    name: '&5末影水晶发电机稳定器'
+    lore:
+    - ''
+    - '&6高级机器'
+    - '&8⇨ &e⚡ &79 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Machine%'
+      '3': '%sftrlore_PowerPerTick_9%'
+  ENDER_CRYSTAL_ENHANCER:
+    name: '&9末影水晶增强器'
+  MODULAR_GENERATOR_REGULATOR:
+    name: '&b模块化发电机核心'
+  SOLID_STORAGE_EXPANSION:
+    name: '&f固体存储扩展'
+  LIQUID_STORAGE_EXPANSION:
+    name: '&f液体存储扩展'
+  ELECTRICITY_STORAGE_UNIT:
+    name: '&f电力存储单元'
+  ADVANCED_BATTERY:
+    name: '&e高级电池'
+  ALPHA_BATTERY:
+    name: '&a阿尔法电池'
+  BETA_BATTERY:
+    name: '&9贝塔电池'
+  GAMMA_BATTERY:
+    name: '&d伽马电池'
+  BASIC_ELECTRICITY_STORAGE:
+    name: '&e基础电力存储'
+    lore:
+    - ''
+    - '&6普通电容器'
+    - '&8⇨ &e⚡ &7640 J 容量'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Average_Capacitor%'
+      '3': '%sftrlore_PowerCapacity_640%'
+  ADVANCED_ELECTRICITY_STORAGE:
+    name: '&d高级电力存储'
+    lore:
+    - ''
+    - '&a中型电容器'
+    - '&8⇨ &e⚡ &72560 J 容量'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Medium_Capacitor%'
+      '3': '%sftrlore_PowerCapacity_2560%'
+  ALPHA_ELECTRICITY_STORAGE:
+    name: '&a&l阿尔法&a-α 电力存储'
+    lore:
+    - ''
+    - '&2高级电容器'
+    - '&8⇨ &e⚡ &75120 J 容量'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Capacitor%'
+      '3': '%sftrlore_PowerCapacity_5120%'
+  BETA_ELECTRICITY_STORAGE:
+    name: '&9&l贝塔&9-β 电力存储'
+    lore:
+    - ''
+    - '&4终极电容器'
+    - '&8⇨ &e⚡ &740960 J 容量'
+    lore-overrides:
+      '2': '%sftrlore_Machine_EndGame_Capacitor%'
+      '3': '%sftrlore_PowerCapacity_40960%'
+  GAMMA_ELECTRICITY_STORAGE:
+    name: '&5&l伽马&5-γ 电力存储'
+    lore:
+    - ''
+    - '&4终极电容器'
+    - '&8⇨ &e⚡ &7327680 J 容量'
+    lore-overrides:
+      '2': '%sftrlore_Machine_EndGame_Capacitor%'
+      '3': '%sftrlore_PowerCapacity_327680%'
+  LAMBDA_ELECTRICITY_STORAGE:
+    name: '&d&l兰姆达&d-λ 电力存储'
+    lore:
+    - ''
+    - '&f实际上，这么大的容量真的有必要吗...？'
+    - ''
+    - '&4终极电容器'
+    - '&8⇨ &e⚡ &72621440 J 容量'
+    - ''
+    - '&8&o你真的以为这就是最大容量了吗？'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Capacitor%'
+      '5': '%sftrlore_PowerCapacity_2621440%'
+  KAPA_ELECTRICITY_STORAGE:
+    name: '&8&l卡帕&8-Κ 电力存储'
+    lore:
+    - ''
+    - '&4&l机密'
+    - ''
+    - '&4终极电容器'
+    - '&8⇨ &e⚡ &720971520 J 容量'
+    - ''
+    - '&8&oFreeze_Dolphin不会就此止步！'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Capacitor%'
+      '5': '%sftrlore_PowerCapacity_20971520%'
+  PHI_ELECTRICITY_STORAGE:
+    name: '&f&l斐&f-Φ 电力存储'
+    lore:
+    - ''
+    - '&4&l机密'
+    - ''
+    - '&4终极电容器'
+    - '&8⇨ &e⚡ &7167772160 J 容量'
+    - ''
+    - '&f在你成为服务器第一之前，最好先把它充满电！'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Capacitor%'
+      '5': '%sftrlore_PowerCapacity_167772160%'
+  QUANTUM_SOLAR_GENERATOR:
+    name: '&d量子太阳能发电机'
+    lore:
+    - ''
+    - '&9在夜间也能发电'
+    - ''
+    - '&4终极发电机'
+    - '&8⇨ &e⚡ &765536 J 缓冲'
+    - '&8⇨ &e⚡ &72048 J/s (白天)'
+    - '&8⇨ &e⚡ &71024 J/s (夜晚)'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Generator%'
+      '5': '%sftrlore_PowerBuffer_65536%'
+      '6': '%sftrlore_Power_2048_/s (白天)%'
+      '7': '%sftrlore_Power_1024_/s (夜晚)%'
+  RUNE_COMPLEX_ENDER:
+    name: '&7古代符文 &8&l[&b&l末影&8&l]'
+  ENDER_LUMP_4:
+    name: '&5末影块 &7- &eIV'
+    lore:
+    - ''
+    - '&c&o等级: IV'
+  HEAVY_WATER_BUCKET:
+    name: '&f重水桶'
+  HEAVY_WATER_REFINING_MACHINE:
+    name: '&7重水精炼机'
+    lore:
+    - ''
+    - '&6高级机器'
+    - '&8⇨ &e⚡ &79 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Machine%'
+      '3': '%sftrlore_PowerPerTick_9%'
+  NEUTRON_MODERATOR:
+    name: '&9中子减速剂'
+  THERMAL_NEUTRON_REACTOR:
+    name: '&c热中子反应堆'
+    lore:
+    - ''
+    - '&r需要冷却！'
+    - '&8⇨ &b必须被水包围'
+    - '&8⇨ &b必须提供热中子反应堆冷却单元'
+  THERMAL_NEUTRON_REACTOR_COOLANT_CELL:
+    name: '&c热中子反应堆冷却单元'
+  RAINBOW_ALLOY:
+    name: '&d彩虹合金'
+  REINFORCED_RAINBOW_GLASS:
+    name: '&d强化彩虹玻璃'
+    lore:
+    - ''
+    - '&f可以像彩虹一样随机变色'
+  RAINBOW_REACTOR:
+    name: '&d彩虹反应堆'
+    lore:
+    - ''
+    - '&8⇨ &b只有在完整结构中才能工作'
+    - ''
+    - '&4终极发电机'
+    - '&8⇨ &e⚡ &732768 J 缓冲'
+    - '&8⇨ &e⚡ &71536 J/s'
+    - '&8⇨ &e⚡ &7雷暴天气时发电量提升1.5倍'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Generator%'
+      '5': '%sftrlore_PowerBuffer_32768%'
+      '6': '%sftrlore_PowerPerSecond_1536%'
+  GLASS_ELECTRICITY_TRANSMITTER:
+    name: '&2电力传输器'
+    lore:
+    - ''
+    - '&e基础电容器'
+    - '&8⇨ &e⚡ &716 J 容量'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Basic_Capacitor%'
+      '3': '%sftrlore_PowerCapacity_16%'

@@ -1,0 +1,4 @@
+[20:02:49] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-jvmci-23.1-b60; Oracle Corporation Oracle GraalVM 21.0.7+8.1) on Windows 10 10.0 (amd64)
+[20:02:49] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[20:02:49] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[20:02:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...

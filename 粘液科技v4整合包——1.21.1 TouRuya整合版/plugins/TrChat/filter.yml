@@ -1,0 +1,21 @@
+Enable:
+  Chat: false
+  Sign: false
+  Anvil: false
+
+Cloud-Thesaurus:
+  Enabled: false
+  Ignored: ['nt']
+  Urls:
+    - 'https://raw.githubusercontent.com/Yurinann/Filter-Thesaurus-Cloud/main/database.json' # 感谢南城提供的词库
+    # 有时导致误判 自行开启
+    # - 'https://raw.githubusercontent.com/konsheng/Sensitive-lexicon/main/ThirdPartyCompatibleFormats/TrChat/SensitiveLexicon.json'
+
+Local:
+  - NMSL
+  - fuck
+  - shit
+
+Ignored-Punctuations: ['!','.',',','#','$','%','&','*','(',')','|','?','/','@','"','\',';','[',']','{','}','+','~','-','_','=','^','<','>',' ','　','！','。','，','￥','（','）','？','、','“','‘','；','【','】','——','……','《','》','\\', '`']
+WhiteList: ['has been']
+Replacement: '*'

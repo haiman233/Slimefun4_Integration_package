@@ -1,0 +1,23 @@
+====================AN FATAL OCCURRED====================
+DO NOT REPORT THIS ERROR TO JustEnoughGuide DEVELOPERS!!! THIS IS NOT A JustEnoughGuide BUG!
+If you are sure that this is a JustEnoughGuide bug, please report to https://github.com/balugaq/JustEnoughGuide/issues/
+An unexpected error occurred.
+JustEnoughGuide version: Build 165 (git 9cbf3ae)
+Java version: 23.0.1
+OS: Windows 10 10.0 amd64
+Minecraft version: MINECRAFT_1_21_1
+Slimefun version: 4299eb3-Beta
+Error: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:192)
+	at java.base/java.util.List.of(List.java:1170)
+	at [粘液美食]SlimeFoodPlugin-Build 2 (git 9a231cb).jar//me.gamingoninsulin.slimefood.multiblocks.SFBrickOven.getDisplayRecipes(SFBrickOven.java:33)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.api.groups.SearchGroup.lambda$init$4(SearchGroup.java:782)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)

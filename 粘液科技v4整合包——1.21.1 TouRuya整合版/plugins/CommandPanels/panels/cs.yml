@@ -1,0 +1,143 @@
+panels:
+  cs:
+    perm: default
+    rows: 4
+    title: '&2&l配置面板'
+    panelType:
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    commands-on-open:
+    empty: LIGHT_BLUE_STAINED_GLASS_PANE
+    item:
+      '4':
+        material: paper
+        customdata: 2
+        name: '&b&l使用说明'
+        lore:
+          - '&c注意！！！每个世界单独设置'
+          - '&f不与其它世界规则冲突，例如可以主世界防爆，下界不防爆等'
+          - '&f游戏难度为全世界通用'          
+        commands:
+        stack: 1    
+      '10':
+        material: netherite_sword
+        customdata: 2
+        name: '&b&l死亡是否掉落'
+        lore:
+          - '&f左键➥设置死亡&c会&f掉落'
+          - '&f右键➥设置死亡&a不会&f掉落'          
+        commands:
+        - left= op= minecraft:gamerule keepInventory false
+        - right= op= minecraft:gamerule keepInventory true
+        stack: 1
+      '11':
+        material: tnt
+        customdata: 2
+        name: '&b&l爆炸是否破坏方块'
+        lore:
+          - '&f左键➥设置保炸&c会破坏&f方块'
+          - '&f右键➥设置爆炸&a不会破坏&f方块'          
+        commands:
+        - left= op= minecraft:gamerule mobGriefing false
+        - right= op= minecraft:gamerule mobGriefing true
+        stack: 1
+      '12':
+        material: Flint_and_steel
+        customdata: 2
+        name: '&b&l火焰是否蔓延'
+        lore:
+          - '&f左键➥设置火焰&c会蔓延&f'
+          - '&f右键➥设置火焰&a不会蔓延&f'          
+        commands:
+        - left= op= minecraft:gamerule doFireTick true
+        - right= op= minecraft:gamerule doFireTick false
+        stack: 1
+      '13':
+        material: allay_spawn_egg
+        customdata: 2
+        name: '&b&l生物是否自然生成'
+        lore:
+          - '&f左键➥设置生物&c会生成&f'
+          - '&f右键➥设置生物&a不会生成&f'          
+        commands:
+        - left= op= minecraft:gamerule doMobSpawning true
+        - right= op= minecraft:gamerule doMobSpawning false
+        stack: 1       
+      '14':
+        material: lava_bucket
+        customdata: 2
+        name: '&b&l岩浆是否可以无限(类似无限水)'
+        lore:
+          - '&f左键➥设置岩浆&c可以无限&f'
+          - '&f右键➥设置岩浆&a不可以无限&f'          
+        commands:
+        - left= op= minecraft:gamerule lavaSourceConversion true
+        - right= op= minecraft:gamerule lavaSourceConversion false
+        stack: 1 
+      '15':
+        material: phantom_membrane
+        customdata: 2
+        name: '&b&l幻翼是否自然生成'
+        lore:
+          - '&f左键➥设置幻翼&c会生成&f'
+          - '&f右键➥设置幻翼&a不会生成&f'          
+        commands:
+        - left= op= minecraft:gamerule doInsomnia true
+        - right= op= minecraft:gamerule doInsomnia false
+        stack: 1    
+      '16':
+        material: emerald
+        customdata: 2
+        name: '&b&l游戏难度切换(默认困难)'
+        lore:
+          - '&e左键      &6➥&f设置为&a和平'
+          - '&e右键      &6➥&f设置为&b简单'         
+          - '&e蹲下+左键&6➥&f设置为&c普通'
+          - '&e蹲下+右键&6➥&f设置为&4困难'           
+        commands:
+        - left= op= minecraft:difficulty peaceful
+        - right= op= minecraft:difficulty easy
+        - leftshift= op= minecraft:difficulty normal
+        - rightshift= op= minecraft:difficulty hard        
+        stack: 1
+      '19':
+        material: clock
+        customdata: 2
+        name: '&b&l游戏时间快速调整'
+        lore:
+          - '&e左键      &6➥&f设置为&3清晨[6:00]'
+          - '&e右键      &6➥&f设置为&6正午[12:00]'         
+          - '&e蹲下+左键&6➥&f设置为&b傍晚[18:00]'
+          - '&e蹲下+右键&6➥&f设置为&1深夜[24:00]'           
+        commands:
+        - left= op= time 6:00
+        - right= op= time 12:00
+        - leftshift= op= time 18:00
+        - rightshift= op= time 24:00 
+        stack: 1
+      '20':
+        material: lantern
+        customdata: 2
+        name: '&b&l游戏天气快速调整'
+        lore:
+          - '&e左键      &6➥&f设置为&e晴天'
+          - '&e右键      &6➥&f设置为&b下雨'         
+          - '&e蹲下+左键&6➥&f设置为&7雷雨'         
+        commands:
+        - left= op= weather sun 4h
+        - right= op= weather rain 4h
+        - leftshift= op= weather storm 4h
+        stack: 1                                 
+      '31':
+        material: barrier
+        enchant: true
+        name: '&e&l返回主菜单'
+        lore: '&f点击返回'
+        commands:
+          - cpc
+          - left= commandpanel menu
+        stack: 1
+
+
+
+
+

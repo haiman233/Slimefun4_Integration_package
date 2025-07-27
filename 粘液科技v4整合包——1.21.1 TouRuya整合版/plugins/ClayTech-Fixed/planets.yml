@@ -1,0 +1,8 @@
+world: true
+CMoon: true
+CMars: true
+CAsteroidBelt: true
+world-spawnMobs: true
+CMoon-spawnMobs: false
+CMars-spawnMobs: false
+CAsteroidBelt-spawnMobs: false

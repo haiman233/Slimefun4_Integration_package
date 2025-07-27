@@ -1,0 +1,42 @@
+#自动更新
+auto-update: true
+#自动保存间隔(s)
+auto-save-period: 300
+
+#接入蓬松科技
+support-fluffy-machines: true
+
+# 自动合成相关设置
+auto-crafting:
+  # 每个网络最大同时进行的自动合成任务数
+  max-tasks: 32
+  # 每个自动合成任务最大物品数量
+  max-amount: 32768
+  # 合成卡冷却时间(tick)
+  crafting-card-cooldown: 200
+
+# 链式总线相关设置
+chained-bus:
+  async: true
+
+# 网络交换机设置
+networks-expansion-switch:
+  allow-networks-to-ae: true
+  allow-ae-to-networks: false
+
+# ME清除器设置
+me-cleaner:
+  default: 131072
+
+# ME合成触发器设置
+me-crafting-trigger:
+  default: 64
+
+# ME标准发信器
+level-emitter:
+  default: 64
+
+# 世界生成设置
+world-gen:
+  # 是否启用矿石生成
+  enable-ore-gen: true 

@@ -1,0 +1,41 @@
+====================AN FATAL OCCURRED====================
+DO NOT REPORT THIS ERROR TO JustEnoughGuide DEVELOPERS!!! THIS IS NOT A JustEnoughGuide BUG!
+If you are sure that this is a JustEnoughGuide bug, please report to https://github.com/balugaq/JustEnoughGuide/issues/
+An unexpected error occurred.
+JustEnoughGuide version: Build 166 (git b94342b)
+Java version: 23.0.1
+OS: Windows 10 10.0 amd64
+Minecraft version: MINECRAFT_1_21_1
+Slimefun version: 4299eb3-Beta
+Error: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:192)
+	at java.base/java.util.List.of(List.java:1170)
+	at [粘液美食]SlimeFoodPlugin-Build 2 (git 9a231cb).jar//me.gamingoninsulin.slimefood.multiblocks.SFBrickOven.getDisplayRecipes(SFBrickOven.java:33)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.api.objects.enums.FilterType.lambda$static$2(FilterType.java:86)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.api.groups.SearchGroup.lambda$filterItems$22(SearchGroup.java:1548)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:196)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.api.groups.SearchGroup.filterItems(SearchGroup.java:1549)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.api.groups.SearchGroup.filterItems(SearchGroup.java:1490)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.api.groups.SearchGroup.<init>(SearchGroup.java:216)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.implementation.guide.SurvivalGuideImplementation.openSearch(SurvivalGuideImplementation.java:642)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.implementation.guide.SurvivalGuideImplementation.openSearch(SurvivalGuideImplementation.java:627)
+	at JEG , jeg-JustEnoughGuide-Build 165 (git 9cbf3ae).jar//com.balugaq.jeg.implementation.guide.SurvivalGuideImplementation.lambda$createHeader$39(SurvivalGuideImplementation.java:1089)
+	at Slimefun-4299eb3-Beta.jar//io.github.thebusybiscuit.slimefun4.libraries.dough.chat.ChatInput$1.onChat(ChatInput.java:58)
+	at Slimefun-4299eb3-Beta.jar//io.github.thebusybiscuit.slimefun4.libraries.dough.chat.ChatInputListener.lambda$checkInput$1(ChatInputListener.java:77)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475)
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770)
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333)
+	at java.base/java.lang.Thread.run(Thread.java:1575)

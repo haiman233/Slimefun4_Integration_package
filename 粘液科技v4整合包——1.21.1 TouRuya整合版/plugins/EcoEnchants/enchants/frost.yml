@@ -1,0 +1,26 @@
+display-name: "冰霜"
+description: "有&a%chance%%&r的几率让目标获得&a%seconds%&r秒冻结效果"
+placeholders:
+  chance: "3 + 2 * %level%"
+  seconds: "2 + %level%"
+type: normal
+
+targets:
+  - bow
+conflicts: []
+rarity: legendary
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: set_freeze_ticks
+    args:
+      ticks: "60 + 20 * %level%"
+      chance: "3 + 2 * %level%"
+    triggers:
+      - bow_attack
+
+conditions: []

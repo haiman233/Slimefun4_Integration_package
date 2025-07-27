@@ -1,0 +1,28 @@
+display-name: "安眠锤"
+description: "攻击时有&a%placeholder%%&r的几率使目标获得&a1&r秒的震荡效果"
+placeholder: "2.5 + 2.5 * %level%"
+type: normal
+
+targets:
+  - sword
+  - bow
+  - trident
+  - crossbow
+conflicts: []
+rarity: rare
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: strip_ai
+    args:
+      duration: 40
+    triggers:
+      - melee_attack
+      - bow_attack
+      - trident_attack
+
+conditions: []

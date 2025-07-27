@@ -1,0 +1,220 @@
+
+messages:
+  prefix: '&b[&aVillagerTrade&b]&7 '
+  no-console: '&cOnly players can use this command!'
+  no-permission: '&cYou don''t have permission to do that!'
+  usage: '&eUsage: &7%usage%'
+  commands:
+    list:
+      description: Open a menu that lists all loaded trades.
+    edit:
+      description: Open the menu to edit a trade directly by its key.
+      not-found: '&cCannot find trade %tradeKey%.'
+    reload:
+      description: Reload the configuration file.
+      success: '&aReloading configuration...'
+    add:
+      description: Add a new trade.
+    remove:
+      description: Remove a trade.
+      not-found: '&cCannot find trade %tradeKey%.'
+      await-confirm: '&eYou are removing trade &a%tradeKey%&e. This action cannot
+        be undone. Type &a/sfvt confirm&e to confirm.'
+      success: '&aSuccessfully removed trade &e%tradeKey%&a!'
+    savecustom:
+      description: Save the custom item.
+      no-item: '&cYou must hold an item in your hand!'
+      vanilla-item: '&cYou cannot save vanilla items!'
+      id-exists: '&cItem id (%itemId%) already exists!'
+      item-exists: '&cThis item is already a registered custom item, id: %itemId%!'
+      success: '&aSuccessfully saved custom item &e%itemId%&a!'
+    confirm:
+      description: Confirm an action.
+      no-active: '&cThere is no active action to confirm!'
+  not-number: '&cInvalid input: not a number!'
+  menu:
+    list:
+      add: '&eEnter the ID (key) of the trade:'
+    trade:
+      amount:
+        input: '&eEnter the amount of item (%itemInfo%, current: %itemAmount%), "cancel"
+          to cancel:'
+      max-uses:
+        input: '&eEnter the max uses of this trade (current: %value%), "cancel" to
+          cancel:'
+      exp-villager:
+        input: '&eEnter the villager experience reward (current: %value%), "cancel"
+          to cancel:'
+      price-multiplier:
+        input: '&eEnter the price multiplier (current: %value%), "cancel" to cancel:'
+
+menu:
+  list:
+    title: '&d&lVillagerTrade &8- &0List'
+    info:
+      name: '&eList of trades'
+      lore:
+      - '&7This page lists all loaded trades.'
+      - '&7Click on a trade to edit it.'
+      - ''
+      - '&7These trades are only added'
+      - '&7when villagers change profession,'
+      - '&7or when wandering traders spawn.'
+    add:
+      name: '&a&lAdd new trade'
+      lore:
+      - '&eClick to add a new trade.'
+      - ''
+      - '&7You can also use &e/sfvt add <tradeKey>'
+      - '&7to add a new trade.'
+    trade:
+      name: '&b%tradeKey%'
+      lore:
+      - '&eTrader types: &7%traderTypes%'
+      - '&eIngredient 1: &7%input1%'
+      - '&eIngredient 2: &7%input2%'
+      - '&eResult: &7%output%'
+      - '&eMax uses: &7%maxUses%'
+      - '&eExp reward: &7%expReward%'
+      - '&eVillager experience: &7%expVillager%'
+      - '&ePrice multiplier: &7%priceMultiplier%'
+      - ''
+      lore-extra:
+        editable:
+        - '&eClick to edit this trade.'
+        not-editable:
+        - '&cThis trade is added by other addons'
+        - '&cand cannot be edited in-game.'
+  trade:
+    title: '&d&lVillagerTrade &8- &0Edit'
+    back:
+      lore:
+      - ''
+      - '&bClick to go back to trade list.'
+      - '&cAll unsaved changes will be discarded!'
+    info:
+      name: '&bCurrent trade: &a%tradeKey%'
+      lore:
+      - '&7You can edit the trade in this menu.'
+      - ''
+      - '&7Changes will not be applied until'
+      - '&7you click on the save button.'
+    amount:
+      name: '&bAmount: &a%amount%'
+      lore:
+      - '&eLeft click &7to increase by 1.'
+      - '&eRight click &7to decrease by 1.'
+      - '&eShift + click &7to specify the amount.'
+    input:
+      '1':
+        name: '&bIngredient 1'
+        lore:
+        - '&7Put the item at right to set the item.'
+        - '&7Remove item to make this trade item &7&lNONE&7.'
+        - ''
+        - '&cIngredient 1 cannot be empty!'
+        - ''
+        - '&eItem type: &7%itemType%'
+        - '&eItem id: &7%itemId%'
+        - '&eItem amount: &7%itemAmount%'
+      '2':
+        name: '&bIngredient 2'
+        lore:
+        - '&7Put the item at right to set the item.'
+        - '&7Remove item to make this trade item &7&lNONE&7.'
+        - ''
+        - '&6Ingredient 2 can be empty!'
+        - ''
+        - '&eItem type: &7%itemType%'
+        - '&eItem id: &7%itemId%'
+        - '&eItem amount: &7%itemAmount%'
+    output:
+      name: '&bResult'
+      lore:
+      - '&7Put the item at right to set the item.'
+      - '&7Remove item to make this trade item &7&lNONE&7.'
+      - ''
+      - '&cResult cannot be empty!'
+      - ''
+      - '&eItem type: &7%itemType%'
+      - '&eItem id: &7%itemId%'
+      - '&eItem amount: &7%itemAmount%'
+    traders:
+      name: '&bEdit trader types'
+      lore:
+      - '&eClick &7to edit trader types.'
+      - ''
+      - '&bCurrent trader types:'
+      - '&eWandering trader: &7%wanderingTrader%'
+      - '&eVillagers: &7%villagers%'
+    max-uses:
+      name: '&bMax uses: &a%value%'
+      lore:
+      - '&7How many times this trade can be used.'
+      - ''
+      - '&eClick &7to specify new value.'
+    exp-reward:
+      name: '&bExp reward: &a%value%'
+      lore:
+      - '&7Whether players get experience'
+      - '&7from this trade.'
+      - ''
+      - '&eClick &7to toggle.'
+    exp-villager:
+      name: '&bVillager experience: &a%value%'
+      lore:
+      - '&7How much experience the trader'
+      - '&7gets from this trade.'
+      - ''
+      - '&eClick &7to specify new value.'
+    price-multiplier:
+      name: '&bPrice multiplier: &a%value%'
+      lore:
+      - '&7The price multiplier when'
+      - '&7calculating the price of this trade.'
+      - ''
+      - '&eClick &7to specify new value.'
+    save:
+      name: '&a&lSave'
+      lore:
+      - '&eClick &7to save changes.'
+      - ''
+      - '&7Changes will be applied'
+      - '&7to trade configuration.'
+    save-invalid:
+      name: '&a&lSave'
+      lore:
+      - '&cYou cannot save this trade.'
+      - ''
+      - '&7Reason:'
+    remove:
+      name: '&c&lRemove'
+      lore:
+      - '&eClick &7to remove this trade.'
+      - ''
+      - '&7Trade will not be removed until you confirm this action.'
+      - '&7This action cannot be undone.'
+    invalid-reason:
+      input:
+        '1': '&cIngredient 1 cannot be empty!'
+      output: '&cResult cannot be empty!'
+      traders: '&cYou must select at least one trader type!'
+      max-uses: '&cMax uses must be a positive integer!'
+      exp-villager: '&cVillager experience must be a non-negative integer!'
+      price-multiplier: '&cPrice multiplier must be a non-negative number!'
+  trader_types:
+    title: '&d&lVillagerTrade &8- &0Edit &8- &0Trader types'
+    confirm:
+      name: '&a&lConfirm'
+      lore:
+      - '&eClick &7to confirm changes.'
+      - ''
+      - '&7Changes will be applied to the edit menu,'
+      - '&7but will not be saved.'
+    cancel:
+      name: '&c&lCancel'
+      lore:
+      - '&eClick &7to cancel changes.'
+      - ''
+      - '&7Changes will be discarded.'
+      - '&7Closing this menu also discard changes.'

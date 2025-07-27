@@ -1,0 +1,5 @@
+options:
+  auto-update: true
+  ignore-outdated-warning: false
+  test: false
+  clear-old-config: false

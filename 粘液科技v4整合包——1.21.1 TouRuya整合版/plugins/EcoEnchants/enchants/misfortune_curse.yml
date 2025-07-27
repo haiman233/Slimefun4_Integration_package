@@ -1,0 +1,26 @@
+display-name: "倒霉诅咒"
+description: "破坏方块时有&a%placeholder%%&r的几率不掉落战利品"
+placeholder: "15 * %level%"
+type: curse
+
+targets:
+  - hoe
+  - shovel
+  - pickaxe
+  - axe
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "15 * %level%"
+    triggers:
+      - block_item_drop
+
+conditions: []

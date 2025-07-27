@@ -1,0 +1,26 @@
+Options:
+  Join-Permission: 'trchat.admin'
+  Proxy: true
+  Always-Listen: true
+
+Bindings:
+  Command: ['staff']
+
+Formats:
+  - prefix:
+      staff:
+        text: '&8[&cSTAFF&8] '
+        hover: |-
+          &7Server &3%server_name%
+          &f
+          &7Version: &6%server_version%
+          &7Online: &a%server_online%&7/&2%server_max_players%
+          &7TPS: &b%server_tps%
+          &7
+          &a▶ &2Click to connect to this server
+        command: '/server %server_name%'
+      player:
+        text: '&e%player_name%&8: '
+    msg:
+      default-color: 'a'
+      hover: '&7Date: %server_time_HH:mm:ss%'

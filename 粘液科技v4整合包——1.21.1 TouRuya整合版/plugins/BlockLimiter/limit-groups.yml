@@ -1,0 +1,18 @@
+# 每一个配置部分都是一个分组，可以设置多个分组
+# 每个分组中：
+# "cargo" - 这是分组的名称，在使用指令查询时，会显示改名称。建议只使用英文/数字/下划线的任意组合（使用其他字符出现奇奇怪怪的问题，是不会处理的）
+# - amount: 一个区块内，最多可以放置多少方块（组内所有方块的数量相加）
+# - items: 粘液物品ID表
+# - permission-nodes: 部分权限节点，可以拥有单独的数量限制。在权限节点前增加 blocklimiter.permission.<权限节点名称> 为最终的权限节点。
+#   例如：example_1: 50 表示拥有 blocklimiter.permission.example_1 权限的玩家，可以放置最多50个方块，而不是默认的25个方块
+# 如果多个分组中的物品有重复，则以前面的分组为准
+cargo:
+  amount: 25
+  items:
+    - CARGO_NODE_INPUT
+    - CARGO_NODE_OUTPUT
+    - CARGO_NODE_OUTPUT_ADVANCED
+    - CARGO_NODE
+    - CARGO_MANAGER
+  permission-nodes:
+    example_1: 50

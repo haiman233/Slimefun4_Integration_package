@@ -1,0 +1,167 @@
+console:
+  loaded-language: "Betöltött nyelv: {0}"
+  loading-items: "Tárgyak betöltése..."
+  loading-researches: "Kutatások betöltése..."
+items:
+  #categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+    name: "&eGyors Gépek"
+  MATERIALS:
+    conditions:
+      force-load: true
+    name: "&eGyors Gépek &7- &bAlapanyagok"
+  MACHINES:
+    conditions:
+      force-load: true
+    name: "&eFast Machines &7- &aGépek"
+  #gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+    name: "&eKiválasztott tárgy"
+    lore:
+      - "&7Kiválasztottad a lenti tárgyat elkészítésre."
+  SCROLL_UP:
+    conditions:
+      force-load: true
+    name: "&eGörgess fel"
+    lore:
+      - "&7Kattints hogy felgörgesd a lehetséges termékeket."
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+    name: "&eGörgess le"
+    lore:
+      - "&7Kattints hogy legörgesd a lehetséges termékeket."
+  INFO:
+    conditions:
+      force-load: true
+    name: "&fInformáció"
+    lore:
+      - "&7Rakd az alapanyagokat az első 4 sorba,"
+      - "&7hogy minden lehetséges termék meg legyen mutatva."
+      - ""
+      - "&7Válassz ki egy tárgyat, majd kattints a 'Barkácsolás'-ra."
+      - "&7A termékek majd megtöltik a lenti sorokat."
+      - ""
+      - "&cHa a lehetséges termék mennyiség nem felel meg"
+      - "&ca kért mennyiségnek, a folyamat majd"
+      - "&ca lehető legtöbbet fogja elkészíteni belőle."
+  CRAFT:
+    conditions:
+      force-load: true
+    name: "&aBarkácsolás"
+    lore:
+      - "&7Kattints hogy elkészítsd a kiválasztott tárgyat."
+      - ""
+      - "&7Bal kattintás: 1 elkészítése"
+      - "&7Jobb kattintás: 16 elkészítése"
+      - "&7Shift + Bal kattintás: 64 elkészítése"
+      - "&7Shift + Jobb kattintás: annyi amennyi lehetséges"
+  NO_ITEM:
+    conditions:
+      force-load: true
+    name: "&cNincs kiválasztott tárgy"
+  #materials
+  FAST_CORE:
+    name: "&bGyors mag"
+    lore:
+      - "&7Egy gyors gépezet magja."
+  ETERNAL_FIRE:
+    name: "&4Örök Tűz"
+    lore:
+      - "&7A tűz ami sosem alszik ki."
+  #machines
+  FAST_CRAFTING_TABLE:
+    name: "&aGyors Barkácsasztal"
+    lore:
+      - "&7Hasznosabb mint az alap Barkácsasztal."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_FURNACE:
+    name: "&aGyors Kemence"
+    lore:
+      - "&7Hasznosabb mint az alap Kemence."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_ENHANCED_CRAFTING_TABLE:
+    name: "&aGyors Fejlesztett Barkácsasztal"
+    lore:
+      - "&7Hasznosabb mint a Fejlesztett Barkácsasztal."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_GRIND_STONE:
+    name: "&aGyors Köszörűkő"
+    lore:
+      - "&7Hasznosabb mint az alap Köszörűkő."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_ARMOR_FORGE:
+    name: "&aGyors Kovácsasztal"
+    lore:
+      - "&7Hasznosabb mint az alap Kovácsasztal."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_ORE_CRUSHER:
+    name: "&aGyors Érc-zúzó"
+    lore:
+      - "&7Hasznosabb mint az alap Érc-zúzó."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_COMPRESSOR:
+    name: "&aGyors Kompresszor"
+    lore:
+      - "&7Hasznosabb mint az alap Kompresszor."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_SMELTERY:
+    name: "&aGyors Kohó"
+    lore:
+      - "&7Hasznosabb mint az alap Kohó."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_PRESSURE_CHAMBER:
+    name: "&aGyors Nyomás Kamra"
+    lore:
+      - "&7Hasznosabb mint az alap Nyomás Kamra."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_MAGIC_WORKBENCH:
+    name: "&aGyors Mágikus Barkácsasztal"
+    lore:
+      - "&7Hasznosabb mint az alap Mágikus Barkácsasztal."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_ORE_WASHER:
+    name: "&aGyors Érc-mosó"
+    lore:
+      - "&7Hasznosabb mint az alap Érc-mosó."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_TABLE_SAW:
+    name: "&aGyors Asztali Fűrész"
+    lore:
+      - "&7Hasznosabb mint az alap Asztali Fűrész."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_COMPOSTER:
+    name: "&aGyors Komposztáló"
+    lore:
+      - "&7Hasznosabb mint az alap Komposztáló."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_PANNING_MACHINE:
+    name: "&aGyors Szitálógép"
+    lore:
+      - "&7Hasznosabb mint az Automata Szitálógép."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_JUICER:
+    name: "&aGyors Facsarógép"
+    lore:
+      - "&7Hasznosabb mint az alap Facsarógép."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_INFINITY_WORKBENCH:
+    name: "&aGyors Infinity Barkácsasztal"
+    lore:
+      - "&7Hasznosabb mint az alap Infinity Barkácsasztal."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+  FAST_SLIMEFRAME_FOUNDRY:
+    name: "&aGyors SlimeFrame öntöde"
+    lore:
+      - "&7Hasznosabb SlimeFrame öntöde."
+      - "&7A tárgyak sorbarendezése nélkül barkácsol."
+lores:
+  per-craft: " &7barkácsolásonként"
+messages:
+  not-enough-energy: "&cNincs elég energia!"
+  not-enough-materials: "&cNincs elég alapanyag!"
+  not-enough-space: "&cNincs elég hely a gépben! A tárgyak a tárhelyedbe fognak kerülni. Ha tele van a tárhelyed, akkor a földre fognak kiszóródni."

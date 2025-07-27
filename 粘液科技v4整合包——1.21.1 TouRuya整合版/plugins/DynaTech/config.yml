@@ -1,0 +1,5 @@
+options:
+    # 启用自动更新（自动从构建站下载并安装更新，重启后生效）
+    auto-update: false
+    # 是否禁用异次元之家
+    disable-dimensionalhome-world: false

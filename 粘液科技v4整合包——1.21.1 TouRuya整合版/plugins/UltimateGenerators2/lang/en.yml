@@ -1,0 +1,355 @@
+console:
+  loaded-language: 'Loaded language: {0}'
+
+items:
+  # category items
+  _UG2_MAIN:
+    conditions:
+      force-load: true
+    name: '&dUltimateGenerators2' # The addon name, change it to its translated name or keep it as it is
+  _UG2_MISC:
+    conditions:
+      force-load: true
+    name: '&dUltimateGenerators2 &7- &7Miscellaneous'
+  _UG2_MACHINES:
+    conditions:
+      force-load: true
+    name: '&dUltimateGenerators2 &7- &9Machines'
+  _UG2_ELECTRICITY_STORAGE:
+    conditions:
+      force-load: true
+    name: '&dUltimateGenerators2 &7- &eElectricity Storage'
+  _UG2_SIMPLE_GENERATORS:
+    conditions:
+      force-load: true
+    name: '&dUltimateGenerators2 &7- &bSimple Generators'
+  _UG2_MODULAR_GENERATORS:
+    conditions:
+      force-load: true
+    name: '&dUltimateGenerators2 &7- &cModular Generators'
+  
+  # recipe type display items
+  _UG2_CANNOT_CRAFT:
+    conditions:
+      force-load: true
+    name: '&cCannot Craft'
+    lore:
+    - '&cThis item cannot be crafted.'
+  _UG2_DIESEL_REFINERY:
+    conditions:
+      force-load: true
+    name: '&cDiesel Refinery'
+    lore:
+    - '&fRefines oil into diesel.'
+  _UG2_BIOMASS_EXTRACTION_MACHINE:
+    conditions:
+      force-load: true
+    name: '&aBiomass Extraction Machine'
+    lore:
+    - '&fExtracts biomass from items.'
+  _UG2_BIOFUEL_REFINERY:
+    conditions:
+      force-load: true
+    name: '&cBiofuel Refinery'
+    lore:
+    - '&fRefines biomass into biofuel.'
+  _UG2_HEAVY_WATER_REFINING_MACHINE:
+    conditions:
+      force-load: true
+    name: '&7Heavy Water Refining Machine'
+    lore:
+    - '&fRefines water into heavy water.'
+  
+  # items
+  ENDLESS_GENERATOR:
+    name: '&6Endless Generator'
+    lore:
+    - '&7Generates power based on'
+    - '&7the redstone signal strength.'
+    - ''
+    - '&8⇨ &e⚡ &7256 J/signal strength'
+    lore-overrides:
+      '4': '%sftrlore_Power_256_/signal strength%' # only translate the "signal strength" part
+  DIESEL_REFINERY:
+    name: '&cDiesel Refinery'
+    lore:
+    - ''
+    - '&fRefines oil into diesel'
+    - ''
+    - '&6Advanced Machine'
+    - '&8⇨ &e⚡ &716 J/t'
+    lore-overrides:
+      '4': '%sftrlore_Machine_Advanced_Machine%' # Do not translate this at all
+      '5': '%sftrlore_PowerPerTick_16%' # Do not translate this at all
+  DIESEL_BUCKET:
+    name: '&rBucket of Diesel'
+  DIESEL_GENERATOR:
+    name: '&7Diesel Generator'
+    lore:
+    - ''
+    - '&6Advanced Generator'
+    - '&8⇨ &e⚡ &7256 J Buffer'
+    - '&8⇨ &e⚡ &718 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Generator%' # Do not translate this at all
+      '3': '%sftrlore_PowerBuffer_256%' # Do not translate this at all
+      '4': '%sftrlore_PowerPerTick_18%' # Do not translate this at all
+  BIOMASS_EXTRACTION_MACHINE:
+    name: '&aBiomass Extraction Machine'
+    lore:
+    - ''
+    - '&7Medium Machine'
+    - '&8⇨ &e⚡ &73 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Medium_Machine%' # Do not translate this at all
+      '3': '%sftrlore_PowerPerTick_3%' # Do not translate this at all
+  BIOMASS_BUCKET:
+    name: '&rBucket of Biomass'
+  BIOFUEL_REFINERY:
+    name: '&cBiofuel Refinery'
+    lore:
+    - ''
+    - '&fRefines biomass into biofuel'
+    - ''
+    - '&6Advanced Machine'
+    - '&8⇨ &e⚡ &718 J/t'
+    lore-overrides:
+      '4': '%sftrlore_Machine_Advanced_Machine%' # Do not translate this at all
+      '5': '%sftrlore_PowerPerTick_18%' # Do not translate this at all
+  BIOFUEL_BUCKET:
+    name: '&rBucket of Biofuel'
+  BIOFUEL_GENERATOR:
+    name: '&2Biofuel Generator'
+    lore:
+    - ''
+    - '&6Advanced Generator'
+    - '&8⇨ &e⚡ &7256 J Buffer'
+    - '&8⇨ &e⚡ &718 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Generator%' # Do not translate this at all
+      '3': '%sftrlore_PowerBuffer_256%' # Do not translate this at all
+      '4': '%sftrlore_PowerPerTick_18%' # Do not translate this at all
+  DRAGON_BREATH_GENERATOR:
+    name: '&5Dragon Breath Generator'
+    lore:
+    - ''
+    - '&6Advanced Generator'
+    - '&8⇨ &e⚡ &7256 J Buffer'
+    - '&8⇨ &e⚡ &79 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Generator%' # Do not translate this at all
+      '3': '%sftrlore_PowerBuffer_256%' # Do not translate this at all
+      '4': '%sftrlore_PowerPerTick_9%' # Do not translate this at all
+  REACTION_GENERATOR:
+    name: '&2Reaction Generator'
+    lore:
+    - ''
+    - '&rSmall nuclear reaction generator'
+    - '&rwithout the need of cooling.'
+    - '&rDirectly consumes low-energy nuclear fuel,'
+    - '&rbut the fuel utilization rate is low.'
+    - ''
+    - '&6Advanced Generator'
+    - '&8⇨ &e⚡ &7256 J Buffer'
+    - '&8⇨ &e⚡ &78 J/t'
+    lore-overrides:
+      '7': '%sftrlore_Machine_Advanced_Generator%' # Do not translate this at all
+      '8': '%sftrlore_PowerBuffer_256%' # Do not translate this at all
+      '9': '%sftrlore_PowerPerTick_8%' # Do not translate this at all
+  ENDER_CRYSTAL_GENERATOR:
+    name: '&dEnd Crystal Generator'
+    lore:
+    - ''
+    - '&rConnects and utilizes nearby enhanced end crystals'
+    - '&rto generate electricity.'
+    - ''
+    - '&4Ultimate Generator'
+    lore-overrides:
+      '5': '%sftrlore_Machine_EndGame_Generator%' # Do not translate this at all
+  ENDER_CRYSTAL_GENERATOR_BASE:
+    name: '&bEnd Crystal Generator Base'
+  ENDER_CRYSTAL_GENERATOR_STABILIZER:
+    name: '&5End Crystal Generator Stabilizer'
+    lore:
+    - ''
+    - '&6Advanced Machine'
+    - '&8⇨ &e⚡ &79 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Machine%'
+      '3': '%sftrlore_PowerPerTick_9%'
+  ENDER_CRYSTAL_ENHANCER:
+    name: '&9End Crystal Enhancer'
+  MODULAR_GENERATOR_REGULATOR:
+    name: '&bModular Generator Core'
+  SOLID_STORAGE_EXPANSION:
+    name: '&fSolid Storage Expansion'
+  LIQUID_STORAGE_EXPANSION:
+    name: '&fLiquid Storage Expansion'
+  ELECTRICITY_STORAGE_UNIT:
+    name: '&fElectricity Storage Unit'
+  ADVANCED_BATTERY:
+    name: '&eAdvanced Battery'
+  ALPHA_BATTERY:
+    name: '&aAlpha Battery'
+  BETA_BATTERY:
+    name: '&9Beta Battery'
+  GAMMA_BATTERY:
+    name: '&dGamma Battery'
+  BASIC_ELECTRICITY_STORAGE:
+    name: '&eBasic Electricity Storage'
+    lore:
+    - ''
+    - '&6Average Capacitor'
+    - '&8⇨ &e⚡ &7640 J Capacity'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Average_Capacitor%' # Do not translate this at all
+      '3': '%sftrlore_PowerCapacity_640%' # Do not translate this at all
+  ADVANCED_ELECTRICITY_STORAGE:
+    name: '&dAdvanced Electricity Storage'
+    lore:
+    - ''
+    - '&aMedium Capacitor'
+    - '&8⇨ &e⚡ &72560 J Capacity'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Medium_Capacitor%' # Do not translate this at all
+      '3': '%sftrlore_PowerCapacity_2560%' # Do not translate this at all
+  ALPHA_ELECTRICITY_STORAGE:
+    name: '&a&lAlpha&a-α Electricity Storage'
+    lore:
+    - ''
+    - '&2Advanced Capacitor'
+    - '&8⇨ &e⚡ &75120 J Capacity'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Capacitor%' # Do not translate this at all
+      '3': '%sftrlore_PowerCapacity_5120%' # Do not translate this at all
+  BETA_ELECTRICITY_STORAGE:
+    name: '&9&lBeta&9-β Electricity Storage'
+    lore:
+    - ''
+    - '&4Ultimate Capacitor'
+    - '&8⇨ &e⚡ &740960 J Capacity'
+    lore-overrides:
+      '2': '%sftrlore_Machine_EndGame_Capacitor%' # Do not translate this at all
+      '3': '%sftrlore_PowerCapacity_40960%' # Do not translate this at all
+  GAMMA_ELECTRICITY_STORAGE:
+    name: '&5&lGamma&5-γ Electricity Storage'
+    lore:
+    - ''
+    - '&4Ultimate Capacitor'
+    - '&8⇨ &e⚡ &7327680 J Capacity'
+    lore-overrides:
+      '2': '%sftrlore_Machine_EndGame_Capacitor%' # Do not translate this at all
+      '3': '%sftrlore_PowerCapacity_327680%' # Do not translate this at all
+  LAMBDA_ELECTRICITY_STORAGE:
+    name: '&d&lLAMBDA&d-λ Electricity Storage'
+    lore:
+    - ''
+    - '&fActually, it''s not necessary to have such a large capacity... right...?'
+    - ''
+    - '&4Ultimate Capacitor'
+    - '&8⇨ &e⚡ &72621440 J Capacity'
+    - ''
+    - '&8&oDo you really think this has the maximum capacity?'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Capacitor%' # Do not translate this at all
+      '5': '%sftrlore_PowerCapacity_2621440%' # Do not translate this at all
+  KAPA_ELECTRICITY_STORAGE:
+    name: '&8&lKAPA&8-Κ Electricity Storage'
+    lore:
+    - ''
+    - '&4&lCLASSIFIED'
+    - ''
+    - '&4Ultimate Capacitor'
+    - '&8⇨ &e⚡ &720971520 J Capacity'
+    - ''
+    - '&8&oFreeze_Dolphin is not going to stop here!'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Capacitor%' # Do not translate this at all
+      '5': '%sftrlore_PowerCapacity_20971520%' # Do not translate this at all
+  PHI_ELECTRICITY_STORAGE:
+    name: '&f&lPHI&f-Φ Electricity Storage'
+    lore:
+    - ''
+    - '&4&lCLASSIFIED'
+    - ''
+    - '&4Ultimate Capacitor'
+    - '&8⇨ &e⚡ &7167772160 J Capacity'
+    - ''
+    - '&fYou better fully charge it before you become NO.1 on your server!'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Capacitor%' # Do not translate this at all
+      '5': '%sftrlore_PowerCapacity_167772160%' # Do not translate this at all
+  QUANTUM_SOLAR_GENERATOR:
+    name: '&dQuantum Solar Generator'
+    lore:
+    - ''
+    - '&9Generates power at night'
+    - ''
+    - '&4Ultimate Generator'
+    - '&8⇨ &e⚡ &765536 J Buffer'
+    - '&8⇨ &e⚡ &72048 J/s (Day)'
+    - '&8⇨ &e⚡ &71024 J/s (Night)'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Generator%' # Do not translate this at all
+      '5': '%sftrlore_PowerBuffer_65536%' # Do not translate this at all
+      '6': '%sftrlore_Power_2048_/s (Day)%' # Only translate the "/s (Day)" part
+      '7': '%sftrlore_Power_1024_/s (Night)%' # Only translate the "/s (Night)" part
+  RUNE_COMPLEX_ENDER:
+    name: '&7Ancient Rune &8&l[&b&lEnd&8&l]'
+  ENDER_LUMP_4:
+    name: '&5Ender Lump &7- &eIV'
+    lore:
+    - ''
+    - '&c&oTier: IV'
+  HEAVY_WATER_BUCKET:
+    name: '&fBucket of Heavy Water'
+  HEAVY_WATER_REFINING_MACHINE:
+    name: '&7Heavy Water Refining Machine'
+    lore:
+    - ''
+    - '&6Advanced Machine'
+    - '&8⇨ &e⚡ &79 J/t'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Advanced_Machine%' # Do not translate this at all
+      '3': '%sftrlore_PowerPerTick_9%' # Do not translate this at all
+  NEUTRON_MODERATOR:
+    name: '&9Neutron Moderator'
+  THERMAL_NEUTRON_REACTOR:
+    name: '&cThermal Neutron Reactor'
+    lore:
+    - ''
+    - '&rRequires cooling!'
+    - '&8⇨ &bMust be surrounded by water'
+    - '&8⇨ &bMust be supplied with Thermal Neutron Reactor Coolant Cell'
+  THERMAL_NEUTRON_REACTOR_COOLANT_CELL:
+    name: '&cThermal Neutron Reactor Coolant Cell'
+  RAINBOW_ALLOY:
+    name: '&dRainbow Alloy'
+  REINFORCED_RAINBOW_GLASS:
+    name: '&dReinforced Rainbow Glass'
+    lore:
+    - ''
+    - '&fCan change color randomly like a rainbow'
+  RAINBOW_REACTOR:
+    name: '&dRainbow Reactor'
+    lore:
+    - ''
+    - '&8⇨ &bOnly works when built in a complete structure'
+    - ''
+    - '&4Ultimate Generator'
+    - '&8⇨ &e⚡ &732768 J Buffer'
+    - '&8⇨ &e⚡ &71536 J/s'
+    - '&8⇨ &e⚡ &7Generates 1.5x power when world is in thunderstorm'
+    lore-overrides:
+      '4': '%sftrlore_Machine_EndGame_Generator%'
+      '5': '%sftrlore_PowerBuffer_32768%'
+      '6': '%sftrlore_PowerPerSecond_1536%'
+  GLASS_ELECTRICITY_TRANSMITTER:
+    name: '&2Electricity Transmitter'
+    lore:
+    - ''
+    - '&eBasic Capacitor'
+    - '&8⇨ &e⚡ &716 J Capacity'
+    lore-overrides:
+      '2': '%sftrlore_Machine_Basic_Capacitor%' # Do not translate this at all
+      '3': '%sftrlore_PowerCapacity_16%' # Do not translate this at all

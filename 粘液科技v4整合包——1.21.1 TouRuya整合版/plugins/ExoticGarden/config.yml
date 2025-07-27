@@ -1,0 +1,82 @@
+fixes:
+  drop-skull: true
+  scan-itemframe: true
+  scan-chunk: true
+settings:
+  tpmessage-enable: true
+  spawn-on-join: true
+messages:
+  tpmessage: '&a你已被传送至出生点'
+  error-nospawnpoint: '&c无出生点设置'
+  success-setspawn: '&a成功设置出生点'
+  cmd-spawn-usage: '&c用法: /spawn'
+  cmd-setspawn-usage: '&c用法: /setspawn'
+spawn: {}
+twerking:
+  radius: 3
+  chance: 0.1
+watering-can:
+  chance: 0.1
+grass-drops:
+  MELON_SEEDS: true
+  OAK_SAPLING: true
+  RASPBERRY_BUSH: true
+  BLUEBERRY_BUSH: true
+  PLUM_SAPLING: true
+  ONION_BUSH: true
+  CORN_BUSH: true
+  SWEET POTATO_BUSH: true
+  ORANGE_SAPLING: true
+  CILANTRO_BUSH: true
+  PEACH_SAPLING: true
+  GRASS_SEEDS: true
+  WHEAT_SEEDS: true
+  CURRY LEAF_BUSH: true
+  BLACKBERRY_BUSH: true
+  CHERRY_SAPLING: true
+  DARK_OAK_SAPLING: true
+  TOMATO_BUSH: true
+  OAK_APPLE_SAPLING: true
+  ACACIA_SAPLING: true
+  TEA LEAF_BUSH: true
+  BIRCH_SAPLING: true
+  DRAGON_FRUIT_SAPLING: true
+  ELDERBERRY_BUSH: true
+  RED BELL PEPPER_BUSH: true
+  POMEGRANATE_SAPLING: true
+  JUNGLE_SAPLING: true
+  CABBAGE_BUSH: true
+  LETTUCE_BUSH: true
+  COCONUT_SAPLING: true
+  LIME_SAPLING: true
+  CRANBERRY_BUSH: true
+  PUMPKIN_SEEDS: true
+  BLACK PEPPER_BUSH: true
+  COWBERRY_BUSH: true
+  LEMON_SAPLING: true
+  GARLIC_BUSH: true
+  PINEAPPLE_BUSH: true
+  FLOWERING_AZALEA: true
+  STRAWBERRY_BUSH: true
+  MUSTARD SEED_BUSH: true
+  PEAR_SAPLING: true
+  MANGROVE_PROPAGULE: true
+  GRAPE_BUSH: true
+  AZALEA: true
+  SPRUCE_SAPLING: true
+  PEANUT_BUSH: true
+  GOOSEBERRY_SAPLING: true
+  RAINBOW_FRUITS_SAPLING: true
+  LEEK_BUSH: true
+  GINSENG BABY_BUSH: true
+  TEQUILA_BUSH: true
+world-blacklist:
+- world_nether
+- world_the_end
+chances:
+  TREE: 22
+  BUSH: 16
+options:
+  item-heads: true
+  auto-update: false
+  auto-generate-plants: true

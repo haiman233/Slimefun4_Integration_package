@@ -1,0 +1,39 @@
+overrides:
+  COW:
+    min: 1
+    max: 10
+    rewards:
+    - RAW_IRON
+    - IRON_INGOT
+    - RAW_GOLD
+    - GOLD_INGOT
+tiered:
+  '1':
+    min: 15
+    max: 50
+    rewards:
+    - RAW_IRON
+    - IRON_INGOT
+    - RAW_GOLD
+    - GOLD_INGOT
+  '2':
+    min: 10
+    max: 25
+    rewards:
+    - SYNTHETIC_SAPPHIRE
+    - SYNTHETIC_EMERALD
+    - SYNTHETIC_DIAMOND
+  '3':
+    min: 3
+    max: 10
+    rewards:
+    - ENDER_LUMP_3
+    - NETHERITE_SCRAP
+    - ANCIENT_DEBRIS
+  '4':
+    min: 1
+    max: 5
+    rewards:
+    - REINFORCED_ALLOY_INGOT
+    - CARBONADO
+    - ESSENCE_OF_AFTERLIFE

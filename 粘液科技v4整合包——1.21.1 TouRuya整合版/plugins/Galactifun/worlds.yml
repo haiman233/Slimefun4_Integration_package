@@ -1,0 +1,23 @@
+venus:
+  enabled: true
+  generate-fallen-satellites: true
+io:
+  enabled: true
+  generate-fallen-satellites: true
+europa:
+  enabled: false
+earth_orbit:
+  enabled: true
+  generate-fallen-satellites: true
+enceladus:
+  enabled: true
+  generate-fallen-satellites: true
+titan:
+  enabled: true
+  generate-fallen-satellites: true
+mars:
+  enabled: true
+  generate-fallen-satellites: true
+the_moon:
+  enabled: true
+  generate-fallen-satellites: true

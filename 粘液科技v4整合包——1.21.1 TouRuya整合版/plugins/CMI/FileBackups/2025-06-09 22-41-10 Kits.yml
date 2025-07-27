@@ -1,0 +1,35 @@
+Newbie:
+  Description:
+  - '&eWill give you some stuff for money and exp'
+  - '&eCan be used every X minutes'
+  CommandName: Newbie
+  Delay: 36000
+  MoneyCost: 100.0
+  ExpCost: 30
+  Commands:
+  - asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!
+  Conditions:
+  - cmi.kit.get
+  - cmi.command.fly
+  Group: groupName
+  Items:
+    '1':
+      v: 3955
+      type: STONE
+      amount: 70
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '"§3Stone"'
+        lore:
+        - '{"text":"","extra":[{"text":"Name ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":false},{"text":"{USERNAME}","italic":false,"color":"dark_aqua"}]}'
+        - '{"text":"","extra":[{"text":"Display name ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":false},{"text":"{DISPLAYNAME}","italic":false,"color":"dark_green"}]}'
+        - '{"text":"","extra":[{"text":"Kit ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":false},{"text":"{KITNAME}","italic":false,"color":"dark_aqua"}]}'
+        - '{"text":"","extra":[{"text":"World name ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_aqua","bold":false},{"text":"{WORLDNAME}","italic":false,"color":"dark_green"}]}'
+        enchants:
+          minecraft:power: 3
+          minecraft:thorns: 5
+    '3':
+      v: 3955
+      type: OAK_PLANKS
+      amount: 30

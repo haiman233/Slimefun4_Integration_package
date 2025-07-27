@@ -1,0 +1,57 @@
+recipes:
+  sunnarium: 
+    - MC{GLOWSTONE}=1
+    - SF{LAB_SUNNARIUM}
+    - 900
+    
+  sunnarium_piece: 
+    - MC{GLOWSTONE_DUST}=1
+    - SF{LAB_SUNNARIUM_PIECE}
+    - 150
+
+# 你可以对以下配置随意更改
+
+  coal: 
+    - MC{COAL}=1
+    - MC{COAL_BLOCK}=1
+    - 360
+  
+  lapis_block: 
+    - MC{BLUE_TERRACOTTA}=1
+    - MC{LAPIS_BLOCK}=1
+    - 480
+  
+  redstone_block: 
+    - MC{RED_TERRACOTTA}=1
+    - MC{REDSTONE_BLOCK}=1
+    - 480
+  
+  neptunium: 
+    - SF{URANIUM}
+    - SF{NEPTUNIUM}
+    - 2880
+  
+  nickel_ingot: 
+    - SF{COPPER_INGOT}
+    - SF{NICKEL_INGOT}
+    - 420
+    
+  silver_ingot: 
+    - SF{TIN_INGOT}
+    - SF{SILVER_INGOT}
+    - 420
+  
+  diamond: 
+    - MC{COAL}=1
+    - MC{DIAMOND}=1
+    - 1200
+  
+  gold_18: 
+    - SF{SILVER_INGOT}
+    - SF{GOLD_18K}
+    - 240
+  
+  wither_skeleton_skull2nether_star: 
+    - MC{WITHER_SKELETON_SKULL}=1
+    - MC{NETHER_STAR}=1
+    - 3040

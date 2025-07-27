@@ -1,0 +1,67 @@
+options:
+  auto-update: true
+  # If set to true, the plugin will automatically update to the latest major version
+  # This option is only available if auto-update is set to true
+  # Be careful with this option, as a new major version represents a breaking change
+  auto-update-major: false
+  enable-researches: false
+  # 如果服务器安装了 AdvancedEnchantments
+  # 该选项会使灵魂契约提供AE的物品
+  enable-ae-items-in-soul-contracts: false
+  # 村民提供包含粘液战甲的矿石交易的几率（百分比）
+  ore-trade-chance: 1
+
+relics:
+  # 每钓到多少条鱼可获得古纪遗物
+  lith: 50
+  # 每击杀多少生物可获得前纪遗物
+  meso: 750
+  # 每破坏多少方块可获得中纪遗物
+  neo: 10000
+  # 每放置多少方块可获得后纪遗物
+  axi: 750
+
+# You can add any mob you want, but make sure to write their entity name correctly
+# The value is a percentage
+drop-chance:
+  morphics:
+    WITHER: 5
+    WARDEN: 10
+    ELDER_GUARDIAN: 20
+  neural-sensors:
+    WARDEN: 5
+  neurodes:
+    ZOMBIE: 15
+    ZOMBIE_VILLAGER: 15
+    HUSK: 15
+    DROWNED: 15
+  orokin-cell:
+    WITHER: 1
+    WARDEN: 1
+    ENDER_DRAGON: 10
+  reactants: 25
+
+commands:
+  slimeframe:
+  - slimeframe
+  - sframe
+  - wf
+  inventory:
+  - relics
+  - inventory
+  invsee:
+  - invsee
+  - relicinvsee
+  refine:
+  - refine
+  traces:
+  - traces
+
+messages:
+  prefix: '&f[&b粘液战甲&f]'
+  prefix-enabled: false
+  # When a player tries to open a relic with insufficient reactants
+  insufficient-reactants:
+  - '&c你需要10个反应物才能打开该遗物！'
+  freezing-item:
+  - '&c警告！你已经收到冰冻物品的影响！丢掉它或者穿上永冻套装！'

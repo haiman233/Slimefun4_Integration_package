@@ -1,0 +1,8 @@
+FN_GEM_FLAWLESS_UNBIND:
+  unbind-chance: 100
+FN_GEM_PRECIOUS_UNBIND:
+  unbind-chance: 70
+FN_GEM_BLEMISHED_UNBIND:
+  unbind-chance: 45
+FN_GEM_DAMAGED_UNBIND:
+  unbind-chance: 25

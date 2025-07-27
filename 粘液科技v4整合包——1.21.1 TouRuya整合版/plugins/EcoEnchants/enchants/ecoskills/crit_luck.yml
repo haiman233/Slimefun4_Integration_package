@@ -1,0 +1,25 @@
+display-name: "额外暴击"
+description: "提供&a+%placeholder%&r的%ecoskills_crit_chance_name%几率"
+placeholder: "4 * %level%"
+type: normal
+
+targets:
+  - sword
+conflicts: [ ]
+rarity: uncommon
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: add_stat
+    args:
+      stat: crit_chance
+      amount: "4 * %level%"
+
+conditions: [ ]
+
+dependencies:
+  - EcoSkills

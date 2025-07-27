@@ -1,0 +1,141 @@
+jf:
+  CommandName: jf
+  DisplayName: '&e&l进服大礼包'
+  Delay: 10
+  MaxUsages: 1
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ENCHANTED_GOLDEN_APPLE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ENCHANTED_GOLDEN_APPLE
+  Items:
+    '28':
+      v: 3955
+      type: YELLOW_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"1","obfuscated":true,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true},{"text":"生存基础","obfuscated":false,"italic":false,"color":"yellow","bold":true},{"text":"1","obfuscated":true,"italic":false,"color":"yellow","bold":true}]}'
+        internal: H4sIAAAAAAAA/6XSy1bCMBCA4ZEWharITSq68QV4AVe+Sc+YRMgxndQ0LOTpDauQRVhMd81pv9z6VwAV1F/Gip+dIq/9307YtrMUBv0UVq0mJRx++w9hyWMYuQoA3gooe2N9eAy+1F61ExhpCfMIfo/o/KmAsbBHOn/5CRDZTcJml+ugyaFRgtYRaWep0bS3PkeLHN1bI6/TMqHLSJ2SvQ9XlYPjBG4iNNjpvjF4Ohqdw7cJXkQsNbaWZM7d5ZxqlUOTdZPEbaMj5Q/KhVfXb2nK66DidHDP7+CB38Ejt4PZkA6emB3MmR0sBnaw5HWw4nSw5nfwzO9gw+2gHtLBS4LfL/4niQOSV7I5b11Rg11nsnvYJtPU6bkDFuhc/uivDA3wD3DZMaRlBgAA
+        PublicBukkitValues: |-
+          {
+              "cmilib:cmibackpack": 438655125
+          }
+        blockMaterial: YELLOW_SHULKER_BOX
+    '29':
+      v: 3955
+      type: WHITE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"1","obfuscated":true,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":true},{"text":"建筑材料","obfuscated":false,"italic":false,"color":"white","bold":true},{"text":"1","obfuscated":true,"italic":false,"color":"white","bold":true}]}'
+        internal: H4sIAAAAAAAA/42U2U7DMBBFhy7QhqXQlVIWiff+AE/8SeW6Jo3q2JHjKsrfEwJSMq1m8Fsc5RxPxnMdAUSw2GorD2tlfOLLtbRpZk21yIcwSROjpBNf/kNa40W1chEArLrQy7X11WPF9xKv0gF0kh1MG6DYV683hbW6C31pj+bn60+ABr2g0K0W8sCiHRJ1tjAs2kXouEGd2rFgD4GzBrROmJj/1T7FlkprW7DsJWJbR6KTlN/1iupS7JTiuzSgNpWl4MkhIpftcuO932z1kS86onb+l7ymmpwdXaZ59gax84ZNRVxlQbDwLVVylhh+ju8QOWqdkBZ5TlEjRL2eTVNeJ3W3YSX3SPJymr4gxwNyrHCWggxjZHhuj6gowxQTpHg/Hbhw0ZTsSH2pBDlmfDH1DAeJ5lQxv9kNciyoOfkLRJDkEUnezpMRZFlS51xHJEjxRCnqe5BRAHwDgwwlAOcGAAA=
+        PublicBukkitValues: |-
+          {
+              "cmilib:cmibackpack": 731197341
+          }
+        blockMaterial: WHITE_SHULKER_BOX
+    '30':
+      v: 3955
+      type: LIME_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"种子库","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":true}]}'
+        internal: H4sIAAAAAAAA/43U207DMAwG4MDGaZyP4/QKvABXvEnkpV4b1saRk1Dx9gQJqcuFF+4aqV9s2X+7UGqhlquezOYNXbTx+83Q4MnlQzhRt4N1aBjW8d2Qi5BPvFBKvczUPPQU82P2cxtxOFb7tlGXEwDve5ypA0PJ/b74odSk9gp1P6kBe3I69NaIdr+wy8mGETHqFTJbDJKeFfph0m1PYw3PC3y1NR1gpiixA4l5ihBJYodSq6YjTkGvOVmx5lGBbya8ykNikps9LuDjFmQanR5S6DIfJH4iNc3YVPGiwHdbq00tsDbgxFScSqnwafAbmzOF2IiLPavkcZc9Fwf2N+nd/KLgLxOPxKZb51Qi777hUmp+7BAq1a8ka8gQ5O8BnGivJeswdrnpEVhM2Y00NJMlf+sAvreulfitVJpgU7N3UungORms8XspaCub91XTD1Lxz+Tavlp8KXEwYCzU+GPBnyfeAG/0P2b3VFzwuvWdgGuZvlB7Jg9tkn/9z9LqvI2/y9eemtIq9QPTHYpJpwYAAA==
+        PublicBukkitValues: |-
+          {
+              "cmilib:cmibackpack": 763102363
+          }
+        blockMaterial: LIME_SHULKER_BOX
+    '31':
+      v: 3955
+      type: COOKED_COD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"烤海鳗","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"右键进食回复所有饱食度","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"(*^▽^*)","italic":false,"color":"aqua"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"纪念物品--源于海鳗","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '{"text":"","extra":[{"text":"物品使用次数: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false},{"text":"5","italic":false,"color":"gold"}]}'
+        PublicBukkitValues: |-
+          {
+              "cmilib:cmilimitedusecurrent": 5,
+              "cmilib:cmilimitedusemax": 5,
+              "cmilib:nbtcommands": [
+                  "3ifeaRoCl/+ZIkbHdC/jRrWrhUIxYC2EmseGaFlm248="
+              ],
+              "cmilib:randomid": 1413634056
+          }
+    '32':
+      v: 3955
+      type: COD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"海鳗刺身","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+        lore:
+        - '""'
+        - '{"text":"","extra":[{"text":"右键食用恢复所有生命值","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"(*^▽^*)","italic":false,"color":"green"}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"纪念物品--源于海鳗","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        - '{"text":"","extra":[{"text":"物品使用次数: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false},{"text":"5","italic":false,"color":"gold"}]}'
+        PublicBukkitValues: |-
+          {
+              "cmilib:cmilimitedusecurrent": 5,
+              "cmilib:cmilimitedusemax": 5,
+              "cmilib:nbtcommands": [
+                  "gmHnarpgXMDVLEYUUp6dTLWrhUIxYC2EmseGaFlm248="
+              ],
+              "cmilib:randomid": 799389971
+          }
+    '33':
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 0d569141-bb53-3293-b908-28d687ff9a58
+          name: TouRuya
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2ZTMyODBjMmZmZTE5NGNjYjZlNmIxNmUzM2ViNjcxMjczMTdlOTkyOWI4ODM5YmMyZGQ4ZjcxMzhhYmNjYiJ9fX0=
+    OffHand:
+      v: 3955
+      type: AIR
+      amount: 0
+cd:
+  CommandName: cd
+  Delay: 10
+  Items:
+    '28':
+      v: 3955
+      type: ENCHANTED_GOLDEN_APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"服务器菜单喵","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":true}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"别看这小小的，功能也不多捏","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '{"text":"","extra":[{"text":"左键打开服务器菜单","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+        - '{"text":"","extra":[{"text":"右键打开粘液书喵~","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+        - '{"text":"","extra":[{"text":"真方便","italic":false},{"text":"\\(^o^)/~","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+        - '""'
+        - '""'
+        - '{"text":"","extra":[{"text":"To出品  必属精品","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+        PublicBukkitValues: |-
+          {
+              "cmilib:nbtcommands": [
+                  "Z6KUn9oNu4gdDLYvVv8NLA==",
+                  "D0pZqt9SPkUkUlnz9Z9c/bZupXk7N/u3a5AvusZPpAQ="
+              ]
+          }

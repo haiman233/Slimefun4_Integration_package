@@ -1,0 +1,155 @@
+panels:
+  menu: 
+    perm: default
+    rows: 3
+    title: '&d&l主菜单 &c&l/cd'
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    commands-on-open:
+    commands:
+    - menu
+    - cd
+    - m
+    empty: LIGHT_BLUE_STAINED_GLASS_PANE
+    item:
+      '4':
+        material: filled_map
+        name: '&c&l说明|帮助'
+        lore:
+        - '&b一、 &a此服务端完全免费，如果你是付费购买，说明你被骗了'
+        - '&b二、 &a当你有管理员权限时。输入/research take [玩家ID] 将别人的研究与你同步'   
+        - '&b三、 &a此服务端将灵魂罐和电动刷怪笼附属进行了扩充，现在可以记录并生产1.21.1前的实体'   
+        - '&b四、 &a调整了bump、终极发电机2、快捷机器的语言文件'          
+        - '&b五、 &a调整了更多头颅的头颅爆率，使它不会频繁出现在生物掉落物中'
+        - '&b六、 &a默认为每个物品需30经验解锁，在菜单中可获取全解'
+        - '&b七、 &a增加大部分功能和可视化快捷操作' 
+        - '&b八、 &a服务器原生版本为1.21.1，但添加了跨版本，支持1.16至更高版本'   
+        - ' '
+        - ' '
+        - '&7To出品，必属精品' 
+        commands:
+        stack: 1    
+      '9':
+        material: gold_ingot
+        name: '&c&l系统商店'
+        lore:
+        - '&b左键 &a➥ &c打开商店面板'
+        commands:
+        - cpc
+        - shop
+        stack: 1
+      '10':
+        material: ENDER_PEARL
+        name: '&a&l随机传送'
+        lore:
+        - '&b左键 &a➥ &c点击进行随机传送[当前世界]'
+        commands:
+        - cpc
+        - left= rtp
+        stack: 1
+      '11':
+        material: enchanted_book
+        customdata: 2200001
+        name: '&a&l粘液科技'
+        lore:
+        - '&b左键 &a➥ &c打开粘液科技指南'
+        - '&b右键 &a➥ &c获取粘液科技指南'        
+        commands:
+        - left= op= sf open_guide
+        - right= sf guide
+        stack: 1
+      '12':
+        material: experience_bottle
+        name: '&d&l职业系统'
+        lore:
+        - '&f通过干活获得金币'
+        - '&b左键 &a➥ &d点击选择职业'
+        - '&c职业赚钱拥有上限'
+        commands:
+        - left= op= jobs browse
+        stack: 1
+      '13':
+        material: red_bed
+        name: '&6&l记录点[home]'
+        lore:
+        - '&f可以在这里查看自己标记点'
+        - '&b左键 &a➥ &c打开标记点'
+        - ' '
+        - ' '
+        - '&e指令&c/sethome [标记点名称]   &e可设置标记点'
+        commands:
+        - homes
+        stack: 1
+      '14':
+        material: player_head
+        customdata: 2200018
+        name: '&6&l垃圾箱~'
+        lore:
+        - '&f翻垃圾嘛？虽然没什么东西'
+        - '&b左键 &a➥ &c打开回收站'
+        - '&b右键 &a➥ &c进行垃圾清理'
+        - ' '
+        commands:
+        - left= op= wtc globaltrash
+        - right= op= wtc clear
+        stack: 1                   
+      '15':
+        material: end_crystal
+        name: '&3&l基本世界规则设置'
+        lore:
+        - '&b有几项可配置的基本规则哦'
+        - '&b左键 &a➥ &c打开配置面板'
+        - '&f仅拥有管理员权限的玩家可使用 '
+        commands: 
+        - msg= &c你没有使用这部分的权限
+        has0:
+          material: end_crystal
+          name: '&3&l基本世界规则设置'
+          lore:
+          - '&b有几项可配置的基本规则哦'
+          - '&b左键 &a➥ &c打开配置面板'
+          - '&f仅拥有管理员权限的玩家可使用 '        
+          value0: '%cp-player-name% HASPERM'
+          compare0: 'minecraft.command.op'
+          commands:
+          - commandpanel cs
+        stack: 1            
+      '16':
+        material: iron_hoe
+        customdata: 2201273        
+        name: '&d&l粘液全解'
+        lore:
+        - '&f在这里可以切换是否全解'
+        - '&b左键 &a➥ &c选择'
+        - ' '
+        commands:
+        - commandpanel cj
+        stack: 1
+      '17':
+        material: ender_chest
+        name: '&d&l礼包'
+        lore:
+        - '&f在这领取新手礼包'
+
+        - '&f其实有op可以重复领取'
+        - '&f但我相信你不会这么做的喵'
+        - '&a因为这对我们没有任何影响 (*^▽^*)'
+        commands:
+        - kit jf
+        - op= lp user %player_name% permission set ceshi
+        - refresh
+        has0:
+          material: clock
+          name: '&3&l每日签到'
+          lore:
+          - '&b在这里能进行签到获取金币哦'
+          - '&b左键 &a➥ &c打开签到界面'        
+          value0: '%cp-player-name% HASPERM'
+          compare0: 'ceshi'
+          commands:
+          - litesignin gui        
+        stack: 1
+
+
+
+
+

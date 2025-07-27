@@ -1,0 +1,37 @@
+## 方块限制
+## 现在可以限制任何粘液科技中的方块放置，包括附属中的方块。
+## 你需要添加方块组，然后进行相关设置。
+##
+## 示例配置是一个限制区块内所有货运节点的例子。
+## cargo：这是方块组的名称，使用英文、数字或下划线的组合，不要使用其他的奇怪名称和符号。
+## items-amount：每个区块内最多可以放置多少方块。（组内的所有方块叠加起来的上限）
+## items：方块的粘液物品ID列表（支持附属）。
+## permission-amount：你可以在此增加权限节点，以设置不同的数量限制。
+##    如果你不需要这一项，可以删除。
+##    对应的权限节点为：headlimiter.permission.<权限>
+##  cargo:
+##    items-amount: 25
+##    items:
+##      - CARGO_NODE_INPUT
+##      - CARGO_NODE_OUTPUT
+##      - CARGO_NODE_OUTPUT_ADVANCED
+##      - CARGO_NODE
+##      - CARGO_MANAGER
+##    permission-amount:
+##      example_1: 50
+##      example_2: 100
+##      example_3: 150
+
+block-limits:
+  cargo:
+    items-amount: 25
+    items:
+      - CARGO_NODE_INPUT
+      - CARGO_NODE_OUTPUT
+      - CARGO_NODE_OUTPUT_ADVANCED
+      - CARGO_NODE
+      - CARGO_MANAGER
+    permission-amount:
+      example_1: 50
+      example_2: 100
+      example_3: 150

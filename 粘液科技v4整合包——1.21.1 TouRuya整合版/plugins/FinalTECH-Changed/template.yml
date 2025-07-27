@@ -1,0 +1,48 @@
+# Id
+_FINALTECH_DEMO_BASIC_MACHINE:
+  name: 'Logic Factory'
+  material: 'OBSIDIAN'
+  lore:
+    - 'you can add lore'
+    - 'and more lore!'
+  # 'BASIC' or 'ADVANCED'
+  type: 'BASIC'
+  research:
+    # Bind research with target slimefun item
+    target-id: ''
+    # Create new research
+    id: 123
+    # New research name
+    name: ''
+  craft-recipe-type: 'enhanced_crafting_table'
+  craft-recipe:
+    1:
+      id: '_FINALTECH_ORDERED_DUST_FACTORY_DIRT'
+      amount: 3
+  machine-recipe:
+    recipe-name-for-you-like:
+      input:
+        1:
+          id: '_FINALTECH_LOGIC_FALSE'
+          amount: 1
+      output:
+        1:
+          id: '_FINALTECH_ENTROPY'
+          amount: 2
+      outputs:
+        group-name-for-you-like:
+          weight: 2
+          output:
+            1:
+              material: 'COBBLESTONE'
+              amount: 2
+        group-name-for-you-like2:
+          weight: 1
+          output:
+            1:
+              material: 'STONE'
+              amount: 1
+            2:
+              material: 'COBBLESTONE'
+              amount: 1
+

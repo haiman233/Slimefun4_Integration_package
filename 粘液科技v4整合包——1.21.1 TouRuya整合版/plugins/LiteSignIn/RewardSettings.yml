@@ -1,0 +1,74 @@
+#奖励设置
+Reward-Settings:
+    #权限组优先级，顺序从上到下
+    Groups-Priority:
+    - VIP
+    - Default
+    #权限组设置
+    Permission-Groups:
+        #这个是默认组，不可删除也无法添加权限
+        Default:
+            #正常签到时触发
+            Normal-Time:
+                #在签到时发送信息
+                #支持PlaceholderAPI变量
+                Messages: 
+                - '{prefix}&a签到奖励已获取.'
+                #在签到时奖励物品
+                #在这个选项中，你可以直接填写原版物品的名字，
+                #或者是RewardSettings.yml中（包含手动设置的、用命令添加的）的物品。
+                #格式： "[物品名字|收藏品名字]:[数量]"
+                #示例： "diamond:5" 奖励5个钻石
+                #你可以使用 "[最小值]-[最大值]" 以随机奖励物品的数量。
+                #示例： "diamond:1-3" 随机奖励1-3个钻石。
+                Reward-Items:
+                - 'diamond:3'
+                - 'gold_ingot:8'
+                - 'iron_ingot:16'
+                #在签到时发送广播信息
+                #在此选项中的信息将会被所有人看见
+                Broadcast-Messages: []
+                #在签到时播放声音
+                #格式： [声音]-[音量]-[音调]-[是否所有人都能听见]
+                Play-Sounds: 
+                - 'ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE'
+                #在签到时执行命令
+                #格式： "[执行类型]:[命令]"
+                #"执行类型" 可以是 "op" 、 "server"、 无
+                #分别对应 "玩家以OP权限执行命令"、 "执行控制台命令"、"玩家执行命令"
+                #示例： 
+                # "server:say hello" 在控制台中执行"say hello"命令
+                # "op:gamemode creative" 玩家以OP权限执行"gamemode creative"命令
+                # "spawn" 玩家正常执行"spawn"命令
+                #支持PlaceholderAPI变量
+                Commands: [op:money give %player_name% 3000]
+            #当玩家使用补签卡进行补签时触发
+            Retroactive-Time:
+                #禁止玩家通过补签获得以下模块的奖励
+                Disabled-Modules:
+                    #建议开启， 以防止玩家直接获得某些特殊日期的专属奖励
+                    Special-Dates: true
+                    Special-Weeks: true
+                    Statistics-Times: false
+                    Statistics-Times-Of-Month: false
+                    Statistics-Times-Cycle: false
+                Play-Sounds: 
+                - 'ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE'
+                Reward-Items:
+                - 'diamond:3'
+                - 'gold_ingot:8'
+                - 'iron_ingot:16'                               
+            Special-Ranking:
+                #全服第一名
+                '1':
+                    Override-default-rewards: true
+                    Messages: 
+                    - '{prefix}&a你今天是全服第一个签到的玩家'
+                    Reward-Items:
+                     - 'diamond:3'
+                     - 'gold_ingot:8'
+                     - 'iron_ingot:16'   
+                    Play-Sounds: 
+                     - 'ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE' 
+                    Commands: [op:money give %player_name% 3000]                      
+            #每月连续签到一定次数时触发

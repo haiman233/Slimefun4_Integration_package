@@ -1,0 +1,10 @@
+# How often a "ticker" ticks in milliseconds
+# It is not recommended setting this above 20!
+ticker:
+  entity: 1
+  armor: 1
+
+# Debug Mode
+debug: false
+
+auto-update: true

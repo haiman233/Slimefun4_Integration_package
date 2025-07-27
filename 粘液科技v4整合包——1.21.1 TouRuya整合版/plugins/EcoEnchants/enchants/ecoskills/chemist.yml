@@ -1,0 +1,28 @@
+display-name: "化学家"
+description: "提供&a%placeholder%%&r的炼金术经验加成"
+placeholder: "12.5 * %level%"
+type: normal
+
+targets:
+  - helmet
+conflicts:
+  - enriched_plating
+  - sorcery
+rarity: uncommon
+max-level: 4
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: skill_xp_multiplier
+    args:
+      multiplier: "1 + 0.125 * %level%"
+      skills:
+        - alchemy
+
+conditions: [ ]
+
+dependencies:
+  - EcoSkills

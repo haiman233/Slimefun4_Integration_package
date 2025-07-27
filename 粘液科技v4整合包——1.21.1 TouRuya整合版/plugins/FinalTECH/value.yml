@@ -1,0 +1,34 @@
+constructor:
+  singularity: 256
+  spirochete: 64
+  copy-card: 16777216
+exchange:
+  input:
+    FINALTECH_UNORDERED_DUST: 0
+    FINALTECH_ORDERED_DUST: 0
+    FINALTECH_BUG: 1
+
+  output:
+    FINALTECH_UNORDERED_DUST: INFINITY
+    FINALTECH_ORDERED_DUST: INFINITY
+    FINALTECH_COPY_CARD: INFINITY
+    FINALTECH_SHELL: INFINITY
+    FINALTECH_PHONY: INFINITY
+    FINALTECH_BUG: 1
+  no-output:
+    - ENHANCED_CRAFTING_TABLE
+    - SMELTERY
+    - PRESSURE_CHAMBER
+    - ORE_CRUSHER
+    - MAGIC_WORKBENCH
+    - JUICER
+    - GRIND_STONE
+    - COMPRESSOR
+    - ARMOR_FORGE
+    - ANCIENT_ALTAR
+    - GOLD_PAN
+    - ORE_WASHER
+cargo:
+  link-search-distance: 8
+matrix-reactor:
+  difficulty: 72

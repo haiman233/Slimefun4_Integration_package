@@ -1,0 +1,7 @@
+# #WARNING! Set radius smaller than border size(12 blocks+)
+
+options:
+  auto-update: true
+max: 1
+go_to_minus_on_y: true
+radius: 29999983

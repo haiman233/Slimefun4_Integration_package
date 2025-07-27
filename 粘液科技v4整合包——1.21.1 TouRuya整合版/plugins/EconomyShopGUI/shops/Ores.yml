@@ -1,0 +1,99 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: AMETHYST_BLOCK
+        buy: 5.52
+        sell: -1
+      '2':
+        material: AMETHYST_SHARD
+        buy: 1.32
+        sell: -1
+      '3':
+        material: ANCIENT_DEBRIS
+        buy: 529
+        sell: -1
+      '4':
+        material: COAL
+        buy: 5.25
+        sell: -1
+      '5':
+        material: COAL_BLOCK
+        buy: 49.62
+        sell: -1
+      '6':
+        material: COPPER_BLOCK
+        buy: 3.86
+        sell: -10
+      '7':
+        material: COPPER_INGOT
+        buy: 0.92
+        sell: -1 0.23
+      '8':
+        material: COPPER_ORE
+        buy: 15
+        sell: -1 -1
+      '9':
+        material: DIAMOND
+        buy: 52.5
+        sell: -1 1.23
+      '10':
+        material: DIAMOND_BLOCK
+        buy: 496.13
+        sell: -1 2.45
+      '11':
+        material: EMERALD
+        buy: 39.38
+        sell: -1 1.85
+      '12':
+        material: EMERALD_BLOCK
+        buy: 372.1
+        sell: -1 1.46
+      '13':
+        material: GOLD_BLOCK
+        buy: 78.14
+        sell: -1 1.54
+      '14':
+        material: GOLD_INGOT
+        buy: 8.27
+        sell: -1 2.07
+      '15':
+        material: IRON_BLOCK
+        buy: 52.1
+        sell: -1 2.46
+      '16':
+        material: IRON_INGOT
+        buy: 5.52
+        sell: -1 0.36
+      '17':
+        material: LAPIS_BLOCK
+        buy: 68.22
+        sell: -1 1.06
+      '18':
+        material: LAPIS_LAZULI
+        buy: 7.22
+        sell: -1 1.81
+      '19':
+        material: NETHERITE_BLOCK
+        buy: 22374
+        sell: -1 5.16
+      '20':
+        material: NETHERITE_INGOT
+        buy: 2367.62
+        sell: -1 1.06
+      '21':
+        material: QUARTZ
+        buy: 8.27
+        sell: -1 2.07
+      '22':
+        material: QUARTZ_BLOCK
+        buy: 34.73
+        sell: -1 2.13
+      '23':
+        material: REDSTONE
+        buy: 3.5
+        sell: -1 0.88
+      '24':
+        material: REDSTONE_BLOCK
+        buy: 33.08
+        sell: -1 1.46

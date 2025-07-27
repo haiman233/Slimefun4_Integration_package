@@ -1,0 +1,26 @@
+display-name: "空气动力学"
+description: "每飞行&a%blocks%&r个方块,箭矢将额外造成&a%damage%%&r的伤害"
+placeholders:
+  damage: "1 * %level%"
+  blocks: "11 - ceil(%level% / 2)"
+type: normal
+
+targets:
+  - bow
+  - crossbow
+conflicts: []
+rarity: epic
+max-level: 4
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: "1 + (%distance% / (11 - ceil(%level% / 2))) * 0.01 * %level%"
+    triggers:
+      - bow_attack
+
+conditions: []

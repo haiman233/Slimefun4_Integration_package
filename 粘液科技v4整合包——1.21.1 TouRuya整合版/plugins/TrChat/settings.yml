@@ -1,0 +1,51 @@
+Options:
+  Check-Update: true
+  Proxy: AUTO
+  Log-Normal: '[{0}] {1}: {2}'
+  Log-Private: '[{0}] {1} -> {2}: {3}'
+  Log-Delete-Time: 0
+  Depend-Expansions: ['player', 'server']
+  Prevent-Tab-Complete: false
+  Component-Max-Length: 32700
+  Always-Cancel-Chat-Event: false
+  Cheat-Client-Secure-Chat: true
+  Use-Packets: true
+  Disabled-Commands: []
+
+Channel:
+  Default: 'Normal'
+
+Database:
+  Method: SQLite
+  SQL:
+    host: localhost
+    port: 3306
+    user: root
+    password: root
+    database: trixey
+    table: trchat_user_data
+
+Redis:
+  enabled: false
+  host: localhost
+  port: 20000
+  user: ~
+  password: ~
+  connect: 32
+  timeout: 1000
+
+Chat:
+  Anti-Repeat: 0.85
+  Cooldown: '.0s'
+  Length-Limit: 100
+
+Color:
+  Chat: true
+  Sign: true
+  Anvil: true
+  Book: true
+
+Simple-Component:
+  Hover: false
+  Anvil: false
+  Sign: false

@@ -1,0 +1,31 @@
+display-name: "粘液杀手"
+description: "对史莱姆和岩浆怪造成额外&a%placeholder%%&r的伤害"
+placeholder: "5 * %level%"
+type: normal
+
+targets:
+  - sword
+  - axe
+  - bow
+  - crossbow
+conflicts: []
+rarity: rare
+max-level: 7
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: "1 + 0.05 * %level%"
+    triggers:
+      - melee_attack
+      - bow_attack
+    filters:
+      entities:
+        - slime
+        - magma_cube
+
+conditions: []

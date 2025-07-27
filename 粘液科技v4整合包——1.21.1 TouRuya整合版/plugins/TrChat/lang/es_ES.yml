@@ -1,0 +1,228 @@
+Plugin-Loading:
+  - '&f'
+  - '&7Cargando &3Tr&bChat&7... &8{0}'
+  - '&f'
+Plugin-Enabled: '&8[&3Tr&bChat&8] &bINFO &8| &3Cargado. TrChat &av{0} &3has been enabled.'
+Plugin-Loaded-Functions: '&8[&3Tr&bChat&8] &bCHAT &8| &3Cargado &b{0} &3chat functions... &8[{1} Ms]'
+Plugin-Loaded-Channels: '&8[&3Tr&bChat&8] &bCHAT &8| &3Cargado &b{0} &3chat channels... &8[{1} Ms]'
+Plugin-Loaded-Filter-Local: '&8[&3Tr&bChat&8] &aFILTER &8| &3Cargado local filter words &b{0} &3.'
+Plugin-Loaded-Filter-Cloud: '&8[&3Tr&bChat&8] &aFILTER &8| &3Cargado cloud filter words &a{0} &3. &8[{1} - {2}]'
+Plugin-Reloaded: '&8[&3Tr&bChat&8] &7Configuración cambiada, recargando...'
+Plugin-Failed-Load-Filter-Cloud: '&8[&3Tr&bChat&8] &8Imposible poder actualizar los filtros desde la nube...'
+Plugin-Proxy-Supported: '&8[&3Tr&bChat&8] &6Hooked &e{0} &6chat support.'
+Plugin-Proxy-None: '&8[&3Tr&bChat&8] &7No proxy support currently'
+Plugin-Dependency-Hooked: '&8[&3Tr&bChat&8] &6HOOK &8| &7Soft-Dependency &f{0} &7is hooked.'
+Plugin-Updater-Latest: '&8[&3Tr&bChat&8] &2Estas ejecutando la ultima versión de &3TrChat&a.'
+Plugin-Updater-Dev: '&8[&3Tr&bChat&8] &6Te encuentras ejecutando una versión de desarrollo de &3TrChat&6'
+Plugin-Updater-Header:
+  - ''
+  - '&3--------------------------------------------------'
+  - '&7▪ &3TrChat &aUpdate Notify &8{0} &7➦ &8{1}'
+Plugin-Updater-Footer:
+  - '&7▪ &2Github: &a&nhttps://github.com/TrPlugins/TrChat/releases'
+  - '&3--------------------------------------------------'
+Plugin-Debug-On:
+  - type: title
+    title: '&7&lDEBUG MODE'
+    subtitle: '&3&lse encuentra &a&lActivada&3&l.'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 2
+Plugin-Debug-Off:
+  - type: title
+    title: '&7&lDEBUG MODE'
+    subtitle: '&3&lse encuentra &c&lDesactivada&3&l.'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 0
+Plugin-Done: '&8[&3Tr&bChat&8] &fOperación correcta.'
+Plugin-Failed: '&8[&3Tr&bChat&8] &cOperación fallida.'
+
+General-Too-Long: '&8[&3Tr&bChat&8] &7El mensaje enviado es muy largo. &8[&6{0}&8/&2{1}&8]'
+General-Too-Similar: '&8[&3Tr&bChat&8] &7Porfavor no repitas el mismo mensaje.'
+General-No-Permission: '&8[&3Tr&bChat&8] &7No tienes permisos para realizar esto.'
+General-Muted: '&8[&3Tr&bChat&8] &cFuiste silenciado por {0}! Razón: {1}'
+General-Cancel-Muted: '&8[&3Tr&bChat&8] &aYa puedes escribir.'
+General-Global-Muting: '&8[&3Tr&bChat&8] &cTodos los usuarios fueron silenciados.'
+General-Expansions-Header:
+  - '&8[&3Tr&bChat&8] &7You have to install the &f{0} &7expansion for PlaceholderAPI to chat.'
+  - type: JSON
+    text: '&7Also don''t forget to [&3&nreload]'
+    args:
+      - hover: '&7Click to reload expansions of PAPI'
+        command: '/papi reload'
+General-Expansions-Format:
+  - type: JSON
+    text: '&8- [&a{0}]&f'
+    args:
+      - hover: '&7Click to download'
+        command: '/papi ecloud download {0}'
+
+Cooldowns-Chat:
+  - type: actionbar
+    text: '&7&lRequieres esperar &6{0} segundos &7&lantes de chatear nuevamente.'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 2
+Cooldowns-Item-Show:
+  - type: actionbar
+    text: '&3&lRequieres esperar &a{0} segundos &3&lantes de mostrar tu item.'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+Cooldowns-Inventory-Show:
+  - type: actionbar
+    text: '&3&lRequieres esperar &a{0} segundos &3&lantes de mostrar tu inventorio nuevamente.'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+Cooldowns-EnderChest-Show:
+  - type: actionbar
+    text: '&3&lRequieres esperar &a{0} segundos &3&lantes de mostrar tu ender chest nuevamente.'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+Cooldowns-Image-Show:
+  - type: actionbar
+    text: '&3&lRequieres esperar &a{0} segundos &3&lantes de mostrar tu image nuevamente.'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+
+Command-Controller-Deny: '&c&lNo puedes utilizar este comando'
+Command-Controller-Cooldown: '&c&lRequieres esperar &6{0} segundos &7&lantes de usar un comando otravez.'
+Command-Not-Player: '&8[&3Tr&bChat&8] &cSe requiere indentificar a un jugador.'
+Command-Player-Not-Exist: '&8[&3Tr&bChat&8] &7El jugador al cual esta dirigido no existe.'
+
+Function-Mention-Format:
+  - type: json
+    text: ' [&a@&2{0}] '
+    args:
+      - hover: '&7Click to chat with me!'
+        suggest: '/tell {0}'
+Function-Mention-Notify:
+  - type: actionbar
+    text: '&d&l&k|&f &3&lEl juador &a&l{0} &3&lte menciono en el chat &d&l&k|'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 2
+Function-Item-Show-Format-New:
+  - type: json
+    text: '&8\[[item] &bx{0}&8\]'
+    args: [ ]
+Function-Item-Show-Format-With-Hopper:
+  - type: json
+    text: '&8\[[item] &bx{0}&8\]'
+    args:
+      - command: '/view-item {1}'
+Function-Item-Show-Air: '&8[&fAir&8]'
+Function-Item-Show-Unavailable: '&c&This item has been expired or does not exist...'
+Function-Item-Show-Title: '{0}''s Item'
+Function-Inventory-Show-Format:
+  - type: json
+    text: '[&8\[&3Inventory of {0}&8\]]'
+    args:
+      - hover: '&7Click to view inventory of {0}'
+        command: '/view-inventory {1}'
+Function-Inventory-Show-Unavailable: '&c&This inventory has been expired or does not exist...'
+Function-Inventory-Show-Title: '{0}''s Inventory'
+Function-EnderChest-Show-Format:
+  - type: json
+    text: '[&8\[&3Ender Chest of {0}&8\]]'
+    args:
+      - hover: '&7Click to view ender chest of {0}'
+        command: '/view-enderchest {1}'
+Function-EnderChest-Show-Unavailable: '&c&lThis ender chest has been expired or does not exist...'
+Function-EnderChest-Show-Title: '{0}''s Ender Chest'
+Function-Mention-All-Format:
+  - type: json
+    text: ' [&a@&2Everyone] '
+    args: [ ]
+
+Private-Message-Spy-Format: '&8[&3Spy&8] &6{0} &2-> &3{1}&f: &7{2}'
+Private-Message-Spy-On:
+  - type: actionbar
+    text: '&c&l&k|&f &a&lModo espia activado &c&l&k|'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 2
+Private-Message-Spy-Off:
+  - type: actionbar
+    text: '&c&l&k|&f &c&lModo espia desactivado &c&l&k|'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 0
+Private-Message-No-Player:
+  - type: actionbar
+    text: '&3&lNombre del jugador requerido'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+Private-Message-No-Message:
+  - type: actionbar
+    text: '&7&lSe requiere contenido del chat'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+Private-Message-Receive:
+  - type: actionbar
+    text: '&8[ &a! &8] &3Haz recibido un mensaje de &a{0} &3.'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 2
+
+Channel-Proxy-Not-Enable: '&8[&3Tr&bChat&8] &7No es posible conectarse con &eBungeeCord &7o &eVelocity &7.'
+Channel-Join:
+  - type: actionbar
+    text: '&a&lConectado al canal {0}.'
+  - type: text
+    text: '&8[&3Tr&bChat&8] &3Te encientras dentro del canal {0}'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 2
+Channel-Quit:
+  - type: actionbar
+    text: '&3&lDesconectado del canal {0}.'
+  - type: text
+    text: '&8[&3Tr&bChat&8] &7Te haz desconectado del canal {0}'
+  - type: sound
+    sound: 'BLOCK_ANVIL_LAND'
+    volume: 1
+    pitch: 0
+Channel-No-Speak-Permission:
+  - type: actionbar
+    text: '&c&lNo posees los permisos para hablar en este canal'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+Channel-Bad-Language:
+  - type: actionbar
+    text: '&cNo puedes hablar de mala forma.'
+  - type: sound
+    sound: 'ENTITY_ITEM_BREAK'
+    volume: 1
+    pitch: 0
+
+Mute-Muted-Player: '&8[&3Tr&bChat&8] &7Fuiste silenciado por {0}, el tiempo de {1}.Razón: {2}'
+Mute-Cancel-Muted-Player: '&8[&3Tr&bChat&8] &7El silencio fue cancelado {0}.'
+Mute-Muted-All: '&8[&3Tr&bChat&8] &7Todos fueron silenciados.'
+Mute-Cancel-Muted-All: '&8[&3Tr&bChat&8] &7Ya todos pueden hablar.'
+
+Ignore-Ignored-Player: '&8[&3Tr&bChat&8] &7Ignored &f{0}''s &7messages.'
+Ignore-Cancel-Player: '&8[&3Tr&bChat&8] &7Restore receiving &f{0}''s &7messages.'
+Ignore-List: '&8[&3Tr&bChat&8] &7You hava ignored these players'' messages: &f{0}.'

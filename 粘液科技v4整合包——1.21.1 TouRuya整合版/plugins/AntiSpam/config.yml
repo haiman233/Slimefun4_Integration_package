@@ -1,0 +1,45 @@
+# --------------------------------------------
+#
+#          AntiSpam 2.3.2
+#
+# Thank you for downloading this plugin
+# don't forget to leave a review
+#
+# if you have a suggestion for what could
+# be added, write it to me on discord
+#
+# Plugin Developer: Kijler
+# Discord Support: https://discord.gg/sk4QQAU2yv
+#
+# My other plugins:
+# AdvancedRedeem: https://www.spigotmc.org/resources/advancedredeem-codes.118695/
+# WebClicker: https://www.spigotmc.org/resources/webclicker.118103/
+# CustomHelp: https://www.spigotmc.org/resources/customhelp-1-17-1-20-4.115473/
+#
+# --------------------------------------------
+
+# In the languages folder, there are 3 language files named Locale_XYZ.yml.
+# To switch to one of these languages, replace EN with one of the following languages
+# CZ - Czech, DE - German, EN - English. To create a custom language, simply modify one of
+# the provided files.
+language: EN
+
+# Setting this to 'true' will enable the blocking of sending identical messages in a row.
+# Setting it to 'false' will disable this feature.
+block-repeated-messages: true
+repeat-message-delay: 60
+
+# Here you can set the chat cooldown, specifying the number of seconds a player must wait
+# before sending another message.
+delay: 3
+
+# Setting this to 'true' will enable the blocking of sending identical characters in a row
+# within a single message. Setting it to 'false' will disable this feature.
+block-repeated-characters: true
+# Here you can set how many identical characters a player can send in a row within a single message.
+max-repeating-characters: 3
+
+# Here you can add blocked words that players will not be able to use in chat.
+blocked-words:
+- badword1
+- badword2

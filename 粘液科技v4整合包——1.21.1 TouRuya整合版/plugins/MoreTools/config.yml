@@ -1,0 +1,37 @@
+# #### !!!! 不要更改 !!!!
+version: Build 2 (git 51d9ab1)
+
+options:
+  auto-update: true
+  # 启用调试信息，将在控制台输出更多内容
+  debugging: true
+
+item-settings:
+  crescent-hammer:
+    # 玩家使用新月锤的冷却时间，单位为毫秒。（1秒=1000毫秒）
+    # 不要设置为0或负数，这会导致奇怪的问题出现！
+    cooldown: 500
+    damageable: true
+    # 更改这里的选项可能会导致问题。
+    # 当这些功能启用时，会向物品添加lore。
+    # 改动后可能会导致以前的物品无法识别，全部失效。
+    features:
+      enable-rotation: true
+      enable-channel-change: true
+    # 在此填写禁止旋转的方块。
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    # 不要填写任何不带方向的材料，或旧版材料（LEGACY）。
+    rotation-whitelist:
+    - PLAYER_WALL_HEAD
+
+messages:
+  items:
+    crescent-hammer:
+      block-breaking: '&c你不能破坏该方块！'
+      cooldown: '&c你现在不能这么做，还需要等待 &e{left-cooldown} &c毫秒！'
+      dismantle-fail: '&c你不能拆除该方块！'
+      rotate-fail: '&c你不能旋转该方块！'
+      channel-change-fail: '&c这不是一个货运节点！'
+      channel-change-success: '&a已更改信道为：{channel}'
+
+

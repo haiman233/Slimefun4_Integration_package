@@ -1,0 +1,6 @@
+
+auto-update: true
+
+messages:
+  spells:
+    teleport_no_suitable_location: 没有可以传送的位置

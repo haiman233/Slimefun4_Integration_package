@@ -1,0 +1,235 @@
+
+debug: 
+# [boolean] 是否开启调试模式 (如果启动时报错或插件未加载, 可以开启调试模式对部分错误进行排除)
+# 注: 开启后可能会导致后台刷屏
+  
+  normal: false
+  exception: false
+  breakpoint: false
+  
+bugfixers: 
+  speed-ingot: false
+  # [boolean] 是否开启加速锭的修复器 (第一次安装此插件无需开启, 现版本已从根源上解决此bug, 主要用于解决2019.10.3发布的版本中刷加速锭的bug)
+  
+  me: true
+  # [boolean] 禁止玩家使用 '/minecraft:me' 指令
+  
+  scroll-of-dimensional-teleposition: 
+    consume: true
+    # [boolean] 将坐标传送卷轴改为消耗品
+    
+  elevator-book: true
+  # [boolean] 防止玩家将电梯板的书卡出
+  
+research-identify-start: 450000
+# [int] 除非研究ID发生重复, 否则别动; 乱改后果自负
+
+items:
+  
+  capacity: 
+    new-texture: true
+    # [boolean] 开启电容的新材质 (新材质每级电容有不同的材质, 能够防止玩家利用变头BUG向管理要赔偿, 从而把小电容骗成黑钻电容)
+  
+  gps-single-launcher: 
+    new-texture: true
+    # [boolean] 开启GPS发射器的新材质 (新材质每级发射器有不同的材质, 能够防止玩家利用变头BUG向管理要赔偿, 从而把低级发射器骗成电辅发射器)
+  
+  rubber: 
+  # 橡胶
+    amount: 2
+    # [int] 破坏橡木和深色橡木时最多掉落的生橡胶个数, 请勿调为 0 
+    plank-amount-highest: 4
+    # [int] 破坏橡木和深色橡木时最多掉落的对应种类的木板个数
+    plank-amount-lowest: 1
+    # [int] 破坏橡木和深色橡木时最少掉落的对应种类的木板个数
+    normal-chance: 4
+    # [int] 破坏橡木的时候掉落生橡胶的几率, 取值为 1 ~ 99, 越高越容易得橡胶 (设为 0 会导致无橡胶产出, 设 100 会导致无法获得木头)
+    dark-chance: 2
+    # [int] 破坏深色橡木的时候掉落生橡胶的几率, 取值为 1 ~ 99, 越高越容易得橡胶 (设为 0 会导致无橡胶产出, 设 100 会导致无法获得木头)
+    exp-drop: 5
+    # [int] 烧制生橡胶为橡胶时产生的经验数量, 设为 0 则不产生经验
+    
+  vanisher: 
+    energy-consumption: 0.03
+    # [double] 隐身器穿戴时每次 '移动' 的耗能 (2020.1.16更新后在玩家方块间移动才算 '移动' )
+    
+  mt: 
+    iridium-recipe: false
+    # [boolean] 是否开启分子机中的铱矿合成 (若安装了Nar的远古工艺则无开启必要, 若安装的是其他版本的粘液科技且没有提供铱矿获取方法, 则强烈建议开启)
+    recipe-time: 
+      
+      iridium: 1200
+      # [int] 铱矿合成的耗时
+
+      radium: 2400
+      # [int] 镭块合成的耗时
+    
+  circuit: 
+    new-recipe: true
+    # [boolean] 是否使用新的电路板合成表 (新合成表难度更大)
+    
+  hazmat-suit: 
+    new-recipe: true
+    # [boolean] 是否使用新的防护服套装合成表 (新合成需要橡胶)
+    rubber-boots: 
+      fall-damage-decrease: 0.85
+      # [double] 穿戴橡胶靴时对摔落伤害的减弱程度, 取值 0 ~ 1, 取 0 时完全无摔伤, 取 1 时对摔落伤害不减弱
+    
+  solar-generator: 
+    new-texture: true
+    # [boolean] 是否使用新的太阳能发电机材质 (开启后服内如果有未放置的太阳能发电机物品将会造成玩家损失, 但已经放置的太阳能发电机不会受到影响)
+    new-recipe: true
+    # [boolean] 是否使用新的太阳能发电机合成表 (新合成表难度更大)
+    # 注: 新合成非常肝! 如果使用的是Nar重置的Slimefun4, 会导致铱的获取极为困难
+   
+  rtg: 
+    easy-recipe: false
+    # [boolean] 使用简单的RTG靶丸合成表 (简单合成表需要5个提纯铀, 默认合成表需要5个提纯铀和一个光辉铀)
+    energy-generation: 4
+    # [int] 放射性同位素温差发电机产能量, 总产能量 = 'energy-generation' 的 '发电机中装载的靶丸数' 次幂
+    # 注: 千万不要把 'energy-generation' 设为小于或等于 1 的值, 否则装载靶丸会导致发电量减少或不变而非增加
+    
+  reinforced-silicon-alloy: 
+    count: 48
+    # [int] 合成一个强化硅铁合金锭需要的硅铁合金锭的数量
+  
+  alumag-alloy: 
+    count: 12
+    # [int] 合成一个防锈铝合金板需要的防锈铝合金锭的数量
+    
+    block: 
+      count: 8
+      # [int] 合成一个防锈铝合金块需要的防锈铝合金板的数量  
+    
+  vector-manipulator: 
+    strength: 75
+    # [int] 前进格数 (不要调为 0, 调为负数会导致反方向运动)
+    
+  egg-generator: 
+    energy-production: 512
+    # [int] 龙蛋发电机的产能
+    
+  nether-star-crusher: 
+  # 下界之星粉碎机
+    time: 1440
+    # [int] 下界之星粉碎机加工一次物品的耗时 (单位为秒)
+    amount: 4
+    # [int] 粉碎一个下界之星所获得的碎片数量
+  
+  electric-sword: 
+    damage: 1.25
+    # [double] 穿甲伤害增强率, 写 1 时不对伤害作处理
+  
+  graphite: 
+    chance: 3
+    # [int] 挖到石墨的几率
+  
+  plasma-generator: 
+    time: 120
+    # [int] 等离子生成机一次工作的耗时
+
+  electric-digger: 
+    amplifier: 5
+    # [int] 电钻使用时的急迫等级
+  
+  dragon-breath-generator: 
+    vector-multiplier: 1.5
+    # [double] 发射的龙息团的向量 = 玩家的向量 * ${vector-multiplier}
+    more-damage: 45
+    # [double] 龙息击中后给予的更多伤害
+    ignore-pvp: false
+    # [boolean] 龙息团的伤害是否忽略地图pvp设定的限制 (对玩家而言)
+    
+  carobbiite: 
+    chance: 2
+    # [int] 挖掘闪长岩时掉落方氟钾石的几率 (%)
+  
+  melting-machine: 
+    time: 120
+    # [int] 熔炼机加工耗时
+    
+  fluoride-machine: 
+    time: 160
+    # [int] 氟化机加工耗时
+    
+  beryllium: 
+    dust-chance: 15
+    # [int] 挖掘绿宝石矿石时掉落铍粉的几率 (%)
+    dust-number: 2
+    # [int] 一次最多掉落几个铍粉
+  
+  lithium: 
+    dust-chance: 2
+    # [int] 挖掘铁矿石时掉落锂粉的几率 (%)
+    dust-number: 1
+    # [int] 一次最多掉落几个锂粉
+  
+  fused-salt-reactor: 
+    fire-ticks: 400
+    # [int] 给予附近不穿防护服或加厚防护服的玩家火焰伤害的时长 (tick, 400tick = 20sec)
+  
+  graphite-core: 
+    graphite-number: 16
+    # [int] 石墨堆芯合成所需的石墨块数量
+    
+  electrolyzer: 
+    time: 60
+    # [int] 电解机加工耗时
+  magnetic-iron:
+    chance: 10
+    # [int] 挖掘铁矿石时掉落磁铁矿的几率 (‰)
+  chemical-reator:
+    time: 20
+  mimung-blaster:
+    clean-delay: 200
+
+researches: 
+# 解锁研究的相关设置
+
+  grenco-power-crystal: 
+    level: 60
+    
+  iridium-jettools: 
+    level: 31
+    
+messages: 
+# [String] 在这里修改物品使用时的信息
+  reloader: 
+    successfully-reloaded: '§7[§9配置文件重载器§7] §a配置文件已重载'
+    warn: '§7[§9配置文件重载器§7] §b若出现漏洞请查看控制台并检查配置文件是否编写正确'
+    # 注: 'warn' 这条信息不是错误信息, 如果重载成功也会报出
+    wrong: '§7[§9配置文件重载器§7] §c重载时出现了错误, 请检查配置文件是否编写正确!'
+    
+  egg-guarder: 
+    protecting: '§7[§d龙蛋保护器§7] §c此龙蛋正在被保护中'
+    
+  electric-digger: 
+    not-enough-power: '§7[§b电动钻头§7] §c电量不足'
+  
+  electric-axe: 
+    not-enough-power: '§7[§c电磁斧§7] §c电量不足'
+    reinforced: '§7[§c强化电磁斧§7] §c电量不足'
+    
+  vanisher: 
+    not-enough-power: '§7[§8隐身器§7] §c电量不足, 隐身器已自动关闭'
+    enabled: '§7[§8隐身器§7] §a隐身器已启动'
+    disabled: '§7[§8隐身器§7] §c隐身器已关闭'
+    
+  vector-manipulator: 
+    not-enough-power: '§7[§c矢量操纵器§7] §c电量不足'
+    
+  electric-sword: 
+    enable: '§7[§b电弧剑§7] §f电弧发生器: §a启用'
+    disable: '§7[§b电弧剑§7] §f电弧发生器: §c禁用'
+    not-enough-power: '§7[§b电弧剑§7] &c电量不足'
+    
+  dragon-breath-generator: 
+    not-enough-power: '&7[&5龙息生成器&7] &c电量不足'
+    not-enough-plasma-cell: '&7[&5龙息生成器&7] &c等离子单元不足, 请补充后再使用'
+    
+  mimung-blaster: 
+    not-enough-power: '&7[&9Mimung Blaster&7] &c电量不足'
+
+machines:
+  nether-star-crusher:
+    amount: 4

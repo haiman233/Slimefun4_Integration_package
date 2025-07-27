@@ -1,0 +1,70 @@
+researches:
+  Finaltech:
+    identifier: Finaltech
+    enabled: true # true / false
+    research-type: research_any # research_any / research_all
+    blueprint:
+      material: egg
+      name: '&e&l乱序机器解锁蓝图'
+      lore:
+      - '&7抽奖乱序？有意思'
+    bypass-players: # allow who to bypass this blueprint, research items directly
+      names:
+      - AVeryVeryLongLongLongStringToAvoidAnyPlayerNameMatchIt
+    permissions: # allow who can use this blueprint
+      type: exclude_any # include_any / include_all / exclude_any / exclude_all
+      nodes:
+      - AVeryVeryLongLongLongStringToAvoidAnyPlayerNameMatchIt
+    bind-subcommands:
+      subcommands:
+      - level2
+    bind-items:
+      regex:
+        group1:
+          scope-type: exclude # include / exclude
+          scope: id # addon / name / id / color_stripped_name
+          value: AVeryVeryLongLongLongStringToAvoidAnyStringMatchIt # regex string
+      items: # include only
+        group1:
+          scope: id # addon / name / id / color_stripped_name
+          value:
+          - AVeryVeryLongLongLongStringToAvoidAnyStringMatchIt
+      excludes:
+        # scope id only
+        value:
+        - AVeryVeryLongLongLongStringToAvoidAnyStringMatchIt
+  class1:
+    identifier: class1
+    enabled: true
+    research-type: research_any
+    blueprint:
+      material: book
+      name: Level 1 Research Blueprint
+      lore:
+      - '&7This is a research blueprint'
+    bypass-players:
+      names:
+      - AVeryVeryLongLongLongStringToAvoidAnyPlayerNameMatchIt
+    permissions:
+      type: exclude_any
+      nodes:
+      - AVeryVeryLongLongLongStringToAvoidAnyPlayerNameMatchIt
+    bind-subcommands:
+      subcommands:
+      - level1
+    bind-items:
+      regex:
+        group1:
+          scope-type: include
+          scope: addon
+          value: AVeryVeryLongLongLongStringToAvoidAnyStringMatchIt
+      items:
+        group1:
+          scope: id
+          value:
+          - ntw_crafting_blueprint
+      excludes:
+        value:
+        - AVeryVeryLongLongLongStringToAvoidAnyStringMatchIt
+
+# ==============完成时间： 6/30  1:56=====================================================

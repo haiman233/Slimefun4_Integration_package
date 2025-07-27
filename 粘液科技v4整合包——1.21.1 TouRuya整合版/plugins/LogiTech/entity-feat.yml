@@ -1,0 +1,14 @@
+enable-spawner-craft: true
+enable-super-spawner-craft: true
+banned-spawner-types:
+- snowball
+- small_fireball
+- fireball
+- wither_skull
+- item_frame
+- potion
+- shulker_bullet
+- dragon_fireball
+- armor_stand
+extra-banned-super-spawner-types:
+- wind_charge

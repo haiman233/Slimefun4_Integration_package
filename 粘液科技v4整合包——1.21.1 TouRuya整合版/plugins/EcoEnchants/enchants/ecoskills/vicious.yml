@@ -1,0 +1,25 @@
+display-name: "凶残"
+description: "提供&a+%placeholder%&r的%ecoskills_ferocity_name%"
+placeholder: "5 + 5 * %level%"
+type: normal
+
+targets:
+  - sword
+conflicts: [ ]
+rarity: legendary
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: add_stat
+    args:
+      stat: ferocity
+      amount: "5 + 5 * %level%"
+
+conditions: [ ]
+
+dependencies:
+  - EcoSkills

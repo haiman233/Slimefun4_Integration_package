@@ -1,0 +1,12 @@
+# This file is used to set the repair item for Slimefun tools and weapons.
+# To add a item, follow the format of the example repair recipe.
+
+SWORD_OF_BEHEADING:
+  material: EMERALD
+  material-type: VANILLA
+  repair-amount: 50
+
+EXPLOSIVE_PICKAXE:
+  material: SYNTHETIC_DIAMOND
+  material-type: SLIMEFUN
+  repair-amount: 100

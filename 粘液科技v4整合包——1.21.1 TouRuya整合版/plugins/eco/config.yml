@@ -1,0 +1,124 @@
+#
+# eco
+# by Auxilor
+# Default config (With Comments) can be found here: https://github.com/Auxilor/eco/blob/master/eco-core/core-plugin/src/main/resources/config.yml
+#
+
+# How player/server data is saved:
+# yaml - Stored in data.yml: Good option for single-node servers (i.e. no BungeeCord/Velocity)
+# mysql - Standard database, great option for multi-node servers (i.e. BungeeCord/Velocity)
+# mongodb - Alternative database, great option for multi-node servers (i.e. BungeeCord/Velocity)
+data-handler: yaml
+
+# If data should be migrated automatically when changing data handler.
+perform-data-migration: true
+
+mongodb:
+  # The full MongoDB connection URL.
+  url: ""
+
+  # The name of the database to use.
+  database: eco
+
+  # The collection to use for player data.
+  collection: profiles
+
+mysql:
+  # The table prefix to use for all tables.
+  prefix: "eco_"
+
+  # The maximum number of MySQL connections.
+  connections: 10
+
+  # Connection details for MySQL.
+  host: localhost
+  port: 3306
+  database: database
+  user: username
+  password: p4ssw0rd
+
+# How many ticks to wait between committing data to a database. This doesn't
+# affect yaml storage, only MySQL and MongoDB. By default, data is committed
+# every tick, but you can increase this to be every x ticks, for example 20
+# would be committing once a second.
+save-interval: 1
+
+# How many ticks to wait between autosaves for data.yml.
+autosave-interval: 36000 # 30 minutes
+
+# Options to manage the conflict finder
+conflicts:
+  whitelist: # Plugins that should never be marked as conflicts
+    - eco
+
+# DropQueue by default uses a faster collated queue system where all drops
+# that originate from the same player on the same tick are dropped together.
+# Disable it if it changes drop mechanics too much for you.
+use-fast-collated-drops: true
+
+# Display frames massively optimize PacketWindowItems, however some users have
+# reported display bugs by using it. If you have any problems with it, then you
+# should disable this option.
+use-display-frame: true
+
+# Time to live for a display frame. In other words, this is how frequent (in ticks)
+# that display frames will be cleared / deleted.
+display-frame-ttl: 17
+
+# The default bukkit NamespacedKey creation can cause decent amounts of lag under
+# load due to the use of regex validation in the constructor. eco has its own system
+# to create NamespacedKeys, however it can be unsafe as it skips most validation checks.
+# If you encounter any bugs with this, then enable this option - however it will come
+# at a performance penalty.
+use-safer-namespacedkey-creation: false
+
+# If the stack traces of extensions that failed to load should be logged. Disabled by
+# default to prevent users from reporting bugs. Enable if you're a developer.
+log-full-extension-errors: false
+
+# To make the custom crafting system work better for players, players are also sent an
+# additional recipe containing the displayed items as ingredients. However, with a large
+# number of recipes, this can create PacketTooLargeExceptions. If you have this exception,
+# disable this option. Bear in mind that this means the auto-craft preview will fail to
+# render items nicely, which may degrade the user experience on your server. If you use
+# a custom crafting table, though, this won't affect anything, and you should disable the option.
+displayed-recipes: true
+
+# If eco plugins should not check for updates; only enable this if you know what you're doing
+# as there can be urgent hotfixes that you are then not notified about. If you're confident
+# that you can manage updates on your own, turn this on.
+no-update-checker: false
+
+# Math expressions are parsed using Crunch, which allows for variables to be used in expressions.
+# If this is false, variables will be used to represent placeholders, which leads to fewer
+# expression compilations at the expense of slower evaluation times. If this is true, variables
+# will instead be translated before compilation to reduce evaluation times at the expense of
+# longer compilation times. If your expressions usually contain many variables, then you
+# should enable this option as it may improve performance. If you're unsure, leave it disabled.
+use-immediate-placeholder-translation-for-math: false
+
+# The time (in milliseconds) for math expressions to be cached for. Higher values will lead to
+# faster evaluation times (less CPU usage) at the expense of slightly more memory usage and
+# less reactive values.
+math-cache-ttl: 200
+
+# The time (in minutes) for literal patterns to be cached for. Higher values will lead to
+# faster evaluation times (less CPU usage) at the expense of slightly more memory usage and
+# less reactive values. (Do not change unless you are told to).
+literal-cache-ttl: 10
+
+# If anonymous usage statistics should be tracked. This is very valuable information as it
+# helps understand how eco and other plugins are being used by logging player and server
+# counts. This is completely anonymous and no personal information is logged. This data
+# is primarily used for optimisation and server insights.
+playerflow: true
+
+# If the packet display system should activate on items that have no meta. This is disabled
+# by default for performance reasons, but if you want to use the packet display system on
+# items that have no meta, then you can enable this option.
+display-without-meta: false
+
+# If eco should enforce its recipes against other plugins. Turn this on if use custom items from
+# non eco-based plugins in recipes and are encountering issues with invisible items or similar.
+# This may cause issues with other plugins, so only enable this if you're having issues.
+enforce-preparing-recipes: false

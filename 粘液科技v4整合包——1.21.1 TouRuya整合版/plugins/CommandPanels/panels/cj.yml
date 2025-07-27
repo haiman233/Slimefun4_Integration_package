@@ -1,0 +1,43 @@
+# |------------------------------------------------------------------------
+# |                       CommandPanels Template File
+# |                          Official Panel v1.1
+# | https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+# |------------------------------------------------------------------------
+panels:
+  cj:
+    perm: default
+    rows: 1
+    title: '&c&l粘液全解'
+    empty: AIR
+    item:
+      '0':
+        material: red_stained_glass_pane
+        customdata: 10008
+        stack: 1
+        name: '&c取消'
+        lore : 
+        - ' '
+        - '&f点击返回上一级喵~'
+        commands:
+        - commandpanel menu
+        duplicate: "0-3"
+      '4':
+        material: compass
+        customdata: 10008
+        stack: 1
+        name: '&c全解'
+        lore : 
+        - ' '
+        - '&f选择是否需要全解喵~'
+        commands:      
+      '5':
+        material: green_stained_glass_pane
+        customdata: 10008
+        stack: 1
+        name: '&c确定'
+        lore : 
+        - ' '
+        - '&f点击获取全解喵~'
+        commands:
+        - sf research %player_name% all
+        duplicate: "5-8"

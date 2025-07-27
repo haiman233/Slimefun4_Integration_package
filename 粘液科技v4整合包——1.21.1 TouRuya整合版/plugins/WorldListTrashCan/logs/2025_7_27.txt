@@ -1,0 +1,2 @@
+[17:52:00|TouRuya] [-] [Item:[material:PLAYER_HEAD x 1][name:桃子]] 
+[17:52:01|TouRuya] [-] [Item:[material:PLAYER_HEAD x 1][name:发光鱿鱼头]] 

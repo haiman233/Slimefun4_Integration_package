@@ -1,0 +1,34 @@
+all: All
+all-conflicts: All Other Enchantments
+'false': '&cNo'
+no-conflicts: No Conflicts
+'true': '&aYes'
+messages:
+  removed-enchant: '&f已从&a%player%&f手持物品中移除&a%enchant%&f附魔！'
+  prefix: '&a&lEcoEnchants &r&8» &r'
+  all-conflicts: 所有其他附魔
+  no-enchantments-found: '&c找不到任何附魔！'
+  disabled-descriptions: '&f你已成功禁用附魔描述！'
+  gave-random-book: '&f给予&a%player%&f一本随机书籍（附魔：%enchantment%&f）！'
+  enabled-descriptions: '&f你已成功启用附魔描述！'
+  all: 全部
+  reloaded-1203: Reloaded! &cYou may need to restart your server for some changes
+    to take effect.
+  descriptions-disabled: '&c此服务器已禁用附魔描述。'
+  invalid-enchantment: '&c无效的附魔！'
+  'true': '&a是'
+  missing-enchant: '&c你必须指定一个附魔！'
+  reloaded: 重新加载完成！
+  no-conflicts: 无冲突
+  added-enchant: '&f已将&a%enchant%&f附魔添加到&a%player%&f手持物品！'
+  invalid-levels: '&c最低等级不能高于最高等级！'
+  not-player: '&c此命令必须由玩家执行！'
+  invalid-command: '&c未知子命令！'
+  'false': '&c否'
+  not-found: '&c找不到匹配名称的附魔：&f%name%。'
+  reloaded-121: Reloaded! &cRelog if you added enchantments or you will get kicked.
+    You may need to restart your server for some changes to take effect.
+  no-permission: '&c你没有执行此操作的权限！'
+  requires-player: '&c需要一个玩家！'
+  invalid-player: '&c无效的玩家！'
+

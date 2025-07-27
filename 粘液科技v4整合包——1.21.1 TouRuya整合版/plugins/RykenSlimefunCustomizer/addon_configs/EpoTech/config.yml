@@ -1,0 +1,61 @@
+# 怪物掉落配置
+
+# 这里不能配置物品  请移步至   RykenSlimefunCustomizer\addon_configs\EpoTech
+#    以下更改配置无效
+# 怪物掉落配置
+mob-drops:
+  ZOMBIE:
+  - item: REINFORCED_ALLOY_INGOT
+    probability: 10
+  
+  SPIDER:
+  - item: SYNTHETIC_DIAMOND
+    probability: 10
+  
+  CREEPER:
+  - item: SYNTHETIC_EMERALD
+    probability: 10
+  
+  SKELETON:
+  - item: FERROSILICON
+    probability: 10
+  
+  MAGMA_CUBE:
+  - item: SYNTHETIC_SAPPHIRE
+    probability: 10
+  
+  IRON_GOLEM:
+  - item: CARBONADO
+    probability: 10
+
+
+# 矿石掉落配置
+ore-drops:
+  ANCIENT_DEBRIS:
+  - item: REINFORCED_ALLOY_INGOT
+    probability: 10
+  
+  DIAMOND_ORE:
+  - item: SYNTHETIC_DIAMOND
+    probability: 10
+  
+  EMERALD_ORE:
+  - item: SYNTHETIC_EMERALD
+    probability: 15
+  
+  NETHER_QUARTZ_ORE:
+  - item: FERROSILICON
+    probability: 20
+  
+  LAPIS_ORE:
+  - item: SYNTHETIC_SAPPHIRE
+    probability: 10
+  
+  OBSIDIAN:
+  - item: CARBONADO
+    probability: 5
+
+# 示例配置
+# ZOMBIE:                          击杀的怪物名/挖掘的矿物名
+# - item: "REINFORCED_ALLOY_INGOT" 你想掉落的东西
+#  probability: 10                 概率

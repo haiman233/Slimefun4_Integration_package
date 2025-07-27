@@ -1,0 +1,31 @@
+display-name: "内斗"
+description: "对玩家额外造成&a%placeholder%&r点伤害"
+placeholder: "2.5 * %level%"
+type: normal
+
+targets:
+  - sword
+conflicts:
+  - sharpness
+  - smite
+  - bane_of_arthropods
+  - slaughter
+  - brightness
+rarity: common
+max-level: 5
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: add_damage
+    args:
+      damage: "2.5 * %level%"
+    triggers:
+      - melee_attack
+    filters:
+      entities:
+        - player
+
+conditions: []

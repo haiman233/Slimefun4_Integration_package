@@ -1,0 +1,24 @@
+display-name: "反弹"
+description: "将受到的&a%placeholder%%&r伤害反弹给攻击者"
+placeholder: "20 + %level% * 10"
+type: normal
+
+targets:
+  - shield
+conflicts: []
+rarity: epic
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: damage_victim
+    args:
+      damage: "%v% * (0.2 + %level% * 0.1)"
+      use-source: false
+    triggers:
+      - shield_block
+
+conditions: []

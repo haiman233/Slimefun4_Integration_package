@@ -1,0 +1,29 @@
+display-name: "强化铠甲"
+description: "提供&a%placeholder%%&r的铠甲经验加成"
+placeholder: "3 * %level%"
+type: normal
+
+targets:
+  - armor
+conflicts:
+  - sorcery
+  - chemist
+  - adventurer
+rarity: uncommon
+max-level: 4
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: skill_xp_multiplier
+    args:
+      multiplier: "1 + 0.03 * %level%"
+      skills:
+        - alchemy
+
+conditions: [ ]
+
+dependencies:
+  - EcoSkills

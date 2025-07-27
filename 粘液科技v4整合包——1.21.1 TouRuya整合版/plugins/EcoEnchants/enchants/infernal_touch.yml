@@ -1,0 +1,23 @@
+display-name: "自动冶炼"
+description: "挖掘时自动将方块掉落物熔炼成其对应的产物"
+type: normal
+
+targets:
+  - pickaxe
+conflicts:
+  - silk_touch
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: autosmelt
+    args:
+      drop_xp: true
+    triggers:
+      - block_item_drop
+
+conditions: []

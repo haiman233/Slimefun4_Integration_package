@@ -1,0 +1,56 @@
+# 表几率是从附魔台获得附魔的几率的百分比
+# 最低等级是您必须达到的最低经验等级以获得该附魔
+# 您可以按照规律添加更多的稀有度。
+# 请记住，附魔越接近最大可获得等级，越有可能为高级附魔
+# 村民几率是村民拥有此交易的几率的百分比。所有附魔的基本默认值为2.7%，但您可以根据不同的稀有度进行选择。
+# 战利品几率是战利品箱中物品具有此附魔的几率的百分比
+
+rarities:
+  - id: common
+    display-name: "普通"
+    table-chance: 30
+    minimum-level: 1
+    villager-chance: 10.5
+    loot-chance: 12
+
+  - id: uncommon
+    display-name: "罕见"
+    table-chance: 20
+    minimum-level: 5
+    villager-chance: 9
+    loot-chance: 16
+
+  - id: rare
+    display-name: "稀有"
+    table-chance: 20
+    minimum-level: 15
+    villager-chance: 7.5
+    loot-chance: 18
+
+  - id: epic
+    display-name: "史诗"
+    table-chance: 10
+    minimum-level: 16
+    villager-chance: 6
+    loot-chance: 20
+
+  - id: legendary
+    display-name: "传奇"
+    table-chance: 8
+    minimum-level: 20
+    villager-chance: 4.5
+    loot-chance: 15
+
+  - id: special
+    display-name: "特殊"
+    table-chance: 2
+    minimum-level: 30
+    villager-chance: 3
+    loot-chance: 5
+
+  - id: veryspecial
+    display-name: "非常特殊"
+    table-chance: 1
+    minimum-level: 30
+    villager-chance: 1.5
+    loot-chance: 2

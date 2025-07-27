@@ -1,0 +1,16 @@
+
+# Auto update
+auto-update: true
+
+# Enable debug logs
+debug: false
+
+# Enable trades (Set this to true to enable the trades)
+# This option is to make sure you read through the config options.
+# This option only works for the trades in "trades.yml",
+# trades added from API still works regardless of this option.
+enable-trades: false
+
+# Whether the player will be redirected
+# to the trade list after saving a trade.
+return-to-list-after-save: true

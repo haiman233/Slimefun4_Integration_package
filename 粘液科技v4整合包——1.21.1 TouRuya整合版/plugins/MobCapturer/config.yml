@@ -1,0 +1,12 @@
+options:
+  # Auto update
+  auto-update: true
+  # Whether the mob egg is added directly to player inventory.
+  # (It will drop at player's location if it is full)
+  # Disable this to let mob egg drop at the mob's location.
+  mob-eggs-to-inventory: false
+  # Disabling this will only allow players to capture mobs without custom names.
+  capture-named-mobs: true
+  # The list of names that should not be captured. Colors are removed.
+  # This only works if `capture-named-mobs` is set to `true`.
+  ignored-mobs: []

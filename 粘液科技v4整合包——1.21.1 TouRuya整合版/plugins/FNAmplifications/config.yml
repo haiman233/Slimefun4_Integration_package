@@ -1,0 +1,31 @@
+# 启用自动更新功能
+auto-update: true
+
+# 启用 1.17 整合
+# 使用 1.17 物品作为 FN 机器的配方
+# 仅在该设置为 true 且服务器版本为 1.17 及以上时生效
+New-Recipe-Integration: true
+
+# 装甲效果验证器，更新装甲效果的秒数（例如 FN 摩擦齿轮的永久效果）
+# 目前，胸甲只有在等级30时才有永久效果
+armor-update-period: 10
+
+# 启用或禁用插件的模块
+# 禁用后，子类别将从指南中删除。
+Enable-Machineries: true
+Enable-Material-Generators: true
+Enable-Gems: true
+Enable-Gears: true
+Enable-Mystery-Sticks: true
+Enable-Solar-Generators: true
+Enable-PowerXpansion: true
+Enable-Staffs: true
+Enable-Quivers: true
+Enable-Misc: true
+
+# 允许材料生成器随着时间而损坏
+Enable-Mat-Gen-Break-Over-Time: true
+# 允许材料生成器仅在方块破坏时掉落破损变体
+Enable-Mat-Gen-Broken-Drop: true
+
+

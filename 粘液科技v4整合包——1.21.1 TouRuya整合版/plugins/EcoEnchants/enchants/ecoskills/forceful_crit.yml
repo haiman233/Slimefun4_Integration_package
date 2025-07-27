@@ -1,0 +1,25 @@
+display-name: "强力暴击"
+description: "提供&a+%placeholder%&r的%ecoskills_crit_damage_name%"
+placeholder: "3 + 2 * %level%"
+type: normal
+
+targets:
+  - sword
+conflicts: [ ]
+rarity: rare
+max-level: 6
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: add_stat
+    args:
+      stat: crit_damage
+      amount: "3 + 2 * %level%"
+
+conditions: [ ]
+
+dependencies:
+  - EcoSkills

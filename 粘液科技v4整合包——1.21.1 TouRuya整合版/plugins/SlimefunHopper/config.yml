@@ -1,0 +1,6 @@
+options:
+  auto-update: false
+  # 需要覆写可以将该值修改成正数
+  # 漏斗将用该值的速度进行传输
+  # 否则将使用spigot.yml中的漏斗传输速度传输
+  override-slimefun-hopper-speed: -1

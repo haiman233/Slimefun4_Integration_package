@@ -1,0 +1,26 @@
+display-name: "修罗"
+description: "当生命值低于50%时，对目标的暴击伤害将增加&a%placeholder%%&r"
+placeholder: "1 + 0.25 * %level%"
+type: normal
+
+targets:
+  - axe
+conflicts: []
+rarity: rare
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: crit_multiplier
+    args:
+      multiplier: "1 + 0.25 * %level%"
+    triggers:
+      - melee_attack
+
+conditions:
+  - id: below_health_percent
+    args:
+      percent: 51

@@ -1,0 +1,23 @@
+display-name: "混乱"
+description: "有&a%placeholder%%&r的几率打乱目标的快捷栏"
+placeholder: "2 * %level%"
+type: special
+
+targets:
+  - sword
+conflicts: []
+rarity: special
+max-level: 4
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: shuffle_hotbar
+    args:
+      chance: "2 * %level%"
+    triggers:
+      - melee_attack
+
+conditions: []

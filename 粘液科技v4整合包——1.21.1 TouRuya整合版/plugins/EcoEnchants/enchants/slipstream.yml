@@ -1,0 +1,21 @@
+display-name: "滑流"
+description: "握持时,将额外增加&a%placeholder%%&r的移动速度"
+placeholder: "%level% * 8"
+type: normal
+
+targets:
+  - trident
+conflicts: []
+rarity: epic
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: movement_speed_multiplier
+    args:
+      multiplier: "1 + %level% * 0.08"
+
+conditions: []

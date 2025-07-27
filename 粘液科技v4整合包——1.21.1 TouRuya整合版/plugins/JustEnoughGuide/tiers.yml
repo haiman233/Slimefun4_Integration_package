@@ -1,0 +1,1523 @@
+# ###################################################
+# group_id:                                        #
+#   nested:                                        #
+#     name: "abab"                                 #
+#     tier: 1                                      #
+#   sub:                                           #
+#     group_id2:                                   #
+#       name: "abab2"                              #
+#       tier: 2                                    #
+#     group_id3:                                   #
+#       name: "abab3"                              #
+#       tier: 3                                    #
+# ###################################################
+
+slimefunhopper-instruction:
+  tier: 1
+  name: 粘液 漏斗
+slimefunadvancements-advancements:
+  tier: 4
+  name: 进度
+simpleutils-main:
+  tier: 32
+  name: 简易工具
+slimeaeplugin-main:
+  tier: 90
+  name: 应用能源2
+slimefun-weapons:
+  tier: 91
+  name: Weapons
+slimefun-items:
+  tier: 92
+  name: Useful Items
+slimefun-basic_machines:
+  tier: 93
+  name: Basic Machines
+slimefun-tools:
+  tier: 94
+  name: Tools
+slimefun-resources:
+  tier: 95
+  name: Resources
+slimefun-birthday:
+  tier: 96
+  name: TheBusyBiscuit's Birthday (26th October)
+slimefun-christmas:
+  tier: 97
+  name: Christmas (December only)
+slimefun-rick:
+  tier: 98
+  name: 超级神秘物品
+slimefun-halloween:
+  tier: 99
+  name: Halloween (31st October)
+slimefun-food:
+  tier: 119
+  name: Food
+slimefun-magical_items:
+  tier: 120
+  name: Magical Items
+slimefun-magical_armor:
+  tier: 121
+  name: Magical Armor
+slimefun-tech_misc:
+  tier: 122
+  name: Technical Components
+slimefun-misc:
+  tier: 123
+  name: Miscellaneous
+slimefun-armor:
+  tier: 124
+  name: Armor
+slimefun-talismans:
+  tier: 125
+  name: Talismans - Tier I
+slimefun-easter:
+  tier: 126
+  name: Easter (April)
+slimefun-valentines_day:
+  tier: 127
+  name: Valentine's Day (14th February)
+coloredenderchests-colored_enderchests:
+  tier: 130
+  name: 彩色末影箱
+dyedbackpacks-dyed_backpacks:
+  tier: 129
+  name: 染色背包
+slimefun-magical_gadgets:
+  tier: 136
+  name: Magical Gadgets
+slimefun-technical_gadgets:
+  tier: 137
+  name: Technical Gadgets
+slimefun-ender_talismans:
+  tier: 138
+  name: Talismans - Tier II
+simplestorage-simple-storage:
+  nested:
+    tier: 160
+    name: 简易存储
+  sub:
+    simplestorage-simple-storage:
+      tier: 164
+      name: 简易存储 - 容器
+dynatech-general:
+  sub:
+    dynatech-general:
+      tier: 171
+      name: 动力科技 - 发电机
+  nested:
+    tier: 166
+    name: 动力科技
+transcendence-transcendence:
+  tier: 179
+  name: TranscEndence(末地科技)
+slimefunwarfare-slimefunwarfare:
+  tier: 180
+  name: 战争工艺
+slimefunwarfare-slimefunwarfare_general:
+  tier: 181
+  name: 战争工艺 - 通用
+slimefunwarfare-slimefunwarfare_machines:
+  tier: 182
+  name: 战争工艺 - 机器
+slimefunwarfare-slimefunwarfare_guns:
+  tier: 183
+  name: 战争工艺 - 枪械
+slimefunwarfare-slimefunwarfare_melee:
+  tier: 184
+  name: 战争工艺 - 近战武器
+slimefunwarfare-slimefunwarfare_explosives:
+  tier: 185
+  name: 战争工艺 - 爆炸物
+slimefunwarfare-slimefunwarfare_resources:
+  tier: 186
+  name: 战争工艺 - 资源
+slimefunwarfare-slimefunwarfare_power_suits:
+  tier: 187
+  name: 战争工艺 - 动力装甲
+simplematerialgenerators-simplematerialgenerators:
+  tier: 189
+  name: 简易材料生成器
+slimetinker-slime-tinker:
+  tier: 190
+  name: 粘液匠魂
+slimetinker-slime-tinker-workstations:
+  tier: 191
+  name: 工作站
+slimetinker-slime-tinker-materials:
+  tier: 192
+  name: 材料
+slimetinker-slime-tinker-molten:
+  tier: 193
+  name: 熔融金属
+slimetinker-slime-tinker-alloys:
+  tier: 194
+  name: 熔融合金
+slimetinker-slime-tinker-casts:
+  tier: 195
+  name: 铸件
+slimetinker-slime-tinker-parts:
+  tier: 196
+  name: 部件制作指南
+slimetinker-slime-tinker-tools:
+  tier: 197
+  name: 工具制作指南
+slimetinker-slime-tinker-armour:
+  tier: 198
+  name: 防具制作指南
+slimetinker-slime-tinker-properties:
+  tier: 199
+  name: 特性
+slimetinker-slime-tinker-modifications:
+  tier: 200
+  name: 模组
+slimetinker-slime-tinker-part-dict:
+  tier: 201
+  name: 所有部件
+slimetinker-slime-tinker-dummy:
+  tier: 202
+  name: SlimeTinker 占位符
+slimyrepair-slimy_repair:
+  tier: 203
+  name: Slimy Repair
+slimytreetaps-tree_taps:
+  tier: 139
+  name: 粘液木龙头
+souljars-soul_jars:
+  tier: 205
+  name: 灵魂罐
+villagerutil-villager_util:
+  tier: 237
+  name: 村民工具
+elementmanipulation-junction_category:
+  tier: 206
+  name: 化工产品
+elementmanipulation-em_main:
+  tier: 207
+  name: 化学工程
+elementmanipulation-em_elements:
+  tier: 208
+  name: 元素
+elementmanipulation-em_machines:
+  tier: 209
+  name: 机器
+elementmanipulation-em_misc:
+  tier: 210
+  name: 杂项
+elementmanipulation-junction_cheat:
+  tier: 211
+  name: 化工产品 - 无效配方
+electricspawners-electric_spawners:
+  tier: 238
+  name: 电力刷怪笼
+danktech2-main:
+  nested:
+    tier: 214
+    name: 无底存储2
+  sub:
+    danktech2-main:
+      tier: 217
+      name: 无底机器
+bump-main:
+  tier: 230
+  name: Bump
+bump-stuff:
+  tier: 231
+  name: Bump - Stuff
+bump-food:
+  tier: 232
+  name: Bump - Food
+bump-machine:
+  tier: 233
+  name: Bump - Machine
+bump-tool:
+  tier: 234
+  name: Bump - Tool
+bump-armor:
+  tier: 235
+  name: Bump - Armor
+bump-weapon:
+  tier: 236
+  name: Bump - Magic Weapon
+bump-appraise_info:
+  tier: 237
+  name: Bump - Appraise Information
+bump-hidden:
+  tier: 238
+  name: Never gonna give you up~
+fnamplifications-fn_items:
+  sub:
+    fnamplifications-fn_items:
+      tier: 254
+      name: FN材料生成器升级
+  nested:
+    tier: 240
+    name: FN 科技
+alchimiavitae-alchimia_vitae:
+  tier: 219
+  name: 炼金术自传
+alchimiavitae-av_general:
+  tier: 220
+  name: 炼金术自传 - 普通
+alchimiavitae-av_altar_recipes:
+  tier: 221
+  name: 炼金术自传 - 演变
+alchimiavitae-av_infusions:
+  tier: 222
+  name: 炼金术自传 - 注入
+slimefunorechunks-ore_chunks:
+  tier: 255
+  name: 矿石块
+crystamaehistoria-main:
+  tier: 265
+  name: 魔法水晶编年史
+crystamaehistoria-guide:
+  tier: 266
+  name: 指南/教程
+crystamaehistoria-dummy:
+  tier: 267
+  name: 魔法水晶编年史 - 占位符 - 不要使用这里的物品
+crystamaehistoria-crystals:
+  tier: 268
+  name: 魔法水晶
+crystamaehistoria-materials:
+  tier: 269
+  name: 原材料
+crystamaehistoria-mechanisms:
+  tier: 270
+  name: 装置
+crystamaehistoria-tools:
+  tier: 271
+  name: 法杖与工具
+crystamaehistoria-gadgets:
+  tier: 272
+  name: 魔法与科技
+crystamaehistoria-art:
+  tier: 273
+  name: 魔法与艺术
+crystamaehistoria-exalted:
+  tier: 274
+  name: 尊贵物品
+crystamaehistoria-uniques:
+  tier: 275
+  name: 独特物品
+crystamaehistoria-runes:
+  tier: 276
+  name: 神秘符文
+cringlebosses-cringle_bosses:
+  sub:
+    cringlebosses-cringle_bosses:
+      tier: 329
+      name: 罪恶
+  nested:
+    tier: 323
+    name: 混沌Boss
+slimybees-slimybees_items:
+  tier: 284
+  name: 林业蜜蜂
+slimybees-slimybees_atlas:
+  list:
+    tier: 285
+    name: 蜜蜂册
+smallspace-small_space:
+  tier: 331
+  name: 小世界
+cultivation-main:
+  tier: 358
+  name: 农耕工艺
+cultivation-hidden:
+  tier: 359
+  name: 隐藏物品
+cultivation-crafting:
+  tier: 360
+  name: 合成材料
+cultivation-tools:
+  tier: 361
+  name: 工具
+cultivation-machines:
+  tier: 362
+  name: 机器
+cultivation-plants:
+  tier: 363
+  name: 植物
+cultivation-bushes:
+  tier: 364
+  name: 灌木
+cultivation-trees:
+  tier: 365
+  name: 树木
+cultivation-produce:
+  tier: 366
+  name: 产品
+cultivation-by-products:
+  tier: 367
+  name: 副产品
+cultivation-foods:
+  tier: 368
+  name: 食物
+bloodalchemy-blood_alchemy:
+  tier: 287
+  name: Blood Alchemy(血炼金术)
+ultimategenerators2-main:
+  nested:
+    tier: 358
+    name: UltimateGenerators2
+  sub:
+    ultimategenerators2-main:
+      tier: 812
+      name: UltimateGenerators2 - Simple Generators
+spiritsunchained-su_main:
+  tier: 376
+  name: 灵魂巧匠
+spiritsunchained-su_resources:
+  tier: 377
+  name: 合成材料
+spiritsunchained-su_tools:
+  tier: 378
+  name: 工具
+spiritsunchained-su_machines:
+  tier: 379
+  name: 机器
+spiritsunchained-su_altar_1:
+  tier: 380
+  name: 灵魂祭坛 I
+spiritsunchained-su_altar_2:
+  tier: 381
+  name: 灵魂祭坛 II
+spiritsunchained-su_altar_3:
+  tier: 382
+  name: 灵魂祭坛 III
+emctech-main:
+  tier: 383
+  name: EMC科技
+emctech-materials:
+  tier: 384
+  name: EMC科技 - 合成材料
+emctech-machines:
+  tier: 385
+  name: EMC科技 - 机器
+betterreactor-better_reactor:
+  tier: 292
+  name: 工业反应堆
+compressioncraft-jc_cc_general:
+  sub:
+    compressioncraft-jc_cc_general:
+      tier: 388
+      name: 压缩物品
+  nested:
+    tier: 387
+    name: 压缩工艺
+supreme-supreme_main:
+  sub:
+    supreme-supreme_main:
+      tier: 398
+      name: 至尊盔甲
+  nested:
+    tier: 390
+    name: 至尊研究院2.0
+dyebench-jc_db_general:
+  sub:
+    dyebench-jc_db_general:
+      tier: 406
+      name: 颜料
+  nested:
+    tier: 405
+    name: 染色工艺
+momotech-momotech:
+  tier: 294
+  name: 陌陌 科技 (代码编写者:QYhB05)
+momotech-momotech__:
+  tier: 295
+  name: 注意
+momotech-momotech_thanking:
+  tier: 296
+  name: 鸣谢 - 特殊材料
+momotech-momotech_item:
+  tier: 297
+  name: 基础物品
+momotech-momotech_mineral:
+  tier: 298
+  name: 压缩材料
+momotech-momotech_tool:
+  tier: 299
+  name: 工具
+momotech-momotech_ordinary_machine:
+  tier: 300
+  name: 基础生产型机器
+momotech-momotech_machine:
+  tier: 301
+  name: 基础机器
+momotech-momotech_final:
+  tier: 302
+  name: … 终级物品 …
+momotech-momotech_electricity:
+  tier: 303
+  name: 电力拓展
+momotech-momotech_inf:
+  tier: 304
+  name: 无限工程 - 初级
+momotech-momotech_inf_machine:
+  tier: 305
+  name: 无限工程 - 终焉
+sensibletoolbox-blocks:
+  tier: 306
+  name: STB - 机器
+sensibletoolbox-items:
+  tier: 307
+  name: STB - 物品
+thermalfun-thermalfun_category:
+  tier: 320
+  name: 灼岩科技
+demonicexpansion-group_main:
+  tier: 415
+  name: 魑魅拓展
+myfirstaddon-schns_first_addon:
+  tier: 752
+  name: 蛋糕工艺
+craftableenchantments-main:
+  tier: 753
+  name: 附魔工艺
+craftableenchantments-materials:
+  tier: 754
+  name: 材料
+craftableenchantments-enchanted_books:
+  tier: 755
+  name: 附魔书
+claytech-fixed-claytech_basic:
+  tier: 756
+  name: 粘土科技 - 基础
+claytech-fixed-claytech_machines:
+  tier: 757
+  name: 粘土科技 - 机器
+claytech-fixed-claytech_materials:
+  tier: 758
+  name: 粘土科技 - 材料
+claytech-fixed-claytech_weapons:
+  tier: 759
+  name: 粘土科技 - 武器
+claytech-fixed-claytech_food:
+  tier: 760
+  name: 粘土科技 - 食物
+claytech-fixed-claytech_decorates:
+  tier: 761
+  name: 粘土科技 - 装饰品
+claytech-fixed-claytech_armors:
+  tier: 762
+  name: 粘土科技 - 装备
+claytech-fixed-claytech_foodmaterials:
+  tier: 763
+  name: 粘土科技 - 食物饮料材料
+claytech-fixed-claytech_drink:
+  tier: 764
+  name: 粘土科技 - 饮料
+claytech-fixed-claytech_elements:
+  tier: 765
+  name: 粘土科技 - 元素
+claytech-fixed-claytech_other:
+  tier: 766
+  name: 粘土科技 - 其他
+claytech-fixed-claytech_tools:
+  tier: 767
+  name: 粘土科技 - 工具
+claytech-fixed-claytech_oresthings:
+  tier: 768
+  name: 粘土科技 - 矿物资源
+wildernether-wildernether:
+  tier: 769
+  name: 迷狱生机
+wildernether-materials:
+  tier: 770
+  name: 材料
+wildernether-tools:
+  tier: 771
+  name: 工具
+wildernether-plants:
+  tier: 772
+  name: 植物
+wildernether-cuisine:
+  tier: 773
+  name: 烹饪
+wildernether-brews:
+  tier: 774
+  name: 酿造
+slimefunaccessor-main:
+  sub:
+    slimefunaccessor-main:
+      tier: 775
+      name: 机器
+  nested:
+    tier: 776
+    name: 远程访问器
+tofumcaddon-tofumc:
+  tier: 777
+  name: 豆腐工艺
+slimevoid-slimevoid_category:
+  tier: 778
+  name: 虚无粘液
+halsaddon-ender_items:
+  tier: 779
+  name: 终界之地
+slimefood-sf_slime_food_plugin:
+  tier: 780
+  name: 粘液美食
+slimedustry-slimedustry:
+  tier: 781
+  name: 粘液工厂
+slimedustry-tech:
+  tier: 782
+  name: 科技物品
+slimedustry-resource:
+  tier: 783
+  name: 资源
+slimedustry-misc:
+  tier: 784
+  name: 杂项
+slimedustry-plates:
+  tier: 785
+  name: 板
+slimedustry-ingots:
+  tier: 786
+  name: 锭
+slimedustry-dusts:
+  tier: 787
+  name: 粉
+slimedustry-armor:
+  tier: 788
+  name: 装备
+slimevision-slime_vision:
+  tier: 789
+  name: 粘液可视化
+slimeaeplugin-info:
+  tier: 790
+  name: SlimeAE信息
+slimeaeplugin-cable:
+  tier: 791
+  name: 线缆
+slimeaeplugin-machine:
+  tier: 793
+  name: 高级机器
+slimeaeplugin-material:
+  tier: 795
+  name: 元件
+slimeaeplugin-tool:
+  tier: 796
+  name: 工具
+variousclutter-various_clutter_main:
+  sub:
+    variousclutter-various_clutter_main:
+      tier: 799
+      name: 伪装板
+  nested:
+    tier: 798
+    name: Various Clutter
+spacetech-space_tech:
+  sub:
+    spacetech-space_tech:
+      tier: 806
+      name: 太空科技-装甲
+  nested:
+    tier: 801
+    name: 太空科技
+ezslimefunaddon-ezmachines:
+  tier: 807
+  name: EZ机器
+ezslimefunaddon-ezmaterials:
+  tier: 808
+  name: EZ材料
+ezslimefunaddon-ezmisc:
+  tier: 809
+  name: EZ杂项
+ezslimefunaddon-ezgenerators:
+  tier: 810
+  name: EZ发电机
+ezslimefunaddon-ezchambers:
+  tier: 811
+  name: EZ生物模拟
+ezslimefunaddon-credits:
+  tier: 812
+  name: 鸣谢单
+ezslimefunaddon-main:
+  tier: 813
+  name: EZ科技
+ezslimefunaddon-ezfood:
+  tier: 814
+  name: EZ食品 (即将到来)
+chocohills-ch_general:
+  sub:
+    chocohills-ch_general:
+      tier: 819
+      name: Resources
+  nested:
+    tier: 816
+    name: ChocoHills
+slimefun-electricity:
+  tier: 820
+  name: Energy and Electricity
+slimefun-gps:
+  tier: 821
+  name: GPS-based Machines
+slimefun-androids:
+  tier: 822
+  name: Programmable Androids
+slimefun-cargo:
+  tier: 823
+  name: Cargo Management
+ecopower-generators:
+  tier: 825
+  name: 环保能源
+pomaexpansion-poma_expansion:
+  tier: 831
+  name: 高级安卓机器人
+justenoughguide-jeg_guide_group:
+  tier: 883
+  name: JEG 使用指南
+justenoughguide-hidden_items_group:
+  tier: 884
+  name: 隐藏物品
+justenoughguide-vanilla_items_group:
+  tier: 885
+  name: 原版物品
+justenoughguide-jeg_items_group:
+  tier: 886
+  name: JEG 物品
+extraheads-extra_heads:
+  tier: 101
+  name: 额外头颅
+extragear-items:
+  tier: 102
+  name: 更多装备
+notenoughaddons-notenoughaddons:
+  sub:
+    notenoughaddons-notenoughaddons:
+      tier: 131
+      name: 多彩科技 - 物品
+  nested:
+    tier: 278
+    name: 多彩科技
+litexpansion-litexpansion:
+  tier: 142
+  name: 工业(LiteXpansion)
+litexpansion-uumatter_category:
+  tier: 143
+  name: UU 物质合成表
+hotbarpets-pets:
+  tier: 218
+  name: 背包宠物
+extratools-extra_tools:
+  tier: 264
+  name: 额外工具
+moneyandthings-money_main_category:
+  tier: 375
+  name: 固态货币
+guizhancraft-main:
+  sub:
+    guizhancraft-main:
+      tier: 402
+      name: GuizhanCraft - Machines
+  nested:
+    tier: 400
+    name: GuizhanCraft
+mapjammer-map_jammer:
+  tier: 200
+  name: 地图干扰
+moretools-more_tools_category:
+  tier: 826
+  name: 更多工具
+finaltech-finaltech_category_main:
+  nested:
+    tier: 33
+    name: 乱序技艺 2.0-preview
+  sub:
+    finaltech-finaltech_category_main:
+      tier: 41
+      name: 终极物品
+finaltech-changed-_finaltech_category_main:
+  nested:
+    tier: 42
+    name: 乱序技艺 - 改版
+  sub:
+    finaltech-changed-_finaltech_category_main:
+      tier: 48
+      name: 终末
+finaltech-changed-_finaltech_item_group:
+  tier: 49
+  name: 乱序技艺 - 改版
+finaltech-changed-_finaltech_main_menu_item:
+  tier: 50
+  name: 物品
+finaltech-changed-_finaltech_sub_menu_material:
+  tier: 51
+  name: 物品 - 材料
+finaltech-changed-_finaltech_sub_menu_logic_item:
+  tier: 52
+  name: 物品 - 逻辑物品
+finaltech-changed-_finaltech_sub_menu_tool:
+  tier: 53
+  name: 物品 - 工具
+finaltech-changed-_finaltech_sub_menu_consumable:
+  tier: 54
+  name: 物品 - 消耗品
+finaltech-changed-_finaltech_sub_menu_weapon:
+  tier: 55
+  name: 物品 - 经验工具
+finaltech-changed-_finaltech_main_menu_electricity_system:
+  tier: 56
+  name: 电力系统
+finaltech-changed-_finaltech_sub_menu_electric_generator:
+  tier: 57
+  name: 电力系统 - 发电机
+finaltech-changed-_finaltech_sub_menu_electric_storage:
+  tier: 58
+  name: 电力系统 - 电力储存
+finaltech-changed-_finaltech_sub_menu_electric_transmission:
+  tier: 59
+  name: 电力系统 - 电力传输
+finaltech-changed-_finaltech_sub_menu_electric_accelerator:
+  tier: 60
+  name: 电力系统 - 电力加速器
+finaltech-changed-_finaltech_main_menu_cargo_system:
+  tier: 61
+  name: 货运与储存
+finaltech-changed-_finaltech_sub_menu_storage_unit:
+  tier: 62
+  name: 货运与储存 - 存储单元
+finaltech-changed-_finaltech_sub_menu_advanced_storage:
+  tier: 63
+  name: 货运与储存 - 高级储存
+finaltech-changed-_finaltech_sub_menu_accessor:
+  tier: 64
+  name: 货运与储存 - 存取器
+finaltech-changed-_finaltech_sub_menu_logic:
+  tier: 65
+  name: 货运与储存 - 逻辑
+finaltech-changed-_finaltech_sub_menu_cargo:
+  tier: 66
+  name: 货运与储存 - 货运
+finaltech-changed-_finaltech_main_menu_functional_machine:
+  tier: 67
+  name: 功能机器
+finaltech-changed-_finaltech_sub_menu_core_machine:
+  tier: 68
+  name: 功能机器 - 核心机器
+finaltech-changed-_finaltech_sub_menu_special_machine:
+  tier: 69
+  name: 功能机器 - 特殊机器
+finaltech-changed-_finaltech_sub_menu_tower:
+  tier: 70
+  name: 功能机器 - 塔
+finaltech-changed-_finaltech_main_menu_productive_machine:
+  tier: 71
+  name: 生产机器
+finaltech-changed-_finaltech_sub_menu_manual_machine:
+  tier: 72
+  name: 生产机器 - 手动机器
+finaltech-changed-_finaltech_sub_menu_basic_machine:
+  tier: 73
+  name: 生产机器 - 基础机器
+finaltech-changed-_finaltech_sub_menu_advanced_machine:
+  tier: 74
+  name: 生产机器 - 高级机器
+finaltech-changed-_finaltech_sub_menu_conversion:
+  tier: 75
+  name: 生产机器 - 转换
+finaltech-changed-_finaltech_sub_menu_extraction:
+  tier: 76
+  name: 生产机器 - 提取
+finaltech-changed-_finaltech_sub_menu_generator:
+  tier: 77
+  name: 生产机器 - 发生器
+finaltech-changed-_finaltech_main_menu_disc:
+  tier: 78
+  name: 终末
+finaltech-changed-_finaltech_sub_menu_final_item:
+  tier: 79
+  name: 终末 - 坏东西
+finaltech-changed-_finaltech_sub_menu_trophy:
+  tier: 80
+  name: 终末 - 纪念杯
+finaltech-changed-_finaltech_sub_menu_deprecated:
+  tier: 81
+  name: 终末 - 废弃的
+obsidianexpansion-junction_category:
+  tier: 407
+  name: 锻造
+obsidianexpansion-omc_expansion:
+  tier: 408
+  name: 黑曜石科技
+obsidianexpansion-omc_resources:
+  tier: 409
+  name: 资源
+obsidianexpansion-omc_items:
+  tier: 410
+  name: 物品
+obsidianexpansion-omc_machines:
+  tier: 411
+  name: 机器
+obsidianexpansion-omc_generators:
+  tier: 412
+  name: 材料发生器
+obsidianexpansion-omc_drops:
+  tier: 413
+  name: 生物掉落物
+obsidianexpansion-omc_forge_cheat:
+  tier: 414
+  name: 锻造 - 作弊模式
+fastmachines-fast_machines:
+  sub:
+    fastmachines-fast_machines:
+      tier: 357
+      name: Fast Machines - Machines
+  nested:
+    tier: 356
+    name: Fast Machines
+geneticchickengineering-genetic_chickengineering:
+  tier: 290
+  name: 鸡因工程
+geneticchickengineering-genetic_chickengineering_chickens:
+  tier: 291
+  name: 鸡因工程产品
+quaptics-main:
+  tier: 308
+  name: 量子光学
+quaptics-guide:
+  tier: 309
+  name: 教程
+quaptics-tools:
+  tier: 311
+  name: 合成组件
+quaptics-beam_creation:
+  tier: 312
+  name: 创建射线
+quaptics-beam_manipulation:
+  tier: 313
+  name: 操纵射线
+quaptics-frequency_and_phase:
+  tier: 314
+  name: 频率与相位
+quaptics-machines:
+  tier: 315
+  name: 机器
+quaptics-beacon_components:
+  tier: 316
+  name: 信标组件
+quaptics-beacon_modules:
+  tier: 317
+  name: 信标模组
+relicsofcthonia-main_group:
+  sub:
+    relicsofcthonia-main_group:
+      tier: 422
+      name: 其他物品
+  nested:
+    tier: 417
+    name: 克苏尼亚遗物
+redstoneconnector-redstone_connector:
+  tier: 319
+  name: 可控连接器
+obsidian-armor-obsidian_armor:
+  tier: 731
+  name: 黑曜石合金装甲
+remiliasutilities-ru:
+  sub:
+    remiliasutilities-ru:
+      tier: 740
+      name: 太阳能发电机
+  nested:
+    tier: 736
+    name: 雷米工具
+magicexpansion-magicexpansion:
+  sub:
+    magicexpansion-magicexpansion:
+      tier: 857
+      name: 魔法-更新日志
+  nested:
+    tier: 89
+    name: ll魔法拓展ll
+fluffymachines-fluffymachines:
+  sub:
+    fluffymachines-fluffymachines:
+      tier: 848
+      name: 杂项
+  nested:
+    tier: 140
+    name: 蓬松机器
+miniblocks-mainminiblocks:
+  sub:
+    miniblocks-mainminiblocks:
+      tier: 132
+      name: 机器
+  nested:
+    tier: 321
+    name: 迷你方块
+fireslime-fireslime:
+  tier: 109
+  name: 碳泥科技
+fireslime-firemachine:
+  tier: 110
+  name: 碳泥机器
+fireslime-sdmc:
+  tier: 135
+  name: 碳泥物品
+globalwarming-global_warming:
+  tier: 277
+  name: 全球变暖
+gastronomicon-main:
+  tier: 369
+  name: 美食家
+gastronomicon-tools:
+  tier: 370
+  name: 工具
+gastronomicon-basic_machines:
+  tier: 371
+  name: 基础机器
+gastronomicon-electric_machines:
+  tier: 372
+  name: 电力机器
+gastronomicon-raw_ingredients:
+  tier: 373
+  name: 原料
+gastronomicon-food:
+  tier: 374
+  name: 食物
+endrex-resources:
+  tier: 279
+  name: Endrex - 资源
+endrex-machines:
+  tier: 280
+  name: Endrex - 基础机器
+endrex-weapons_n_equipments:
+  tier: 281
+  name: Endrex - 武器和护甲
+endrex-miscellaneous:
+  tier: 282
+  name: Endrex - 杂项
+netherenough-netherenough:
+  tier: 318
+  name: 深渊幻章
+magmanimous-magmanimous_items:
+  tier: 330
+  name: 熔岩之息
+endercargo-endercargo_category:
+  tier: 403
+  name: 末影接口
+magicpowder-magic_powders:
+  tier: 732
+  name: 魔芋工艺
+magic8ball-main_group:
+  tier: 733
+  name: Magic 8 Ball
+enderpanda-enderpanda:
+  tier: 741
+  name: 末地熊猫
+hohenheim-transmutation_category_key:
+  tier: 750
+  name: 嬗变物品
+hohenheim-herbology_category_key:
+  tier: 751
+  name: 草药物品
+rykenslimefuncustomizer-rsc_muzhou_tech:
+  nested:
+    tier: 2
+    name: 暮舟科技
+  sub:
+    rykenslimefuncustomizer-rsc_muzhou_tech:
+      tier: 882
+      name: 暮舟科技 · 终章
+rykenslimefuncustomizer-sfteacher:
+  nested:
+    tier: 3
+    name: 粘液科技及附属教程
+  sub:
+    rykenslimefuncustomizer-sfteacher:
+      tier: 650
+      name: 相关英文教程
+networks-main:
+  tier: 5
+  name: 网络 (Networks)
+networks-materials:
+  tier: 6
+  name: 合成材料
+networks-tools:
+  tier: 7
+  name: 网络管理工具
+networks-network_items:
+  tier: 8
+  name: 网络物品
+networks-network_quantums:
+  tier: 9
+  name: 量子存储设备
+networks-ntw_expansion_category_main:
+  nested:
+    tier: 10
+    name: 网络拓展 - NetworksExpansion
+  sub:
+    networks-ntw_expansion_category_main:
+      tier: 14
+      name: 网络拓展 - 贡献
+networks-ntw_expansion_item_group:
+  tier: 15
+  name: 网络拓展 - NetworksExpansion
+networks-ntw_expansion_main_menu_item:
+  tier: 16
+  name: 物品
+networks-ntw_expansion_sub_menu_tool:
+  tier: 17
+  name: 物品 - 工具
+networks-ntw_expansion_sub_menu_blueprint:
+  tier: 18
+  name: 物品 - 蓝图
+networks-ntw_expansion_main_menu_cargo_system:
+  tier: 19
+  name: 货运与存储
+networks-ntw_expansion_sub_menu_advanced_storage:
+  tier: 20
+  name: 货运与存储 - 高级存储
+networks-ntw_expansion_sub_menu_networks_drawers:
+  tier: 21
+  name: 货运与存储 - 网络抽屉
+networks-ntw_expansion_sub_menu_cargo:
+  tier: 22
+  name: 货运与存储 - 货运
+networks-ntw_expansion_main_menu_functional_machine:
+  tier: 23
+  name: 功能机器
+networks-ntw_expansion_sub_menu_core_machine:
+  tier: 24
+  name: 功能机器 - 核心机器
+networks-ntw_expansion_sub_advanced_networks:
+  tier: 25
+  name: 功能机器 - 更高级的网络机器
+networks-ntw_expansion_sub_menu_bridge:
+  tier: 26
+  name: 功能机器 - 更多的网桥
+networks-ntw_expansion_sub_menu_encoder:
+  tier: 27
+  name: 功能机器 - 编码器
+networks-ntw_expansion_sub_menu_crafter_machine:
+  tier: 28
+  name: 功能机器 - 自动合成机器
+networks-ntw_expansion_main_menu_trophy:
+  tier: 29
+  name: 贡献
+networks-ntw_expansion_sub_menu_author:
+  tier: 30
+  name: 贡献 - 作者
+networks-ntw_expansion_sub_menu_announce:
+  tier: 31
+  name: 贡献 - 声明
+rykenslimefuncustomizer-angle_tech:
+  nested:
+    tier: 85
+    name: 倾斜科技
+  sub:
+    rykenslimefuncustomizer-angle_tech:
+      tier: 556
+      name: 倾斜科技·合成途径
+rykenslimefuncustomizer-slimefun_expansion:
+  nested:
+    tier: 106
+    name: 粘液科技拓展
+  sub:
+    rykenslimefuncustomizer-slimefun_expansion:
+      tier: 636
+      name: 能源与电力
+networks-disabled_items:
+  tier: 188
+  name: 已禁用/移除的物品
+foxymachines-foxy_machines:
+  sub:
+    foxymachines-foxy_machines:
+      tier: 263
+      name: 幽灵方块
+  nested:
+    tier: 257
+    name: 神秘科技
+privatestorage-private_storage:
+  tier: 233
+  name: 私人存储
+mobcapturer-mob_capturer:
+  sub:
+    mobcapturer-mob_capturer:
+      tier: 236
+      name: 刷怪蛋
+  nested:
+    tier: 235
+    name: 生物捕捉
+randomexpansion-randomexpansion:
+  tier: 286
+  name: 随机拓展
+nexcavate-dummy:
+  tier: 288
+  name: ''
+nexcavate-nexcavate:
+  tier: 289
+  name: 文明复兴
+laboratory-lab:
+  sub:
+    laboratory-lab:
+      tier: 836
+      name: Consider 实验室核电
+  nested:
+    tier: 745
+    name: Consider 实验室
+rykenslimefuncustomizer-ag_keji:
+  nested:
+    tier: 524
+    name: llAG科技ll
+  sub:
+    rykenslimefuncustomizer-ag_keji:
+      tier: 531
+      name: 至尊！至尊！
+rykenslimefuncustomizer-y_category:
+  nested:
+    tier: 537
+    name: 亚星计划
+  sub:
+    rykenslimefuncustomizer-y_category:
+      tier: 540
+      name: 高效公式
+rykenslimefuncustomizer-rsc_juzibirthday:
+  tier: 563
+  name: 橘子的生日
+rykenslimefuncustomizer-rsc_herbirthday:
+  tier: 564
+  name: 她的生日
+rykenslimefuncustomizer-bocchitechnoloy:
+  nested:
+    tier: 572
+    name: BocchiTechnoloy(波奇科技)
+  sub:
+    rykenslimefuncustomizer-bocchitechnoloy:
+      tier: 583
+      name: 波奇物质核心
+rykenslimefuncustomizer-annihilation_technology:
+  nested:
+    tier: 584
+    name: 湮灭科技 beta2.0
+  sub:
+    rykenslimefuncustomizer-annihilation_technology:
+      tier: 593
+      name: 粉末创造
+rykenslimefuncustomizer-ly:
+  nested:
+    tier: 687
+    name: 落•叶•科•技
+  sub:
+    rykenslimefuncustomizer-ly:
+      tier: 694
+      name: •电容•
+justenoughguide-nexcavate_items_group:
+  tier: 887
+rykenslimefuncustomizer-haimantech:
+  nested:
+    tier: 83
+    name: ll海曼科技院ll
+  sub:
+    rykenslimefuncustomizer-haimantech:
+      tier: 484
+      name: 海曼科技院 - 婚礼
+rykenslimefuncustomizer-worldtaste:
+  nested:
+    tier: 84
+    name: ll尘世百味ll
+  sub:
+    rykenslimefuncustomizer-worldtaste:
+      tier: 520
+      name: 酿酒与制药
+rykenslimefuncustomizer-pinksheep:
+  nested:
+    tier: 86
+    name: 粉羊科技
+  sub:
+    rykenslimefuncustomizer-pinksheep:
+      tier: 633
+      name: 粉羊科技 - 废石研磨院
+rykenslimefuncustomizer-magic:
+  nested:
+    tier: 87
+    name: ll魔法ll
+  sub:
+    rykenslimefuncustomizer-magic:
+      tier: 730
+      name: l魔法-抽屉l
+rykenslimefuncustomizer-jp:
+  nested:
+    tier: 107
+    name: EpoTech
+  sub:
+    rykenslimefuncustomizer-jp:
+      tier: 686
+      name: ''
+exoticgarden-parent_category:
+  sub:
+    exoticgarden-parent_category:
+      tier: 150
+      name: 异域花园 - 科技
+  nested:
+    tier: 145
+    name: 异域花园
+infinityexpansion-infinity_recipes:
+  tier: 151
+  name: 无尽物品
+infinityexpansion-main:
+  tier: 152
+  name: l无尽贪婪l
+infinityexpansion-main_materials:
+  tier: 153
+  name: 无尽基础材料
+infinityexpansion-basic_machines:
+  tier: 154
+  name: 无尽基础机器
+infinityexpansion-advanced_machines:
+  tier: 155
+  name: 无尽高级机器
+infinityexpansion-storage:
+  tier: 156
+  name: 无尽存储
+infinityexpansion-mob_simulation:
+  tier: 157
+  name: 生物模拟
+infinityexpansion-infinity_materials:
+  tier: 158
+  name: 无尽材料
+infinityexpansion-infinity_cheat:
+  tier: 159
+  name: 无尽物品 - 错误配方, 请从无尽工作台中查看正确配方
+netheopoiesis-main:
+  tier: 172
+  name: 下界乌托邦
+netheopoiesis-crafting:
+  tier: 173
+  name: 下界乌托邦 - 合成材料
+netheopoiesis-tools:
+  tier: 174
+  name: 下界乌托邦 - 工具
+netheopoiesis-seeds:
+  tier: 175
+  name: 下界乌托邦 - 种子
+netheopoiesis-crux:
+  tier: 176
+  name: 下界乌托邦 - 结构
+netheopoiesis-netheo-balls:
+  tier: 177
+  name: 下界乌托邦 - 下界丸子
+netheopoiesis-pastes:
+  tier: 178
+  name: 下界乌托邦 - 浆糊
+potionexpansion-potionexpansion:
+  tier: 204
+  name: 药剂科技
+liquid-liquids:
+  tier: 212
+  name: 液体
+liquid-mixer_recipes_category:
+  tier: 213
+  name: 搅拌机配方
+galactifun-items:
+  tier: 223
+  name: 星系
+galactifun-main:
+  tier: 224
+  name: 星系
+galactifun-equipment:
+  tier: 225
+  name: 设备
+galactifun-components:
+  tier: 226
+  name: 星系组件
+galactifun-machines:
+  tier: 227
+  name: 星系机器
+galactifun-blocks:
+  tier: 228
+  name: 星系方块
+galactifun-galactic_flex:
+  tier: 229
+  name: 宇宙
+galactifun-assembly_flex:
+  tier: 230
+  name: 星系配方
+galactifun-relics:
+  tier: 231
+  name: 星系遗迹
+flowerpower-flowerpower_category:
+  tier: 232
+  name: 源之花
+slimefunluckyblocks-lucky_blocks:
+  tier: 283
+  name: Lucky Blocks
+idreamofeasy-i_dream_of_easy:
+  tier: 293
+  name: 易梦
+exlimus-el_main:
+  tier: 332
+  name: 新手工具
+exlimus-el_tools:
+  tier: 333
+  name: 工具
+exlimus-el_machines:
+  tier: 334
+  name: 机器
+exlimus-el_misc:
+  tier: 335
+  name: 杂项
+exlimus-el_vanilla:
+  tier: 336
+  name: 原版物品
+infernalexpansion-infernal_runes:
+  tier: 415
+  name: InfernalExpansion
+infinityexpansionautomation-main:
+  tier: 742
+  name: 无尽自动化
+newbegginings-new_beginnings:
+  tier: 743
+  name: 新生
+rykenslimefuncustomizer-bigsnake_category:
+  nested:
+    tier: 423
+    name: BigSnake - 大蛇科技
+  sub:
+    rykenslimefuncustomizer-bigsnake_category:
+      tier: 452
+      name: BigSnake - 诸蛇黄昏
+rykenslimefuncustomizer-slime_customizer_newyear:
+  tier: 481
+  name: 新年快乐！
+rykenslimefuncustomizer-greedy:
+  nested:
+    tier: 532
+    name: ☢贪婪☢
+  sub:
+    rykenslimefuncustomizer-greedy:
+      tier: 536
+      name: 科技
+rykenslimefuncustomizer-ws_yurenjie:
+  tier: 521
+  name: d“毒薯管理员”d
+rykenslimefuncustomizer-gongye_category:
+  nested:
+    tier: 557
+    name: 《工业驱动1:免费版》
+  sub:
+    rykenslimefuncustomizer-gongye_category:
+      tier: 561
+      name: 工业驱动-生成器
+rykenslimefuncustomizer-xingcheng_craft:
+  nested:
+    tier: 565
+    name: 星辰工艺
+  sub:
+    rykenslimefuncustomizer-xingcheng_craft:
+      tier: 571
+      name: 卡片
+rykenslimefuncustomizer-shengwukeji:
+  nested:
+    tier: 594
+    name: 生物科技
+  sub:
+    rykenslimefuncustomizer-shengwukeji:
+      tier: 602
+      name: 生物科技 - 金元素的高效利用
+rykenslimefuncustomizer-hiworld_oretech:
+  nested:
+    tier: 603
+    name: Hi世界矿物科技
+  sub:
+    rykenslimefuncustomizer-hiworld_oretech:
+      tier: 611
+      name: 加强版矿物生成器
+rykenslimefuncustomizer-wyldj:
+  tier: 634
+  name: 粉羊科技 - 五月 · 劳动月
+researchblueprint-hidden:
+  tier: 0
+  name: 解锁蓝图
+logitech-addon_category:
+  tier: 82
+  name: a逻辑工艺(正式版 v1.0.4)a
+logitech-info:
+  tier: 337
+  name: 逻辑工艺 版本与说明
+logitech-material:
+  tier: 338
+  name: 逻辑工艺 基础材料
+logitech-basic:
+  tier: 339
+  name: 逻辑工艺 基础机器
+logitech-cargo:
+  tier: 340
+  name: 逻辑工艺 货运机器
+logitech-singularity:
+  tier: 341
+  name: 逻辑工艺 概念奇点工艺
+logitech-advanced:
+  tier: 342
+  name: 逻辑工艺 进阶机器
+logitech-beyond:
+  tier: 343
+  name: 终章 超越领域
+logitech-vanilla:
+  tier: 344
+  name: 逻辑工艺 赤石科技
+logitech-manual:
+  tier: 345
+  name: 逻辑工艺 快捷机器
+logitech-special:
+  tier: 346
+  name: 逻辑工艺 谜之领域
+logitech-space:
+  tier: 347
+  name: 逻辑工艺 空间技艺
+logitech-generators:
+  tier: 348
+  name: 逻辑工艺 材料生成与转化
+logitech-energy:
+  tier: 349
+  name: 逻辑工艺 电力与能源拓展
+logitech-functional:
+  tier: 350
+  name: 逻辑工艺 功能性物品
+logitech-tools-functional:
+  tier: 351
+  name: 逻辑工艺 工具与锻造
+logitech-tools-sub1:
+  tier: 352
+  name: 锻铸工坊 增幅组件
+logitech-tools:
+  tier: 353
+  name: 逻辑工艺 工具与锻造
+logitech-tools-sub2:
+  tier: 354
+  name: 锻铸工坊 功能单元
+justenoughguide-sf:
+  tier: 111
+  name: 粘液科技
+justenoughguide-gongye:
+  tier: 112
+  name: 工业附属
+justenoughguide-gongyefuzhu:
+  tier: 113
+  name: 工业辅助附属
+justenoughguide-huoyun:
+  tier: 114
+  name: 货运附属
+justenoughguide-mofa:
+  tier: 115
+  name: 魔法附属
+justenoughguide-nongye:
+  tier: 116
+  name: 农业与休闲附属
+justenoughguide-zhanli:
+  tier: 117
+  name: 战力提升附属
+justenoughguide-xingji:
+  tier: 118
+  name: 星际冒险附属
+rykenslimefuncustomizer-ws_gandi:
+  tier: 522
+  name: d肝帝的晚宴d
+rykenslimefuncustomizer-ws_shengri:
+  tier: 523
+  name: d生日快乐d

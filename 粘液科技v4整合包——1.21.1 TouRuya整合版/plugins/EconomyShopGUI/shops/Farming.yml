@@ -1,0 +1,123 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BAMBOO
+        buy: 0.1
+        sell: -1
+      '2':
+        material: BEE_NEST
+        buy: -1
+        sell: -1
+      '3':
+        material: BEEHIVE
+        buy: 16.87
+        sell: -1
+      '4':
+        material: BEETROOT
+        buy: 6
+        sell: -1
+      '5':
+        material: BEETROOT_SEEDS
+        buy: 3
+        sell: -1
+      '6':
+        material: BROWN_MUSHROOM
+        buy: 2
+        sell: -1 0.5
+      '7':
+        material: CACTUS
+        buy: 0.1
+        sell: -1 0.03
+      '8':
+        material: CARROT
+        buy: 5
+        sell: -1 1.25
+      '9':
+        material: CHORUS_FLOWER
+        buy: 1
+        sell: -1 0.25
+      '10':
+        material: CHORUS_FRUIT
+        buy: 3
+        sell: -1 0.75
+      '11':
+        material: COCOA_BEANS
+        buy: 6
+        sell: -1 1.5
+      '12':
+        material: CRIMSON_FUNGUS
+        buy: 6
+        sell: -1 1.5
+      '13':
+        material: EGG
+        buy: 5
+        sell: -1 1.25
+      '14':
+        material: KELP
+        buy: 0.1
+        sell: -1 0.03
+      '15':
+        material: LEATHER
+        buy: 33.6
+        sell: -1 8.4
+      '16':
+        material: MELON
+        buy: 9.45
+        sell: -1 2.37
+      '17':
+        material: MELON_SEEDS
+        buy: 3
+        sell: -1 0.75
+      '18':
+        material: MELON_SLICE
+        buy: 1
+        sell: -1 0.25
+      '19':
+        material: NETHER_WART
+        buy: 3
+        sell: -1 0.75
+      '20':
+        material: PITCHER_POD
+        buy: 20.5
+        sell: -1 5.13
+      '21':
+        material: POTATO
+        buy: 5
+        sell: -1 1.25
+      '22':
+        material: PUMPKIN
+        buy: 5
+        sell: -1 1.25
+      '23':
+        material: PUMPKIN_SEEDS
+        buy: 1.19
+        sell: -1 0.3
+      '24':
+        material: RED_MUSHROOM
+        buy: 2
+        sell: -1 0.5
+      '25':
+        material: SUGAR_CANE
+        buy: 0.1
+        sell: -1 0.03
+      '26':
+        material: TORCHFLOWER_SEEDS
+        buy: 20.5
+        sell: -1 5.13
+      '27':
+        material: WARPED_FUNGUS
+        buy: 6
+        sell: -1 1.5
+      '28':
+        material: WHEAT
+        buy: 5
+        sell: -1 1.25
+      '29':
+        material: WHEAT_SEEDS
+        buy: 3
+        sell: -1 0.75
+      '30':
+        material: SWEET_BERRIES
+        buy: 3
+        sell: -1 0.75

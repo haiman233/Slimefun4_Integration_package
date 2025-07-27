@@ -1,0 +1,13 @@
+#For help with this config, visit: dev.bukkit.org/bukkit-plugins/slimedustry
+MiningLaser:
+    ExplosionStrength: 4
+    MiningCharge: 1
+    ExplosiveCharge: 5
+    SuperHeatCharge: 2
+Nuke:
+    ExplosionStrength: 35
+    Delay: 10
+StickyResinDropChance: 20
+StaticBootsGeneration: 0.01
+RockCutterCharge: 5
+NanoSuitCharge: 10

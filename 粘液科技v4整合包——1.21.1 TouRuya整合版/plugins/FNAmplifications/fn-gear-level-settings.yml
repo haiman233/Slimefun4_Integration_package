@@ -1,0 +1,586 @@
+FN_GEAR_BOOTS:
+  max-level: 35
+  max-attributes: 4
+  level-1:
+    enchantment-name: blast_protection
+    enchantment-level: 3
+  level-2:
+    enchantment-name: protection
+    enchantment-level: 3
+  level-3:
+    enchantment-name: projectile_protection
+    enchantment-level: 3
+  level-4:
+    enchantment-name: fire_protection
+    enchantment-level: 3
+  level-5:
+    enchantment-name: depth_strider
+    enchantment-level: 3
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 4.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 3.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.1
+  level-6:
+    enchantment-name: unbreaking
+    enchantment-level: 3
+  level-7:
+    enchantment-name: feather_falling
+    enchantment-level: 3
+  level-8:
+    enchantment-name: blast_protection
+    enchantment-level: 6
+  level-9:
+    enchantment-name: protection
+    enchantment-level: 6
+  level-10:
+    enchantment-name: projectile_protection
+    enchantment-level: 6
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 4.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.1
+  level-11:
+    enchantment-name: thorns
+    enchantment-level: 5
+  level-12:
+    enchantment-name: fire_protection
+    enchantment-level: 6
+  level-13:
+    enchantment-name: depth_strider
+    enchantment-level: 6
+  level-14:
+    enchantment-name: feather_falling
+    enchantment-level: 6
+  level-15:
+    enchantment-name: blast_protection
+    enchantment-level: 10
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 4.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-16:
+    enchantment-name: projectile_protection
+    enchantment-level: 12
+  level-17:
+    enchantment-name: protection
+    enchantment-level: 10
+  level-18:
+    enchantment-name: thorns
+    enchantment-level: 10
+  level-19:
+    enchantment-name: fire_protection
+    enchantment-level: 10
+  level-20:
+    enchantment-name: depth_strider
+    enchantment-level: 12
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 5.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+      attribute-4:
+        attribute-name: GENERIC_MOVEMENT_SPEED
+        attribute-value: 0.06
+  level-21:
+    enchantment-name: feather_falling
+    enchantment-level: 10
+  level-22:
+    enchantment-name: blast_protection
+    enchantment-level: 15
+  level-23:
+    enchantment-name: protection
+    enchantment-level: 15
+  level-24:
+    enchantment-name: projectile_protection
+    enchantment-level: 15
+  level-25:
+    enchantment-name: thorns
+    enchantment-level: 15
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 5.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+      attribute-4:
+        attribute-name: GENERIC_MOVEMENT_SPEED
+        attribute-value: 0.07
+  level-26:
+    enchantment-name: fire_protection
+    enchantment-level: 16
+  level-27:
+    enchantment-name: depth_strider
+    enchantment-level: 14
+  level-28:
+    enchantment-name: feather_falling
+    enchantment-level: 15
+  level-29:
+    enchantment-name: blast_protection
+    enchantment-level: 20
+  level-30:
+    enchantment-name: protection
+    enchantment-level: 20
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 6.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 6.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.4
+      attribute-4:
+        attribute-name: GENERIC_MOVEMENT_SPEED
+        attribute-value: 0.08
+  level-31:
+    enchantment-name: projectile_protection
+    enchantment-level: 20
+  level-32:
+    enchantment-name: thorns
+    enchantment-level: 20
+  level-33:
+    enchantment-name: fire_protection
+    enchantment-level: 20
+  level-34:
+    enchantment-name: depth_strider
+    enchantment-level: 18
+  level-35:
+    enchantment-name: feather_falling
+    enchantment-level: 20
+FN_GEAR_CHESTPLATE:
+  max-level: 25
+  max-attributes: 3
+  level-1:
+    enchantment-name: projectile_protection
+    enchantment-level: 3
+  level-2:
+    enchantment-name: protection
+    enchantment-level: 3
+  level-3:
+    enchantment-name: protection
+    enchantment-level: 6
+  level-4:
+    enchantment-name: projectile_protection
+    enchantment-level: 6
+  level-5:
+    enchantment-name: blast_protection
+    enchantment-level: 3
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 10.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 3.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.1
+  level-6:
+    enchantment-name: blast_protection
+    enchantment-level: 6
+  level-7:
+    enchantment-name: fire_protection
+    enchantment-level: 3
+  level-8:
+    enchantment-name: fire_protection
+    enchantment-level: 6
+  level-9:
+    enchantment-name: fire_protection
+    enchantment-level: 10
+  level-10:
+    enchantment-name: thorns
+    enchantment-level: 3
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 10.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.1
+  level-11:
+    enchantment-name: thorns
+    enchantment-level: 6
+  level-12:
+    enchantment-name: projectile_protection
+    enchantment-level: 10
+  level-13:
+    enchantment-name: protection
+    enchantment-level: 10
+  level-14:
+    enchantment-name: blast_protection
+    enchantment-level: 10
+  level-15:
+    enchantment-name: thorns
+    enchantment-level: 10
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 10.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-16:
+    enchantment-name: projectile_protection
+    enchantment-level: 15
+  level-17:
+    enchantment-name: protection
+    enchantment-level: 14
+  level-18:
+    enchantment-name: blast_protection
+    enchantment-level: 16
+  level-19:
+    enchantment-name: thorns
+    enchantment-level: 15
+  level-20:
+    enchantment-name: fire_protection
+    enchantment-level: 15
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 10.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.4
+  level-21:
+    enchantment-name: projectile_protection
+    enchantment-level: 20
+  level-22:
+    enchantment-name: protection
+    enchantment-level: 20
+  level-23:
+    enchantment-name: blast_protection
+    enchantment-level: 20
+  level-24:
+    enchantment-name: thorns
+    enchantment-level: 20
+  level-25:
+    enchantment-name: fire_protection
+    enchantment-level: 20
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 12.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.4
+FN_GEAR_HELMET:
+  max-level: 30
+  max-attributes: 3
+  level-1:
+    enchantment-name: protection
+    enchantment-level: 3
+  level-2:
+    enchantment-name: blast_protection
+    enchantment-level: 3
+  level-3:
+    enchantment-name: projectile_protection
+    enchantment-level: 3
+  level-4:
+    enchantment-name: fire_protection
+    enchantment-level: 3
+  level-5:
+    enchantment-name: aqua_affinity
+    enchantment-level: 3
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 3.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.1
+  level-6:
+    enchantment-name: respiration
+    enchantment-level: 3
+  level-7:
+    enchantment-name: protection
+    enchantment-level: 6
+  level-8:
+    enchantment-name: blast_protection
+    enchantment-level: 6
+  level-9:
+    enchantment-name: projectile_protection
+    enchantment-level: 6
+  level-10:
+    enchantment-name: fire_protection
+    enchantment-level: 6
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 5.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-11:
+    enchantment-name: thorns
+    enchantment-level: 5
+  level-12:
+    enchantment-name: aqua_affinity
+    enchantment-level: 7
+  level-13:
+    enchantment-name: respiration
+    enchantment-level: 6
+  level-14:
+    enchantment-name: protection
+    enchantment-level: 10
+  level-15:
+    enchantment-name: blast_protection
+    enchantment-level: 12
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 6.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-16:
+    enchantment-name: projectile_protection
+    enchantment-level: 10
+  level-17:
+    enchantment-name: fire_protection
+    enchantment-level: 12
+  level-18:
+    enchantment-name: thorns
+    enchantment-level: 10
+  level-19:
+    enchantment-name: aqua_affinity
+    enchantment-level: 10
+  level-20:
+    enchantment-name: respiration
+    enchantment-level: 12
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 6.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.4
+  level-21:
+    enchantment-name: protection
+    enchantment-level: 16
+  level-22:
+    enchantment-name: blast_protection
+    enchantment-level: 15
+  level-23:
+    enchantment-name: projectile_protection
+    enchantment-level: 15
+  level-24:
+    enchantment-name: thorns
+    enchantment-level: 15
+  level-25:
+    enchantment-name: aqua_affinity
+    enchantment-level: 16
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 6.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.5
+  level-26:
+    enchantment-name: respiration
+    enchantment-level: 15
+  level-27:
+    enchantment-name: protection
+    enchantment-level: 20
+  level-28:
+    enchantment-name: blast_protection
+    enchantment-level: 22
+  level-29:
+    enchantment-name: projectile_protection
+    enchantment-level: 20
+  level-30:
+    enchantment-name: fire_protection
+    enchantment-level: 20
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 8.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.5
+FN_GEAR_LEGGINGS:
+  max-level: 25
+  max-attributes: 3
+  level-1:
+    enchantment-name: protection
+    enchantment-level: 3
+  level-2:
+    enchantment-name: protection
+    enchantment-level: 6
+  level-3:
+    enchantment-name: projectile_protection
+    enchantment-level: 3
+  level-4:
+    enchantment-name: projectile_protection
+    enchantment-level: 6
+  level-5:
+    enchantment-name: fire_protection
+    enchantment-level: 3
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 6.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.1
+  level-6:
+    enchantment-name: fire_protection
+    enchantment-level: 6
+  level-7:
+    enchantment-name: blast_protection
+    enchantment-level: 3
+  level-8:
+    enchantment-name: blast_protection
+    enchantment-level: 6
+  level-9:
+    enchantment-name: projectile_protection
+    enchantment-level: 10
+  level-10:
+    enchantment-name: thorns
+    enchantment-level: 3
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 6.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-11:
+    enchantment-name: thorns
+    enchantment-level: 6
+  level-12:
+    enchantment-name: fire_protection
+    enchantment-level: 10
+  level-13:
+    enchantment-name: thorns
+    enchantment-level: 10
+  level-14:
+    enchantment-name: protection
+    enchantment-level: 10
+  level-15:
+    enchantment-name: blast_protection
+    enchantment-level: 10
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 8.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 5.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-16:
+    enchantment-name: blast_protection
+    enchantment-level: 15
+  level-17:
+    enchantment-name: protection
+    enchantment-level: 14
+  level-18:
+    enchantment-name: projectile_protection
+    enchantment-level: 16
+  level-19:
+    enchantment-name: thorns
+    enchantment-level: 15
+  level-20:
+    enchantment-name: fire_protection
+    enchantment-level: 15
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 10.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 6.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.3
+  level-21:
+    enchantment-name: thorns
+    enchantment-level: 20
+  level-22:
+    enchantment-name: projectile_protection
+    enchantment-level: 20
+  level-23:
+    enchantment-name: protection
+    enchantment-level: 20
+  level-24:
+    enchantment-name: blast_protection
+    enchantment-level: 20
+  level-25:
+    enchantment-name: fire_protection
+    enchantment-level: 20
+    bonus-attributes:
+      attribute-1:
+        attribute-name: GENERIC_ARMOR
+        attribute-value: 12.0
+      attribute-2:
+        attribute-name: GENERIC_ARMOR_TOUGHNESS
+        attribute-value: 7.0
+      attribute-3:
+        attribute-name: GENERIC_KNOCKBACK_RESISTANCE
+        attribute-value: 0.4

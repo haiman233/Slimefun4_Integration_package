@@ -1,0 +1,32 @@
+Options:
+  Join-Permission: 'trchat.private'
+  Proxy: true
+  Disabled-Functions: ['Mention']
+  Private: true
+
+Bindings:
+  Command: ['msg', 'message', 'tell', 'talk', 'm', 'whisper', 'w']
+
+Sender:
+  - prefix:
+      sender:
+        text: '&8[&a%player_name% &7➦ %trchat_toplayer%&3&8] '
+    msg:
+      default-color: 'f'
+      hover: '&7日期: %server_time_HH:mm:ss%'
+
+Receiver:
+  - prefix:
+      receiver:
+        text: '&8[&6%player_name% &7➥ &2%trchat_toplayer%&8] '
+    msg:
+      default-color: 'f'
+      hover: '&7日期: %server_time_HH:mm:ss%'
+
+# Placeholders & Conditions are available only when not proxy!
+Console:
+  - prefix:
+      server:
+        text: '&8[&6CONSOLE &7➥ &2you&8] '
+    msg:
+      default-color: 'f'

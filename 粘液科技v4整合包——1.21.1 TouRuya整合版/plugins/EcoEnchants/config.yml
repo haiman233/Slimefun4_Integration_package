@@ -1,0 +1,126 @@
+#
+# EcoEnchants
+# 插件作者: Auxilor
+#
+
+enchant-gui:
+  enchant-area:
+    width: 7
+    column: 2
+    row: 3
+    height: 3
+  empty-item: gray_stained_glass_pane name:""
+  custom-slots: []
+  rows: 6
+  title: Enchant GUI
+  item-column: 5
+  item-row: 1
+  page-change:
+    forwards:
+      item: arrow name:"&f下一页"
+      column: 6
+      row: 6
+    backwards:
+      item: arrow name:"&f上一页"
+      column: 4
+      row: 6
+  mask:
+    pattern:
+    - '111101111'
+    - '111111111'
+    - '100000001'
+    - '100000001'
+    - '100000001'
+    - '111111111'
+    items:
+    - black_stained_glass_pane
+  info:
+    item: player_head name:"&a如何使用这个?" texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+    lore:
+    - '&f将物品放在顶部的槽中，'
+    - '&f所有你可以添加的附魔'
+    - '&f将显示在下方区域！'
+    column: 9
+    row: 1
+villager:
+  pass-through-chance: 25
+  book-multiplier: 0.14
+  reduction: 5
+  enabled: true
+anvil:
+  cost-exponent: 0.95
+  use-rework-penalty: true
+  enchant-limit: -1
+  max-repair-cost: 40
+display:
+  above-max-level:
+    level-only: true
+    format: <gradient:#1D976C:#93F9B9>
+    enabled: true
+  numerals:
+    threshold: 10
+    enabled: true
+  sort:
+    rarity-order:
+    - common
+    - uncommon
+    - rare
+    - epic
+    - legendary
+    - special
+    - veryspecial
+    length: false
+    type: false
+    type-order:
+    - normal
+    - special
+    - curse
+    rarity: false
+  descriptions:
+    word-wrap: 27
+    format: '&8'
+    threshold: 5
+    enabled: true
+  enabled: true
+  not-met:
+    format: <strikethrough>
+  require-enchantable: true
+  collapse:
+    delimiter: ',&r '
+    threshold: 9
+    per-line: 2
+    enabled: true
+lore-conversion:
+  aggressive: false
+  enabled: false
+enchanting-table:
+  cap: 5
+  book-multiplier: 0.5
+  reduction: 2.2
+  enabled: true
+  maximum-obtainable-level: 30
+enchantinfo:
+  item:
+    lore:
+    - ''
+    - '&f最大等级: &a%max_level%'
+    - '&f稀有度: &a%rarity%'
+    - '&f适用于: &a%targets%'
+    - '&f与之冲突: &a%conflicts%'
+    column: 5
+    row: 2
+    show-max-level: true
+  custom-slots: []
+  rows: 3
+  mask:
+    pattern:
+    - '111111111'
+    - '111101111'
+    - '111111111'
+    items:
+    - black_stained_glass_pane
+loot:
+  book-multiplier: 0.5
+  reduction: 7.5
+  enabled: true
+

@@ -1,0 +1,48 @@
+Options:
+  Target: ALL
+  Always-Listen: true
+  Proxy: true
+
+Formats:
+  - condition: ~
+    priority: 100
+    msg:
+      default-color: '&f'
+      hover: '&7Date: %server_time_HH:mm:ss%'
+    prefix:
+      world:
+        text: '&8[&d点击TP&8]'
+        hover: |-
+          &f
+          &8▪ &7所在位置: &3%player_world%&7, &2%player_x%/%player_y%/%player_z%
+          &f
+          &6▶ &e点击拉取传送请求
+          &f
+        command: '/tpa %player_name%'
+      part-before-player:
+        text: ' '
+      player:
+        - condition: 'player op'
+          text: '&b%player_name%'
+          hover: |-
+            &f
+            &8▪ &7网络延迟: &3%player_ping% Ms
+            &8▪ &7生命值: &c%player_health_rounded% ❤
+            &f
+            &6▶ &e点击与我私聊
+            &f
+          suggest: '/tell %player_name% '
+        - text: '&b%player_name%'
+          hover: |-
+            &f
+            &8▪ &7网络延迟: &3%player_ping% Ms
+            &8▪ &7生命值: &c%player_health_rounded% ❤
+            &f
+            &6▶ &e点击与我私聊
+            &f
+          suggest: '/tell %player_name% '
+      part-before-msg:
+        text: '&f: '
+    suffix:
+      example:
+        text: ''

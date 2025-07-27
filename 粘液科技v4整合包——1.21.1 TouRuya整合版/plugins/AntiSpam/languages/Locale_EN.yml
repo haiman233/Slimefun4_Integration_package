@@ -1,0 +1,8 @@
+prefix: '§6AntiSpam §8» '
+blocked-word-message: §7Your message contains a blocked word.
+reload-message: §7Plugin reloaded successfully.
+wait-message: §7You need to wait §6%remaining_time% §7seconds before sending another
+  message.
+repeat-message: §7Do not send the same message twice in a row.
+no-permission-message: §cYou do not have permission to use this command.
+repeat-character-message: §7Your message contains too many repeating characters.

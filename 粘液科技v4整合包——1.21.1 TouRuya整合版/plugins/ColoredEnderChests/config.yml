@@ -1,0 +1,4 @@
+small_chests: true
+big_chests: true
+options:
+  auto-update: true

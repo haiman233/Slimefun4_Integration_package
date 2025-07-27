@@ -1,0 +1,167 @@
+console:
+  loaded-language: "読み込まれた言語：{0}"
+  loading-items: "アイテムを読み込み中…"
+  loading-researches: "リサーチを読み込み中…"
+items:
+  #categories
+  FAST_MACHINES:
+    conditions:
+      force-load: true
+    name: "&e快速機械"
+  MATERIALS:
+    conditions:
+      force-load: true
+    name: "&e快速機械 &7- &b材料"
+  MACHINES:
+    conditions:
+      force-load: true
+    name: "&e快速機械 &7- &b機械"
+  #gui items
+  CHOICE_INDICATOR:
+    conditions:
+      force-load: true
+    name: "&e選択されたアイテム"
+    lore:
+      - "&7クラフトされるアイテムは以下に表示されています。"
+  SCROLL_UP:
+    conditions:
+      force-load: true
+    name: "&e上にスクロール"
+    lore:
+      - "&7クリックで可能な出力を上にスクロールします。"
+  SCROLL_DOWN:
+    conditions:
+      force-load: true
+    name: "&e下にスクロール"
+    lore:
+      - "&7クリックで可能な出力を下にスクロールします。"
+  INFO:
+    conditions:
+      force-load: true
+    name: "&f情報"
+    lore:
+      - "&7材料を最初の4行に配置したら"
+      - "&7クラフトできる出力のすべてが表示されます。"
+      - ""
+      - "&7アイテムを選択して、下の「クラフト」ボタンを押す。"
+      - "&7出力が下の行に充填されます。"
+      - ""
+      - "&cクラフトできる量が需要された"
+      - "&c量より少ない場合は、できる限り"
+      - "&c多くの出力をクラフトします。"
+  CRAFT:
+    conditions:
+      force-load: true
+    name: "&aクラフト"
+    lore:
+      - "&7クリックで選択したアイテムをクラフトすます。"
+      - ""
+      - "&7左クリック：1回"
+      - "&7右クリック：16回"
+      - "&7Shift + 左クリック：64回"
+      - "&7Shift + 右クリック：できる限りの量"
+  NO_ITEM:
+    conditions:
+      force-load: true
+    name: "&cアイテムはまだ選択されていません"
+  #materials
+  FAST_CORE:
+    name: "&b快速コア"
+    lore:
+      - "&7快速機械の核心。"
+  ETERNAL_FIRE:
+    name: "&4永遠の炎"
+    lore:
+      - "&7決して消えない炎。"
+  #machines
+  FAST_CRAFTING_TABLE:
+    name: "&a快速作業台"
+    lore:
+      - "&7より便利なバニラ作業台。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_FURNACE:
+    name: "&a快速かまど"
+    lore:
+      - "&7より便利なバニラかまど。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_ENHANCED_CRAFTING_TABLE:
+    name: "&a快速拡張作業台"
+    lore:
+      - "&7より便利な拡張作業台。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_GRIND_STONE:
+    name: "&a快速砥石"
+    lore:
+      - "&7より便利な砥石。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_ARMOR_FORGE:
+    name: "&a快速よろいのフォージ"
+    lore:
+      - "&7より便利なよろいのフォージ。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_ORE_CRUSHER:
+    name: "&a快速鉱石粉砕機"
+    lore:
+      - "&7より便利な鉱石粉砕機。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_COMPRESSOR:
+    name: "&a快速圧縮機"
+    lore:
+      - "&7より便利な圧縮機。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_SMELTERY:
+    name: "&a快速製錬機"
+    lore:
+      - "&7より便利な製錬機。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_PRESSURE_CHAMBER:
+    name: "&a快速圧力チャンバー"
+    lore:
+      - "&7より便利な圧力チャンバー。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_MAGIC_WORKBENCH:
+    name: "&a快速魔法作業台"
+    lore:
+      - "&7より便利な魔法作業台。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_ORE_WASHER:
+    name: "&a快速鉱石洗浄機"
+    lore:
+      - "&7より便利な鉱石洗浄機。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_TABLE_SAW:
+    name: "&a快速テーブルソー"
+    lore:
+      - "&7より便利なテーブルソー。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_COMPOSTER:
+    name: "&a快速コンポスター"
+    lore:
+      - "&7より便利なコンポスター。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_PANNING_MACHINE:
+    name: "&a快速自動選鉱機"
+    lore:
+      - "&7より便利な自動選鉱機。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_JUICER:
+    name: "&a快速ジューサー"
+    lore:
+      - "&7より便利なジューサー。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_INFINITY_WORKBENCH:
+    name: "&a快速インフィニティ作業台"
+    lore:
+      - "&7より便利なインフィニティ作業台。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+  FAST_SLIMEFRAME_FOUNDRY:
+    name: "&a快速SlimeFrame鋳造所"
+    lore:
+      - "&7より便利なSlimeFrame鋳造所。"
+      - "&7レシピの順番通りに配置しなくてもクラフトできます。"
+lores:
+  per-craft: " &7クラフト毎回"
+messages:
+  not-enough-energy: "&cエネルギーがたりません！"
+  not-enough-materials: "&c材料が足りません！"
+  not-enough-space: "&c機械に空きがありません！アイテムはインベントリに送信さられます。インベントリが満杯の場合、アイテムは地面に落とされます。"

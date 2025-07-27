@@ -1,0 +1,38 @@
+# For internal storage use only, do not modify.
+
+legacy-data-migrated: true
+previous-handler: yaml
+player:
+  e71cff98-567f-3b80-8583-33e52b246f5b:
+    eco:player_name: Blue_c
+  519992a6-8a34-35ff-a33e-3979d76de798:
+    eco:player_name: zhun
+  d9e585c1-01f8-383d-aa60-43a6225868e2:
+    eco:player_name: nhkaa
+  454c5922-b2b1-33f9-8513-8bc9d01edd64:
+    eco:player_name: xefla
+  32c032b6-6a96-348d-8ba0-98b2e8c410e3:
+    eco:player_name: mmmjjkx
+  01becf58-dd90-3fb8-9375-c887a06b39f6:
+    eco:player_name: TouRuya
+  ae07f69f-6fcf-3e46-8165-14bba7e86745:
+    eco:player_name: c_eulB
+  3ab20efc-0748-3de4-a1dc-906a1b843f54:
+    eco:player_name: jdhyjy
+  8b0e672f-f30a-30c0-ba76-4780e3ddd6a3:
+    eco:player_name: abandon131192554
+  d968791a-a2af-31d9-a023-84b44e38edf1:
+    eco:player_name: lingning2413
+  269c1023-9bbd-3a53-b61a-8e519e3095e6:
+    eco:player_name: guguguhello
+  e89bc0b5-d624-3db3-a36e-bc7c7c236f4e:
+    eco:player_name: tinalness
+  00000000-0000-0000-0000-000000000000:
+    eco:local_server_id: ee16a8b9-8e1c-44ca-8427-cfdae199ba53
+  a4be30a6-9ca2-3409-ba70-3f7e3748b897:
+    eco:player_name: guaji
+  0ca5f8d3-9155-3c56-8ed9-7164ab52320c:
+    eco:player_name: lingning
+  6a13d035-1e5f-3e7b-8dc5-257e5529b834:
+    eco:player_name: horizon_n
+

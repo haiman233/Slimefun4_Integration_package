@@ -1,0 +1,21 @@
+display-name: "生生不息"
+description: "农作物将自动重新种植播种"
+type: normal
+
+targets:
+  - hoe
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+conditions: []
+
+# 是否在种子重新种植时应该被消耗
+consume-seeds: true
+
+# 是否只有完全成熟的作物才应该被重新种植
+only-fully-grown: false

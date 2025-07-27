@@ -1,0 +1,271 @@
+slimefun:
+  oil:
+    enabled: true
+  nether_ice:
+    enabled: true
+  uranium:
+    enabled: true
+  salt:
+    enabled: true
+simplestorage:
+  angelite_crystal:
+    enabled: true
+  proustite_crystal:
+    enabled: true
+  shortite_crystal:
+    enabled: true
+  quartz_crystal:
+    enabled: true
+slimeaeplugin:
+  crystal_certus_quartz:
+    enabled: true
+slimefunwarfare:
+  arsenic:
+    enabled: true
+  mozanite:
+    enabled: true
+slimefunorechunks:
+  iron_ore_chunk:
+    enabled: true
+  gold_ore_chunk:
+    enabled: true
+  copper_ore_chunk:
+    enabled: true
+  tin_ore_chunk:
+    enabled: true
+  silver_ore_chunk:
+    enabled: true
+  aluminum_ore_chunk:
+    enabled: true
+  lead_ore_chunk:
+    enabled: true
+  zinc_ore_chunk:
+    enabled: true
+  magnesium_ore_chunk:
+    enabled: true
+  nickel_ore_chunk:
+    enabled: true
+  cobalt_ore_chunk:
+    enabled: true
+claytech-fixed:
+  clay_fuel:
+    enabled: true
+dynatech:
+  stardust_meteor:
+    enabled: true
+betterreactor:
+  borium:
+    enabled: true
+litexpansion:
+  thorium:
+    enabled: true
+finaltech-changed:
+  _finaltech_ether:
+    enabled: true
+globalwarming:
+  cinnabarite:
+    enabled: true
+endrex:
+  ender_pearl_ore:
+    enabled: true
+  chorus_ore:
+    enabled: true
+  end_stone_coal_ore:
+    enabled: true
+  end_stone_iron_ore:
+    enabled: true
+  end_stone_lapis_ore:
+    enabled: true
+  end_stone_redstone_ore:
+    enabled: true
+  end_stone_gold_ore:
+    enabled: true
+magic8ball:
+  magic8ball_fragment_geo_resource:
+    enabled: true
+magicexpansion:
+  magic_expansion_gold_element:
+    enabled: true
+  magic_expansion_wood_element:
+    enabled: true
+  magic_expansion_water_element:
+    enabled: true
+  magic_expansion_fire_element:
+    enabled: true
+  magic_expansion_earth_element:
+    enabled: true
+laboratory:
+  certus_quartz:
+    enabled: true
+rykenslimefuncustomizer:
+  iron_ore_raw:
+    enabled: true
+  copper_ore_raw:
+    enabled: true
+  dinas_rock:
+    enabled: true
+  titanium_stone:
+    enabled: true
+  combustible_ice:
+    enabled: true
+  hydrogen:
+    enabled: true
+  grating_stone:
+    enabled: true
+  fractal_silica:
+    enabled: true
+  spiny_bamboo_shoot_crystal:
+    enabled: true
+  unipolar_magnet:
+    enabled: true
+  kimberley_ore:
+    enabled: true
+  deuterium:
+    enabled: true
+  critical_photon:
+    enabled: true
+  antimatter:
+    enabled: true
+  sc_quirp_up:
+    enabled: true
+  sc_quirp_down:
+    enabled: true
+  sc_quirp_left:
+    enabled: true
+  sc_quirp_right:
+    enabled: true
+  void_miner:
+    enabled: true
+  hell_miner:
+    enabled: true
+  plain_miner:
+    enabled: true
+  sea_miner:
+    enabled: true
+  ti:
+    enabled: true
+  li:
+    enabled: true
+  na:
+    enabled: true
+  norcry:
+    enabled: true
+  desert_jt:
+    enabled: true
+  bocchi_egobkl:
+    enabled: true
+  liang_egolqc:
+    enabled: true
+  xdyd_egogqlx:
+    enabled: true
+  hxmm_egogqlx:
+    enabled: true
+  shining_dust:
+    enabled: true
+  bs_famine_of_change:
+    enabled: true
+  bs_cyan_gem:
+    enabled: true
+  bs_pink_gem:
+    enabled: true
+  bs_dark_gem:
+    enabled: true
+  haiman_star_dust:
+    enabled: true
+  derule_bug:
+    enabled: true
+  wuwei_geoyan:
+    enabled: true
+  xc_xc:
+    enabled: true
+  liore:
+    enabled: true
+  koore:
+    enabled: true
+  huangyuore:
+    enabled: true
+  chanore:
+    enabled: true
+  rongyanore:
+    enabled: true
+  youore:
+    enabled: true
+  taiore:
+    enabled: true
+  xinzhiore:
+    enabled: true
+  lingxiore:
+    enabled: true
+  chongnengdianore:
+    enabled: true
+  xuwuore:
+    enabled: true
+  myore:
+    enabled: true
+  abore:
+    enabled: true
+  liuore:
+    enabled: true
+  psore:
+    enabled: true
+  zbore:
+    enabled: true
+  magic_redstone:
+    enabled: true
+  magic_cosmic_dust:
+    enabled: true
+  magic_soul:
+    enabled: true
+  magic_small_lead_ore_chunk:
+    enabled: true
+  magic_large_lead_ore_chunk:
+    enabled: true
+  magic_small_magnesium_ore_chunk:
+    enabled: true
+  magic_large_magnesium_ore_chunk:
+    enabled: true
+  magic_small_zinc_ore_chunk:
+    enabled: true
+  magic_large_zinc_ore_chunk:
+    enabled: true
+  magic_small_iron_ore_chunk:
+    enabled: true
+  magic_large_iron_ore_chunk:
+    enabled: true
+  magic_small_gold_ore_chunk:
+    enabled: true
+  magic_large_gold_ore_chunk:
+    enabled: true
+  magic_small_copper_ore_chunk:
+    enabled: true
+  magic_large_copper_ore_chunk:
+    enabled: true
+  magic_small_tin_ore_chunk:
+    enabled: true
+  magic_large_tin_ore_chunk:
+    enabled: true
+  magic_small_silver_ore_chunk:
+    enabled: true
+  magic_large_silver_ore_chunk:
+    enabled: true
+  magic_small_aluminum_ore_chunk:
+    enabled: true
+  magic_large_aluminum_ore_chunk:
+    enabled: true
+  magic_small_nickel_ore_chunk:
+    enabled: true
+  magic_large_nickel_ore_chunk:
+    enabled: true
+  magic_small_cobalt_ore_chunk:
+    enabled: true
+  magic_large_cobalt_ore_chunk:
+    enabled: true
+infinityexpansion:
+  ender_essence:
+    enabled: true
+newbegginings:
+  mythril_ore:
+    enabled: true
+logitech:
+  logitech_dimensional_shard:
+    enabled: true

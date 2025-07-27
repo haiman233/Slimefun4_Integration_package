@@ -1,0 +1,10 @@
+fix:
+  gec-reborn: true # 默认开启，开启则启用多语言版基因工程   与下面一项只能有一个是true  注意！！！true为开启，false为关闭
+  gec-cn: false # 默认关闭，开启则启用汉化版基因工程    与上面一项只能有一个是false     注意！！！必须为一个true一个false
+
+options:
+  magic:
+    storage: false # 默认关闭，开启则启用抽屉损坏修复功能，即拆除后需要修复才能再次放置
+    kill-amount: 5 # 默认数量为5，每次击杀5只怪物
+
+# #######目前配置到此为止

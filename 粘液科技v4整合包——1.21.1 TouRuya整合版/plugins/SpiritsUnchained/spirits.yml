@@ -1,0 +1,1216 @@
+SHEEP:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Better_Shears
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Breed
+  - SHEEP
+  - 2
+  Relations:
+    Afraid:
+    - WITHER
+    - WOLF
+COW:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Clear_Effects
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Breed
+  - COW
+  - 2
+  Relations:
+    Afraid:
+    - WITHER
+CHICKEN:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Eggpult
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Breed
+  - CHICKEN
+  - 2
+  Relations:
+    Afraid:
+    - WITHER
+    - FOX
+PIG:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Pig_Rancher
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - GOLDEN_CARROT
+  - 64
+PARROT:
+  Biomes:
+  - jungle_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Winged_Creature
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - COOKIE
+  - 1
+  Relations:
+    Afraid:
+    - WITHER
+COD:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Aquatic_Creature
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - WATER_BUCKET
+  - 1
+  Relations:
+    Afraid:
+    - AXOLOTL
+    - POLAR_BEAR
+SALMON:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Aquatic_Creature
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - WATER_BUCKET
+  - 1
+  Relations:
+    Afraid:
+    - AXOLOTL
+    - POLAR_BEAR
+TROPICAL_FISH:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Aquatic_Creature
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - WATER_BUCKET
+  - 1
+  Relations:
+    Afraid:
+    - AXOLOTL
+SQUID:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Ink_Spray
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Kill
+  - GLOW_SQUID
+  - 3
+  Relations:
+    Afraid:
+    - GLOW_SQUID
+OCELOT:
+  Biomes:
+  - jungle_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Speedy_Escape
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Kill
+  - Creeper
+  - 3
+  Relations:
+    Scare:
+    - CREEPER
+RABBIT:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Hops
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - GOLDEN_CARROT
+  - 5
+  Relations:
+    Afraid:
+    - WITHER
+BEE:
+  Biomes:
+  - forest_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Bee_Buddy
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  Pass On:
+  - Breed
+  - BEE
+  - 2
+  Relations:
+    Afraid:
+    - WITHER
+SPIDER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Webber
+  Time:
+  - Night
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  Pass On:
+  - Item
+  - COBWEB
+  - 1
+  Relations:
+    Afraid:
+    - WITHER
+CREEPER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Explode
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - TNT
+  - 5
+  Relations:
+    Afraid:
+    - CAT
+    - OCELOT
+    - WITHER
+SKELETON:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Strong_Bones
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - BOW
+  - 1
+  Relations:
+    Afraid:
+    - WITHER
+    - WOLF
+ZOMBIE:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Undead_Protection
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - VILLAGER
+  - 2
+  Relations:
+    Afraid:
+    - WITHER
+    - IRON_GOLEM
+    Scare:
+    - TURTLE
+    - VILLAGER
+    - WANDERING_TRADER
+SLIME:
+  Biomes:
+  - swamp_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: What_Fall
+  Time:
+  - Night
+  - Day
+  States:
+  - Passive
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - FROG
+  - 3
+  Relations:
+    Afraid:
+    - FROG
+    - WITHER
+ZOMBIFIED_PIGLIN:
+  Biomes:
+  - main_nether
+  Dimension: NETHER
+  Tier: 1
+  Trait: Group_Protection
+  States:
+  - Passive
+  - Aggressive
+  - Hostile
+  Pass On:
+  - SlimefunItem
+  - MAGICAL_ZOMBIE_PILLS
+  - 1
+  Relations:
+    Afraid:
+    - WITHER
+    Scare:
+    - TURTLE
+SILVERFISH:
+  Biomes:
+  - stone_overworld
+  Dimension: NORMAL
+  Tier: 1
+  Trait: Infest
+  Time:
+  - Day
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - CHISELED_STONE_BRICKS
+  - 1
+  Relations:
+    Afraid:
+    - WITHER
+    - ENDERMITE
+FOX:
+  Biomes:
+  - snowy_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Sly_Fox
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Kill
+  - CHICKEN
+  - 2
+  Relations:
+    Scare:
+    - CHICKEN
+BAT:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Echolocation
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - SCULK_SENSOR
+  - 5
+  Relations:
+    Afraid:
+    - WARDEN
+SNOWMAN:
+  Biomes:
+  - snowy_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Frosty
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - CARVED_PUMPKIN
+  - 1
+  Relations:
+    Afraid:
+    - BLAZE
+MUSHROOM_COW:
+  Biomes:
+  - mushroom_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Stew_Maker
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Breed
+  - MUSHROOM_COW
+  - 4
+STRIDER:
+  Biomes:
+  - main_nether
+  Dimension: NETHER
+  Tier: 2
+  Trait: Lava_Walker
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - LAVA_BUCKET
+  - 5
+TURTLE:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Scute_Shedding
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Kill
+  - Zombie
+  - 10
+  Relations:
+    Afraid:
+    - ZOMBIE
+    - HUSK
+    - ZOMBIFIED_PIGLIN
+VILLAGER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Villager_Friend
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - EMERALD_BLOCK
+  - 64
+  Relations:
+    Afraid:
+    - ZOMBIE
+    - HUSK
+    - DROWNED
+    - ZOMBIFIED_PIGLIN
+    - ZOMBIE_VILLAGER
+    - PILLAGER
+    - VINDICATOR
+    - EVOKER
+    - RAVAGER
+    - WITCH
+WANDERING_TRADER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Villager_Friend
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - EMERALD_BLOCK
+  - 64
+  Relations:
+    Afraid:
+    - ZOMBIE
+    - HUSK
+    - DROWNED
+    - ZOMBIFIED_PIGLIN
+    - ZOMBIE_VILLAGER
+    - PILLAGER
+    - VINDICATOR
+    - EVOKER
+    - RAVAGER
+    - WITCH
+    Scare:
+    - LLAMA
+PUFFERFISH:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Poisonous_Thorns
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  Pass On:
+  - Item
+  - WATER_BUCKET
+  - 4
+  Relations:
+    Afraid:
+    - AXOLOTL
+AXOLOTL:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Play_Dead
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - TROPICAL_FISH
+  - 16
+  Relations:
+    Scare:
+    - PUFFERFISH
+    - TROPICAL_FISH
+    - COD
+    - SALMON
+GLOW_SQUID:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Glow_Up
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Kill
+  - SQUID
+  - 8
+  Relations:
+    Scare:
+    - SQUID
+FROG:
+  Biomes:
+  - swamp_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Light_It_Up
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - FROGSPAWN
+  - 5
+  Relations:
+    Scare:
+    - SLIME
+    - MAGMA_CUBE
+HORSE:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: High_Jump
+  Time:
+  - Day
+  States:
+  - Friendly
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - HAY_BLOCK
+  - 16
+DONKEY:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: High_Jump
+  Time:
+  - Day
+  States:
+  - Friendly
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - HAY_BLOCK
+  - 16
+MULE:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: High_Jump
+  Time:
+  - Day
+  States:
+  - Friendly
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - HAY_BLOCK
+  - 16
+CAT:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Morning_Gift
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Breed
+  - CAT
+  - 4
+WOLF:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Better_Food
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - BONE
+  - 32
+LLAMA:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Spitter
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  Pass On:
+  - Kill
+  - WANDERING_TRADER
+  - 1
+  Relations:
+    Afraid:
+    - WANDERING_TRADER
+DOLPHIN:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Dolphin_Swimmer
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - SEAGRASS
+  - 32
+POLAR_BEAR:
+  Biomes:
+  - snowy_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Natural_Fisher
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  Pass On:
+  - Breed
+  - POLAR_BEAR
+  - 4
+  Relations:
+    Scare:
+    - COD
+    - SALMON
+PANDA:
+  Biomes:
+  - jungle_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Crunchy_Bamboo
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - BAMBOO
+  - 64
+GOAT:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Goats_Instrument
+  Time:
+  - Day
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  Pass On:
+  - Item
+  - GOAT_HORN
+  - 2
+CAVE_SPIDER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Poison_Spray
+  Time:
+  - Night
+  States:
+  - Passive
+  - Aggressive
+  Pass On:
+  - Item
+  - POISONOUS_POTATO
+  - 16
+PIGLIN:
+  Biomes:
+  - main_nether
+  Dimension: NETHER
+  Tier: 2
+  Trait: Strange_Secrets
+  States:
+  - Passive
+  - Aggressive
+  Pass On:
+  - SlimefunItem
+  - GOLD_24K
+  - 16
+PILLAGER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Multishoot
+  Time:
+  - Day
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - VILLAGER
+  - 5
+  Relations:
+    Scare:
+    - VILLAGER
+    - WANDERING_TRADER
+VINDICATOR:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Crit_hit
+  Time:
+  - Day
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - WANDERING_TRADER
+  - 3
+  Relations:
+    Scare:
+    - VILLAGER
+    - WANDERING_TRADER
+ENDERMAN:
+  Biomes:
+  - main_end
+  Dimension: THE_END
+  Tier: 2
+  Trait: Mini_Teleport
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - ENDERMITE
+  - 8
+  Relations:
+    Scare:
+    - SILVERFISH
+GUARDIAN:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Nautral_Thorns
+  Time:
+  - Day
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - COD
+  - 16
+HUSK:
+  Biomes:
+  - desert_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Hunger_Hit
+  Time:
+  - Day
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - PLAYER
+  - 3
+  Relations:
+    Scare:
+    - VILLAGER
+    - WANDERING_TRADER
+STRAY:
+  Biomes:
+  - snowy_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Slow_Shot
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - PLAYER
+  - 3
+  Relations:
+    Afraid:
+    - WOLF
+PHANTOM:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Sleep_No_More
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - RED_BED
+  - 2
+  Relations:
+    Afriad:
+    - CAT
+    - OCELOT
+BLAZE:
+  Biomes:
+  - main_nether
+  Dimension: NETHER
+  Tier: 2
+  Trait: Blazing_Thorns
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - FIRE_CHARGE
+  - 16
+MAGMA_CUBE:
+  Biomes:
+  - magma_nether
+  Dimension: NETHER
+  Tier: 2
+  Trait: Magma_Trap
+  States:
+  - Passive
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - MAGMA_CREAM
+  - 64
+  Relations:
+    Afraid:
+    - FROG
+ZOMBIE_VILLAGER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Undead_Protection
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - SlimefunItem
+  - MAGICAL_ZOMBIE_PILLS
+  - 3
+  Relations:
+    Scare:
+    - VILLAGER
+    - WANDERING_TRADER
+DROWNED:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Aquatic_Creature
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - TRIDENT
+  - 1
+  Relations:
+    Scare:
+    - VILLAGER
+    - WANDERING_TRADER
+WITCH:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: Better_Brewer
+  Time:
+  - Night
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - FERMENTED_SPIDER_EYE
+  - 64
+HOGLIN:
+  Biomes:
+  - main_nether
+  Dimension: NETHER
+  Tier: 2
+  Trait: Heavy_Hit
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - PIGLIN
+  - 6
+  Relations:
+    Afraid:
+    - PIGLIN
+    - PIGLIN_BRUTE
+ZOGLIN:
+  Biomes:
+  - main_nether
+  Dimension: NETHER
+  Tier: 2
+  Trait: Heavy_Hit
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - SlimefunItem
+  - MAGICAL_ZOMBIE_PILLS
+  - 3
+SKELETON_HORSE:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: High_Jump
+  Time:
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - LEATHER_HORSE_ARMOR
+  - 1
+ZOMBIE_HORSE:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 2
+  Trait: High_Jump
+  Time:
+  - Night
+  States:
+  - Gentle
+  - Passive
+  Pass On:
+  - Item
+  - LEATHER_HORSE_ARMOR
+  - 1
+IRON_GOLEM:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 3
+  Trait: Iron_Defense
+  Time:
+  - Day
+  - Night
+  States:
+  - Gentle
+  - Passive
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - POPPY
+  - 2
+  Relations:
+    Scare:
+    - PILLAGER
+    - VINDICATOR
+ENDERMITE:
+  Biomes:
+  - main_end
+  Dimension: THE_END
+  Tier: 3
+  Trait: Targeted_Teleport
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - ENDERMAN
+  - 8
+EVOKER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 3
+  Trait: Another_Chance
+  Time:
+  - Day
+  States:
+  - Hostile
+  Pass On:
+  - Item
+  - TOTEM_OF_UNDYING
+  - 5
+RAVAGER:
+  Biomes:
+  - main_overworld
+  Dimension: NORMAL
+  Tier: 3
+  Trait: Tank
+  Time:
+  - Day
+  States:
+  - Hostile
+  Pass On:
+  - Kill
+  - Villager
+  - 20
+SHULKER:
+  Biomes:
+  - main_end
+  Dimension: THE_END
+  Tier: 3
+  Trait: Bullet_Swarm
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Kill
+  - Player
+  - 5
+WITHER_SKELETON:
+  Biomes:
+  - soul_nether
+  Dimension: NETHER
+  Tier: 3
+  Trait: Wither_Resistance
+  States:
+  - Aggressive
+  - Hostile
+  Pass On:
+  - Item
+  - NETHERITE_SWORD
+  - 1
+ELDER_GUARDIAN:
+  Biomes:
+  - ocean_overworld
+  Dimension: NORMAL
+  Tier: 3
+  Trait: No_Fatigue
+  States:
+  - Hostile
+  Pass On:
+  - Item
+  - SPONGE
+  - 32
+WITHER:
+  Biomes:
+  - soul_nether
+  Dimension: NETHER
+  Tier: 4
+  Trait: Skull_Fire
+  States:
+  - Hostile
+  Pass On:
+  - Kill
+  - SHEEP
+  - 100
+  Relations:
+    Scare:
+    - SHEEP
+    - COW
+    - CHICKEN
+    - PARROT
+    - RABBIT
+    - BEE
+    - SPIDER
+    - CREEPER
+    - SKELETON
+    - ZOMBIE
+    - SLIME
+    - ZOMBIFIED_PIGLIN
+    - SILVERFISH
+ENDER_DRAGON:
+  Biomes:
+  - dragon_end
+  Dimension: THE_END
+  Tier: 4
+  Trait: Dragons_Breath
+  States:
+  - Hostile
+  Pass On:
+  - Item
+  - DRAGON_EGG
+  - 1
+WARDEN:
+  Biomes:
+  - deep_dark
+  Dimension: NORMAL
+  Tier: 4
+  Trait: Dark_Aura
+  Time:
+  - Day
+  - Night
+  States:
+  - Hostile
+  Pass On:
+  - Kill
+  - BAT
+  - 50

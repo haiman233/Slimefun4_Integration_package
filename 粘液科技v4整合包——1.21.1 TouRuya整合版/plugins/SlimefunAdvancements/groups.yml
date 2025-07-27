@@ -1,0 +1,44 @@
+slimefun4:
+  display:
+    type: SLIME_BALL
+    name: "&f&k12&f&a&l粘液&b&l科技&c&l进&d&l度&f&k34&f"
+    lore:
+      - "&7&o&f基于原作改进修正描述并分类后，一款全新的粘液科技进度"
+      - "&7&o&f由冷殇&c&lleng&d&lshang&f修正，感谢您的游玩，祝您玩的开心！"
+
+LengShang_WANGLUO:
+  display:
+    type: BLACK_STAINED_GLASS
+    name: "&e&l网络"
+    lore:
+      - "&7&o&f网络扩展？启动！"
+      - "&7&o&f大香蕉神力！"
+
+LengShang_LUANMA:
+  display:
+    type: CHAIN_COMMAND_BLOCK
+    name: "&6&l乱码科技"
+    lore:
+      - "&7&o&f爆肝附属！"
+
+LengShang_LUANXU:
+  display:
+    type: END_CRYSTAL
+    name: "&a&l乱序技艺"
+    lore:
+      - "&7&o&f旧时代的旷世神作！"
+
+LengShang_LUOJI:
+  display:
+    type: BUDDING_AMETHYST
+    name: "&5&l逻辑工艺"
+    lore:
+      - "&7&o&f新时代的旷世神作！"
+      - "&7&o&f建议尝试去B站搜索逻辑工艺教程"
+
+LengShang_MAIMAN:
+  display:
+    type: HAIMAN
+    name: "&f&k12&f&a&l海&b&l曼&c&l科&d&l技&e&l院&f&k34&f"
+    lore:
+      - "&7&o&f自定义粘液的开拓者！"

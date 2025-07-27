@@ -1,0 +1,35 @@
+display-name: "光明附加"
+description: "在深暗之域中对监守者造成额外&a%placeholder%%&r的伤害"
+placeholder: "4 * %level%"
+type: common
+
+targets:
+  - sword
+conflicts:
+  - sharpness
+  - smite
+  - bane_of_arthropods
+  - introversion
+  - slaughter
+rarity: legendary
+max-level: 5
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: add_damage
+    args:
+      damage: "4 * %level%"
+    triggers:
+      - melee_attack
+    filters:
+      entities:
+        - warden
+
+conditions:
+  - id: in_biome
+    args:
+      biomes:
+        - deep_dark

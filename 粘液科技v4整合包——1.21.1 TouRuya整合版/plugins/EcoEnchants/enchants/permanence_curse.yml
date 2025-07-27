@@ -1,0 +1,15 @@
+display-name: "永恒诅咒"
+description: "阻止该物品在铁砧上修改"
+type: curse
+
+targets:
+  - all
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+conditions: []

@@ -1,0 +1,13 @@
+# Auto update from Guizhan Build is enabled by default.
+# Auto update or not.
+auto-update: true
+# Build station to use.
+build-station: Guizhan # Expected "Guizhan" or "Blob"
+# OP bypass SlimefunItem ban or not.
+op-bypass-ban: true # Expected true or false
+
+# Do not change this value unless you know what you are doing.
+config-version: C_20250223_1
+
+# Do not change this value unless you know what you are doing.
+debug: false

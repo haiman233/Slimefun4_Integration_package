@@ -1,0 +1,10 @@
+player_data:
+  resolved_profiles:
+    01becf58-dd90-3fb8-9375-c887a06b39f6:
+      last_known_name: TouRuya
+      data:
+        example_item: 'false'
+    78752abe-e2c3-3df5-b30a-6a2c166093eb:
+      last_known_name: matl114
+      data:
+        example_item: 'false'

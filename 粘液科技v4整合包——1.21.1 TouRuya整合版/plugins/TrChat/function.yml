@@ -1,0 +1,159 @@
+General:
+  Command-Controller:
+    Enabled: true
+    List:
+      - 'arasple{exact: true}{condition: perm "trchat.admin"}'
+      - 'ver(sion)?(s)?{condition: perm "trchat.admin"}'
+      - 'help(s)?{condition: perm *trchat.admin}'
+      - 'shout{cooldown: 3}'
+  Mention:
+    Enabled: true
+    Self-Mention: false
+    Permission: 'none'
+    Cooldown: '30s'
+    Notify: true
+    Action: [ ]
+  Mention-All:
+    Enabled: true
+    Permission: 'trchat.function.mentionall'
+    Cooldown: '5m'
+    Notify: true
+    Keys:
+      - "@all"
+      - "@everyone"
+      - "@everybody"
+      - "@所有人"
+      - "@全体成员"
+    Action: [ ]
+  Item-Show:
+    Enabled: true
+    Permission: 'none'
+    Cooldown: '30s'
+    Origin-Name: false
+    Compatible: false
+    UI: true
+    Keys:
+      - "%i%"
+      - "%i"
+      - "%item%"
+      - "%item"
+      - "[i]"
+      - "[item]"
+    Action: [ ]
+  Inventory-Show:
+    Enabled: true
+    Permission: 'trchat.function.inventoryshow'
+    Cooldown: '30s'
+    Keys:
+      - '[inv]'
+      - '[inventory]'
+    Action: [ ]
+  EnderChest-Show:
+    Enabled: true
+    Permission: 'trchat.function.enderchestshow'
+    Cooldown: '30s'
+    Keys:
+      - '[ender]'
+      - '[enderchest]'
+    Actions: [ ]
+  Image-Show:
+    Enabled: true
+    Permission: 'trchat.function.imageshow'
+    Cooldown: '1m'
+    Key: '!\[([^;]*)\]\(([a-zA-Z]+://[^\s]*)\)'
+    Action: [ ]
+Custom:
+  # 示例 —— 网站分享
+  shareUrl:
+    pattern: '((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+'
+    display:
+      text: '&8[&f&l网站&8]'
+      hover:
+        - ''
+        - '&3网站: {0}'
+        - ''
+        - '&7点击进入!'
+        - ''
+        - '&8[&c!&8] &7谨防任何诈骗'
+      url: '{0}'
+
+  # 示例 —— QQ 分享
+  shareQQ:
+    condition: ~
+    priority: 100
+    # 匹配表达式
+    # 示例模块的表达式部分来自互联网
+    pattern: 'QQ( )?[1-9]([0-9]{5,11})'
+    # 变量 {0} 是按下方表达式提取后的内容, 可以不配置此项
+    text-filter: '[1-9]([0-9]{5,11})'
+    # 自定义显示 JSON 组件
+    display:
+      text: '&8[&3&lQQ&8]'
+      hover:
+        - ''
+        - '&3QQ: &b{0}'
+        - ''
+        - '&7这是一个 QQ 账号,'
+        - '&7你可以点击此项快速打开聊天'
+        - ''
+        - '&8[&c!&8] &7请勿进行任何金钱交易'
+        - '&8[&c!&8] &7交友需谨慎'
+      url: 'https://wpa.qq.com/msgrd?v=3&uin={0}&site=qq&menu=yes'
+
+  # 示例 —— B站视频 分享
+  shareBilibili:
+    pattern: 'BV( )?.{10}'
+    text-filter: '.{12}'
+    # 自定义显示 JSON 组件
+    display:
+      text: '&8[&f&lBilibili&8]'
+      hover:
+        - ''
+        - '&7这可能是一个 Bilibili 视频,'
+        - '&7点击即可访问'
+        - ''
+        - '&3BV号: &b{0}'
+      url: 'https://www.bilibili.com/video/{0}'
+
+  # 示例 —— 防止玩家暴露、分享真实手机号
+  hidePhoneNumber:
+    pattern: '((13[0-9])|(14[0-9])|(15[0-9])|(17[0-9])|(18[0-9]))\d{8}'
+    display:
+      text: '&8[&c&m-&8]'
+      hover:
+        - '&7该内容疑似为手机号码,'
+        - '&7已自动屏蔽隐藏.'
+        - ''
+        - '&8[&c!&8] &7请勿分享任何隐私信息'
+
+  # 示例 —— 隐藏身份证
+  hideIDCardNumber:
+    pattern: '([1-9]\d{5}[12]\d{3}(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\d{3}[0-9xX])'
+    display:
+      text: '&8[&c&m-&8]'
+      hover:
+        - '&7该内容疑似为身份证号,'
+        - '&7已自动屏蔽隐藏.'
+        - ''
+        - '&8[&c!&8] &7请勿分享任何隐私信息'
+        - '&7严重者可能处于禁言/封禁'
+
+  # 示例 —— 高亮 IP
+  glowIP:
+    pattern: '(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d)\.(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d)\.(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d)\.(25[0-5]|2[0-4]\d|[0-1]\d{2}|[1-9]?\d)'
+    display:
+      text: '&e&n{0}'
+      hover:
+        - '&7这是一个 IP地址'
+        - '&7点击复制!'
+      copy: '{0}'
+
+  # 示例 —— 高亮邮箱
+  glowEmail:
+    pattern: '\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,14}'
+    display:
+      text: '&e&n{0}'
+      hover:
+        - '&7这是一个邮箱'
+        - '&7点击复制!'
+      copy: '{0}'

@@ -1,0 +1,19 @@
+messages:
+  thermal-walk-rune:
+    success: '&a你已经成功将此符文应用到该物品上 &6岩浆行者 I&a.'
+    fail: '&c你只能在一件物品上使用这个符文'
+    no-item: '&c你应该扔出你想要使用这个符文的物品'
+  portable-nether-teleporter:
+    nether-disabled: '&c此服务器未开启下界'
+    nether-world-not-set: '&c当前下界世界名未在配置中设置,请向服务器管理员寻求帮助'
+    nether-world-not-found: '&c配置中的下界世界不存在'
+    already-on-world: '&c您当前已处于下界'
+    cant-use-in-end: '&c您不能在末地中使用该物品'
+    teleporting: '&d传送中...'
+    already-being-teleported: '&c您已被传送'
+default-nether-world: world_nether
+travel-to-nether-from-end: false
+bed-rune-radius: 20
+machines:
+  piglin-attractor:
+    radius: 32

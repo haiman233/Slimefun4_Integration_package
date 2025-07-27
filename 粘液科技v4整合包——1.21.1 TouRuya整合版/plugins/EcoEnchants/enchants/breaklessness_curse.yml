@@ -1,0 +1,26 @@
+display-name: "采集诅咒"
+description: "有&a%placeholder%%&r的几率无法成功破坏方块"
+placeholder: "15 * %level%"
+type: curse
+
+targets:
+  - axe
+  - hoe
+  - pickaxe
+  - shovel
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "15 * %level%"
+    triggers:
+      - mine_block
+
+conditions: []

@@ -1,0 +1,6 @@
+options:
+  auto-update: false
+  test: false
+  # 慎用
+  clear-old-config: false
+  disable-spacestorage: false

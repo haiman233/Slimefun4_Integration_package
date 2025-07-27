@@ -1,0 +1,66 @@
+# The ID of the enchantment is the name of the .yml file,
+  # 附魔的ID是.yml文件的名称，
+# for example razor.yml has the ID of razor
+  # 例如，razor.yml的ID为razor
+# You can place enchantments anywhere in this folder,
+  # 您可以将附魔放置在此文件夹中的任何位置，
+# including in subfolders if you want to organize your enchantment configs
+  # 包括子文件夹中，如果您想组织附魔配置的话
+# _example.yml is not loaded.
+  # _example.yml不会被加载。
+
+display-name: "Example" # The name of the enchantment in-game
+  # display-name: "示例" # 游戏中的附魔名称
+description: "Gives a &a%placeholder%%&r and a &a+%damage%&r bonus to damage" # The description of the enchantment
+  # description: "给予&a%placeholder%%&r和&a+%damage%&r伤害加成" # 附魔的描述
+placeholder: "%level% * 20" # The placeholder to show in the enchantment description (optional, can only use custom placeholders)
+  # placeholder: "%level% * 20" # 在附魔描述中显示的占位符（可选，只能使用自定义占位符）
+placeholders: # Extra placeholders to show in the enchantment description (optional)
+  # placeholders: # 附魔描述中显示的额外占位符（可选）
+  damage: "%level% * 2" # Here, %damage% would be the extra placeholder to use
+    # damage: "%level% * 2" # 在此处，%damage%将是要使用的额外占位符
+type: normal # The enchantment type, from types.yml
+  # type: normal # 附魔类型，来自types.yml
+
+targets: # The items that the enchantment can be applied to, see targets.yml
+  # targets: # 附魔可应用于的物品，参见targets.yml
+  - sword
+
+conflicts: # The enchantments that conflict with this
+ # conflicts: # 与此附魔冲突的附魔
+  - sharpness
+rarity: common # The rarity of the enchantment, see rarity.yml
+  # rarity: common # 附魔的稀有度
+max-level: 4 # The max level of the enchantment
+ # max-level: 4 # 附魔的最高等级
+
+tradeable: true # If the enchantment can be obtained from villagers
+  # tradeable: true # 是否可以从村民处获得附魔
+discoverable: true # If the enchantment can generate naturally in chests
+  # discoverable: true # 是否可以在箱子中自然生成附魔
+enchantable: true # If the enchantment can be obtained from enchanting tables
+  # enchantable: true # 是否可以从附魔台获得附魔
+
+# The effects of the enchantment (i.e. the functionality)
+  # 附魔的效果（即功能）
+# See here: https://plugins.auxilor.io/effects/configuring-an-effect
+ # 参见这里：https://plugins.auxilor.io/effects/configuring-an-effect
+# Use %level% as a placeholder for the enchantment level
+  # 使用%level%作为附魔等级的占位符
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: "1 + 0.2 * %level%"
+    triggers:
+      - melee_attack
+  - id: damage_victim
+    args:
+      damage: "2 * %level%"
+    triggers:
+      - melee_attack
+
+# The conditions required to use the enchantment,
+  # 使用附魔所需的条件，
+# you can use %level% as a placeholder here too
+  # 您也可以在此处使用%level%作为占位符
+conditions: [ ]

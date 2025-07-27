@@ -1,0 +1,78 @@
+options:
+  
+  # Enable auto update.
+  auto-update: true
+  
+  # Display debug messages.
+  debug: false
+  
+  # Enable test mode.
+  # WARNING: This will make machine's processing time reduced to 1 second, and
+  # Only enable this for testing purposes.
+  test: false
+  
+  # Language of this plugin.
+  # Available languages: https://github.com/ybw0014/GeneticChickengineering-Reborn/tree/master/LOCALES.md
+  lang: en-US
+  
+  # Should the product be shown in the chicken's custom name.
+  # This may conflict with any other plugin that modifies the chicken's custom name.
+  display-resource-in-name: true
+  
+  # The max number of heterozygous genes a newly converted chicken can generate.
+  # Default: 2, Range: 1 ~ 6
+  max-mutation: 2
+  
+  # The percent chance that a newly captured chicken will have any recessive alleles.
+  # Default: 30, Range: 1 ~ 100
+  mutation-rate: 30
+  
+  # The percent chance that a chicken will produce an egg instead of a resource.
+  # Default: 0, Range: 0 ~ 100
+  resource-fail-rate: 0
+  
+  # The base time for resource generation (in seconds).
+  # Default: 14, Range: 14 ~ 100
+  resource-base-time: 14
+  
+  # Should the machines hurt the chickens.
+  # This enables the Restoration Chamber.
+  enable-pain: false
+  
+  # The percent chance that a chicken will be hurt by a machine (other than the Restoration Chamber)
+  # This check happens once every 0.5 seconds, so low values will be best here
+  # The default, 2% will give chickens an average of 6 minutes before exhausted.
+  # Default: 2, Range: 0 ~ 100, allows decimals
+  pain-chance: 2
+  
+  # Does a chicken die if too hurt (otherwise prevents machine from working)
+  pain-kills: false
+  
+  # The time it should take the Restoration Chamber to restore 0.25 of a chicken's health (in seconds)
+  heal-rate: 2
+  
+  # Should Water Eggs be able to be used in Nether
+  allow-nether-water: false
+  
+  # Whether to enable growth chamber
+  # This will allow chicken breeding to be fully automated, which decreases the difficulty.
+  # (private coop -> growth chamber -> excitation chamber)
+  enable-growth-chamber: false
+  
+  # The time for growth chamber to raise a baby chicken to an adult chicken (in seconds)
+  # Default: 60, Range: 1 ~ 600
+  growth-chamber-time: 60
+
+# The permission nodes are just here for reference. Changing them will not affect the plugin.
+commands:
+  enabled: true
+  subcommands:
+    calculatechance:
+      enabled: true
+      permission: geneticchickengineering.command.calculatechance
+    makechicken:
+      enabled: true
+      permission: geneticchickengineering.command.makechicken
+    calcchance:
+      enabled: true
+      permission: geneticchickengineering.command.calcchance

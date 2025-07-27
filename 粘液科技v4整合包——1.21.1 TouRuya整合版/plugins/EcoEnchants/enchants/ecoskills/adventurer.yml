@@ -1,0 +1,27 @@
+display-name: "冒险家"
+description: "提供&a%placeholder%%&r的冒险家经验加成"
+placeholder: "2 * %level%"
+type: normal
+
+targets:
+  - boots
+conflicts:
+  - enriched_plating
+rarity: uncommon
+max-level: 6
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: skill_xp_multiplier
+    args:
+      multiplier: "1 + 0.02 * %level%"
+      skills:
+        - exploration
+
+conditions: [ ]
+
+dependencies:
+  - EcoSkills

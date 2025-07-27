@@ -1,0 +1,28 @@
+display-name: "切割"
+description: "攻击时对&a%radius%&r格内的实体造成&a%damage%&r点伤害"
+placeholders:
+  radius: "1 + %level%"
+  damage: "%level% * 2"
+type: normal
+
+targets:
+  - axe
+conflicts: []
+rarity: legendary
+max-level: 4
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: damage_nearby_entities
+    args:
+      damage: "%level% * 2"
+      radius: "0.5 * %level%"
+      damage_as_player: true
+      damage_self: false
+    triggers:
+      - melee_attack
+
+conditions: []

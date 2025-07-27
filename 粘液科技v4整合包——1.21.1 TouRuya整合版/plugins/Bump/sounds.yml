@@ -1,0 +1,52 @@
+APPRAISAL_INSTRUMENT_FAIL:
+  sound: entity.villager.no
+  volume: 1.0
+  pitch: 1.0
+APPRAISAL_INSTRUMENT_SUCCEED:
+  sound: entity.villager.celebrate
+  volume: 1.0
+  pitch: 1.0
+APPRAISE_TYPE_SELECT:
+  sound: entity.arrow.hit_player
+  volume: 1.0
+  pitch: 1.0
+APPRAISE_TYPE_SELECTOR_OPEN:
+  sound: block.enchantment_table.use
+  volume: 1.0
+  pitch: 1.0
+ATTRIBUTE_GRINDSTONE_FAIL:
+  sound: entity.villager.no
+  volume: 1.0
+  pitch: 1.0
+ATTRIBUTE_GRINDSTONE_SUCCEED:
+  sound: entity.villager.celebrate
+  volume: 1.0
+  pitch: 1.0
+QUALITY_IDENTIFIER_OPEN:
+  sound: block.enchantment_table.use
+  volume: 1.0
+  pitch: 1.0
+QUALITY_IDENTIFIER_FAIL:
+  sound: entity.villager.no
+  volume: 1.0
+  pitch: 1.0
+QUALITY_IDENTIFIER_SUCCEED:
+  sound: entity.villager.celebrate
+  volume: 1.0
+  pitch: 1.0
+DEVIL_SWORD_USE:
+  sound: entity.blaze.shoot
+  volume: 1.0
+  pitch: 1.0
+SKY_SWORD_USE:
+  sound: entity.generic.explode
+  volume: 1.0
+  pitch: 1.0
+SOUL_SWORD_USE:
+  sound: ambient.cave
+  volume: 1.0
+  pitch: 1.0
+WITHER_SKULL_BOW_USE:
+  sound: entity.wither.shoot
+  volume: 1.0
+  pitch: 1.0

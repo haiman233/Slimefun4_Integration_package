@@ -1,0 +1,5 @@
+options:
+  auto-update: true
+  disable-copier-dupe-storage: false
+  copier-blacklist:
+  - MOMOTECH_EMPTY_SHELL

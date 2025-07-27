@@ -1,0 +1,20 @@
+# 是否自动获取示例
+saveExample: false
+# 是否获取调试日志，如果插件没有意外错误时，可以关闭该选项
+debug: false
+# 是否是否启用插件更新(需要GuizhanLibPlugin)
+pluginUpdate: true
+# 附属更新配置
+update:
+  # 是否更新附属为预发布版本（一般这些版本很不稳定！）
+  pre-releases: false
+  # 自动更新附属
+  auto: true
+  # 禁止更新的附属
+  # 请填写附属ID，而不是附属名字
+  blocks:
+  - ''
+# 依赖下载仓库
+repositories:
+- https://maven.aliyun.com/repository/public
+- https://repo1.maven.org/maven2

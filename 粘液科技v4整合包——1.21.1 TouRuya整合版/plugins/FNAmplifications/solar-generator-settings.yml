@@ -1,0 +1,24 @@
+FN_FAL_GENERATOR_TIER1:
+  dayEnergy: 256
+  capacity: 4096
+FN_FAL_GENERATOR_TIER2:
+  dayEnergy: 512
+  capacity: 6144
+FN_FAL_GENERATOR_TIER3:
+  dayEnergy: 768
+  capacity: 8192
+FN_FAL_GENERATOR_TIER4:
+  dayEnergy: 1024
+  capacity: 10240
+FN_FAL_GENERATOR_TIER5:
+  dayEnergy: 1282
+  capacity: 12288
+FN_FAL_GENERATOR_TIER6:
+  dayEnergy: 1538
+  capacity: 14336
+FN_FAL_GENERATOR_TIER7:
+  dayEnergy: 1794
+  capacity: 16384
+FN_FAL_GENERATOR_TIER8:
+  dayEnergy: 2048
+  capacity: 20480

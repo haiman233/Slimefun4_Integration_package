@@ -1,0 +1,51 @@
+Sounds:
+  Enabled: true
+  ProtocolLibSound: false
+  # # 更多音效参考 https://www.spigotmc.org/wiki/cc-sounds-list/
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
+
+Titles:
+  Enabled: true # 启用标题效果功能
+  # # 所有支持 %player% %x% %y% 和 %z% 占位符
+  NoDelay: # 仅在没有延迟时触发
+    Title: '&6传送中...'
+    Subtitle: '&8请稍候'
+    SendMessage: true
+  Teleport:
+    Title: '&6传送成功!'
+    Subtitle: '&f坐标 x=%x% y=%y% z=%z%'
+    SendMessage: true # 允许在聊天栏显示传送成功消息
+  Delay:
+    Title: ''
+    Subtitle: '&f将在 %time% 秒后传送...'
+    SendMessage: true # 允许在聊天栏显示传送延迟消息
+  Cancelled:
+    Title: '&e你移动了...'
+    Subtitle: '&c随机传送已取消!'
+    SendMessage: true # 允许在聊天栏显示取消消息
+  Loading:
+    Title: ''
+    Subtitle: '&7正在加载区块... 请稍候'
+    SendMessage: true # 允许在聊天栏显示加载消息
+  Failed:
+    Title: ''
+    Subtitle: '&c失败! 未找到安全位置'
+    SendMessage: true
+
+Particles: # 使用 `rtp info particles` 获取粒子效果列表
+  Enabled: true
+  Type: # 粒子类型列表参考 https://github.com/ByteZ1337/ParticleLib/blob/master/src/main/java/xyz/xenondevs/particle/ParticleEffect.java
+    - EXPLOSION_NORMAL
+    - CRIT
+  Shape: EXPLODE # 可用类型有 "Scan, Teleport 和 Explode"，或使用 `/rtp info shapes` 获取形状列表
+
+Invincible: # 玩家无敌时间
+  Enabled: true
+  Seconds: 5
+
+Potions: # 使用 `/rtp info potion_effects` 获取药水效果列表
+  Enabled: true
+  Types: # 格式 <药水名称>:[持续时间(刻)]:[效果等级] #默认 duration=60, amplifier=1
+    - Blindness:60:1
+    - Invisibility:60:1

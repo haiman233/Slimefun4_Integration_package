@@ -1,0 +1,16 @@
+enable: true
+slot: 13
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: GRINDSTONE
+  lore:
+  - '&8&l可以给予村民职业'
+  displayname: '&7&l职业方块'
+  name: '&7&l职业方块商店'

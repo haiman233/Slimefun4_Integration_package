@@ -1,0 +1,26 @@
+display-name: "窒息保护"
+description: "有&a%placeholder%%&r的几率免疫窒息伤害"
+placeholder: "%level% * 15"
+type: normal
+
+targets:
+  - helmet
+conflicts: []
+rarity: common
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "%level% * 15"
+    triggers:
+      - take_damage
+    filters:
+      damage_cause:
+        - suffocation
+
+conditions: []

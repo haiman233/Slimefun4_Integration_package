@@ -1,0 +1,21 @@
+display-name: "节约"
+description: "在使用烟花时,有&a%placeholder%%&r的几率不会消耗"
+placeholder: "%level% * 20"
+type: normal
+
+targets:
+  - elytra
+conflicts: []
+rarity: rare
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: elytra_boost_save_chance
+    args:
+      chance: "%level% * 20"
+
+conditions: []

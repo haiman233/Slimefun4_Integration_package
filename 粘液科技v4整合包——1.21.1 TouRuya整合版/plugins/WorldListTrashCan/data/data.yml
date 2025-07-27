@@ -1,0 +1,8 @@
+WorldData:
+  world:
+    SignLocation:
+      - []
+    RashMaxCount: 3
+    BanItem:
+      - STONE
+      - GRASS

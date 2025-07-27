@@ -1,0 +1,20 @@
+display-name: "物品磁铁"
+description: "战利品,掉落物和经验直接进入你的背包"
+type: normal
+
+targets:
+  - pickaxe
+  - sword
+  - axe
+conflicts: []
+rarity: common
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: telekinesis
+
+conditions: []

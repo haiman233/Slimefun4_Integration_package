@@ -1,0 +1,222 @@
+header-footer:
+  enabled: true
+  header:
+  - <#FFFFFF>&m                                                </#FFFF00>
+  - ''
+  - '%animation:MyAnimation1%'
+  footer:
+  - '%animation:MyAnimation1%'
+  - '%animation:time%'
+  - '%animation:ping-tps%'
+  - '&7&l 内存: &6%memory-used% MB / &3%memory-max% MB'
+  - <#FFFFFF>&m                                                </#FFFF00>
+  disable-condition: '%world%=disabledworld'
+  per-world:
+    world1:
+      header:
+      - 自定义世界TAB顶部内容
+      footer:
+      - 自定义世界TAB底部内容
+    world2;world3:
+      header:
+      - 这两个世界
+      - 共享同一个TAB设置
+  per-server:
+    server1:
+      header:
+      - 可以给每个子服单独设置
+      footer:
+      - TAB列表的上方内容和下方内容等等
+    server2;server3:
+      header:
+      - 这两个子服
+      - 共用同一个配置
+tablist-name-formatting:
+  enabled: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  disable-condition: '%world%=disabledworld'
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%health%'
+  title: '&c血量'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&f亲爱的玩家欢迎来到云铭服务器'
+scoreboard:
+  enabled: true
+  toggle-command: /x
+  remember-toggle-choice: true
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      title: '&6&l信息显示:'
+      lines:
+      - '&e☆ &e昵称&7: &f%player_name%'
+      - '&e☆ &e余额&7: &6%xconomy_balance% '
+      - '&e☆ &btps&7: &f%tps%'
+    scoreboard1:
+      title: '&6&l信息显示'
+      lines:
+      - '&e☆ &e昵称&7: &f%player_name%'
+      - '&e☆ &e余额&7: &6%xconomy_balance% '
+      - '&e☆ &btps&7: &f%tps%'
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... 以及其余 %s 个玩家'
+  empty-slot-ping-value: 1000
+  layouts:
+    default:
+      fixed-slots:
+      - '1|&3官网&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3名称&f:'
+      - 5|&b%player%
+      - '7|&3军衔&f:'
+      - '8|军衔: %group%'
+      - '10|&3世界&f:'
+      - 11|&b%world%
+      - '13|&3时间&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3商店&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+placeholders:
+  date-format: yyyy年MM月dd日
+  time-format: '[ HH:mm:ss ]'
+  time-offset: 0
+  register-tab-expansion: false
+placeholder-output-replacements:
+  '%tps%':
+    19-20: '&2%tps%'
+    16-19: '&6%tps%'
+    0-16: '&k11 '
+  '%essentials_vanished%':
+    'yes': '&7| 已隐身'
+    'no': ''
+  '%afk%':
+    true: ' &o[离开]&r'
+    false: ''
+    '%afk%': ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+  update-latency: false
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  text: ms
+  disable-condition: '%world%=disabledworld'
+  fancy-value: '&7Ping: %ping%'
+  title: TAB
+  render-type: INTEGER
+ping-spoof:
+  enabled: false
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+compensate-for-packetevents-bug: false
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000

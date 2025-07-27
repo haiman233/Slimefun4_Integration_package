@@ -1,0 +1,7378 @@
+slimefun4_basic_begin:
+  group: slimefun4
+  display:
+    type: CRAFTING_TABLE
+    name: "&c欢迎&b游玩&a粘液&d科技"
+    lore:
+      - "&a使用一次增强型工作台"
+  frame_type: TASK
+  name: "&c[&c欢迎&b游玩&a粘液&d科技]"
+  criteria:
+    ENHANCED_CRAFTING_TABLE:
+      name: "使用增强型工作台"
+      type: multiblock
+      multiblock: ENHANCED_CRAFTING_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 100 levels"
+
+slimefun4_network_begin:
+  group: LengShang_WANGLUO
+  parent: slimefun4_basic_begin
+  display:
+    type: NTW_SYNTHETIC_EMERALD_SHARD
+    name: "&b网络的开始"
+    lore:
+      - "&a获得人造绿宝石碎片"
+  frame_type: TASK
+  name: "&a[网络的开始]"
+  criteria:
+    NTW_SYNTHETIC_EMERALD_SHARD:
+      name: "获得人造绿宝石碎片"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_SYNTHETIC_EMERALD_SHARD
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_controller:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_begin
+  display:
+    type: NTW_CONTROLLER
+    name: "&b基础的网络搭建"
+    lore:
+      - "&a获得网络控制器和网格"
+      - "&a注意不要同时放下2个网络控制器"
+  frame_type: TASK
+  name: "&a[基础的网络搭建]"
+  criteria:
+    NTW_CONTROLLER:
+      name: "获得网络控制器"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_CONTROLLER
+    NTW_GRID:
+      name: "获得网格"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_GRID
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+      - "sf give %p% NTW_BRIDGE 2"
+
+slimefun4_network_basic_translator:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_controller
+  display:
+    type: NTW_GRABBER
+    name: &5网络的基础运作
+    lore:
+      - "&a获得并放置网络抓取器和推送器"
+  frame_type: TASK
+  name: "&a[网络的基础运作]"
+  criteria:
+    NTW_GRABBER:
+      name: "获得1个网络抓取器"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_GRABBER
+    NTW_PUSHER:
+      name: "获得1个网络推送器"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_PUSHER
+    NTW_GRABBER_PLACE:
+      name: "放置1个网络抓取器"
+      type: place
+      amount: 1
+      item:
+        type: NTW_GRABBER
+    NTW_PUSHER_PLACE:
+      name: "放置1个网络推送器"
+      type: place
+      amount: 1
+      item:
+        type: NTW_PUSHER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+      - "sf give %p% NTW_BRIDGE 4"
+
+slimefun4_network_ai_core:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_controller
+  display:
+    type: NTW_AI_CORE
+    name: "&b人工智能核心"
+    lore:
+      - "&a迈向更高级的网络"
+  frame_type: TASK
+  name: "&a[人工智能核心]"
+  criteria:
+    NTW_AI_CORE:
+      name: "获得人工智能核心"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_AI_CORE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_network_quantum_workbench:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_controller
+  display:
+    type: NTW_QUANTUM_WORKBENCH
+    name: "&b开始制作量子存储"
+    lore:
+      - "&a放置网络量子工作台"
+  frame_type: TASK
+  name: "&a[开始制作量子存储]"
+  criteria:
+    NTW_QUANTUM_WORKBENCH:
+      name: "放置网络量子工作台"
+      type: place
+      amount: 1
+      item:
+        type: NTW_QUANTUM_WORKBENCH
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_line_transfer_grabber:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_ai_core
+  display:
+    type: NTW_EXPANSION_LINE_TRANSFER_GRABBER
+    name: "&b链式传输"
+    lore:
+      - "&a更高级的网络传输"
+      - "&a能够抓取一个方向上32格的机器"
+  frame_type: TASK
+  name: "&a[链式传输]"
+  criteria:
+    NTW_EXPANSION_LINE_TRANSFER_GRABBER:
+      name: "放置1个链式传输器[抓取]"
+      type: place
+      amount: 1
+      item:
+        type: NTW_EXPANSION_LINE_TRANSFER_GRABBER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_advanced_line_transfer_grabber:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_line_transfer_grabber
+  display:
+    type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER
+    name: "&b高级链式传输"
+    lore:
+      - "&a更高级的网络链式传输"
+      - "&a拥有多种配置"
+      - "&a放置1个高级链式传输器[抓取]"
+  frame_type: TASK
+  name: "&a[高级链式传输]"
+  criteria:
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:
+      name: "放置1个高级链式传输器[抓取]"
+      type: place
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_advanced_line_transfer_challenge:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_advanced_line_transfer_grabber
+  display:
+    type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS
+    name: "&5高级链式传输们！"
+    lore:
+      - "&5每种高级链式传输获得1个(包括plus)"
+  frame_type: CHALLENGE
+  name: "&5[高级链式传输们！]"
+  criteria:
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER:
+      name: "拥有1个高级链式传输器"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER:
+      name: "拥有1个高级链式传输[抓取]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_GRABBER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER:
+      name: "拥有1个高级链式传输[推送]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PUSHER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_MORE_PUSHER:
+      name: "拥有1个高级链式传输[V2推送]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_MORE_PUSHER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_BEST_PUSHER:
+      name: "拥有1个高级链式传输[V3推送]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_BEST_PUSHER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS:
+      name: "拥有1个高级链式传输Plus"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER:
+      name: "拥有1个高级链式传输器Plus[抓取]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_GRABBER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER:
+      name: "拥有1个高级链式传输器Plus[推送]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_PUSHER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_MORE_PUSHER:
+      name: "拥有1个高级链式传输器Plus[V2推送]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_MORE_PUSHER
+    NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_BEST_PUSHER:
+      name: "拥有1个高级链式传输器Plus[V3推送]"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_LINE_TRANSFER_PLUS_BEST_PUSHER
+  rewards:
+    commands:
+      - "experience add %p% 10 levels"
+
+slimefun4_network_auto_crafter:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_basic_translator
+  display:
+    type: NTW_AUTO_CRAFTER
+    name: "&b网络自动合成机"
+    lore:
+      - "&a利用蓝图实现自动合成"
+  frame_type: TASK
+  name: "&a[网络自动合成机]"
+  criteria:
+    NTW_AUTO_CRAFTER:
+      name: "利用蓝图实现自动合成"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_AUTO_CRAFTER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_advanced_auto_crafter:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_auto_crafter
+  display:
+    type: NTW_EXPANSION_ADVANCED_AUTO_CRAFTING
+    name: "&b高级网络自动合成机"
+    lore:
+      - "&a利用堆叠蓝图实现高速合成"
+      - "&a获得1个高级网络自动合成机"
+  frame_type: TASK
+  name: "&a[高级网络自动合成机]"
+  criteria:
+    NTW_EXPANSION_ADVANCED_AUTO_CRAFTING:
+      name: "获得高级网络自动合成机"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_CRAFTING
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_configurator:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_ai_core
+  display:
+    type: NTW_CONFIGURATOR
+    name: "&b网络配置器"
+    lore:
+      - "&a基础必备网络工具"
+  frame_type: TASK
+  name: "&a[网络配置器]"
+  criteria:
+    NTW_CONFIGURATOR:
+      name: "获得网络配置器"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_CONFIGURATOR
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_advanced_auto_crafter_challenge:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_advanced_auto_crafter
+  display:
+    type: NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH_WITHHOLDING
+    name: "&5高级合成机们！"
+    lore:
+      - "&5每种高级合成机获得1个(包括预留版)"
+  frame_type: CHALLENGE
+  name: "&5[高级合成机们！]"
+  criteria:
+    NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE:
+      name: "拥有1个高级网络自动盔甲锻造台"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE
+    NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE:
+      name: "拥有1个高级网路自动冶炼炉"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE
+    NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE:
+      name: "拥有1个高级网络自动量子工作台"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE
+    NTW_EXPANSION_ADVANCED_AUTO_ANCIENT_ALTAR:
+      name: "拥有1个高级网络自动古代祭坛"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ANCIENT_ALTAR
+    NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH:
+      name: "拥有1个高级网络自动网络拓展工作台"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH
+    NTW_EXPANSION_ADVANCED_AUTO_CRAFTING:
+      name: "拥有1个高级网络自动合成台"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_CRAFTING
+    NTW_EXPANSION_ADVANCED_AUTO_MAGIC_WORKBENCH:
+      name: "拥有1个高级网络自动魔法工作台"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_MAGIC_WORKBENCH
+    NTW_EXPANSION_ADVANCED_AUTO_COMPRESSOR:
+      name: "拥有1个高级网络自动压缩机"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_COMPRESSOR
+    NTW_EXPANSION_ADVANCED_AUTO_GRIND_STONE:
+      name: "拥有1个高级网络自动磨石"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_GRIND_STONE
+    NTW_EXPANSION_ADVANCED_AUTO_JUICER:
+      name: "拥有1个高级网络自动榨汁机"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_JUICER
+    NTW_EXPANSION_ADVANCED_AUTO_ORE_CRUSHER:
+      name: "拥有1个高级网络自动矿石粉碎机"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ORE_CRUSHER
+    NTW_EXPANSION_ADVANCED_AUTO_PRESSURE_CHAMBER:
+      name: "拥有1个高级网络自动压力机"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_PRESSURE_CHAMBER
+    NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING:
+      name: "拥有1个高级网络自动盔甲锻造台（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING:
+      name: "拥有1个高级网路自动冶炼炉（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING:
+      name: "拥有1个高级网络自动量子工作台（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ARMOR_FORGE_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_ANCIENT_ALTAR_WITHHOLDING:
+      name: "拥有1个高级网络自动古代祭坛（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ANCIENT_ALTAR_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH_WITHHOLDING:
+      name: "拥有1个高级网络自动网络拓展工作台（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_EXPANSION_WORKBENCH_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_CRAFTING_WITHHOLDING:
+      name: "拥有1个高级网络自动合成台（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_CRAFTING_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_MAGIC_WORKBENCH_WITHHOLDING:
+      name: "拥有1个高级网络自动魔法工作台（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_MAGIC_WORKBENCH_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_COMPRESSOR_WITHHOLDING:
+      name: "拥有1个高级网络自动压缩机（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_COMPRESSOR_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_GRIND_STONE_WITHHOLDING:
+      name: "拥有1个高级网络自动磨石（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_GRIND_STONE_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_JUICER_WITHHOLDING:
+      name: "拥有1个高级网络自动榨汁机（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_JUICER_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_ORE_CRUSHER_WITHHOLDING:
+      name: "拥有1个高级网络自动矿石粉碎机（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_ORE_CRUSHER_WITHHOLDING
+    NTW_EXPANSION_ADVANCED_AUTO_PRESSURE_CHAMBER_WITHHOLDING:
+      name: "拥有1个高级网络自动压力机（预留版）"
+      type: inventory 
+      amount: 1
+      item:
+        type: NTW_EXPANSION_ADVANCED_AUTO_PRESSURE_CHAMBER_WITHHOLDING
+
+  rewards:
+    commands:
+      - "experience add %p% 15 levels"
+
+slimefun4_network_quantum_storage_1:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_quantum_workbench
+  display:
+    type: NTW_QUANTUM_STORAGE_1
+    name: "&b大量存储的小小一步"
+    lore:
+      - "&a或许需要一个更大容量的量子存储"
+      - "&a...你需要借助网络监视器才能使用它"
+  frame_type: TASK
+  name: "&a[大量存储的小小一步]"
+  criteria:
+    NTW_QUANTUM_STORAGE_1:
+      name: "获得1个网络量子存储 (4K)"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_QUANTUM_STORAGE_1
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_quantum_storage_5:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_quantum_storage_1
+  display:
+    type: NTW_QUANTUM_STORAGE_5
+    name: "&b更好的存储"
+    lore:
+      - "&a更大容量的量子存储"
+  frame_type: TASK
+  name: "&a[更好的存储]"
+  criteria:
+    NTW_QUANTUM_STORAGE_5:
+      name: "获得1个网络量子存储 (16M)"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_QUANTUM_STORAGE_5
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_quantum_storage_8:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_quantum_storage_5
+  display:
+    type: NTW_QUANTUM_STORAGE_8
+    name: "&b最好的存储"
+    lore:
+      - "&a最大容量的量子存储"
+  frame_type: TASK
+  name: "&a[最好的存储]"
+  criteria:
+    NTW_QUANTUM_STORAGE_8:
+      name: "获得1个网络量子存储 (∞)"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_QUANTUM_STORAGE_8
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_cargo_storage_crafter:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_quantum_storage_8
+  display:
+    type: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
+    name: "&b存储一体化"
+    lore:
+      - "&a放置网络抽屉升级台"
+  frame_type: TASK
+  name: "&a[存储一体化]"
+  criteria:
+    NTW_EXPANSION_STORAGE_UPGRADE_TABLE:
+      name: "放置网络抽屉升级台"
+      type: place
+      amount: 1
+      item:
+        type: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_network_cargo_storage_unit_13:
+  group: LengShang_WANGLUO
+  parent: slimefun4_network_cargo_storage_crafter
+  display:
+    type: NTW_EXPANSION_CARGO_STORAGE_UNIT_13
+    name: "&5网络抽屉 XIII"
+    lore:
+      - "&5最高级的网络抽屉！"
+  frame_type: CHALLENGE
+  name: "&5[网络抽屉 XIII]"
+  criteria:
+    NTW_EXPANSION_CARGO_STORAGE_UNIT_13:
+      name: "获得网络抽屉 XIII"
+      type: inventory
+      amount: 1
+      item:
+        type: NTW_EXPANSION_CARGO_STORAGE_UNIT_13
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+
+slimefun4_momotech_empty_shell:
+  group: LengShang_LUANMA
+  parent: slimefun4_basic_begin
+  display:
+    type: MOMOTECH_EMPTY_SHELL
+    name: "&b这是什么？"
+    lore:
+      - "&a不经意间,你获得了空"
+  frame_type: TASK
+  name: "&a[这是什么？]"
+  criteria:
+    MOMOTECH_EMPTY_SHELL:
+      name: "获得空"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_EMPTY_SHELL
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+
+slimefun4_momotech_none:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_empty_shell
+  display:
+    type: MOMOTECH_NONE
+    name: "&b我获得了无？"
+    lore:
+      - "&a制作并得到NONE"
+  frame_type: TASK
+  name: "&a[我获得了无？]"
+  criteria:
+    MOMOTECH_NONE:
+      name: "获得NONE"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NONE
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+
+slimefun4_momotech_ch:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_empty_shell
+  display:
+    type: MOMOTECH_CH
+    name: "&5乱码的创始者之一"
+    lore:
+      - "&a制作并得到Chenmose"
+      - "&a感谢你为乱码付出的一切"
+  frame_type: TASK
+  name: "&a[乱码的创始者之一]"
+  criteria:
+    MOMOTECH_CH:
+      name: "获得Chenmose"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CH
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+
+slimefun4_momotech_creative_material:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_none
+  display:
+    type: MOMOTECH_CREATIVE
+    name: "&b乱码的开始"
+    lore:
+      - "&a通过某些手段获得原始物质α与β"
+      - "&a...仅仅一点或许远远不够..."
+  frame_type: TASK
+  name: "&a[乱码的开始]"
+  criteria:
+    MOMOTECH_CREATIVE:
+      name: "原始物质α"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CREATIVE
+    MOMOTECH_CREATIVE_I:
+      name: "原始物质β"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CREATIVE_I
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+
+slimefun4_momotech_quantum:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_creative_material
+  display:
+    type: MOMOTECH_QUANTUM
+    name: "&b我已处于量子叠加态，但感觉不是很良好..."
+    lore:
+      - "&a右键使用1个量子"
+  frame_type: TASK
+  name: "&a[我已处于量子叠加态，但感觉不是很良好...]"
+  criteria:
+    MOMOTECH_QUANTUM:
+      name: "右键使用1个量子"
+      type: interact
+      amount: 1
+      item:
+        type: MOMOTECH_QUANTUM
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+
+slimefun4_momotech_quantum1:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantum
+  display:
+    type: MOMOTECH_QUANTUM1
+    name: "&b死是值得的"
+    lore:
+      - "&a获得一个纠缠量子"
+  frame_type: TASK
+  name: "&a[死是值得的]"
+  criteria:
+    MOMOTECH_QUANTUM:
+      name: "获得纠缠量子"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_QUANTUM1
+  rewards:
+    commands:
+      - "experience add %p% 25 points"
+
+
+slimefun4_momotech_quantom_clear:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantom
+  display:
+    type: MOMOTECH_CLEAR
+    name: "&b去除量子化"
+    lore:
+      - "&a获得量子清除器"
+  frame_type: TASK
+  name: "&a[去除量子化]"
+  criteria:
+    MOMOTECH_CLEAR:
+      name: "获得量子清除器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CLEAR
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+
+slimefun4_momotech_silk_touch_pickaxe:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantum1
+  display:
+    type: MOMOTECH_SILK_TOUCH_PICKAXE
+    name: "&b纠缠量子镐"
+    lore:
+      - "&a自带精准采集的合金镐"
+  frame_type: TASK
+  name: "&a[纠缠量子镐]"
+  criteria:
+    MOMOTECH_SILK_TOUCH_PICKAXE:
+      name: "获得纠缠量子镐"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_SILK_TOUCH_PICKAXE
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+
+slimefun4_momotech_quantum1_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantum1
+  display:
+    type: MOMOTECH_QUANTUM1
+    name: "&5死亡绝对是值得的！"
+    lore:
+      - "&5获得64个纠缠量子"
+  frame_type: CHALLENGE
+  name: "&5[死亡绝对是值得的！]"
+  criteria:
+    MOMOTECH_QUANTUM:
+      name: "获得64个纠缠量子"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_QUANTUM1
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+
+slimefun4_momotech_uncontrollable_empty:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_creative_material
+  display:
+    type: MOMOTECH_UNCONTROLLABLE_EMPTY_
+    name: "&b不可控空"
+    lore:
+      - "&a你能猜到前面3个都是什么数字么？"
+  frame_type: TASK
+  name: "&a[不可控空]"
+  criteria:
+    MOMOTECH_UNCONTROLLABLE_EMPTY_:
+      name: "获得不可控空"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_UNCONTROLLABLE_EMPTY_
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+
+slimefun4_momotech_empty_shell_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_uncontrollable_empty
+  display:
+    type: MOMOTECH_EMPTY_SHELL_GENERATOR
+    name: "&b简单的空生成器"
+    lore:
+      - "&a能用，但仍需升级"
+      - "&a至少解放了双手，再也不用木镐挖石头了"
+  frame_type: TASK
+  name: "&a[简单的空生成器]"
+  criteria:
+    MOMOTECH_EMPTY_SHELL_GENERATOR:
+      name: "获得空生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_EMPTY_SHELL_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+
+slimefun4_momotech_random_quantom:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_uncontrollable_empty
+  display:
+    type: MOMOTECH_RANDOM_QUANTUM
+    name: "&b逮到你了！"
+    lore:
+      - "&a获得随机量子"
+  frame_type: TASK
+  name: "&a[逮到你了！]"
+  criteria:
+    MOMOTECH_RANDOM_QUANTUM:
+      name: "获得随机量子"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RANDOM_QUANTUM
+  rewards:
+    commands:
+      - "experience add %p% 5 points"
+
+
+slimefun4_momotech_star_of_all:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_uncontrollable_empty
+  display:
+    type: MOMOTECH_STAR_OF_ALL
+    name: "&b乱码的初期目标"
+    lore:
+      - "&a是的，为的就是各种一体机"
+  frame_type: TASK
+  name: "&a[乱码的初期目标]"
+  criteria:
+    MOMOTECH_STAR_OF_ALL:
+      name: "获得一体机核心"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_STAR_OF_ALL
+  rewards:
+    commands:
+      - "experience add %p% 5 points"
+
+
+slimefun4_momotech_dust_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_star_of_all
+  display:
+    type: MOMOTECH_DUST_GENERATOR
+    name: "&b我终于憋出来了"
+    lore:
+      - "&a获得矿粉生成器"
+      - "&a前期矿粉神器"
+  frame_type: TASK
+  name: "&a[我终于憋出来了]"
+  criteria:
+    MOMOTECH_DUST_GENERATOR:
+      name: "获得矿粉生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_DUST_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 25 points"
+
+
+slimefun4_momotech_dust_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_dust_generator
+  display:
+    type: MOMOTECH_DUST_GENERATOR
+    name: "&5还要什么无尽磨粉机呢？"
+    lore:
+      - "&5获得64个矿粉生成器"
+      - "&5实际还是比不过~"
+  frame_type: CHALLENGE
+  name: "&5[还要什么无尽磨粉机呢？]"
+  criteria:
+    MOMOTECH_DUST_GENERATOR:
+      name: "获得64个矿粉生成器"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_DUST_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 5 levels"
+
+
+slimefun4_momotech_c_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_star_of_all
+  display:
+    type: MOMOTECH_C_GENERATOR
+    name: "&b碳一体"
+    lore:
+      - "&a或许你可以考虑不再继续碎钻石了"
+  frame_type: TASK
+  name: "&a[碳一体]"
+  criteria:
+    MOMOTECH_C_GENERATOR:
+      name: "获得碳生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_C_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+
+slimefun4_momotech_star_of_all_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_star_of_all
+  display:
+    type: MOMOTECH_DIAMOND_PICKAXE_GENERATOR
+    name: "&5一体机，满上！"
+    lore:
+      - "&5一体化机器，除命令方块、原矿生成器，其它每种生成器各获得1个"
+  frame_type: CHALLENGE
+  name: "&5[一体机，满上！]"
+  criteria:
+    MOMOTECH_FLINT_GENERATOR:
+      name: "燧石生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FLINT_GENERATOR
+    MOMOTECH_CHEST_GENERATOR:
+      name: "箱子生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CHEST_GENERATOR
+    MOMOTECH_DIAMOND_PICKAXE_GENERATOR:
+      name: "钻石镐生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_DIAMOND_PICKAXE_GENERATOR
+    MOMOTECH_C_GENERATOR:
+      name: "碳生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_C_GENERATOR
+    MOMOTECH_BEE_GENERATOR:
+      name: "蜜蜂生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_BEE_GENERATOR
+    MOMOTECH_SPIDER_EYE_GENERATOR:
+      name: "蜘蛛眼生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_SPIDER_EYE_GENERATOR
+    MOMOTECH_ICE_GENERATOR:
+      name: "冰生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_ICE_GENERATOR
+    MOMOTECH_STONES_GENERATOR:
+      name: "石块生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_STONES_GENERATOR
+    MOMOTECH_LINE_GENERATOR:
+      name: "线生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_LINE_GENERATOR
+    MOMOTECH_DUST_GENERATOR:
+      name: "矿粉生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_DUST_GENERATOR
+    MOMOTECH_STONE_GENERATOR:
+      name: "石质生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_STONE_GENERATOR
+    MOMOTECH_STONE_GENERATOR_I:
+      name: "定向圆石生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_STONE_GENERATOR_I
+    MOMOTECH_STONE_GENERATOR_II:
+      name: "压缩圆石生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_STONE_GENERATOR_II
+    MOMOTECH_FISH_GENERATOR:
+      name: "自动捕鱼器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FISH_GENERATOR
+    MOMOTECH_SAND_GENERATOR:
+      name: "沙质生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_SAND_GENERATOR
+    MOMOTECH_FROG_LIGHT_GENERATOR:
+      name: "蛙鸣灯生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FROG_LIGHT_GENERATOR
+    MOMOTECH_GLASS_GENERATOR:
+      name: "定向玻璃生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_GLASS_GENERATOR
+    MOMOTECH_TEMPLATE_GENERATOR:
+      name: "模版生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_TEMPLATE_GENERATOR
+    MOMOTECH_SEA_ITEM_GENERATOR:
+      name: "海晶生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_SEA_ITEM_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 5 levels"
+
+
+slimefun4_momotech_eternal_mining_machine:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_random_quantom
+  display:
+    type: MOMOTECH_ETERNAL_MINING_MACHINE
+    name: "&b永恒矿机"
+    lore:
+      - "&a永恒不再..."
+  frame_type: TASK
+  name: "&a[永恒矿机]"
+  criteria:
+    MOMOTECH_ETERNAL_MINING_MACHINE:
+      name: "放置永恒矿机"
+      type: place
+      amount: 1
+      item:
+        type: MOMOTECH_ETERNAL_MINING_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+
+slimefun4_momotech_empty_shell_generator_i:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_eternal_mining_machine
+  display:
+    type: MOMOTECH_EMPTY_SHELL_GENERATOR_I
+    name: "&b强化版空生成器"
+    lore:
+      - "&a用处广产量高"
+  frame_type: TASK
+  name: "&a[强化版空生成器]"
+  criteria:
+    MOMOTECH_EMPTY_SHELL_GENERATOR_I:
+      name: "获得加强版空生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_EMPTY_SHELL_GENERATOR_I
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+
+slimefun4_momotech_empty_shell_generator_i_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_empty_shell_generator_i
+  display:
+    type: MOMOTECH_EMPTY_SHELL_GENERATOR_I
+    name: "&5史诗级0+0"
+    lore:
+      - "&5获得64个加强版空生成器"
+  frame_type: CHALLENGE
+  name: "&5[史诗级0+0]"
+  criteria:
+    MOMOTECH_EMPTY_SHELL_GENERATOR_I:
+      name: "获得64个加强版空生成器"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_EMPTY_SHELL_GENERATOR_I
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+
+slimefun4_momotech_proton_and_zygote:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_eternal_mining_machine
+  display:
+    type: MOMOTECH_PROTON
+    name: "&b质合子"
+    lore:
+      - "&a...你准备开始了么"
+  frame_type: TASK
+  name: "&a[质合子]"
+  criteria:
+    MOMOTECH_PROTON:
+      name: "获得质子"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_PROTON
+    MOMOTECH_ZYGOTE:
+      name: "获得合子"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_ZYGOTE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+
+slimefun4_momotech_full:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_eternal_mining_machine
+  display:
+    type: MOMOTECH_FULL
+    name: "&b这回我总该能使用元素法杖-风了吧"
+    lore:
+      - "&a使用饱和护符"
+  frame_type: TASK
+  name: "&a[这回我总该能使用元素法杖-风了吧]"
+  criteria:
+    MOMOTECH_FULL:
+      name: "使用饱和护符"
+      type: interact
+      amount: 1
+      item:
+        type: MOMOTECH_FULL
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_momotech_eternal_mining_machine_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_eternal_mining_machine
+  display:
+    type: MOMOTECH_FOREVER
+    name: "&5夺回永恒"
+    lore:
+      - "&5获得64个永恒矿机"
+  frame_type: CHALLENGE
+  name: "&5[夺回永恒]"
+  criteria:
+    MOMOTECH_ETERNAL_MINING_MACHINE:
+      name: "获得64个永恒矿机"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_ETERNAL_MINING_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 15 levels"
+
+slimefun4_momotech_forever__challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_eternal_mining_machine_challenge
+  display:
+    type: MOMOTECH_FOREVER_
+    name: "&5守住永恒"
+    lore:
+      - "&5获得永恒奇点"
+  frame_type: CHALLENGE
+  name: "&5[守住永恒]"
+  criteria:
+    MOMOTECH_FOREVER_:
+      name: "获得永恒奇点"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FOREVER_
+  rewards:
+    commands:
+      - "experience add %p% 12 levels"
+
+slimefun4_momotech_ordinary_number_combinator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_proton_and_zygote
+  display:
+    type: MOMOTECH_ORDINARY_NUMBER_COMBINATOR
+    name: "&b计算器"
+    lore:
+      - "&a加减乘除嘛...不对，BUG系统是什么..."
+  frame_type: TASK
+  name: "&a[计算器]"
+  criteria:
+    MOMOTECH_ORDINARY_NUMBER_COMBINATOR:
+      name: "放置计算器"
+      type: place
+      amount: 1
+      item:
+        type: MOMOTECH_ORDINARY_NUMBER_COMBINATOR
+  rewards:
+    commands:
+      - "experience add %p% 18 points"
+
+
+slimefun4_momotech_number_bug:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_ordinary_number_combinator
+  display:
+    type: MOMOTECH_NUMBER_BUG
+    name: "&b数字出这玩意儿，这合理么"
+    lore:
+      - "&a获得6种数字BUG物质"
+  frame_type: TASK
+  name: "&a[数字出这玩意儿，这合理么]"
+  criteria:
+    MOMOTECH_NUMBER_BUG:
+      name: "BUG运算式"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NUMBER_BUG
+    MOMOTECH_NUMBER_BUG_I:
+      name: "BUG小数"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NUMBER_BUG_I
+    MOMOTECH_NUMBER_BUG_II:
+      name: "BUG日期"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NUMBER_BUG_II
+    MOMOTECH_NUMBER_BUG_III:
+      name: "BUG正过载"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NUMBER_BUG_III
+    MOMOTECH_NUMBER_BUG_IV:
+      name: "BUG负过载"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NUMBER_BUG_IV
+    MOMOTECH_NUMBER_BUG_V:
+      name: "BUG系统"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_NUMBER_BUG_V
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+
+slimefun4_momotech_qy:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_number_bug
+  display:
+    type: MOMOTECH_QY
+    name: "&b乱码科技作者"
+    lore:
+      - "&a没想到是由BUG和鸽子组成的"
+  frame_type: TASK
+  name: "&a[乱码科技作者]"
+  criteria:
+    MOMOTECH_QY:
+      name: "获得QYhB"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_QY
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_momotech_constructor:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_number_bug
+  display:
+    type: MOMOTECH_CONSTRUCTOR
+    name: "&b乱码版奇点构造机"
+    lore:
+      - "&a要搓无尽锭（规则锭）了嘛？"
+  frame_type: TASK
+  name: "&a[乱码版奇点构造机]"
+  criteria:
+    MOMOTECH_CONSTRUCTOR:
+      name: "获得凝聚者"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 18 points"
+
+
+slimefun4_momotech_metal_and_mineral:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_constructor
+  display:
+    type: MOMOTECH_METAL_
+    name: "&b凝聚与新生"
+    lore:
+      - "&a获得金属核心和矿物核心"
+  frame_type: TASK
+  name: "&a[凝聚与新生]"
+  criteria:
+    MOMOTECH_METAL_:
+      name: "金属核心"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_METAL_
+    MOMOTECH_MINERAL_:
+      name: "矿物核心"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MINERAL_
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+
+slimefun4_momotech_infinity:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_metal_and_mineral
+  display:
+    type: MOMOTECH_INFINITY
+    name: "&b掌握规则！"
+    lore:
+      - "&a获得规则锭"
+      - "&a属于乱码的无尽锭"
+  frame_type: TASK
+  name: "&a[规则锭]"
+  criteria:
+    MOMOTECH_INFINITY:
+      name: "获得规则锭"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_INFINITY
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+
+slimefun4_momotech_infinity_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_infinity
+  display:
+    type: MOMOTECH_INFINITY
+    name: "&5规则锭的量产！"
+    lore:
+      - "&5获得64个规则锭"
+      - "&5这玩意真的需要这么多吗？"
+  frame_type: CHALLENGE
+  name: "&5[规则锭的量产！]"
+  criteria:
+    MOMOTECH_INFINITY:
+      name: "获得64个规则锭"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_INFINITY
+  rewards:
+    commands:
+      - "experience add %p% 8 levels"
+
+slimefun4_momotech_rule_machine_star:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_star
+  display:
+    type: MOMOTECH_RULE_MACHINE_STAR
+    name: "&b规则机器组件"
+    lore:
+      - "&a获得规则机器组件"
+  frame_type: TASK
+  name: "&a[规则机器组件]"
+  criteria:
+    MOMOTECH_RULE_MACHINE_STAR:
+      name: "获得规则机器组件"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_MACHINE_STAR
+  rewards:
+    commands:
+      - "experience add %p% 18 points"
+
+slimefun4_momotech_rule_constructor:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_RULE_CONSTRUCTOR
+    name: "&b凝聚的速度也嫌慢了么"
+    lore:
+      - "&a获得规则凝聚者"
+  frame_type: TASK
+  name: "&a[凝聚的速度也嫌慢了么]"
+  criteria:
+    MOMOTECH_RULE_CONSTRUCTOR:
+      name: "获得规则凝聚者"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 20 points"
+
+slimefun4_momotech_rule_constructor_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_constructor
+  display:
+    type: MOMOTECH_RULE_CONSTRUCTOR
+    name: "&5终极史诗凝聚者"
+    lore:
+      - "&5获得64个规则凝聚者"
+  frame_type: CHALLENGE
+  name: "&5[终极史诗凝聚者]"
+  criteria:
+    MOMOTECH_RULE_CONSTRUCTOR:
+      name: "获得64个规则凝聚者"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 20 points"
+
+slimefun4_momotech_mineral_and_block_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_RULE_MINERAL_GENERATOR
+    name: "&b还要什么无尽矿机"
+    lore:
+      - "&a获得规则矿机和规则矿块收集器"
+  frame_type: TASK
+  name: "&a[还要什么无尽矿机]"
+  criteria:
+    MOMOTECH_RULE_MINERAL_GENERATOR:
+      name: "获得规则矿机"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_MINERAL_GENERATOR
+    MOMOTECH_RULE_MINERAL_BLOCK_GENERATOR:
+      name: "获得规则矿块机"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_MINERAL_BLOCK_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 28 points"
+
+slimefun4_momotech_mineral_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_mineral_and_block_generator
+  display:
+    type: MOMOTECH_RULE_MINERAL_GENERATOR
+    name: "&5终极史诗矿机大王"
+    lore:
+      - "&5获得64个规则矿机"
+  frame_type: CHALLENGE
+  name: "&5[终极史诗矿机大王]"
+  criteria:
+    MOMOTECH_RULE_MINERAL_GENERATOR:
+      name: "获得64个规则矿机"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_MINERAL_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 9 levels"
+
+slimefun4_momotech_mineral_block_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_mineral_generator_challenge
+  display:
+    type: MOMOTECH_RULE_MINERAL_BLOCK_GENERATOR
+    name: "&5终极史诗矿块大王"
+    lore:
+      - "&5获得64个规则矿块机"
+  frame_type: CHALLENGE
+  name: "&5[终极史诗矿块大王]"
+  criteria:
+    MOMOTECH_RULE_MINERAL_BLOCK_GENERATOR:
+      name: "获得64个规则矿块机"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_MINERAL_BLOCK_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 10 levels"
+
+slimefun4_momotech_wood_and_plant_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_WOOD
+    name: "&b赛博种植场"
+    lore:
+      - "&a获得树木和植物培养器"
+  frame_type: TASK
+  name: "&a[赛博种植场]"
+  criteria:
+    MOMOTECH_WOOD:
+      name: "获得树木培养器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_WOOD
+    MOMOTECH_PLANT:
+      name: "获得植物培养器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+slimefun4_momotech_u_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_U_GENERATOR
+    name: "&b这才是真正的铀提取器"
+    lore:
+      - "&a获得规则铀提取器"
+      - "&a这不比无尽的强多了 ?"
+  frame_type: TASK
+  name: "&a[这才是真正的铀提取器]"
+  criteria:
+    MOMOTECH_U_GENERATOR:
+      name: "获得规则铀提取器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_U_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+slimefun4_momotech_u_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_u_generator
+  display:
+    type: MOMOTECH_U_GENERATOR
+    name: "&5真正的铀爆发仪"
+    lore:
+      - "&5获得64个规则铀提取器"
+      - "&5用不完的铀，你真的需要这么多吗？"
+  frame_type: CHALLENGE
+  name: "&5[真正的铀爆发仪]"
+  criteria:
+    MOMOTECH_U_GENERATOR:
+      name: "获得64个规则铀提取器"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_U_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 9 levels"
+
+slimefun4_momotech_rule_geo:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_RULE_GEO
+    name: "&b终焉地理资源开拓者"
+    lore:
+      - "&a极高速的地理资源开采器"
+  frame_type: TASK
+  name: "&a[终焉地理资源开拓者]"
+  criteria:
+    MOMOTECH_RULE_GEO:
+      name: "获得终焉地理资源开采器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_GEO
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+slimefun4_momotech_rule_geo_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_geo
+  display:
+    type: MOMOTECH_RULE_GEO
+    name: "&5终焉地理资源掌控者"
+    lore:
+      - "&a获得64个终焉地理资源开采器"
+      - "&a你真的需要这么多地理资源吗？"
+  frame_type: CHALLENGE
+  name: "&5[终焉地理资源掌控者]"
+  criteria:
+    MOMOTECH_RULE_GEO:
+      name: "获得64个终焉地理资源开采器"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_GEO
+  rewards:
+    commands:
+      - "experience add %p% 15 levels"
+
+slimefun4_momotech_monster_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_MONSTER_GENERATOR0
+    name: "&5终极史诗农场主"
+    lore:
+      - "&510种刷怪塔、农场各1个"
+  frame_type: CHALLENGE
+  name: "&5[终极史诗农场塔主]"
+  criteria:
+    MOMOTECH_MONSTER_GENERATOR0:
+      name: "主世界刷怪塔模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR0
+    MOMOTECH_MONSTER_GENERATOR1:
+      name: "鱼塔模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR1
+    MOMOTECH_MONSTER_GENERATOR2:
+      name: "猪人塔模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR2
+    MOMOTECH_MONSTER_GENERATOR3:
+      name: "末影人塔模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR3
+    MOMOTECH_MONSTER_GENERATOR4:
+      name: "苦力怕农场模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR4
+    MOMOTECH_MONSTER_GENERATOR5:
+      name: "溺尸塔模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR5
+    MOMOTECH_MONSTER_GENERATOR6:
+      name: "动物农场模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR6
+    MOMOTECH_MONSTER_GENERATOR7:
+      name: "史莱姆农场模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR7
+    MOMOTECH_MONSTER_GENERATOR8:
+      name: "烈焰人农场模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR8
+    MOMOTECH_MONSTER_GENERATOR9:
+      name: "岩浆怪农场模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_MONSTER_GENERATOR9
+  rewards:
+    commands:
+      - "experience add %p% 12 levels"
+
+slimefun4_momotech_rule_dust_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_monster_generator_challenge
+  display:
+    type: MOMOTECH_RULE_DUST_GENERATOR0
+    name: "&5终极史诗磨粉主"
+    lore:
+      - "&510种磨粉器各1个"
+  frame_type: CHALLENGE
+  name: "&5[终极史诗磨粉主]"
+  criteria:
+    MOMOTECH_RULE_DUST_GENERATOR0:
+      name: "规则磨粉器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR0
+    MOMOTECH_RULE_DUST_GENERATOR1:
+      name: "规则磨粉器Al"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR1
+    MOMOTECH_RULE_DUST_GENERATOR2:
+      name: "规则磨粉器Mg"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR2
+    MOMOTECH_RULE_DUST_GENERATOR3:
+      name: "规则磨粉器Cu"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR3
+    MOMOTECH_RULE_DUST_GENERATOR4:
+      name: "规则磨粉器Au"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR4
+    MOMOTECH_RULE_DUST_GENERATOR5:
+      name: "规则磨粉器Ag"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR5
+    MOMOTECH_RULE_DUST_GENERATOR6:
+      name: "规则磨粉器Pb"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR6
+    MOMOTECH_RULE_DUST_GENERATOR7:
+      name: "规则磨粉器Sn"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR7
+    MOMOTECH_RULE_DUST_GENERATOR8:
+      name: "规则磨粉器Zn"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR8
+    MOMOTECH_RULE_DUST_GENERATOR9:
+      name: "规则磨粉器Fe"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_DUST_GENERATOR9
+  rewards:
+    commands:
+      - "experience add %p% 12 levels"
+
+slimefun4_momotech_rule_machine_star_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_RULE_MACHINE_STAR
+    name: "&5组件收藏者"
+    lore:
+      - "&5获得64个规则机器组件"
+  frame_type: CHALLENGE
+  name: "&5[组件收藏者]"
+  criteria:
+    MOMOTECH_RULE_MACHINE_STAR:
+      name: "获得64个规则机器组件"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_MACHINE_STAR
+  rewards:
+    commands:
+      - "experience add %p% 12 levels"
+
+slimefun4_momotech_rule_star_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_star
+  display:
+    type: MOMOTECH_RULE_STAR
+    name: "&5光与暗的佼佼者"
+    lore:
+      - "&5获得64个时隙"
+      - "&5乱码末期开始..."
+  frame_type: CHALLENGE
+  name: "&5[光与暗的佼佼者]"
+  criteria:
+    MOMOTECH_RULE_STAR:
+      name: "获得64个时隙"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_STAR
+  rewards:
+    commands:
+      - "experience add %p% 12 levels"
+
+slimefun4_momotech_rule_star:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_infinity
+  display:
+    type: MOMOTECH_RULE_STAR
+    name: "&b规则机器的开始"
+    lore:
+      - "&a获得时隙"
+  frame_type: TASK
+  name: "&a[规则机器的开始]"
+  criteria:
+    MOMOTECH_RULE_STAR:
+      name: "获得时隙"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_STAR
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+slimefun4_momotech_quantity_constructor:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_number_bug
+  display:
+    type: MOMOTECH_QUANTITY_CONSTRUCTOR
+    name: "&b量化构造器"
+    lore:
+      - "&a乱码进阶玩法的开始"
+  frame_type: TASK
+  name: "&a[量化构造器]"
+  criteria:
+    MOMOTECH_QUANTITY_CONSTRUCTOR:
+      name: "获得量化构造器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_QUANTITY_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 18 points"
+
+slimefun4_momotech_quantity_item:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantity_constructor
+  display:
+    type: MOMOTECH_QUANTITY_ITEM
+    name: "&b量化插件"
+    lore:
+      - "&a该不会是塞进去的45×64个终极之心变成了量化插件吧"
+  frame_type: TASK
+  name: "&a[量化插件]"
+  criteria:
+    MOMOTECH_QUANTITY_ITEM:
+      name: "获得量化插件"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_QUANTITY_ITEM
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+
+slimefun4_momotech_quantity_item_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantity_item
+  display:
+    type: MOMOTECH_QUANTITY_ITEM
+    name: "&5葬送万千空"
+    lore:
+      - "&5获得64个量化插件"
+      - "&5运气也是实力的一部分"
+  frame_type: CHALLENGE
+  name: "&5[葬送万千空]"
+  criteria:
+    MOMOTECH_QUANTITY_ITEM:
+      name: "获得64个量化插件"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_QUANTITY_ITEM
+  rewards:
+    commands:
+      - "experience add %p% 8 levels"
+
+slimefun4_momotech_creative___:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantity_constructor
+  display:
+    type: MOMOTECH_CREATIVE__
+    name: "&b纯净的始源"
+    lore:
+      - "&a真的是刚开始"
+  frame_type: TASK
+  name: "&a[纯净的始源]"
+  criteria:
+    MOMOTECH_CREATIVE__:
+      name: "获得纯净的始源"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CREATIVE__
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+
+slimefun4_momotech_shine_and_dark:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_creative___
+  display:
+    type: MOMOTECH_SHINE
+    name: "&b光与暗"
+    lore:
+      - "&a之前整了这么多东西，现在看才发现这才刚刚开始..."
+  frame_type: TASK
+  name: "&a[光与暗]"
+  criteria:
+    MOMOTECH_SHINE:
+      name: "获得光"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_SHINE
+    MOMOTECH_DARK:
+      name: "获得暗"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_DARK
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_momotech_rule_creative_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_shine_and_dark
+  display:
+    type: MOMOTECH_RULE_CREATIVE_GENERATOR
+    name: "&b一体化原始物质"
+    lore:
+      - "&a终于...可以把家里的一坨拆除了..."
+  frame_type: TASK
+  name: "&a[一体化原始物质]"
+  criteria:
+    MOMOTECH_RULE_CREATIVE_GENERATOR:
+      name: "获得原始物质生成器αβ版"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_CREATIVE_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 25 points"
+
+slimefun4_momotech_rule_creative_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_creative_generator
+  display:
+    type: MOMOTECH_RULE_CREATIVE_GENERATOR
+    name: "&5高速化原始物质"
+    lore:
+      - "&5获得64个原始物质生成器αβ版"
+      - "&5快速量产纯净的始源！"
+  frame_type: CHALLENGE
+  name: "&5[高速化原始物质]"
+  criteria:
+    MOMOTECH_RULE_CREATIVE_GENERATOR:
+      name: "获得64个原始物质生成器αβ版"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_CREATIVE_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 8 levels"
+
+slimefun4_momotech_rule_shine_and_dark_constructor:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_machine_star
+  display:
+    type: MOMOTECH_RULE_SHINE_AND_DARK_CONSTRUCTOR
+    name: "&b规则光暗收集"
+    lore:
+      - "&a加快关键的规则锭短板"
+  frame_type: TASK
+  name: "&a[规则光暗开采]"
+  criteria:
+    MOMOTECH_RULE_SHINE_AND_DARK_CONSTRUCTOR:
+      name: "获得规则光暗收集器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_SHINE_AND_DARK_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 32 points"
+
+slimefun4_momotech_rule_shine_and_dark_constructor_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_shine_and_dark_constructor
+  display:
+    type: MOMOTECH_RULE_SHINE_AND_DARK_CONSTRUCTOR
+    name: "&5光暗行业佼佼者"
+    lore:
+      - "&5获得64个规则光暗收集器"
+      - "&5...准备好怎么使用它了么"
+  frame_type: CHALLENGE
+  name: "&5[光暗行业佼佼者]"
+  criteria:
+    MOMOTECH_RULE_SHINE_AND_DARK_CONSTRUCTOR:
+      name: "获得规则光暗收集器"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_SHINE_AND_DARK_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 15 levels"
+
+
+slimefun4_momotech_energy_quantum_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantity_constructor
+  display:
+    type: MOMOTECH_ENERGY_QUANTUM_GENERATOR
+    name: "&b量子充能"
+    lore:
+      - "&a获得量子充能器"
+  frame_type: TASK
+  name: "&a[量子充能]"
+  criteria:
+    MOMOTECH_ENERGY_QUANTUM_GENERATOR:
+      name: "获得量子充能器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_ENERGY_QUANTUM_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_momotech_energy_ingot:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_energy_quantum_generator
+  display:
+    type: MOMOTECH_ENERGY_INGOT
+    name: "&b自动化纠缠量子"
+    lore:
+      - "&a获得32个放射性充能锭"
+  frame_type: TASK
+  name: "&a[自动化纠缠量子]"
+  criteria:
+    MOMOTECH_ENERGY_INGOT:
+      name: "获得32个放射性充能锭"
+      type: inventory
+      amount: 32
+      item:
+        type: MOMOTECH_ENERGY_INGOT
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_momotech_creative_material_ii:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantity_constructor
+  display:
+    type: MOMOTECH_CREATIVE_II
+    name: "&b第三类原始物质"
+    lore:
+      - "&a双倍，or一无所有"
+  frame_type: TASK
+  name: "&a[第三类原始物质]"
+  criteria:
+    MOMOTECH_CREATIVE_II:
+      name: "获得原始物质γ"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_CREATIVE_II
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+slimefun4_momotech_creative_material_ii_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_creative_material_ii
+  display:
+    type: MOMOTECH_CREATIVE_II
+    name: "&5哪有小孩天天哭，哪有赌狗天天输！"
+    lore:
+      - "&5获得64个原始物质γ"
+  frame_type: CHALLENGE
+  name: "&5[哪有小孩天天哭，哪有赌狗天天输！]"
+  criteria:
+    MOMOTECH_CREATIVE_II:
+      name: "获得64个原始物质γ"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_CREATIVE_II
+  rewards:
+    commands:
+      - "experience add %p% 5 levels"
+
+slimefun4_momotech_bug_crystal:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_quantity_constructor
+  display:
+    type: MOMOTECH_BUG_CRYSTAL
+    name: "&bBUG集合体"
+    lore:
+      - "&a获得BUG水晶"
+  frame_type: TASK
+  name: "&a[BUG集合体]"
+  criteria:
+    MOMOTECH_BUG_CRYSTAL:
+      name: "获得BUG水晶"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_BUG_CRYSTAL
+  rewards:
+    commands:
+      - "experience add %p% 24 points"
+
+slimefun4_momotech_command_block_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_bug_crystal
+  display:
+    type: MOMOTECH_COMMAND_BLOCK_GENERATOR
+    name: "&5什么？命令方块？"
+    lore:
+      - "&5获得命令方块生成器"
+      - "&5自动化命令方块"
+  frame_type: TASK
+  name: "&a[什么？命令方块？]"
+  criteria:
+    MOMOTECH_COMMAND_BLOCK_GENERATOR:
+      name: "获得命令方块生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_COMMAND_BLOCK_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 32 points"
+
+slimefun4_momotech_rule_item:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_command_block_generator
+  display:
+    type: MOMOTECH_RULE_ITEM
+    name: "&b创世神的一角"
+    lore:
+      - "&a获得创世齿轮"
+  frame_type: TASK
+  name: "&a[创世神的一角]"
+  criteria:
+    MOMOTECH_RULE_ITEM:
+      name: "获得创世齿轮"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RULE_ITEM
+  rewards:
+    commands:
+      - "experience add %p% 40 points"
+
+slimefun4_momotech_final_star:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_item
+  display:
+    type: MOMOTECH_FINAL_STAR
+    name: "&5终极之心"
+    lore:
+      - "&5乱码元素集合之心"
+  frame_type: TASK
+  name: "&5[终极之心]"
+  criteria:
+    MOMOTECH_FINAL_STAR:
+      name: "获得终极之心"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FINAL_STAR
+  rewards:
+    commands:
+      - "experience add %p% 32 points"
+
+slimefun4_momotech_ore_collector:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_final_star
+  display:
+    type: MOMOTECH_ORE_COLLECTOR
+    name: "&bChenmose一体化"
+    lore:
+      - "&a获得锵锵~ 自动化压缩矿物！"
+  frame_type: TASK
+  name: "&a[Chenmose一体化]"
+  criteria:
+    MOMOTECH_ORE_COLLECTOR:
+      name: "获得锵锵~ 自动化压缩矿物！"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_ORE_COLLECTOR
+  rewards:
+    commands:
+      - "experience add %p% 36 points"
+
+slimefun4_momotech_final_item:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_final_star
+  display:
+    type: MOMOTECH_FINAL_ITEM
+    name: "&5乱码的终极核心"
+    lore:
+      - "&5即将结束乱码之旅..."
+  frame_type: CHALLENGE
+  name: "&5[乱码的终极核心]"
+  criteria:
+    MOMOTECH_FINAL_ITEM:
+      name: "获得乱码核心"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FINAL_ITEM
+  rewards:
+    commands:
+      - "experience add %p% 8 levels"
+
+slimefun4_momotech_id_changer_and_final_copier:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_final_item
+  display:
+    type: MOMOTECH_FINAL_COPIER
+    name: "&5结束了！"
+    lore:
+      - "&5获得并放置制造台与复刻鸡"
+      - "&e&l恭喜通关乱码科技"
+      - "&e&l祝您玩的愉快！"
+  frame_type: CHALLENGE
+  name: "&5[结束了！]"
+  criteria:
+    MOMOTECH_ID_CHANGER:
+      name: "获得制造台"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_ID_CHANGER
+    MOMOTECH_FINAL_COPIER:
+      name: "获得复刻鸡"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FINAL_COPIER
+    MOMOTECH_ID_CHANGER:
+      name: "放置制造台"
+      type: place
+      amount: 1
+      item:
+        type: MOMOTECH_ID_CHANGER
+    MOMOTECH_FINAL_COPIER:
+      name: "放置复刻鸡 - 终极"
+      type: place
+      amount: 1
+      item:
+        type: MOMOTECH_FINAL_COPIER
+  rewards:
+    commands:
+      - "experience add %p% 15 levels"
+
+slimefun4_momotech_final_c_:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_id_changer_and_final_copier
+  display:
+    type: MOMOTECH_FINAL_C_
+    name: "&b50重压缩圆石生成器"
+    lore:
+      - "&a这才是50重压缩圆石的正确制作方法"
+      - "&a据说合成1块50重压缩圆石，"
+      - "&a在拥有2,147,483,647台逆熵刷石机的产速下，不考虑空"
+      - "&a也得需要2,201,989,612,045,505,458,212,594,083年（2202亿亿亿年）才能获得一块"
+  frame_type: TASK
+  name: "&a[50重压缩圆石生成器]"
+  criteria:
+    MOMOTECH_FINAL_C_:
+      name: "获得50重压缩圆石生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FINAL_C_
+  rewards:
+    commands:
+      - "experience add %p% 32 points"
+
+slimefun4_momotech_stone_sword:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_final_c_
+  display:
+    type: MOMOTECH_STONE_SWORD
+    name: "&5勝利誓约之剑"
+    lore:
+      - "&5斩断一切"
+  frame_type: CHALLENGE
+  name: "&5[勝利誓约之剑]"
+  criteria:
+    MOMOTECH_STONE_SWORD:
+      name: "获得勝利誓约之剑"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_STONE_SWORD
+  rewards:
+    commands:
+      - "experience add %p% 18 levels"
+
+slimefun4_momotech_resource:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_item
+  display:
+    type: MOMOTECH_RESOURCE
+    name: "&bResource"
+    lore:
+      - "&a乱码的支持者"
+  frame_type: TASK
+  name: "&a[Resource]"
+  criteria:
+    MOMOTECH_RESOURCE:
+      name: "获得Resource"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_RESOURCE
+  rewards:
+    commands:
+      - "experience add %p% 30 points"
+
+slimefun4_momotech_final_rule:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_resource
+  display:
+    type: MOMOTECH_FINAL_RULE
+    name: "&5规则之物"
+    lore:
+      - "&5获得概念物"
+      - "&5需要大量的Resource..."
+  frame_type: CHALLENGE
+  name: "&5[规则之物]"
+  criteria:
+    MOMOTECH_FINAL_RULE:
+      name: "获得概念物"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_FINAL_RULE
+  rewards:
+    commands:
+      - "experience add %p% 8 levels"
+
+slimefun4_momotech_uncontrollable_generator:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_final_rule
+  display:
+    type: MOMOTECH_UNCONTROLLABLE_GENERATOR
+    name: "&b一体化不可控空"
+    lore:
+      - "&a无限的不可控空，你真的需要这么多吗？"
+  frame_type: TASK
+  name: "&a[一体化不可控空]"
+  criteria:
+    MOMOTECH_UNCONTROLLABLE_GENERATOR:
+      name: "获得不可控空生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_UNCONTROLLABLE_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 40 points"
+
+slimefun4_momotech_uncontrollable_generator_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_uncontrollable_generator
+  display:
+    type: MOMOTECH_UNCONTROLLABLE_GENERATOR
+    name: "&5第三类世界规则掌握者"
+    lore:
+      - "&5获得16个不可控空生成器"
+      - "&5真的需要这么多吗？仅仅为了完成进度？"
+  frame_type: CHALLENGE
+  name: "&5[第三类世界规则掌握者]"
+  criteria:
+    MOMOTECH_UNCONTROLLABLE_GENERATOR:
+      name: "获得16个不可控空生成器"
+      type: inventory
+      amount: 16
+      item:
+        type: MOMOTECH_UNCONTROLLABLE_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 18 levels"
+
+slimefun4_momotech_armor:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_item
+  display:
+    type: MOMOTECH_ARMOR
+    name: "&b凝聚版无尽甲"
+    lore:
+      - "&a这靴子不错，可惜是跳跃提升1级"
+  frame_type: TASK
+  name: "&a[凝聚版无尽甲]"
+  criteria:
+    MOMOTECH_ARMOR:
+      name: "获得终焉靴"
+      type: inventory
+      amount: 1
+      item:
+        type: MOMOTECH_ARMOR
+  rewards:
+    commands:
+      - "experience add %p% 18 points"
+
+slimefun4_momotech_armor_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_armor
+  display:
+    type: MOMOTECH_ARMOR
+    name: "&5有靴同享"
+    lore:
+      - "&5分你一个？"
+  frame_type: CHALLENGE
+  name: "&5[有靴同享]"
+  criteria:
+    MOMOTECH_ARMOR:
+      name: "获得2个终焉靴"
+      type: inventory
+      amount: 2
+      item:
+        type: MOMOTECH_ARMOR
+  rewards:
+    commands:
+      - "experience add %p% 4 levels"
+
+slimefun4_momotech_rule_item_challenge:
+  group: LengShang_LUANMA
+  parent: slimefun4_momotech_rule_item
+  display:
+    type: MOMOTECH_RULE_ITEM
+    name: "&5创世神的冰山"
+    lore:
+      - "&5大量的创世齿轮，祝你乱码玩的开心 ！"
+  frame_type: CHALLENGE
+  name: "&5[创世神的冰山]"
+  criteria:
+    MOMOTECH_RULE_ITEM:
+      name: "获得64个创世齿轮"
+      type: inventory
+      amount: 64
+      item:
+        type: MOMOTECH_RULE_ITEM
+  rewards:
+    commands:
+      - "experience add %p% 15 levels"
+
+slimefun4_finaltechchanged_bedrock_craft_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_basic_begin
+  display:
+    type: _FINALTECH_BEDROCK_CRAFT_TABLE
+    name: "&b乱序技艺的入门"
+    lore:
+      - "&a使用一次不合理工作台"
+  frame_type: TASK
+  name: "&a[乱序技艺的入门]"
+  criteria:
+    _FINALTECH_BEDROCK_CRAFT_TABLE:
+      name: "使用一次不合理工作台"
+      type: multiblock
+      multiblock: _FINALTECH_BEDROCK_CRAFT_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_finaltechchanged_gearwheel:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bedrock_craft_table
+  display:
+    type: _FINALTECH_GEARWHEEL
+    name: "&b乱序版轴承"
+    lore:
+      - "&a远远不够..."
+  frame_type: TASK
+  name: "&a[乱序版轴承]"
+  criteria:
+    _FINALTECH_GEARWHEEL:
+      name: "获得4个嵌齿轮"
+      type: inventory
+      amount: 4
+      item:
+        type: _FINALTECH_GEARWHEEL
+  rewards:
+    commands:
+      - "experience add %p% 4 points"
+
+slimefun4_finaltechchanged_manual_enhanced_crafting_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_gearwheel
+  display:
+    type: _FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE
+    name: "&b更好用的强化工作台，但是需要电量..."
+    lore:
+      - "&a放置1个快捷强化工作台"
+      - "&a记得不要持续性通电"
+  frame_type: TASK
+  name: "&a[更好用的强化工作台，但是需要电量...]"
+  criteria:
+    _FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE:
+      name: "放置快捷强化工作台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 4 points"
+
+slimefun4_finaltechchanged_manual_enhanced_crafting_table_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_manual_enhanced_crafting_table
+  display:
+    type: _FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE
+    name: "&5全套快捷乱序版"
+    lore:
+      - "&5放置16种快捷工作台各一个"
+      - "&5...也请记得不要持续性通电"
+  frame_type: CHALLENGE
+  name: "&5[全套快捷乱序版]"
+  criteria:
+    _FINALTECH_MANUAL_CRAFTING_TABLE:
+      name: "快捷原版工作台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_CRAFTING_TABLE
+    _FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE:
+      name: "快捷增强型工作台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_ENHANCED_CRAFTING_TABLE
+    _FINALTECH_MANUAL_GRIND_STONE:
+      name: "快捷磨石"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_GRIND_STONE
+    _FINALTECH_MANUAL_ARMOR_FORGE:
+      name: "快捷盔甲锻造台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_ARMOR_FORGE
+    _FINALTECH_MANUAL_ORE_CRUSHER:
+      name: "快捷矿石磨粉机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_ORE_CRUSHER
+    _FINALTECH_MANUAL_COMPRESSOR:
+      name: "快捷压缩机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_COMPRESSOR
+    _FINALTECH_MANUAL_SMELTERY:
+      name: "快捷冶炼炉"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_SMELTERY
+    _FINALTECH_MANUAL_PRESSURE_CHAMBER:
+      name: "快捷压力机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_PRESSURE_CHAMBER
+    _FINALTECH_MANUAL_MAGIC_WORKBENCH:
+      name: "快捷魔法工作台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_MAGIC_WORKBENCH
+    _FINALTECH_MANUAL_ORE_WASHER:
+      name: "快捷洗矿机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_ORE_WASHER
+    _FINALTECH_MANUAL_COMPOSTER:
+      name: "快捷搅拌机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_COMPOSTER
+    _FINALTECH_MANUAL_GOLD_PAN:
+      name: "快捷淘金机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_GOLD_PAN
+    _FINALTECH_CRUCIBLE:
+      name: "快捷坩埚"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_CRUCIBLE
+    _FINALTECH_MANUAL_JUICER:
+      name: "快捷榨汁机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_JUICER
+    _FINALTECH_MANUAL_ANCIENT_ALTAR:
+      name: "快捷古代祭坛"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_ANCIENT_ALTAR
+    _FINALTECH_MANUAL_HEATED_PRESSURE_CHAMBER:
+      name: "快捷加热压力舱"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MANUAL_HEATED_PRESSURE_CHAMBER
+  rewards:
+    commands:
+      - "experience add %p% 2 levels"
+
+slimefun4_finaltechchanged_box:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bedrock_craft_table
+  display:
+    type: _FINALTECH_BOX
+    name: "&b葬身天界"
+    lore:
+      - "&a不甘于此"
+  frame_type: TASK
+  name: "&a[葬身天界]"
+  criteria:
+    _FINALTECH_BOX:
+      name: "获得盒"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_BOX
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_finaltechchanged_box_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_box
+  display:
+    type: _FINALTECH_BOX
+    name: "&5弥漫众生"
+    lore:
+      - "&5获得64个盒"
+      - "&5这需要死多少次啊？"
+  frame_type: CHALLENGE
+  name: "&5[弥漫众生]"
+  criteria:
+    _FINALTECH_BOX:
+      name: "获得64个盒"
+      type: inventory
+      amount: 64	
+      item:
+        type: _FINALTECH_BOX
+  rewards:
+    commands:
+      - "experience add %p% 2 levels"
+
+
+slimefun4_finaltechchanged_shine:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_box
+  display:
+    type: _FINALTECH_SHINE
+    name: "&b趋于虚无"
+    lore:
+      - "&a挣扎给我看吧"
+  frame_type: TASK
+  name: "&a[耀]"
+  criteria:
+    _FINALTECH_SHINE:
+      name: "获取耀"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_SHINE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_shine_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_shine
+  display:
+    type: _FINALTECH_SHINE
+    name: "&5超脱死亡"
+    lore:
+      - "&5真正的无所畏惧"
+  frame_type: CHALLENGE
+  name: "&5[超脱死亡]"
+  criteria:
+    _FINALTECH_SHINE:
+      name: "获取64个耀"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_SHINE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_normal_storage_unit:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bedrock_craft_table
+  display:
+    type: _FINALTECH_NORMAL_STORAGE_UNIT
+    name: "&b更小的大箱子"
+    lore:
+      - "&a放置储存单元"
+  frame_type: TASK
+  name: "&a[更小的大箱子]"
+  criteria:
+    _FINALTECH_NORMAL_STORAGE_UNIT:
+      name: "放置储存单元"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_NORMAL_STORAGE_UNIT
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_finaltechchanged_ordered_dust_factory_stone:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bedrock_craft_table
+  display:
+    type: _FINALTECH_ORDERED_DUST_FACTORY_STONE
+    name: "&b乱序的开始"
+    lore:
+      - "&a开始尝试制作有序无序尘埃吧"
+      - "&a放置一台尘埃制造器"
+  frame_type: TASK
+  name: "&a[乱序的开始]"
+  criteria:
+    _FINALTECH_ORDERED_DUST_FACTORY_STONE:
+      name: "放置尘埃制造器"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ORDERED_DUST_FACTORY_STONE
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_finaltechchanged_ordered_dust_factory_dirt:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bedrock_craft_table
+  display:
+    type: _FINALTECH_ORDERED_DUST_FACTORY_DIRT
+    name: "&b乱序的...开始...？"
+    hidden: true
+    lore:
+      - "&a唉不是，你放这种没用的机器干嘛...？？？"
+  frame_type: GOAL
+  name: "&a[乱序的...开始...？]"
+  criteria:
+    _FINALTECH_ORDERED_DUST_FACTORY_DIRT:
+      name: "放置泥土尘埃机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ORDERED_DUST_FACTORY_DIRT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_ordered_and_unordered_dust:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ordered_dust_factory_stone
+  display:
+    type: _FINALTECH_ORDERED_DUST
+    name: "&b要么完美，要么一般"
+    lore:
+      - "&a但都缺一不可"
+      - "&a获得有序和无序尘埃"
+  frame_type: TASK
+  name: "&a[要么完美，要么一般]"
+  criteria:
+    _FINALTECH_ORDERED_DUST:
+      name: "有序尘埃"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ORDERED_DUST
+    _FINALTECH_UNORDERED_DUST:
+      name: "无序尘埃"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_UNORDERED_DUST
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_advanced_line_transfer:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ordered_and_unordered_dust
+  display:
+    type: _FINALTECH_ADVANCED_LINE_TRANSFER
+    name: "&b链式传输器"
+    lore:
+      - "&a经典咏流传..."
+      - "&a放置一台高级链式传输器"
+      - "&a确保你能合理且正确地使用它"
+  frame_type: TASK
+  name: "&a[链式传输器]"
+  criteria:
+    _FINALTECH_ADVANCED_LINE_TRANSFER:
+      name: "放置高级链式传输器"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ADVANCED_LINE_TRANSFER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_advanced_point_transfer:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_advanced_line_transfer
+  display:
+    type: _FINALTECH_ADVANCED_POINT_TRANSFER
+    name: "&b对点传输器"
+    lore:
+      - "&a放置一台高级对点传输器"
+      - "&a实用型近距离传输器"
+      - "&a运鸡因工程的鸡袋子确保不要往存满鸡袋子的存储运！"
+  frame_type: TASK
+  name: "&a[对点传输器]"
+  criteria:
+    _FINALTECH_ADVANCED_POINT_TRANSFER:
+      name: "放置高级对点传输器"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ADVANCED_POINT_TRANSFER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_machine_charge_card_l1:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ordered_and_unordered_dust
+  display:
+    type: _FINALTECH_MACHINE_CHARGE_CARD_L1
+    name: "&b应急用充电卡"
+    lore:
+      - "&a获得机器充能卡 - L1"
+  frame_type: TASK
+  name: "&a[应急用充电卡]"
+  criteria:
+    _FINALTECH_MACHINE_CHARGE_CARD_L1:
+      name: "获得机器充能卡 - L1"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MACHINE_CHARGE_CARD_L1
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_machine_accelerate_card_l1:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_machine_charge_card_l1
+  display:
+    type: _FINALTECH_MACHINE_ACCELERATE_CARD_L1
+    name: "&b简单的加速"
+    lore:
+      - "&a可对一台工作过程中的以太矿机进行加速"
+  frame_type: TASK
+  name: "&a[简单的加速]"
+  criteria:
+    _FINALTECH_MACHINE_ACCELERATE_CARD_L1:
+      name: "获得机器过载卡 - L1"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MACHINE_ACCELERATE_CARD_L1
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_machine_activate_card_l1:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_machine_accelerate_card_l1
+  display:
+    type: _FINALTECH_MACHINE_ACTIVATE_CARD_L1
+    name: "&b两者合一，但一次性"
+    lore:
+      - "&a获得带点超频卡 - L1"
+  frame_type: TASK
+  name: "&a[两者合一，但一次性]"
+  criteria:
+    _FINALTECH_MACHINE_ACTIVATE_CARD_L1:
+      name: "获得带点超频卡 - L1"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MACHINE_ACTIVATE_CARD_L1
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_research_unlock_ticker:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ordered_and_unordered_dust
+  display:
+    type: _FINALTECH_RESEARCH_UNLOCK_TICKET
+    name: "&b研究解锁票"
+    lore:
+      - "&a再也不用担心我的经验不够解锁研究啦"
+  frame_type: TASK
+  name: "&a[研究解锁票]"
+  criteria:
+    _FINALTECH_RESEARCH_UNLOCK_TICKET:
+      name: "获得研究解锁票"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_RESEARCH_UNLOCK_TICKET
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_basic_generator:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ordered_and_unordered_dust
+  display:
+    type: _FINALTECH_BASIC_GENERATOR
+    name: "&b丐版供电器"
+    lore:
+      - "&a放置一台基础供电机"
+  frame_type: TASK
+  name: "&a[丐版供电器]"
+  criteria:
+    _FINALTECH_BASIC_GENERATOR:
+      name: "放置基础供电机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_BASIC_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_crafting_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ordered_and_unordered_dust
+  display:
+    type: _FINALTECH_MATRIX_CRAFTING_TABLE
+    name: "&b矩阵的开始"
+    lore:
+      - "&a放置一台矩阵合成台"
+      - "&a矩阵系列的开始"
+  frame_type: TASK
+  name: "&a[矩阵的开始]"
+  criteria:
+    _FINALTECH_MATRIX_CRAFTING_TABLE:
+      name: "放置矩阵合成台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_CRAFTING_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_portable_energy_storage:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_crafting_table
+  display:
+    type: _FINALTECH_PORTABLE_ENERGY_STORAGE
+    name: "&b电力搬运家"
+    lore:
+      - "&a获得便携式能量存储器"
+      - "&a当然，获得电卡，这也是必不可少的工具"
+      - "&a请制作2个这样的工具，以便后续使用"
+  frame_type: TASK
+  name: "&a[电力搬运家]"
+  criteria:
+    _FINALTECH_PORTABLE_ENERGY_STORAGE:
+      name: "获得便携式能量存储器"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_PORTABLE_ENERGY_STORAGE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_tool_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_portable_energy_storage
+  display:
+    type: _FINALTECH_MACHINE_ACTIVATE_CARD_L3
+    name: "&5乱序工具大师"
+    lore:
+      - "&5获得乱序'物品 - 工具'栏下全部的工具（不包括熵清除器）"
+  frame_type: CHALLENGE
+  name: "&5[乱序工具大师]"
+  criteria:
+    _FINALTECH_MENU_VIEWER:
+      name: "容器透视"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MENU_VIEWER
+    _FINALTECH_ROUTE_VIEWER:
+      name: "线路预览器"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ROUTE_VIEWER
+    _FINALTECH_LOCATION_RECORDER:
+      name: "位置记录仪"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_LOCATION_RECORDER
+    _FINALTECH_MACHINE_CONFIGURATOR:
+      name: "机器配置仪"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MACHINE_CONFIGURATOR
+    _FINALTECH_PORTABLE_ENERGY_STORAGE:
+      name: "便携式能量存储器"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_PORTABLE_ENERGY_STORAGE
+    _FINALTECH_POTION_EFFECT_COMPRESSOR:
+      name: "药效压缩机"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_POTION_EFFECT_COMPRESSOR
+    _FINALTECH_POTION_EFFECT_DILATOR:
+      name: "药效扩散机"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_POTION_EFFECT_DILATOR
+    _FINALTECH_POTION_EFFECT_PURIFIER:
+      name: "药效净化机"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_POTION_EFFECT_PURIFIER
+    _FINALTECH_GRAVITY_REVERSAL_RUNE:
+      name: "重力反向神器"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_GRAVITY_REVERSAL_RUNE
+    _FINALTECH_GRAVITY_REVERSAL_RUNE:
+      name: "元素法杖-线"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_GRAVITY_REVERSAL_RUNE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_energy_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_crafting_table
+  display:
+    type: _FINALTECH_ENERGY_TABLE
+    name: "&b电卡生产者"
+    lore:
+      - "&a都说了让你做2个便携式能量存储器了"
+      - "&a中间插入带有能量的便携式能量存储器，生产电卡吧"
+  frame_type: TASK
+  name: "&a[电卡生产者]"
+  criteria:
+    _FINALTECH_ENERGY_TABLE:
+      name: "放置电力合成台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ENERGY_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_energy_card_b_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_energy_table
+  display:
+    type: _FINALTECH_ENERGY_CARD_B
+    name: "&b规则电卡生产者 - B"
+    lore:
+      - "&a获得1B电卡"
+  frame_type: CHALLENGE
+  name: "&a[规则电卡生产者 - B]"
+  criteria:
+    _FINALTECH_ENERGY_CARD_B:
+      name: "获得电卡 - 1B"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ENERGY_CARD_B
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_energy_card_t_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_energy_card_b_challenge
+  display:
+    type: _FINALTECH_ENERGY_CARD_T
+    name: "&b规则电卡生产者 - T"
+    lore:
+      - "&a获得1T电卡"
+  frame_type: CHALLENGE
+  name: "&a[规则电卡生产者 - T]"
+  criteria:
+    _FINALTECH_ENERGY_CARD_T:
+      name: "获得电卡 - 1T"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ENERGY_CARD_T
+  rewards:
+    commands:
+      - "experience add %p% 4 levels"
+
+slimefun4_finaltechchanged_energy_card_q_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_energy_card_t_challenge
+  display:
+    type: _FINALTECH_ENERGY_CARD_Q
+    name: "&5规则电卡生产者 - Q"
+    lore:
+      - "&5获得1Q电卡"
+  frame_type: CHALLENGE
+  name: "&5[规则电卡生产者 - Q]"
+  criteria:
+    _FINALTECH_ENERGY_CARD_Q:
+      name: "获得电卡 - 1Q"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ENERGY_CARD_Q
+  rewards:
+    commands:
+      - "experience add %p% 5 levels"
+
+slimefun4_finaltechchanged_equivalent_exchange_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_crafting_table
+  display:
+    type: _FINALTECH_EQUIVALENT_EXCHANGE_TABLE
+    name: "&b开赌时间"
+    lore:
+      - "&a放置1台等价交换台"
+      - "&a哪有孩子天天哭，哪有赌狗天天输，开赌！"
+  frame_type: TASK
+  name: "&a[开赌时间]"
+  criteria:
+    _FINALTECH_EQUIVALENT_EXCHANGE_TABLE:
+      name: "放置等价交换台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_EQUIVALENT_EXCHANGE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_bug:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_equivalent_exchange_table
+  display:
+    type: _FINALTECH_BUG
+    name: "&b我那么多的价值呢"
+    lore:
+      - "&a获得锟斤拷"
+      - "&a温馨提示 获得锟斤拷会清空所有价值"
+  frame_type: TASK
+  name: "&a[我那么多的价值呢]"
+  criteria:
+    _FINALTECH_BUG:
+      name: "获得锟斤拷"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_BUG
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_bug_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bug
+  display:
+    type: _FINALTECH_BUG
+    name: "&5BUG缔造者"
+    lore:
+      - "&5获得64个锟斤拷"
+      - "&5赌狗辉煌时刻"
+  frame_type: CHALLENGE
+  name: "&5[BUG缔造者]"
+  criteria:
+    _FINALTECH_BUG:
+      name: "获得64个锟斤拷"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_BUG
+  rewards:
+    commands:
+      - "experience add %p% 4 levels"
+
+slimefun4_finaltechchanged_ether:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_bug
+  display:
+    type: _FINALTECH_ETHER
+    name: "&b稀土资源乱序版"
+    lore:
+      - "&a放置以太矿机并获得以太"
+  frame_type: TASK
+  name: "&a[稀土资源乱序版]"
+  criteria:
+    _FINALTECH_ETHER:
+      name: "获得以太"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ETHER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_item_dismantle_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ether
+  display:
+    type: _FINALTECH_ITEM_DISMANTLE_TABLE
+    name: "&b丐版拆解台"
+    lore:
+      - "&a放置一台物品拆解台"
+      - "&a...注意距离限制"
+      - "&a每600粘液刻使用一次..."
+  frame_type: TASK
+  name: "&a[丐版拆解台]"
+  criteria:
+    _FINALTECH_ITEM_DISMANTLE_TABLE:
+      name: "放置物品拆解台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ITEM_DISMANTLE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_auto_item_dismantle_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_item_dismantle_table
+  display:
+    type: _FINALTECH_AUTO_ITEM_DISMANTLE_TABLE
+    name: "&b更好的拆解台"
+    lore:
+      - "&a放置一台自动拆解台"
+      - "&a拆解就得全自动，手动算什么事"
+  frame_type: TASK
+  name: "&a[更好的拆解台]"
+  criteria:
+    _FINALTECH_AUTO_ITEM_DISMANTLE_TABLE:
+      name: "放置自动拆解台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_AUTO_ITEM_DISMANTLE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_auto_item_dismantle_table_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_auto_item_dismantle_table
+  display:
+    type: _FINALTECH_AUTO_ITEM_DISMANTLE_TABLE
+    name: "&5回退一切"
+    lore:
+      - "&5获得64个自动拆解台"
+      - "&5你真的需要这么多拆解台吗？"
+  frame_type: CHALLENGE
+  name: "&5[回退一切]"
+  criteria:
+    _FINALTECH_AUTO_ITEM_DISMANTLE_TABLE:
+      name: "获得64个自动拆解台"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_AUTO_ITEM_DISMANTLE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_item_serialization_constructor:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_ether
+  display:
+    type: _FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+    name: "&b卡服的开始"
+    lore:
+      - "&a卡服的开始...一台的话问题不大"
+      - "&a放置一台序列化构造器"
+  frame_type: TASK
+  name: "&a[卡服的开始]"
+  criteria:
+    _FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR:
+      name: "放置序列化构造器"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ITEM_SERIALIZATION_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_copy_card:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_item_serialization_constructor
+  display:
+    type: _FINALTECH_COPY_CARD
+    name: "&b复制卡的生产线"
+    lore:
+      - "&a获得复制卡"
+  frame_type: TASK
+  name: "&a[复制卡的生产线]"
+  criteria:
+    _FINALTECH_COPY_CARD:
+      name: "获得复制卡"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_COPY_CARD
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_copy_card_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_copy_card
+  display:
+    type: _FINALTECH_COPY_CARD
+    name: "&5卡服皇帝"
+    lore:
+      - "&5获得64张复制卡"
+  frame_type: CHALLENGE
+  name: "&5[卡皇]"
+  criteria:
+    _FINALTECH_COPY_CARD:
+      name: "获得64张复制卡"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_COPY_CARD
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_annular:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_copy_card
+  display:
+    type: _FINALTECH_ANNULAR
+    name: "&b仅仅是高级机器的开始"
+    lore:
+      - "&a获得环"
+      - "&a启动高级机器！"
+  frame_type: TASK
+  name: "&a[仅仅是高级机器的开始]"
+  criteria:
+    _FINALTECH_ANNULAR:
+      name: "获得环"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ANNULAR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_energized_charge_base:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_annular
+  display:
+    type: _FINALTECH_ENERGIZED_CHARGE_BASE
+    name: "&b便携式底部充电器"
+    lore:
+      - "&a放置一个充能充电桩"
+  frame_type: TASK
+  name: "&a[便携式底部充电器]"
+  criteria:
+    _FINALTECH_ENERGIZED_CHARGE_BASE:
+      name: "放置充能充电桩"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ENERGIZED_CHARGE_BASE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_logic_generator:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_annular
+  display:
+    type: _FINALTECH_LOGIC_GENERATOR
+    name: "&b逻辑生成器"
+    lore:
+      - "&a放置一个逻辑生成器"
+  frame_type: TASK
+  name: "&a[逻辑生成器]"
+  criteria:
+    _FINALTECH_LOGIC_GENERATOR:
+      name: "放置逻辑生成器"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_LOGIC_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_basic_logic_factory:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_logic_generator
+  display:
+    type: _FINALTECH_BASIC_LOGIC_FACTORY
+    name: "&b基础逻辑工厂"
+    lore:
+      - "&a放置一个基础逻辑工厂"
+  frame_type: TASK
+  name: "&a[基础逻辑工厂]"
+  criteria:
+    _FINALTECH_BASIC_LOGIC_FACTORY:
+      name: "放置基础逻辑工厂"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_BASIC_LOGIC_FACTORY
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_entropy:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_basic_logic_factory
+  display:
+    type: _FINALTECH_ENTROPY
+    name: "&b粘液版病毒入侵者"
+    lore:
+      - "&a获得熵"
+  frame_type: TASK
+  name: "&a[粘液版病毒入侵者]"
+  criteria:
+    _FINALTECH_ENTROPY:
+      name: "获得熵"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ENTROPY
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_item_dismantle_table:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_annular
+  display:
+    type: _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE
+    name: "&5万能的拆解！"
+    lore:
+      - "&5放置一台矩阵物品拆解台"
+  frame_type: CHALLENGE
+  name: "&5[万能的拆解！]"
+  criteria:
+    _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE:
+      name: "放置矩阵物品拆解台"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_matrix_item_dismantle_table_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_item_dismantle_table
+  display:
+    type: _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE
+    name: "&5矩阵拆解批发商"
+    lore:
+      - "&5获得64个矩阵物品拆解台"
+      - "&5有距离限制哦，想好怎么用了么"
+  frame_type: CHALLENGE
+  name: "&5[矩阵拆解批发商]"
+  criteria:
+    _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE:
+      name: "获得64个矩阵物品拆解台"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_MATRIX_ITEM_DISMANTLE_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 5 levels"
+
+slimefun4_finaltechchanged_annular_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_annular
+  display:
+    type: _FINALTECH_ANNULAR
+    name: "&5循环无端！"
+    lore:
+      - "&5获得64个环"
+  frame_type: CHALLENGE
+  name: "&5[循环无端！]"
+  criteria:
+    _FINALTECH_ANNULAR:
+      name: "获得64个环"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_ANNULAR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_item_deserialize_parser:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_item_serialization_constructor
+  display:
+    type: _FINALTECH_ITEM_DESERIALIZE_PARSER
+    name: "&b一体机代替者"
+    lore:
+      - "&a放置一台物品反序列化解析机"
+  frame_type: TASK
+  name: "&a[一体机代替者]"
+  criteria:
+    _FINALTECH_ITEM_DESERIALIZE_PARSER:
+      name: "放置物品反序列化解析机"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_ITEM_DESERIALIZE_PARSER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_singularity:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_copy_card
+  display:
+    type: _FINALTECH_SINGULARITY
+    name: "&b乱序版致密体"
+    lore:
+      - "&a获得奇点"
+      - "&a伪物的一半..."
+  frame_type: TASK
+  name: "&a[乱序版致密体]"
+  criteria:
+    _FINALTECH_SINGULARITY:
+      name: "获得奇点"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_SINGULARITY
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_item_serialization_constructor:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_item_serialization_constructor
+  display:
+    type: _FINALTECH_MATRIX_ITEM_SERIALIZATION_CONSTRUCTOR
+    name: "&5来者不拒"
+    lore:
+      - "&a放置一台矩阵序列化构造机"
+  frame_type: CHALLENGE
+  name: "&5[来者不拒]"
+  criteria:
+    _FINALTECH_MATRIX_ITEM_SERIALIZATION_CONSTRUCTOR:
+      name: "放置矩阵序列化构造机"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_ITEM_SERIALIZATION_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_spirochete:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_item_serialization_constructor
+  display:
+    type: _FINALTECH_SPIROCHETE
+    name: "&5全物品的象征？"
+    lore:
+      - "&a获得螺旋体"
+      - "&a伪物的另一半，现在！合成伪物吧！！"
+  frame_type: TASK
+  name: "&5[全物品的象征？]"
+  criteria:
+    _FINALTECH_SPIROCHETE:
+      name: "获得螺旋体"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_SPIROCHETE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_phony:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_item_serialization_constructor
+  display:
+    type: _FINALTECH_PHONY
+    name: "&5伪物"
+    lore:
+      - "&a难度无需多言"
+      - "&a这真的是能做出来的吗？"
+      - "&a但这也只是刚开始"
+  frame_type: TASK
+  name: "&5[伪物]"
+  criteria:
+    _FINALTECH_PHONY:
+      name: "获得伪物"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_PHONY
+  rewards:
+    commands:
+      - "experience add %p% 30000 points"
+
+slimefun4_finaltechchanged_phony_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_phony
+  display:
+    type: _FINALTECH_PHONY
+    name: "&5伪物缔造者"
+    lore:
+      - "&5获得64个伪物"
+      - "&5你确定不是刷物获取的？"
+  frame_type: CHALLENGE
+  name: "&5[伪物缔造者]"
+  criteria:
+    _FINALTECH_PHONY:
+      name: "获得64个伪物"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_PHONY
+  rewards:
+    commands:
+      - "experience add %p% 40 levels"
+
+slimefun4_finaltechchanged_entropy_seed:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_phony
+  display:
+    type: _FINALTECH_ENTROPY_SEED
+    name: "&b布豪！他真的放下来了！"
+    lore:
+      - "&a放置熵种"
+      - "&a小心点，这可是毁服神器！ "
+  frame_type: TASK
+  name: "&a[布豪！他真的放下来了！]"
+  criteria:
+    _FINALTECH_ENTROPY_SEED:
+      name: "放置熵种"
+      type: place
+      amount: 1
+      item:
+        type: _FINALTECH_ENTROPY_SEED
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_equivalent_concept_and_justfiability:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_entropy_seed
+  display:
+    type: _FINALTECH_EQUIVALENT_CONCEPT
+    name: "&5于崩坏中的新生"
+    lore:
+      - "&5获得等概念体和合理性"
+      - "&5离终章不远了..."
+  frame_type: TASK
+  name: "&a[于崩坏中的新生]"
+  criteria:
+    _FINALTECH_EQUIVALENT_CONCEPT:
+      name: "获得等概念体"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_EQUIVALENT_CONCEPT
+    _FINALTECH_JUSTIFIABILITY:
+      name: "获得合理性"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_JUSTIFIABILITY
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_reactor:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_equivalent_concept_and_justfiability
+  display:
+    type: _FINALTECH_MATRIX_REACTOR
+    name: "&5合理化的物品复制"
+    lore:
+      - "&5获得矩阵反应堆"
+      - "&e&l恭喜通关乱序技艺"
+      - "&6&l旧时代的神！复制万物..."
+  frame_type: TASK
+  name: "&5[合理化的物品复制]"
+  criteria:
+    _FINALTECH_MATRIX_REACTOR:
+      name: "获得矩阵反应堆"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_REACTOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_reactor_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_reactor
+  display:
+    type: _FINALTECH_MATRIX_REACTOR
+    name: "&e刷&6物&a大&b蛇"
+    lore:
+      - "&a获得64个矩阵反应堆"
+      - "&e&l矩阵反应堆复制矩阵反应堆似乎很合理吧？ "
+  frame_type: CHALLENGE
+  name: "[&e刷&6物&a大&b蛇]"
+  criteria:
+    _FINALTECH_MATRIX_REACTOR:
+      name: "获得64个矩阵反应堆"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_MATRIX_REACTOR
+  rewards:
+    commands:
+      - "experience add %p% 5 levels"
+
+slimefun4_finaltechchanged_matrix_generator:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_equivalent_concept_and_justfiability
+  display:
+    type: _FINALTECH_MATRIX_GENERATOR
+    name: "&5完美能源"
+    lore:
+      - "&a获得矩阵供电机"
+  frame_type: TASK
+  name: "&5[完美能源]"
+  criteria:
+    _FINALTECH_MATRIX_GENERATOR:
+      name: "获得矩阵供电机"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_generator_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_generator
+  display:
+    type: _FINALTECH_MATRIX_GENERATOR
+    name: "&5星际供电者"
+    lore:
+      - "&a获得64个矩阵供电机"
+      - "&a真的需要这么多吗？"
+  frame_type: CHALLENGE
+  name: "&5[星际供电者]"
+  criteria:
+    _FINALTECH_MATRIX_GENERATOR:
+      name: "获得64个矩阵供电机"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_MATRIX_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_matrix_operation_accelerator:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_equivalent_concept_and_justfiability
+  display:
+    type: _FINALTECH_MATRIX_OPERATION_ACCELERATOR
+    name: "&5光速完成"
+    lore:
+      - "&a获得矩阵工程加速器"
+      - "&a现在，放置在以太矿机下方吧"
+  frame_type: TASK
+  name: "&5[光速完成]"
+  criteria:
+    _FINALTECH_MATRIX_OPERATION_ACCELERATOR:
+      name: "获得矩阵工程加速器"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_OPERATION_ACCELERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_operation_accelerator_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_operation_accelerator
+  display:
+    type: _FINALTECH_MATRIX_OPERATION_ACCELERATOR
+    name: "&5加速器批发商"
+    lore:
+      - "&a获得64个矩阵工程加速器"
+      - "&a用不完的加速器！"
+  frame_type: CHALLENGE
+  name: "&5[加速器批发商]"
+  criteria:
+    _FINALTECH_MATRIX_OPERATION_ACCELERATOR:
+      name: "获得64个矩阵工程加速器"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_MATRIX_OPERATION_ACCELERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_matrix_accelerator:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_equivalent_concept_and_justfiability
+  display:
+    type: _FINALTECH_MATRIX_ACCELERATOR
+    name: "&5加速场发生器"
+    lore:
+      - "&a获得矩阵加速器"
+      - "&a貌似有点问题"
+  frame_type: TASK
+  name: "&5[加速场发生器]"
+  criteria:
+    _FINALTECH_MATRIX_ACCELERATOR:
+      name: "获得矩阵加速器"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_ACCELERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_finaltechchanged_matrix_accelerator_challenge:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_matrix_accelerator
+  display:
+    type: _FINALTECH_MATRIX_ACCELERATOR
+    name: "&5星际加速场"
+    lore:
+      - "&a获得64个矩阵加速器"
+  frame_type: CHALLENGE
+  name: "&5[星际加速场]"
+  criteria:
+    _FINALTECH_MATRIX_ACCELERATOR:
+      name: "获得64个矩阵加速器"
+      type: inventory
+      amount: 64
+      item:
+        type: _FINALTECH_MATRIX_ACCELERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_finaltechchanged_matrix_expanded_capacitor:
+  group: LengShang_LUANXU
+  parent: slimefun4_finaltechchanged_equivalent_concept_and_justfiability
+  display:
+    type: _FINALTECH_MATRIX_EXPANDED_CAPACITOR
+    name: "&5无极限电能储藏者"
+    lore:
+      - "&a获得矩阵扩展电容"
+      - "&a貌似电力组数过高，便携式能量存储器就吸不到了..."
+      - "&a并非特性，而是bug"
+      - "&a...也许明天就能修复吧！"
+  frame_type: TASK
+  name: "&5[无极限电能储藏者]"
+  criteria:
+    _FINALTECH_MATRIX_EXPANDED_CAPACITOR:
+      name: "获得矩阵扩展电容"
+      type: inventory
+      amount: 1
+      item:
+        type: _FINALTECH_MATRIX_EXPANDED_CAPACITOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_bug:
+  group: LengShang_LUOJI
+  parent: slimefun4_basic_begin
+  display:
+    type: LOGITECH_BUG
+    name: "&b逻辑的开始"
+    lore:
+      - "&a没想到是遇到bug"
+  frame_type: TASK
+  name: "&a[逻辑的开始]"
+  criteria:
+    LOGITECH_BUG:
+      name: "获得BUG"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_BUG
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_cargo_pip:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_bug
+  display:
+    type: LOGITECH_CARGO_PIP
+    name: "&b迷你货运"
+    lore:
+      - "&a放置一个货运管道"
+  frame_type: TASK
+  name: "&a[迷你货运]"
+  criteria:
+    LOGITECH_CARGO_PIP:
+      name: "放置货运管道"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_CARGO_PIP
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_cargo_pip_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_cargo_pip
+  display:
+    type: LOGITECH_CARGO_PIP
+    name: "&b飞线大师？"
+    lore:
+      - "&a获得64个货运管道"
+  frame_type: GOAL
+  name: "&a[飞线大师？]"
+  criteria:
+    LOGITECH_CARGO_PIP:
+      name: "获得64个货运管道"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_CARGO_PIP
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_enhanced_craft_manual:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_bug
+  display:
+    type: LOGITECH_ENHANCED_CRAFT_MANUAL
+    name: "&b快捷化强化台"
+    lore:
+      - "&a放置一个快捷强化工作台"
+  frame_type: TASK
+  name: "&a[快捷化强化台]"
+  criteria:
+    LOGITECH_ENHANCED_CRAFT_MANUAL:
+      name: "放置快捷强化工作台"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_ENHANCED_CRAFT_MANUAL
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_furnace_manual:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_enhanced_craft_manual
+  display:
+    type: LOGITECH_FURNACE_MANUAL
+    name: "&b炉子快捷化"
+    lore:
+      - "&a放置一个快捷熔炉"
+      - "&a绝对的史诗级物品，不接受任何反驳"
+  frame_type: TASK
+  name: "&a[炉子快捷化]"
+  criteria:
+    LOGITECH_FURNACE_MANUAL:
+      name: "放置快捷熔炉"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_FURNACE_MANUAL
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_bool_generator:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_bug
+  display:
+    type: LOGITECH_BOOL_GENERATOR
+    name: "&b布尔生成器"
+    lore:
+      - "&a放置布尔生成器"
+  frame_type: TASK
+  name: "&a[布尔生成器]"
+  criteria:
+    LOGITECH_BOOL_GENERATOR:
+      name: "放置布尔生成器"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_BOOL_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_logigate:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_bool_generator
+  display:
+    type: LOGITECH_LOGIGATE
+    name: "&b逻辑门"
+    lore:
+      - "&a逻辑运行的基础底板"
+      - "&a通过占用一定的服务器数据，为炸服提供了帮助"
+  frame_type: TASK
+  name: "&a[逻辑门]"
+  criteria:
+    LOGITECH_LOGIGATE:
+      name: "获得逻辑门"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_LOGIGATE
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_magic_plant:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_logigate
+  display:
+    type: LOGITECH_MAGIC_PLANT
+    name: "&b简单种植机"
+    lore:
+      - "&a能用就行"
+  frame_type: TASK
+  name: "&a[简单种植机]"
+  criteria:
+    LOGITECH_MAGIC_PLANT:
+      name: "获取魔法种植机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_MAGIC_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_magic_stone:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_logigate
+  display:
+    type: LOGITECH_MAGIC_STONE
+    name: "&b简单刷石机"
+    lore:
+      - "&a简单的魔法刷石机"
+  frame_type: TASK
+  name: "&a[简单刷石机]"
+  criteria:
+    LOGITECH_MAGIC_STONE:
+      name: "获取魔法刷石机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_MAGIC_STONE
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_logic_reactor:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_logigate
+  display:
+    type: LOGITECH_LOGIC_REACTOR
+    name: "&b逻辑反应堆"
+    lore:
+      - "&a逻辑的开始"
+      - "&a放置逻辑反应堆"
+  frame_type: TASK
+  name: "&a[逻辑反应堆]"
+  criteria:
+    LOGITECH_LOGIC_REACTOR:
+      name: "放置逻辑反应堆"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_LOGIC_REACTOR
+  rewards:
+    commands:
+      - "experience add %p% 2 points"
+
+slimefun4_logitech_abstract_ingot_and_chip_ingot:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_logic_reactor
+  display:
+    type: LOGITECH_CHIP_INGOT
+    name: "&b真够抽象的，这合金都能吃"
+    lore:
+      - "&a获得抽象锭和薯片合金"
+  frame_type: TASK
+  name: "&a[逻辑反应堆]"
+  criteria:
+    LOGITECH_ABSTRACT_INGOT:
+      name: "获得抽象锭"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_ABSTRACT_INGOT
+    LOGITECH_CHIP_INGOT:
+      name: "获得薯片合金"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_CHIP_INGOT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_lplate:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_abstract_ingot_and_chip_ingot
+  display:
+    type: LOGITECH_LPLATE
+    name: "&b好了，这回吃不了了吧"
+    lore:
+      - "&a获得薯片合金板"
+  frame_type: TASK
+  name: "&a[好了，这回吃不了了吧]"
+  criteria:
+    LOGITECH_LPLATE:
+      name: "获得薯片合金板"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_LPLATE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_bug_crafter:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_lplate
+  display:
+    type: LOGITECH_BUG_CRAFTER
+    name: "&b非常好工作台，可惜是个头颅"
+    lore:
+      - "&a放置BUG工作台"
+  frame_type: TASK
+  name: "&a[非常好工作台，可惜是个头颅]"
+  criteria:
+    LOGITECH_BUG_CRAFTER:
+      name: "放置BUG工作台"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_BUG_CRAFTER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_lvoid_generator:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_bug_crafter
+  display:
+    type: LOGITECH_LVOID_GENERATOR
+    name: "&b正态分布发电吸电机"
+    lore:
+      - "&a放置一台虚空量子发电机"
+  frame_type: TASK
+  name: "&a[正态分布发电吸电机]"
+  criteria:
+    LOGITECH_LVOID_GENERATOR:
+      name: "放置虚空量子发电机"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_LVOID_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_paradox:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_lvoid_generator
+  display:
+    type: LOGITECH_PARADOX
+    name: "&b这是出什么BUG了"
+    lore:
+      - "&a获得悖论"
+      - "&a网络插口3搭配虚空量子发电机有奇效哦"
+  frame_type: TASK
+  name: "&a[这是出什么BUG了]"
+  criteria:
+    LOGITECH_PARADOX:
+      name: "获得悖论"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_PARADOX
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_paradox_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_paradox
+  display:
+    type: LOGITECH_PARADOX
+    name: "&5频繁试错终有成果"
+    lore:
+      - "&5获得64个悖论"
+  frame_type: CHALLENGE
+  name: "&5[频繁试错终有成果]"
+  criteria:
+    LOGITECH_PARADOX:
+      name: "获得64个悖论"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_PARADOX
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_world_feat:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_bug_crafter
+  display:
+    type: LOGITECH_WORLD_FEAT
+    name: "&b世界的元素特征"
+    lore:
+      - "&a获得3种世界特征"
+  frame_type: TASK
+  name: "&a[世界的元素特征]"
+  criteria:
+    LOGITECH_WORLD_FEAT:
+      name: "获得世界特征 - 主世界"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_WORLD_FEAT
+    LOGITECH_NETHER_FEAT:
+      name: "获得世界特征 - 下界"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_NETHER_FEAT
+    LOGITECH_END_FEAT:
+      name: "获得世界特征 - 末地"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_END_FEAT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_overworld_plant:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_world_feat
+  display:
+    type: LOGITECH_OVERWORLD_PLANT
+    name: "&b更好的主世界种植机"
+    lore:
+      - "&a获得进阶种植机"
+      - "&a也许能比肩MK2呢"
+  frame_type: TASK
+  name: "&a[更好的主世界种植机]"
+  criteria:
+    LOGITECH_OVERWORLD_PLANT:
+      name: "获得进阶种植机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_OVERWORLD_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_overworld_plant_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_overworld_plant
+  display:
+    type: LOGITECH_OVERWORLD_PLANT
+    name: "&5种植大户"
+    lore:
+      - "&5获得64个进阶种植机"
+  frame_type: CHALLENGE
+  name: "&5[种植大户]"
+  criteria:
+    LOGITECH_OVERWORLD_PLANT:
+      name: "获得64个进阶种植机"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_OVERWORLD_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_end_plant:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_overworld_plant
+  display:
+    type: LOGITECH_END_PLANT
+    name: "&b更全的种植机"
+    lore:
+      - "&a获得虚空种植机"
+      - "&aMK2三合一！"
+  frame_type: TASK
+  name: "&a[更全的种植机]"
+  criteria:
+    LOGITECH_END_PLANT:
+      name: "获得虚空种植机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_END_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_overworld_miner:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_world_feat
+  display:
+    type: LOGITECH_OVERWORLD_MINER
+    name: "&b也只是更快额已"
+    lore:
+      - "&a获得进阶魔法刷石机"
+  frame_type: TASK
+  name: "&a[也只是更快额已]"
+  criteria:
+    LOGITECH_OVERWORLD_MINER:
+      name: "获得进阶魔法刷石机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_OVERWORLD_MINER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_end_miner:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_overworld_miner
+  display:
+    type: LOGITECH_END_MINER
+    name: "&b原来这才是星辰金砂的初步获取方式"
+    lore:
+      - "&a获得末地魔法刷石机"
+  frame_type: TASK
+  name: "&a[原来这才是星辰金砂的初步获取方式]"
+  criteria:
+    LOGITECH_END_MINER:
+      name: "获得末地魔法刷石机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_END_MINER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_dimension_miner:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_end_miner
+  display:
+    type: LOGITECH_DIMENSION_MINER
+    name: "&b不演了，我是刷矿的"
+    lore:
+      - "&a获得维度矿机"
+  frame_type: TASK
+  name: "&a[不演了，我是刷矿的]"
+  criteria:
+    LOGITECH_DIMENSION_MINER:
+      name: "获得维度矿机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_DIMENSION_MINER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_dimension_miner_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_dimension_miner
+  display:
+    type: LOGITECH_DIMENSION_MINER
+    name: "&5星辰金暴发户"
+    lore:
+      - "&5获得64个维度矿机"
+      - "&5星辰金产量大大加快"
+  frame_type: CHALLENGE
+  name: "&5[星辰金暴发户]"
+  criteria:
+    LOGITECH_DIMENSION_MINER:
+      name: "获得64个维度矿机"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_DIMENSION_MINER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_star_gold_ingot:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_dimension_miner
+  display:
+    type: LOGITECH_STAR_GOLD_INGOT
+    name: "&b来自世界星尘"
+    lore:
+      - "&a获得星辰金"
+  frame_type: TASK
+  name: "&a[来自世界星尘]"
+  criteria:
+    LOGITECH_STAR_GOLD_INGOT:
+      name: "获得星辰金"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_STAR_GOLD_INGOT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_chip_maker:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_star_gold_ingot
+  display:
+    type: LOGITECH_CHIP_MAKER
+    name: "&b尖端科技的一小步"
+    lore:
+      - "&a获得简易光刻机"
+      - "&a你是否疑惑芯片怎么制造？"
+      - "&a尝试去B站搜索逻辑工艺教程吧！"
+  frame_type: TASK
+  name: "&a[尖端科技的一小步]"
+  criteria:
+    LOGITECH_CHIP_MAKER:
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_CHIP_MAKER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_chip_core:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_chip_maker
+  display:
+    type: LOGITECH_CHIP_CORE
+    name: "&b智能核心"
+    lore:
+      - "&a通过不懈、激情、愤怒、笨拙、放弃、持续等的努力"
+      - "&a终于制造出了智能控制核心"
+  frame_type: TASK
+  name: "&a[智能核心]"
+  criteria:
+    LOGITECH_CHIP_CORE:
+      name: "获得智能控制核心"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_CHIP_CORE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_chip_consumer:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_star_gold_ingot
+  display:
+    type: LOGITECH_CHIP_CONSUMER
+    name: "&bCHIP编辑者"
+    lore:
+      - "&a获得单目位运算执行单元"
+      - "&a实际上只需要使用到取反和左移..."
+  frame_type: TASK
+  name: "&a[CHIP编辑者]"
+  criteria:
+    LOGITECH_CHIP_CONSUMER:
+      name: "获得单目位运算执行单元"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_CHIP_CONSUMER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_line_energy_and_pipe:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_star_gold_ingot
+  display:
+    type: LOGITECH_ENERGY_PIPE_PLUS
+    name: "&b逻辑版能源电力控制器"
+    lore:
+      - "&a获得超导电线、高级射电发电机激发塔和高级射电充能塔"
+  frame_type: TASK
+  name: "&a[逻辑版能源电力控制器]"
+  criteria:
+    LOGITECH_LINE_COLLECTOR_PLUS:
+      name: "获得超导电线"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_LINE_COLLECTOR_PLUS
+    LOGITECH_LINE_CHARGER_PLUS:
+      name: "获得高级射电发电机激发塔"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_LINE_CHARGER_PLUS
+    LOGITECH_ENERGY_PIPE_PLUS:
+      name: "获得高级射电充能塔"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_ENERGY_PIPE_PLUS
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_seq_constructor:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_star_gold_ingot
+  display:
+    type: LOGITECH_SEQ_CONSTRUCTOR
+    name: "&b概念化序列构造器"
+    lore:
+      - "&a逻辑高级机器的开始"
+      - "&a所以为什么会在基础机器里..."
+  frame_type: TASK
+  name: "&a[概念化序列构造器]"
+  criteria:
+    LOGITECH_SEQ_CONSTRUCTOR:
+      name: "获得概念化序列构造器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_SEQ_CONSTRUCTOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_endframe_machine:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_dimension_miner
+  display:
+    type: LOGITECH_ENDFRAME_MACHINE
+    name: "&b空间制造者"
+    lore:
+      - "&a获得空间框架构建机"
+      - "&a但为什么会跑到赤石科技里呢"
+  frame_type: TASK
+  name: "&a[空间制造者]"
+  criteria:
+    LOGITECH_ENDFRAME_MACHINE:
+      name: "获得空间框架构建机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_ENDFRAME_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_solar_reactor_frame_and_glass:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_endframe_machine
+  display:
+    type: LOGITECH_SOLAR_REACTOR_FRAME
+    name: "&b超新星的一角"
+    lore:
+      - "&a获得超新星模拟器框架和防护罩各1个"
+      - "&a或许得做更多..."
+  frame_type: TASK
+  name: "&a[空间制造者]"
+  criteria:
+    LOGITECH_SOLAR_REACTOR_FRAME:
+      name: "获得超新星模拟器框架"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_SOLAR_REACTOR_FRAME
+    LOGITECH_SOLAR_REACTOR_GLASS:
+      name: "获得超新星模拟器防护罩"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_SOLAR_REACTOR_GLASS
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_metal_smelery_mass_tech_core:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_seq_constructor
+  display:
+    type: LOGITECH_TECH_CORE
+    name: "&b概念化4核心"
+    lore:
+      - "&a获得重金、精炼、物质、科技核心各1个"
+  frame_type: TASK
+  name: "&a[概念化4核心]"
+  criteria:
+    LOGITECH_METAL_CORE:
+      name: "获得重金核心"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_METAL_CORE
+    LOGITECH_SMELERY_CORE:
+      name: "获得精炼核心"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_SMELERY_CORE
+    LOGITECH_MASS_CORE:
+      name: "获得物质核心"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_MASS_CORE
+    LOGITECH_TECH_CORE:
+      name: "获得科技核心"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_TECH_CORE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_solar_reactor:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_metal_smelery_mass_tech_core
+  display:
+    type: LOGITECH_SOLAR_REACTOR
+    name: "&b超新星模拟的搭建"
+    lore:
+      - "&a现在，准备好制作超新星了么"
+      - "&a获得1个超新星模拟器、102超新星模拟器框架和84超新星模拟器防护罩"
+      - "&a确保稳定和足够的能源电力供应..."
+  frame_type: TASK
+  name: "&a[超新星模拟的搭建]"
+  criteria:
+    LOGITECH_SOLAR_REACTOR:
+      name: "获得1个超新星模拟器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_SOLAR_REACTOR
+    LOGITECH_SOLAR_REACTOR_FRAME:
+      name: "获得102个超新星模拟器框架"
+      type: inventory
+      amount: 102
+      item:
+        type: LOGITECH_SOLAR_REACTOR_FRAME
+    LOGITECH_SOLAR_REACTOR_GLASS:
+      name: "获得84个超新星模拟器防护罩"
+      type: inventory
+      amount: 84
+      item:
+        type: LOGITECH_SOLAR_REACTOR_GLASS
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_chunk_charger:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_solar_reactor
+  display:
+    type: LOGITECH_CHUNK_CHARGER
+    name: "&b区块化充电站"
+    lore:
+      - "&a获得区块充能塔"
+  frame_type: TASK
+  name: "&a[区块化充电站]"
+  criteria:
+    LOGITECH_CHUNK_CHARGER:
+      name: "获得区块充能塔"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_CHUNK_CHARGER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_star_smeltery:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_solar_reactor
+  display:
+    type: LOGITECH_STAR_SMELTERY
+    name: "&b锻铸星辰！"
+    lore:
+      - "&a获得星辰金锻铸炉"
+  frame_type: TASK
+  name: "&a[锻铸星辰！]"
+  criteria:
+    LOGITECH_STAR_SMELTERY:
+      name: "获得星辰金锻铸炉"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_STAR_SMELTERY
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_pagold_and_bisilver:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_star_smeltery
+  display:
+    type: LOGITECH_BISILVER
+    name: "&b钯金与铋银"
+    lore:
+      - "&a获得钯金与铋银"
+      - "&a凭什么要22K金，24K金怎么你了？"
+  frame_type: TASK
+  name: "&a[钯金与铋银]"
+  criteria:
+    LOGITECH_PAGOLD:
+      name: "获得钯金"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_PAGOLD
+    LOGITECH_BISILVER:
+      name: "获得铋银"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_BISILVER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_virtual_killer:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_pagold_and_bisilver
+  display:
+    type: LOGITECH_VIRTUAL_KILLER
+    name: "&b一体化掉落物"
+    lore:
+      - "&a获得屠宰工厂"
+      - "&a终于能自动化碳化的心脏和压缩空间啦！"
+      - "&a再也不用手砍怪物啦，解放双手！"
+      - "&a挖掘乱码的蜘蛛眼生成器似乎可以无限采集！"
+  frame_type: TASK
+  name: "&a[一体化掉落物]"
+  criteria:
+    LOGITECH_VIRTUAL_KILLER:
+      name: "获得屠宰工厂"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_VIRTUAL_KILLER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_space_plate:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_pagold_and_bisilver
+  display:
+    type: LOGITECH_SPACE_PLATE
+    name: "&b掌控空间"
+    lore:
+      - "&a获得空间强化板"
+  frame_type: TASK
+  name: "&a[掌控空间]"
+  criteria:
+    LOGITECH_SPACE_PLATE:
+      name: "获得空间强化板"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_SPACE_PLATE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_reserve_generator:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_space_plate
+  display:
+    type: LOGITECH_REVERSE_GENERATOR
+    name: "&b结束抽象化"
+    lore:
+      - "&a获得逆生成器"
+  frame_type: TASK
+  name: "&a[结束抽象化]"
+  criteria:
+    LOGITECH_REVERSE_GENERATOR:
+      name: "获得逆生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_REVERSE_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_reserve_generator_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_reserve_generator
+  display:
+    type: LOGITECH_REVERSE_GENERATOR
+    name: "&5掌握逻辑的基础"
+    lore:
+      - "&5获得8个逆生成器"
+      - "&5要那么多基础物资干什么呢？"
+  frame_type: CHALLENGE
+  name: "&5[掌握逻辑的基础]"
+  criteria:
+    LOGITECH_REVERSE_GENERATOR:
+      name: "获得8个逆生成器"
+      type: inventory
+      amount: 8
+      item:
+        type: LOGITECH_REVERSE_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_virtual_plant:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_space_plate
+  display:
+    type: LOGITECH_VIRTUAL_PLANT
+    name: "&b最好的种植机"
+    lore:
+      - "&a获得Minecraft种植机"
+  frame_type: TASK
+  name: "&a[最好的种植机]"
+  criteria:
+    LOGITECH_VIRTUAL_PLANT:
+      name: "获得Minecraft种植机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_VIRTUAL_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_virtual_plant_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_virtual_plant
+  display:
+    type: LOGITECH_VIRTUAL_PLANT
+    name: "&5Minecraft种植机大户"
+    lore:
+      - "&5获得64个Minecraft种植机"
+  frame_type: CHALLENGE
+  name: "&5[Minecraft种植机大户]"
+  criteria:
+    LOGITECH_VIRTUAL_PLANT:
+      name: "获得64个Minecraft种植机"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_VIRTUAL_PLANT
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_virtual_miner:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_space_plate
+  display:
+    type: LOGITECH_VIRTUAL_MINER
+    name: "&b最好的矿机"
+    lore:
+      - "&a获得Minecraft矿机"
+  frame_type: TASK
+  name: "&a[最好的矿机]"
+  criteria:
+    LOGITECH_VIRTUAL_MINER:
+      name: "获得Minecraft矿机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_VIRTUAL_MINER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_virtual_miner_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_virtual_miner
+  display:
+    type: LOGITECH_VIRTUAL_MINER
+    name: "&5矿机征服者"
+    lore:
+      - "&5获得64个Minecraft矿机"
+  frame_type: CHALLENGE
+  name: "&5[矿机征服者]"
+  criteria:
+    LOGITECH_VIRTUAL_MINER:
+      name: "获得64个Minecraft矿机"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_VIRTUAL_MINER
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_space_plate_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_space_plate
+  display:
+    type: LOGITECH_SPACE_PLATE
+    name: "&5空间主宰！"
+    lore:
+      - "&5获得64个空间强化板"
+  frame_type: CHALLENGE
+  name: "&5[空间主宰！]"
+  criteria:
+    LOGITECH_SPACE_PLATE:
+      name: "获得64个空间强化板"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_SPACE_PLATE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_stackframe:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_space_plate
+  display:
+    type: LOGITECH_STACKFRAME
+    name: "&b堆叠空间"
+    lore:
+      - "&a可算做出来了"
+      - "&a获得堆叠空间"
+  frame_type: TASK
+  name: "&a[堆叠空间]"
+  criteria:
+    LOGITECH_STACKFRAME:
+      name: "获得堆叠空间"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_STACKFRAME
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_stackmachine_and_stackgenerator:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_stackframe
+  display:
+    type: LOGITECH_STACKMACHINE
+    name: "&b堆叠机器"
+    lore:
+      - "&a获得堆叠配方机器和堆叠生成器"
+      - "&a逻辑的最重要玩法之一"
+  frame_type: TASK
+  name: "&a[堆叠机器]"
+  criteria:
+    LOGITECH_STACKMACHINE:
+      name: "获得堆叠配方机器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_STACKMACHINE
+    LOGITECH_STACKMGENERATOR:
+      name: "获得堆叠生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_STACKMGENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_energy_amplifier:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_stackframe
+  display:
+    type: LOGITECH_ENERGY_AMPLIFIER
+    name: "&b发电机的堆叠"
+    lore:
+      - "&a获得量子发电机超频装置"
+      - "&a无限的电力！再也不用为电力发愁啦"
+  frame_type: TASK
+  name: "&a[发电机的堆叠]"
+  criteria:
+    LOGITECH_ENERGY_AMPLIFIER:
+      name: "获得量子发电机超频装置"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_ENERGY_AMPLIFIER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_transmutator:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_space_plate
+  display:
+    type: LOGITECH_TRANSMUTATOR
+    name: "&5元素嬗变者"
+    lore:
+      - "&a要制作元素嬗变机了么"
+      - "&a准备1台元素嬗变机、144原子合金核燃料棒、125元素嬗变机框架和238元素嬗变机防护罩"
+  frame_type: TASK
+  name: "&5[元素嬗变者]"
+  criteria:
+    LOGITECH_TRANSMUTATOR:
+      name: "获得1个元素嬗变机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_TRANSMUTATOR
+    LOGITECH_TRANSMUTATOR_FRAME:
+      name: "获得125个元素嬗变机框架"
+      type: inventory
+      amount: 125
+      item:
+        type: LOGITECH_TRANSMUTATOR_FRAME
+    LOGITECH_TRANSMUTATOR_GLASS:
+      name: "获得238个元素嬗变机防护罩"
+      type: inventory
+      amount: 238
+      item:
+        type: LOGITECH_TRANSMUTATOR_GLASS
+    LOGITECH_TRANSMUTATOR_ROD:
+      name: "获得144个原子合金核燃料棒"
+      type: inventory
+      amount: 144
+      item:
+        type: LOGITECH_TRANSMUTATOR_ROD
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_hgtlpbbi_and_pdcecdmd:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_transmutator
+  display:
+    type: LOGITECH_HGTLPBBI
+    name: "&b高级合金MK.II"
+    lore:
+      - "&a获得汞铊铅铋合金和钚铈镉钔合金"
+      - "&a不是哥们合金？"
+  frame_type: TASK
+  name: "&a[高级合金MK.II]"
+  criteria:
+    LOGITECH_HGTLPBBI:
+      name: "获得汞铊铅铋合金"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_HGTLPBBI
+    LOGITECH_PDCECDMD:
+      name: "获得钚铈镉钔合金"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_PDCECDMD
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_laser:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_transmutator
+  display:
+    type: LOGITECH_LASER
+    name: "&b芯片通信的革命"
+    lore:
+      - "&a获得纳米级激光发射器"
+  frame_type: TASK
+  name: "&a[芯片通信的革命]"
+  criteria:
+    LOGITECH_LASER:
+      name: "获得纳米级激光发射器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_LASER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_laser_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_laser
+  display:
+    type: LOGITECH_LASER
+    name: "&5芯片通信时代"
+    lore:
+      - "&5获得64个纳米级激光发射器"
+  frame_type: CHALLENGE
+  name: "&5[芯片通信时代]"
+  criteria:
+    LOGITECH_LASER:
+      name: "获得64个纳米级激光发射器"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_LASER
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_advanced_chip_maker:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_laser
+  display:
+    type: LOGITECH_ADVANCED_CHIP_MAKER
+    name: "&bCHIP量产计划"
+    lore:
+      - "&a获得高效芯片光刻机"
+      - "&a复制芯片！"
+  frame_type: TASK
+  name: "&a[CHIP量产计划]"
+  criteria:
+    LOGITECH_ADVANCED_CHIP_MAKER:
+      name: "获得高效芯片光刻机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_ADVANCED_CHIP_MAKER
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_chip_reactor:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_advanced_chip_maker
+  display:
+    type: LOGITECH_CHIP_REACTOR
+    name: "&b最好的发电机"
+    lore:
+      - "&a获得芯片发电机"
+      - "&a最高发电CHIP:11111111111111111111111111111110"
+  frame_type: TASK
+  name: "&a[最好的发电机]"
+  criteria:
+    LOGITECH_CHIP_REACTOR:
+      name: "获得芯片发电机"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_CHIP_REACTOR
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_chip_reactor_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_chip_reactor
+  display:
+    type: LOGITECH_CHIP_REACTOR
+    name: "&5数据能源掌握者"
+    lore:
+      - "&5获得64个芯片发电机"
+      - "&5推荐与量子超频发电机一起使用"
+  frame_type: CHALLENGE
+  name: "&5[数据能源掌握者]"
+  criteria:
+    LOGITECH_CHIP_REACTOR:
+      name: "获得64个芯片发电机"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_CHIP_REACTOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_final_sequential:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_hgtlpbbi_and_pdcecdmd
+  display:
+    type: LOGITECH_FINAL_SEQUENTIAL
+    name: "&5逻辑终章的开始"
+    lore:
+      - "&a放置终极概念凝聚者"
+  frame_type: TASK
+  name: "&5[逻辑终章的开始]"
+  criteria:
+    LOGITECH_FINAL_SEQUENTIAL:
+      name: "放置终极概念凝聚者"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_SEQUENTIAL
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_logic_core:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_sequential
+  display:
+    type: LOGITECH_LOGIC_CORE
+    name: "&5终极之核心"
+    lore:
+      - "&a获得逻辑核心"
+      - "&a即将结束逻辑之旅..."
+  frame_type: TASK
+  name: "&a[终极之核心]"
+  criteria:
+    LOGITECH_LOGIC_CORE:
+      name: "获得逻辑核心"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_LOGIC_CORE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_final_frame:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_sequential
+  display:
+    type: LOGITECH_FINAL_FRAME
+    name: "&5终极之基"
+    lore:
+      - "&a获得终极逻辑框架"
+      - "&a终极祭坛需要15个哦~"
+  frame_type: TASK
+  name: "&5[终极之基]"
+  criteria:
+    LOGITECH_FINAL_FRAME:
+      name: "获得终极逻辑框架"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_FRAME
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_final_manual:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_frame
+  display:
+    type: LOGITECH_FINAL_MANUAL
+    name: "&b终极快捷机器"
+    lore:
+      - "&a放置一台终极快捷机器"
+  frame_type: TASK
+  name: "&a[终极快捷机器]"
+  criteria:
+    LOGITECH_FINAL_MANUAL:
+      name: "放置终极快捷机器"
+      type: place
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_MANUAL
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_final_manual_goal:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_manual
+  display:
+    type: LOGITECH_FINAL_MANUAL
+    name: "&5终极快捷机器手动版"
+    lore:
+      - "&a获得64台终极快捷机器"
+      - "&a是的，为的就是解决无法高速自动化逻辑材料的应对方法..."
+  frame_type: GOAL
+  name: "&5[终极快捷机器手动版]"
+  criteria:
+    LOGITECH_FINAL_MANUAL:
+      name: "获得64台终极快捷机器"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_FINAL_MANUAL
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_antimass:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_frame
+  display:
+    type: LOGITECH_ANTIMASS
+    name: "&5世界侵染者"
+    lore:
+      - "&a获得反概念物质"
+      - "&a推荐新做一个超大水池区域，尺寸100×100×100，再在中间放下反概念物质"
+      - "&a反概念物质生成过程中最好不要乱切换手上的物品，或尽量保持空手状态"
+  frame_type: TASK
+  name: "&5[世界侵染者]"
+  criteria:
+    LOGITECH_ANTIMASS:
+      name: "获得反概念物质"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_ANTIMASS
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_antimass_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_antimass
+  display:
+    type: LOGITECH_ANTIMASS
+    name: "&e&l成为反物质，&6&l神秘亦未知"
+    lore:
+      - "&5获得64个反概念物质"
+      - "&5做这么多你是想毁服吗？"
+  frame_type: CHALLENGE
+  name: "[&e&l成为反物质，&6&l神秘亦未知]"
+  criteria:
+    LOGITECH_ANTIMASS:
+      name: "获得64个反概念物质"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_ANTIMASS
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_rand_editor:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_frame
+  display:
+    type: LOGITECH_RAND_EDITOR
+    name: "&5终极属性增幅大师"
+    lore:
+      - "&a获得属性量化增幅器"
+  frame_type: GOAL
+  name: "&5[终极属性增幅大师]"
+  criteria:
+    LOGITECH_RAND_EDITOR:
+      name: "获得属性量化增幅器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_RAND_EDITOR
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_final_convertor:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_frame
+  display:
+    type: LOGITECH_FINAL_CONVERTOR
+    name: "&5终极祭坛"
+    lore:
+      - "&a你要结束这一切了么..."
+      - "&a获得1个物质量化重塑器、4宏激光发射器、5终极祭坛、15终极逻辑框架和268终极祭坛基石"
+      - "&a搭建终极祭坛吧..."
+  frame_type: TASK
+  name: "&5[终极祭坛]"
+  criteria:
+    LOGITECH_FINAL_CONVERTOR:
+      name: "获得1个物质量化重塑器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_CONVERTOR
+    LOGITECH_FINAL_LASER:
+      name: "获得4个宏激光发射器"
+      type: inventory
+      amount: 4
+      item:
+        type: LOGITECH_FINAL_LASER
+    LOGITECH_FINAL_ALTAR:
+      name: "获得5个终极祭坛"
+      type: inventory
+      amount: 5
+      item:
+        type: LOGITECH_FINAL_ALTAR
+    LOGITECH_FINAL_FRAME:
+      name: "获得15个终极逻辑框架"
+      type: inventory
+      amount: 15
+      item:
+        type: LOGITECH_FINAL_FRAME
+    LOGITECH_FINAL_BASE:
+      name: "获得268个终极祭坛基石"
+      type: inventory
+      amount: 268
+      item:
+        type: LOGITECH_FINAL_BASE
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_virtualworld:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_convertor
+  display:
+    type: LOGITECH_VIRTUALWORLD
+    name: "&5虚拟世界"
+    lore:
+      - "&a某方面其实这也只是开始"
+  frame_type: TASK
+  name: "&5[虚拟世界]"
+  criteria:
+    LOGITECH_VIRTUALWORLD:
+      name: "获得虚拟世界"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_VIRTUALWORLD
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_virtualworld_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_virtualworld
+  display:
+    type: LOGITECH_VIRTUALWORLD
+    name: "&5虚拟世界掌控者"
+    lore:
+      - "&5获得64个虚拟世界"
+      - "&5开始终极堆叠吧！"
+  frame_type: CHALLENGE
+  name: "&5[虚拟世界掌控者]"
+  criteria:
+    LOGITECH_VIRTUALWORLD:
+      name: "获得64个虚拟世界"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_VIRTUALWORLD
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_final_stackmachine_stackgenerator_and_craft:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_virtualworld
+  display:
+    type: LOGITECH_FINAL_STACKMACHINE
+    name: "&5机器的最终归宿"
+    lore:
+      - "&a获得终极堆叠 - 配方机器、终极堆叠 - 生成器和终极合成工厂"
+  frame_type: TASK
+  name: "&5[机器的最终归宿]"
+  criteria:
+    LOGITECH_FINAL_STACKMACHINE:
+      name: "获得终极堆叠 - 配方机器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_STACKMACHINE
+    LOGITECH_FINAL_STACKMGENERATOR:
+      name: "获得终极堆叠 - 生成器"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_STACKMGENERATOR
+    LOGITECH_FINAL_CRAFT:
+      name: "获得终极合成工厂"
+      type: inventory
+      amount: 1
+      item:
+        type: LOGITECH_FINAL_CRAFT
+  rewards:
+    commands:
+      - "experience add %p% 3 points"
+
+slimefun4_logitech_final_stackmachine_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_stackmachine_stackgenerator_and_craft
+  display:
+    type: LOGITECH_FINAL_STACKMACHINE
+    name: "&5规则配方机器掌握者"
+    lore:
+      - "&5获得64个终极堆叠 - 配方机器"
+  frame_type: CHALLENGE
+  name: "&5[规则配方机器掌握者]"
+  criteria:
+    LOGITECH_FINAL_STACKMACHINE:
+      name: "获得64个终极堆叠 - 配方机器"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_FINAL_STACKMACHINE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_final_stackgenerator_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_stackmachine_stackgenerator_and_craft
+  display:
+    type: LOGITECH_FINAL_STACKMACHINE
+    name: "&5规则材料生成器掌握者"
+    lore:
+      - "&5获得64个终极堆叠 - 生成器"
+  frame_type: CHALLENGE
+  name: "&5[规则材料生成器掌握者]"
+  criteria:
+    LOGITECH_FINAL_STACKMACHINE:
+      name: "获得64个终极堆叠 - 生成器"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_FINAL_STACKMACHINE
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_logitech_final_craft_challenge:
+  group: LengShang_LUOJI
+  parent: slimefun4_logitech_final_stackmachine_stackgenerator_and_craft
+  display:
+    type: LOGITECH_FINAL_CRAFT
+    name: "&5逻辑终章"
+    lore:
+      - "&5获得64个终极合成工厂"
+      - "&e&l恭喜通关逻辑工艺"
+      - "&e&l祝您玩的愉快！"
+  frame_type: CHALLENGE
+  name: "&5[逻辑终章]"
+  criteria:
+    LOGITECH_FINAL_CRAFT:
+      name: "获得64个终极合成工厂"
+      type: inventory
+      amount: 64
+      item:
+        type: LOGITECH_FINAL_CRAFT
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_fluffymachine_watering_can:
+  group: slimefun4
+  parent: slimefun4_basic_begin
+  display:
+    type: WATERING_CAN
+    name: "&b便携喷壶"
+    lore:
+      - "&a简单实用作物催熟器"
+  frame_type: TASK
+  name: "&a[便携喷壶]"
+  criteria:
+    WATERING_CAN:
+      name: "获得喷壶"
+      type: inventory
+      amount: 1
+      item:
+        type: WATERING_CAN
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+slimefun4_fluffymachine_upgrade_explosive_pickaxe:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_watering_can
+  display:
+    type: UPGRADED_EXPLOSIVE_PICKAXE
+    name: "&b改进版爆破镐"
+    lore:
+      - "&a进一步加强"
+  frame_type: TASK
+  name: "&a[改进版爆破镐]"
+  criteria:
+    UPGRADED_EXPLOSIVE_PICKAXE:
+      name: "获得改进爆破镐"
+      type: inventory
+      amount: 1
+      item:
+        type: UPGRADED_EXPLOSIVE_PICKAXE
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_fluffymachine_upgrade_explosive_shovel:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_upgrade_explosive_pickaxe
+  display:
+    type: UPGRADED_EXPLOSIVE_SHOVEL
+    name: "&b改进版爆破铲"
+    lore:
+      - "&a进一步加强"
+  frame_type: TASK
+  name: "&a[改进版爆破铲]"
+  criteria:
+    UPGRADED_EXPLOSIVE_SHOVEL:
+      name: "获得改进爆破铲"
+      type: inventory
+      amount: 1
+      item:
+        type: UPGRADED_EXPLOSIVE_SHOVEL
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_fluffymachine_upgrade_lumber_axe:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_watering_can
+  display:
+    type: UPGRADED_LUMBER_AXE
+    name: "&b更好的樵夫之斧"
+    lore:
+      - "&a这回不再出现砍不掉大云杉的问题了"
+  frame_type: TASK
+  name: "&a[更好的樵夫之斧]"
+  criteria:
+    UPGRADED_LUMBER_AXE:
+      name: "获得改进伐木斧"
+      type: inventory
+      amount: 1
+      item:
+        type: UPGRADED_LUMBER_AXE
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_fluffymachine_water_sprinkler:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_watering_can
+  display:
+    type: WATER_SPRINKLER
+    name: "&b自动版喷壶"
+    lore:
+      - "&a强力物品"
+      - "&a放置一个洒水器"
+  frame_type: TASK
+  name: "&a[自动版喷壶]"
+  criteria:
+    WATER_SPRINKLER:
+      name: "放置洒水器"
+      type: inventory
+      amount: 1
+      item:
+        type: WATER_SPRINKLER
+  rewards:
+    commands:
+      - "experience add %p% 14 points"
+
+slimefun4_fluffymachine_electric_dust_fabricator:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_water_sprinkler
+  display:
+    type: ELECTRIC_DUST_FABRICATOR
+    name: "&b低配版磨粉机"
+    lore:
+      - "&a获得粉尘制造机"
+      - "&a...有无尽科技的话还是去做磨粉机吧"
+  frame_type: TASK
+  name: "&a[低配版磨粉机]"
+  criteria:
+    ELECTRIC_DUST_FABRICATOR:
+      name: "获得粉尘制造机"
+      type: inventory
+      amount: 1
+      item:
+        type: ELECTRIC_DUST_FABRICATOR
+  rewards:
+    commands:
+      - "experience add %p% 14 points"
+
+slimefun4_fluffymachine_smart_factory:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_electric_dust_fabricator
+  display:
+    type: SMART_FACTORY
+    name: "&b制杖工厂？"
+    lore:
+      - "&a获得智能工厂"
+      - "&a...就不能直接用硫酸盐和碳么"
+  frame_type: TASK
+  name: "&a[一体达人]"
+  criteria:
+    SMART_FACTORY:
+      name: "获得智能工厂"
+      type: inventory
+      amount: 1
+      item:
+        type: SMART_FACTORY
+  rewards:
+    commands:
+      - "experience add %p% 14 points"
+
+slimefun4_fluffymachine_crank_generator:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_water_sprinkler
+  display:
+    type: CRANK_GENERATOR
+    name: "&b摇摆吧！"
+    lore:
+      - "&a使用一次手摇发电机"
+      - "&a前期发电神器! "
+  frame_type: TASK
+  name: "&a[摇摆吧！]"
+  criteria:
+    CRANK_GENERATOR:
+      name: "使用手摇发电机"
+      type: multiblock
+      multiblock: CRANK_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_fluffymachine_carbonado_portable_charger:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_crank_generator
+  display:
+    type: CARBONADO_PORTABLE_CHARGER
+    name: "&b理想型充电宝"
+    lore:
+      - "&a获得五阶便携式充电器"
+  frame_type: TASK
+  name: "&a[理想型充电宝]"
+  criteria:
+    CARBONADO_PORTABLE_CHARGER:
+      name: "获得五阶便携式充电器"
+      type: inventory
+      amount: 1
+      item:
+        type: CARBONADO_PORTABLE_CHARGER
+  rewards:
+    commands:
+      - "experience add %p% 18 points"
+
+slimefun4_fluffymachine_paxel:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_water_sprinkler
+  display:
+    type: PAXEL
+    name: "&b理想万能工具"
+    lore:
+      - "&a获得多功能工具"
+      - "&a...可惜不支持锄和剑"
+  frame_type: TASK
+  name: "&a[理想万能工具]"
+  criteria:
+    PAXEL:
+      name: "获得多功能工具"
+      type: inventory
+      amount: 1
+      item:
+        type: PAXEL
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_fluffymachine_helicopter_hat:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_paxel
+  display:
+    type: HELICOPTER_HAT
+    name: "&b我能说什么？"
+    lore:
+      - "&a获得直升机帽"
+      - "&a没有飞行的情况下，也是个不错的选择"
+  frame_type: TASK
+  name: "&a[我能说什么？]"
+  criteria:
+    HELICOPTER_HAT:
+      name: "获得直升机帽"
+      type: inventory
+      amount: 1
+      item:
+        type: HELICOPTER_HAT
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_fluffymachine_fluffy_wrench:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_water_sprinkler
+  display:
+    type: FLUFFY_WRENCH
+    name: "&b怎么又不小心做了一堆这个？"
+    lore:
+      - "&a一定是快捷机器的锅! " 
+  frame_type: TASK
+  name: "&a[怎么又不小心做了一堆这个？]"
+  criteria:
+    FLUFFY_WRENCH:
+      name: "获得16个扳手"
+      type: inventory
+      amount: 16
+      item:
+        type: FLUFFY_WRENCH
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_fluffymachine_mini_fluffy_barrel:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_water_sprinkler
+  display:
+    type: MINI_FLUFFY_BARREL
+    name: "&b迷你存储单元"
+    lore:
+      - "&a将大量单一物品存储起来，且便宜好做"
+      - "&a放置一个迷你蓬松箱子"
+  frame_type: TASK
+  name: "&a[迷你存储单元]"
+  criteria:
+    MINI_FLUFFY_BARREL:
+      name: "放置迷你蓬松箱子"
+      type: place
+      amount: 1
+      item:
+        type: MINI_FLUFFY_BARREL
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+slimefun4_fluffymachine_mini_fluffy_barrel_64:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_mini_fluffy_barrel
+  display:
+    type: MINI_FLUFFY_BARREL
+    name: "&b迷你存储阵列"
+    lore:
+      - "&a前期凑合用的一堆存储"
+      - "&a可惜不能快捷搬运"
+  frame_type: TASK
+  name: "&a[迷你存储阵列]"
+  criteria:
+    MINI_FLUFFY_BARREL:
+      name: "获得64个迷你蓬松箱子"
+      type: inventory
+      amount: 64
+      item:
+        type: MINI_FLUFFY_BARREL
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_fluffymachine_bottomless_fluffy_barrel:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_mini_fluffy_barrel_64
+  display:
+    type: BOTTOMLESS_FLUFFY_BARREL
+    name: "&5无底桶"
+    lore:
+      - "&a获得六阶迷你蓬松箱子"
+  frame_type: TASK
+  name: "&5[无底桶]"
+  criteria:
+    BOTTOMLESS_FLUFFY_BARREL:
+      name: "获得六阶迷你蓬松箱子"
+      type: inventory
+      amount: 1
+      item:
+        type: BOTTOMLESS_FLUFFY_BARREL
+  rewards:
+    commands:
+      - "experience add %p% 12 points"
+
+slimefun4_fluffymachine_auto_enhanced_crafting_table:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_water_sprinkler
+  display:
+    type: AUTO_ENHANCED_CRAFTING_TABLE
+    name: "&b小体积合成器"
+    lore:
+      - "&a获得自动增强型工作台"
+  frame_type: TASK
+  name: "&a[小体积合成器]"
+  criteria:
+    AUTO_ENHANCED_CRAFTING_TABLE:
+      name: "获得自动增强型工作台"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_ENHANCED_CRAFTING_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+slimefun4_fluffymachine_auto_ancient_altar:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_auto_enhanced_crafting_table
+  display:
+    type: AUTO_ANCIENT_ALTAR
+    name: "&5古代祭坛自动化"
+    lore:
+      - "&a获得全自动远古祭坛"
+      - "&a乱序等快捷机器无法手动合成古代祭坛配方的，不妨使用这个吧，比如修复已损坏的刷怪笼"
+  frame_type: TASK
+  name: "&5[古代祭坛自动化]"
+  criteria:
+    AUTO_ANCIENT_ALTAR:
+      name: "获得全自动远古祭坛"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_ANCIENT_ALTAR
+  rewards:
+    commands:
+      - "experience add %p% 8 points"
+
+slimefun4_fluffymachine_auto_ancient_altar_challenge:
+  group: slimefun4
+  parent: slimefun4_fluffymachine_auto_ancient_altar
+  display:
+    type: SMART_FACTORY
+    name: "&e蓬松科技，主导天下"
+    lore:
+      - "&5掌握蓬松科技，引领粘液未来"
+      - "&5获得洒水机、全自动工作台(原版)、"
+      - "&5自动增强型工作台、全自动台锯、"
+      - "&5自动魔法工作台、全自动盔甲锻造机、"
+      - "&5全自动远古祭坛、粉尘制造机、智能工厂，"
+      - "&5高级全自动祛魔机、高级充电台"
+      - "&5高级充电台升级卡，远古之书各1个"
+  frame_type: CHALLENGE
+  name: "&e[蓬松科技，主导天下]"
+  criteria:
+    WATER_SPRINKLER:
+      name: "洒水机"
+      type: inventory
+      amount: 1
+      item:
+        type: WATER_SPRINKLER
+    AUTO_CRAFTING_TABLE:
+      name: "全自动工作台(原版)"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_CRAFTING_TABLE
+    AUTO_ENHANCED_CRAFTING_TABLE:
+      name: "自动增强型工作台"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_ENHANCED_CRAFTING_TABLE
+    AUTO_TABLE_SAW:
+      name: "全自动台锯"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_TABLE_SAW
+    AUTO_MAGIC_WORKBENCH:
+      name: "自动魔法工作台"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_MAGIC_WORKBENCH
+    AUTO_ARMOR_FORGE:
+      name: "全自动盔甲锻造机"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_ARMOR_FORGE
+    AUTO_ANCIENT_ALTAR:
+      name: "全自动远古祭坛"
+      type: inventory
+      amount: 1
+      item:
+        type: AUTO_ANCIENT_ALTAR
+    ELECTRIC_DUST_FABRICATOR:
+      name: "粉尘制造机"
+      type: inventory
+      amount: 1
+      item:
+        type: ELECTRIC_DUST_FABRICATOR
+    SMART_FACTORY:
+      name: "智能工厂"
+      type: inventory
+      amount: 1
+      item:
+        type: SMART_FACTORY
+    ADVANCED_AUTO_DISENCHANTER:
+      name: "高级全自动祛魔机"
+      type: inventory
+      amount: 1
+      item:
+        type: ADVANCED_AUTO_DISENCHANTER
+    ADVANCED_CHARGING_BENCH:
+      name: "高级充电台"
+      type: inventory
+      amount: 1
+      item:
+        type: ADVANCED_CHARGING_BENCH
+    ACB_UPGRADE_CARD:
+      name: "高级充电台升级卡"
+      type: inventory
+      amount: 1
+      item:
+        type: ACB_UPGRADE_CARD
+    ANCIENT_BOOK:
+      name: "远古之书"
+      type: inventory
+      amount: 1
+      item:
+        type: ANCIENT_BOOK
+  rewards:
+    commands:
+      - "experience add %p% 3 levels"
+
+slimefun4_hmkjy_fhb:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: FUHEBAN 
+    name: "&8&l海曼的起点"
+    lore:
+      - "&a获得复合板"
+      - "&a没错...复合板只是起点..."
+  frame_type: TASK
+  name: "&8&l[海曼的起点]"
+  criteria:
+    FUHEBAN:
+      name: "获得复合板"
+      type: inventory
+      amount: 1
+      item:
+        type: FUHEBAN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_rzgjcl:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: ARTIFICIAL_SILICON_BASED_MATERIALS
+    name: "&c&lMC历史上伟大的创新"
+    lore:
+      - "&a获得人造硅基材料"
+  frame_type: TASK
+  name: "&c&l[MC历史上伟大的创新]"
+  criteria:
+    ARTIFICIAL_SILICON_BASED_MATERIALS:
+      name: "获得人造硅基材料"
+      type: inventory
+      amount: 1
+      item:
+        type: ARTIFICIAL_SILICON_BASED_MATERIALS
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_mcys:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MINECRAFT_SOURCE_STONE 
+    name: "&5&l源神，启动！"
+    lore:
+      - "&a获得Minecraft源石"
+  frame_type: TASK
+  name: "&5&l[源神，启动！]"
+  criteria:
+    MINECRAFT_SOURCE_STONE:
+      name: "获得Minecraft源石"
+      type: inventory
+      amount: 1
+      item:
+        type: MINECRAFT_SOURCE_STONE
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_fzczy1:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+    name: "&b&l开始分子重组" 
+    lore:
+      - "&a放置分子重组仪 - I " 
+  frame_type: TASK
+  name: "&b&l[开始分子重组]" 
+  criteria:
+    MOLECULAR_RECOMBINATION_INSTRUMENT_I: 
+      name: "放置分子重组仪 - I "
+      type: place
+      amount: 1
+      item:
+        type: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_fzczy2:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MOLECULAR_RECOMBINATION_INSTRUMENT_II
+    name: "&b&l更快的重组仪" 
+    lore:
+      - "&a放置分子重组仪 - II " 
+      - "&a可以重组龙头啦 " 
+  frame_type: TASK
+  name: "&b&l[更快的重组仪]" 
+  criteria:
+    MOLECULAR_RECOMBINATION_INSTRUMENT_II: 
+      name: "放置分子重组仪 - II "
+      type: place
+      amount: 1
+      item:
+        type: MOLECULAR_RECOMBINATION_INSTRUMENT_II
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_fzczy3:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MOLECULAR_RECOMBINATION_INSTRUMENT_III
+    name: "&b&l海曼的新型高科技" 
+    lore:
+      - "&a放置分子重组仪 - III" 
+  frame_type: TASK
+  name: "&b&l[海曼的新型高科技]" 
+  criteria:
+    MOLECULAR_RECOMBINATION_INSTRUMENT_III: 
+      name: "放置分子重组仪 - III "
+      type: place
+      amount: 1
+      item:
+        type: MOLECULAR_RECOMBINATION_INSTRUMENT_III
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_fzczy4:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+    name: "&b&l这...是4级重组仪？" 
+    lore:
+      - "&a放置分子重组仪 - IV " 
+  frame_type: TASK
+  name: "&b&l[这...是4级重组仪？]" 
+  criteria:
+    MOLECULAR_RECOMBINATION_INSTRUMENT_IV: 
+      name: "放置分子重组仪 - IV "
+      type: place
+      amount: 1
+      item:
+        type: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_fzczy5:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MOLECULAR_RECOMBINATION_INSTRUMENT_V
+    name: "&b&l重组仪的最终目标" 
+    lore:
+      - "&a放置分子重组仪 - V " 
+      - "&a最快的重组仪..." 
+  frame_type: TASK
+  name: "&b&l[重组仪的最终目标]" 
+  criteria:
+    MOLECULAR_RECOMBINATION_INSTRUMENT_V: 
+      name: "放置分子重组仪 - V "
+      type: place
+      amount: 1
+      item:
+        type: MOLECULAR_RECOMBINATION_INSTRUMENT_V
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_hmdt:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN
+    name: "&e&l海曼科技院作者"
+    lore:
+      - "&a获得haiman的头"
+      - "&a感谢您为海曼科技院付出的一切"
+  frame_type: TASK
+  name: "&e&l[海曼科技院作者]"
+  criteria:
+    HAIMAN:
+      name: "获得haiman的头"
+      type: inventory
+      amount: 1
+      item:
+        type: HAIMAN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_yskj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: YASUOKONGJIAN
+    name: "&c&l空间结构"
+    lore:
+      - "&a获得压缩空间"
+      - "&a超频电路板的重要材料"
+  frame_type: TASK
+  name: "&c&l[空间结构]"
+  criteria:
+    YASUOKONGJIAN:
+      name: "获得压缩空间"
+      type: inventory
+      amount: 1
+      item:
+        type: YASUOKONGJIAN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_cpdlb:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HM_CHAOPING_CIRCUIT_BOARD
+    name: "&4&l最好的电路板"
+    lore:
+      - "&a获得超频电路板"
+      - "&a海曼高级机器的重要材料"
+  frame_type: TASK
+  name: "&4&l[最好的电路板]"
+  criteria:
+    HM_CHAOPING_CIRCUIT_BOARD:
+      name: "获得超频电路板"
+      type: inventory
+      amount: 1
+      item:
+        type: HM_CHAOPING_CIRCUIT_BOARD
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_thdxz:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: CREEPER_COAL_HEART
+    name: "&4&l死灰无法复燃"
+    lore:
+      - "&a获得碳化的心脏"
+      - "&a海曼锭的重要材料"
+  frame_type: TASK
+  name: "&4&l[死灰无法复燃]"
+  criteria:
+    CREEPER_COAL_HEART:
+      name: "获得碳化的心脏"
+      type: inventory
+      amount: 1
+      item:
+        type: CREEPER_COAL_HEART
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_hmd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_INGOT
+    name: "&b&l作者的锭？"
+    lore:
+      - "&a获得海曼锭"
+  frame_type: TASK
+  name: "&b&l[作者的锭？]"
+  criteria:
+    HAIMAN_INGOT:
+      name: "获得海曼锭"
+      type: inventory
+      amount: 1
+      item:
+        type: HAIMAN_INGOT
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_cszy:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: CHUANGSHI_YIN
+    name: "&4&l创世神的歌声？"
+    lore:
+      - "&a获得创世之音"
+  frame_type: TASK
+  name: "&4&l[创世神的歌声？]"
+  criteria:
+    CHUANGSHI_YIN:
+      name: "获得创世之音"
+      type: inventory
+      amount: 1
+      item:
+        type: CHUANGSHI_YIN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_csgwmk:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HT_MODULE_1
+    name: "&5&l燃起来了"
+    lore:
+      - "&a获得创世高温模块"
+  frame_type: TASK
+  name: "&5&l[燃起来了]"
+  criteria:
+    HT_MODULE_1:
+      name: "获得创世高温模块"
+      type: inventory
+      amount: 1
+      item:
+        type: HT_MODULE_1
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_jbgwmk:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: JUBIAN_MOKUAI
+    name: "&4&l燃尽一切"
+    lore:
+      - "&a获得聚变高温模块"
+  frame_type: TASK
+  name: "&4&l[燃尽一切]"
+  criteria:
+    JUBIAN_MOKUAI:
+      name: "获得聚变高温模块"
+      type: inventory
+      amount: 1
+      item:
+        type: JUBIAN_MOKUAI
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_xn:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_NEW_YEAR_1
+    name: "&d&l新年快乐"
+    lore:
+      - "&a获得新年"
+  frame_type: TASK
+  name: "&d&l[新年快乐]"
+  criteria:
+    HAIMAN_NEW_YEAR_1:
+      name: "获得新年"
+      type: inventory
+      amount: 1
+      item:
+        type: HAIMAN_NEW_YEAR_1
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_zjnymd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: ULTIMATE_ENERGY_MOTOR
+    name: "&4&l马达的极限！"
+    lore:
+      - "&a获得终极能源马达"
+  frame_type: TASK
+  name: "&4&l[马达的极限！]"
+  criteria:
+    ULTIMATE_ENERGY_MOTOR:
+      name: "获得终极能源马达"
+      type: inventory
+      amount: 1
+      item:
+        type: ULTIMATE_ENERGY_MOTOR
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_txmd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: TIANXUAN_MADA
+    name: "&b&l来自天璇工艺的力量"
+    lore:
+      - "&a获得天璇马达"
+  frame_type: TASK
+  name: "&b&l[来自天璇工艺的力量]"
+  criteria:
+    TIANXUAN_MADA:
+      name: "获得天璇马达"
+      type: inventory
+      amount: 1
+      item:
+        type: TIANXUAN_MADA
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_wjdysqd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_INFINITY_CONSTRUCTOR_2
+    name: "&b&l压缩无尽奇点"
+    lore:
+      - "&a获得无尽锭压缩奇点"
+  frame_type: TASK
+  name: "&b&l[压缩无尽奇点]"
+  criteria:
+    HAIMAN_INFINITY_CONSTRUCTOR_2:
+      name: "获得无尽锭压缩奇点"
+      type: inventory
+      amount: 1
+      item:
+        type: HAIMAN_INFINITY_CONSTRUCTOR_2
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_sqhx:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HM_SHENQUAN_HEXIN
+    name: "&e&l创世神的力量"
+    lore:
+      - "&a获得神权核心"
+  frame_type: TASK
+  name: "&e&l[创世神的力量]"
+  criteria:
+    HM_SHENQUAN_HEXIN:
+      name: "获得神权核心"
+      type: inventory
+      amount: 1
+      item:
+        type: HM_SHENQUAN_HEXIN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_hmxp:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HM_HONGMENG_XINPIAN
+    name: "&c&l鸿蒙科技"
+    lore:
+      - "&a获得鸿蒙芯片"
+  frame_type: TASK
+  name: "&c&l[鸿蒙科技]"
+  criteria:
+    HM_HONGMENG_XINPIAN:
+      name: "获得鸿蒙芯片"
+      type: inventory
+      amount: 1
+      item:
+        type: HM_HONGMENG_XINPIAN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_qzddyj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: DUIDIEYUANJIAN
+    name: "&5&l改变规则"
+    lore:
+      - "&a获得强制堆叠元件"
+      - "&a堆叠原版不可堆叠之物"
+  frame_type: TASK
+  name: "&5&l[改变规则]"
+  criteria:
+    DUIDIEYUANJIAN:
+      name: "获得强制堆叠元件"
+      type: inventory
+      amount: 1
+      item:
+        type: DUIDIEYUANJIAN
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_ygdyw:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: ANCIENT_ITEM
+    name: "&6&l这是从哪挖掘出来的呢？"
+    lore:
+      - "&a获得远古的遗物"
+  frame_type: TASK
+  name: "&6&l[这是从哪挖掘出来的呢？]"
+  criteria:
+    ANCIENT_ITEM:
+      name: "获得远古的遗物"
+      type: inventory
+      amount: 1
+      item:
+        type: ANCIENT_ITEM
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_mlfkrsj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: COMMAND_BLOCK_DYE_MACHINE
+    name: "&6&l命令方块染色机" 
+    lore:
+      - "&a放置一台命令方块染色机 " 
+  frame_type: TASK
+  name: "&6&l[命令方块染色机]" 
+  criteria:
+    COMMAND_BLOCK_DYE_MACHINE: 
+      name: "放置命令方块染色机"
+      type: place
+      amount: 1
+      item:
+        type: COMMAND_BLOCK_DYE_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_mlfkjrj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: COMMAND_BLOCK_DYE_MACHINE_2
+    name: "&c&l更快的染色机" 
+    lore:
+      - "&a放置一台命令方块浸染机 " 
+  frame_type: TASK
+  name: "&c&l[更快的染色机]" 
+  criteria:
+    COMMAND_BLOCK_DYE_MACHINE_2: 
+      name: "放置命令方块浸染机"
+      type: place
+      amount: 1
+      item:
+        type: COMMAND_BLOCK_DYE_MACHINE_2
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_hsbj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: NUCLEAR_DECAY_MACHINE
+    name: "&a&l可控核衰变" 
+    lore:
+      - "&a放置一台核衰变机 " 
+  frame_type: TASK
+  name: "&a&l[可控核衰变]" 
+  criteria:
+    NUCLEAR_DECAY_MACHINE: 
+      name: "放置核衰变机"
+      type: place
+      amount: 1
+      item:
+        type: NUCLEAR_DECAY_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_qgdxjnyjyj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: STRANGE_NETHER_GOO_MACHINE
+    name: "&5&l与猪灵进行PY交易？" 
+    lore:
+      - "&a放置一台奇怪的下界粘液交易机 " 
+  frame_type: TASK
+  name: "&5&l[与猪灵进行PY交易？]" 
+  criteria:
+    STRANGE_NETHER_GOO_MACHINE: 
+      name: "放置奇怪的下界粘液交易机"
+      type: place
+      amount: 1
+      item:
+        type: STRANGE_NETHER_GOO_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_cpfkj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MUSIC_DISC_PRODUCER
+    name: "&b&l复刻唱片" 
+    lore:
+      - "&a放置一台唱片刻印机 " 
+      - "&a或许在自动化远古的遗物时需要它" 
+  frame_type: TASK
+  name: "&b&l[复刻唱片]" 
+  criteria:
+    MUSIC_DISC_PRODUCER: 
+      name: "放置唱片刻印机"
+      type: place
+      amount: 1
+      item:
+        type: MUSIC_DISC_PRODUCER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_tzpsj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_ANVIL_BROKER
+    name: "&6&l自动破坏铁砧" 
+    lore:
+      - "&a获得铁砧破碎机 " 
+      - "&a或许在自动化远古的遗物时需要它" 
+  frame_type: TASK
+  name: "&6&l[自动破坏铁砧]" 
+  criteria:
+    HAIMAN_ANVIL_BROKER: 
+      name: "获得2个铁砧破碎机"
+      type: inventory
+      amount: 2
+      item:
+        type: HAIMAN_ANVIL_BROKER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_shj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_STONE_CHANGER
+    name: "&6&l石化机" 
+    lore:
+      - "&a放置一台石化机 " 
+      - "&a前期制作黑石必备" 
+  frame_type: TASK
+  name: "&6&l[石化机]" 
+  criteria:
+    HAIMAN_STONE_CHANGER: 
+      name: "放置石化机"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_STONE_CHANGER
+  rewards:
+    commands:
+      - "experience add %p% 10 points"
+
+slimefun4_hmkjy_jsyusm:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: JINSHUJGC
+    name: "&b&l自动化工业"
+    lore:
+      - "&a获得金属加工厂和手磨加工厂"
+      - "&a或许需要制作更多..."
+  frame_type: TASK
+  name: "&b&l[自动化工业]"
+  criteria:
+    JINSHUJGC:
+      name: "获得金属加工厂"
+      type: inventory
+      amount: 1
+      item:
+        type: JINSHUJGC
+    SHOUMOJGC:
+      name: "获得手磨加工厂"
+      type: inventory
+      amount: 1
+      item:
+        type: SHOUMOJGC
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_shuchang:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_BOOK_MACHINE
+    name: "&c&l百科全书"
+    lore:
+      - "&a获得并放置一个书厂"
+      - "&a前期制作粘液书用..."
+      - "&a或许你在自动化神权核心用的上..."
+  frame_type: TASK
+  name: "&c&l[百科全书]"
+  criteria:
+   HAIMAN_BOOK_MACHINE:
+      name: "放置书厂"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_BOOK_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_kczpj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_MINECART_MACHINE
+    name: "&c&l你配矿车吗？"
+    lore:
+      - "&a放置一个矿车装配机"
+      - "&a或许你在自动化神权核心用的上..."
+  frame_type: TASK
+  name: "&c&l[你配矿车吗？]"
+  criteria:
+   HAIMAN_MINECART_MACHINE:
+      name: "放置矿车装配机"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_MINECART_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_debugcsj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_DEBUG_MACHINE
+    name: "&9&l测试BUG？"
+    lore:
+      - "&a放置一个Debug调试机"
+      - "&a或许你在自动化神权核心用的上..."
+  frame_type: TASK
+  name: "&9&l[测试BUG？]"
+  criteria:
+   HAIMAN_DEBUG_MACHINE:
+      name: "放置Debug调试机"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_DEBUG_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_xnkj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: DIYUKONGJIAN
+    name: "&4&l虚拟空间"
+    lore:
+      - "&a获得地狱空间和末地空间"
+  frame_type: TASK
+  name: "&4&l[虚拟空间]"
+  criteria:
+   DIYUKONGJIAN:
+      name: "获得地狱空间"
+      type: inventory
+      amount: 1
+      item:
+        type: DIYUKONGJIAN
+   MODIKONGJIAN:
+      name: "获得末地空间"
+      type: inventory
+      amount: 1
+      item:
+        type: MODIKONGJIAN
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_hlbjd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HELIEBIAN_3
+    name: "&c&l可控核聚变"
+    lore:
+      - "&a放置一个核聚变基地"
+      - "&a或许在未来的某一天能实现可控核聚变..."
+  frame_type: TASK
+  name: "&c&l[可控核聚变]"
+  criteria:
+   HELIEBIAN_3:
+      name: "放置核聚变基地"
+      type: place
+      amount: 1
+      item:
+        type: HELIEBIAN_3
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_swxjj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_FOXY_PRODUCER
+    name: "&c&l在虚空中献祭生物"
+    lore:
+      - "&a放置一个生物献祭机"
+      - "&a自动化生产神秘科技产物"
+  frame_type: TASK
+  name: "&c&l[在虚空中献祭生物]"
+  criteria:
+   HAIMAN_FOXY_PRODUCER:
+      name: "放置生物献祭机"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_FOXY_PRODUCER
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_zjrf:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_ADVANCE_DYING
+    name: "&4&l染坊合体"
+    lore:
+      - "&a放置一个终极染坊"
+      - "&a制作海曼的头..."
+  frame_type: TASK
+  name: "&4&l[染坊合体]"
+  criteria:
+   HAIMAN_ADVANCE_DYING:
+      name: "放置终极染坊"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_ADVANCE_DYING
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_tzglj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: SOIL_CHANGER
+    name: "&2&l改良土壤"
+    lore:
+      - "&a放置一个土质改良机"
+      - "&a或许在自动化远古的遗物用的上..."
+  frame_type: TASK
+  name: "&2&l[改良土壤]"
+  criteria:
+   SOIL_CHANGER:
+      name: "放置土质改良机"
+      type: place
+      amount: 1
+      item:
+        type: SOIL_CHANGER
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_mdlzd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: ZOT_INGOT
+    name: "&b&l融合末地粒子"
+    lore:
+      - "&a获得一个末地粒子锭"
+  frame_type: TASK
+  name: "&b&l[融合末地粒子]"
+  criteria:
+   ZOT_INGOT:
+      name: "获得末地粒子锭"
+      type: inventory
+      amount: 1
+      item:
+        type: ZOT_INGOT
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_ddnmgzt:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_NAMI_CRAFTING_TABLE
+    name: "&5&l纳米小子"
+    lore:
+      - "&a放置一个电动纳米工作台"
+      - "&a或许在自动化末地粒子锭用的上..."
+  frame_type: TASK
+  name: "&5&l[纳米小子]"
+  criteria:
+   HAIMAN_NAMI_CRAFTING_TABLE:
+      name: "放置电动纳米工作台"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_NAMI_CRAFTING_TABLE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_lzzsj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: LIZI_ZENGSHENG
+    name: "&a&l主世界生产粒子"
+    lore:
+      - "&a放置一个粒子增生机"
+  frame_type: TASK
+  name: "&a&l[主世界生产粒子]"
+  criteria:
+   LIZI_ZENGSHENG:
+      name: "放置粒子增生机"
+      type: place
+      amount: 1
+      item:
+        type: LIZI_ZENGSHENG
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_rzxty:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MAN_MADE_SUN
+    name: "&c&l利用核聚变发电"
+    lore:
+      - "&a吼，托卡马克装置，利用核聚变发电"
+  frame_type: CHALLENGE
+  name: "&c&l[利用核聚变发电]"
+  criteria:
+   MAN_MADE_SUN:
+      name: "放置人造小太阳"
+      type: place
+      amount: 1
+      item:
+        type: MAN_MADE_SUN
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_rzyhx:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MAN_MADE_GALAXY
+    name: "&d&l凝聚银河系的能量"
+    lore:
+      - "&a当一个银河系的能量被集中于此..."
+  frame_type: CHALLENGE
+  name: "&d&l[凝聚银河系的能量]"
+  criteria:
+   MAN_MADE_GALAXY:
+      name: "放置人造银河系"
+      type: place
+      amount: 1
+      item:
+        type: MAN_MADE_GALAXY
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_rzhd:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MAN_MADE_BLACK_HOLE
+    name: "&8&l掌控黑洞的能量"
+    lore:
+      - "&a黑洞...要来了..."
+  frame_type: CHALLENGE
+  name: "&8&l[掌控黑洞的能量]"
+  criteria:
+   MAN_MADE_BLACK_HOLE:
+      name: "放置人造黑洞"
+      type: place
+      amount: 1
+      item:
+        type: MAN_MADE_BLACK_HOLE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_rzyz:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MAN_MADE_UNIVERSE
+    name: "&7&l宇&8&l宙&7&l唯&8&l吾&7&l独&8&l尊"
+    lore:
+      - "&a它所散发出的能量...溢满了整个宇宙..."
+  frame_type: CHALLENGE
+  name: "&7&l[&7&l宇&8&l宙&7&l唯&8&l吾&7&l独&8&l尊]"
+  criteria:
+   MAN_MADE_UNIVERSE:
+      name: "放置人造宇宙"
+      type: place
+      amount: 1
+      item:
+        type: MAN_MADE_UNIVERSE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_ntyz:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: MAN_MADE_UNIVERSE_PLUS
+    name: "&4&l宇宙尊者"
+    lore:
+      - "&a最终，人造宇宙成为了现实..."
+  frame_type: CHALLENGE
+  name: "&4&l[宇宙尊者]"
+  criteria:
+   MAN_MADE_UNIVERSE_PLUS:
+      name: "放置拟态宇宙"
+      type: place
+      amount: 1
+      item:
+        type: MAN_MADE_UNIVERSE_PLUS
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_nysbfy:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_SFBOOK_MACHINE_1
+    name: "&a&l无数的粘液书向你涌来"
+    lore:
+      - "&a放置粘液书爆发仪 - I"
+      - "&a总算能自动化粘液科技书皮了"
+  frame_type: TASK
+  name: "&a&l[无数的粘液书向你涌来]"
+  criteria:
+   HAIMAN_SFBOOK_MACHINE_1:
+      name: "放置粘液书爆发仪 - I"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_SFBOOK_MACHINE_1
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_uuwzytj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_UU_MACHINE
+    name: "&5&l启动UU合成机"
+    lore:
+      - "&a放置一台UU物资一体机"
+      - "&a这么多的UU怎么用的完？"
+  frame_type: TASK
+  name: "&5&l[启动UU合成机]"
+  criteria:
+   HAIMAN_UU_MACHINE:
+      name: "放置UU物资一体机"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_UU_MACHINE
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_dgsjyjh:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_LIGHT_UPDATER
+    name: "&e&l制造光源方块"
+    lore:
+      - "&a获得电光升级机和电光聚合机"
+      - "&a或许你在自动化神权核心用的上..."
+  frame_type: TASK
+  name: "&e&l[制造光源方块]"
+  criteria:
+   HAIMAN_LIGHT_UPDATER:
+      name: "获得电光升级机"
+      type: inventory
+      amount: 1
+      item:
+        type: HAIMAN_LIGHT_UPDATER
+   HAIMAN_LIGHT_PRODUCER:
+      name: "获得电光聚合机"
+      type: inventory
+      amount: 1
+      item:
+        type: HAIMAN_LIGHT_PRODUCER
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_ybfy:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_U_GENERATOR
+    name: "&a&l无尽的铀向你涌来"
+    lore:
+      - "&a放置一台铀爆发仪"
+      - "&a用不完的铀！"
+  frame_type: TASK
+  name: "&a&l[无尽的铀向你涌来]"
+  criteria:
+   HAIMAN_U_GENERATOR:
+      name: "放置UU物资一体机"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_U_GENERATOR
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_mcswpyx:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: SWPY_BOSS
+    name: "&5&l人工制造原版&4&lBOSS"
+    lore:
+      - "&a放置一台BOSS生物培育箱"
+      - "&a我闻到了一股不详的气息"
+  frame_type: CHALLENGE
+  name: "&5&l[&5&l人工制造原版&4&lBOSS&5&l]"
+  criteria:
+   SWPY_BOSS:
+      name: "放置[ver:BOSS]MC生物培育箱"
+      type: place
+      amount: 1
+      item:
+        type: SWPY_BOSS
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_dctbfy:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: ELECTRO_MAGNET_INTEGRATED_MACHINE_3
+    name: "&b&l终极产线的核心"
+    lore:
+      - "&a放置一台电磁铁爆发仪 - III"
+      - "&a无穷无尽的电磁铁"
+  frame_type: CHALLENGE
+  name: "&b&l[终极产线的核心]"
+  criteria:
+   ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
+      name: "放置电磁铁爆发仪 - III"
+      type: place
+      amount: 1
+      item:
+        type: ELECTRO_MAGNET_INTEGRATED_MACHINE_3
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_qhytj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3
+    name: "&a&l无穷无尽的强化合金"
+    lore:
+      - "&a放置一台强合一体机 - III"
+      - "&a用不完，根本用不完..."
+  frame_type: CHALLENGE
+  name: "&a&l[无穷无尽的强化合金]"
+  criteria:
+   HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
+      name: "放置强合一体机 - III"
+      type: place
+      amount: 1
+      item:
+        type: HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3
+  rewards:
+    commands:
+      - "experience add %p% 15 points"
+
+slimefun4_hmkjy_wjdytj:
+  group: LengShang_MAIMAN
+  parent: slimefun4_basic_begin
+  display:
+    type: INFINITY_ALL_IN_ONE_MACHINE_3
+    name: "&9&l海曼的终极目标"
+    lore:
+      - "&a放置一台无尽锭一体机 - III"
+      - "&a最初的梦想就是做出无尽一体3..."
+  frame_type: CHALLENGE
+  name: "&9&l[海曼的终极目标]"
+  criteria:
+   INFINITY_ALL_IN_ONE_MACHINE_3:
+      name: "放置无尽锭一体机 - III"
+      type: place
+      amount: 1
+      item:
+        type: INFINITY_ALL_IN_ONE_MACHINE_3
+  rewards:
+    commands:
+      - "experience add %p% 15 points"

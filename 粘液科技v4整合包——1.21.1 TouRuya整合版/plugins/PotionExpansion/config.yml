@@ -1,0 +1,7 @@
+options:
+  auto-update: true
+potions-sight:
+  # Duration of potion (in seconds).
+  duration: 120
+  # Radius of detecting ores (in blocks).
+  radius: 10
